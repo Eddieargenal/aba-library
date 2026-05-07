@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="vf:page-type" content="category;download" />
+        <title>[pdf]</title>
+        <style type="text/css">
+          @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&amp;amp;family=Roboto:wght@400;700&amp;amp;display=swap");
+          body {
+            font-family: "Roboto", sans-serif;
+            background: #DDE8F0;
+            margin: 0;
+          }
+          .undrr-interstitial--inner-content {
+            background: #fff;
+            padding: 2rem 1.5rem 1rem;
+            max-width: 900px;
+            margin: 2rem auto;
+          }
+          h1 {
+            color: #004f91;
+            font-size: 0.9rem;
+            padding: 0;
+            margin: 0;
+          }
+          h2 {
+            padding-top: 0;
+            margin-top: 0.5rem;
+          }
+          code {
+            font-family: "Roboto Mono", monospace;
+          }
+          pre {
+            margin: 0;
+            padding: 0.5rem 1rem;
+            background: #eee;
+            display: inline-block;
+          }
+          hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 2rem 0 .5rem;
+          }
+          .undrr-logo {
+            background: url(https://www.undrr.org/sites/default/files/2023-04/undrr-logo-blue.svg)
+              no-repeat left center;
+            max-width: 350px;
+            min-width: 200px;
+            min-height: 80px;
+          }
+          /* Copied from production CSS */
+          header .header--decoration {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: stretch;
+            -moz-align-items: stretch;
+            -ms-align-items: stretch;
+            align-items: stretch;
+            -webkit-align-content: flex-start;
+            -moz-align-content: flex-start;
+            -ms-align-content: flex-start;
+            align-content: flex-start;
+            -webkit-justify-content: space-between;
+            -moz-justify-content: space-between;
+            -ms-justify-content: space-between;
+            justify-content: space-between;
+            -ms-flex-pack: space-between;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+          }
+          header .header--decoration-garnet,
+          header .header--decoration-purple,
+          header .header--decoration-orange,
+          header .header--decoration-turquoise {
+            width: 25%;
+            height: 7px;
+            display: inline-block;
+          }
+          header .header--decoration-orange {
+            background: #eb752a;
+          }
+          header .header--decoration-garnet {
+            background: #c1092d;
+          }
+          header .header--decoration-purple {
+            background: #962987;
+          }
+          header .header--decoration-turquoise {
+            background: #00afae;
+          }
+          p { margin: 0; }
+        </style>
+      </head>
+      <body>
+        <script type="text/javascript">
+          function getFilenameFromUrl(url) {
+            try {
+              const parsedUrl = new URL(url);
+              const pathname = parsedUrl.pathname;
+              const filename = pathname.split('/').pop();
+              return filename;
+            } catch (error) {
+              console.error('Error parsing URL:', error);
+              return null;
+            }
+          }
+
+          var redirect_url = document.location.toString();
+          redirect_url += "?startDownload=true";
+
+          var pdf_filename = getFilenameFromUrl(redirect_url);
+          if (pdf_filename == "" || pdf_filename == "download.html") {
+            redirect_url = "/404-pdf-download";
+          }
+
+          //set the html meta title
+          document.title = '[pdf] ' + pdf_filename;
+
+          var meta = document.createElement('meta');
+          meta.httpEquiv = "refresh";
+          meta.content = "3; url=" + redirect_url;
+          document.getElementsByTagName('head')[0].appendChild(meta);
+        </script>
+        <header id="header">
+          <div class="header--decoration selectionShareable">
+            <div class="header--decoration-garnet selectionShareable">&nbsp;</div><div class="header--decoration-purple selectionShareable">&nbsp;</div><div class="header--decoration-orange selectionShareable">&nbsp;</div><div class="header--decoration-turquoise selectionShareable">&nbsp;</div></div>
+          </header>
+
+            <article class="undrr-interstitial--inner-content">
+              <h1>Document download</h1>
+              <h2>Your download will begin automatically.</h2>
+              <p>If the download does not begin, <a class="download-direct-link" href="?startDownload=true">please click here to download directly</a>.</p>
+              <hr>
+              <p><small>This website is operated by</small></p>
+              <div class="undrr-logo">&nbsp;</div>
+          </article>
+          <script type="text/javascript" src="https://assets.undrr.org/static/analytics/v1.0.0/google_analytics_enhancements.js?update=20250704" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"1e407574994e4cc99456b2f80bbcb0c9","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
