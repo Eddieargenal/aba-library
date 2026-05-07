@@ -158,3 +158,30 @@ Status: source page fully ingested. Concept/lifecycle pages not yet updated from
 - schema/ingest-rules.md step 5 and status definitions updated to specify .md explicitly
 - CLAUDE.md: file format rule added at top of operating instructions
 - wiki/01-sources/...: extracted_text pointer updated to .md path
+
+---
+
+## [2026-05-07] ingest | Parker & Maynard 2015 — downstream pages updated (ingest steps 7-13)
+
+Completed remaining ingest steps for Parker & Maynard (2015):
+
+**Concept pages updated (draft → active):**
+- wiki/02-concepts/area-based-approach — full evidence base, practical implications, ABA vs alternatives, 8 good-practice principles, common mistakes, known risks
+- wiki/02-concepts/geographic-targeting — boundary types (administrative/physical), scale, field data requirements, common mistakes
+- wiki/02-concepts/participation-in-urban-response — community-driven vs. informed distinction, PASSA reference, timeline requirements, inclusion requirements
+- wiki/02-concepts/urban-displacement-vulnerability — IDP/host community inclusive targeting evidence (NRC Baghdad)
+- wiki/02-concepts/stakeholder-power-mapping — multi-level facilitation model, humanitarian facilitator role
+
+**Lifecycle pages updated (draft → active):**
+- wiki/06-lifecycle/00-appropriateness-decision — key decisions, required evidence table, minimum outputs, quality checks, 5 failure modes
+
+**Risk pages updated (stub → active):**
+- wiki/12-risks-contradictions/common-aba-misuse — 6 patterns with detection and corrective action
+- wiki/12-risks-contradictions/protection-and-do-no-harm-risks — 6 risk categories with evidence, populations, warnings, mitigation, halt criteria
+
+**Index updated:** Parker & Maynard 2015 marked ✅ INGESTED
+
+Remaining not yet updated from this source (pending other source ingests):
+- wiki/02-concepts/multi-sector-response-analysis (Parker & Maynard is secondary source here)
+- wiki/03-frameworks/ pages (framework stubs not yet populated)
+- wiki/05-field-instruments/ (no new instruments implied by this source beyond existing Tool #01 set)
