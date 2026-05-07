@@ -27,6 +27,8 @@ After every ingest: add new pages, update summaries that changed. After every li
 
 ## Operations (`workflows/`)
 
+Use [[../indexes/workflows]] if you need a workflow router before selecting a specific runbook.
+
 | Page | Summary |
 |------|---------|
 | [[../workflows/ingest]] | Add a source document and update the wiki |

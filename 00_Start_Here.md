@@ -33,11 +33,15 @@ See [[memory/vault-compliance-rules]] for full rules.
 | [[wiki/index]] | Master catalog — find any wiki page fast |
 | [[sources/README]] | Raw source documents — read-only layer |
 | [[workflows/]] | Step-by-step task guides |
+| [[indexes/workflows]] | Workflow router (choose the right workflow first) |
 | [[prompts/]] | Prompt templates by tier |
 | [[tools/]] | Tool reference cards |
 | [[agents/]] | Agent profiles (placeholders) |
+| [[agents/README]] | Agent folder index and usage notes |
 | [[indexes/]] | Finding the right workflow/prompt/tool |
 | [[archive/]] | Historical records (empty) |
+| [[archive/README]] | Archive folder index and retention rules |
+| [[architecture]] | Visual architecture and navigation diagrams |
 
 ## Claim Types
 
@@ -63,7 +67,7 @@ See [[memory/vault-compliance-rules]] for full rules.
 1. Read [[SCHEMA]] — understand the vault structure and operations
 2. Read [[memory/context]] — compressed current state, load first
 3. Read [[wiki/index]] — find relevant wiki pages for the task
-4. Open `indexes/workflows.md` → find the right workflow
+4. Open [[indexes/workflows]] → find the right workflow
 5. Follow steps → use linked prompts
 6. Log to `memory/runtime/logs/log.md`
 7. Mark claims with correct type
