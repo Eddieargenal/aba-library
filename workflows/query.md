@@ -59,7 +59,8 @@ If the synthesized answer contains knowledge worth retaining — and it is not a
 
 ## Notes
 
-- The wiki is for navigation and synthesis. For accuracy-critical claims, verify against the raw source in `sources/`.
+- The wiki is for navigation and synthesis. For accuracy-critical claims in the main vault, verify against the raw source in `sources/`.
+- **Exception — sub-wikis with a synthesis layer:** If the query routes into a sub-wiki that maintains its own `wiki/` synthesis (e.g. `_system/urban-drr-aba-wiki/`), that wiki's `wiki/` pages are the answer source. Do not go to that wiki's `raw/` directory to verify. The sub-wiki's index.md will say this explicitly.
 - If two wiki pages contradict each other, do not pick one — log the contradiction to `memory/categories/unresolved.md` and surface it in your answer.
 - Do not update wiki pages during a query unless you are explicitly filing a new answer (step 4). Keep query and ingest separate.
 
