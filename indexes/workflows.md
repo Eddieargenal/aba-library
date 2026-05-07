@@ -28,3 +28,9 @@ Open a workflow only when routed here from [[../00_Start_Here]].
 - Open only the workflow relevant to the current task.
 - If a workflow seems wrong, return here and re-route.
 - If no workflow fits, escalate to plan mode and log the gap.
+
+## Related
+
+- [[../wiki/index]] — master wiki catalog
+- [[../indexes/prompts]] — prompt router
+- [[../indexes/tools]] — tool router
