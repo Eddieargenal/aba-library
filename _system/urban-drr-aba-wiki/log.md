@@ -23,3 +23,103 @@ Append-only. Do not edit existing entries.
 - Git status: vault is existing repo on main branch
 - Note: PDF text extraction skipped — mark all raw/extracted/ as TODO
 - Open issues: 2020-iasc PDF is empty; extraction needed for all 21 PDFs
+
+---
+
+## [2026-05-07] content | Source pages created (WU-2)
+
+- Created 18 source pages in wiki/01-sources/ — one per document from source_metadata.csv
+- Flagged 2020-iasc source page status as `not-started` (PDF is 0 bytes)
+- Source pages include: title, year, authors, PDF path, source URL, lifecycle stages covered, key themes, status
+
+---
+
+## [2026-05-07] content | Concept pages and framework pages created (WU-3)
+
+- Created 18 concept pages in wiki/02-concepts/ — stub format with purpose and TODO[agent] markers
+- Created 9 framework pages in wiki/03-frameworks/ — stub format
+- Concepts include: area-based-approach, resilience, urban-systems-thinking, hevc, service-functionality, etc.
+- Frameworks include: ABA decision framework, area selection, coordination, integrated strategy, etc.
+
+---
+
+## [2026-05-07] content | Tool #01 fully populated (WU-3)
+
+- Created wiki/04-tools/01-aba-feasibility-and-necessity-assessment-tool.md — FULLY POPULATED
+- 9 modules: context-scoping, preliminary-risk-profile, population-analysis, service-systems-mapping, coordination-landscape, community-engagement-readiness, feasibility-stress-test, synthesis-scoring, decision-recommendation
+- Scoring model: 0–2 scale per module, total 0–18, decision thresholds defined
+- 12 output documents defined
+- Field instruments: all 12 instruments for Tool #01 fully populated (separate pages)
+- Instruments: rapid-area-observation-form, 6x KII guides, hevc-matrix, service-functionality-mapping-sheet, stakeholder-5w-mapping-form, household-mini-survey, operational-feasibility-checklist
+
+---
+
+## [2026-05-07] content | Remaining tool stubs, sector, coordination pages created (WU-4)
+
+- Created 16 tool stubs: wiki/04-tools/02 through wiki/04-tools/17
+- Created 2 additional field instrument stubs: participatory-mapping-guide, duplication-gap-analysis-matrix
+- Created 11 lifecycle pages in wiki/06-lifecycle/
+- Created 11 sector application pages in wiki/07-sector-applications/
+- Created 10 coordination pages in wiki/08-coordination/
+- All pages include: frontmatter, purpose section, decision questions/core questions, TODO[agent] markers for all content sections, source foundation links
+
+---
+
+## [2026-05-07] content | MEL, transition, and risks pages created (WU-4 finalization)
+
+- Created 6 MEL pages in wiki/09-monitoring-learning/: area-based-mel-framework, community-resilience-indicators, area-based-reassessment-tool, outcome-harvesting-case-study-template, sendai-municipal-drr-progress-review, adaptive-management-triggers
+- Created 4 transition/scale pages in wiki/10-transition-scale/: handover-readiness-checklist, municipal-integration-plan, replication-scale-up-learning-note, build-back-better-recovery-alignment-tool
+- Created 7 risks/contradictions pages in wiki/12-risks-contradictions/: known-contradictions, weak-evidence-claims, unresolved-questions, stale-guidance-watchlist, common-aba-misuse, protection-and-do-no-harm-risks, evidence-gaps-to-fill
+- evidence-gaps-to-fill.md includes CRITICAL entry for 0-byte 2020-iasc PDF and all duplicate source pairs
+
+---
+
+## [2026-05-07] quality | Lint report generated
+
+- Created outputs/wiki-lint-report.md — manual lint pass
+- 1 CRITICAL: 0-byte PDF (2020-iasc)
+- 8 WARNINGs: PDF extraction not done; agent completion pending for WU-2/3; stubs for most content
+- 14 INFOs: Stub pages with all sections as TODO (expected at this scope)
+- 80% structural pass estimated
+
+---
+
+## [2026-05-07] navigation | index.md updated to comprehensive catalog
+
+- Updated index.md with full navigable catalog of all ~176 pages
+- Sections: overview, sources, concepts, frameworks, tools, field instruments, lifecycle, sectors, coordination, MEL, transition, risks, agent prompts, schema
+- Critical flags section added for agents: 0-byte PDF, no extraction, stub pages, contradictions, tool quality
+
+---
+
+## [2026-05-07] summary | Wiki v0.1.0 creation complete
+
+Total pages created: ~176
+- 4 overview pages
+- 18 source pages
+- 18 concept pages (stubs)
+- 9 framework pages (stubs)
+- 17 tool pages (Tool #01 fully populated; 02–17 stubs)
+- 18 field instrument pages (Tool #01 instruments fully populated; others stubs)
+- 11 lifecycle pages (stubs)
+- 21 sector application pages (11 core + 10 additional from parallel agents)
+- 19 coordination pages (10 core + 9 additional from parallel agents)
+- 11 MEL pages (6 core + 5 additional from parallel agents)
+- 8 transition pages (4 core + 4 additional from parallel agents)
+- 13 risks/contradictions pages (7 core + 6 additional from parallel agents)
+- 9 agent prompt pages (fully operational)
+- 8 schema files
+- 5 root files (README, CLAUDE, AGENTS, index, log)
+
+Known gaps:
+- 2020-iasc PDF is 0 bytes (CRITICAL)
+- PDF text extraction not performed for any source
+- All source pages remain status: not-started pending extraction
+- Tools #02–17 are stubs pending further population
+- scripts/ are placeholders — lint_wiki.py, extract_text.py, rebuild_index.py not built
+
+Next steps:
+1. Replace 0-byte IASC 2020 PDF
+2. Build and run extraction script
+3. Populate priority tools (#02–05 most referenced)
+4. Run automated lint after scripts built
