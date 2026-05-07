@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: active
 maturity: contested
 source_count: 3
 related_tools:
@@ -13,31 +13,122 @@ updated: 2026-05-07
 ---
 
 # Definition
+
 The meaningful involvement of affected urban communities — including women, youth, elderly, disabled persons, and marginalized groups — in needs assessment, priority-setting, program design, monitoring, and accountability throughout the program cycle.
 
-# Why it matters for urban DRR and response
-Participation improves program relevance, strengthens community agency, and is required by core humanitarian principles — but emergency timelines often create tension with genuine participation, leading to tokenistic consultation that does not change program design.
+---
 
-# Evidence base
-TODO[agent]: Review source pages and extract evidence base. Key sources: [[wiki/01-sources/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]], [[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]], [[wiki/01-sources/2019-alnap-global-practice-review-urban-humanitarian-response]]
+# Why It Matters for Urban DRR and Response
 
-# Practical implications for field teams
-TODO[agent]: Extract practical guidance from source documents.
+Participation improves program relevance, strengthens community agency, and is required by core humanitarian principles. In urban contexts, communities are highly diverse and often already self-organising — programmes that fail to engage them meaningfully produce lower-quality outcomes and miss existing local capacities.
 
-# Data required to assess this concept
-TODO[agent]: Define data requirements after source review.
+However, emergency timelines often create tension with genuine participation, leading to tokenistic consultation that does not change program design. This is the central contested aspect of this concept.
 
-# Common mistakes
-TODO[agent]: Identify common errors from source documents.
+---
 
-# Links to tools
-- [[wiki/04-tools/tool-07-community-engagement-platform-tool]]
-- [[wiki/04-tools/tool-01-aba-feasibility-and-necessity-assessment]]
+# Evidence Base
 
-# Links to source pages
+## Participation as a Defining ABA Criterion (Parker & Maynard 2015, p.10)
+
+> "Area-based approaches place a strong emphasis on community and wider stakeholder engagement in recognition that the solution and the process leading to it require not only formal inclusion, but also the active participation of all relevant stakeholders in the area."
+
+Key points from Parker & Maynard:
+- USAID/OFDA: "success is dependent on the active involvement of community stakeholders in a highly consultative planning process"
+- Lippman & Malik (cited): the process should be "community-driven" — communities driving their own development, not merely responding to agency-defined processes
+- Local authority engagement is also a participation requirement, not optional: "support surged to local municipalities, local partners and civil society, complementing existing governance systems"
+
+## Community-Driven vs. Community-Informed (Parker & Maynard 2015, p.19)
+
+Parker & Maynard distinguish two types of engagement found in the case studies:
+- **Mechanisms to keep residents informed** — community is told about decisions
+- **Planning and strategy sessions that engage stakeholders in collective decision-making** — community shapes decisions
+
+The paper finds it is "typically the case that local residents contribute to the processes established by humanitarian agencies, rather than humanitarian agencies supporting local residents to drive their own process" — and flags this as a gap requiring further research.
+
+## Case Study Examples (Parker & Maynard 2015)
+
+- **BRC Haiti (Delmas 19)**: used PASSA (Participatory Approach for Safe Shelter Awareness) — a structured tool taking communities through in-depth participatory hazard and vulnerability identification. Required "more time to explain that participatory tools only informed planning, and expectations for concrete results needed to be managed."
+- **KASS Kabul**: supported existing Community Councils; where none existed, established new ones through election. Local labourers employed; contracts to local suppliers.
+- **NRC Baghdad**: established settlement committees; built capacity of representatives to advocate professionally to district councils and service providers.
+
+## Participation and Time (Parker & Maynard 2015, p.16)
+
+Participatory processes require sustained time:
+- Trust-building may require 12 months before programme activities can begin (NRC Baghdad example)
+- 18-month humanitarian funding cycles are often incompatible with genuine participatory ABA
+- Solution: start with small, visible quick-impact projects to build trust and demonstrate results early before launching longer participatory planning processes
+
+## Preventing Consultation Fatigue (Parker & Maynard 2015, p.14)
+
+ABA reduces consultation fatigue by coordinating community engagement across sectors — vs. each sector consulting the community separately, "which can take up a considerable amount of time particularly for community leaders and perhaps fuel cynicism about relief agencies."
+
+---
+
+# Practical Implications for Field Teams
+
+## Distinguishing Real Participation from Consultation Theatre
+
+| Real participation | Consultation only |
+|---|---|
+| Community input changes programme design | Community is told what will happen |
+| Feedback mechanisms affect priorities | Feedback is recorded but not acted on |
+| Community structures have decision-making role | Community structures are consulted but have no mandate |
+| Participation continues through monitoring | One-off consultation at design stage |
+
+## Inclusion Requirements
+
+Participation mechanisms must actively include:
+- Women (not just male community leaders)
+- Youth and elderly
+- Persons with disabilities
+- Tenants and renters (often excluded from homeowner-dominated structures)
+- Displaced and host populations (both, not just one)
+- Minority groups and marginalized sub-populations
+
+## Timeline Expectations
+
+From Parker & Maynard: do not promise community-driven design in an 18-month programme unless the scope is explicitly limited to what is achievable in that timeframe. Be transparent about what participation will and will not influence.
+
+---
+
+# Data Required to Assess This Concept in the Field
+
+| Data point | Purpose | Instrument |
+|---|---|---|
+| Existing community structures | Identify platforms to work through | [[wiki/05-field-instruments/kii-guide-community-leaders]] |
+| Participation history with humanitarian agencies | Assess risk of consultation fatigue | [[wiki/05-field-instruments/kii-guide-community-leaders]] |
+| Inclusion of marginalized groups in existing structures | Identify gaps requiring supplementary mechanisms | [[wiki/05-field-instruments/kii-guide-community-leaders]] |
+| Timeline and access constraints | Assess feasibility of genuine participation | [[wiki/05-field-instruments/participation-feasibility-checklist]] |
+
+→ Full feasibility assessment: Tool #01 Module 7 in [[wiki/04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
+
+---
+
+# Common Mistakes
+
+1. **One community meeting = participation** — A single consultation before programme launch does not meet the ABA participation criterion
+2. **Informing not deciding** — Presenting final plans for community feedback is not participatory design
+3. **Engaging only accessible leaders** — Working only with formal leaders excludes women, youth, renters, IDPs, and minorities who may have different priorities
+4. **Overpromising** — Committing to community-driven design in a context where funding, access, or timeline make this impossible erodes trust
+5. **Participation without protection** — Mapping vulnerable groups or creating visible beneficiary lists without data protection creates exposure risks
+
+---
+
+# Open Questions
+
+- How should participation be adapted in acute emergency phases where timelines prevent genuine co-design?
+- What is the minimum viable participation standard for a programme to legitimately claim ABA status?
+- How should humanitarian agencies support community-driven processes rather than agency-designed processes?
+
+→ Contradiction: speed vs. thoroughness in [[wiki/12-risks-contradictions/known-contradictions]]
+
+---
+
+# Links to Tools
+- [[wiki/04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
+- [[wiki/04-tools/07-community-engagement-platform-tool]]
+
+# Links to Source Pages
+- [[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]] ✅ ingested
 - [[wiki/01-sources/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
-- [[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]]
 - [[wiki/01-sources/2019-alnap-global-practice-review-urban-humanitarian-response]]
-
-# Open questions
-TODO[agent]: Identify open questions after source review.

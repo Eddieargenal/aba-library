@@ -22,7 +22,7 @@ Primary literature underpinning all wiki content. Each page links to its raw PDF
 - [[wiki/01-sources/2007-twigg-characteristics-disaster-resilient-community-framework]]
 - [[wiki/01-sources/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy]]
 - [[wiki/01-sources/2013-worldbank-gfdrr-building-urban-resilience-principles-tools-practice-handbook]]
-- [[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]]
+- [[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]] ✅ INGESTED — text extracted, source page fully populated, concept/lifecycle/risk pages updated
 - [[wiki/01-sources/2015-undrr-sendai-framework-drr-2015-2030-framework]]
 - [[wiki/01-sources/2016-campbell-stepping-back-understanding-cities-systems-guide]]
 - [[wiki/01-sources/2017-ifrc-building-urban-resilience-guide]]
