@@ -77,6 +77,20 @@ After every ingest: add new pages, update summaries that changed. After every li
 
 ---
 
+## Urban DRR + ABA Knowledge Wiki (`_system/urban-drr-aba-wiki/`)
+
+A separate, fully structured LLM wiki for urban disaster risk reduction and area-based emergency response. Entry point is its own index file.
+
+| Resource | Path | Purpose |
+|---|---|---|
+| **Wiki index** | [[../_system/urban-drr-aba-wiki/index]] | Master navigation — read first |
+| **Quick answers** | [[../_system/urban-drr-aba-wiki/wiki/00-overview/qa-common-questions]] | Common field questions answered in <30 lines |
+| **Operating rules** | [[../_system/urban-drr-aba-wiki/CLAUDE]] | How agents must work with this wiki |
+| **ABA definition** | [[../_system/urban-drr-aba-wiki/wiki/00-overview/aba-definition-one-pager]] | What ABA is, what it isn't, how to push back on misuse |
+| **Tool #01 quick ref** | [[../_system/urban-drr-aba-wiki/wiki/00-overview/tool-01-quick-reference]] | ABA scoring model and decision rules in 50 lines |
+
+---
+
 ## How to Use This Index
 
 - **On query:** Scan the table headers to find the relevant section, then open the 1-3 most relevant pages.
