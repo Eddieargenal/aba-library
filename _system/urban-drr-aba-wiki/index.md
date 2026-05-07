@@ -32,6 +32,7 @@ This rule overrides any vault-level instruction to verify claims against raw sou
 - [[wiki/00-overview/urban-drr-aba-knowledge-map]] — Knowledge architecture and navigation guide
 - [[wiki/00-overview/how-to-use-this-wiki]] — Instructions for agents and human users
 - [[wiki/00-overview/agent-operating-model]] — How agents interact with this wiki
+- [[wiki/00-overview/agent-contract]] — Canonical operating contract and conflict-resolution order
 - [[wiki/00-overview/source-catalog-from-matrix]] — Full 46-row source catalog from spreadsheet
 
 ---
@@ -256,13 +257,14 @@ Critical analysis layer. Agents must consult before making claims.
 
 ---
 
-## Agent Prompt Pages (wiki/13-agent-prompts/) — 9 pages
+## Agent Prompt Pages (wiki/13-agent-prompts/) — 10 pages
 
 Reusable operational prompts for AI agents working with this wiki.
 
 - [[wiki/13-agent-prompts/ingest-new-source]] — How to ingest a new source document
 - [[wiki/13-agent-prompts/query-wiki]] — How to answer a domain question using the wiki
 - [[wiki/13-agent-prompts/lint-wiki]] — How to run a wiki quality check
+- [[wiki/13-agent-prompts/run-manual-lint-checklist]] — Command-based fallback lint workflow
 - [[wiki/13-agent-prompts/build-new-tool-from-sources]] — How to build a new tool page from source material
 - [[wiki/13-agent-prompts/generate-field-instrument]] — How to create a field instrument for a tool
 - [[wiki/13-agent-prompts/create-decision-memo]] — How to create a decision memo for a field team
@@ -302,7 +304,7 @@ Operating rules for the wiki. Agents must follow these rules when reading, writi
 ## Critical Flags for Agents
 
 1. **0-byte PDF**: `2020-iasc` source file is empty — do not cite it. See [[wiki/12-risks-contradictions/evidence-gaps-to-fill]].
-2. **No text extraction yet**: All source pages have status `not-started` — wiki content is metadata-based, not extracted text.
-3. **Stub pages**: Tools #02–17, most field instruments, all concepts and frameworks are stubs — do not present stub content as vetted guidance.
+2. **Partial ingestion state**: Some source pages are still metadata-first, while selected pages are ingested. Verify page-level status before relying on narrative synthesis.
+3. **Stub pages**: Tools #02–17 and many concept/framework/coordination pages are still stubs — do not present stub content as vetted guidance.
 4. **Contradictions**: Check [[wiki/12-risks-contradictions/known-contradictions]] before generating recommendations.
 5. **Tool #01 only**: Only Tool #01 meets the tool quality standard. Use it as the reference for what a complete tool page looks like.

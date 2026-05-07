@@ -13,8 +13,9 @@ Periodically to check wiki quality.
 ## Steps
 1. Read schema/lint-rules.md for the full rule list
 2. For each rule, check the relevant pages
-3. Record findings in outputs/wiki-lint-report.md
-4. Append lint entry to log.md: ## [YYYY-MM-DD] lint | Wiki quality pass
+3. If automation scripts are unavailable, run [[wiki/13-agent-prompts/run-manual-lint-checklist]]
+4. Record findings in outputs/wiki-lint-report.md
+5. Append lint entry to log.md: ## [YYYY-MM-DD] lint | Wiki quality pass
 
 ## Checks to run
 1. Orphan pages (no inbound links)

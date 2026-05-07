@@ -209,3 +209,49 @@ Remaining not yet updated from this source (pending other source ingests):
 - workflows/query.md: sub-wiki exception added to the Notes section — when a sub-wiki maintains its own wiki/ synthesis layer, that wiki/ is the answer source.
 
 **Principle:** Rules only work if they're in the path agents actually walk. Schema files document; index.md enforces.
+
+---
+
+## [2026-05-07] governance | Agent contract + manual lint fallback hardening
+
+Implemented governance hardening to reduce instruction drift and improve practical enforceability:
+
+- Added canonical contract page: `wiki/00-overview/agent-contract.md`
+  - Defines rule precedence order
+  - Re-states hard layer discipline (`wiki/` answer layer, `raw/` ingest-only)
+  - Defines required behavior for incomplete pages and tool responses
+  - Defines prohibited behaviors
+- Fixed rule conflict in `wiki/13-agent-prompts/build-new-tool-from-sources.md`
+  - Removed instruction to read raw extracted text as part of tool authoring flow
+  - Added explicit alignment section referencing `CLAUDE.md` and `schema/query-rules.md`
+- Added executable fallback lint workflow: `wiki/13-agent-prompts/run-manual-lint-checklist.md`
+  - Command-based checks for stubs, missing scoring, missing data-quality checks, and coordination gap logic
+  - Includes closeout and logging steps
+- Updated navigation and entry points:
+  - `AGENTS.md` links to agent contract and manual lint checklist
+  - `wiki/13-agent-prompts/lint-wiki.md` references the manual checklist as fallback
+  - `index.md` updated with contract link and new prompt (agent prompts count 9 → 10)
+  - `README.md` updated to include contract in quick navigation
+- Corrected stale framing in `index.md` critical flags:
+  - Replaced "all source pages not-started" with partial-ingestion wording
+  - Kept explicit warning that many tool/concept/framework pages are stubs
+
+---
+
+## [2026-05-07] lint | Manual lint checklist run
+
+Ran `wiki/13-agent-prompts/run-manual-lint-checklist` and refreshed `outputs/wiki-lint-report.md`.
+
+Key results:
+- Zero-byte source PDFs: 1 (`raw/pdf/2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf`)
+- Orphan pages: 32
+- Source pages not linked from concept/tool/lifecycle: 4
+- Tool pages with `field_instruments: []`: 14
+- Field instruments lacking explicit data-quality language: 1 (`duplication-gap-analysis-matrix`)
+- Coordination pages lacking explicit duplication/gap language: 10
+- Draft pages: 111
+- Total TODO markers: 794
+
+Notes:
+- Governance updates are in effect (canonical agent contract + manual lint fallback prompt).
+- Tool scoring keyword presence check returned no missing files, but most tools remain stubs with TODO scoring placeholders.

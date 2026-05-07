@@ -13,9 +13,11 @@ When creating a new tool page from one or more source documents.
 ## Steps
 1. Identify the decision question the tool must answer
 2. Identify the lifecycle stage
-3. Read all relevant source pages and raw extracted text
-4. Define 3-7 decision domains for the tool
-5. For each domain:
+3. Read all relevant `wiki/01-sources/` pages for source metadata and links.
+4. If source-derived synthesis is already present in concept/tool/lifecycle pages, use that synthesis as primary content.
+5. If required content is missing in synthesis pages, flag ingestion gap explicitly and stop short of inventing content.
+6. Define 3-7 decision domains for the tool
+7. For each domain:
    - Write the decision question
    - Specify evidence required
    - Define field data points
@@ -28,14 +30,19 @@ When creating a new tool page from one or more source documents.
    - Identify data quality checks
    - Identify risks and safeguards
    - Link to source foundation
-6. Define overall scoring model (weights per domain, score ranges, decision categories)
-7. Define 12 minimum outputs
-8. Create the tool page using frontmatter-schema.md
-9. Create or link required field instruments
-10. Update index.md
-11. Update relevant lifecycle page
-12. Update relevant concept pages
-13. Append to log.md
+8. Define overall scoring model (weights per domain, score ranges, decision categories)
+9. Define 12 minimum outputs
+10. Create the tool page using frontmatter-schema.md
+11. Create or link required field instruments
+12. Update index.md
+13. Update relevant lifecycle page
+14. Update relevant concept pages
+15. Append to log.md
+
+## Layer rule alignment
+- Do not use `raw/pdf/` or `raw/extracted/` as direct answer content.
+- If synthesis is incomplete, document the specific missing ingestion needed and mark affected sections with `TODO[agent]`.
+- Follow `CLAUDE.md` and `schema/query-rules.md` if any prompt text appears to conflict with layer rules.
 
 ## Quality check
 Before finalizing: verify tool passes schema/tool-quality-standard.md. If any decision question lacks evidence collection instructions, the tool is incomplete.

@@ -2,12 +2,14 @@
 type: lint-report
 created: 2026-05-07
 status: complete
+method: manual-checklist
 ---
 
 # Wiki Lint Report
 **Generated:** 2026-05-07  
-**Total pages scanned:** 176  
-**Wiki root:** `/Users/eddieargenal/Documents/obsidian-vault/_system/urban-drr-aba-wiki`
+**Mode:** Manual checklist (`wiki/13-agent-prompts/run-manual-lint-checklist`)  
+**Wiki root:** `/Users/eddieargenal/Documents/obsidian-vault/_system/urban-drr-aba-wiki`  
+**Total `wiki/*.md` pages scanned:** 181
 
 ---
 
@@ -15,29 +17,33 @@ status: complete
 
 | Issue type | Count |
 |---|---:|
-| Missing frontmatter | 0 |
-| No source_foundation field | 49 |
-| Tools with empty field_instruments | 14 |
 | Zero-byte source PDFs | 1 |
-| Pages with 5+ TODO-only sections | 37 |
-| Stubs needing population | 34 |
+| Orphan pages (no inbound links) | 32 |
+| Source pages not linked from concept/tool/lifecycle | 4 |
+| Tool pages with `field_instruments: []` | 14 |
+| Tool pages missing scoring keywords | 0 |
+| Field instruments lacking data quality keywords | 1 |
+| Coordination pages lacking duplication/gap keywords | 10 |
+| Pages with `status: draft` | 111 |
+| Total `TODO[agent]` markers | 794 |
+| Pages with 5+ `TODO[agent]` markers | 74 |
+| Draft pages that still contain TODO markers | 103 |
 
-**Overall wiki health:** Structure complete; source text extraction pending; tool stubs require population.
+**Overall wiki health:** Governance structure is strong and now more coherent (agent contract + manual lint fallback added), but content readiness remains low across most draft pages.
 
 ---
 
-## CRITICAL: Zero-byte source PDFs
+## Critical Findings
 
-These PDFs must be re-downloaded before content can be extracted:
-
-- `raw/pdf/2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf` — **0 bytes, empty file**
+1. **Zero-byte source PDF remains unresolved**
+- `raw/pdf/2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf`
+- Impact: blocks ingestion and citation of this source.
 
 ---
 
-## Tools with empty field_instruments field
+## High Findings
 
-These tools have `field_instruments: []` — instruments not yet linked:
-
+1. **14 tool pages still missing linked field instruments**
 - `wiki/04-tools/02-area-selection-matrix.md`
 - `wiki/04-tools/03-settlement-neighborhood-boundary-definition-tool.md`
 - `wiki/04-tools/04-urban-systems-diagnosis-tool.md`
@@ -53,124 +59,61 @@ These tools have `field_instruments: []` — instruments not yet linked:
 - `wiki/04-tools/16-area-based-mel-adaptation-framework.md`
 - `wiki/04-tools/17-handover-scale-up-checklist.md`
 
----
+2. **32 orphan pages**
+- Concentrated in additional sector/coordinator/MEL/transition/risk pages created by parallel agents.
+- These pages are not discoverable from the current navigation graph.
 
-## Pages with missing frontmatter
-
-- None — all pages have frontmatter ✅
-
----
-
-## Stubs requiring population (selected high-priority)
-
-The following pages have 5+ TODO sections and require agent population from source documents:
-
-### Tools (prioritized by lifecycle order)
-- tool: 02-area-selection-matrix.md (11 TODOs)
-- tool: 03-settlement-neighborhood-boundary-definition-tool.md (11 TODOs)
-- tool: 04-urban-systems-diagnosis-tool.md (11 TODOs)
-- tool: 05-hevc-risk-mapping-tool.md (10 TODOs)
-- tool: 06-stakeholder-coordination-mapping-tool.md (10 TODOs)
-- tool: 07-community-engagement-platform-tool.md (13 TODOs)
-- tool: 08-joint-risk-needs-prioritization-matrix.md (13 TODOs)
-- tool: 09-response-option-comparison-matrix.md (13 TODOs)
-- tool: 10-integrated-area-strategy-builder.md (13 TODOs)
-- tool: 11-sector-technical-design-checklist.md (13 TODOs)
-
-### Concepts (prioritized by cross-reference frequency)
-- concept: area-based-approach.md (5 TODOs)
-- concept: area-based-coordination.md (5 TODOs)
-- concept: build-back-better.md (5 TODOs)
-- concept: geographic-targeting.md (5 TODOs)
-- concept: hazard-exposure-vulnerability-capacity.md (5 TODOs)
-- concept: implementation-sequencing.md (5 TODOs)
-- concept: local-resource-leverage.md (5 TODOs)
-- concept: multi-sector-response-analysis.md (5 TODOs)
-- concept: municipal-risk-governance.md (5 TODOs)
-- concept: neighborhood-boundaries.md (5 TODOs)
+3. **10 coordination pages still lack explicit duplication/gap logic language**
+- `wiki/08-coordination/area-platform-setup.md`
+- `wiki/08-coordination/cluster-vs-area-coordination.md`
+- `wiki/08-coordination/cluster-sector-interface.md`
+- `wiki/08-coordination/coordination-architecture.md`
+- `wiki/08-coordination/coordination-data-sharing.md`
+- `wiki/08-coordination/referral-pathway-design.md`
+- `wiki/08-coordination/municipal-engagement.md`
+- `wiki/08-coordination/municipal-alignment.md`
+- `wiki/08-coordination/decision-log-template.md`
+- `wiki/08-coordination/referral-pathways.md`
 
 ---
 
-## Quality assessment: Tool #01
+## Medium Findings
 
-**Tool #01 (ABA Feasibility and Necessity Assessment):** PASSES quality standard  
-- ✅ 9 modules, all decision questions answered  
-- ✅ Evidence required defined per domain  
-- ✅ Field data points specified  
-- ✅ Collection methods specified  
-- ✅ Respondents/data sources specified  
-- ✅ Field instruments linked  
-- ✅ Analysis method per domain  
-- ✅ Scoring rule (0-4) per domain  
-- ✅ Decision rule per domain  
-- ✅ Risk flags per domain  
-- ✅ Source foundation per domain  
+1. **1 field instrument missing explicit data-quality language**
+- `wiki/05-field-instruments/duplication-gap-analysis-matrix.md`
 
-All other tools (02-17): **FAIL** — stubs only, do not use as operational guidance.
+2. **4 source pages not referenced from concept/tool/lifecycle pages**
+- `2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy`
+- `2019-alnap-barrio-mio-katye-neighbourhood-approach-cities-case-study`
+- `2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy`
+- `undated-stronger-cities-consortium-umvat-guidance-note`
 
 ---
 
-## Quality assessment: Field instruments
+## Informational Findings
 
-**Fully populated (16 instruments):** PASS — complete questions/fields, enumerator guidance, data quality checks, analysis use, risks/safeguards
+1. **Scoring keyword presence check passed for tools**
+- No tool page is missing scoring/threshold keywords.
+- Note: most stubs still contain TODO scoring placeholders and do not yet pass full quality review.
 
-| Instrument | Status |
-|---|---|
-| rapid-area-observation-form | ✅ PASS |
-| transect-walk-observation-form | ✅ PASS |
-| household-mini-survey | ✅ PASS |
-| kii-guide-municipality | ✅ PASS |
-| kii-guide-service-provider | ✅ PASS |
-| kii-guide-community-leaders | ✅ PASS |
-| kii-guide-ngos-cbos | ✅ PASS |
-| kii-guide-market-actors | ✅ PASS |
-| kii-guide-protection-actors | ✅ PASS |
-| service-functionality-mapping-sheet | ✅ PASS |
-| stakeholder-5w-mapping-form | ✅ PASS |
-| local-resource-inventory | ✅ PASS |
-| hazard-exposure-vulnerability-capacity-matrix | ✅ PASS |
-| participation-feasibility-checklist | ✅ PASS |
-| operational-feasibility-checklist | ✅ PASS |
-| decision-memo-template | ✅ PASS |
-| participatory-mapping-guide | ⚠️ structured stub |
-| duplication-gap-analysis-matrix | ⚠️ structured stub |
+2. **Stub density remains high**
+- `status: draft` pages: 111
+- `TODO[agent]` markers: 794
+- Pages with 5+ TODO markers: 74
 
 ---
 
-## Incomplete source text extraction
+## Prioritized Next Actions
 
-**All source pages**: PDF text extraction has NOT been performed. Source pages contain metadata stubs only.  
-Impact: Concept pages, frameworks, and tool stubs cannot be populated until source extraction is complete.  
-**Recommended next step**: Run PDF extraction on all 21 non-empty PDFs in `raw/pdf/` then run ingest agent.
-
----
-
-## Overlapping topic coverage (pages with similar scope)
-
-The following page pairs were created by parallel agents and may have overlapping content:
-- `07-sector-applications/health.md` and `health-service-access.md`
-- `07-sector-applications/shelter-nfi.md` and `shelter-settlements.md`
-- `07-sector-applications/livelihoods-markets.md` and `livelihoods.md`
-- `07-sector-applications/protection.md` and `protection-mainstreaming.md`
-- `07-sector-applications/urban-land-tenure.md` and `tenure-eviction-risk.md`
-- `08-coordination/referral-pathway-design.md` and `referral-pathways.md`
-- `08-coordination/municipal-engagement.md` and `municipal-alignment.md`
-
-**Recommended action**: Merge overlapping pairs when populating from source documents.
+1. Replace and re-ingest the zero-byte 2020 IASC PDF.
+2. Link field instruments into tools #02-#17 (minimum frontmatter completion first).
+3. Resolve orphan pages by either merging duplicate variants or adding inbound links from index/hubs.
+4. Add explicit duplication/gap logic sections to the 10 flagged coordination pages.
+5. Populate `duplication-gap-analysis-matrix` with data-quality checks.
 
 ---
 
-## Recommended population sequence
+## Notes on Method
 
-When source text becomes available, populate in this order:
-
-1. **Concept pages** (18 stubs) — from Parker & Maynard 2015, Sanderson & Sitko 2017, Campbell 2016
-2. **Tool #02** (area selection matrix) — from Sanderson & Sitko 2017, GSC/USWG 2019
-3. **Tool #05** (HEVC risk mapping) — from Sendai Framework, Twigg 2007
-4. **Tool #07** (community engagement platform) — from Sanderson & Sitko 2017
-5. **Lifecycle pages** (11 stubs) — cross-cutting population from all primary sources
-6. **Frameworks** (8 stubs) — populate after tools are complete
-7. **Tools #03-04, #06, #08-17** — follow Tool #01 quality standard
-
----
-*Lint report generated by WU-4 agent. Report is a point-in-time snapshot — re-run after each ingest cycle.*
+- This report was produced with command-based checks from `wiki/13-agent-prompts/run-manual-lint-checklist.md`.
+- Pattern checks are heuristic; final content quality must still be reviewed against `schema/tool-quality-standard.md`.
