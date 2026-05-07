@@ -1,19 +1,34 @@
 ---
 type: documentation
 scope: architecture
+updated: 2026-05-07
 ---
 
 # Vault Architecture
 
 Visual overview of the AI Agent Wiki structure and navigation flows.
 
+## Three-Layer Architecture (Karpathy LLM Wiki Pattern)
+
+```mermaid
+graph TD
+    S[sources/] -->|read-only input| W
+    W[Wiki Layer<br/>memory/ workflows/ tools/ agents/ prompts/] -->|governed by| SC
+    SC[Schema Layer<br/>SCHEMA.md + vault-compliance-rules.md]
+    WI[wiki/index.md<br/>master catalog] --> W
+    LOG[memory/runtime/logs/log.md<br/>append-only] --> W
+```
+
 ## Folder Structure
 
 ```mermaid
 graph TD
-    A[obsidian-vault/] --> B[00_Start_Here.md]
+    A[obsidian-vault/] --> SC[SCHEMA.md]
+    A --> B[00_Start_Here.md]
     A --> C[README.md]
     A --> D[QUICK.md]
+    A --> SRC[sources/]
+    A --> WI[wiki/index.md]
     A --> E[indexes/]
     A --> F[workflows/]
     A --> G[prompts/]
@@ -22,30 +37,51 @@ graph TD
     A --> J[memory/]
     A --> K[templates/]
 
+    F --> F1[ingest.md]
+    F --> F2[query.md]
+    F --> F3[lint.md]
+    F --> F4[...domain workflows]
+
     E --> E1[workflows.md]
     E --> E2[prompts.md]
     E --> E3[tools.md]
     E --> E4[memory.md]
-    E --> E5[templates.md]
 
     J --> J1[categories/]
-    J --> J2[runtime/]
+    J --> J2[runtime/logs/]
     J --> J3[indexes/]
     J --> J4[MEMORY.md]
-    J --> J5[memory-rules.md]
 ```
 
 ## Agent Navigation Flow
 
 ```mermaid
 flowchart LR
-    A[User Request] --> B[00_Start_Here.md]
-    B --> C{Routing Table}
-    C --> D[indexes/]
+    A[User Request] --> SC[SCHEMA.md]
+    SC --> B[00_Start_Here.md]
+    B --> WI[wiki/index.md]
+    WI --> D[indexes/]
     D --> E[workflows/]
     E --> F[prompts/ or tools/]
     F --> G[Execute Task]
     G --> H[memory/runtime/logs/log.md]
+```
+
+## Three Operations Flow
+
+```mermaid
+flowchart TD
+    SRC[sources/YYYY-MM-DD_slug.md] -->|Ingest| WP[wiki pages updated]
+    WP --> IDX[wiki/index.md updated]
+    IDX --> LOG[log.md appended]
+
+    Q[User Question] -->|Query| IDX2[wiki/index.md read first]
+    IDX2 --> PG[relevant pages opened]
+    PG --> ANS[synthesized answer with citations]
+
+    LINT[Lint trigger] --> SCAN[scan all wiki pages]
+    SCAN --> UR[memory/categories/unresolved.md]
+    SCAN --> LOG2[log.md appended]
 ```
 
 ## Memory System Architecture

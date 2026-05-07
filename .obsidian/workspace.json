@@ -185,6 +185,14 @@
   },
   "active": "cbbb9dc93fd2aeb7",
   "lastOpenFiles": [
+    "workflows/lint.md",
+    "workflows/query.md",
+    "workflows/ingest.md",
+    "wiki/index.md",
+    "wiki",
+    "sources/README.md",
+    "sources",
+    "SCHEMA.md",
     "tools/tailscale.md",
     "tools/openrouter.md",
     "tools/openclaw.md",
@@ -205,12 +213,6 @@
     "memory/categories/outcomes.md",
     "memory/categories/infrastructure.md",
     "memory/categories/decisions.md",
-    "QUICK.md",
-    "agents/OpenClaw.md",
-    "agents/Hermes.md",
-    "indexes/workflows.md",
-    "workflows/vault-maintenance.md",
-    "workflows/vault-initialization.md",
     "memory/categories/unresolved/contradictions",
     "memory/categories/unresolved"
   ]

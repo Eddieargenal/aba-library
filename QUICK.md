@@ -6,33 +6,42 @@ Single-page summary for fast navigation. See [[README]] for full documentation.
 
 ```
 obsidian-vault/
-├── 00_Start_Here.md     ← Entry point (start here)
+├── SCHEMA.md            ← LLM instruction doc (read first)
+├── 00_Start_Here.md     ← Agent entry point
 ├── README.md            ← Full documentation
 ├── QUICK.md             ← This file
-├── indexes/             ← Cross-reference tables
+├── sources/             ← Raw documents (read-only)
+├── wiki/
+│   └── index.md         ← Master catalog of all wiki pages
+├── indexes/             ← Domain cross-reference tables
 │   ├── workflows.md
 │   ├── prompts.md
 │   ├── tools.md
 │   ├── memory.md
-├── workflows/           ← Task guides
+├── workflows/           ← Task guides (ingest, query, lint + domain)
 ├── prompts/             ← Prompt templates
 ├── tools/               ← Tool reference cards
 ├── agents/              ← Agent profiles
-├── memory/              ← Governed memory system
+├── memory/              ← Governed wiki knowledge base
+│   ├── categories/      ← Long-term knowledge pages
+│   └── runtime/logs/    ← Append-only log
 ├── templates/           ← File scaffolds
-└── archive/             ← Sessions, changelogs (not yet created)
+└── archive/             ← Sessions, changelogs
 ```
 
 ## Agent Navigation
 
 ```
-User Request → 00_Start_Here.md → index → workflow → prompt/tool → execute → log
+User Request → SCHEMA.md → 00_Start_Here.md → wiki/index.md → workflow → execute → log
 ```
 
 ## Workflow Routing
 
 | Task | Workflow |
 |------|----------|
+| Add a source document | [[workflows/ingest]] |
+| Answer from the wiki | [[workflows/query]] |
+| Health-check the wiki | [[workflows/lint]] |
 | Model selection | [[workflows/model-routing]] |
 | Coding/debugging | [[workflows/coding-tasks]] |
 | Document extraction | [[workflows/document-extraction]] |

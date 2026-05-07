@@ -12,6 +12,9 @@ Open a workflow only when routed here from [[../00_Start_Here]].
 
 | Workflow | Use When | Linked Prompt |
 |---|---|---|
+| [[../workflows/ingest]] | Adding a new source document to the wiki | none — follow steps directly |
+| [[../workflows/query]] | Answering a question from the wiki with citations | none — navigate wiki/index.md first |
+| [[../workflows/lint]] | Health-checking the wiki for stale pages and contradictions | none — produces repair list |
 | [[../workflows/model-routing]] | Selecting the right model/mode for a task | [[../prompts/cheap-summary]], [[../prompts/fix-code]], [[../prompts/code-debug]], [[../prompts/plan-architecture]] |
 | [[../workflows/vault-initialization]] | Loading vault context on session start | none — read files directly |
 | [[../workflows/vault-maintenance]] | Keeping the vault healthy and self-improving | [[../memory/categories/unresolved]] |

@@ -39,19 +39,35 @@ Do not scan the whole vault. Do not fabricate memory.
 ## Structure Overview
 
 ```
-00_Start_Here.md       ← agent entry point
+SCHEMA.md              ← LLM instruction doc: layers, operations, conventions
+00_Start_Here.md       ← agent entry point and routing table
 README.md              ← this file (human-readable)
 QUICK.md               ← condensed quick reference
 architecture.md        ← visual structure diagrams
-archive/               ← sessions, changelogs, postmortems
-indexes/               ← cross-reference tables
+sources/               ← raw source documents (read-only)
+wiki/
+  index.md             ← master catalog of all wiki pages
+workflows/             ← step-by-step task guides (ingest, query, lint + domain workflows)
 agents/                ← agent profiles
-workflows/             ← step-by-step task guides
 prompts/               ← reusable prompt templates
 tools/                 ← tool reference cards
-memory/                ← governed memory system
+memory/                ← governed wiki knowledge base
+  categories/          ← long-term knowledge pages
+  runtime/logs/        ← append-only log and task log
+indexes/               ← domain-specific cross-reference tables (workflows, prompts, tools)
 templates/             ← file scaffolds
+archive/               ← sessions, changelogs, postmortems
 ```
+
+## Three Operations (Karpathy LLM Wiki Pattern)
+
+| Operation | Workflow | Summary |
+|-----------|----------|---------|
+| Ingest | [[workflows/ingest]] | Add source → update wiki pages → update index → log |
+| Query | [[workflows/query]] | Read index → open pages → synthesize with citations |
+| Lint | [[workflows/lint]] | Scan for stale/orphan/contradictions → log repair list |
+
+See [[SCHEMA]] for the full architecture.
 
 ## Heavy Automation Is Intentionally Delayed
 
