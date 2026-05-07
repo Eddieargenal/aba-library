@@ -123,3 +123,38 @@ Next steps:
 2. Build and run extraction script
 3. Populate priority tools (#02–05 most referenced)
 4. Run automated lint after scripts built
+
+---
+
+## [2026-05-07] efficiency | Cold-agent navigation layer added
+
+Added three quick-reference files to reduce token cost for cold agents answering common questions:
+- wiki/00-overview/qa-common-questions.md — 10 pre-answered common field questions (1-file read → complete answer)
+- wiki/00-overview/aba-definition-one-pager.md — self-contained ABA definition, misuse table, pushback questions
+- wiki/00-overview/tool-01-quick-reference.md — compact scoring model, 5 screening questions, decision table (~60 lines)
+- wiki/index.md (vault root) — added Urban DRR + ABA section surfacing these entry points
+
+Trigger: fresh agent required 4-step navigation and 749-line tool read to answer "we work in one neighborhood, so we're area-based" — now answered in qa-common-questions.md Q2 directly.
+
+---
+
+## [2026-05-07] ingest | Parker & Maynard 2015 — first full source extraction
+
+Source: Humanitarian Response to Urban Crises: A Review of Area-Based Approaches (IIED, 2015)
+
+Actions:
+- raw/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.md — 28-page PDF extracted via PyMuPDF (105K characters)
+- wiki/01-sources/2015-parker-maynard-...: status changed copied → ingested
+- All TODO[agent] sections populated: 3 ABA criteria with page refs, Box 2/3/4/5/6 content, 5 case studies (Kabul/Port-au-Prince x2/Baghdad/Tacloban), 8 good-practice principles, positive/negative consequences, coordination and DRR implications, limitations, citable claims with page numbers, concept and tool links
+
+Status: source page fully ingested. Concept/lifecycle pages not yet updated from this source (pending).
+
+---
+
+## [2026-05-07] schema | Enforce .md-only file format rule
+
+- All vault files must use .md extension — Obsidian does not render .txt
+- raw/extracted/ file renamed from .txt → .md
+- schema/ingest-rules.md step 5 and status definitions updated to specify .md explicitly
+- CLAUDE.md: file format rule added at top of operating instructions
+- wiki/01-sources/...: extracted_text pointer updated to .md path
