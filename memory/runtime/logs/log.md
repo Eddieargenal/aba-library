@@ -44,8 +44,18 @@ This file is **append-only**. Never overwrite. Never delete entries.
 - Added `gap` type to unresolved.md and aligned vault-compliance-rules.md Rule 4 to match
 - Added wikilinks to 5 unlinked memory category entries in 00_Start_Here.md
 - Expanded Quick Routing in 00_Start_Here.md from 2 to 7 workflows
-- Removed pending.md reference from vault-maintenance.md (out of vault scope)
+- Removed non-existent indexes/templates.md reference from QUICK.md
 - Appended 2026-05-07 entry to archive/CHANGELOG.md
+
+## 2026-05-07
+- Created agents/ folder with Hermes.md and OpenClaw.md (placeholders)
+- Created archive/README.md (CHANGELOG.md already existed)
+- Fixed outcomes.md: removed pending.md reference
+- Updated wiki/index.md: agents section now links to existing files
+- Added archive/ to SCHEMA.md Wiki Folder Map
+- Added agents/ and archive/ to 00_Start_Here.md What The Vault Provides table
+- Created memory/indexes/README.md explaining JSONL indexes (undecided purpose)
+- Updated QUICK.md folder structure with archive/ contents note
 
 
 - Added stale thresholds table to vault-compliance-rules.md (was referenced from memory-rules.md but missing)

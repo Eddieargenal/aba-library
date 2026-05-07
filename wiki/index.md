@@ -59,8 +59,8 @@ After every ingest: add new pages, update summaries that changed. After every li
 
 | Page | Summary |
 |------|---------|
-| [[../agents/Hermes]] | Hermes: model-routing and task-execution agent |
-| [[../agents/OpenClaw]] | OpenClaw: gateway agent for server-side and external integrations |
+| [[../agents/Hermes]] | Hermes: model-routing and task-execution agent (placeholder) |
+| [[../agents/OpenClaw]] | OpenClaw: gateway agent for server-side and external integrations (placeholder) |
 
 ---
 

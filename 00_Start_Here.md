@@ -35,7 +35,9 @@ See [[memory/vault-compliance-rules]] for full rules.
 | [[workflows/]] | Step-by-step task guides |
 | [[prompts/]] | Prompt templates by tier |
 | [[tools/]] | Tool reference cards |
+| [[agents/]] | Agent profiles (placeholders) |
 | [[indexes/]] | Finding the right workflow/prompt/tool |
+| [[archive/]] | Historical records (empty) |
 
 ## Claim Types
 

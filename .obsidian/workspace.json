@@ -185,6 +185,9 @@
   },
   "active": "cbbb9dc93fd2aeb7",
   "lastOpenFiles": [
+    "memory/indexes/README.md",
+    "archive/README.md",
+    "agents/README.md",
     "workflows/lint.md",
     "workflows/query.md",
     "workflows/ingest.md",
@@ -210,9 +213,6 @@
     "archive/CHANGELOG.md",
     "memory/categories/unresolved.md",
     "memory/categories/procedures.md",
-    "memory/categories/outcomes.md",
-    "memory/categories/infrastructure.md",
-    "memory/categories/decisions.md",
     "memory/categories/unresolved/contradictions",
     "memory/categories/unresolved"
   ]

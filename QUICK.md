@@ -26,7 +26,7 @@ obsidian-vault/
 │   ├── categories/      ← Long-term knowledge pages
 │   └── runtime/logs/    ← Append-only log
 ├── templates/           ← File scaffolds
-└── archive/             ← Sessions, changelogs
+└── archive/             ← Sessions, changelogs (contains CHANGELOG.md)
 ```
 
 ## Agent Navigation

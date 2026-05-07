@@ -8,7 +8,7 @@ status: active
 
 Results, lessons, and applied impacts from completed tasks and resolved decisions.
 
-Move completed items from [[pending.md]] here. Move resolved items from [[unresolved.md]] here.
+Move resolved items from [[unresolved.md]] here.
 
 ## Template
 

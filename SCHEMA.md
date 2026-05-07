@@ -75,6 +75,7 @@ Summary:
 | `prompts/` | Reusable prompt templates | Prompts |
 | `templates/` | File scaffolds for creating new pages | — |
 | `sources/` | Raw source documents (read-only) | Not cataloged in wiki/index.md |
+| `archive/` | Historical records: sessions, changelogs, postmortems | — |
 
 ---
 
