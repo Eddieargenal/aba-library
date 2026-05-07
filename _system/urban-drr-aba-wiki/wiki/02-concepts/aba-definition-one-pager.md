@@ -1,9 +1,9 @@
 ---
 title: ABA Definition — One-Pager
-type: overview
-purpose: quick-reference
+type: concept
+purpose: quick-reference-summary
 status: active
-wiki_id: overview-03
+wiki_id: concept-aba-definition-one-pager
 source_foundation:
   - "[[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]]"
   - "[[wiki/01-sources/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]"

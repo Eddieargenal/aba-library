@@ -44,7 +44,7 @@ If any answer is no → not ABA.
 
 **Corrective action:** Either restructure to meet all three criteria or relabel accurately (geographically-located sector programme, multi-sector programme, etc.).
 
-→ Full criteria treatment: [[wiki/00-overview/aba-definition-one-pager]]
+→ Full criteria treatment: [[wiki/02-concepts/aba-definition-one-pager]]
 
 ---
 

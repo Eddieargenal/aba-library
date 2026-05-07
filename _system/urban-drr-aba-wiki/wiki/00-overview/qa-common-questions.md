@@ -39,7 +39,7 @@ The ABA label requires all three criteria above. A single-sector program in a ne
 
 → Source: Parker & Maynard (2015): [[wiki/01-sources/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]]
 → Misuse patterns: [[wiki/12-risks-contradictions/common-aba-misuse]]
-→ One-pager: [[wiki/00-overview/aba-definition-one-pager]]
+→ One-pager: [[wiki/02-concepts/aba-definition-one-pager]]
 
 ---
 
