@@ -197,3 +197,15 @@ Remaining not yet updated from this source (pending other source ingests):
 - schema/query-rules.md: added three-layer rule table; rewrote answer steps 1-5 to be unambiguous; explicit prohibition on going to raw/ to fill wiki gaps
 
 **Rule:** If wiki/ content is insufficient, flag the gap — do not bypass the synthesis layer.
+
+---
+
+## [2026-05-07] schema | Fix agent read path — layer discipline in index.md and query workflow
+
+**Problem:** Rules in CLAUDE.md and schema/ files are never in the actual agent read chain. Cold agents follow: 00_Start_Here.md → workflows/query.md → wiki/index.md. The vault-level workflows/query.md explicitly told agents to verify accuracy-critical claims against raw sources — causing agents to bypass the wiki synthesis layer.
+
+**Fix:**
+- _system/urban-drr-aba-wiki/index.md: layer discipline rule added at the very top as a mandatory pre-read. Agents see this the moment they enter the wiki. Explicitly overrides vault-level "verify against raw" instruction.
+- workflows/query.md: sub-wiki exception added to the Notes section — when a sub-wiki maintains its own wiki/ synthesis layer, that wiki/ is the answer source.
+
+**Principle:** Rules only work if they're in the path agents actually walk. Schema files document; index.md enforces.
