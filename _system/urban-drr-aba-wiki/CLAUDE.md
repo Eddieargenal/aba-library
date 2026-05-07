@@ -7,6 +7,8 @@ The wiki has three layers:
 2. wiki/ = LLM-maintained synthesis
 3. schema/ + CLAUDE.md = operating rules
 
+**File format rule: ALL files in this vault must use .md extension.** This includes extracted source text in raw/extracted/. Never create .txt, .csv, or other formats — Obsidian only renders .md files.
+
 Never modify raw sources.
 
 Always read index.md before answering domain questions.

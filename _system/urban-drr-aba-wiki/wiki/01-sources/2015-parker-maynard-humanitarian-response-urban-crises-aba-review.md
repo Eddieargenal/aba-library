@@ -5,7 +5,7 @@ title: "Humanitarian Response to Urban Crises: A Review of Area-Based Approaches
 authors_or_orgs: Elizabeth Parker and Victoria Maynard / IIED
 year: 2015
 canonical_file: raw/pdf/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.pdf
-extracted_text: raw/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.txt
+extracted_text: raw/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.md
 original_filename: "Humanitarian response to urban crises a review of area-based approaches (2).pdf"
 source_url: https://www.iied.org/10742iied
 source_matrix_row: "2, 39"

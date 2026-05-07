@@ -16,7 +16,7 @@ A source is NOT fully ingested until it appears in:
 2. Match to PDF in raw/pdf/
 3. Copy PDF with canonical naming convention
 4. Record original filename and URL in source page metadata
-5. Extract PDF text to raw/extracted/ (SKIP: mark as TODO if not available)
+5. Extract PDF text to raw/extracted/ as a .md file (e.g. raw/extracted/<canonical-name>.md). All files in this vault must use .md — never .txt. (SKIP: mark as TODO if extraction not available)
 6. Create/update source page in wiki/01-sources/
 7. Update relevant concept pages
 8. Update relevant framework pages
@@ -31,6 +31,6 @@ A source is NOT fully ingested until it appears in:
 ## Status values
 - not-started: source identified but not yet processed
 - copied: PDF exists in raw/pdf/
-- extracted: text extracted to raw/extracted/
+- extracted: text extracted to raw/extracted/<canonical-name>.md
 - ingested: source page created and linked
 - reviewed: content verified for accuracy
