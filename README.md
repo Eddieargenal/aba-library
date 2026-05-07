@@ -69,6 +69,20 @@ archive/               ← sessions, changelogs, postmortems
 
 See [[SCHEMA]] for the full architecture.
 
+## Navigation Indexes
+
+- [[indexes/workflows]] — workflow router for task selection
+- [[indexes/prompts]] — prompt router by mode/use case
+- [[indexes/tools]] — tool router and capability map
+- [[indexes/memory]] — memory category router
+- [[indexes/templates]] — scaffolds for creating new wiki content
+
+## Supporting Docs
+
+- [[architecture]] — visual architecture and navigation flows
+- [[agents/README]] — agent folder index
+- [[archive/README]] — archive folder index and retention rules
+
 ## Heavy Automation Is Intentionally Delayed
 
 Hooks, indexing pipelines, and audit automation are future upgrades. This version focuses on structure, navigation, and content correctness first.
