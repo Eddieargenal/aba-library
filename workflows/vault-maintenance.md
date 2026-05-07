@@ -36,6 +36,14 @@ Ask: "Did I need information that wasn't in the vault?"
 - Missing tool? → log to unresolved
 - Stale information? → note in unresolved
 
+### 2b. Check section index freshness
+
+For each section folder in `_system/urban-drr-aba-wiki/wiki/`:
+- Open `00_index.md`
+- Compare its stated file count against the actual folder contents
+- If the count is wrong, a significant file is unmentioned, or the characterization no longer fits, update the index
+- Log any updated indexes to `memory/runtime/logs/log.md` with entry: `## [YYYY-MM-DD] maintenance | section index updated: [section-name]`
+
 ### 3. Review Unresolved
 
 Check `memory/categories/unresolved.md`:

@@ -57,12 +57,22 @@ If no appropriate page exists, create one in `memory/categories/` using the temp
 
 Contradictions found during ingest → log to `memory/categories/unresolved.md`.
 
+### 3b. Update section 00_index.md
+
+For each section folder where a new page was added or an existing page significantly changed:
+- Open that section's `00_index.md`
+- Update the file count if it changed
+- If the new page is significant (fully populated, not a stub), mention it in the index
+- Keep the index to ≤3 sentences — revise the characterization only if the section's purpose has meaningfully changed
+
 ### 4. Update wiki/index.md
 
 Open `wiki/index.md` and:
 
 - Add a row for any new wiki pages created
 - Update the summary of any pages whose content changed significantly
+
+This file is the audit registration — every wiki page must appear here. If the new page is not listed, add it now.
 
 ### 5. Append to log
 

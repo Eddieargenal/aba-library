@@ -43,6 +43,29 @@ See [[memory/vault-compliance-rules]] for full rules.
 | [[archive/README]] | Archive folder index and retention rules |
 | [[architecture]] | Visual architecture and navigation diagrams |
 
+## Vault Directory
+
+| Section | What's here | Index |
+|---|---|---|
+| `_system/urban-drr-aba-wiki/wiki/00-overview/` | Navigation, operating rules, quick-reference orientation | [[_system/urban-drr-aba-wiki/wiki/00-overview/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/01-sources/` | Citation metadata for 18 primary literature sources | [[_system/urban-drr-aba-wiki/wiki/01-sources/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/02-concepts/` | Core domain concepts | [[_system/urban-drr-aba-wiki/wiki/02-concepts/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/03-frameworks/` | Analytical decision-making frameworks | [[_system/urban-drr-aba-wiki/wiki/03-frameworks/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/04-tools/` | 17 numbered operational tools | [[_system/urban-drr-aba-wiki/wiki/04-tools/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/05-field-instruments/` | Field data collection instruments | [[_system/urban-drr-aba-wiki/wiki/05-field-instruments/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/06-lifecycle/` | 11 sequential programme phases | [[_system/urban-drr-aba-wiki/wiki/06-lifecycle/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/07-sector-applications/` | Sector-specific ABA/DRR guidance | [[_system/urban-drr-aba-wiki/wiki/07-sector-applications/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/08-coordination/` | Multi-actor coordination and information management | [[_system/urban-drr-aba-wiki/wiki/08-coordination/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/09-monitoring-learning/` | MEL frameworks and learning templates | [[_system/urban-drr-aba-wiki/wiki/09-monitoring-learning/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/10-transition-scale/` | Programme exit, handover, and scale-up | [[_system/urban-drr-aba-wiki/wiki/10-transition-scale/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/11-patterns/` | Emerging implementation patterns (empty) | [[_system/urban-drr-aba-wiki/wiki/11-patterns/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/12-risks-contradictions/` | Contradictions, weak evidence, protection risks | [[_system/urban-drr-aba-wiki/wiki/12-risks-contradictions/00_index]] |
+| `_system/urban-drr-aba-wiki/wiki/13-agent-prompts/` | Reusable agent operation prompts | [[_system/urban-drr-aba-wiki/wiki/13-agent-prompts/00_index]] |
+| `workflows/` | Step-by-step task guides | [[indexes/workflows]] |
+| `prompts/` | Prompt templates by tier | [[indexes/prompts]] |
+| `tools/` | Tool reference cards | [[indexes/tools]] |
+| `memory/categories/` | Long-term knowledge base | [[memory/MEMORY]] |
+
 ## Claim Types
 
 | Symbol | Meaning |
@@ -77,15 +100,15 @@ See [[memory/vault-compliance-rules]] for full rules.
 
 | Task | Workflow |
 |------|----------|
-| Session start — load context | [[workflows/vault-initialization]] |
+| Session start — load context | [[memory/context]] |
 | Add a source document | [[workflows/ingest]] |
-| Answer a question from the wiki | [[workflows/query]] |
+| Answer a question from the wiki | [[wiki/index]] |
 | Health-check the wiki | [[workflows/lint]] |
 | Model selection | [[workflows/model-routing]] |
 | Coding/debugging | [[workflows/coding-tasks]] |
 | Document/PDF extraction | [[workflows/document-extraction]] |
 | Odoo accounting | [[workflows/odoo-accounting]] |
-| Memory recall | [[workflows/memory-recall]] |
+| Memory recall | [[memory/MEMORY]] |
 | Session end — update vault | [[workflows/vault-maintenance]] |
 
 ## Memory (Only Permanent Things)

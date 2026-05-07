@@ -1,10 +1,12 @@
 # Urban DRR + ABA LLM Wiki — Master Index
 
-> Agent entry point. Read this file before answering any domain question. Navigate by section, then follow links to specific pages. All pages have YAML frontmatter with `wiki_id`, `status`, and `source_foundation` fields.
+> Audit catalog. Agents answering domain questions use section `00_index.md` files for navigation. Use this file during ingest and lint to verify page registration and completeness. All pages have YAML frontmatter with `wiki_id`, `status`, and `source_foundation` fields.
 
 ---
 
 ## How to answer questions from this wiki — read before doing anything else
+
+**Audit use only for navigation.** Agents answering domain questions use `00_index.md` files in each section folder for navigation. Use this file during ingest (to register new pages) and lint (to check completeness and orphans).
 
 This wiki has a three-layer architecture. Each layer has a single role:
 

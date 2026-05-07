@@ -1,5 +1,5 @@
 ---
-type: index
+type: audit-catalog
 scope: wiki-master
 status: validated
 updated: 2026-05-07
@@ -7,7 +7,7 @@ updated: 2026-05-07
 
 # Wiki Index
 
-**Read this file first on every query.** It is the master catalog of all wiki pages. Find the relevant pages here, then open them.
+**Audit use only.** Agents doing work navigate via section `00_index.md` files. Use this file during ingest (to register new pages) and vault-maintenance (to check for orphans and staleness).
 
 After every ingest: add new pages, update summaries that changed. After every lint: mark stale pages.
 
