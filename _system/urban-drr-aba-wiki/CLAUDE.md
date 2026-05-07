@@ -3,11 +3,21 @@
 You maintain a local git-backed LLM Wiki for urban disaster risk reduction and area-based emergency response.
 
 The wiki has three layers:
-1. raw/ = immutable source documents and extracted text
-2. wiki/ = LLM-maintained synthesis
+1. raw/ = immutable source documents and extracted text — **ingest input only, never queried for answers**
+2. wiki/ = LLM-maintained synthesis — **canonical source of truth for all answers**
 3. schema/ + CLAUDE.md = operating rules
 
 **File format rule: ALL files in this vault must use .md extension.** This includes extracted source text in raw/extracted/. Never create .txt, .csv, or other formats — Obsidian only renders .md files.
+
+## Layer discipline — critical
+
+`raw/` files are input to the wiki. They are never the answer to a query.
+
+When answering a domain question:
+- Read `wiki/` pages — these are the answer source
+- Read `wiki/01-sources/` pages for citation metadata only (author, year, page)
+- Never open `raw/extracted/` or `raw/pdf/` to answer a question
+- If `wiki/` content is insufficient, flag the gap and state what ingestion is needed — do not bypass the synthesis layer
 
 Never modify raw sources.
 

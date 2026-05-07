@@ -5,12 +5,33 @@ updated: 2026-05-07
 ---
 # Query Rules
 
+## The three-layer rule — READ THIS FIRST
+
+The wiki has three layers with distinct roles:
+
+| Layer | Location | Role | Query use |
+|---|---|---|---|
+| Raw | `raw/pdf/`, `raw/extracted/` | Ingest input only — immutable source documents | NEVER read for answers |
+| Synthesis | `wiki/` | Canonical source of truth for all answers | Always read here first |
+| Schema | `schema/`, `CLAUDE.md` | Operating rules | Read when behavior is unclear |
+
+**`raw/` files are input to the wiki, not output from it. If the wiki synthesis does not contain the answer, flag the gap — do not go to `raw/` to find it.**
+
+The synthesised wiki pages (`wiki/02-concepts/`, `wiki/04-tools/`, etc.) represent the processed, validated, agent-ready knowledge. Reading raw extracted text bypasses this layer, produces unverified answers, and defeats the purpose of the wiki.
+
 ## Before answering any domain question
 1. Read index.md
-2. Identify relevant concept, source, framework, tool, field instrument, lifecycle, and risk pages
-3. Read those pages
-4. Use source pages for citation support
+2. Identify the relevant pages in `wiki/` — concepts, tools, field instruments, lifecycle, risk pages
+3. Read those `wiki/` pages — these are your answer source
+4. Use `wiki/01-sources/` pages for citation metadata (author, year, page number) only — not as answer content
 5. Produce practical outputs for technical teams
+
+## When wiki content is insufficient
+- Note the gap explicitly in your answer
+- State which source has not yet been ingested
+- Do not go to `raw/extracted/` or `raw/pdf/` to fill the gap
+- Do not fabricate evidence
+- Flag what ingestion is needed to complete the answer
 
 ## When a user asks for a tool
 Do NOT provide only conceptual advice. Every tool response must include:
