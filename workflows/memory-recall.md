@@ -1,0 +1,62 @@
+---
+type: workflow
+scope: memory-recall
+status: active
+updated: 2026-05-06
+---
+
+# Workflow: Memory Recall
+
+Use this workflow when the user asks about previous decisions, facts, or session history.
+
+## Steps
+
+1. **Classify the query type.**
+
+   | Query Type | Example |
+   |---|---|
+   | exact key | "what did we decide about X?" |
+   | keyword | "anything about Docker networking?" |
+   | temporal | "what changed last session?" |
+   | relational | "what decisions relate to the VPS setup?" |
+
+2. **Search MEMORY.md first.**
+   - Open [[../memory/MEMORY]].
+   - Look for a pointer to the relevant category or entry.
+   - If found, open that category file directly.
+
+3. **Search the relevant category file.**
+   - Open the most likely category: behavioral, infrastructure, decisions, procedures, tools, projects, outcomes.
+   - Scan that file for the relevant entry.
+
+4. **Use the index if it exists and appears current.**
+   - Check `memory/indexes/key-index.jsonl` for exact key lookups.
+   - Check `memory/indexes/keyword-index.jsonl` for keyword lookups.
+   - Check `memory/indexes/relations.jsonl` for relational queries.
+
+5. **If the index appears stale, warn and fall back to direct file scan.**
+   - A stale index is one that is missing a fact you can see in a category file.
+   - Warn the user that the index may be out of date.
+   - Scan the category file directly.
+
+6. **If nothing is found, say no memory was found.**
+   - Do not guess. Do not fabricate. Do not produce a plausible-sounding answer.
+   - Say clearly: "No memory found for this query."
+
+7. **Do not fabricate memory.**
+   - If a fact was not explicitly stored in a category file, it is not in memory.
+   - Agent-inferred guesses about what "probably" happened are not memory.
+
+## Linked Files
+
+- [[../memory/MEMORY]]
+- [[../memory/categories/behavioral]]
+- [[../memory/categories/infrastructure]]
+- [[../memory/categories/decisions]]
+- [[../memory/categories/procedures]]
+- [[../memory/categories/tools]]
+- [[../memory/categories/projects]]
+- [[../memory/categories/outcomes]]
+- [[../memory/indexes/key-index.jsonl]]
+- [[../memory/indexes/keyword-index.jsonl]]
+- [[../memory/indexes/relations.jsonl]]
