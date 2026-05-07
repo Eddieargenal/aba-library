@@ -185,3 +185,15 @@ Remaining not yet updated from this source (pending other source ingests):
 - wiki/02-concepts/multi-sector-response-analysis (Parker & Maynard is secondary source here)
 - wiki/03-frameworks/ pages (framework stubs not yet populated)
 - wiki/05-field-instruments/ (no new instruments implied by this source beyond existing Tool #01 set)
+
+---
+
+## [2026-05-07] schema | Enforce wiki synthesis as source of truth
+
+**Problem identified via agent test:** Cold agent navigated to raw/extracted/ to get "definitive answer" on boundary types, bypassing wiki/02-concepts/geographic-targeting.md which already contained the synthesised answer. Root cause: query-rules.md step 4 ("use source pages for citation support") was ambiguous — agents interpreted it as permission to read raw extracted text.
+
+**Fix:**
+- CLAUDE.md: added explicit layer discipline section at top — raw/ is ingest input only, never queried; wiki/ is canonical answer source; wiki/01-sources/ is citation metadata only
+- schema/query-rules.md: added three-layer rule table; rewrote answer steps 1-5 to be unambiguous; explicit prohibition on going to raw/ to fill wiki gaps
+
+**Rule:** If wiki/ content is insufficient, flag the gap — do not bypass the synthesis layer.
