@@ -1,4 +1,3 @@
-type: memory-category
 ---
 type: memory-category
 category: procedures
@@ -6,6 +5,7 @@ status: active
 updated: 2026-05-08
 title: Procedures Memory
 ---
+
 # Procedure Memory
 
 Step-by-step procedures with prerequisites and verification steps.
@@ -32,4 +32,3 @@ Step-by-step procedures with prerequisites and verification steps.
 
 ## Records
 
-<!-- Add procedure records below using the template above. -->

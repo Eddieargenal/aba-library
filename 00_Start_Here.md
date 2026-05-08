@@ -32,39 +32,41 @@ See [[memory/vault-compliance-rules]] for full rules.
 | [[SCHEMA]] | LLM instruction doc — architecture, operations, conventions |
 | [[wiki/index]] | Master catalog — find any wiki page fast |
 | [[sources/README]] | Raw source documents — read-only layer |
-| [[workflows/]] | Step-by-step task guides |
+| [[wiki/aba/]] | Urban DRR + ABA wiki — humanitarian domain knowledge |
+| [[workflows/]] | Step-by-step task guides (vault + domain workflows) |
 | [[indexes/workflows]] | Workflow router (choose the right workflow first) |
 | [[prompts/]] | Prompt templates by tier |
 | [[tools/]] | Tool reference cards |
-| [[agents/]] | Agent profiles (placeholders) |
-| [[agents/README]] | Agent folder index and usage notes |
+| [[agents/]] | Agent profiles |
 | [[indexes/]] | Finding the right workflow/prompt/tool |
-| [[archive/]] | Historical records (empty) |
-| [[archive/README]] | Archive folder index and retention rules |
+| [[archive/]] | Historical records |
 | [[architecture]] | Visual architecture and navigation diagrams |
 
 ## Vault Directory
 
 | Section | What's here | Index |
 |---|---|---|
-| `_system/urban-drr-aba-wiki/wiki/00-overview/` | Navigation, operating rules, quick-reference orientation | [[_system/urban-drr-aba-wiki/wiki/00-overview/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/01-sources/` | Citation metadata for 18 primary literature sources | [[_system/urban-drr-aba-wiki/wiki/01-sources/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/02-concepts/` | Core domain concepts | [[_system/urban-drr-aba-wiki/wiki/02-concepts/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/03-frameworks/` | Analytical decision-making frameworks | [[_system/urban-drr-aba-wiki/wiki/03-frameworks/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/04-tools/` | 17 numbered operational tools | [[_system/urban-drr-aba-wiki/wiki/04-tools/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/05-field-instruments/` | Field data collection instruments | [[_system/urban-drr-aba-wiki/wiki/05-field-instruments/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/06-lifecycle/` | 11 sequential programme phases | [[_system/urban-drr-aba-wiki/wiki/06-lifecycle/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/07-sector-applications/` | Sector-specific ABA/DRR guidance | [[_system/urban-drr-aba-wiki/wiki/07-sector-applications/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/08-coordination/` | Multi-actor coordination and information management | [[_system/urban-drr-aba-wiki/wiki/08-coordination/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/09-monitoring-learning/` | MEL frameworks and learning templates | [[_system/urban-drr-aba-wiki/wiki/09-monitoring-learning/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/10-transition-scale/` | Programme exit, handover, and scale-up | [[_system/urban-drr-aba-wiki/wiki/10-transition-scale/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/11-patterns/` | Emerging implementation patterns (empty) | [[_system/urban-drr-aba-wiki/wiki/11-patterns/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/12-risks-contradictions/` | Contradictions, weak evidence, protection risks | [[_system/urban-drr-aba-wiki/wiki/12-risks-contradictions/00_index]] |
-| `_system/urban-drr-aba-wiki/wiki/13-agent-prompts/` | Reusable agent operation prompts | [[_system/urban-drr-aba-wiki/wiki/13-agent-prompts/00_index]] |
-| `workflows/` | Step-by-step task guides | [[indexes/workflows]] |
-| `prompts/` | Prompt templates by tier | [[indexes/prompts]] |
-| `tools/` | Tool reference cards | [[indexes/tools]] |
-| `memory/categories/` | Long-term knowledge base | [[memory/MEMORY]] |
+| [[wiki/aba/wiki/00-overview/00_index]] | Urban DRR + ABA wiki — overview, operating rules, quick ref | (ABA wiki root: `wiki/aba/`) |
+| [[indexes/workflows]] | Workflow router | (see [[workflows/]]) |
+| [[indexes/prompts]] | Prompt router by tier | (see [[prompts/]]) |
+| [[indexes/tools]] | Tool reference cards | (see [[tools/]]) |
+| [[memory/MEMORY]] | Long-term knowledge base | (see `memory/categories/`) |
+
+> ABA wiki has 13 sections: overview → concepts → frameworks → tools → field instruments → lifecycle → sector applications → coordination → monitoring → transition → patterns → risks → prompts. Navigate via `wiki/aba/` section `00_index.md` files.
+
+## Urban DRR + ABA Wiki (`wiki/aba/`)
+
+| Task | Entry Point | Jumps |
+|---|---|---|
+| Quick answers / how to use | [[wiki/aba/wiki/00-overview/qa-common-questions]] | 2 |
+| Find a concept | [[wiki/aba/wiki/02-concepts/aba-definition-one-pager]] → section index | 3 |
+| Find a framework | [[wiki/aba/wiki/03-frameworks/aba-appropriateness-decision-framework]] → section index | 3 |
+| Find a tool | [[wiki/aba/wiki/04-tools/01-aba-feasibility-and-necessity-assessment-tool]] → section index | 3 |
+| Field instrument | [[wiki/aba/wiki/05-field-instruments/decision-memo-template]] → section index | 3 |
+| ABA agent prompts | [[wiki/aba/wiki/13-agent-prompts/ingest-new-source]] → section index | 3 |
+| Operating rules | [[wiki/aba/CLAUDE]] | 2 |
+
+Full ABA catalog: [[wiki/aba/index]]
 
 ## Claim Types
 

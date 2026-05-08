@@ -15,7 +15,7 @@ Scaffold files for creating new vault content. Use these as starting points for 
 | [[../templates/tool-template]] | Adding new tool references | [[../tools/hermes]] as example |
 | [[../templates/prompt-template]] | Creating reusable prompt templates | [[../prompts/code-debug]] as example |
 | [[../templates/task-log-template]] | Logging task execution results | [[../memory/runtime/logs/task-log]] as example |
-| [[../templates/memory-record-template]] | Adding new memory entries | [[../memory/categories/behavioral]] as example |
+| [[../templates/memory-record-template]] | Adding new memory entries | [[../memory/categories/infrastructure]] as example |
 
 ## How to Use
 

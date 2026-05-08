@@ -1,38 +1,23 @@
 ---
 type: index
-status: placeholder
-updated: 2026-05-07
+status: removed
+updated: 2026-05-08
 ---
 
 # Memory Indexes
 
-This folder contains machine-readable indexes for programmatic lookup.
+JSONL indexes were removed — workflows navigate via `wiki/index.md` and `indexes/*.md` instead.
+Programmatic lookup is unnecessary: agents use text-based wikilink navigation.
 
-## Contents
+## What Changed
 
-| File | Purpose | Status |
-|------|---------|--------|
-| `key-index.jsonl` | Key-value index | placeholder |
-| `keyword-index.jsonl` | Keyword lookup | placeholder |
-| `relations.jsonl` | Page relationships | placeholder |
+- `key-index.jsonl` → removed (placeholder, never populated)
+- `keyword-index.jsonl` → removed (placeholder, never populated)
+- `relations.jsonl` → removed (never created)
 
-## Purpose (Undecided)
+## How Agents Navigate Now
 
-These indexes were created for potential programmatic lookup by agents. Currently unused.
-
-Options:
-1. **Keep** — populate as the vault grows for faster search
-2. **Remove** — wikilinks and wiki/index.md are sufficient
-3. **Repurpose** — use for something else (suggestions welcome)
-
-## Usage
-
-If used, each line is valid JSONL:
-```json
-{"key": "workflow:ingest", "path": "workflows/ingest.md", "tags": ["workflow", "operations"]}
-```
-
-## Related
-
-- [[../wiki/index]] — Human-readable master catalog
-- [[../indexes/workflows]] — Workflow routing table
+- Discover pages: `wiki/index.md` (master catalog)
+- Route workflows: `indexes/workflows.md`
+- Route prompts: `indexes/prompts.md`
+- Route tools: `indexes/tools.md`

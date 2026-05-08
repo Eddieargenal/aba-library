@@ -56,5 +56,5 @@ Use this workflow for Odoo tasks, accounting reports, chart of accounts, and fin
 
 - [[../prompts/plan-architecture]]
 - [[../prompts/code-debug]]
-- [[../memory/categories/projects]]
+- [[../memory/categories/infrastructure]]
 - [[../memory/runtime/logs/task-log]]

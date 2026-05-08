@@ -12,7 +12,11 @@ obsidian-vault/
 ├── QUICK.md             ← This file
 ├── sources/             ← Raw documents (read-only)
 ├── wiki/
-│   └── index.md         ← Master catalog of all wiki pages
+│   ├── index.md         ← Master catalog of all wiki pages
+│   └── aba/             ← Urban DRR + ABA domain wiki (210 files)
+│       ├── CLAUDE.md    ← ABA agent operating rules
+│       ├── index.md     ← ABA master navigation
+│       └── wiki/        ← ABA synthesized knowledge (13 sections)
 ├── indexes/             ← Domain cross-reference tables
 │   ├── workflows.md
 │   ├── prompts.md
@@ -26,6 +30,7 @@ obsidian-vault/
 │   ├── categories/      ← Long-term knowledge pages
 │   └── runtime/logs/    ← Append-only log
 ├── templates/           ← File scaffolds
+├── governance/          ← Remediation skills, runbooks, briefs
 └── archive/             ← Sessions, changelogs (contains CHANGELOG.md)
 ```
 
@@ -47,6 +52,14 @@ User Request → SCHEMA.md → 00_Start_Here.md → wiki/index.md → workflow �
 | Document extraction | [[workflows/document-extraction]] |
 | Odoo accounting | [[workflows/odoo-accounting]] |
 | Memory recall | [[workflows/memory-recall]] |
+
+## ABA Wiki Quick Navigation
+
+| Task | Entry | Jumps |
+|------|-------|-------|
+| ABA overview & quick answers | [`wiki/aba/wiki/00-overview/qa-common-questions`](wiki/aba/wiki/00-overview/qa-common-questions.md) | 2 |
+| ABA operating rules | [`wiki/aba/CLAUDE.md`](wiki/aba/CLAUDE.md) | 2 |
+| Full ABA catalog | [`wiki/aba/index.md`](wiki/aba/index.md) | 2 |
 
 ## Model Modes (for Hermes)
 

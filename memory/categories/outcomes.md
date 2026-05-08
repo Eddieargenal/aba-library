@@ -32,7 +32,10 @@ Move resolved items from [[unresolved.md]] here.
 
 ### hermes-tui-slash-debug-fix
 - decision_key: n/a
-- action_taken: Removed `console.log('[slash] handler called with:', cmd)` from `ui-tui/src/app/createSlashHandler.ts`; also removed a debug-heavy `/quit` implementation and duplicate dead-code commands (history, save, snapshot) from `core.ts`; rebuilt dist with `npm run build`
+- ✅ Action: Removed `console.log('[slash] handler called with:', cmd)` from `ui-tui/src/app/createSlashHandler.ts`; removed a debug-heavy `/quit` implementation and duplicate dead-code comma
+- source: agent-debugging session, 2026-05-08
+- status: validated
+- impact: Cleaned TUI slash handler, resolved hanging behaviornds (history, save, snapshot) from `core.ts`; rebuilt dist with `npm run build`
 - result: All slash commands functional again; user confirmed "it worked"
 - observed_at: 2026-05-08
 - impact: Ink TUI terminal rendering restored — raw console output inside an Ink process writes to the terminal stream directly, corrupting the UI so command output appeared invisible

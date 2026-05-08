@@ -14,9 +14,9 @@ updated: 2026-05-07
 
 | Layer | Location | Rule |
 |-------|----------|------|
-| **Sources** | `sources/` | Raw documents. Read only. Never edit. |
-| **Wiki** | `memory/`, `workflows/`, `tools/`, `agents/`, `prompts/` | LLM-maintained knowledge pages. |
-| **Schema** | `SCHEMA.md`, `vault-compliance-rules.md` | Conventions and structure definitions. |
+| **Sources** | `sources/`, `wiki/aba/raw/` | Raw documents. Read only. Never edit. |
+| **Wiki** | `memory/`, `workflows/`, `tools/`, `agents/`, `prompts/`, `wiki/aba/wiki/` | LLM-maintained knowledge pages. ABA wiki has its own schema and operating rules. |
+| **Schema** | `SCHEMA.md`, `memory/vault-compliance-rules.md`, `wiki/aba/schema/` | Conventions and structure definitions. |
 
 ---
 
@@ -70,12 +70,15 @@ Summary:
 |--------|----------|--------------------|
 | `memory/categories/` | Long-term knowledge: facts, decisions, procedures, outcomes | Knowledge Base |
 | `workflows/` | Step-by-step task procedures | Operations |
+| `wiki/aba/wiki/` | Urban DRR + ABA domain wiki (13 sections, see [[wiki/aba/index]]) | ABA Knowledge |
 | `tools/` | Tool capability cards | Tools |
-| `agents/` | Agent profiles | Agents |
+| `agents/` | Agent profiles (Hermes, OpenClaw) | Agents |
 | `prompts/` | Reusable prompt templates | Prompts |
 | `templates/` | File scaffolds for creating new pages | — |
 | `sources/` | Raw source documents (read-only) | Not cataloged in wiki/index.md |
+| `wiki/aba/raw/` | ABA raw source PDFs, spreadsheets, extracts | Not cataloged in wiki/index.md |
 | `archive/` | Historical records: sessions, changelogs, postmortems | — |
+| `governance/` | Vault quality remediation skills, runbooks, briefs | — |
 
 ---
 
@@ -169,7 +172,9 @@ Run after every ingest or on-demand to verify wiki structural integrity.
 
 ### How to run
 
-Use bash to scan `*.md` files. Exclude `sources/`, `.obsidian/`, `_system/`, `archive/`.
+Use bash to scan `*.md` files. Exclude `sources/`, `.obsidian/`, `wiki/aba/raw/`, `archive/`.
+
+Note: `wiki/aba/` follows its own ABA wiki schema — run lint on it separately.
 
 Example commands:
 ```bash
