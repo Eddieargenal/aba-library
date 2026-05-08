@@ -62,3 +62,11 @@ This file is **append-only**. Never overwrite. Never delete entries.
 - Added summary card to vault-compliance-rules.md
 - Fixed broken task-log → log references in: vault-initialization.md, vault-maintenance.md, QUICK.md, architecture.md
 - Removed non-existent indexes/templates.md reference from QUICK.md
+## [2026-05-08] lint | vault-wide audit — karpathy governance remediation
+- Broken wikilinks: 65 — relative-path wikilinks flagged; many resolve correctly in Obsidian (e.g. `_system/urban-drr-aba-wiki/`, `memory/categories/`, `../indexes/`). Manual verification recommended for: `../archive/CHANGELOG`, `../memory/governance`, `../memory/context`, `../memory/current-handoff`, `../memory/memory-rules`, `../memory/indexes/*.jsonl`, `../memory/categories/behavioral`, `../memory/categories/pending`, `../memory/categories/projects`, `../memory/categories/tools`
+- Orphan pages: 0 — all wiki/ and memory/categories/ pages are linked
+- Missing frontmatter fields (type/status/updated): 2 — memory/categories/outcomes.md, memory/categories/procedures.md
+- Stale pages (updated before 2026-02-07): 0
+- Issues found: 3 categories (65 potential broken links for manual review, 2 missing frontmatter)
+- Logged to unresolved: no
+- Remediation files changed: wiki/index.md, wiki/vault-compliance-rules.md, wiki/workflows/lint-plan.md, SCHEMA.md, wiki/diagnosis/karpathy-vault-quality-diagnosis-2026-05-08.md

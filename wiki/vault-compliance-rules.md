@@ -47,3 +47,7 @@ Optional but recommended governance signals
 - Append-only change history for major sections.
 - Automated frontmatter validation prior to publishing.
 
+---
+
+See also: [[index]] · [[../SCHEMA]] · [[workflows/lint-plan]]
+

@@ -149,5 +149,51 @@ Pages past their threshold revert to `stale` and must be re-verified before use.
 ## Governance Reference
 
 - Full 10 rules: [[vault-compliance-rules]]
+- On-wiki mirror: [[wiki/vault-compliance-rules]]
 - Quick rules card: [[memory/governance]]
 - Memory categories: [[memory/MEMORY]]
+- Lint plan: [[wiki/workflows/lint-plan]]
+
+---
+
+## Link Audit
+
+Run after every ingest or on-demand to verify wiki structural integrity.
+
+### What to check
+
+1. **Broken wikilinks** — `[[target]]` where the target `.md` file does not exist in the vault
+2. **Orphan pages** — files in `wiki/`, `memory/categories/`, `workflows/`, `tools/`, `agents/`, `prompts/` not linked from any other `.md` file
+3. **Missing frontmatter fields** — pages lacking `type:`, `status:`, or `updated:` in their frontmatter block
+4. **Stale pages** — pages with `updated:` past their category threshold (see Review Status Thresholds above)
+
+### How to run
+
+Use bash to scan `*.md` files. Exclude `sources/`, `.obsidian/`, `_system/`, `archive/`.
+
+Example commands:
+```bash
+# Find files missing required frontmatter
+grep -rL "^type:" --include="*.md" wiki/ memory/categories/ workflows/ tools/ agents/ prompts/
+
+# Find stale pages (updated before threshold date)
+grep -rl "updated:" --include="*.md" wiki/ | xargs grep -l "updated: 202[0-4]"
+
+# Find potential broken wikilinks (extract targets, check file existence)
+grep -roh "\[\[[^\]]*\]\]" --include="*.md" wiki/ | sed 's/.*\[\[//;s/\]\].*//' | sort -u
+```
+
+### Log target
+
+Append results to `memory/runtime/logs/log.md` using this format:
+```
+## [YYYY-MM-DD] lint | [scope]
+- Broken wikilinks: [count] — [list or "none"]
+- Orphan pages: [count] — [list or "none"]
+- Missing frontmatter: [count] — [list]
+- Stale pages: [count] — [list]
+- Issues found: [total]
+- Logged to unresolved: [yes/no]
+```
+
+Full procedure: [[wiki/workflows/lint-plan]]

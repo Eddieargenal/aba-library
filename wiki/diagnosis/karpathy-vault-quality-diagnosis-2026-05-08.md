@@ -1,9 +1,10 @@
 ---
 type: diagnosis
-status: draft
+status: validated
 updated: 2026-05-08
 title: Karpathy llm-wiki vault quality diagnosis
-tags: ['wiki','quality','audit','karpathy']
+sources: ['wiki/index.md', 'SCHEMA.md', 'memory/vault-compliance-rules.md']
+tags: ['wiki', 'quality', 'audit', 'karpathy', 'governance']
 ---
 
 # Executive summary
@@ -42,3 +43,25 @@ This diagnostic assesses the quality and governance of the Obsidian wiki vault u
 - A new vault-compliance-rules page exists in wiki space and links to the canonical memory rules.
 - A wiki lint page exists detailing steps and a sample lint report format.
 - A diagnosis page exists with a concrete remediation plan and next steps.
+---
+
+## Remediation Summary
+
+Remediation completed: 2026-05-08
+
+| # | Task | Status |
+|---|------|--------|
+| 1 | `wiki/index.md` frontmatter consolidated to single canonical block; `||` table corruption fixed; new pages added to index | ✅ Done |
+| 2 | `wiki/vault-compliance-rules.md` created — 10 rules, cross-linked from index and SCHEMA.md | ✅ Done |
+| 3 | `wiki/workflows/lint-plan.md` created — 10-step lint routine, output template, log destination | ✅ Done |
+| 4 | Vault-wide audit run — broken wikilinks (65 for manual review), orphans (0), missing frontmatter (2 pages), stale pages (0); results appended to `memory/runtime/logs/log.md` | ✅ Done |
+| 5 | `SCHEMA.md` `## Link Audit` section added with check descriptions, bash examples, and log format | ✅ Done |
+| 6 | This diagnosis page updated with remediation summary | ✅ Done |
+
+### Outstanding items from audit
+- 2 pages missing frontmatter (`memory/categories/outcomes.md`, `memory/categories/procedures.md`) — add `type:`, `status:`, `updated:` fields
+- 65 wikilinks flagged for manual verification (many resolve in Obsidian; priority: `../archive/CHANGELOG`, `../memory/governance`, `../memory/categories/behavioral/pending/projects/tools`)
+
+Next scheduled diagnostic: **2026-06-08** (30-day follow-up)
+
+References: [[../vault-compliance-rules]] · [[../workflows/lint-plan]] · [[../../SCHEMA]]

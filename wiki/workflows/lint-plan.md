@@ -1,7 +1,10 @@
 ---
 type: workflow
-status: planned
+status: validated
 updated: 2026-05-08
+title: Wiki Lint Plan
+sources: ['workflows/lint.md', 'SCHEMA.md']
+tags: ['lint', 'workflow', 'governance']
 ---
 
 # Lint Plan for Wiki Quality Governance
@@ -45,3 +48,7 @@ Templates for lint output (copy into report):
 ### Remediation plan
 - ...
 ```
+
+---
+
+See also: [[../index]] · [[../../SCHEMA]] · [[../../workflows/lint]] · [[../vault-compliance-rules]]
