@@ -29,9 +29,9 @@ Consolidating two knowledge bases into one vault: personal agent infrastructure 
 
 ## First Action
 
-- If session is vault work: read [[../SCHEMA]] first, then [[wiki/index]]
+- If session is vault work: read [[../SCHEMA]] first, then [[../wiki/index]]
 - If session is ABA/DRR work: read `wiki/aba/CLAUDE.md` for operating rules
-- If general task: check [[memory/categories/infrastructure]] for server coordinates
+- If general task: check [[categories/infrastructure]] for server coordinates
 
 ## Blockers
 

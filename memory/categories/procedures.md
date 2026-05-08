@@ -32,3 +32,24 @@ Step-by-step procedures with prerequisites and verification steps.
 
 ## Records
 
+<!-- Procedure entries below using the template above. Format: 🔹 [key] for agent-derived, 🎯 for user decisions -->
+
+### vault-aba-integration-2026-05-08
+- purpose: Merged _system/urban-drr-aba-wiki into wiki/aba/ as a unified vault structure
+- status: validated
+- source: user-directed integration work, 2026-05-08
+- updated: 2026-05-08
+- prerequisites:
+  - Vault git snapshot taken
+  - All ABA wiki files intact
+  - Core vault functioning
+- steps:
+  1. Moved _system/urban-drr-aba-wiki → wiki/aba/
+  2. Moved _system/briefs → governance/briefs/
+  3. Rewrote all external wikilinks (_system references → wiki/aba/)
+  4. Removed dead JSONL indexes (key-index, keyword-index, relations)
+  5. Fixed stale wikilinks (behavioral, projects, tools, pending categories)
+  6. Updated SCHEMA.md, 00_Start_Here.md, QUICK.md, wiki/index.md
+  7. Populated memory/context.md
+- verification: All wikilinks resolve, zero broken links outside archive/logs
+- failure_notes: wiki/index.md was accidentally wiped during write — restored from git

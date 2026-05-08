@@ -106,11 +106,11 @@ A separate, fully structured LLM wiki for urban disaster risk reduction and area
 
 | Resource | Path | Purpose |
 |---|---|---|
-| **Wiki index** | [[../wiki/aba/index]] | Master navigation — read first |
-| **Quick answers** | [[../wiki/aba/wiki/00-overview/qa-common-questions]] | Common field questions answered in <30 lines |
-| **Operating rules** | [[../wiki/aba/CLAUDE]] | How agents must work with this wiki |
-| **ABA definition** | [[../wiki/aba/wiki/02-concepts/aba-definition-one-pager]] | What ABA is, what it isn't, how to push back on misuse |
-| **Tool #01 quick ref** | [[../wiki/aba/wiki/00-overview/tool-01-quick-reference]] | ABA scoring model and decision rules in 50 lines |
+| **Wiki index** | [[aba/index]] | Master navigation — read first |
+| **Quick answers** | [[aba/wiki/00-overview/qa-common-questions]] | Common field questions answered in <30 lines |
+| **Operating rules** | [[aba/CLAUDE]] | How agents must work with this wiki |
+| **ABA definition** | [[aba/wiki/02-concepts/aba-definition-one-pager]] | What ABA is, what it isn't, how to push back on misuse |
+| **Tool #01 quick ref** | [[aba/wiki/00-overview/tool-01-quick-reference]] | ABA scoring model and decision rules in 50 lines |
 
 ---
 

@@ -32,7 +32,7 @@ See [[memory/vault-compliance-rules]] for full rules.
 | [[SCHEMA]] | LLM instruction doc — architecture, operations, conventions |
 | [[wiki/index]] | Master catalog — find any wiki page fast |
 | [[sources/README]] | Raw source documents — read-only layer |
-| [[wiki/aba/]] | Urban DRR + ABA wiki — humanitarian domain knowledge |
+| [[wiki/aba/index]] | Urban DRR + ABA wiki — humanitarian domain knowledge |
 | [[workflows/]] | Step-by-step task guides (vault + domain workflows) |
 | [[indexes/workflows]] | Workflow router (choose the right workflow first) |
 | [[prompts/]] | Prompt templates by tier |
