@@ -2,6 +2,8 @@
 type: memory-category
 category: outcomes
 status: active
+updated: 2026-05-08
+title: Outcomes Memory
 ---
 
 # Outcome Memory
@@ -27,3 +29,13 @@ Move resolved items from [[unresolved.md]] here.
 ## Records
 
 <!-- Add outcome records below using the template above. -->
+
+### hermes-tui-slash-debug-fix
+- decision_key: n/a
+- action_taken: Removed `console.log('[slash] handler called with:', cmd)` from `ui-tui/src/app/createSlashHandler.ts`; also removed a debug-heavy `/quit` implementation and duplicate dead-code commands (history, save, snapshot) from `core.ts`; rebuilt dist with `npm run build`
+- result: All slash commands functional again; user confirmed "it worked"
+- observed_at: 2026-05-08
+- impact: Ink TUI terminal rendering restored — raw console output inside an Ink process writes to the terminal stream directly, corrupting the UI so command output appeared invisible
+- lesson: Never leave `console.log` in TUI code that runs inside Ink; any stdout/stderr write outside Ink's render loop corrupts the terminal. Symptom looks like "commands not working" but is actually a rendering corruption.
+- applied_to: hermes-agent TUI (`ui-tui/`)
+- source_session: 2026-05-08
