@@ -115,7 +115,9 @@ For implementation teams, the document functions as both an evidence library (ci
 - [[../02-concepts/multi-sector-response-analysis]]
 - [[../02-concepts/participation-in-urban-response]]
 - [[../02-concepts/resilience]]
-- [[../02-concepts/implementation-sequencing]]
+- [[../02-concepts/multi-stakeholder-engagement]]
+- [[../02-concepts/pilot-to-scale]]
+- [[../02-concepts/multi-scale-programming]]
 
 # Links to tool pages
 - [[../04-tools/01-aba-feasibility-and-necessity-assessment-tool]]

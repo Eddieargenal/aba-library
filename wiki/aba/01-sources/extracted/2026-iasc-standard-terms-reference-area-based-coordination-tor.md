@@ -102,9 +102,9 @@ The document then specifies establishment criteria, chair selection and setup st
 - [[../02-concepts/area-based-approach]]
 - [[../02-concepts/area-based-coordination]]
 - [[../02-concepts/multi-sector-response-analysis]]
-- [[../02-concepts/protection-do-no-harm]]
+- [[../02-concepts/host-government-leadership]]
+- [[../02-concepts/multi-stakeholder-engagement]]
 - [[../02-concepts/participation-in-urban-response]]
-- [[../02-concepts/implementation-sequencing]]
 
 # Links to tool pages
 - [[../04-tools/06-stakeholder-coordination-mapping-tool]]

@@ -111,7 +111,9 @@ The core of the note is a six-step process from multi-sector needs/vulnerability
 # Links to concept pages
 - [[../02-concepts/multi-sector-response-analysis]]
 - [[../02-concepts/urban-systems-thinking]]
-- [[../02-concepts/protection-do-no-harm]]
+- [[../02-concepts/area-based-approach]]
+- [[../02-concepts/area-based-assessment]]
+- [[../02-concepts/whole-population-inclusion]]
 - [[../02-concepts/geographic-targeting]]
 - [[../02-concepts/area-based-coordination]]
 - [[../02-concepts/resilience]]

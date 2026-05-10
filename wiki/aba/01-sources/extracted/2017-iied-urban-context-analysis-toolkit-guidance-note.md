@@ -107,7 +107,8 @@ The note is explicit about scope: it is not a prescriptive programme design manu
 
 # Links to concept pages
 - [[../02-concepts/urban-systems-thinking]]
-- [[../02-concepts/stakeholder-power-mapping]]
+- [[../02-concepts/urban-context-analysis]]
+- [[../02-concepts/multi-stakeholder-engagement]]
 - [[../02-concepts/participation-in-urban-response]]
 - [[../02-concepts/geographic-targeting]]
 - [[../02-concepts/area-based-approach]]

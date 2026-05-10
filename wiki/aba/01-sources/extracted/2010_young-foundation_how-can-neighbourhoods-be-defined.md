@@ -112,10 +112,10 @@ Operationally, it reviews neighbourhood empowerment and governance approaches (e
 - Source URL is available in frontmatter; verify youngfoundation.org link is still live.
 
 # Links to concept pages
+- [[../02-concepts/neighbourhood-concept]]
 - [[../02-concepts/neighborhood-boundaries]]
+- [[../02-concepts/geographic-targeting]]
 - [[../02-concepts/participation-in-urban-response]]
-- [[../02-concepts/municipal-risk-governance]]
-- [[../02-concepts/stakeholder-power-mapping]]
 - [[../02-concepts/urban-systems-thinking]]
 
 # Links to tool pages

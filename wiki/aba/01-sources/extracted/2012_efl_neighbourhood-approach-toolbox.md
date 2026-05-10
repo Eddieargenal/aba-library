@@ -111,11 +111,11 @@ The toolbox also includes cases, practical do’s/don’ts, and an intervention 
 - Source URL is available in frontmatter; verify ef-l.eu link is still live.
 
 # Links to concept pages
+- [[../02-concepts/neighbourhood-concept]]
 - [[../02-concepts/neighborhood-boundaries]]
-- [[../02-concepts/stakeholder-power-mapping]]
-- [[../02-concepts/municipal-risk-governance]]
 - [[../02-concepts/participation-in-urban-response]]
-- [[../02-concepts/local-resource-leverage]]
+- [[../02-concepts/urban-context-analysis]]
+- [[../02-concepts/geographic-targeting]]
 
 # Links to tool pages
 - [[../04-tools/03-settlement-neighborhood-boundary-definition-tool]]

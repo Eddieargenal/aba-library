@@ -108,7 +108,9 @@ The toolkit organizes work into four cumulative sections: area identification, K
 - [[../02-concepts/area-based-approach]]
 - [[../02-concepts/geographic-targeting]]
 - [[../02-concepts/area-based-coordination]]
-- [[../02-concepts/urban-displacement-vulnerability]]
+- [[../02-concepts/area-based-assessment]]
+- [[../02-concepts/neighborhood-boundaries]]
+- [[../02-concepts/participation-in-urban-response]]
 - [[../02-concepts/multi-sector-response-analysis]]
 
 # Links to tool pages

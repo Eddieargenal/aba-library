@@ -115,8 +115,8 @@ It also reviews current humanitarian practice and identifies barriers to deeper 
 - [[../02-concepts/urban-systems-thinking]]
 - [[../02-concepts/area-based-approach]]
 - [[../02-concepts/geographic-targeting]]
-- [[../02-concepts/stakeholder-power-mapping]]
-- [[../02-concepts/municipal-risk-governance]]
+- [[../02-concepts/multi-scale-programming]]
+- [[../02-concepts/urban-context-analysis]]
 
 # Links to tool pages
 - [[../04-tools/04-urban-systems-diagnosis-tool]]

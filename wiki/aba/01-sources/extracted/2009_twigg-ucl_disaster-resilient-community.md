@@ -120,11 +120,12 @@ The document also highlights methodological cautions: resilience is an ideal rat
 - Mapping projects against all characteristics can expose gaps in ways that feel threatening or demoralizing if facilitation is weak (p. 25).
 
 # Links to concept pages
+- [[../02-concepts/disaster-risk-reduction]]
 - [[../02-concepts/resilience]]
-- [[../02-concepts/hazard-exposure-vulnerability-capacity]]
-- [[../02-concepts/participation-in-urban-response]]
-- [[../02-concepts/municipal-risk-governance]]
+- [[../02-concepts/risk-calculation]]
 - [[../02-concepts/build-back-better]]
+- [[../02-concepts/enabling-environment]]
+- [[../02-concepts/participation-in-urban-response]]
 
 # Links to tool pages
 - [[../04-tools/05-hevc-risk-mapping-tool]]

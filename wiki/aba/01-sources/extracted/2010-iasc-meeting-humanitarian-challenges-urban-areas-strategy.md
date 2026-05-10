@@ -108,11 +108,11 @@ A structured action matrix assigns leads and support roles to agencies and speci
 - Source URL has been corrected in frontmatter (original had typo 'Thttps://'); verify link is still live on the IASC website.
 
 # Links to concept pages
-- [[../02-concepts/urban-risk]]
+- [[../02-concepts/host-government-leadership]]
 - [[../02-concepts/area-based-coordination]]
-- [[../02-concepts/municipal-risk-governance]]
-- [[../02-concepts/protection-do-no-harm]]
-- [[../02-concepts/urban-displacement-vulnerability]]
+- [[../02-concepts/multi-stakeholder-engagement]]
+- [[../02-concepts/protection-in-urban-settings]]
+- [[../02-concepts/whole-population-inclusion]]
 
 # Links to tool pages
 - [[../04-tools/06-stakeholder-coordination-mapping-tool]]

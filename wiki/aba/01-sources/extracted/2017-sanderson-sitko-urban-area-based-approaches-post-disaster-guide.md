@@ -109,7 +109,10 @@ The core operational content is organized into ten principles aligned to the pro
 - [[../02-concepts/area-based-coordination]]
 - [[../02-concepts/participation-in-urban-response]]
 - [[../02-concepts/geographic-targeting]]
-- [[../02-concepts/implementation-sequencing]]
+- [[../02-concepts/adaptive-management]]
+- [[../02-concepts/contribution-vs-attribution]]
+- [[../02-concepts/multi-scale-programming]]
+- [[../02-concepts/pilot-to-scale]]
 - [[../02-concepts/multi-sector-response-analysis]]
 
 # Links to tool pages

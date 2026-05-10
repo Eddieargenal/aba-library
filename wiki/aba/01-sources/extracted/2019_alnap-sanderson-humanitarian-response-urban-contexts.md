@@ -108,9 +108,11 @@ It is structured in four major blocks: urban context, cross-cutting themes/issue
 - [[../02-concepts/urban-systems-thinking]]
 - [[../02-concepts/area-based-approach]]
 - [[../02-concepts/area-based-coordination]]
-- [[../02-concepts/urban-displacement-vulnerability]]
+- [[../02-concepts/adaptive-management]]
+- [[../02-concepts/urban-context-analysis]]
+- [[../02-concepts/contribution-vs-attribution]]
+- [[../02-concepts/protection-in-urban-settings]]
 - [[../02-concepts/multi-sector-response-analysis]]
-- [[../02-concepts/protection-do-no-harm]]
 
 # Links to tool pages
 - [[../04-tools/04-urban-systems-diagnosis-tool]]

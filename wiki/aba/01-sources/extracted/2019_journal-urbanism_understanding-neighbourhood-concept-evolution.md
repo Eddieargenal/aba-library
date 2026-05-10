@@ -101,10 +101,10 @@ The review traces conceptual roots to planning (for example, Howard/Perry lineag
 
 # Links to concept pages
 - [[../02-concepts/neighborhood-boundaries]]
+- [[../02-concepts/neighbourhood-concept]]
 - [[../02-concepts/area-based-approach]]
 - [[../02-concepts/geographic-targeting]]
 - [[../02-concepts/participation-in-urban-response]]
-- [[../02-concepts/urban-displacement-vulnerability]]
 
 # Links to tool pages
 - [[../04-tools/03-settlement-neighborhood-boundary-definition-tool]]

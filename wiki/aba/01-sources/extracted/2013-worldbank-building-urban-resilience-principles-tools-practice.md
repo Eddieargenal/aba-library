@@ -110,9 +110,9 @@ Operationally, the handbook highlights decision support through risk information
 
 # Links to concept pages
 - [[../02-concepts/resilience]]
-- [[../02-concepts/urban-risk]]
-- [[../02-concepts/hazard-exposure-vulnerability-capacity]]
-- [[../02-concepts/municipal-risk-governance]]
+- [[../02-concepts/risk-calculation]]
+- [[../02-concepts/disaster-risk-reduction]]
+- [[../02-concepts/build-back-better]]
 - [[../02-concepts/urban-systems-thinking]]
 
 # Links to tool pages

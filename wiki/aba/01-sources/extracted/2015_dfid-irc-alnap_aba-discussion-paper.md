@@ -108,9 +108,10 @@ The paper concludes with recommendations for context analysis, shared terminolog
 # Links to concept pages
 - [[../02-concepts/area-based-approach]]
 - [[../02-concepts/area-based-coordination]]
-- [[../02-concepts/urban-governance]]
-- [[../02-concepts/urban-displacement-vulnerability]]
-- [[../02-concepts/stakeholder-power-mapping]]
+- [[../02-concepts/multi-scale-programming]]
+- [[../02-concepts/multi-stakeholder-engagement]]
+- [[../02-concepts/geographic-targeting]]
+- [[../02-concepts/participation-in-urban-response]]
 
 # Links to tool pages
 - [[../04-tools/06-stakeholder-coordination-mapping-tool]]
