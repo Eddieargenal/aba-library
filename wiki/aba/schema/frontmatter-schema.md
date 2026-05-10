@@ -11,7 +11,7 @@ source_id: [canonical-filename-without-ext]
 title: [full title]
 authors_or_orgs: [list]
 year: [YYYY or range]
-canonical_file: ../raw/pdf/[canonical-filename].pdf
+canonical_file: ../raw/[canonical-filename].pdf
 original_filename: [from source_metadata.csv]
 source_url: [URL or "unknown"]
 source_matrix_row: [row numbers]

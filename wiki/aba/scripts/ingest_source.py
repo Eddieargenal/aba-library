@@ -9,7 +9,7 @@ Intended behavior:
 3. Copy PDF to raw/pdf/
 4. Extract text using pdfplumber or pdfminer to raw/extracted/
 5. Parse extracted text to generate source page frontmatter
-6. Create or update source page in wiki/01-sources/
+6. Create or update source page in ./01-sources/extracted/
 7. Update affected concept, tool, lifecycle, and field instrument pages
 8. Update index.md
 9. Append to log.md
@@ -19,4 +19,4 @@ Usage: python ingest_source.py /path/to/document.pdf [--dry-run]
 
 Dependencies: pdfplumber, openpyxl, gitpython
 """
-raise NotImplementedError("Script not yet implemented. See wiki/13-agent-prompts/ingest-new-source.md for manual procedure.")
+raise NotImplementedError("Script not yet implemented. See ./13-agent-prompts/ingest-new-source.md for manual procedure.")
