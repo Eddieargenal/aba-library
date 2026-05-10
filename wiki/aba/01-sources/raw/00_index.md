@@ -1,32 +1,74 @@
 ---
 type: section-index
 status: active
-updated: 2026-05-07
+pdf_count: 25
+extracted_count: 23
+unextracted_count: 2
+updated: 2026-05-11
 ---
 
-# 01 — Sources
+# 01-sources / raw
 
-Citation metadata pages for 18 primary literature sources underpinning all wiki content. Each page records title, authors, year, relevance, and ingestion status. Use to find citation details — do not open ../raw/ files to answer domain questions.
+Immutable PDF archive. **Never modify files in this directory.** Never open these PDFs to answer a domain question — use the synthesis pages in `../extracted/` instead.
 
-## Documents
+This index tracks every PDF stored here, its extraction status, and a pointer to its extracted counterpart where one exists.
 
-| Document                                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]                 | **What:** Foundational IIED review defining the three-criteria ABA standard through case studies in Kabul, Port-au-Prince, Baghdad, and Tacloban. **Why:** The primary definitional source — every ABA concept, tool, and lifecycle stage traces back to this document. **When/How:** Cite when defining ABA criteria or distinguishing genuine ABA from location-based programming; extracted text available at ../../raw/extracted/. |
-| [[2009_twigg_characteristics-disaster-resilient-community]]                 | **What:** Twigg/DFID guidance note providing a comprehensive framework of community resilience characteristics. **Why:** Foundational reference for community-based DRR activities, engagement platforms, and MEL indicator sets in urban response. **How:** Cite when designing community resilience indicators or community engagement checklists.                                                                                |
-| [[2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy]]                    | **What:** The 2010 IASC inter-agency strategy for urban humanitarian response. **Why:** Establishes coordination principles and priorities underpinning area-based approaches and cluster-municipal alignment. **How:** Cite when justifying inter-agency coordination architecture or urban humanitarian strategy alignment.                                                                                                       |
-| [[2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook]] | **What:** World Bank/GFDRR handbook on risk-based city and neighbourhood screening, resilience investment logic, and municipal integration frameworks. **Why:** Primary reference for risk-based area selection and transition planning linked to municipal systems. **How:** Cite when designing risk-based area selection criteria or municipal integration plans.                                                                |
-| [[2015_undrr_sendai-framework-drr-2015-2030-framework]]                               | **What:** The global Sendai Framework defining four DRR priorities — risk understanding, governance, investment in resilience, and preparedness. **Why:** Used to align urban ABA programming with DRR strategy and Build Back Better principles. **How:** Cite when justifying DRR alignment or Sendai priority mapping in programme design.                                                                                       |
-| [[2016_campbell_stepping-back-understanding-cities-systems-guide]]                    | **What:** ALNAP guide providing the conceptual foundation for urban systems thinking in humanitarian response. **Why:** Essential for ABA appropriateness decisions and area diagnosis — explains how cities function as interconnected systems. **How:** Cite when applying systems thinking to area diagnosis or justifying multi-sector interdependence analysis.                                                                |
-| [[2017_ifrc_building-urban-resilience-guide]]                                         | **What:** IFRC guide for Red Cross/Red Crescent engagement in urban resilience programming. **Why:** Provides urban resilience action design principles applicable to integrated area strategy and technical design. **How:** Cite when designing RCRC-led area strategies or urban resilience investment logic.                                                                                                                    |
-| [[2017_irc_urban-context-analysis-toolkit-guidance-note]]                             | **What:** IRC toolkit covering stakeholder and power mapping, service gap analysis, market mapping, and referral pathway design. **Why:** One of the most operationally detailed urban analysis toolkits — primary reference for area profile and systems diagnosis. **How:** Cite when designing stakeholder mapping instruments, service functionality assessments, or referral pathways.                                         |
-| [[2017_mohiddin-smith-phelps_urban-response-analysis-framework]]                      | **What:** IIED guidance note providing the Urban Response Analysis Framework (URAF) for integrated multi-sector response design. **Why:** Primary tool for comparing response options — cash, in-kind, direct works, referral, advocacy — in urban contexts. **How:** Cite when designing response option comparison matrices or justifying modality selection.                                                                     |
-| [[2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]              | **What:** IIED operational guide for urban ABA in post-disaster contexts, spanning suitability, area selection, participatory planning, MEL, and handover. **Why:** The most comprehensive ABA operational reference — covers all major lifecycle stages. **How:** Most frequently cited source in this wiki; cite across lifecycle stages from appropriateness decision through transition.                                        |
-| [[2017_undrr_how-to-make-cities-more-resilient-handbook]]                             | **What:** UNDRR handbook providing the Ten Essentials for Making Cities Resilient framework for municipal DRR diagnostics. **Why:** Used for municipal DRR diagnostic assessments and technical design checklists in area-based programmes targeting municipal resilience. **How:** Cite when designing municipal engagement strategies or DRR technical design checklists.                                                         |
-| [[2019_alnap_barrio-mio-katye-neighbourhood-approach-cities-case-study]]              | **What:** ALNAP case study documenting PCI's neighbourhood-based approach in Guatemala City and Port-au-Prince. **Why:** Provides empirical evidence for area-based approaches in informal urban settlements in LAC contexts. **How:** Cite when supporting neighbourhood approach design or documenting cross-neighbourhood targeting tensions.                                                                                    |
-| [[2019_alnap_global-practice-review-urban-humanitarian-response]]                     | **What:** ALNAP Global Practice Review 12 covering protection risks, sector design, sequencing, market programming, and outcome harvesting in urban humanitarian response. **Why:** The most comprehensive global review of urban humanitarian practice — a primary reference across multiple lifecycle stages. **How:** Cite for protection risks, sector design justifications, and outcome harvesting methodology.               |
-| [[2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]                     | **What:** Global Shelter Cluster/USWG multi-case compendium of ABA implementations across urban settings. **Why:** Provides evidence for settlement delineation, area strategy design, intervention packages, and scale-up learning. **How:** Cite when justifying area selection logic, intervention package design, or scale-up decisions.                                                                                        |
-| [[2019_reach-unhcr_area-based-assessment-key-informants-practical-guide]]             | **What:** REACH/UNHCR practical guide for area-based assessments using key informant interviews, covering sampling, questionnaire design, data quality, and analysis. **Why:** The primary methodological reference for area profile and reassessment field work. **How:** Cite when designing KII sampling strategy, area assessment questionnaires, or data quality checks.                                                       |
-| [[2026_iasc_standard-terms-reference-area-based-coordination]]                        | **What:** The most recent IASC standard defining terms of reference for area-based coordination mechanisms. **Why:** The authoritative reference for designing coordination structures in urban ABA programmes. **How:** Cite when designing area coordination ToRs, actor responsibility matrices, or cluster-area coordination interfaces.                                                                                        |
-| [[0000_stronger-cities-consortium_umvat-guidance-note]]                            | **What:** Stronger Cities Consortium guidance note on the Urban Multi-Sector Vulnerability Assessment Tool (UMVAT) for displacement contexts. **Why:** Provides a multi-sector vulnerability assessment tool for urban displacement — applicable to HEVC mapping and area profile development. **How:** Cite when designing vulnerability assessment instruments in contexts with significant IDP populations.                      |
-| [[2020_iasc_meeting-humanitarian-challenges-urban-areas-strategy]]                    | The 2020 update to the IASC urban humanitarian strategy — PDF file is 0 bytes (empty), content pending extraction. Expected to provide updated inter-agency coordination principles and urban response guidance. See evidence-gaps-to-fill.                                                                                                                                                                                         |
+**Extraction protocol:** `../../13-agent-prompts/extract-source-from-pdf.md`
+
+---
+
+## PDF inventory
+
+| PDF filename | Author(s) | Year | Short title | Extracted? |
+|---|---|---|---|---|
+| `2009_twigg-ucl_disaster-resilient-community.pdf` | Twigg / UCL | 2009 | Disaster-Resilient Community | ✅ [[../extracted/2009_twigg-ucl_disaster-resilient-community\|extracted]] |
+| `2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf` | IASC | 2010 | IASC Urban Strategy *(underscore)* | ⚠️ Duplicate — see known issues |
+| `2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf` | IASC | 2010 | IASC Urban Strategy *(hyphen — canonical)* | ✅ [[../extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy\|extracted]] |
+| `2010_young-foundation_how-can-neighbourhoods-be-defined.pdf` | Young Foundation | 2010 | How Can Neighbourhoods Be Defined? | ✅ [[../extracted/2010_young-foundation_how-can-neighbourhoods-be-defined\|extracted]] |
+| `2012_efl_neighbourhood-approach-toolbox.pdf` | EFL | 2012 | Neighbourhood Approach Toolbox | ✅ [[../extracted/2012_efl_neighbourhood-approach-toolbox\|extracted]] |
+| `2013-worldbank-building-urban-resilience-principles-tools-practice.pdf` | World Bank / GFDRR | 2013 | Building Urban Resilience | ✅ [[../extracted/2013-worldbank-building-urban-resilience-principles-tools-practice\|extracted]] |
+| `2015_dfid-irc-alnap_aba-discussion-paper.pdf` | DFID / IRC | 2015 | ABA Discussion Paper | ✅ [[../extracted/2015_dfid-irc-alnap_aba-discussion-paper\|extracted]] |
+| `2015-parker-maynard-humanitarian-response-urban-crises-aba-review.pdf` | Parker & Maynard / IIED | 2015 | Humanitarian Response to Urban Crises | ✅ [[../extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review\|extracted]] |
+| `2015-undrr-sendai-framework-drr-2015-2030-framework.pdf` | UNDRR | 2015 | Sendai Framework 2015–2030 | ✅ [[../extracted/2015-undrr-sendai-framework-drr-2015-2030-framework\|extracted]] |
+| `2016-campbell-stepping-back-understanding-cities-systems-guide.pdf` | Campbell / ALNAP | 2016 | Stepping Back | ✅ [[../extracted/2016-campbell-stepping-back-understanding-cities-systems-guide\|extracted]] |
+| `2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf` | Global Shelter Cluster | 2019 ed. | ABA Compendium ⚠️ Space in filename | ✅ [[../extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies\|extracted]] |
+| `2017-ifrc-building-urban-resilience-guide.pdf` | IFRC | 2017 | IFRC Urban Resilience Guide | ✅ [[../extracted/2017-ifrc-building-urban-resilience-guide\|extracted]] |
+| `2017-iied-urban-context-analysis-toolkit-guidance-note.pdf` | IRC / IIED | 2017 | Urban Context Analysis Toolkit | ✅ [[../extracted/2017-iied-urban-context-analysis-toolkit-guidance-note\|extracted]] |
+| `2017-response-option-comparison-matrix-framework.pdf` | Mohiddin, Smith, Phelps / NRC–IIED | 2017 | Urban Response Analysis Framework (URAF) | ✅ [[../extracted/2017-response-option-comparison-matrix-framework\|extracted]] |
+| `2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf` | Sanderson & Sitko / World Vision–IIED | 2017 | Post-Disaster ABA Guide | ✅ [[../extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide\|extracted]] |
+| `2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf` | UNDRR (pub. as UNISDR) | 2017 | Making Cities Resilient Handbook | ✅ [[../extracted/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition\|extracted]] |
+| `2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf` | Allen / Building Better NZ | 2018 | Concepts of Neighbourhood | ✅ [[../extracted/2018_allen-building-better_concepts-of-neighbourhood-literature-review\|extracted]] |
+| `2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf` | Sanderson / ODI–HPN | 2019 | Good Practice Review 12 | ✅ [[../extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts\|extracted]] |
+| `2019_journal-urbanism_understanding-neighbourhood-concept-evolution.pdf` | Baffoe / Sage | 2019 | Neighbourhood Concept Evolution | ✅ [[../extracted/2019_journal-urbanism_understanding-neighbourhood-concept-evolution\|extracted]] |
+| `2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.pdf` | Campbell / ALNAP | 2019 | Barrio Mio and Katye | ✅ [[../extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study\|extracted]] |
+| `2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf` | REACH / UNHCR | 2019 | Area-Based Assessment with Key Informants | ✅ [[../extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide\|extracted]] |
+| `2019-replication-scale-up-learning-note-framework.pdf` | Global Shelter Cluster | 2019 | Replication / Scale-Up Learning Note | ✅ [[../extracted/2019-replication-scale-up-learning-note-framework\|extracted]] ⚠️ Possible overlap with compendium |
+| `2021_unhcr_aba-humanitarian-early-recovery.pdf` | UNHCR | 2021 | ABA in Humanitarian Early Recovery | ❌ Not yet extracted |
+| `2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf` | UNHCR | 2024 | Syria ABA Factsheet (Apr 2024) | ❌ Not yet extracted |
+| `2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf` | IASC | 2026 | ABC Terms of Reference | ✅ [[../extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor\|extracted]] |
+
+---
+
+## Ingestion queue
+
+Two PDFs require extraction before they can be cited in concept or tool pages.
+
+| PDF | Priority | Notes |
+|---|---|---|
+| `2021_unhcr_aba-humanitarian-early-recovery.pdf` | High | UNHCR ABA guidance — likely adds humanitarian early recovery framing missing from current source set |
+| `2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf` | Medium | Recent factsheet — may provide updated operational evidence; verify depth before full extraction |
+
+Use `../../13-agent-prompts/extract-source-from-pdf.md` for both.
+
+---
+
+## Known issues
+
+**Duplicate IASC 2010 PDF.**
+Two PDFs of the same document exist with different naming conventions (underscore vs hyphen). The hyphen version (`2010-iasc-...`) is canonical and has the active extracted file. The underscore version (`2010_iasc_...`) has a corresponding extracted file that should be reviewed for redundancy and deleted if it duplicates the hyphen extraction.
+
+**Space in Global Shelter Cluster filename.**
+`2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf` contains a space in the filename, which can break shell scripts and some link resolvers. Rename to `2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.pdf` when convenient; update the extracted file's `canonical_file` field to match.
+
+**Possible content overlap — two Global Shelter Cluster files.**
+`2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf` and `2019-replication-scale-up-learning-note-framework.pdf` may cover the same or overlapping content. Verify both PDFs before citing either in new concept or tool pages.
