@@ -2,7 +2,7 @@
 type: concept
 status: active
 maturity: established
-source_count: 5
+source_count: 8
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
   - tool-02-area-selection-matrix
@@ -12,7 +12,7 @@ related_lifecycle_stages:
   - "1. Area selection and boundary definition"
   - "5. Integrated area strategy"
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Definition
@@ -139,6 +139,18 @@ From Parker & Maynard (2015):
 
 ---
 
+## Contested dimensions
+
+**Whether all three criteria must be simultaneously present:** Parker & Maynard (2015) are explicit that all three defining characteristics — geographic targeting, participatory, and multi-sectoral — must be integral to programme delivery for it to qualify as area-based (p. 21). This is the strictest formulation in the source set. Other sources treat the three criteria as tendencies or orientations rather than binary requirements: DFID/IRC/ALNAP (2015) define ABA through five characteristics (geographic focus, multi-sector, systemic lens, participation, coordination) without specifying simultaneity (pp. 6-7); the Global Shelter Cluster (2019) emphasizes whole-population targeting and four core characteristics but does not mandate all four as conditions of ABA legitimacy (pp. 9-10); Sanderson & Sitko (2017) present five elements of effective post-disaster ABA without a logical AND requirement (p. 12); REACH/UNHCR (2019) add collaborative framing and context-adaptability as requirements not present in other definitions (p. 5). The result is that the same programme may qualify as ABA under some source definitions but not others.
+
+**Neighbourhood approach vs. area-based approach:** Campbell (2019) uses "neighbourhood approach" throughout the Barrio Mio and Katye case documentation without distinguishing it from ABA (pp. 1-17). Parker & Maynard (2015, Box 2) specify that neighbourhood/settlement approach is a scale descriptor, not a design logic — it can be ABA if all three criteria are met, but the term does not imply it. This semantic overlap creates category ambiguity in reporting and cross-programme comparison.
+
+**Scale ambiguity:** The Global Shelter Cluster (2019) documents ABA operating at scales ranging from neighbourhood clusters to city-wide programmes, with different staffing, process, and coordination implications at each scale (p. 11). Parker & Maynard (2015) note that the area need not mean neighbourhood and that scale should be defined by the problem, but all four of their primary case studies operated at neighbourhood or district level (pp. 9-10). No source specifies whether the three-criteria definition holds consistently across scales, or whether participatory design and multi-sector integration work differently at city level than at neighbourhood level.
+
+**Whether ABA is appropriate in acute emergency phases:** All eight sources ground ABA in contexts where participatory design and multi-sector integration are feasible — typically stabilization or recovery phases. Parker & Maynard (2015) specify that participatory processes may require 12+ months before programme activities begin (p. 16). No source resolves whether a programme in an acute onset emergency that compromises the participatory criterion should be classified as non-ABA, as proto-ABA, or as ABA with a justified exception.
+
+---
+
 # Open Questions
 
 - When is ABA appropriate in acute onset emergencies where participatory design is not feasible?
@@ -155,8 +167,31 @@ From Parker & Maynard (2015):
 - [[../04-tools/10-integrated-area-strategy-builder]]
 
 # Links to Source Pages
-- [[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]] ✅ ingested
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
-- [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]
-- [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]]
+- [[../01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]] ✅ ingested
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
+- [[../01-sources/extracted/2019-gsc-uswg-area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]]
+- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]]
+- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]]
+- [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]]
+- [[../01-sources/extracted/2015-dfid-irc-alnap-humanitarian-response-urban-areas-discussion-paper]]
+
+---
+
+## References
+
+Campbell, L. (2019). *Barrio Mio and Katye: PCI's neighbourhood approach in cities*. ALNAP.
+
+DFID/IRC/ALNAP. (2015). *Humanitarian response in urban areas: Area-based approaches* (Discussion paper). DFID/IRC/ALNAP.
+
+Global Shelter Cluster Urban Settlements Working Group. (2019). *Area-based approaches in urban settings: Compendium of case studies (May 2019 edition)*. Global Shelter Cluster.
+
+IASC. (2026). *Standard terms of reference for area-based coordination*. Inter-Agency Standing Committee.
+
+Parker, C., & Maynard, V. (2015). *Humanitarian response to urban crises: A review of area-based approaches*. IIED/DFID/IRC/ALNAP.
+
+REACH/UNHCR. (2019). *Area-based assessment with key informants: A practical guide*. IMPACT Initiatives/UNHCR.
+
+Sanderson, D. (2019). *Humanitarian response in urban contexts (Good Practice Review 12)*. ODI/Humanitarian Practice Network.
+
+Sanderson, D., & Sitko, P. (2017). *Urban area-based approaches in post-disaster contexts: Guidance note for humanitarian practitioners*. World Vision/IIED/Stronger Cities Initiative.

@@ -9,7 +9,7 @@ related_tools:
 related_lifecycle_stages:
   - "3. Community and stakeholder engagement platform"
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Definition
@@ -129,6 +129,32 @@ From Parker & Maynard: do not promise community-driven design in an 18-month pro
 - [[../04-tools/07-community-engagement-platform-tool]]
 
 # Links to Source Pages
-- [[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]] ✅ ingested
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]
+- [[../01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]] — primary evidence base; defines participation as ABA criterion and documents community-driven vs community-informed distinction
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — participatory assessment as Principle 1; styles of engagement framework
+- [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]] — iterative learning and participation in urban MEL
+- [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]] — participatory area delineation via MFGDs; community engagement in assessment design
+- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]] — community-led practice as one of six complexity-navigation approaches; PCI's convenor role model
+
+---
+
+## Contested dimensions
+
+**Informing vs. deciding:** Parker & Maynard (2015) find that in practice "local residents contribute to processes established by humanitarian agencies, rather than humanitarian agencies supporting local residents to drive their own process" (p. 19). The literature consistently describes the ideal as community-driven but documents the empirical reality as predominantly community-informed. This gap is not resolved in the current source set.
+
+**Participation and speed:** Sanderson & Sitko (2017) position participatory assessment as Principle 1 of post-disaster ABA but acknowledge that acute emergency phases compress timelines in ways that are structurally incompatible with genuine co-design. The tension between participatory rigour and emergency response speed is flagged by multiple sources but not resolved.
+
+**Who counts as the community:** Parker & Maynard (2015) specify that participation mechanisms must actively include women, youth, elderly, persons with disabilities, tenants, displaced populations, and minority groups (pp. 10, 19). Campbell (2019) documents that PCI's Barrio Mio programme explicitly used participatory enumeration to capture informal settlement populations not captured in administrative records (pp. 40, 42). The gap between who attends community meetings and who constitutes the community is a recurring operational failure mode.
+
+---
+
+## References
+
+Campbell, L. (2019). *Barrio Mio and Katye: PCI's neighbourhood approach in cities*. ALNAP.
+
+Parker, C., & Maynard, V. (2015). *Humanitarian response to urban crises: A review of area-based approaches*. IIED/DFID/IRC/ALNAP.
+
+REACH/UNHCR. (2019). *Area-based assessment with key informants: A practical guide*. IMPACT Initiatives/UNHCR.
+
+Sanderson, D. (2019). *Humanitarian response in urban contexts (Good Practice Review 12)*. ODI/Humanitarian Practice Network.
+
+Sanderson, D., & Sitko, P. (2017). *Urban area-based approaches in post-disaster contexts: Guidance note for humanitarian practitioners*. World Vision/IIED/Stronger Cities Initiative.

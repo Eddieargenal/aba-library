@@ -9,7 +9,7 @@ related_tools:
 related_lifecycle_stages:
   - "1. Area selection and boundary definition"
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Definition
@@ -121,6 +121,35 @@ From Parker & Maynard (2015) case studies:
 - [[../04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
 
 # Links to Source Pages
-- [[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]] ✅ ingested
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]] — primary evidence base; defines boundary types and scale question
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — location-first programming method; area selection guidance
+- [[../01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies]] — boundary scale typology and coordination implications
+- [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]] — community vs service area distinction; boundary as assessment prerequisite
+- [[../01-sources/extracted/2019_journal-urbanism_understanding-neighbourhood-concept-evolution]] — theoretical basis for boundary typology choices
+- [[../01-sources/extracted/2018_allen-building-better_concepts-of-neighbourhood-literature-review]] — resident-defined vs administrative boundary divergence
+
+---
+
+## Contested dimensions
+
+**Administrative vs. social boundary legitimacy:** Administrative boundaries are operationally convenient and support government partnership, but Allen (2018) documents that "resident-defined neighbourhood boundaries frequently diverge from administrative boundaries" (pp. 37, 53). Boundaries drawn on administrative logic without social validation risk misidentifying community identities and excluding sub-groups whose social geography crosses or is subdivided by administrative lines.
+
+**Inclusive vs. selective targeting within the area:** Parker & Maynard (2015) document both approaches — NRC Baghdad used inclusive whole-settlement targeting regardless of displacement status (p. 9), while KASS Kabul and CRS Tacloban used selective household identification within defined geographic zones (p. 9). Neither is inherently superior; the choice depends on whether the primary risk is exclusion-driven tension or resource misallocation.
+
+**Scale ambiguity:** The Global Shelter Cluster (2019) notes that ABA scale can range from neighbourhood to city level, each with different staffing, process, and coordination implications (p. 11). The appropriate scale is not derivable from the concept alone and requires context-specific decision-making.
+
+---
+
+## References
+
+Allen, N. (2018). *Concepts of neighbourhood: A review of the literature* (Working Paper 18-02). Building Better Homes, Towns and Cities National Science Challenge.
+
+Baffoe, G. (2019). Understanding the neighbourhood concept and its evolution: A review. *Environment and Urbanization Asia, 10*(1). https://doi.org/10.1177/0975425319859115
+
+Global Shelter Cluster Urban Settlements Working Group. (2019). *Area-based approaches in urban settings: Compendium of case studies (May 2019 edition)*. Global Shelter Cluster.
+
+Parker, C., & Maynard, V. (2015). *Humanitarian response to urban crises: A review of area-based approaches*. IIED/DFID/IRC/ALNAP.
+
+REACH/UNHCR. (2019). *Area-based assessment with key informants: A practical guide*. IMPACT Initiatives/UNHCR.
+
+Sanderson, D., & Sitko, P. (2017). *Urban area-based approaches in post-disaster contexts: Guidance note for humanitarian practitioners*. World Vision/IIED/Stronger Cities Initiative.
