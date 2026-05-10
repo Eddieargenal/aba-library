@@ -1,33 +1,101 @@
 ---
 type: section-index
 status: active
-updated: 2026-05-07
+concept_count: 25
+updated: 2026-05-11
 ---
 
 # 02 — Concepts
 
-Core concept pages covering the foundational ideas that appear across tools, frameworks, and lifecycle stages. 4 pages are fully populated; 15 are draft stubs with basic definitions only. Use when a term needs explanation before answering a question.
+All concept pages in this section were written from the bottom up: raw candidates extracted from `# Key concepts` sections across 23 source files, clustered into 24 families, then developed into academic short papers citing sources and documenting tensions. See [[concept-cluster-map]] for the full cluster map and build rationale.
 
-## Documents
+**Maturity levels:** `established` = 3+ sources + counterexamples + open questions + tool link / `sapling` = 2+ sources with evidence base / `seed` = 1–2 sources, evidence base thin.
 
-| Document | Description |
+**For AI agents:** Read the concept page for the relevant term before answering domain questions. Use source pages (in `01-sources/extracted/`) for citation metadata only — never open raw PDFs to answer questions.
+
+---
+
+## Quick-reference table
+
+| Concept | File | Maturity | Sources | One-line summary |
+|---|---|---|---|---|
+| Area-based approach | [[area-based-approach]] | established | 8 | Geographically targeted, participatory, multi-sectoral approach — all three criteria must be present simultaneously |
+| Geographic targeting | [[geographic-targeting]] | established | 6 | Area as primary programme entry point; boundary type (administrative vs physical vs social) is a design variable |
+| Participation in urban response | [[participation-in-urban-response]] | contested | 5 | Community-driven (ideal) vs. community-informed (documented reality) — the gap is the central tension |
+| Whole-population inclusion | [[whole-population-inclusion]] | seed | 2 | Target all area residents regardless of status to reduce IDP/host tensions; inclusive vs selective is a context design choice |
+| Multi-sector response analysis | [[multi-sector-response-analysis]] | sapling | 6 | Genuine sectoral integration vs parallel sector delivery in the same area — a distinction frequently lost in practice |
+| Area-based coordination | [[area-based-coordination]] | sapling | 4 | Light, time-bound, geography-based coordination complementing — not replacing — the cluster system |
+| Multi-stakeholder engagement | [[multi-stakeholder-engagement]] | sapling | 8 | Structured involvement of all actor types; contested on who leads (government, communities, or all equally) |
+| Host-government leadership | [[host-government-leadership]] | seed | 2 | Governments lead or coordinate response; parallel humanitarian structures undermine sustainability |
+| Convenor role | [[convenor-role]] | seed | 2 | Shift from direct implementer to facilitator of partner-driven replication; operational mechanism for scale |
+| Multi-scale programming | [[multi-scale-programming]] | sapling | 6 | Neighbourhood↔city linkage; all sources agree it is necessary; none resolves the structural mismatch with programme cycles |
+| Pilot-to-scale | [[pilot-to-scale]] | sapling | 2 | Demonstrate at small scale → replicate through partners; whether this produces city-level change remains empirically unproven |
+| Adaptive management | [[adaptive-management]] | sapling | 3 | Structured flexibility and iterative revision; tension with logframe accountability systems designed for output delivery |
+| Urban systems thinking | [[urban-systems-thinking]] | sapling | 5 | Five-domain typology (economy, governance, social, infrastructure, space); spatial focus must not restrict system analysis |
+| Urban context analysis | [[urban-context-analysis]] | sapling | 2 | Examines why conditions exist (system dynamics, actor interests) — distinct from needs assessment which examines what needs exist |
+| Neighbourhood concept | [[neighbourhood-concept]] | sapling | 3 | Three competing typologies (Young Foundation, Allen, Baffoe); no single definition; the debate is the content |
+| Neighborhood boundaries | [[neighborhood-boundaries]] | sapling | 6 | Administrative, physical, and social boundary types; resident-defined boundaries diverge systematically from administrative ones |
+| Disaster risk reduction | [[disaster-risk-reduction]] | sapling | 3 | Systematic risk identification, assessment, and reduction; Sendai (2015) supersedes Hyogo with broader scope and governance emphasis |
+| Resilience | [[resilience]] | sapling | 5 | Four non-interchangeable definitions (Twigg, World Bank, UNISDR, IFRC); same word, different referents — do not synthesize |
+| Risk calculation | [[risk-calculation]] | sapling | 3 | Risk = hazard × exposure × vulnerability; formula consistent; operationalizing vulnerability in informal urban settings is contested |
+| Build back better | [[build-back-better]] | sapling | 3 | Reduce future risk through recovery, not just restore pre-disaster conditions; Sendai requires pre-disaster planning, not post-disaster improvisation |
+| Enabling environment | [[enabling-environment]] | seed | 1 | Institutional, policy, and socio-economic conditions that shape what community-level programmes can achieve and sustain |
+| Area-based assessment | [[area-based-assessment]] | seed | 1 | Data methodology for ABA; area boundary definition must precede KI selection; community areas ≠ service areas |
+| Contribution vs attribution | [[contribution-vs-attribution]] | seed | 2 | Multi-actor ABA programmes require contribution evaluation, not single-agency attribution; MEL must be designed for this from inception |
+| Protection in urban settings | [[protection-in-urban-settings]] | seed | 1 | Individual targeting in urban settings creates visibility risks; area-based approaches partially mitigate this — needs additional source grounding |
+
+---
+
+## Thematic groupings
+
+Use these groupings for navigation when the relevant concept family is known but the specific page title is not.
+
+### ABA definition and design
+Core concepts that define what area-based programming is and how it is designed.
+- [[area-based-approach]] — the definition, three criteria, and common misuse patterns
+- [[geographic-targeting]] — area as entry point; boundary selection and documentation
+- [[participation-in-urban-response]] — community-driven vs community-informed distinction
+- [[whole-population-inclusion]] — inclusive vs selective targeting within the area
+- [[multi-sector-response-analysis]] — integrated vs parallel sector delivery
+
+### Coordination and governance
+How actors are organized and who holds authority.
+- [[area-based-coordination]] — area-level coordination architecture
+- [[multi-stakeholder-engagement]] — structured involvement of all actor types
+- [[host-government-leadership]] — government leads; humanitarian actors support
+- [[convenor-role]] — facilitating partner replication rather than direct delivery
+
+### Scale, sequencing, and strategy
+How programmes connect local action to wider systems and manage change over time.
+- [[multi-scale-programming]] — neighbourhood↔city vertical linkage
+- [[pilot-to-scale]] — demonstrate → replicate through partners
+- [[adaptive-management]] — structured flexibility; iterative evidence-based revision
+
+### Urban systems and context
+Analytical frameworks for understanding the urban environment.
+- [[urban-systems-thinking]] — city as interconnected five-domain system
+- [[urban-context-analysis]] — pre-design systems and actor analysis (the why, not the what)
+- [[neighbourhood-concept]] — competing typologies for defining neighbourhood
+- [[neighborhood-boundaries]] — how boundaries are drawn and legitimized
+
+### Disaster risk and resilience
+DRR frameworks, risk analysis, and recovery principles.
+- [[disaster-risk-reduction]] — systematic risk reduction; Sendai Framework four priorities
+- [[resilience]] — four contested definitions; use source-attributed formulations
+- [[risk-calculation]] — hazard × exposure × vulnerability formula and its limits
+- [[build-back-better]] — risk-reducing recovery, not vulnerability-restoring reconstruction
+- [[enabling-environment]] — structural conditions that determine programme sustainability
+
+### Assessment and monitoring
+Methodologies for data collection and programme evaluation.
+- [[area-based-assessment]] — area-defined data collection using key informants
+- [[contribution-vs-attribution]] — evaluating contribution within multi-actor causal systems
+- [[protection-in-urban-settings]] — protection risks in targeting, data collection, and delivery
+
+---
+
+## Meta-document
+
+| Document | Purpose |
 |---|---|
-| [[aba-definition-one-pager]] | **What:** Quick-reference summary of the three-criteria ABA definition, common misuse patterns, and diagnostic push-back questions. **Why:** The fastest way to verify whether a programme qualifies as area-based and to challenge misuse in field conversations. **When/How:** Read first for any question about what ABA is; use the three diagnostic questions directly with partners. |
-| [[area-based-approach]] | **What:** Full evidence-based concept page covering ABA history, three criteria, good-practice principles, known risks, open questions, and data requirements. **Why:** The authoritative deep-dive on ABA — cited by tools, frameworks, and lifecycle pages across the wiki. **How:** Use when you need depth, source citations, or alternatives-to-ABA analysis beyond the one-pager. |
-| [[geographic-targeting]] | **What:** Evidence-based concept page on geographic targeting as ABA's primary entry point, covering boundary types, selection criteria, and how area targeting differs from household approaches. **Why:** Essential for understanding why geography drives ABA design and how to defend area selection decisions with evidence. **When/How:** Read when designing area selection criteria, justifying boundary choices, or explaining ABA entry-point logic to partners. |
-| [[participation-in-urban-response]] | **What:** Concept page on meaningful community participation — definition, evidence base, contested aspects (tokenism risk), and practical implications for programme design. **Why:** Participation is the most commonly misapplied ABA criterion — this page defines the standard and flags the failure modes. **How:** Read when designing community engagement mechanisms or evaluating whether a programme's participation meets the ABA standard. |
-| [[area-based-coordination]] | **What:** Coordination mechanism bringing together humanitarian actors, local authorities, and service providers within a defined geographic area to prevent duplication and fill gaps. **Why:** Without area-level coordination, multi-sector ABA programs risk duplication and poor sequencing across overlapping actors. **When/How:** Use when designing area-level coordination platforms that complement — not replace — the cluster system, especially in complex urban contexts with many actors. |
-| [[build-back-better]] | **What:** Principle of using post-disaster recovery to reduce future risk and improve livelihoods rather than simply restoring pre-disaster conditions. **Why:** Rebuilding to pre-crisis standards recreates risk and misses the leverage window that post-disaster political will provides for transformative change. **When/How:** Apply during recovery and reconstruction phases to integrate DRR into rebuilding efforts before political momentum fades. |
-| [[hazard-exposure-vulnerability-capacity]] | **What:** Four-component DRR risk analysis framework covering hazards, exposure, vulnerability, and coping capacity. **Why:** Understanding all four components is essential to prioritize risk reduction — a high-hazard area with high capacity may need less intervention than a moderate-hazard area with extreme vulnerability. **When/How:** Use during area profiling and risk prioritization to guide where and how to invest limited DRR resources. |
-| [[implementation-sequencing]] | **What:** Logical ordering of programme activities based on technical dependencies, community readiness, seasonal factors, and resource availability. **Why:** Poor sequencing in urban ABA creates wasted resources, beneficiary confusion, and coordination failures when interdependent interventions are not properly ordered. **When/How:** Apply during implementation planning to map dependencies and phase activities for maximum cumulative impact. |
-| [[local-resource-leverage]] | **What:** Identification and mobilization of existing local capacities, actors, infrastructure, markets, and social networks to amplify response outcomes. **Why:** Urban ABA programs that ignore local resources miss opportunities for sustainability, efficiency, and community ownership. **When/How:** Use during area profiling and strategy design to map and integrate local assets rather than defaulting to external delivery. |
-| [[multi-sector-response-analysis]] | **What:** Systematic comparison of response options across sectors and modalities to identify the most appropriate combination for a given area and crisis. **Why:** Urban crises rarely have single-sector solutions — multi-sector analysis prevents siloed programming and enables integrated strategies that address root causes. **When/How:** Use when designing integrated area strategies to avoid treating sectoral symptoms independently. |
-| [[municipal-risk-governance]] | **What:** Formal and informal institutional arrangements through which local governments identify, assess, manage, and communicate risk. **Why:** ABA programs must engage with municipal governance to ensure sustainability; bypassing municipalities creates parallel systems that undermine long-term risk reduction. **When/How:** Map during area profiling and engage throughout implementation to align with local authority mandates. |
-| [[neighborhood-boundaries]] | **What:** Delineated perimeter of an operational area for ABA programming, based on administrative boundaries, community identity, service catchments, or hazard zones. **Why:** Boundary definition determines who is included or excluded, which services are accessible, and how coordination is organized. **When/How:** Establish during area selection, weighing administrative convenience against social meaning and operational feasibility. |
-| [[protection-do-no-harm]] | **What:** Principle that humanitarian programs must avoid creating or exacerbating harm through unintended consequences of targeting, data collection, or service delivery. **Why:** Urban settings with diverse power dynamics require systematic protection analysis — area-based targeting can create risks if boundaries or beneficiary selection exclude vulnerable groups. **When/How:** Apply at every programme stage through protection risk screening. |
-| [[resilience]] | **What:** Ability of individuals, communities, and urban systems to absorb shocks, adapt to change, and recover while maintaining essential functions. **Why:** ABA programs should contribute to long-term resilience, but the concept is contested and risks producing vague, unmeasurable outcomes if not operationalized. **When/How:** Define measurable resilience indicators during programme design and track them through monitoring and adaptation. |
-| [[service-functionality]] | **What:** Operational status of urban services (water, sanitation, health, markets, transport) and the barriers preventing access for different population groups. **Why:** ABA programs must diagnose functionality to restore, substitute, or supplement services rather than duplicate them. **When/How:** Assess during area profiling to determine whether to restore existing systems or build parallel ones. |
-| [[stakeholder-power-mapping]] | **What:** Systematic identification and analysis of all actors with roles, interests, resources, and power relationships relevant to an area-based programme. **Why:** Understanding power dynamics is essential for avoiding duplication, leveraging local capacity, and managing coordination risks — ignoring them leads to programmes that reproduce existing inequalities. **When/How:** Conduct before programme design to ensure inclusive stakeholder engagement from the outset. |
-| [[urban-displacement-vulnerability]] | **What:** Specific vulnerabilities of displaced populations in urban settings, including tenure insecurity, social exclusion, and limited access to services and documentation. **Why:** Urban displacement creates unique vulnerability patterns — displaced populations are often invisible in official statistics and face different risks than host communities or camp-based IDPs. **When/How:** Assess during appropriateness decisions to determine whether geographic targeting can serve as a protection strategy that includes both displaced and host populations. |
-| [[urban-risk]] | **What:** Probability of harmful outcomes arising from the interaction of hazards with exposed and vulnerable elements of the urban system. **Why:** Urban risk is shaped by rapid urbanization, informal settlements, and weak governance that require systematic, area-level analysis rather than generic assessments. **When/How:** Apply during appropriateness decisions and area profiling to understand the specific risk drivers shaping a given urban context. |
-| [[urban-systems-thinking]] | **What:** Analytical approach treating the city as interconnected infrastructure, services, governance, markets, and social networks where change in one subsystem affects others. **Why:** Interventions that ignore systems interdependencies create unintended negative effects and miss leverage points for impact. **When/How:** Use during area profiling and response design to map cascading effects, feedback loops, and leverage points before committing to interventions. |
+| [[concept-cluster-map]] | Phase 1 inventory: 24 concept families derived from 23 source files; scoring, tensions, and build sequence |
