@@ -6,7 +6,7 @@ updated: 2026-05-07
 # Citation Rules
 
 ## When citing a source in a wiki page
-- Link to the source page: [[./01sources/canonical-source-name]]
+- Link to the source page: [[./01-sources/extracted/canonical-source-name]]
 - Include author/org and year inline: (Sanderson & Sitko, 2017)
 - For direct quotes, note the page number if available
 

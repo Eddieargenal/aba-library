@@ -4,14 +4,14 @@ This wiki provides structured, source-backed knowledge for AI agents and technic
 
 ## Three-Layer Architecture
 1. `../raw/` — source documents (PDFs, spreadsheets, extracted text)
-2. `wiki/` — agent-readable synthesis pages
+2. `.` (numbered sections) — agent-readable synthesis pages
 3. `schema/` + `CLAUDE.md` — operating rules
 
 ## Quick Navigation
-- Start at [[wiki/index.md]]
-- Agent contract: [[./00overview/agent-contract]]
-- Source catalog: [[./00overview/source-catalog-from-matrix.md]]
-- First tool: [[./04tools/01-aba-feasibility-and-necessity-assessment-tool]]
+- Start at [[./index.md]]
+- Agent contract: [[./00-overview/agent-contract]]
+- Source catalog: [[./00-overview/source-catalog-from-matrix.md]]
+- First tool: [[./04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
 
 ## Status
 - Initialized: 2026-05-07

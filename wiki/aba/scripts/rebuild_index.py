@@ -14,4 +14,4 @@ Usage: python rebuild_index.py [--dry-run]
 
 Dependencies: pathlib, yaml
 """
-raise NotImplementedError("Script not yet implemented. Update index.md manually using wiki/13-agent-prompts/update-crosslinks.md.")
+raise NotImplementedError("Script not yet implemented. Update index.md manually using ./13-agent-prompts/update-crosslinks.md.")

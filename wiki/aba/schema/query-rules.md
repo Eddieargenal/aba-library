@@ -12,17 +12,17 @@ The wiki has three layers with distinct roles:
 | Layer | Location | Role | Query use |
 |---|---|---|---|
 | Raw | `../raw/pdf/`, `../raw/extracted/` | Ingest input only — immutable source documents | NEVER read for answers |
-| Synthesis | `wiki/` | Canonical source of truth for all answers | Always read here first |
+| Synthesis | `./00-overview/` through `./13-agent-prompts/` | Canonical source of truth for all answers | Always read here first |
 | Schema | `schema/`, `CLAUDE.md` | Operating rules | Read when behavior is unclear |
 
 **`../raw/` files are input to the wiki, not output from it. If the wiki synthesis does not contain the answer, flag the gap — do not go to `../raw/` to find it.**
 
-The synthesised wiki pages (`./02concepts/`, `./04tools/`, etc.) represent the processed, validated, agent-ready knowledge. Reading raw extracted text bypasses this layer, produces unverified answers, and defeats the purpose of the wiki.
+The synthesis pages (e.g., `./02-concepts/`, `./04-tools/`) represent the processed, validated, agent-ready knowledge. Reading raw extracted text bypasses this layer, produces unverified answers, and defeats the purpose of the wiki.
 
 ## Before answering any domain question
 1. Read index.md
-2. Identify the relevant pages in `wiki/` — concepts, tools, field instruments, lifecycle, risk pages
-3. Read those `wiki/` pages — these are your answer source
+2. Identify the relevant pages in the numbered synthesis sections — concepts, tools, field instruments, lifecycle, risk pages
+3. Read those synthesis pages — these are your answer source
 4. Use `./01sources/` pages for citation metadata (author, year, page number) only — not as answer content
 5. Produce practical outputs for technical teams
 

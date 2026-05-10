@@ -9,7 +9,7 @@ Append-only. Do not edit existing entries.
 - Created Urban DRR + ABA LLM wiki root at _system/urban-drr-aba-wiki/
 - Created all subdirectories: ../raw/, schema/, wiki/, outputs/, scripts/
 - Copied 21 non-empty PDFs from Downloads/urban_tools/ to ../raw/pdf/
-- Flagged 1 empty PDF: 2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf (0 bytes)
+- Flagged 1 empty PDF: 2020_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf (0 bytes)
 - Copied 2 v2 duplicate PDFs (same SHA256 as primary versions)
 - Copied spreadsheet urban_ABA_DRR_matrix_UPDATED.xlsx to ../raw/spreadsheets/
 - Copied source_metadata.csv to ../raw/spreadsheets/
@@ -143,7 +143,7 @@ Trigger: fresh agent required 4-step navigation and 749-line tool read to answer
 Source: Humanitarian Response to Urban Crises: A Review of Area-Based Approaches (IIED, 2015)
 
 Actions:
-- ../raw/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.md — 28-page PDF extracted via PyMuPDF (105K characters)
+- ../raw/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review.md — 28-page PDF extracted via PyMuPDF (105K characters)
 - ./01sources/2015-parker-maynard-...: status changed copied → ingested
 - All TODO[agent] sections populated: 3 ABA criteria with page refs, Box 2/3/4/5/6 content, 5 case studies (Kabul/Port-au-Prince x2/Baghdad/Tacloban), 8 good-practice principles, positive/negative consequences, coordination and DRR implications, limitations, citable claims with page numbers, concept and tool links
 
@@ -243,7 +243,7 @@ Implemented governance hardening to reduce instruction drift and improve practic
 Ran `./13agent-prompts/run-manual-lint-checklist` and refreshed `outputs/wiki-lint-report.md`.
 
 Key results:
-- Zero-byte source PDFs: 1 (`../raw/pdf/2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf`)
+- Zero-byte source PDFs: 1 (`../raw/pdf/2020_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf`)
 - Orphan pages: 32
 - Source pages not linked from concept/tool/lifecycle: 4
 - Tool pages with `field_instruments: []`: 14

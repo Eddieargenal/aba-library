@@ -1,0 +1,36 @@
+---
+type: sector-application
+status: draft
+sector: "Shelter and NFI"
+related_tools:
+  - tool-11-sector-technical-design-checklist
+  - tool-05-hevc-risk-mapping-tool
+source_foundation:
+  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
+created: 2026-05-07
+updated: 2026-05-07
+---
+
+# Shelter and NFI in Urban ABA
+
+## Purpose
+Guidance on integrating urban DRR principles into shelter and NFI programming — covering Build Back Better construction standards, tenure risk, incremental upgrading approaches, and landlord engagement in rental contexts.
+
+## Key principles for urban ABA integration
+TODO[agent]: Extract 3-5 key principles for this sector in urban ABA contexts. Key sources: see source foundation.
+
+## Common sector design mistakes in urban ABA
+TODO[agent]: Identify common errors specific to this sector in urban contexts.
+
+## DRR integration requirements
+TODO[agent]: Specify how DRR must be integrated into this sector's design (Build Back Better, HEVC, Sendai standards).
+
+## Evidence requirements
+TODO[agent]: Define minimum evidence required before finalizing sector design.
+
+## Tools
+- [[../04-tools/tool-11-sector-technical-design-checklist]]
+- [[../04-tools/tool-05-hevc-risk-mapping-tool]]
+
+## Source foundation
+- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]

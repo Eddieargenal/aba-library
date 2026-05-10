@@ -57,7 +57,7 @@ User Request → SCHEMA.md → 00_Start_Here.md → wiki/index.md → workflow �
 
 | Task | Entry | Jumps |
 |------|-------|-------|
-| ABA overview & quick answers | [`wiki/aba/wiki/00-overview/qa-common-questions`](wiki/aba/wiki/00-overview/qa-common-questions.md) | 2 |
+| ABA overview & quick answers | [`wiki/aba/00-overview/qa-common-questions`](wiki/aba/00-overview/qa-common-questions.md) | 2 |
 | ABA operating rules | [`wiki/aba/CLAUDE.md`](wiki/aba/CLAUDE.md) | 2 |
 | Full ABA catalog | [`wiki/aba/index.md`](wiki/aba/index.md) | 2 |
 

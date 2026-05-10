@@ -46,27 +46,34 @@ See [[memory/vault-compliance-rules]] for full rules.
 
 | Section | What's here | Index |
 |---|---|---|
-| [[wiki/aba/wiki/00-overview/00_index]] | Urban DRR + ABA wiki — overview, operating rules, quick ref | (ABA wiki root: `wiki/aba/`) |
+| [[wiki/aba/00-overview/00_index]] | Urban DRR + ABA wiki — overview, operating rules, quick ref | (ABA wiki root: `wiki/aba/`) |
 | [[indexes/workflows]] | Workflow router | (see [[workflows/]]) |
 | [[indexes/prompts]] | Prompt router by tier | (see [[prompts/]]) |
 | [[indexes/tools]] | Tool reference cards | (see [[tools/]]) |
 | [[memory/MEMORY]] | Long-term knowledge base | (see `memory/categories/`) |
 
-> ABA wiki has 13 sections: overview → concepts → frameworks → tools → field instruments → lifecycle → sector applications → coordination → monitoring → transition → patterns → risks → prompts. Navigate via `wiki/aba/` section `00_index.md` files.
-
 ## Urban DRR + ABA Wiki (`wiki/aba/`)
 
-| Task | Entry Point | Jumps |
-|---|---|---|
-| Quick answers / how to use | [[wiki/aba/wiki/00-overview/qa-common-questions]] | 2 |
-| Find a concept | [[wiki/aba/wiki/02-concepts/aba-definition-one-pager]] → section index | 3 |
-| Find a framework | [[wiki/aba/wiki/03-frameworks/aba-appropriateness-decision-framework]] → section index | 3 |
-| Find a tool | [[wiki/aba/wiki/04-tools/01-aba-feasibility-and-necessity-assessment-tool]] → section index | 3 |
-| Field instrument | [[wiki/aba/wiki/05-field-instruments/decision-memo-template]] → section index | 3 |
-| ABA agent prompts | [[wiki/aba/wiki/13-agent-prompts/ingest-new-source]] → section index | 3 |
-| Operating rules | [[wiki/aba/CLAUDE]] | 2 |
+An **Area-Based Approach (ABA)** uses a defined geography — such as a neighborhood, district, or urban area — as the organizing frame for humanitarian, disaster risk reduction, and recovery action. Rather than planning by sector or population category alone, it brings humanitarian actors, local authorities, communities, and markets together to assess needs, capacities, and risks within the same territory. This wiki encodes the evidence base, operational tools, field instruments, and decision frameworks for implementing ABA in urban contexts.
 
-Full ABA catalog: [[wiki/aba/index]]
+**Progressive discovery:** Pick the section that matches your question, then use its `00_index.md` to find the right page. Each section index shows every file with a one-line summary.
+
+| Section | Jump | What's here |
+|---|---|---|
+| 00 — Overview | [[wiki/aba/00-overview/00_index]] | Navigation, agent rules, quick Q&A, knowledge map. Start here if unsure. |
+| 01 — Sources | [[wiki/aba/01-sources/00_index]] | Primary literature references — author, year, summary, ingestion status. |
+| 02 — Concepts | [[wiki/aba/02-concepts/00_index]] | Core definitions: ABA, geographic targeting, participation, resilience, urban risk. |
+| 03 — Frameworks | [[wiki/aba/03-frameworks/00_index]] | Decision frameworks: appropriateness, area selection, transition, diagnosis. |
+| 04 — Tools | [[wiki/aba/04-tools/00_index]] | Operational tools for assessment, planning, coordination, M&E. |
+| 05 — Field Instruments | [[wiki/aba/05-field-instruments/00_index]] | Data collection forms: surveys, KIIs, observation sheets, templates. |
+| 06 — Lifecycle | [[wiki/aba/06-lifecycle/00_index]] | Programme phases: area selection → strategy → implementation → handover. |
+| 07 — Sector Applications | [[wiki/aba/07-sector-applications/00_index]] | ABA in specific sectors: shelter, WASH, health, livelihoods, protection. |
+| 08 — Coordination | [[wiki/aba/08-coordination/00_index]] | Multi-actor coordination models, platforms, information management. |
+| 09 — Monitoring & Learning | [[wiki/aba/09-monitoring-learning/00_index]] | MEL frameworks, resilience indicators, adaptive management, outcome tracking. |
+| 10 — Transition & Scale | [[wiki/aba/10-transition-scale/00_index]] | Handover readiness, municipal integration, replication and scale-up. |
+| 11 — Patterns | [[wiki/aba/11-patterns/00_index]] | Recurring design patterns and proven approaches across contexts. |
+| 12 — Risks & Contradictions | [[wiki/aba/12-risks-contradictions/00_index]] | Known contradictions, misuse patterns, evidence gaps, protection risks. |
+| 13 — Agent Prompts | [[wiki/aba/13-agent-prompts/00_index]] | Reusable AI agent prompts: ingest, query, lint, build tools, quality review. |
 
 ## Claim Types
 

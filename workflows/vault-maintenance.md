@@ -38,7 +38,7 @@ Ask: "Did I need information that wasn't in the vault?"
 
 ### 2b. Check section index freshness
 
-For each section folder in `wiki/aba/wiki/`:
+For each section folder in `wiki/aba/`:
 - Open `00_index.md`
 - Compare its stated file count against the actual folder contents
 - If the count is wrong, a significant file is unmentioned, or the characterization no longer fits, update the index

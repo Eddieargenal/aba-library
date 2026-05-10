@@ -37,7 +37,7 @@ Consolidating two knowledge bases into one vault: personal agent infrastructure 
 
 - `sources/` has no content documents — first ingest needed when user provides a source
 - `procedures.md` is a template with zero records — populate when procedures are verified
-- ABA `wiki/aba/wiki/11-patterns/` section is empty
+- ABA `wiki/aba/11-patterns/` section is empty
 
 ---
 

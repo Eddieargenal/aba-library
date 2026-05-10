@@ -15,7 +15,7 @@ updated: 2026-05-07
 | Layer | Location | Rule |
 |-------|----------|------|
 | **Sources** | `sources/`, `wiki/aba/raw/` | Raw documents. Read only. Never edit. |
-| **Wiki** | `memory/`, `workflows/`, `tools/`, `agents/`, `prompts/`, `wiki/aba/wiki/` | LLM-maintained knowledge pages. ABA wiki has its own schema and operating rules. |
+| **Wiki** | `memory/`, `workflows/`, `tools/`, `agents/`, `prompts/`, `wiki/aba/` | LLM-maintained knowledge pages. ABA wiki has its own schema and operating rules. |
 | **Schema** | `SCHEMA.md`, `memory/vault-compliance-rules.md`, `wiki/aba/schema/` | Conventions and structure definitions. |
 
 ---
@@ -70,7 +70,7 @@ Summary:
 |--------|----------|--------------------|
 | `memory/categories/` | Long-term knowledge: facts, decisions, procedures, outcomes | Knowledge Base |
 | `workflows/` | Step-by-step task procedures | Operations |
-| `wiki/aba/wiki/` | Urban DRR + ABA domain wiki (13 sections, see [[wiki/aba/index]]) | ABA Knowledge |
+| `wiki/aba/` | Urban DRR + ABA domain wiki (13 sections, see [[wiki/aba/index]]) | ABA Knowledge |
 | `tools/` | Tool capability cards | Tools |
 | `agents/` | Agent profiles (Hermes, OpenClaw) | Agents |
 | `prompts/` | Reusable prompt templates | Prompts |
