@@ -1,7 +1,7 @@
 ---
 type: section-index
 status: active
-updated: 2026-05-07
+updated: 2026-05-10
 ---
 
 # 13 — Agent Prompts
@@ -22,3 +22,4 @@ Reusable operational prompts for AI agents performing standard wiki operations. 
 | [[build-new-tool-from-sources]] | **What:** Prompt for constructing a new tool page from ingested source documents, defining decision domains, evidence requirements, field data points, and scoring thresholds. **Why:** Ensures tools are evidence-grounded — each decision domain must trace to an ingested source, not general knowledge. **When/How:** Use when a decision question requires a structured analytical tool; only build from pages already ingested into the wiki. |
 | [[review-tool-quality]] | **What:** Audit prompt that checks whether a tool page meets the 10-field quality standard for every decision question. **Why:** Only Tool 01 currently meets the standard; this prompt enables systematic quality improvement of the remaining 16 tools. **When/How:** Use when a tool page is being developed or after ingestion adds source material that should populate a tool. |
 | [[run-manual-lint-checklist]] | **What:** Command-based fallback lint procedure using Python scripts when the automated lint script is unavailable. **Why:** Provides a reproducible manual alternative so quality checks can still run in any environment. **When/How:** Use instead of lint-wiki.md when scripts/lint_wiki.py is not implemented; write output to outputs/wiki-lint-report.md. |
+| [[extract-source-from-pdf]] | **What:** A full extraction prompt for converting a raw PDF into a complete, enriched extracted source page. **Why:** Standardizes the frontmatter schema, section structure, DRR enrichment rules, and Source section format so any agent produces consistent, high-quality output. **When/How:** Run for any PDF in `../raw/` before running `ingest-new-source`; produces the `.md` file in `./01-sources/extracted/` that ingest-new-source then uses to update the wiki. |

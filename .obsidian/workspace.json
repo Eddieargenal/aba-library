@@ -13,13 +13,28 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "wiki/aba/01-sources/raw/2009_twigg-ucl_disaster-resilient-community.pdf"
+                "file": "wiki/aba/01-sources/raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "2009_twigg-ucl_disaster-resilient-community"
+              "title": "2015_dfid-irc-alnap_aba-discussion-paper"
+            }
+          },
+          {
+            "id": "c8258002943fca91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "workflows/vault-maintenance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vault-maintenance"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,47 +196,47 @@
       "bases:Create new base": false
     }
   },
-  "active": "1791286224172b02",
+  "active": "c8258002943fca91",
   "lastOpenFiles": [
-    "wiki/aba/01-sources/extracted/0000_stronger-cities-consortium_umvat-guidance-note.md",
-    "wiki/aba/01-sources/extracted/0000_dfid-irc-alnap_aba-discussion-paper.meta.md",
-    "wiki/aba/01-sources/extracted/0000_efl_neighbourhood-approach-toolbox.meta.md",
-    "wiki/aba/01-sources/extracted/2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook.md",
-    "wiki/aba/01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.meta.md",
-    "wiki/aba/01-sources/extracted/2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.md",
-    "wiki/aba/01-sources/extracted/2009_twigg_characteristics-disaster-resilient-community.md",
-    "wiki/aba/01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.meta.md",
-    "wiki/aba/01-sources/raw/2012_efl_neighbourhood-approach-toolbox.pdf",
-    "wiki/aba/01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination.md",
-    "wiki/aba/01-sources/extracted/2020_iasc_meeting-humanitarian-challenges-urban-areas-strategy.md",
-    "wiki/aba/01-sources/extracted/2019_reach-unhcr_area-based-assessment-key-informants-practical-guide.md",
-    "wiki/aba/01-sources/extracted/2019_journal-urbanism_understanding-neighbourhood-concept.meta.md",
-    "wiki/aba/01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium.md",
-    "wiki/aba/01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response.md",
-    "wiki/aba/01-sources/extracted/2019_alnap_barrio-mio-katye-neighbourhood-approach-cities-case-study.md",
-    "wiki/aba/01-sources/extracted/2019_alnap-odi_gpr12-humanitarian-urban-contexts.meta.md",
-    "wiki/aba/01-sources/extracted/2019-gsc-uswg-area-based-approaches-urban-settings-compendium-v2.meta.md",
-    "wiki/aba/01-sources/extracted/2018_allen-building-better_concepts-of-neighbourhood.meta.md",
-    "wiki/aba/01-sources/extracted/2017_undrr_how-to-make-cities-more-resilient-handbook.md",
-    "wiki/aba/01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide.md",
-    "wiki/aba/01-sources/extracted/2017_mohiddin-smith-phelps_urban-response-analysis-framework.md",
-    "wiki/aba/01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note.md",
-    "wiki/aba/01-sources/extracted/2017_ifrc_building-urban-resilience-guide.md",
-    "wiki/aba/01-sources/extracted/2017-urban-resilience-action-design-framework.meta.md",
-    "wiki/aba/01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide-v2.meta.md",
-    "wiki/aba/01-sources/extracted/2017-municipal-drr-action-checklist-ten-essentials-framework.meta.md",
+    "workflows/vault-initialization.md",
+    "workflows/query.md",
+    "workflows/odoo-accounting.md",
+    "workflows/model-routing.md",
+    "workflows/memory-recall.md",
+    "workflows/lint.md",
+    "workflows/ingest.md",
+    "workflows/document-extraction.md",
+    "workflows/coding-tasks.md",
+    "prompts/code-debug.md",
+    "prompts/generic-source-extraction-agent-prompt.md",
+    "prompts/cheap-summary.md",
+    "memory/governance.md",
+    "indexes/memory.md",
+    "memory/categories/unresolved.md",
+    "memory/categories/procedures.md",
+    "memory/categories/outcomes.md",
+    "memory/categories/infrastructure.md",
+    "memory/categories/decisions.md",
+    "indexes/tools.md",
+    "indexes/templates.md",
+    "indexes/workflows.md",
+    "indexes/prompts.md",
+    "governance/library-governance_guide.md",
+    "wiki/aba/13-agent-prompts/update-crosslinks.md",
+    "wiki/aba/13-agent-prompts/run-manual-lint-checklist.md",
+    "wiki/aba/01-sources/raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf",
+    "wiki/aba/01-sources/raw/2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf",
+    "wiki/aba/01-sources/raw/2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf",
+    "wiki/aba/01-sources/raw/2019-replication-scale-up-learning-note-framework.pdf",
+    "wiki/aba/01-sources/raw/2021_unhcr_aba-humanitarian-early-recovery.pdf",
+    "wiki/aba/01-sources/raw/2009_twigg-ucl_disaster-resilient-community.pdf",
+    "wiki/aba/01-sources/raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf",
+    "wiki/aba/01-sources/raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf",
+    "wiki/aba/01-sources/raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf",
+    "wiki/aba/01-sources/raw/2017-response-option-comparison-matrix-framework.pdf",
     "aba-wiki-architecture.canvas",
     "Untitled.canvas",
     "area-based-approaches-wiki.png",
-    "wiki/aba/01-sources/raw/2009_twigg-ucl_disaster-resilient-community.pdf",
-    "wiki/aba/01-sources/raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf",
-    "wiki/aba/01-sources/raw/2013-worldbank-building-urban-resilience-principles-tools-practice.pdf",
-    "wiki/aba/01-sources/raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf",
-    "wiki/aba/01-sources/raw/2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf",
-    "wiki/aba/01-sources/raw/2007-twigg-characteristics-disaster-resilient-community-framework.pdf",
-    "wiki/aba/01-sources/raw/2017-iied-urban-context-analysis-toolkit-guidance-note.pdf",
-    "wiki/aba/01-sources/raw/undated-stronger-cities-consortium-urban-multi-sector-vulnerability-assessment-tool-umvat-guidance-note.pdf",
-    "wiki/aba/01-sources/raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf",
     "Untitled 2.canvas"
   ]
 }
