@@ -27,20 +27,20 @@ See [[memory/vault-compliance-rules]] for full rules.
 
 ## What The Vault Provides
 
-| Folder/File | Use For |
-|-------------|---------|
-| [[SCHEMA]] | LLM instruction doc — architecture, operations, conventions |
-| [[wiki/index]] | Master catalog — find any wiki page fast |
-| [[sources/README]] | Raw source documents — read-only layer |
-| [[wiki/aba/index]] | Urban DRR + ABA wiki — humanitarian domain knowledge |
-| [[workflows/]] | Step-by-step task guides (vault + domain workflows) |
-| [[indexes/workflows]] | Workflow router (choose the right workflow first) |
-| [[prompts/]] | Prompt templates by tier |
-| [[tools/]] | Tool reference cards |
-| [[agents/]] | Agent profiles |
-| [[indexes/]] | Finding the right workflow/prompt/tool |
-| [[archive/]] | Historical records |
-| [[architecture]] | Visual architecture and navigation diagrams |
+| Folder/File                       | Use For                                                     |
+| --------------------------------- | ----------------------------------------------------------- |
+| [[SCHEMA]]                        | LLM instruction doc — architecture, operations, conventions |
+| [[wiki/index]]                    | Master catalog — find any wiki page fast                    |
+| [[sources/README]]                | Raw source documents — read-only layer                      |
+| [[wiki/aba/00-overview/00_index]] | Urban DRR + ABA wiki — humanitarian domain knowledge        |
+| [[workflows/]]                    | Step-by-step task guides (vault + domain workflows)         |
+| [[indexes/workflows]]             | Workflow router (choose the right workflow first)           |
+| [[prompts/]]                      | Prompt templates by tier                                    |
+| [[tools/]]                        | Tool reference cards                                        |
+| [[agents/]]                       | Agent profiles                                              |
+| [[indexes/]]                      | Finding the right workflow/prompt/tool                      |
+| [[archive/]]                      | Historical records                                          |
+| [[architecture]]                  | Visual architecture and navigation diagrams                 |
 
 ## Vault Directory
 
@@ -48,7 +48,7 @@ See [[memory/vault-compliance-rules]] for full rules.
 |---|---|---|
 | [[wiki/aba/00-overview/00_index]] | Urban DRR + ABA wiki — overview, operating rules, quick ref | (ABA wiki root: `wiki/aba/`) |
 | [[indexes/workflows]] | Workflow router | (see [[workflows/]]) |
-| [[indexes/prompts]] | Prompt router by tier | (see [[prompts/]]) |
+| [[indexes/templates]] | Prompt/template router by tier | (see [[prompts/]]) |
 | [[indexes/tools]] | Tool reference cards | (see [[tools/]]) |
 | [[memory/MEMORY]] | Long-term knowledge base | (see `memory/categories/`) |
 
@@ -61,7 +61,7 @@ An **Area-Based Approach (ABA)** uses a defined geography — such as a neighbor
 | Section | Jump | What's here |
 |---|---|---|
 | 00 — Overview | [[wiki/aba/00-overview/00_index]] | Navigation, agent rules, quick Q&A, knowledge map. Start here if unsure. |
-| 01 — Sources | [[wiki/aba/01-sources/00_index]] | Primary literature references — author, year, summary, ingestion status. |
+| 01 — Sources | [[wiki/aba/01-sources/extracted/00_index]] | Primary literature references — author, year, summary, ingestion status. (Raw index: [[wiki/aba/01-sources/raw/00_index]]) |
 | 02 — Concepts | [[wiki/aba/02-concepts/00_index]] | Core definitions: ABA, geographic targeting, participation, resilience, urban risk. |
 | 03 — Frameworks | [[wiki/aba/03-frameworks/00_index]] | Decision frameworks: appropriateness, area selection, transition, diagnosis. |
 | 04 — Tools | [[wiki/aba/04-tools/00_index]] | Operational tools for assessment, planning, coordination, M&E. |
@@ -143,3 +143,38 @@ An **Area-Based Approach (ABA)** uses a defined geography — such as a neighbor
 - Always cite sources
 - Always use claim types
 - Always use review status
+
+---
+
+## ABA Section Index (00_index Links Only)
+
+- **00 Overview**: Wiki orientation, usage guidance, and operating model.  
+  [[wiki/aba/00-overview/00_index]]
+- **01 Sources — Extracted**: Standardized source extraction notes used as evidence-ready references.  
+  [[wiki/aba/01-sources/extracted/00_index]]
+- **01 Sources — Raw**: Raw source library index for original documents and ingest tracking.  
+  [[wiki/aba/01-sources/raw/00_index]]
+- **02 Concepts**: Core ABA/urban DRR concepts and shared definitions.  
+  [[wiki/aba/02-concepts/00_index]]
+- **03 Frameworks**: Decision and analysis frameworks for planning and strategy.  
+  [[wiki/aba/03-frameworks/00_index]]
+- **04 Tools**: Operational tools for assessment, prioritization, design, and implementation support.  
+  [[wiki/aba/04-tools/00_index]]
+- **05 Field Instruments**: Data collection instruments and field-ready templates.  
+  [[wiki/aba/05-field-instruments/00_index]]
+- **06 Lifecycle**: End-to-end ABA project stages from scoping through transition.  
+  [[wiki/aba/06-lifecycle/00_index]]
+- **07 Sector Applications**: Sector-specific application of ABA and urban DRR approaches.  
+  [[wiki/aba/07-sector-applications/00_index]]
+- **08 Coordination**: Multi-actor coordination models, structures, and protocols.  
+  [[wiki/aba/08-coordination/00_index]]
+- **09 Monitoring Learning**: MEL frameworks, indicators, and adaptive management references.  
+  [[wiki/aba/09-monitoring-learning/00_index]]
+- **10 Transition Scale**: Handover, institutionalization, and scale/replication guidance.  
+  [[wiki/aba/10-transition-scale/00_index]]
+- **11 Patterns**: Reusable patterns and recurring implementation logic across contexts.  
+  [[wiki/aba/11-patterns/00_index]]
+- **12 Risks Contradictions**: Evidence caveats, trade-offs, and unresolved tensions to check before decisions.  
+  [[wiki/aba/12-risks-contradictions/00_index]]
+- **13 Agent Prompts**: Prompts and agent-operating assets for wiki workflows.  
+  [[wiki/aba/13-agent-prompts/00_index]]
