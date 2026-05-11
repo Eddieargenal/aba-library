@@ -1,9 +1,9 @@
 ---
 type: section-index
 status: active
-pdf_count: 25
+pdf_count: 24
 extracted_count: 23
-unextracted_count: 2
+unextracted_count: 1
 updated: 2026-05-11
 ---
 
@@ -44,7 +44,6 @@ This index tracks every PDF stored here, its extraction status, and a pointer to
 | `2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf` | REACH / UNHCR | 2019 | Area-Based Assessment with Key Informants | ✅ [[../extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide\|extracted]] |
 | `2019-replication-scale-up-learning-note-framework.pdf` | Global Shelter Cluster | 2019 | Replication / Scale-Up Learning Note | ✅ [[../extracted/2019-replication-scale-up-learning-note-framework\|extracted]] ⚠️ Possible overlap with compendium |
 | `2021_unhcr_aba-humanitarian-early-recovery.pdf` | UNHCR | 2021 | ABA in Humanitarian Early Recovery | ❌ Not yet extracted |
-| `2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf` | UNHCR | 2024 | Syria ABA Factsheet (Apr 2024) | ❌ Not yet extracted |
 | `2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf` | IASC | 2026 | ABC Terms of Reference | ✅ [[../extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor\|extracted]] |
 
 ---
@@ -56,7 +55,6 @@ Two PDFs require extraction before they can be cited in concept or tool pages.
 | PDF | Priority | Notes |
 |---|---|---|
 | `2021_unhcr_aba-humanitarian-early-recovery.pdf` | High | UNHCR ABA guidance — likely adds humanitarian early recovery framing missing from current source set |
-| `2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf` | Medium | Recent factsheet — may provide updated operational evidence; verify depth before full extraction |
 
 Use `../../13-agent-prompts/extract-source-from-pdf.md` for both.
 
