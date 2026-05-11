@@ -8,33 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1791286224172b02",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "wiki/aba/01-sources/raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2015_dfid-irc-alnap_aba-discussion-paper"
-            }
-          },
-          {
             "id": "c8258002943fca91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workflows/vault-maintenance.md",
+                "file": "wiki/aba/03-frameworks/2026-area-based-coordination-framework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vault-maintenance"
+              "title": "2026-area-based-coordination-framework"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,45 +185,45 @@
   },
   "active": "c8258002943fca91",
   "lastOpenFiles": [
-    "workflows/vault-initialization.md",
-    "workflows/query.md",
-    "workflows/odoo-accounting.md",
-    "workflows/model-routing.md",
-    "workflows/memory-recall.md",
-    "workflows/lint.md",
-    "workflows/ingest.md",
-    "workflows/document-extraction.md",
-    "workflows/coding-tasks.md",
-    "prompts/code-debug.md",
-    "prompts/generic-source-extraction-agent-prompt.md",
-    "prompts/cheap-summary.md",
-    "memory/governance.md",
-    "indexes/memory.md",
-    "memory/categories/unresolved.md",
-    "memory/categories/procedures.md",
-    "memory/categories/outcomes.md",
-    "memory/categories/infrastructure.md",
-    "memory/categories/decisions.md",
-    "indexes/tools.md",
-    "indexes/templates.md",
-    "indexes/workflows.md",
-    "indexes/prompts.md",
-    "governance/library-governance_guide.md",
-    "wiki/aba/13-agent-prompts/update-crosslinks.md",
-    "wiki/aba/13-agent-prompts/run-manual-lint-checklist.md",
+    "governance/briefs/brief-governance-consolidation-2026-05-11.md",
+    "governance/briefs/scope-governance-consolidation-2026-05-11.md",
+    "wiki/aba/03-frameworks/2007-community-resilience-indicator-set-framework.md",
+    "wiki/aba/03-frameworks/2007-community-based-drr-design-tables-framework.md",
+    "wiki/aba/03-frameworks/2007-community-resilience-characteristics-tables-framework.md",
+    "wiki/aba/01-sources/raw/2009_twigg-ucl_disaster-resilient-community.pdf",
+    "wiki/aba/01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
+    "schema/citation-rules.md",
+    "wiki/aba/03-frameworks/2017-area-selection-framework.md",
+    "wiki/aba/13-agent-prompts/build-framework-from-sources.md",
+    "wiki/aba/03-frameworks/2017-area-based-approach-suitability-framework.md",
+    "wiki/aba/03-frameworks/2017-aba-monitoring-and-evaluation-framework.md",
+    "wiki/aba/03-frameworks/2017-aba-appropriateness-decision-framework.md",
+    "wiki/aba/03-frameworks/2016-urban-systems-mapping-framework.md",
+    "wiki/aba/03-frameworks/2015-urban-drr-response-design-framework.md",
+    "wiki/aba/03-frameworks/2015-hazard-exposure-vulnerability-capacity-mapping-framework.md",
+    "wiki/aba/03-frameworks/2015-build-back-better-recovery-alignment-tool-framework.md",
+    "wiki/aba/03-frameworks/2013-risk-based-city-neighborhood-screening-framework.md",
+    "wiki/aba/03-frameworks/2013-city-resilience-investment-logic-framework.md",
+    "wiki/aba/03-frameworks/2026-area-based-coordination-framework.md",
+    "wiki/aba/03-frameworks/2019-settlement-neighborhood-delineation-framework.md",
+    "wiki/aba/03-frameworks/2019-settlement-based-intervention-package-design-framework.md",
+    "wiki/aba/03-frameworks/2019-sequencing-and-dependency-map-framework.md",
+    "wiki/aba/03-frameworks/2019-sector-technical-design-checklist-framework.md",
+    "wiki/aba/03-frameworks/2019-replication-scale-up-learning-note-framework.md",
+    "wiki/aba/03-frameworks/2019-implementation-adaptation-framework.md",
+    "wiki/aba/03-frameworks/2019-area-based-reassessment-tool-framework.md",
+    "area-based-approaches-wiki.png",
+    "wiki/aba/01-sources/raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf",
     "wiki/aba/01-sources/raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf",
     "wiki/aba/01-sources/raw/2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf",
     "wiki/aba/01-sources/raw/2020-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf",
     "wiki/aba/01-sources/raw/2019-replication-scale-up-learning-note-framework.pdf",
     "wiki/aba/01-sources/raw/2021_unhcr_aba-humanitarian-early-recovery.pdf",
-    "wiki/aba/01-sources/raw/2009_twigg-ucl_disaster-resilient-community.pdf",
     "wiki/aba/01-sources/raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf",
     "wiki/aba/01-sources/raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf",
     "wiki/aba/01-sources/raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf",
-    "wiki/aba/01-sources/raw/2017-response-option-comparison-matrix-framework.pdf",
     "aba-wiki-architecture.canvas",
     "Untitled.canvas",
-    "area-based-approaches-wiki.png",
     "Untitled 2.canvas"
   ]
 }

@@ -24,7 +24,7 @@ Use the prompt at [[../13-agent-prompts/generate-field-instrument.md]].
 Use the template at [[../13-agent-prompts/create-decision-memo.md]].
 
 ### Lint the wiki
-Use the prompt at [[../13-agent-prompts/lint-wiki.md]]. Check against [[../schema/lint-rules.md]].
+Use the prompt at [[../13-agent-prompts/lint-wiki.md]]. Check against [[lint-rules]].
 
 ## Agent rules
 - Always read index.md before answering

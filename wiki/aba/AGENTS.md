@@ -11,12 +11,12 @@ This file tells AI agents how to work with the Urban DRR + ABA LLM Wiki.
 - If automation is unavailable: run [[./13-agent-prompts/run-manual-lint-checklist]]
 
 ## Page Types
-See [[schema/page-types.md]] for definitions and templates.
+See [[page-types]] for definitions and templates.
 
 ## Naming Conventions
-See [[schema/naming-conventions.md]].
+See [[naming-conventions]].
 
 ## Quality Standard
-See [[schema/tool-quality-standard.md]].
+See [[tool-quality-standard]].
 
 A response that cites a tool but omits evidence collection and analysis instructions has failed quality.
