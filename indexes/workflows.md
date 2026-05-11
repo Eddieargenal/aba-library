@@ -2,6 +2,7 @@
 type: index
 scope: workflows
 updated: 2026-05-06
+status: active
 ---
 
 # Workflow Index

@@ -2,6 +2,7 @@
 type: index
 scope: tools
 updated: 2026-05-06
+status: active
 ---
 
 # Tools Index

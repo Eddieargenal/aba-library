@@ -89,12 +89,9 @@ Use when looking for sources on a specific topic rather than a specific document
 
 ## Known issues
 
-**Duplicate extraction — IASC 2010.**
-Two files extract the same source document with different naming conventions:
-- `2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.md` (underscore)
-- `2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md` (hyphen)
-
-The hyphen version is the canonical extraction referenced by concept pages. The underscore version should be reviewed and deleted if redundant.
+**IASC 2010 — resolved 2026-05-11.**
+Underscore extraction (`2010_iasc_...`) has been merged into the hyphen canonical file and deleted. Only one file remains:
+- `2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md` (hyphen — canonical)
 
 **Unextracted PDFs in `../raw/`.**
 Two PDFs exist in the raw directory with no corresponding extracted file:

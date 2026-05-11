@@ -1,6 +1,7 @@
 ---
 type: memory-record-template
 updated: YYYY-MM-DD
+status: reference
 ---
 
 # Memory Record Template

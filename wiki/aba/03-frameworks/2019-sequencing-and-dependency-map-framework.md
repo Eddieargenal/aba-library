@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2019
+updated: 2026-05-11
+---
 # Sequencing and Dependency Map Framework
 
 **Source:** ALNAP / ODI HPN, *Urban Humanitarian Response: Good Practice Review 12*  

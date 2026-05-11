@@ -1,3 +1,8 @@
+---
+type: agent-guide
+status: active
+updated: 2026-05-11
+---
 # Urban DRR + ABA LLM Wiki Operating Rules
 
 You maintain a local git-backed LLM Wiki for urban disaster risk reduction and area-based emergency response.

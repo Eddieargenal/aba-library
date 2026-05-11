@@ -17,6 +17,7 @@ source_foundation:
   - 2015-undrr-sendai-framework-drr-2015-2030-framework
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Joint Prioritization Framework

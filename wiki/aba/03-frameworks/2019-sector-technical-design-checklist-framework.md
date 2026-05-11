@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2019
+updated: 2026-05-11
+---
 # Sector Technical Design Checklist Framework
 
 **Sources:** ALNAP, *Good Practice Review 12: Humanitarian Protection*; Global Shelter Cluster, *Area-Based Approaches in Urban Settings: Compendium of Case Studies*; relevant sector standards  

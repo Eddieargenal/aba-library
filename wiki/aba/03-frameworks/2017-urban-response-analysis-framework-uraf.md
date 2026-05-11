@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Urban Response Analysis Framework / URAF
 
 **Source:** Mohiddin, Smith & Phelps, *Urban Response Analysis Framework*  

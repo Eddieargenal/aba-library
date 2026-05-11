@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Severity–Risk–Feasibility Prioritization Matrix Framework
 
 **Source:** Sanderson & Sitko, *Urban Area-Based Approaches in Post-Disaster Contexts*; REACH area-based assessment guidance; IRC urban context analysis logic  

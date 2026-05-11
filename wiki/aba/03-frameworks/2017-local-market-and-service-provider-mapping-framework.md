@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Local Market and Service Provider Mapping Framework
 
 **Sources:** IRC, *Urban Context Analysis Toolkit*; ALNAP, *Good Practice Review 12: Humanitarian Protection*  

@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Urban Resilience Action Design Framework
 
 **Source:** IFRC, *Building Urban Resilience: A Guide for Red Cross and Red Crescent Engagement and Contribution*  

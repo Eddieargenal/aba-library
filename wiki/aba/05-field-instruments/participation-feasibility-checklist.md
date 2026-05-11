@@ -9,6 +9,7 @@ required_for_decision_domains:
   - community-participation-feasibility
 created: 2026-05-07
 updated: 2026-05-07
+status: draft
 ---
 
 # Participation Feasibility Checklist

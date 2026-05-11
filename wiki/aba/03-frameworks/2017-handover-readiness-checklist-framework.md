@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Handover Readiness Checklist Framework
 
 **Source:** Sanderson & Sitko, *Urban area-based approaches in post-disaster contexts*; UNDRR city resilience logic; IFRC urban resilience practice  

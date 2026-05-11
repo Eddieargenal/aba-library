@@ -17,6 +17,7 @@ source_foundation:
   - 2026-iasc-standard-terms-reference-area-based-coordination-tor
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Transition and Handover Framework

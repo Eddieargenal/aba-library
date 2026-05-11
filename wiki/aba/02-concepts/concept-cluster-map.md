@@ -7,6 +7,7 @@ updated: 2026-05-11
 source_files_scanned: 23
 raw_concept_candidates: 130
 concept_families_identified: 24
+maturity: established
 ---
 
 # Concept Cluster Map — Phase 1

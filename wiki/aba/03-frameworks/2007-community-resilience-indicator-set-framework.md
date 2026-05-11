@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2007
+updated: 2026-05-11
+---
 # Community Resilience Indicator Set Framework
 
 **Source:** Twigg, *Characteristics of a Disaster-Resilient Community: A Guidance Note*  

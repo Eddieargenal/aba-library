@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Stakeholder and Power Mapping Framework
 
 **Source:** IRC, *Urban Context Analysis Toolkit*  

@@ -20,6 +20,7 @@ source_foundation:
   - 2009_twigg-ucl_disaster-resilient-community
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Neighbourhood Diagnosis Framework

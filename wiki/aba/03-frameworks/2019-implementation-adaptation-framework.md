@@ -16,6 +16,7 @@ source_foundation:
   - 2019_alnap-sanderson-humanitarian-response-urban-contexts
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Implementation Adaptation Framework

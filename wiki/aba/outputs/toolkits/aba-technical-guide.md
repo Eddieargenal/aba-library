@@ -1,3 +1,8 @@
+---
+type: output
+status: draft
+updated: 2026-05-11
+---
 # Area-Based Approaches in Humanitarian and Development Response
 
 **A Practitioner's One-Pager**

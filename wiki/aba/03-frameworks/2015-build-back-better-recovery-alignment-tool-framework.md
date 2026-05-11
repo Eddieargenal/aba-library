@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2015
+updated: 2026-05-11
+---
 # Build Back Better / Recovery Alignment Tool Framework
 
 **Source:** Sendai Framework for Disaster Risk Reduction 2015–2030  

@@ -11,6 +11,7 @@ required_for_decision_domains:
   - local-resource-leverage
 created: 2026-05-07
 updated: 2026-05-07
+status: draft
 ---
 
 # Duplication and Gap Analysis Matrix
@@ -50,3 +51,10 @@ TODO[agent]: Add 10 pre-populated example rows covering common ABA activity type
 - Related tool: [[../04-tools/06-stakeholder-coordination-mapping-tool]]
 - Coordination: [[../08-coordination/duplication-detection]]
 - Source: [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]]
+
+## Data Quality Checks
+
+- **Source verification:** Confirm 5W data from at least 2 independent actor sources before mapping a gap or overlap.
+- **Recency threshold:** Flag any actor data older than 30 days as potentially stale.
+- **Coverage validation:** Verify that mapped coverage areas correspond to actual operational areas, not planned areas.
+- **Respondent cross-check:** If a gap is identified by only one informant, note as unconfirmed pending second source.

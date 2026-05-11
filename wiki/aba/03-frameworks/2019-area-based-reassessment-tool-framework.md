@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2019
+updated: 2026-05-11
+---
 # Area-Based Reassessment Tool Framework
 
 **Source:** REACH, *Area-Based Assessment with Key Informants: A Practical Guide*; IRC, *Urban Context Analysis Toolkit*  

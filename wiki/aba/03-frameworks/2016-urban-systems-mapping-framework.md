@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2016
+updated: 2026-05-11
+---
 # Urban Systems Mapping Framework
 
 **Source:** Campbell, *Stepping Back: Understanding Cities and Their Systems*  

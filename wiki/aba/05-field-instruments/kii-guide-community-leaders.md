@@ -11,6 +11,7 @@ required_for_decision_domains:
   - geographic-concentration
 created: 2026-05-07
 updated: 2026-05-07
+status: draft
 ---
 
 # Kii Guide Community Leaders

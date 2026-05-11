@@ -9,6 +9,7 @@ required_for_decision_domains:
   - local-capacity-resource-leverage
 created: 2026-05-07
 updated: 2026-05-07
+status: draft
 ---
 
 # Stakeholder 5W Mapping Form

@@ -2,6 +2,7 @@
 type: index
 scope: memory
 updated: 2026-05-06
+status: active
 ---
 
 # Memory Index

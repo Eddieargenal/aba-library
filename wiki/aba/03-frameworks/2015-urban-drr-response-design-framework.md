@@ -21,6 +21,7 @@ source_foundation:
   - 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Urban DRR Response Design Framework

@@ -26,7 +26,7 @@ tags:
   - urban-strategy
 ingest_date: 2026-05-10
 ingest_status: success
-notes: "Action matrix assigns leads/support roles and specifies priority actions including stakeholder mapping, urban vulnerability methodologies, and RPAT adaptation. Duplicate extraction exists: see 2010_iasc-meeting-humanitarian-challenges-urban-areas-strategy.md (underscore filename)."
+notes: "Action matrix assigns leads/support roles and specifies priority actions including stakeholder mapping, urban vulnerability methodologies, and RPAT adaptation. Merged with underscore variant 2026-05-11"
 canonical_file: ../raw/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf
 wiki_pages: []
 ---
@@ -53,6 +53,7 @@ A structured action matrix assigns leads and support roles to agencies and speci
 - Stand-by technical surge rosters and TOR templates: for urban shelter/HLP, WASH, food-nutrition security, planning, debris, and coordination expertise (pp. 10, 17).
 - Urban vulnerability-resilience indicator methodology: cross-sector design framework for at-risk countries (pp. 12, 18).
 - RPAT urban adaptation: expands rapid protection assessment to include urban concerns (pp. 12, 18).
+- Urban tools repository model: quality-controlled, user-friendly repository of urban humanitarian tools and data to standardize quality and uptake (pp. 12, 18).
 - Preparedness implementation plan + city pilots: tests integrated preparedness in at-risk cities and aligns with contingency planning revisions (pp. 16, 18).
 
 # Project lifecycle relevance
@@ -93,6 +94,7 @@ A structured action matrix assigns leads and support roles to agencies and speci
 | Action Plan matrix (objective/action/responsible agencies) | Assigns implementation ownership for two-year priorities | pp. 17-18 |
 | Stakeholder mapping action template (Obj. 1.1) | Standardized actor/capacity mapping for coordination design | p. 17 |
 | Urban vulnerability methodology action (Obj. 3.1) | Cross-sector indicator approach for urban resilience analysis | p. 18 |
+| Preparedness implementation and pilot model (actions 6.1, 6.2) | City-level preparedness strengthening, testing, and contingency plan revision | p. 18 |
 
 # Claims worth citing
 - "The strategy is built around six key objectives..." (p. 3)

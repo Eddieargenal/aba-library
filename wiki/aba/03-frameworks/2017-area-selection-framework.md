@@ -18,6 +18,7 @@ source_foundation:
   - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Area Selection Framework

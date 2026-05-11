@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2019
+updated: 2026-05-11
+---
 # Replication / Scale-Up Learning Note Framework
 
 **Source:** Global Shelter Cluster, *Area-Based Approaches in Urban Settings: Compendium of Case Studies*; ALNAP GPR 12 urban ABA guidance  

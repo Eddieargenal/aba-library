@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Participatory Assessment and Planning Tool Framework
 
 **Source:** Sanderson & Sitko, *Urban Area-Based Approaches in Post-Disaster Contexts*  

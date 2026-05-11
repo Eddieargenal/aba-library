@@ -8,6 +8,7 @@ required_for_decision_domains:
   - all
 created: 2026-05-07
 updated: 2026-05-07
+status: draft
 ---
 
 # Decision Memo Template

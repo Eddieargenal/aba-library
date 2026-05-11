@@ -1,6 +1,7 @@
 ---
 type: task-log-template
 updated: YYYY-MM-DD
+status: reference
 ---
 
 # Task Log Entry Template

@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2013
+updated: 2026-05-11
+---
 # City Resilience Investment Logic Framework
 
 **Source:** World Bank / GFDRR, *Building Urban Resilience*  

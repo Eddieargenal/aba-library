@@ -22,7 +22,7 @@ This index tracks every PDF stored here, its extraction status, and a pointer to
 | PDF filename | Author(s) | Year | Short title | Extracted? |
 |---|---|---|---|---|
 | `2009_twigg-ucl_disaster-resilient-community.pdf` | Twigg / UCL | 2009 | Disaster-Resilient Community | ✅ [[../extracted/2009_twigg-ucl_disaster-resilient-community\|extracted]] |
-| `2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf` | IASC | 2010 | IASC Urban Strategy *(underscore)* | ⚠️ Duplicate — see known issues |
+| `2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf` | IASC | 2010 | IASC Urban Strategy *(underscore)* | 🗑️ deleted: 2026-05-11 — underscore duplicate; content merged into hyphen canonical extraction |
 | `2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf` | IASC | 2010 | IASC Urban Strategy *(hyphen — canonical)* | ✅ [[../extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy\|extracted]] |
 | `2010_young-foundation_how-can-neighbourhoods-be-defined.pdf` | Young Foundation | 2010 | How Can Neighbourhoods Be Defined? | ✅ [[../extracted/2010_young-foundation_how-can-neighbourhoods-be-defined\|extracted]] |
 | `2012_efl_neighbourhood-approach-toolbox.pdf` | EFL | 2012 | Neighbourhood Approach Toolbox | ✅ [[../extracted/2012_efl_neighbourhood-approach-toolbox\|extracted]] |
@@ -43,27 +43,21 @@ This index tracks every PDF stored here, its extraction status, and a pointer to
 | `2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.pdf` | Campbell / ALNAP | 2019 | Barrio Mio and Katye | ✅ [[../extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study\|extracted]] |
 | `2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf` | REACH / UNHCR | 2019 | Area-Based Assessment with Key Informants | ✅ [[../extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide\|extracted]] |
 | `2019-replication-scale-up-learning-note-framework.pdf` | Global Shelter Cluster | 2019 | Replication / Scale-Up Learning Note | ✅ [[../extracted/2019-replication-scale-up-learning-note-framework\|extracted]] ⚠️ Possible overlap with compendium |
-| `2021_unhcr_aba-humanitarian-early-recovery.pdf` | UNHCR | 2021 | ABA in Humanitarian Early Recovery | ❌ Not yet extracted |
+| `2021_unhcr_aba-humanitarian-early-recovery.pdf` | UNHCR | 2021 | ABA in Humanitarian Early Recovery | 🗑️ deleted: 2026-05-11 — no extraction completed; removed during audit remediation |
 | `2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf` | IASC | 2026 | ABC Terms of Reference | ✅ [[../extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor\|extracted]] |
 
 ---
 
 ## Ingestion queue
 
-Two PDFs require extraction before they can be cited in concept or tool pages.
-
-| PDF | Priority | Notes |
-|---|---|---|
-| `2021_unhcr_aba-humanitarian-early-recovery.pdf` | High | UNHCR ABA guidance — likely adds humanitarian early recovery framing missing from current source set |
-
-Use `../../../../governance/aba/prompts/extract-source-from-pdf.md` for both.
+No PDFs currently pending extraction. (`2021_unhcr_aba-humanitarian-early-recovery.pdf` was deleted 2026-05-11 during audit remediation before extraction could be completed.)
 
 ---
 
 ## Known issues
 
-**Duplicate IASC 2010 PDF.**
-Two PDFs of the same document exist with different naming conventions (underscore vs hyphen). The hyphen version (`2010-iasc-...`) is canonical and has the active extracted file. The underscore version (`2010_iasc_...`) has a corresponding extracted file that should be reviewed for redundancy and deleted if it duplicates the hyphen extraction.
+**IASC 2010 PDF duplicate — resolved 2026-05-11.**
+Underscore PDF (`2010_iasc_...`) deleted. Unique content from underscore extraction merged into hyphen canonical file. Only `2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf` remains.
 
 **Space in Global Shelter Cluster filename.**
 `2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf` contains a space in the filename, which can break shell scripts and some link resolvers. Rename to `2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.pdf` when convenient; update the extracted file's `canonical_file` field to match.

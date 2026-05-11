@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Municipal “Ten Essentials” Diagnostic Framework
 
 **Source:** UNDRR, *How to Make Cities More Resilient: A Handbook for Local Government Leaders*  

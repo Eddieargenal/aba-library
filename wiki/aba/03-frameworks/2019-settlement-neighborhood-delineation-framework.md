@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2019
+updated: 2026-05-11
+---
 # Settlement / Neighborhood Delineation Framework
 
 **Source:** Global Shelter Cluster / Urban Settlements Working Group, *Area-Based Approaches in Urban Settings: Compendium of Case Studies*  

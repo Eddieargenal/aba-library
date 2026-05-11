@@ -1,3 +1,8 @@
+---
+type: agent-guide
+status: active
+updated: 2026-05-11
+---
 # Agent Operating Instructions
 
 This file tells AI agents how to work with the Urban DRR + ABA LLM Wiki.

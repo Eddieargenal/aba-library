@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2013
+updated: 2026-05-11
+---
 # Risk-Based City / Neighborhood Screening Framework
 
 **Source:** World Bank / GFDRR, *Building Urban Resilience: Principles, Tools, and Practice*  

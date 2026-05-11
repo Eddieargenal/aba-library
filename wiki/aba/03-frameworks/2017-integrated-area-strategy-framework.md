@@ -19,6 +19,7 @@ source_foundation:
   - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
 created: 2026-05-11
 updated: 2026-05-11
+used_by_outputs: []
 ---
 
 # Integrated Area Strategy Framework

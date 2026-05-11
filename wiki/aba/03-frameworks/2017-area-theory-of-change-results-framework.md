@@ -1,3 +1,10 @@
+---
+type: framework
+tier: 2
+status: reference
+created: 2017
+updated: 2026-05-11
+---
 # Area Theory of Change / Results Framework
 
 **Sources:** Sanderson & Sitko; Global Shelter Cluster, *Area-Based Approaches in Urban Settings: Compendium of Case Studies*; ALNAP, *Good Practice Review 12: Humanitarian Protection*  

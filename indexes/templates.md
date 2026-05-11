@@ -1,6 +1,7 @@
 ---
 type: index
 scope: templates
+status: active
 ---
 
 # Templates Index

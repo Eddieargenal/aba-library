@@ -12,6 +12,7 @@ required_for_decision_domains:
   - hazard-exposure-vulnerability-capacity
 created: 2026-05-07
 updated: 2026-05-07
+status: draft
 ---
 
 # Participatory Mapping Guide
