@@ -23,6 +23,9 @@ updated: 2026-05-07
 ## Purpose
 A checklist for preparing, planning, and executing program handover to local or municipal actors, and for documenting lessons learned for potential scale-up or replication in other areas. Ensures handover is planned, not improvised.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-transition-handover-framework]]
+
 ## Decision questions
 - Is the handover partner ready and willing to take over program functions?
 - Are all accountability obligations (audits, beneficiary lists, asset transfers) complete?

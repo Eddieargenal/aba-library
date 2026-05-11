@@ -29,6 +29,9 @@ updated: 2026-05-07
 ## Purpose
 A tool for mapping all actors operating in the target area — their activities, coverage, target populations, and coordination relationships — to identify duplications, gaps, and local resource leverage opportunities. Produces the actor landscape needed for area strategy design.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2026-area-based-coordination-framework]]
+
 ## Decision questions
 - Who is doing what, where, and for whom in this area?
 - Where are there duplications between actors, and where are there coverage gaps?

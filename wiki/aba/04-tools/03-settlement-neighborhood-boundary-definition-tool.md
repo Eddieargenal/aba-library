@@ -25,6 +25,9 @@ updated: 2026-05-07
 ## Purpose
 A tool for defining the operational boundary of the selected neighborhood or settlement, using community identity, service catchment areas, administrative units, and hazard zones as inputs. Produces a formally agreed boundary map and description used throughout the ABA program lifecycle.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-area-selection-framework]]
+
 ## Decision questions
 - What boundary best captures the affected community while remaining operationally manageable?
 - Does the proposed boundary align with service catchment areas and community identity?

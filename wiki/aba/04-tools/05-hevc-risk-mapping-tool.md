@@ -27,6 +27,9 @@ updated: 2026-05-07
 ## Purpose
 A tool for systematically mapping hazards, exposure, vulnerability, and capacity within the target area to produce a risk profile that informs DRR integration into the response design. Links humanitarian needs to underlying risk drivers and identifies Build Back Better opportunities.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-neighborhood-diagnosis-framework]]
+
 ## Decision questions
 - What are the primary hazards affecting the area and which populations are most exposed?
 - What factors make exposed populations vulnerable, and what protective capacities exist?

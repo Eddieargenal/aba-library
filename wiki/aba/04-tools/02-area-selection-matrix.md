@@ -26,6 +26,9 @@ updated: 2026-05-07
 ## Purpose
 A comparative matrix for selecting the most appropriate neighborhood or area for ABA programming by scoring candidate areas against hazard exposure, severity, vulnerability, feasibility, access, service gaps, and strategic value. Produces a ranked comparison of candidate areas to guide the final area selection decision.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-area-selection-framework]]
+
 ## Decision questions
 - Which neighborhood has the highest concentration of severe needs?
 - Which area has the best combination of vulnerability, access, and leverage potential?

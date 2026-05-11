@@ -23,6 +23,9 @@ updated: 2026-05-07
 ## Purpose
 A structured tool for building a coherent integrated area strategy that combines sector interventions, DRR actions, local actor roles, coordination mechanisms, and sequencing logic into a unified program framework. Ensures sector interventions reinforce each other and leverage local systems.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-integrated-area-strategy-framework]]
+
 ## Decision questions
 - How do sector interventions reinforce each other within the area strategy?
 - What is the logical sequence of activities given technical dependencies?

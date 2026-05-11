@@ -23,6 +23,9 @@ updated: 2026-05-07
 ## Purpose
 A matrix for prioritizing needs and risks based on severity, vulnerability, feasibility, and DRR relevance through a joint community and technical team process. Integrates humanitarian needs with DRR priorities and produces an agreed priority list with evidence justification.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-joint-prioritization-framework]]
+
 ## Decision questions
 - What are the most severe and feasible needs to address first?
 - How do DRR priorities align with immediate humanitarian needs?

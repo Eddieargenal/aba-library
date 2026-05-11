@@ -26,6 +26,9 @@ updated: 2026-05-07
 ## Purpose
 A structured tool for mapping and diagnosing the status of interconnected urban systems (water, sanitation, electricity, transport, markets, land, governance, social networks) within the target area. Identifies cascading failure patterns and systemic drivers of vulnerability that require systems-level response.
 
+## Backing framework
+This tool operationalizes: [[../03-frameworks/2017-neighborhood-diagnosis-framework]]
+
 ## Decision questions
 - Which urban systems have failed or are degraded, and why?
 - How are system failures cascading across water, sanitation, transport, markets, and governance?
