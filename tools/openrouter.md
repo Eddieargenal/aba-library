@@ -27,7 +27,7 @@ Routes LLM API calls to multiple providers (OpenAI, Anthropic, Mistral, etc.) th
 
 ## Related Workflows
 
-- [[../workflows/model-routing]]
+- [[../governance/workflows/model-routing]]
 - [[../agents/Hermes]]
 
 ## Notes

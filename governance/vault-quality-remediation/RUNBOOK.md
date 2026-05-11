@@ -2,8 +2,11 @@
 type: runbook
 title: Vault Quality Remediation — Team Runbook
 version: 1.1.0
-status: validated
-updated: 2026-05-08
+status: superseded
+updated: 2026-05-11
+superseded_by: governance/00_index.md
+superseded_date: 2026-05-11
+superseded_note: describes 2026-05-08 remediation sprint — vault structure consolidated 2026-05-11
 tags: ['governance', 'remediation', 'runbook', 'team']
 sources: ['governance/vault-quality-remediation/SKILL.md', 'wiki/workflows/lint-plan.md']
 ---

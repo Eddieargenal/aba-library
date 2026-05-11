@@ -24,7 +24,7 @@ updated: YYYY-MM-DD
 
 ## Related Workflows
 
-- [[../workflows/WORKFLOW-NAME]]
+- [[../governance/workflows/WORKFLOW-NAME]]
 
 ## Notes
 

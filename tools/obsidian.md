@@ -27,7 +27,7 @@ Obsidian is the markdown knowledge base application used to view, navigate, and 
 
 ## Related Files
 
-- [[../00_Start_Here]]
+- [[../AGENTS]]
 - [[../README]]
 
 ## Notes

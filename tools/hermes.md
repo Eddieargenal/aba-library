@@ -26,11 +26,11 @@ Hermes is the local model-routing and task-execution agent. It is the primary in
 
 ## Related Workflows
 
-- [[../workflows/model-routing]]
+- [[../governance/workflows/model-routing]]
 - [[../agents/Hermes]]
 - [[../indexes/workflows]]
 
 ## Notes
 
-- Hermes navigates via: `00_Start_Here.md → routing table → index → workflow → prompt/tool/memory only if needed → log result`
+- Hermes navigates via: `AGENTS.md → routing table → index → workflow → prompt/tool/memory only if needed → log result`
 - To point Hermes at this wiki, set the wiki path in `~/.hermes/config.yaml` under the wiki or knowledge-base key (consult Hermes docs for exact key name).

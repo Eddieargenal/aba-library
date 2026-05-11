@@ -101,7 +101,7 @@ Two PDFs exist in the raw directory with no corresponding extracted file:
 - `2021_unhcr_aba-humanitarian-early-recovery.pdf`
 - `2024-unhcr-syria-factsheet-area-based-programming-humanitarian-early-recovery-april-2024.pdf`
 
-These should be ingested using the extraction protocol in `13-agent-prompts/extract-source-from-pdf.md`.
+These should be ingested using the extraction protocol in `../../../../governance/aba/prompts/extract-source-from-pdf.md`.
 
 **Possible overlap — Global Shelter Cluster files.**
 `2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.md` and `2019-replication-scale-up-learning-note-framework.md` may cover the same or closely related source content. Verify both against their raw PDFs before citing either in concept pages.

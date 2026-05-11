@@ -30,9 +30,9 @@ These are the ONLY memory categories stored in the vault:
 
 || File | Purpose |
 |---|---|---|
-| [[vault-compliance-rules]] | The 10 non-negotiable rules |
-| [[governance]] | Governance quick reference |
-| [[memory-rules]] | Memory system rules |
+| [[../governance/compliance-rules]] | The 10 non-negotiable rules |
+| [[../governance/governance-model]] | Governance model quick reference |
+| [[../governance/memory-rules]] | Memory system rules |
 | [[current-handoff]] | Brief context for next session |
 | [[next-session]] | What previous session planned |
 | [[runtime/logs/log]] | Append-only vault log |

@@ -13,7 +13,7 @@ This folder holds raw, immutable source documents. The LLM reads these during in
 - **Add freely** — Drop any document here: articles, PDF-to-markdown exports, meeting notes, specs, transcripts.
 - **One source per file** — Do not concatenate multiple documents into one file.
 - **Filename convention** — `YYYY-MM-DD_slug.md` (e.g., `2026-05-07_karpathy-llm-wiki-spec.md`)
-- **After adding a source** — Run the Ingest workflow: [[../workflows/ingest]]
+- **After adding a source** — Run the Ingest workflow: [[../governance/workflows/ingest]]
 
 ## What Goes Here
 
@@ -41,4 +41,4 @@ sources/YYYY-MM-DD_article.md  ← raw, immutable
 memory/categories/decisions.md  ← wiki page, cites source
 ```
 
-See [[../SCHEMA.md]] for the full three-layer architecture.
+See [[../AGENTS.md]] for the full vault structure and [[../governance/governance-model]] for the three-layer architecture.

@@ -1,22 +1,20 @@
-# Agent Operating Instructions
+---
+type: stub
+status: active
+updated: 2026-05-11
+points-to: governance/aba/AGENTS.md
+---
 
-This file tells AI agents how to work with the Urban DRR + ABA LLM Wiki.
+# ABA Wiki — Agent Entry Point
 
-## Entry Points
-- For any domain question: read [[index.md]] first
-- Read canonical behavior contract: [[./00-overview/agent-contract]]
-- For tool use: read [[./04-tools/]] + linked field instruments
-- For new source ingestion: follow [[./13-agent-prompts/ingest-new-source]]
-- For quality check: run [[./13-agent-prompts/lint-wiki]]
-- If automation is unavailable: run [[./13-agent-prompts/run-manual-lint-checklist]]
+> This file is a redirect stub. Full content has moved to [[../../governance/aba/AGENTS]].
 
-## Page Types
-See [[page-types]] for definitions and templates.
+This stub exists so Claude Code can locate the ABA agent contract via directory auto-loading.
 
-## Naming Conventions
-See [[naming-conventions]].
+**Full ABA agent contract:** [[../../governance/aba/AGENTS]]
 
-## Quality Standard
-See [[tool-quality-standard]].
-
-A response that cites a tool but omits evidence collection and analysis instructions has failed quality.
+Summary of what the full file contains:
+- Domain question entry point and fallback ladder
+- Page type references and naming conventions
+- Tool quality standard reference
+- Hard rule on evidence requirements

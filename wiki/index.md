@@ -28,22 +28,22 @@ After every ingest: add new pages, update summaries that changed. After every li
 
 ---
 
-## Operations (`workflows/`)
+## Operations (`governance/workflows/`)
 
 Use [[../indexes/workflows]] if you need a workflow router before selecting a specific runbook.
 
 | Page | Summary |
 |------|---------|
-| [[../workflows/ingest]] | Add a source document and update the wiki |
-| [[../workflows/query]] | Answer a question from the wiki with citations |
-| [[../workflows/lint]] | Health-check the wiki for stale pages and contradictions |
-| [[../workflows/vault-initialization]] | Load vault context at session start |
-| [[../workflows/vault-maintenance]] | Keep the vault healthy and self-improving |
-| [[../workflows/model-routing]] | Select the right model/mode for a task |
-| [[../workflows/coding-tasks]] | Write, edit, debug, or refactor code |
-| [[../workflows/document-extraction]] | Extract content from PDFs, images, spreadsheets |
-| [[../workflows/odoo-accounting]] | Odoo tasks, accounting reports, chart of accounts |
-| [[../workflows/memory-recall]] | Recall previous decisions, facts, or session history |
+| [[../governance/workflows/ingest]] | Add a source document and update the wiki |
+| [[../governance/workflows/query]] | Answer a question from the wiki with citations |
+| [[../governance/workflows/lint]] | Health-check the wiki for stale pages and contradictions |
+| [[../governance/workflows/vault-initialization]] | Load vault context at session start |
+| [[../governance/workflows/vault-maintenance]] | Keep the vault healthy and self-improving |
+| [[../governance/workflows/model-routing]] | Select the right model/mode for a task |
+| [[../governance/workflows/coding-tasks]] | Write, edit, debug, or refactor code |
+| [[../governance/workflows/document-extraction]] | Extract content from PDFs, images, spreadsheets |
+| [[../governance/workflows/odoo-accounting]] | Odoo tasks, accounting reports, chart of accounts |
+| [[../governance/workflows/memory-recall]] | Recall previous decisions, facts, or session history |
 
 ---
 
@@ -86,8 +86,8 @@ Use [[../indexes/workflows]] if you need a workflow router before selecting a sp
 
 | Page | Summary |
 |------|---------|
-| [[vault-compliance-rules]] | The 10 non-negotiable vault governance rules — canonical on-wiki reference |
-| [[workflows/lint-plan]] | Self-contained lint routine: checks, output template, log destination |
+| [[../governance/compliance-rules]] | The 10 non-negotiable vault governance rules — canonical reference |
+| [[../governance/workflows/lint-plan]] | Self-contained lint routine: checks, output template, log destination |
 
 ---
 

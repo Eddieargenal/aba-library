@@ -13,7 +13,7 @@ Immutable PDF archive. **Never modify files in this directory.** Never open thes
 
 This index tracks every PDF stored here, its extraction status, and a pointer to its extracted counterpart where one exists.
 
-**Extraction protocol:** `../../13-agent-prompts/extract-source-from-pdf.md`
+**Extraction protocol:** `../../../../governance/aba/prompts/extract-source-from-pdf.md`
 
 ---
 
@@ -56,7 +56,7 @@ Two PDFs require extraction before they can be cited in concept or tool pages.
 |---|---|---|
 | `2021_unhcr_aba-humanitarian-early-recovery.pdf` | High | UNHCR ABA guidance — likely adds humanitarian early recovery framing missing from current source set |
 
-Use `../../13-agent-prompts/extract-source-from-pdf.md` for both.
+Use `../../../../governance/aba/prompts/extract-source-from-pdf.md` for both.
 
 ---
 

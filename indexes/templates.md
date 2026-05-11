@@ -11,7 +11,7 @@ Scaffold files for creating new vault content. Use these as starting points for 
 
 | Template | Use For | Link |
 |----------|---------|------|
-| [[../templates/workflow-template]] | Creating new task workflows | [[../workflows/model-routing]] as example |
+| [[../templates/workflow-template]] | Creating new task workflows | [[../governance/workflows/model-routing]] as example |
 | [[../templates/tool-template]] | Adding new tool references | [[../tools/hermes]] as example |
 | [[../templates/prompt-template]] | Creating reusable prompt templates | [[../prompts/code-debug]] as example |
 | [[../templates/task-log-template]] | Logging task execution results | [[../memory/runtime/logs/task-log]] as example |
@@ -26,7 +26,7 @@ Scaffold files for creating new vault content. Use these as starting points for 
 
 ## Template Naming Convention
 
-- Workflows: `workflows/[name].md`
+- Workflows: `governance/workflows/[name].md`
 - Tools: `tools/[name].md`
 - Prompts: `prompts/[name].md`
 - Memory records: `memory/categories/[category].md`

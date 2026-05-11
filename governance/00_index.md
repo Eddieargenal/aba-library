@@ -1,0 +1,30 @@
+---
+type: section-index
+status: active
+updated: 2026-05-11
+---
+
+# Governance
+
+All operational rules, schemas, workflows, and agent behavioral contracts for the vault live here. Start with the section that matches your task, then read only the file you need.
+
+## How to Navigate
+
+1. Identify your task type from the table below
+2. Go to the listed file or section index
+3. Read only the specific file for your task — do not load the full governance/ folder
+
+## Section Map
+
+| Section | File/Folder | Purpose | Read When | Do NOT Read When |
+|---|---|---|---|---|
+| Compliance Rules | `compliance-rules.md` | The 10 non-negotiable vault rules — citation, claim types, review status, append-only log, supersession | Before writing any vault content; when unsure if an action is permitted | Answering a domain question about ABA concepts or frameworks |
+| Governance Model | `governance-model.md` | Foundational principle, federated LLM-native model, roles & authority map, agent contract spec (mutability rules, contradiction rule, fallback ladder, index auto-maintenance, workflows), Mermaid architecture diagrams | When making a structural or authority decision; when setting up a new agent contract; when resolving a role or scope dispute | Routine content work (ingest, query, lint) |
+| Content Lifecycle | `content-lifecycle.md` | Content status states (draft → archived), 8-step schema change control process, pattern governance for 11-patterns/, linting health check definitions and failure levels | When changing a file's status; before modifying schema; before running lint; when governing 11-patterns/ entries | Creating an output or answering a domain question |
+| Evidence Promotion | `evidence-promotion.md` | Gated path for promoting field findings → reviewed findings → pattern candidates → concept/framework updates; eligibility criteria; evidence frontmatter | When a field finding needs to enter the promotion queue; when reviewing a pattern candidate | Routine ingest of a published source document |
+| Output Provenance | `output-provenance.md` | External vs internal output standards; required provenance frontmatter for each class; reverse dependency tracking via used_by_outputs | Before creating any output (toolkit, memo, proposal, training material, or filed Q&A) | Reading or querying domain content |
+| Review Cadence | `review-cadence.md` | Weekly/quarterly/annual review obligations; governance metrics dashboard with targets and alert thresholds | When scheduling a review cycle; when checking if content is overdue; when reporting governance health | Day-to-day content work |
+| Memory Rules | `memory-rules.md` | What to store per memory category, stale_after_days thresholds, claim type requirement, review status rules, supersession pattern | Before writing to any memory category file; when a memory entry needs re-verification | Reading or querying wiki content |
+| Schema Definitions | `schema/` → `schema/00_index.md` | Frontmatter schemas per page type, lint rules, ingest rules, query rules, citation rules, naming conventions, page types, tool quality standard, schema changelog | Before creating a new page type; when checking required frontmatter fields; when writing a tool or field instrument page | Answering a domain question; routine memory writes |
+| Workflows | `workflows/` → `workflows/00_index.md` | Step-by-step operational procedures: ingest, query, lint, vault-maintenance, vault-initialization, model-routing, document-extraction, memory-recall | When starting an operational task and needing the step sequence | Reading domain content; governance policy decisions |
+| ABA Wiki Ops | `aba/` → `aba/00_index.md` | ABA wiki agent behavioral contract, CLAUDE.md operating rules, agent operating model, access guide, and all 13 agent prompts for ABA-specific tasks | When operating inside the ABA wiki (wiki/aba/); before running an ABA-specific workflow (ingest, lint, query, build framework) | Operating outside the ABA wiki; vault-level governance decisions |

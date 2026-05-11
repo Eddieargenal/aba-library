@@ -22,6 +22,6 @@ updated: 2026-05-07
 
 ## Related
 
-- [[../workflows/model-routing]]
+- [[../governance/workflows/model-routing]]
 - [[../tools/openclaw]]
 - [[../indexes/workflows]]
