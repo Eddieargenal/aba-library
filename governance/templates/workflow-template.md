@@ -39,7 +39,7 @@ updated: YYYY-MM-DD
 
 ## Linked Files
 
-- [[../indexes/workflows]]
+- [[workflows]]
 - [[../prompts/...]]
 - [[../tools/...]]
 

@@ -11,11 +11,11 @@ Scaffold files for creating new vault content. Use these as starting points for 
 
 | Template | Use For | Link |
 |----------|---------|------|
-| [[../templates/workflow-template]] | Creating new task workflows | [[../governance/workflows/model-routing]] as example |
-| [[../templates/tool-template]] | Adding new tool references | [[../tools/hermes]] as example |
-| [[../templates/prompt-template]] | Creating reusable prompt templates | [[../prompts/code-debug]] as example |
-| [[../templates/task-log-template]] | Logging task execution results | [[../memory/runtime/logs/task-log]] as example |
-| [[../templates/memory-record-template]] | Adding new memory entries | [[../memory/categories/infrastructure]] as example |
+| [[workflow-template]] | Creating new task workflows | [[../governance/workflows/model-routing]] as example |
+| [[tool-template]] | Adding new tool references | [[../tools/hermes]] as example |
+| [[prompt-template]] | Creating reusable prompt templates | [[../prompts/code-debug]] as example |
+| [[task-log-template]] | Logging task execution results | [[../memory/runtime/logs/task-log]] as example |
+| [[memory-record-template]] | Adding new memory entries | [[../memory/categories/infrastructure]] as example |
 
 ## How to Use
 

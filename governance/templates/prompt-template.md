@@ -39,4 +39,4 @@ updated: YYYY-MM-DD
 
 ## Example
 
-See [[../prompts/code-debug]] or [[../prompts/fix-code]] for a complete example.
+See [[code-debug]] or [[fix-code]] for a complete example.

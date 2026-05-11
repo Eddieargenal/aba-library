@@ -5,7 +5,7 @@ updated: YYYY-MM-DD
 
 # Task Log Entry Template
 
-Use this template when adding an entry to [[../memory/runtime/logs/task-log]].
+Use this template when adding an entry to [[task-log]].
 
 ## Template
 
