@@ -4,6 +4,17 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-area-theory-of-change-results-framework
+title: "Area Theory of Change / Results Framework"
+lifecycle_stage:
+  - integrated-area-strategy
+source_foundation: []
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Area Theory of Change / Results Framework
 

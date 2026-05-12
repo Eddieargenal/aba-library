@@ -29,6 +29,23 @@ ingest_status: success
 notes: "May 2019 edition; filename uses 2017 (original publication year). Cases from 2010-2019. Defines ABA as geographically targeted, multi-sectoral, multi-stakeholder. Documents 4 process stages and varied coordination arrangements (city working groups, sub-city taskforces, agency-led, community committees). Canonical ABA reference for multi-scale coordination design. NOTE: canonical_file path contains a space — verify file exists on disk."
 canonical_file: ../raw/2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf
 wiki_pages: []
+type: source
+source_id: 2017-globalcluster-aba-compendium
+source_type: ngo-guidance
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+  - coordination-design
+  - implementation-adaptation
+primary_topics:
+  - area-based-approach
+  - coordination
+  - urban-response
+  - case-studies
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

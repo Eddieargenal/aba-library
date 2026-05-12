@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "9. Monitoring, evaluation, and learning"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Adaptive Management"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Adaptive management is the structured practice of using evidence from implementation to revise programme assumptions, activities, and design as conditions change. Three sources in this wiki ground the concept consistently: Sanderson & Sitko (2017) define it as "structured flexibility and iterative adjustments" required by dynamic urban conditions; Campbell (2019) documents it as the operational norm in PCI's Barrio Mio and Katye programmes, enabled by flexible funding and organizational culture; Sanderson (2019) frames it as a monitoring and evaluation design requirement for programmes operating under urban complexity. The concept is defined consistently across sources; the central challenge is not whether to adapt but how to document and account for adaptations within logframe-driven programme systems that were designed for output delivery rather than iterative learning.

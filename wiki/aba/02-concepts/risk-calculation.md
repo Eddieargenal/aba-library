@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "4. Risk and needs prioritization"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Risk Calculation"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Risk calculation is the analytical process of estimating disaster risk as a function of hazard, exposure, and vulnerability interactions. Three sources in this wiki ground the concept: the World Bank/GFDRR (2013) provides the most explicit formulation, defining risk as "the uncertainty of loss" reducible through location, structural, operational, and fiscal measures; UNDRR (2015) establishes multi-dimensional risk assessment as a Sendai Framework requirement; UNDRR (2017) operationalizes it through a city-level risk assessment workflow and scorecard. The formula itself is consistent across sources; the contested dimension is how to operationalize vulnerability in informal urban settings where data is absent, populations are mobile, and informal tenure arrangements are not captured in administrative records.

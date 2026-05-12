@@ -19,6 +19,12 @@ source_foundation:
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2026-area-based-coordination-framework
+title: "Area-Based Coordination Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # Area-Based Coordination Framework

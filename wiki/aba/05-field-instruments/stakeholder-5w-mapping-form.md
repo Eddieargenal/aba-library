@@ -1,15 +1,27 @@
 ---
 type: field-instrument
 instrument_id: stakeholder-5w-mapping-form
+title: Stakeholder 5W Mapping Form
 format: mapping form
 related_tools:
   - tool-06-stakeholder-coordination-mapping
 required_for_decision_domains:
   - stakeholder-coordination-complexity
   - local-capacity-resource-leverage
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+  - coordination-design
+primary_users:
+  - programme-officer
+  - field-coordinator
+can_export_to:
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Stakeholder 5W Mapping Form

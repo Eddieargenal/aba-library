@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "5. Integrated area strategy"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Pilot to Scale"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Pilot-to-scale is the programme strategy of beginning with a small-scale demonstration intervention, generating evidence of effectiveness, and using that evidence to replicate or expand through local partners rather than through direct agency delivery. Two sources ground the concept: Campbell (2019) provides the most developed operational account in PCI's Barrio Mio programme; the Global Shelter Cluster (2019) documents the pilot-demonstrate-replicate pathway as a standard scale-up option in ABA practice. The concept is operationalizable — it implies specific programme design choices, partnership structures, and monitoring requirements — but the evidence that pilot-to-scale actually produces city-level change rather than a series of independent neighbourhood projects remains thin. This gap is identified by the Global Shelter Cluster (2019) as an open research question.

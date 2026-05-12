@@ -29,6 +29,19 @@ ingest_status: success
 notes: "Working Paper 18-02, Building Better Homes, Towns and Cities National Science Challenge (NZ). Structured literature review supporting the 'Shaping Places: Future Neighbourhoods' programme. NZ policy focus and global north bias — apply with caution in humanitarian settings. Useful for boundary-definition methodology (spatial/social/socio-spatial typology) and mixed-methods approaches."
 canonical_file: ../raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf
 wiki_pages: []
+type: source
+source_id: 2018-allen-neighbourhood-concepts
+source_type: academic
+confidence: medium
+lifecycle_stage:
+  - area-selection
+  - neighbourhood-diagnosis
+primary_topics:
+  - neighbourhood-concept
+  - urban-systems
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

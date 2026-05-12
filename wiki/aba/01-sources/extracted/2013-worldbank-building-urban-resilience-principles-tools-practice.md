@@ -30,6 +30,21 @@ ingest_status: success
 notes: "East Asia & Pacific focus but principles broadly applicable. Structured in three parts: principles, tools, and sectoral practice (water/sanitation, energy/communications, transport). Risk-based approach combining near-term no-regret actions with long-term planning under uncertainty. Useful for systems-level risk framing and CBA methodology."
 canonical_file: ../raw/2013-worldbank-building-urban-resilience-principles-tools-practice.pdf
 wiki_pages: []
+type: source
+source_id: 2013-worldbank-urban-resilience
+source_type: government-policy
+confidence: high
+lifecycle_stage:
+  - neighbourhood-diagnosis
+  - implementation-adaptation
+  - monitoring-learning
+primary_topics:
+  - urban-resilience
+  - disaster-risk-reduction
+  - urban-systems
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

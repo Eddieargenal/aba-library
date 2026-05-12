@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-urban-resilience-action-design-framework
+title: "Urban Resilience Action Design Framework"
+lifecycle_stage:
+  - implementation-adaptation
+source_foundation:
+  - 2017-ifrc-building-urban-resilience-guide
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Urban Resilience Action Design Framework
 

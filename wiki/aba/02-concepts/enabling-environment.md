@@ -10,6 +10,12 @@ related_lifecycle_stages:
   - "2. Area profile and systems diagnosis"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Enabling Environment"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Enabling environment refers to the wider institutional, policy, and socio-economic conditions that shape what is achievable at community or programme level — the structural context within which resilience outcomes and DRR gains can or cannot be sustained. A single source grounds the concept in this wiki: Twigg (2009) introduces the enabling environment as a distinct analytical category within the disaster-resilient community framework, operating alongside community-level characteristics rather than as a sum of them. This is a seed-level concept page. It should be enriched when additional sources with explicit enabling environment analysis — particularly governance and policy frameworks — are ingested.

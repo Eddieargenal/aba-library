@@ -4,6 +4,17 @@ tier: 2
 status: reference
 created: 2019
 updated: 2026-05-11
+framework_id: 2019-sector-technical-design-checklist-framework
+title: "Sector Technical Design Checklist Framework"
+lifecycle_stage:
+  - implementation-adaptation
+source_foundation: []
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Sector Technical Design Checklist Framework
 

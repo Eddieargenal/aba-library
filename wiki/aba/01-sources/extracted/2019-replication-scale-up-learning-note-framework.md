@@ -27,6 +27,23 @@ ingest_status: success
 notes: "Filename 'replication-scale-up-learning-note-framework' may indicate a distinct learning note rather than the compendium itself — verify against raw PDF. Content closely mirrors Global Shelter Cluster ABA compendium structure (2010-2019 cases, five-stage implementation model, coordination typology). Source URL unresolved. See also: 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.md."
 canonical_file: ../raw/2019-replication-scale-up-learning-note-framework.pdf
 wiki_pages: []
+type: source
+source_id: 2019-globalcluster-replication-scale-up
+source_type: ngo-guidance
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+  - coordination-design
+  - implementation-adaptation
+primary_topics:
+  - area-based-approach
+  - coordination
+  - urban-response
+  - case-studies
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

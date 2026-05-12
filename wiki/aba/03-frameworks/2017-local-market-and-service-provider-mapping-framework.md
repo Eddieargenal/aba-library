@@ -4,6 +4,17 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-local-market-and-service-provider-mapping-framework
+title: "Local Market and Service Provider Mapping Framework"
+lifecycle_stage:
+  - integrated-area-strategy
+source_foundation: []
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Local Market and Service Provider Mapping Framework
 

@@ -30,6 +30,21 @@ ingest_status: success
 notes: "2017 edition of the Making Cities Resilient campaign handbook. Structures city-level DRR through the Ten Essentials framework and a six-phase resilience-building cycle. Designed for local government leaders and decision-makers. Aligned with Sendai Framework four priorities. Note: UNISDR was renamed UNDRR in 2019."
 canonical_file: ../raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf
 wiki_pages: []
+type: source
+source_id: 2017-undrr-mcr-handbook
+source_type: un-policy
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - implementation-adaptation
+  - monitoring-learning
+primary_topics:
+  - urban-resilience
+  - disaster-risk-reduction
+  - local-governance
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

@@ -28,6 +28,21 @@ ingest_status: success
 notes: "European housing association context (Dutch/German actors). NOT a humanitarian document — apply with caution. 4-step framework: align → analyze/select → design strategy → implement. Quick scan + in-depth diagnosis tools are methodologically transferable to ABA neighbourhood selection and prioritisation."
 canonical_file: ../raw/2012_efl_neighbourhood-approach-toolbox.pdf
 wiki_pages: []
+type: source
+source_id: 2012-efl-neighbourhood-toolbox
+source_type: ngo-guidance
+confidence: medium
+lifecycle_stage:
+  - area-selection
+  - neighbourhood-diagnosis
+  - joint-prioritization
+primary_topics:
+  - neighbourhood-concept
+  - participatory-assessment
+  - area-based-approach
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

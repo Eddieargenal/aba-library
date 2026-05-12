@@ -4,6 +4,19 @@ tier: 2
 status: reference
 created: 2019
 updated: 2026-05-11
+framework_id: 2019-area-based-reassessment-tool-framework
+title: "Area-Based Reassessment Tool Framework"
+lifecycle_stage:
+  - monitoring-learning
+source_foundation:
+  - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Area-Based Reassessment Tool Framework
 

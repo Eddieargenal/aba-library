@@ -12,6 +12,12 @@ related_lifecycle_stages:
   - "5. Integrated area strategy"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Disaster Risk Reduction"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Disaster risk reduction (DRR) is the systematic approach to identifying, assessing, and reducing the risks of disaster. Three sources in this wiki ground the concept, representing two consecutive global policy frameworks and a community-level operational guide. Twigg (2009) defines DRR in relation to the Hyogo Framework for Action (HFA 2005-2015) and develops its most operationally detailed community-level application. UNDRR (2015) supersedes HFA with the Sendai Framework for Disaster Risk Reduction 2015-2030, which broadens DRR scope, formalizes four priorities and seven global targets, and embeds Build Back Better as a core post-disaster function. UNDRR (2017) operationalizes the Sendai Framework at city level through the Ten Essentials and a resilience-building cycle for local government. The definitions are compatible and sequential rather than contradictory; the evolution from Hyogo to Sendai shifted DRR's emphasis from disaster management toward proactive risk governance and integrated resilience investment.

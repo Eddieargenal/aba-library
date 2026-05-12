@@ -1,6 +1,7 @@
 ---
 type: field-instrument
 instrument_id: kii-guide-community-leaders
+title: "KII Guide — Community Leaders"
 format: kii guide
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
@@ -9,9 +10,21 @@ required_for_decision_domains:
   - community-participation-feasibility
   - local-capacity-resource-leverage
   - geographic-concentration
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+  - neighbourhood-diagnosis
+primary_users:
+  - field-enumerator
+  - community-facilitator
+can_export_to:
+  - pdf
+  - markdown
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Kii Guide Community Leaders

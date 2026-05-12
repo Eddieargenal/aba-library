@@ -1,18 +1,28 @@
 ---
 type: field-instrument
 instrument_id: participatory-mapping-guide
+title: Participatory Mapping Guide
 format: guide
 can_export_to:
   - markdown
   - word
-related_tool: tool-07-community-engagement-platform
+related_tools:
+  - tool-07-community-engagement-platform
 required_for_decision_domains:
   - neighborhood-boundaries
   - local-resource-leverage
   - hazard-exposure-vulnerability-capacity
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+  - area-selection
+primary_users:
+  - community-facilitator
+  - field-coordinator
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Participatory Mapping Guide

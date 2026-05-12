@@ -1,6 +1,7 @@
 ---
 type: field-instrument
 instrument_id: transect-walk-observation-form
+title: Transect Walk Observation Form
 format: observation form
 related_tools:
   - tool-04-urban-systems-diagnosis
@@ -8,9 +9,20 @@ related_tools:
 required_for_decision_domains:
   - urban-systems-interdependence
   - hazard-exposure-vulnerability-capacity
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+primary_users:
+  - field-enumerator
+can_export_to:
+  - kobo
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Transect Walk Observation Form

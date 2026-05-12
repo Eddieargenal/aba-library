@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Build Back Better"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Build Back Better (BBB) is the principle that post-disaster recovery, rehabilitation, and reconstruction should reduce future disaster risk rather than restore pre-disaster conditions of vulnerability. Three sources ground the concept: UNDRR (2015) formalizes BBB as Sendai Framework Priority 4 and establishes it as a normative requirement; UNDRR (2017) operationalizes it at city level through resilience-building cycles for local government; World Bank/GFDRR (2013) frames it as a multi-pillar disaster risk management requirement. The concept is consistent across all three sources. The contested dimension is timing: UNDRR (2015) specifies that BBB planning should be integrated *before* disasters occur, not only afterward — a requirement that contradicts the common practice of treating BBB as a post-disaster policy aspiration.

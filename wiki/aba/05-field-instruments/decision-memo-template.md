@@ -1,14 +1,25 @@
 ---
 type: field-instrument
 instrument_id: decision-memo-template
+title: Decision Memo Template
 format: document template
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
 required_for_decision_domains:
   - all
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - appropriateness-decision
+primary_users:
+  - programme-officer
+  - field-coordinator
+can_export_to:
+  - word
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Decision Memo Template

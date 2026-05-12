@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "2. Area profile and systems diagnosis"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Neighbourhood Concept"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** The neighbourhood concept is contested at its definitional core. Three sources dedicated to defining and reviewing the concept arrive at three different typologies, none of which supersedes the others. The Young Foundation (2010) contrasts administrative-geographic and socially experienced neighbourhoods, introducing "local public realm" as a bridging construct. Allen (2018) organizes the literature into spatial, social, and socio-spatial categories, finding that resident-defined boundaries systematically diverge from administrative ones. Baffoe (2019) frames neighbourhood as variably construed as place, community, and policy unit, each with distinct analytical implications. The debate is the content: no single definition can be imported wholesale into area-based programming. The concept page's job is to present the typologies clearly so practitioners can make explicit definitional choices rather than defaulting to operationally convenient boundaries.

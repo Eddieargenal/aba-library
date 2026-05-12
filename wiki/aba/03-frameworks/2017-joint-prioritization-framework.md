@@ -18,6 +18,12 @@ source_foundation:
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2017-joint-prioritization-framework
+title: "Joint Prioritization Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # Joint Prioritization Framework

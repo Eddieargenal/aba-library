@@ -19,6 +19,12 @@ source_foundation:
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2017-area-selection-framework
+title: "Area Selection Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # Area Selection Framework

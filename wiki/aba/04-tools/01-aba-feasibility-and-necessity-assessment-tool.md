@@ -44,6 +44,11 @@ related_lifecycle_pages:
   - "00-appropriateness-decision"
 created: 2026-05-07
 updated: 2026-05-07
+title: "ABA Feasibility and Necessity Assessment Tool"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 01: ABA Feasibility and Necessity Assessment Tool

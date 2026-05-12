@@ -1,6 +1,7 @@
 ---
 type: field-instrument
 instrument_id: kii-guide-service-provider
+title: "KII Guide — Service Provider"
 format: kii guide
 related_tools:
   - tool-04-urban-systems-diagnosis
@@ -8,9 +9,18 @@ related_tools:
 required_for_decision_domains:
   - urban-systems-interdependence
   - local-capacity-resource-leverage
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+primary_users:
+  - field-enumerator
+can_export_to:
+  - pdf
+  - markdown
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Kii Guide Service Provider

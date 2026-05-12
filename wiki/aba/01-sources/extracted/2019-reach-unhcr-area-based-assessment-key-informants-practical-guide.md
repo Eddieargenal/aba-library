@@ -30,6 +30,21 @@ ingest_status: success
 notes: "REACH/UNHCR practical guide for area-based assessments in out-of-camp displacement contexts using key informants (KIs) with optional social network analysis (SNA). Cumulative 4-section toolkit: area identification (MFGDs) → KI selection → network-informed KI selection → multisectoral data collection. KI data complements but does not replace household surveys."
 canonical_file: ../raw/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf
 wiki_pages: []
+type: source
+source_id: 2019-reach-unhcr-aba-ki
+source_type: field-evaluation
+confidence: high
+lifecycle_stage:
+  - area-selection
+  - neighbourhood-diagnosis
+  - joint-prioritization
+primary_topics:
+  - area-based-approach
+  - assessment
+  - displacement
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

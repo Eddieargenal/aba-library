@@ -20,6 +20,12 @@ source_foundation:
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2017-integrated-area-strategy-framework
+title: "Integrated Area Strategy Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # Integrated Area Strategy Framework

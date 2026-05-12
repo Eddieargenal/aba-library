@@ -30,6 +30,22 @@ ingest_status: success
 notes: "IIED Working Paper. Literature review + practitioner interviews + workshop. Cases: Kabul, Port-au-Prince, Baghdad, Tacloban. Key finding: ABAs are conditionally effective — design quality and context determine outcomes. Flags persistent terminology fragmentation across 'area-based', 'neighbourhood', 'settlement', 'integrated' labels. Closes with research agenda."
 canonical_file: ../raw/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.pdf
 wiki_pages: []
+type: source
+source_id: 2015-parker-maynard-aba-review
+source_type: field-evaluation
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+  - neighbourhood-diagnosis
+primary_topics:
+  - area-based-approach
+  - urban-response
+  - coordination
+  - field-evaluation
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

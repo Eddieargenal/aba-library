@@ -13,6 +13,12 @@ related_lifecycle_stages:
   - "5. Integrated area strategy"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Area-Based Approach"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 # Definition

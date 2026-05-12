@@ -4,6 +4,19 @@ tier: 2
 status: reference
 created: 2019
 updated: 2026-05-11
+framework_id: 2019-replication-scale-up-learning-note-framework
+title: "Replication / Scale-Up Learning Note Framework"
+lifecycle_stage:
+  - transition-handover
+source_foundation:
+  - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
+  - 2019_alnap-sanderson-humanitarian-response-urban-contexts
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Replication / Scale-Up Learning Note Framework
 

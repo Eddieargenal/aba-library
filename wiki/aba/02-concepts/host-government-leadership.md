@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Host Government Leadership"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Host-government leadership is the principle that national and municipal governments should lead — or at minimum coordinate — humanitarian response in urban areas, with humanitarian actors positioned as support rather than as primary decision-makers. Two source documents ground the concept: IASC (2010) establishes it as the foundational principle for urban humanitarian strategy; IASC (2026) embeds it structurally in area-based coordination architecture. Both are IASC documents, and the source base is thin — this page is seed-level and should be enriched as additional sources documenting the operational conditions and failure modes of government leadership are ingested.

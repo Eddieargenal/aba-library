@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2013
 updated: 2026-05-11
+framework_id: 2013-risk-based-city-neighborhood-screening-framework
+title: "Risk-Based City / Neighborhood Screening Framework"
+lifecycle_stage:
+  - area-selection
+source_foundation:
+  - 2013-worldbank-building-urban-resilience-principles-tools-practice
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Risk-Based City / Neighborhood Screening Framework
 

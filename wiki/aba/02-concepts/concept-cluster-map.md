@@ -8,6 +8,15 @@ source_files_scanned: 23
 raw_concept_candidates: 130
 concept_families_identified: 24
 maturity: established
+title: "Concept Cluster Map"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
+source_count: 0
+related_tools: []
+related_lifecycle_stages: []
 ---
 
 # Concept Cluster Map — Phase 1

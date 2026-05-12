@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "3. Community and stakeholder engagement platform"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Whole Population Inclusion"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Whole-population inclusion is the design principle that area-based programming should target all people residing within a defined geographic area — regardless of displacement status, legal category, or administrative registration — rather than selecting beneficiaries by individual criteria within the area. Two sources ground the concept consistently. The Global Shelter Cluster (2019) defines it as a core ABA characteristic; Parker & Maynard (2015) document its operational effects in case studies. The concept is directly operationalizable: whole-population inclusion is a binary programme design decision with documented consequences for social cohesion, targeting efficiency, and programme legitimacy.

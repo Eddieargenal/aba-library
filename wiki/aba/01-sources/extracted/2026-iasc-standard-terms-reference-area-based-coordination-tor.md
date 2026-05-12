@@ -1,15 +1,18 @@
 ---
 title: "Standard Terms of Reference for Area-Based Coordination"
 author: "Inter-Agency Standing Committee (IASC) Humanitarian Working Group"
+institution: "Inter-Agency Standing Committee (IASC)"
 year: 2026
 source_url: "TODO[agent]: canonical publication URL not provided in request or extractable PDF text"
+source_url_status: "not found — URL absent from source document; search iasc.ch or interagencystandingcommittee.org for 'Standard Terms of Reference Area-Based Coordination 2026'"
 file_type: pdf
 status: active
 review_cycle: annual
 last_reviewed: 2026-05-10
 next_review: 2027-05-10
 foundational: true
-zone: raw
+zone: extracted
+framework_alignment: []
 tags:
   - aba
   - coordination
@@ -21,6 +24,22 @@ ingest_date: 2026-05-10
 ingest_status: success
 notes: "IASC-endorsed (March 2026) standard TOR for area-based coordination under IASC humanitarian architecture; positioned as an adaptable minimum reference, not a mandatory retrofit for existing ABC structures."
 canonical_file: ../raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf
+wiki_pages: []
+type: source
+source_id: 2026-iasc-abc-tor
+source_type: iasc-guidance
+confidence: high
+lifecycle_stage:
+  - coordination-design
+  - implementation-adaptation
+  - transition-handover
+primary_topics:
+  - coordination
+  - area-based-approach
+  - urban-response
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

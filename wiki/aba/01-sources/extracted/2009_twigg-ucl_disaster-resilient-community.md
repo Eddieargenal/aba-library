@@ -34,6 +34,22 @@ ingest_status: success
 notes: "Version 2; 5 thematic areas, 28 components, 167 characteristics aligned to HFA priorities. Five-level milestone scaling model directly usable for M&E design. Emphasises contextual adaptation over uniform application — do not apply all 167 characteristics as a checklist."
 canonical_file: ../raw/2009_twigg-ucl_disaster-resilient-community.pdf
 wiki_pages: []
+type: source
+source_id: 2009-twigg-ucl-drr
+source_type: academic
+confidence: high
+lifecycle_stage:
+  - neighbourhood-diagnosis
+  - implementation-adaptation
+  - monitoring-learning
+primary_topics:
+  - disaster-risk-reduction
+  - community-resilience
+  - monitoring-evaluation
+  - urban-systems
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

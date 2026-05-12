@@ -1,6 +1,7 @@
 ---
 type: field-instrument
 instrument_id: kii-guide-ngos-cbos
+title: "KII Guide — NGOs and CBOs"
 format: kii guide
 related_tools:
   - tool-06-stakeholder-coordination-mapping
@@ -8,9 +9,19 @@ related_tools:
 required_for_decision_domains:
   - stakeholder-coordination-complexity
   - local-capacity-resource-leverage
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+primary_users:
+  - field-enumerator
+  - community-facilitator
+can_export_to:
+  - pdf
+  - markdown
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Kii Guide Ngos Cbos

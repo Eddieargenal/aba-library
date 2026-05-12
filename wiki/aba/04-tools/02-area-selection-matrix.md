@@ -19,6 +19,11 @@ related_lifecycle_pages:
   - "01-area-selection-boundary-definition"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Area Selection Matrix"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 02: Area Selection Matrix

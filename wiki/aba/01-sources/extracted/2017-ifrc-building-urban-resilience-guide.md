@@ -30,6 +30,20 @@ ingest_status: success
 notes: "Outcome of IFRC–Iranian Red Crescent Partnership on Urban DRR/DM (2013-2016), informed by 5 city-level projects. Non-prescriptive: identifies considerations, not step-by-step instructions. 5 thematic areas: context/engagement, capacity-strengthening, awareness-raising, programme implementation, advocacy. Caution: Movement-specific framing; existing tools were shaped in rural contexts and require urban adaptation."
 canonical_file: ../raw/2017-ifrc-building-urban-resilience-guide.pdf
 wiki_pages: []
+type: source
+source_id: 2017-ifrc-urban-resilience
+source_type: ngo-guidance
+confidence: medium
+lifecycle_stage:
+  - appropriateness-decision
+  - implementation-adaptation
+primary_topics:
+  - urban-resilience
+  - disaster-risk-reduction
+  - coordination
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

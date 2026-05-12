@@ -29,6 +29,20 @@ ingest_status: success
 notes: "IRC/Stronger Cities Initiative toolkit for urban context analysis in displacement settings. 10-step, 3-phase process. Complements (does not replace) needs/vulnerability assessment. Estimated ~2 weeks in-country collection. Published by IIED as part of the Stronger Cities series (code 10819IIED)."
 canonical_file: ../raw/2017-iied-urban-context-analysis-toolkit-guidance-note.pdf
 wiki_pages: []
+type: source
+source_id: 2017-iied-irc-urban-context-toolkit
+source_type: ngo-guidance
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - neighbourhood-diagnosis
+primary_topics:
+  - urban-systems
+  - context-analysis
+  - area-based-approach
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "2. Area profile and systems diagnosis"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Neighborhood Boundaries"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Neighbourhood boundary definition is the process of delineating the spatial perimeter of an area-based intervention or assessment unit. Six sources in this wiki ground the concept, drawing from both humanitarian operational practice and urban planning and neighbourhood theory. Three distinct theoretical frameworks for defining boundaries — administrative, physical, and socially negotiated — are documented, and the literature consistently finds that no single approach is adequate without triangulation. A structurally important finding is that resident-defined boundaries frequently diverge from administrative boundaries, with significant consequences for who is included in or excluded from programming and assessment.

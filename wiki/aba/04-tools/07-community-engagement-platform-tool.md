@@ -16,6 +16,11 @@ related_lifecycle_pages:
   - "03-community-stakeholder-engagement"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Community Engagement Platform Tool"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 07: Community Engagement Platform Tool

@@ -29,6 +29,20 @@ ingest_status: success
 notes: "UK policy context — apply with caution in humanitarian settings. Introduces 'local public realm' as bridging concept between admin-geographic and socially-experienced neighbourhood definitions. Neighbourhood scales are layered and overlapping, not fixed — directly relevant to ABA geographic targeting design."
 canonical_file: ../raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf
 wiki_pages: []
+type: source
+source_id: 2010-young-foundation-neighbourhood
+source_type: ngo-guidance
+confidence: medium
+lifecycle_stage:
+  - area-selection
+  - neighbourhood-diagnosis
+primary_topics:
+  - neighbourhood-concept
+  - area-based-approach
+  - urban-systems
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

@@ -16,6 +16,11 @@ related_lifecycle_pages:
   - "07-detailed-technical-design"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Sector Technical Design Checklist"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 11: Sector Technical Design Checklist

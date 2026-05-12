@@ -9,6 +9,12 @@ related_lifecycle_stages:
   - "9. Monitoring, evaluation, and learning"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Contribution vs Attribution"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Contribution vs. attribution is the evaluative distinction between assessing how an intervention contributed to outcomes within a wider multi-actor causal system (contribution) versus measuring outcomes that can be directly attributed to a single agency's actions alone (attribution). Two sources ground the concept: Sanderson & Sitko (2017) provide the most explicit operational account, arguing that ABA outcomes must be evaluated through contribution rather than attribution logic; the Global Shelter Cluster (2019) applies the same principle to multi-agency M&E design. Both sources are consistent. The concept is directly actionable for MEL design: it determines what evidence is collected, how causal claims are framed, and what questions evaluators can defensibly answer about a multi-actor urban programme.

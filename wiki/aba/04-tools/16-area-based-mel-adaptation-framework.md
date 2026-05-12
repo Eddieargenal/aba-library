@@ -16,6 +16,11 @@ related_lifecycle_pages:
   - "09-monitoring-learning-adaptation"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Area-Based MEL Adaptation Framework"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 16: Area Based Mel Adaptation Framework

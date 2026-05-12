@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2019
 updated: 2026-05-11
+framework_id: 2019-area-based-assessment-with-key-informants-framework
+title: "Area-Based Assessment with Key Informants Framework"
+lifecycle_stage:
+  - neighbourhood-diagnosis
+source_foundation:
+  - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Area-Based Assessment with Key Informants Framework
 

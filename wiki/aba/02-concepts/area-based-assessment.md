@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "2. Area profile and systems diagnosis"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Area-Based Assessment"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Area-based assessment is the methodological approach to data preparation, collection, analysis, and interpretation that supports area-based programming. A single primary source grounds the concept operationally: REACH/UNHCR (2019) provides a structured four-section toolkit for conducting area-based assessments in out-of-camp displacement contexts using key informants, with optional social network analysis for informant selection. This concept page is seed-level — one dedicated methodological source — and should be enriched as additional assessment methodology sources are ingested. The central operational insight from REACH/UNHCR (2019) is that "proper area definition is a prerequisite for KI data quality; poor boundary definition can produce misleading findings" (p. 32).

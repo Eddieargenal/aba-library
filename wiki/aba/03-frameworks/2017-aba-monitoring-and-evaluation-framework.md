@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-aba-monitoring-and-evaluation-framework
+title: "ABA Monitoring and Evaluation Framework"
+lifecycle_stage:
+  - monitoring-learning
+source_foundation:
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # ABA Monitoring and Evaluation Framework
 

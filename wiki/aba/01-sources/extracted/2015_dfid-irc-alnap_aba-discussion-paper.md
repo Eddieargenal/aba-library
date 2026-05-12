@@ -28,6 +28,21 @@ ingest_status: success
 notes: "Short but definitionally important: establishes the three core ABA characteristics (geographically targeted, participatory, multi-sectoral). Uses Haiti and Typhoon Haiyan cases to argue neighbourhood-only delivery fails without city-wide systems linkage. Calls for simultaneous multi-scale action."
 canonical_file: ../raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf
 wiki_pages: []
+type: source
+source_id: 2015-dfid-irc-alnap-aba
+source_type: field-evaluation
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+  - coordination-design
+primary_topics:
+  - area-based-approach
+  - urban-response
+  - coordination
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

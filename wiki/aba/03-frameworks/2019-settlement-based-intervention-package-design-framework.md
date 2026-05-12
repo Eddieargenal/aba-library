@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2019
 updated: 2026-05-11
+framework_id: 2019-settlement-based-intervention-package-design-framework
+title: "Settlement-Based Intervention Package Design Framework"
+lifecycle_stage:
+  - implementation-adaptation
+source_foundation:
+  - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Settlement-Based Intervention Package Design Framework
 

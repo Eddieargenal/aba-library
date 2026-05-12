@@ -31,6 +31,20 @@ ingest_status: success
 notes: "URAF — 6-step decision support framework for multi-sector response selection in urban crises. Designed for programme manager workshops (est. 4-6 hours when data available). Links response choice to needs, context, feasibility, and risk minimisation. Promotes multipurpose cash grants (MPGs) alongside complementary sector responses. Published by IIED as part of Stronger Cities series (code 10824IIED)."
 canonical_file: ../raw/2017-response-option-comparison-matrix-framework.pdf
 wiki_pages: []
+type: source
+source_id: 2017-nrc-uraf
+source_type: ngo-guidance
+confidence: high
+lifecycle_stage:
+  - joint-prioritization
+  - integrated-area-strategy
+primary_topics:
+  - response-analysis
+  - urban-response
+  - area-based-approach
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

@@ -4,6 +4,17 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-protection-and-do-no-harm-risk-screen-framework
+title: "Protection and Do-No-Harm Risk Screen Framework"
+lifecycle_stage:
+  - joint-prioritization
+source_foundation: []
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Protection and Do-No-Harm Risk Screen Framework
 

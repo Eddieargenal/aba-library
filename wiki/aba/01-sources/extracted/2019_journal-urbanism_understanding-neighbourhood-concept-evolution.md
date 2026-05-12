@@ -29,6 +29,19 @@ ingest_status: success
 notes: "Journal article — Environment and Urbanization Asia (Sage, 2019). DOI: 10.1177/0975425319859115. Reviews neighbourhood concept evolution from planning/Chicago School roots through contemporary policy applications. Useful for justifying neighbourhood as a valid sub-city unit. Strong global north bias in seminal literature — flags data/method constraints in global south contexts."
 canonical_file: ../raw/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.pdf
 wiki_pages: []
+type: source
+source_id: 2019-baffoe-neighbourhood-evolution
+source_type: academic
+confidence: medium
+lifecycle_stage:
+  - area-selection
+  - neighbourhood-diagnosis
+primary_topics:
+  - neighbourhood-concept
+  - urban-systems
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

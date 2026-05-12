@@ -12,6 +12,12 @@ related_lifecycle_stages:
   - "5. Integrated area strategy"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Urban Systems Thinking"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Urban systems thinking is an analytical approach that treats the city as a set of interdependent subsystems whose interactions — not individual components — drive crisis dynamics and recovery trajectories. Five sources in this wiki ground the concept, which converges on a five-domain typology (economy/livelihoods, governance, social/cultural, infrastructure/services, and space/settlements). The concept is well-established within the source set; the primary tension is not in the framework itself but in how to operationalize it under field conditions with limited time and data.

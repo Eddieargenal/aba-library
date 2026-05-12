@@ -1,6 +1,7 @@
 ---
 type: field-instrument
 instrument_id: household-mini-survey
+title: Household Mini Survey
 format: survey
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
@@ -10,9 +11,20 @@ required_for_decision_domains:
   - geographic-concentration
   - multi-sector-needs
   - hazard-exposure-vulnerability-capacity
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+primary_users:
+  - field-enumerator
+can_export_to:
+  - kobo
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Household Mini Survey

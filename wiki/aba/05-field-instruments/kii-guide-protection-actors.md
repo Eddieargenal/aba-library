@@ -1,6 +1,7 @@
 ---
 type: field-instrument
 instrument_id: kii-guide-protection-actors
+title: "KII Guide — Protection Actors"
 format: kii guide
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
@@ -8,9 +9,20 @@ related_tools:
 required_for_decision_domains:
   - community-participation-feasibility
   - operational-feasibility
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+  - appropriateness-decision
+primary_users:
+  - protection-officer
+  - field-enumerator
+can_export_to:
+  - pdf
+  - markdown
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Kii Guide Protection Actors

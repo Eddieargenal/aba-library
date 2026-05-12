@@ -13,6 +13,12 @@ related_lifecycle_stages:
   - "6. Program design and modality selection"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Multi-Sector Response Analysis"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Multi-sector response analysis is the systematic examination of interrelated urban needs across sectors to identify the most appropriate combination of interventions, modalities, and target groups. Six sources in this wiki ground the concept, which is operationalized most fully in the Urban Response Analysis Framework (Mohiddin et al., 2017). A central unresolved tension in the literature is whether integrated multi-sector programming constitutes a genuinely different planning model or simply the coordination of parallel sector outputs within the same geographic area.

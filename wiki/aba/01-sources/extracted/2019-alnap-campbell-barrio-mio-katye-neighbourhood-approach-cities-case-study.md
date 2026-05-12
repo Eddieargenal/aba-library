@@ -31,6 +31,23 @@ ingest_status: success
 notes: "ALNAP case study of PCI’s Barrio Mio (Guatemala City — urban DRR strategy) and Katye (Port-au-Prince — urban recovery). Documents six complexity-navigation approaches: context-informed action, interconnected multi-sector design, convening/facilitation, community-led practice, iterative pilot-and-scale learning, and long-term DRR-recovery linkage. PCI’s shift from direct implementer to facilitator/convenor is a key transferable lesson."
 canonical_file: ../raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.pdf
 wiki_pages: []
+type: source
+source_id: 2019-alnap-campbell-barrio-mio
+source_type: field-evaluation
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+  - implementation-adaptation
+  - transition-handover
+primary_topics:
+  - area-based-approach
+  - urban-response
+  - coordination
+  - pilot-to-scale
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

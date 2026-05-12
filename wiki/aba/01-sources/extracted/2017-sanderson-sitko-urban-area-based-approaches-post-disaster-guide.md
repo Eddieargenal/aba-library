@@ -30,6 +30,23 @@ ingest_status: success
 notes: "10-principle ABA guidance for post-rapid-onset-disaster urban response (World Vision/Stronger Cities). Principles span assessment/design, implementation, and evaluation/learning. Core message: ABAs require agencies to 'do business differently' — flexible funding, adaptive management, inter-agency coordination, and scale-up planning from inception. Contribution (not attribution) evaluation is core. Published by IIED (code 10825IIED)."
 canonical_file: ../raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf
 wiki_pages: []
+type: source
+source_id: 2017-sanderson-sitko-aba-post-disaster
+source_type: ngo-guidance
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - coordination-design
+  - implementation-adaptation
+  - monitoring-learning
+primary_topics:
+  - area-based-approach
+  - urban-response
+  - coordination
+  - monitoring-evaluation
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

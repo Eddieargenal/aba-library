@@ -29,6 +29,21 @@ ingest_status: success
 notes: "Action matrix assigns leads/support roles and specifies priority actions including stakeholder mapping, urban vulnerability methodologies, and RPAT adaptation. Merged with underscore variant 2026-05-11"
 canonical_file: ../raw/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf
 wiki_pages: []
+type: source
+source_id: 2010-iasc-urban-strategy
+source_type: iasc-guidance
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - coordination-design
+  - implementation-adaptation
+primary_topics:
+  - coordination
+  - urban-response
+  - area-based-approach
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

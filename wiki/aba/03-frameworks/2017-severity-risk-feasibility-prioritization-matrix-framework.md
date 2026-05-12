@@ -4,6 +4,19 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-severity-risk-feasibility-prioritization-matrix-framework
+title: "Severity-Risk-Feasibility Prioritization Matrix Framework"
+lifecycle_stage:
+  - joint-prioritization
+source_foundation:
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Severity–Risk–Feasibility Prioritization Matrix Framework
 

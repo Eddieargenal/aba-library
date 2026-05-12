@@ -1,15 +1,26 @@
 ---
 type: field-instrument
 instrument_id: service-functionality-mapping-sheet
+title: Service Functionality Mapping Sheet
 format: mapping sheet
 related_tools:
   - tool-04-urban-systems-diagnosis
 required_for_decision_domains:
   - urban-systems-interdependence
   - multi-sector-needs
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+primary_users:
+  - field-enumerator
+  - programme-officer
+can_export_to:
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Service Functionality Mapping Sheet

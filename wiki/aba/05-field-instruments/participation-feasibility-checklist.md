@@ -1,15 +1,27 @@
 ---
 type: field-instrument
 instrument_id: participation-feasibility-checklist
+title: Participation Feasibility Checklist
 format: checklist
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
   - tool-07-community-engagement-platform
 required_for_decision_domains:
   - community-participation-feasibility
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - appropriateness-decision
+  - neighbourhood-diagnosis
+primary_users:
+  - community-facilitator
+  - programme-officer
+can_export_to:
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Participation Feasibility Checklist

@@ -21,6 +21,12 @@ source_foundation:
 created: 2026-05-07
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2017-aba-appropriateness-decision-framework
+title: "ABA Appropriateness Decision Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # ABA Appropriateness Decision Framework

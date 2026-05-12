@@ -14,6 +14,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Multi-Stakeholder Engagement"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Multi-stakeholder engagement is the structured, active involvement of government, civil society, affected communities, the private sector, and humanitarian actors in the design, implementation, coordination, and evaluation of area-based programming. Eight sources in this wiki ground the concept, which is defined consistently as a requirement rather than a preference. The central tension is not whether to engage multiple stakeholders but how to distribute authority among them — and whether the humanitarian agency functions as implementer, facilitator, or convenor. This role distinction has measurable consequences for scale, sustainability, and local ownership of outcomes.

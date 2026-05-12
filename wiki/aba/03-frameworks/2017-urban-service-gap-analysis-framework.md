@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-urban-service-gap-analysis-framework
+title: "Urban Service Gap Analysis Framework"
+lifecycle_stage:
+  - joint-prioritization
+source_foundation:
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Urban Service Gap Analysis Framework
 

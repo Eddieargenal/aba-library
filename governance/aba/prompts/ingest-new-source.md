@@ -22,13 +22,13 @@ When a new document needs to be added to the wiki.
 9. Update affected lifecycle pages (add source link)
 10. Update affected field instruments if source implies data collection methods
 11. Check for contradictions with existing sources → update ./12risks-contradictions/known-contradictions.md
-12. Update index.md
+12. Run scripts/build-index.py to regenerate indexes/agent-index.md
 13. Append entry to log.md using format: ## [YYYY-MM-DD] ingest | Source title
 14. Commit changes
 
 ## Output
 - Source page created
 - Concept/tool/lifecycle pages updated
-- index.md updated
+- indexes/agent-index.md regenerated
 - log.md appended
 - Git commit (if available)

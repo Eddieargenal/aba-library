@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2015
 updated: 2026-05-11
+framework_id: 2015-build-back-better-recovery-alignment-tool-framework
+title: "Build Back Better / Recovery Alignment Tool Framework"
+lifecycle_stage:
+  - transition-handover
+source_foundation:
+  - 2015-undrr-sendai-framework-drr-2015-2030-framework
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Build Back Better / Recovery Alignment Tool Framework
 

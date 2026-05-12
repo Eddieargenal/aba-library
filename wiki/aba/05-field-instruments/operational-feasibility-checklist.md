@@ -1,14 +1,26 @@
 ---
 type: field-instrument
 instrument_id: operational-feasibility-checklist
+title: Operational Feasibility Checklist
 format: checklist
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
 required_for_decision_domains:
   - operational-feasibility
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - appropriateness-decision
+  - area-selection
+primary_users:
+  - programme-officer
+  - field-coordinator
+can_export_to:
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Operational Feasibility Checklist

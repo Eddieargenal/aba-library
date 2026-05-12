@@ -29,6 +29,24 @@ ingest_status: success
 notes: "Good Practice Review 12 (GPR 12) from ODI/HPN. Comprehensive operational reference across context, tools, and sector responses for urban humanitarian programming. 4 blocks: context, cross-cutting themes (coordination, corruption, resilience), programme-cycle tools, and sectoral guidance (HLP, shelter, WASH, livelihoods, education, protection, health, food security). Explicitly selective in scope."
 canonical_file: ../raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf
 wiki_pages: []
+type: source
+source_id: 2019-sanderson-gpr12
+source_type: field-evaluation
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - neighbourhood-diagnosis
+  - coordination-design
+  - implementation-adaptation
+  - monitoring-learning
+primary_topics:
+  - urban-response
+  - area-based-approach
+  - coordination
+  - multi-sector
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

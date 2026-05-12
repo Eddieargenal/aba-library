@@ -1,15 +1,27 @@
 ---
 type: field-instrument
 instrument_id: local-resource-inventory
+title: Local Resource Inventory
 format: inventory form
 related_tools:
   - tool-06-stakeholder-coordination-mapping
   - tool-10-integrated-area-strategy-builder
 required_for_decision_domains:
   - local-capacity-resource-leverage
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - neighbourhood-diagnosis
+  - area-selection
+primary_users:
+  - programme-officer
+  - field-coordinator
+can_export_to:
+  - excel
+  - pdf
+data_quality_checks: false
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Local Resource Inventory

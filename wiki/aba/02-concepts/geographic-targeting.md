@@ -10,6 +10,12 @@ related_lifecycle_stages:
   - "1. Area selection and boundary definition"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Geographic Targeting"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 # Definition

@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2007
 updated: 2026-05-11
+framework_id: 2007-community-resilience-characteristics-tables-framework
+title: "Community Resilience Characteristics Tables Framework"
+lifecycle_stage:
+  - coordination-design
+source_foundation:
+  - 2009_twigg-ucl_disaster-resilient-community
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Community Resilience Characteristics Tables Framework
 

@@ -10,6 +10,12 @@ related_lifecycle_stages:
   - "2. Area profile and systems diagnosis"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Urban Context Analysis"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Urban context analysis is the systematic examination of the political, economic, social, service/infrastructure, and spatial dynamics within an urban area that shape humanitarian programming effectiveness. Two sources ground the concept: IRC/IIED (2017) provides the primary operationalizable account through a structured 10-step toolkit; Sanderson (2019) confirms context analysis as a programme-cycle prerequisite for urban response. Both sources distinguish context analysis from needs assessment: it examines *why* conditions exist (system dynamics, actor interests, power relationships) rather than *what* needs exist. The concept is directly operationalizable — IRC/IIED (2017) provides an end-to-end methodology — but the toolkit's resource and time assumptions may not align with acute emergency deployment conditions.

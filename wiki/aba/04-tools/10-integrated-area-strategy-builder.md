@@ -16,6 +16,11 @@ related_lifecycle_pages:
   - "05-integrated-area-strategy"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Integrated Area Strategy Builder"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 10: Integrated Area Strategy Builder

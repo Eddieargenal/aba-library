@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2016
 updated: 2026-05-11
+framework_id: 2016-urban-systems-mapping-framework
+title: "Urban Systems Mapping Framework"
+lifecycle_stage:
+  - neighbourhood-diagnosis
+source_foundation:
+  - 2016-campbell-stepping-back-understanding-cities-systems-guide
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Urban Systems Mapping Framework
 

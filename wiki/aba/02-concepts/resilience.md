@@ -12,6 +12,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Resilience"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Resilience is the capacity of individuals, communities, systems, or institutions to absorb, adapt to, and recover from shocks while maintaining essential functions and reducing future risk. Five sources in this wiki define the term, producing four distinct formulations that are not interchangeable. The definitional divergence is not terminological imprecision — it reflects genuinely different theories of what resilience is for: community capacity, engineering efficiency, structural preservation, or long-term trajectory protection. Practitioners who conflate these definitions risk designing programmes that are internally incoherent and that cannot be meaningfully evaluated.

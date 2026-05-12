@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Convenor Role"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** The convenor role is the operational stance in which a humanitarian agency facilitates coordination, replication, and policy influence among government, community, and private-sector actors rather than directly implementing services. Two sources ground the concept: Campbell (2019) provides the only fully documented case — PCI's shift from direct implementer to convenor in the Barrio Mio programme — and Parker & Maynard (2015) identify facilitation as the aspirational ABA role for humanitarian agencies. The concept is seed-level: one primary case study and one normative framing constitute the current evidence base. Generalizability to other governance contexts remains unresolved. The concept's importance for the wiki is significant — it is the operational mechanism that distinguishes pilot-to-scale from simple programme expansion, and multi-stakeholder engagement from multi-stakeholder presence.

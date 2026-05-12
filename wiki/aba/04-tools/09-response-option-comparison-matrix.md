@@ -16,6 +16,11 @@ related_lifecycle_pages:
   - "06-program-design-modality-selection"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Response Option Comparison Matrix"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 09: Response Option Comparison Matrix

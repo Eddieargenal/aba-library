@@ -1,17 +1,28 @@
 ---
 type: field-instrument
 instrument_id: duplication-gap-analysis
+title: Duplication and Gap Analysis Matrix
 format: matrix
 can_export_to:
   - markdown
   - excel
-related_tool: tool-06-stakeholder-coordination-mapping
+related_tools:
+  - tool-06-stakeholder-coordination-mapping
 required_for_decision_domains:
   - stakeholder-coordination-complexity
   - local-resource-leverage
-created: 2026-05-07
-updated: 2026-05-07
+lifecycle_stage:
+  - coordination-design
+  - integrated-area-strategy
+  - implementation-adaptation
+primary_users:
+  - programme-officer
+  - field-coordinator
+data_quality_checks: true
+contradicts: []
 status: draft
+created: 2026-05-07
+updated: 2026-05-11
 ---
 
 # Duplication and Gap Analysis Matrix

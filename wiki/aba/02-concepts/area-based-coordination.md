@@ -13,6 +13,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-07
 updated: 2026-05-11
+title: "Area-Based Coordination"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Area-based coordination (ABC) is a geographically bounded, multi-actor coordination modality that complements rather than replaces sectoral cluster coordination in humanitarian response. Four sources in this wiki ground the concept, with the IASC (2026) Terms of Reference providing the most authoritative operational definition. The literature consistently identifies a structural gap between area-level and sector-level coordination as a primary obstacle to effective urban ABA, but differs on whether the solution is a formal coordination mechanism, strengthened inter-cluster linkage, or flexible multi-stakeholder convening.

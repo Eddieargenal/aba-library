@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2019
 updated: 2026-05-11
+framework_id: 2019-sequencing-and-dependency-map-framework
+title: "Sequencing and Dependency Map Framework"
+lifecycle_stage:
+  - implementation-adaptation
+source_foundation:
+  - 2019_alnap-sanderson-humanitarian-response-urban-contexts
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Sequencing and Dependency Map Framework
 

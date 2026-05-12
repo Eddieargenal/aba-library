@@ -4,6 +4,20 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-handover-readiness-checklist-framework
+title: "Handover Readiness Checklist Framework"
+lifecycle_stage:
+  - transition-handover
+source_foundation:
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
+  - 2017-ifrc-building-urban-resilience-guide
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Handover Readiness Checklist Framework
 

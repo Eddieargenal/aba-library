@@ -30,6 +30,19 @@ ingest_status: success
 notes: "Successor to HFA 2005-2015. Adopted March 2015 in Sendai, Japan. 7 global targets + 4 priorities for action. Will not change until 2030 review — review_cycle set to on-revision. Mandatory alignment reference for all DRR-related wiki claims and tool design."
 canonical_file: ../raw/2015-undrr-sendai-framework-drr-2015-2030-framework.pdf
 wiki_pages: []
+type: source
+source_id: 2015-sendai-framework
+source_type: un-policy
+confidence: medium
+lifecycle_stage:
+  - implementation-adaptation
+  - monitoring-learning
+primary_topics:
+  - disaster-risk-reduction
+  - urban-resilience
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

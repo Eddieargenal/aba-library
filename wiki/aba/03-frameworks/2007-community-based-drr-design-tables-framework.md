@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2007
 updated: 2026-05-11
+framework_id: 2007-community-based-drr-design-tables-framework
+title: "Community-Based DRR Design Tables Framework"
+lifecycle_stage:
+  - implementation-adaptation
+source_foundation:
+  - 2009_twigg-ucl_disaster-resilient-community
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Community-Based DRR Design Tables Framework
 

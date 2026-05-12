@@ -4,6 +4,19 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-municipal-integration-plan-framework
+title: "Municipal Integration Plan Framework"
+lifecycle_stage:
+  - transition-handover
+source_foundation:
+  - 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
+  - 2013-worldbank-building-urban-resilience-principles-tools-practice
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Municipal Integration Plan Framework
 

@@ -13,6 +13,12 @@ related_lifecycle_stages:
   - "10. Transition, handover, and scaling"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Multi-Scale Programming"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Multi-scale programming is the deliberate design of neighbourhood-level area-based interventions to connect upward and outward to district, city, and regional systems, policies, and actors. Six sources in this wiki identify the failure to link across scales as one of the most persistent and consequential weaknesses in urban ABA practice. The concept is defined consistently across sources; the tension is not whether scale linkage is necessary — all sources agree it is — but how to achieve it given the structural mismatch between humanitarian programme cycles, local implementation logic, and city-level planning and governance processes.

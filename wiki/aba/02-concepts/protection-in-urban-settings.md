@@ -11,6 +11,12 @@ related_lifecycle_stages:
   - "8. Programme management and adaptation"
 created: 2026-05-11
 updated: 2026-05-11
+title: "Protection in Urban Settings"
+related_frameworks: []
+related_concepts: []
+known_tensions: []
+contradicts: []
+used_by_outputs: []
 ---
 
 > **Abstract.** Protection in urban settings addresses the specific risks of violence, exploitation, discrimination, and legal precarity that urban displacement and poverty generate for affected populations. A single source grounds this concept in the current wiki: IASC (2010) identifies protection as a strategic objective for urban humanitarian response, documenting that "pressure on services and livelihoods can exacerbate poverty and discrimination leading to violence and exploitation" (p. 13) and that individual targeting approaches in urban settings can increase protection risk by making beneficiaries visible. This concept page is seed-level and should be significantly enriched when sources dedicated to urban protection — including UNHCR urban refugee guidance, ICRC urban operations doctrine, and protection mainstreaming frameworks — are ingested.

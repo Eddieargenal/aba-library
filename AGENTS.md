@@ -1,75 +1,115 @@
 ---
-type: vault-entry
+type: agent-guide
 status: active
-created: 2026-05-11
 updated: 2026-05-11
 ---
 
-# Vault AGENTS.md
+# ABA/DRR Field Knowledge Wiki — Agent Operating Guide
 
-A governed markdown knowledge base for local AI agents — workflows, domain knowledge, tools, decisions, and memory in a navigable structure.
+## Mission
 
-## Design Philosophy
-- Obsidian-compatible markdown with `[[wikilinks]]`
-- Agent-navigable: every section has a `00_index.md`; load only what you need
-- Human-readable: open in Obsidian or any text editor
-- Governed memory: truth states, source tags, contradiction handling built in
+This wiki is a persistent, compounding operational memory for urban disaster risk reduction and area-based emergency response. Instead of searching a document library at decision time, the LLM incrementally builds and maintains structured synthesis pages that sit between the raw source literature and the operational team. The agent's job is to draft, maintain, and query this wiki — the human validates what matters.
 
-## Intended Users
-Hermes (task-execution), OpenClaw (gateway agent), human operators. No secrets, API keys, or credentials stored here. No fabricated memory.
+## Architecture
 
-## Vault Structure
-```
-obsidian-vault/
-├── AGENTS.md              ← vault entry point (this file)
-├── governance/            ← ALL operational rules, schemas, workflows, ABA ops docs
-│   ├── 00_index.md        ← start here for any governance question
-│   ├── schema/00_index.md ← frontmatter, lint, ingest, citation, naming rules
-│   ├── workflows/00_index.md ← ingest, query, lint, model-routing, maintenance
-│   └── aba/00_index.md    ← ABA agent contract, prompts, operating model
-├── wiki/index.md          ← master catalog of all wiki pages
-├── wiki/aba/              ← Urban DRR + ABA domain knowledge (13 sections)
-├── sources/               ← raw source documents (read-only)
-├── memory/                ← runtime: context, categories, logs, handoffs
-└── archive/               ← append-only history
-```
+Four layers. Never bypass the synthesis layer to answer a question.
 
-## Agent Navigation
-1. Read `[[governance/00_index]]` — find governance sub-section
-2. Read the section `00_index.md` — find the right file
-3. Open file — execute
-4. Log to `memory/runtime/logs/log.md`
+- **Raw sources** — immutable PDFs in `sources/`; LLM reads during ingest only, never modifies
+- **Extracted sources** — one LLM-generated structured page per document in `wiki/aba/01-sources/extracted/`; read instead of the PDF on all subsequent queries
+- **The wiki** — synthesis layer: concepts (`02-concepts/`), frameworks (`03-frameworks/`), tools (`04-tools/`), field instruments (`05-field-instruments/`), outputs (`outputs/internal/`)
+- **Schema** — `AGENTS.md` (this file) + `governance/aba/CLAUDE.md` + `governance/schema/` + `governance/aba/prompts/`
+
+Full operating rules for ABA domain work: `governance/aba/CLAUDE.md` — read it before any domain task.
+
+**File format rule:** ALL vault files must use `.md` extension. No `.txt`, `.csv`, or other formats.
+
+## Query Model
+
+Primary navigation is **frontmatter queries, not wikilink traversal**.
+
+1. Read `indexes/agent-index.md` — identify relevant pages by type, lifecycle_stage, status, and relationships
+2. Read only the 3–5 relevant pages
+3. Synthesize answer with `source_id` citations
+4. If new reusable synthesis emerges, file to `wiki/aba/outputs/internal/` as `type: synthesis`
+
+A page with a missing `lifecycle_stage:` or `contradicts:` field is a **retrieval blackhole** — it will not surface in frontmatter queries, silently.
+
+## Session Protocol
+
+**Open:**
+1. Read `memory/current-handoff.md`
+2. Read the latest lint report from `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`
+3. Clear any CRITICAL/HIGH compliance items before taking on new work
+4. Begin assigned task
+
+**Close:**
+1. Fill `memory/current-handoff.md` with session summary
+2. If schema changed: append to `governance/schema/changelog.md`
+3. Run lint checks; file report to `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`
+4. Run `scripts/build-index.py` to regenerate `indexes/agent-index.md`
+5. Append to `memory/runtime/logs/log.md` using format: `## [YYYY-MM-DD] type | description`
+
+## Promotion Gates
+
+| Promotion | Requirement | Who decides |
+|---|---|---|
+| Finding → concept page | Appears in ≥2 independent extracted sources | LLM proposes, human approves |
+| Concept → Tier 1 framework | Defined decision logic + explicit use conditions | Human approves |
+| Tier 1 → linked tool/instrument | Field-applicable scoring criteria + known failure modes | Human approves |
+| Tool → validated status | All `field_instruments` linked + `data_quality_checks: true` | Human approves |
+
+**Source independence rule:** Two documents citing the same underlying evaluation are not independent. Verify distinct evidence bases before flagging a promotion.
+
+## Lint Checks
+
+**CRITICAL** — fix before any new work:
+- Missing required frontmatter fields per page type (retrieval blackhole)
+- `contradicts:` field absent on any source, tool, framework, or concept page
+- `field_instruments: []` on any tool with `status: validated`
+- `governance/schema/changelog.md` not updated since last schema change
+
+**HIGH** — clear within the session:
+- `data_quality_checks: false` on any validated field instrument
+- `source_count < 2` on any Tier 1 concept page
+- Unresolved contradictions older than 30 days
+- Orphan pages with no inbound wikilinks
 
 ## Quick Routing
 
 | Task | File |
-|------|------|
-| Session start | `[[memory/context]]` |
-| Any governance / rule question | `[[governance/00_index]]` |
-| Ingest a source | `[[governance/workflows/ingest]]` |
-| Query the wiki | `[[wiki/index]]` → `[[wiki/aba/00-overview/00_index]]` |
-| Lint / health check | `[[governance/workflows/lint]]` |
-| Model selection | `[[governance/workflows/model-routing]]` |
-| ABA agent prompts | `[[governance/aba/00_index]]` |
-| Memory recall | `[[memory/MEMORY]]` |
-| Session end | `[[governance/workflows/vault-maintenance]]` |
+|---|---|
+| Session start | `memory/current-handoff.md` |
+| Governance / rule question | `governance/00_index.md` |
+| ABA operating rules | `governance/aba/CLAUDE.md` |
+| Ingest a source | `governance/aba/prompts/ingest-new-source.md` |
+| Query the wiki | `indexes/agent-index.md` → read relevant pages |
+| Lint / health check | `governance/aba/prompts/lint-wiki.md` |
+| Build page index | `scripts/build-index.py` |
+| Session end | `memory/current-handoff.md` (fill) + `memory/runtime/logs/log.md` (append) |
 
-## ABA Wiki — Section Index
-`wiki/aba/` — 13 sections, each with a `00_index.md`. Start at `[[wiki/aba/00-overview/00_index]]`.
+## Vault Structure
 
-Sections: 00 Overview · 01 Sources · 02 Concepts · 03 Frameworks · 04 Tools · 05 Field Instruments · 06 Lifecycle · 07 Sector Applications · 08 Coordination · 09 Monitoring & Learning · 10 Transition & Scale · 11 Patterns · 12 Risks & Contradictions · 13 Agent Prompts → `[[governance/aba/00_index]]`
-
-## Memory & Truth States
-
-Load `[[memory/context]]` every session. Categories: `[[memory/categories/infrastructure]]` · `[[memory/categories/decisions]]` · `[[memory/categories/unresolved]]` · `[[memory/categories/outcomes]]`. Full index: `[[memory/MEMORY]]`.
-
-Truth states: `validated` (user-confirmed) · `proposed` (agent-inferred, needs confirmation) · `disputed` (contradiction found) · `unresolved` (logged, pending)
-
-## Special Files
-
-| File | Purpose |
-|------|---------|
-| `governance/00_index.md` | Governance entry point |
-| `wiki/index.md` | Master wiki catalog — read first on any query |
-| `wiki/aba/CLAUDE.md` | ABA stub → full content at `governance/aba/CLAUDE.md` |
-| `memory/runtime/logs/log.md` | Append-only operation log |
+```
+obsidian-vault/
+├── AGENTS.md                    ← vault entry point (this file) — read every session
+├── governance/                  ← ALL operational rules, schemas, workflows
+│   ├── 00_index.md              ← governance entry point
+│   ├── aba/CLAUDE.md            ← ABA operating rules (read for domain work)
+│   ├── aba/prompts/             ← operational agent prompts
+│   └── schema/                  ← frontmatter schema, lint rules, changelog
+├── wiki/aba/                    ← Urban DRR + ABA domain knowledge (13 sections)
+│   ├── 01-sources/extracted/    ← extracted source pages (22)
+│   ├── 02-concepts/             ← concept pages (25)
+│   ├── 03-frameworks/           ← framework pages (41: 9 Tier 1, 32 Tier 2)
+│   ├── 04-tools/                ← tool pages (17)
+│   ├── 05-field-instruments/    ← field instrument pages (18)
+│   └── outputs/internal/        ← lint reports, synthesis outputs
+├── scripts/                     ← automation scripts
+│   └── build-index.py           ← regenerates indexes/agent-index.md from frontmatter
+├── indexes/                     ← generated indexes (do not hand-edit)
+│   └── agent-index.md           ← LLM-readable page index — read this first on any query
+├── memory/                      ← runtime: handoffs, logs, context
+│   ├── current-handoff.md       ← session-to-session continuity
+│   └── runtime/logs/log.md      ← append-only operation log
+└── sources/                     ← raw source documents (read-only, never modify)
+```

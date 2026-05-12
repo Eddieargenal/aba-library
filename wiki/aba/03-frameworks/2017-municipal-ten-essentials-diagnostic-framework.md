@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-municipal-ten-essentials-diagnostic-framework
+title: "Municipal Ten Essentials Diagnostic Framework"
+lifecycle_stage:
+  - area-selection
+source_foundation:
+  - 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Municipal “Ten Essentials” Diagnostic Framework
 

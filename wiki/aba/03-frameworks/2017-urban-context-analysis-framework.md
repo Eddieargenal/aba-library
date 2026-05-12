@@ -4,6 +4,18 @@ tier: 2
 status: reference
 created: 2017
 updated: 2026-05-11
+framework_id: 2017-urban-context-analysis-framework
+title: "Urban Context Analysis Framework"
+lifecycle_stage:
+  - neighbourhood-diagnosis
+source_foundation:
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
+related_tools: []
+related_concepts: []
+related_frameworks: []
+used_by_outputs: []
+superseded_by: null
+contradicts: []
 ---
 # Urban Context Analysis Framework
 

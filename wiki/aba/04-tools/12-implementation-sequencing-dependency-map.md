@@ -15,6 +15,11 @@ related_lifecycle_pages:
   - "08-area-based-implementation"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Implementation Sequencing Dependency Map"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 12: Implementation Sequencing Dependency Map

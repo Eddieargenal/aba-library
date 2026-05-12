@@ -17,6 +17,12 @@ source_foundation:
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2019-implementation-adaptation-framework
+title: "Implementation Adaptation Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # Implementation Adaptation Framework

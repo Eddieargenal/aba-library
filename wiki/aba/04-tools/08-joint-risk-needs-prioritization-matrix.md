@@ -16,6 +16,11 @@ related_lifecycle_pages:
   - "04-joint-risk-needs-prioritization"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Joint Risk Needs Prioritization Matrix"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 08: Joint Risk Needs Prioritization Matrix

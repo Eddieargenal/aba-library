@@ -27,6 +27,20 @@ ingest_status: success
 notes: "ALNAP working paper. Core contribution: 5 urban systems typology (economy/livelihoods, politics/governance, social/cultural, infrastructure/services, space/settlements) + 7 practical principles for humanitarian analysis. Argues tools alone are insufficient without shifts in mindset, organisational culture, and coordination."
 canonical_file: ../raw/2016-campbell-stepping-back-understanding-cities-systems-guide.pdf
 wiki_pages: []
+type: source
+source_id: 2016-alnap-campbell-urban-systems
+source_type: field-evaluation
+confidence: high
+lifecycle_stage:
+  - appropriateness-decision
+  - neighbourhood-diagnosis
+primary_topics:
+  - urban-systems
+  - area-based-approach
+  - coordination
+contradicts: []
+created: 2026-05-10
+updated: 2026-05-10
 ---
 
 # Summary

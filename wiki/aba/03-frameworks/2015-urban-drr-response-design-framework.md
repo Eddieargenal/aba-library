@@ -22,6 +22,12 @@ source_foundation:
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
+framework_id: 2015-urban-drr-response-design-framework
+title: "Urban DRR Response Design Framework"
+tier: 1
+related_frameworks: []
+superseded_by: null
+contradicts: []
 ---
 
 # Urban DRR Response Design Framework

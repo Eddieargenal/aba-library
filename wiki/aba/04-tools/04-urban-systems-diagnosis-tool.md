@@ -19,6 +19,11 @@ related_lifecycle_pages:
   - "02-area-profile-systems-diagnosis"
 created: 2026-05-07
 updated: 2026-05-07
+title: "Urban Systems Diagnosis Tool"
+tier: 1
+related_frameworks: []
+used_by_outputs: []
+contradicts: []
 ---
 
 # Tool 04: Urban Systems Diagnosis Tool

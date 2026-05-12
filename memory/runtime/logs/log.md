@@ -11,9 +11,13 @@ This file is **append-only**. Never overwrite. Never delete entries.
 ## Format
 
 ```markdown
-## YYYY-MM-DD
-- [entry]: [description]
+## [YYYY-MM-DD] type | brief description
+- key action 1
+- key action 2
+- files changed: [list]
 ```
+
+Where `type` is one of: `ingest` · `query` · `lint` · `schema` · `maintenance`
 
 ## Rules
 
@@ -79,3 +83,16 @@ This file is **append-only**. Never overwrite. Never delete entries.
 - Issues found: 3 categories (65 potential broken links for manual review, 2 missing frontmatter)
 - Logged to unresolved: no
 - Remediation files changed: wiki/index.md, wiki/vault-compliance-rules.md, wiki/workflows/lint-plan.md, SCHEMA.md, wiki/diagnosis/karpathy-vault-quality-diagnosis-2026-05-08.md
+
+## [2026-05-11] query | ABA characteristics according to Parker & Maynard (2015)
+- question: top three characteristics of area-based approach according to Maynard
+- pages read: 2015-parker-maynard-aba-review, area-based-approach concept
+- answer: geographic targeting + participatory + multi-sectoral — all three required simultaneously
+- tensions flagged: stricter than DFID/IRC/ALNAP (2015), GSC (2019), Sanderson & Sitko (2017) definitions
+
+## [2026-05-11] query | ABA characteristics — cross-corpus synthesis
+- question: characteristics of area-based approaches (all sources)
+- navigation: index grep → concept page (cached) → 3x sed Key Concepts extracts
+- pages read: grep on index, sed on 3 source files; concept page from prior session context
+- answer: 3 consensus characteristics (geographic, participatory, multi-sector); source-by-source additions mapped; simultaneity requirement contested
+- sources: parker-maynard-2015, dfid-irc-alnap-2015, sanderson-sitko-2017, globalcluster-2019
