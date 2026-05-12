@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "governance/00_governance-index.md",
+                "file": "governance/briefs/scope-vault-upgrade-2026-05-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_governance-index"
+              "title": "scope-vault-upgrade-2026-05-11"
             }
           }
         ]
@@ -185,10 +185,20 @@
   },
   "active": "48f3f4409bcab49d",
   "lastOpenFiles": [
+    "governance/briefs/scope-vault-quality-remediation-2026-05-08.md",
+    "governance/briefs/scope-governance-consolidation-2026-05-11.md",
+    "governance/briefs/scope-audit-remediation-2026-05-11.md",
+    "governance/briefs/brief-vault-upgrade-2026-05-11.md",
+    "governance/briefs/brief-governance-consolidation-2026-05-11.md",
+    "governance/briefs/brief-audit-remediation-2026-05-11.md",
+    "aba-wiki-detailed description.md",
+    "governance/aba/librarian/SKILL.md",
+    "governance/00_governance-index.md",
+    "governance/templates/memory-record-template.md",
+    "governance/briefs/scope-vault-upgrade-2026-05-11.md",
     "governance/evidence-promotion.md",
     "governance/content-lifecycle.md",
     "governance/compliance-rules.md",
-    "governance/00_governance-index.md",
     "governance/workflows/00_workflows-index.md",
     "wiki/aba/outputs/toolkits/00_toolkits-index.md",
     "wiki/aba/12-risks-contradictions/00_risks-index.md",
@@ -201,16 +211,6 @@
     "wiki/aba/05-field-instruments/00_instruments-index.md",
     "wiki/aba/04-tools/00_tools-index.md",
     "wiki/aba/03-frameworks/00_frameworks-index.md",
-    "wiki/aba/02-concepts/00_concepts-index.md",
-    "wiki/aba/01-sources/raw/00_raw-index.md",
-    "wiki/aba/01-sources/extracted/00_extracted-index.md",
-    "wiki/aba/00-overview/00_overview-index.md",
-    "governance/schema/00_schema-index.md",
-    "governance/aba/prompts/00_prompts-index.md",
-    "governance/aba/00_aba-index.md",
-    "governance/workflows/ingest.md",
-    "governance/workflows/lint.md",
-    "governance/vault-quality-remediation/SKILL.md",
     "aba-wiki-architecture.canvas",
     "generated-image.png",
     "Untitled.canvas",
