@@ -98,3 +98,4 @@ Where `type` is one of: `ingest` · `query` · `lint` · `schema` · `maintenanc
 - sources: parker-maynard-2015, dfid-irc-alnap-2015, sanderson-sitko-2017, globalcluster-2019
 
 ## [2026-05-12] remediation | Alignment audit remediation complete — all spec-defined page types corrected; 2 sources need ingestion; H-3 field instrument linking deferred
+## [2026-05-12] lint | Full lint pass — CRITICAL 37→0; 82 extension pages got contradicts: []; lifecycle stage-0 rename; 2 orphan extracted sources resolved via wikilinks; aba-wiki-summary-description.md created; commit ac0b41a
