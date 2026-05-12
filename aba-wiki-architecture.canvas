@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"7038f9d459aeff82","type":"file","file":"area-based-approaches-wiki.png","x":-420,"y":-860,"width":1500,"height":1125},
-		{"id":"cfa0ed573e025884","type":"file","file":"generated-image.png","x":-400,"y":-797,"width":1460,"height":973}
+		{"id":"cfa0ed573e025884","type":"file","file":"generated-image.png","x":-1460,"y":-784,"width":1460,"height":973}
 	],
 	"edges":[]
 }
