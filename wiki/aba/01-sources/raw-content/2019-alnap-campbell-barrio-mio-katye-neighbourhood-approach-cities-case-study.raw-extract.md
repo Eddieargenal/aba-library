@@ -1,0 +1,1355 @@
+---
+type: "source_raw_extract"
+zone: "raw-content"
+status: "ingested"
+title: "Barrio Mio and Katye: PCI’s neighbourhood approach in cities"
+author: "Leah Campbell"
+institution: "ALNAP"
+year: 2019
+source_id: "2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study"
+source_type: "field-evaluation"
+source_url: "https://www.alnap.org"
+file_type: "pdf"
+canonical_file: "../raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study.pdf"
+created: "2026-05-10"
+updated: "2026-05-10"
+ingest_date: "2026-05-10"
+ingest_status: "success"
+confidence: "high"
+---
+
+# Raw Extract: 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
+
+Source PDF: `wiki/aba/01-sources/raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.pdf`
+
+## Page 1
+
+# Raw Extract: 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
+
+Source PDF: `wiki/aba/01-sources/raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.pdf`
+
+## Page 1
+
+ALNAP STUDY
+Authors go here Leah Campbell
+CASE STUDY
+Barrio Mio and Katye: PCI’s neighbourhood approach in cities
+
+## Page 2
+
+ALNAP CASE STUDY
+2 ALNAP is a global network of NGOs, UN agencies, members of the Red Cross/Crescent Movement, donors, academics, networks and consultants dedicated to learning how to improve response to humanitarian crises. www.alnap.org
+About the author Leah Campbell is a Senior Research Officer at ALNAP.
+Acknowledgements The author would like to acknowledge the time and support offered to this research by Project Concern International (PCI) staff, in particular Jim DiFrancesca, Ernesto Alejandro Paiz Carcamo, Xiomara León, Alejandro Rizo, Nataly Larios, Pascale Wagner, José Pepe
+Murguía and Laura Jones. Further thanks are due to all of the interviewees and focus group participants. Within ALNAP, Paul Knox Clarke and Batool Zalkha provided helpful feedback on early drafts, Cara Casey-Boyce managed the publication process and research assistance
+was provided by Juan Usubillaga, Jonathan Jones and Batool Zalkha.
+Suggested citation Campbell, L. (2019) Barrio Mio and Katye: PCI’s neighbourhood approach in cities. ALNAP Case Study. London: ODI/ALNAP.
+ISBN: 978-1-910454-89-3
+© ALNAP/ODI 2019. This work is licensed under a Creative Commons Attribution-non Commercial Licence (CC BY-NC 4.0).
+Design by Soapbox www.soapbox.co.uk Communications management and typesetting by Cara Casey-Boyce Copyediting by Anna Brown Cover image: La Limonada, Guatemala City. Photo credit: Leah Campbell, ALNAP.
+
+## Page 3
+
+Contents Acronyms 4 ALNAP research on working in urban complexity  5 Case study methodology 6 Introduction 6
+1. The Guatemala City context
+7 1.1 Space and settlements 11 1.2 Politics and governance 13 1.3 Society and culture 14 1.4 Economy and livelihoods 15 1.5 Services and infrastructure 15
+2. Introduction to Barrio Mio
+17 2.1 Phases of Barrio Mio 17 2.2 Components of Barrio Mio 18
+3. Katye and the origins of the neighbourhood approach
+25 3.1 The origins of the approach 25 3.2 Introduction to Katye 25 3.3 From Katye to Barrio Mio 28 3.4 The neighbourhood approach 29
+4. How Barrio Mio and Katye navigate urban complexity
+32 4.1 Understanding the context and acting on this understanding 32 4.2 Seeing the city as holistic designing interconnected interventions across sectors and geographic boundaries 35 4.3 Being a convenor and facilitator rather than an implementer
+37 4.4 Working in a community-led way 40 4.5 Using an iterative, evidence-based ‘pilot and scale’ approach  42 4.6 Approaching DRR and response with a long-term focus  46
+5. Obstacles and challenges 
+49
+6. Enabling and supporting factors
+56
+7. Questions for further study
+58
+8. Key takeaways
+59 Endnotes 61 Bibliography 64
+
+## Page 4
+
+ALNAP CASE STUDY
+4 Acronyms
+BANVI
+Banco Nacional de la Vivienda (National Housing Bank)
+CHF
+
+Cooperative Housing Foundation International (now Global Communities)
+COCODE
+Consejos Comunitarios de Desarrollo (community-level SISCODE)
+COLRED
+Coordinadora Local para la Reducción de Desastres (local-level CONRED)
+COMRED
+Coordinadora Municipal para la Reducción de Desastres (municipal-level
+
+CONRED)
+COMUDE
+Consejos Municipales de Desarrollo (municipal-level SISCODE)
+CONRED
+Coordinadora Nacional para la Reducción de Desastres (National
+
+Coordinator for Disaster Reducation)
+CORDAID
+Catholic Organization for Relief and Development Aid
+DRR
+
+disaster risk reduction
+FGD
+
+focus group discussion
+FOPAVI
+Fondo para la Vivienda (National Housing Fund)
+GBV
+
+gender-based violence
+GIS
+
+Geographic Information System
+GMCA
+Guatemala City Municipal Area
+IASC
+
+Inter-Agency Standing Committee
+IGN
+
+Instituto Geográfico Nacional (Guatemalan National Geographic Institute)
+INSIVUMEH	 Instituto Nacional de Sismología, Vulcanología, Meteorología e Hidrología
+
+(National Institute for Seismology, Volcanology, Meteorology and Hydrology)
+LAC
+
+Latin America and Caribbean
+OFDA
+Office of US Foreign Disaster Assistance
+PCI
+
+Project Concern International
+SEGEPLAN
+Secretaría de Planificación y Programación de la Presidencia (Guatemalan
+
+Secretariat for Planning and Programming of the Presidency)
+SISCODE
+Sistema de Concejos de Desarrollo (National System of Councils for Urban
+
+and Rural Development)
+TAG
+
+technical advisory group
+UNICEF
+United Nations Children’s Fund
+USAID
+United States Agency for International Development
+WASH
+water, sanitation and hygiene
+
+## Page 5
+
+ALNAP research on working in urban complexity Over the past decade, as humanitarians have found themselves operating in more and more urban areas, there has been a growing realisation of the need to adapt traditional approaches designed for rural and camp contexts in
+order to function more effectively in urban areas. Urban crises have tested the humanitarian sector, including earthquakes in Haiti and Nepal, urban violence in Honduras and Colombia, the Ebola outbreak in West African cities and the
+ongoing displacement to cities across the Middle East and Europe as a result of the conflict in Syria. These events have repeatedly highlighted the failure of the humanitarian sector to understand urban contexts, and in particular a lack
+of ‘connectedness to context’ (Zicherman et al., 2011: 9) as well as a failure to recognise capacities and structures.
+Recommendations put forward for the World Humanitarian Summit by the Global Alliance for Urban Crises (GAUC) include that humanitarians should ‘work with the systems that shape cities’, engage local actors and take steps to
+better understand urban contexts (GAUC, 2016: 1). These recommendations reflect recent calls to think differently about urban areas, to use area-based approaches which focus on understanding the dynamics within a particular
+geography, to work with and develop the capacity of local authorities, to incorporate the expertise of urban built environment professionals and to use new tools to improve understanding of urban response (Campbell, 2016). These
+trends indicate a shift in how humanitarians consider and respond to urban crises. However, despite growing interest, there is a lack of clarity around what it means to truly understand and work within the complexity of a city.
+Intending to help fill gaps in understanding, in 2016 ALNAP produced the paper ‘Stepping Back: Understanding Cities and their Systems’. This paper explored issues around defining urban contexts, and why understanding urban
+contexts was important. It proposed changes for how humanitarians understand cities, including a typology of urban systems and several principles for how humanitarians could understand urban contexts through a systems lens. The
+research focused on the importance of changing our understanding of urban contexts, as a first step to improving response. While it answered some initial questions, it left several outstanding. In particular, it did not address how
+humanitarians could, in practice, change their ways of working to operate more effectively within the complexity of urban environments.
+As part of the final output of this ALNAP research, a series of case studies are being produced to highlight examples of humanitarian programming which have managed to find ways to navigate complex neighbourhoods and cities. The
+case studies will feed into a final research study to be published in 2020.
+To find out more, visit https://www.alnap.org/our-topics/urban-response barrio mio and katye: pci’s neighbourhood approach in cities 5
+
+## Page 6
+
+ALNAP CASE STUDY
+6 Case study methodology This case study has been produced on the basis of an extensive literature review about the Guatemala City context, interviews and focus group discussions (FGDs), and a review of internal and publicly available documentation about
+two projects: Barrio Mio and Katye; including both internal and independent, external evaluations (in particular Kessler, 2012; Sarmiento et al., 2016a; and Sarmiento et al., 2018).
+The author conducted a two-week field visit in October 2017 which included site visits, more than 40 interviews with Project Concern International (PCI) staff and Barrio Mio partners, and five FGDs with municipal staff and community
+members. Further interviews were conducted with other key informants via Skype. A Interviews and FGDs were recorded, transcribed and coded using MaxQDA to identify relevant themes. The case study focuses on aspects of the project related to navigating the complexity of the context rather than a
+comprehensive overview of all project elements. The case study considers ‘what worked’ and is not an evaluation of the project. To this end, interviews and FGDs took an appreciative enquiry approach, seeking to identify firstly how the
+project worked differently to navigate complexity and secondly, what obstacles and enablers influenced these ways of working.
+Introduction During the second half of the 20th century, the world’s population more than doubled, as did the proportion of people living in urban areas (Miles et al., 2012). Today, 54% of the global population is urban (Jones et al., 2019) and one
+in seven live in precarious/informal settlements (Setchell, 2018). In Guatemala City, this statistic is closer to one in four people.1 This case study focuses on the context of Guatemala City2, in particular its informal settlements. It explores how a disaster risk reduction (DRR) project,
+Barrio Mio, is working in this complex urban environment and how this project developed following a similar response, known as the Katye project, implemented after the 2010 Port-au-Prince Earthquake. The case study looks at
+how these two projects have navigated complex urban spaces, and the obstacles and enabling factors that have challenged as well as made possible new ways of working. A section on key takeaways from the two projects can be found on
+page 59.
+
+## Page 7
+
+barrio mio and katye: pci’s neighbourhood approach in cities 7 “ ”
+1. The Guatemala City context
+Guatemala is one of the poorest countries in the Latin America and Caribbean (LAC) region (Solórzano, 2017), with 53.7% of the population living in poverty (GFDRR, 2014). Guatemala is rated ‘very high’3 on the World Risk Index (WRI,
+2015) and ‘high’ on INFORM, which measures the risk of humanitarian crises
+and disasters (INFORM, 2018).
+Guatemala City is the largest urban area in the country, home to more than 6 million inhabitants4 in the greater metropolitan area. Following the 1976 Guatemala Earthquake, many people moved to the city (Valladares Cerezo,
+2003) and the rate of urbanisation has steadily increased since the end of the
+civil war in 1996 (Cruz, 2017). In 2012, Guatemala’s population became majority urban (Barillas, 2015; Cruz, 2017) and projections suggest that this figure will exceed 75% by 2032, translating into an increase of some 6.5 million people
+in Guatemalan cities in the next 30 years (Wirtz, 2017). While much of this growth is in rapidly expanding secondary cities, Guatemala City is by far the most populated city in Central America  (Cabrera and Haase, 2017). Population
+density within the six municipalities that make up the Mancomunidad Gran Ciudad del Sur, is on average 6,487 inhabitants/km5 (PCI, 2015b).
+Guatemala City is by far the most populated city in Central America.
+Colonia Landivar, Guatemala City, Guatemala. Photo credit: Steven dos Remedios.
+
+## Page 8
+
+ALNAP CASE STUDY
+8 Source: Adapted from: Barillas, 2015 Figure 1. Rate of actual and projected urbanisation in Guatemala This expansion has driven the size of the city (see Figure 2), which has grown beyond the municipal limits and can now be discussed as the broader Guatemala
+City Municipal Area (GMCA) (Cruz, 2017). Once peripheral suburbs, the areas within the GMCA are now dense, urban areas themselves, with growth driven both by better access to job markets and the continual arrival of poor people
+from rural areas (PCI, 2015b).
+
+## Page 9
+
+barrio mio and katye: pci’s neighbourhood approach in cities 9 Source: Cabrera and Haase, 2017
+
+Figure 2. Expansion of Guatemala City from 1974 to 2014 Guatemala City’s dense and largely unplanned and unregulated settlements make it highly vulnerable to the variety of hazard risks that it faces (see Box 1).
+High mortality and economic loss have ensued from a number of major disaster events in recent years (GFDRR, 2010).
+
+## Page 10
+
+ALNAP CASE STUDY
+10 Box 1: Disaster risk in Guatemala Guatemala is ranked fourth in the world among countries at risk of disaster (Solórzano, 2017), facing 62 disaster events between 1902 and 2005 (GFDRR, 2010). Within the 2008–2014 period, 17 million people were
+affected by natural hazards in Guatemala (Castellanos, 2015). Guatemala is vulnerable to both low frequency/higher impact risks like earthquakes and volcanic eruptions, and high frequency/lower impact risks including floods and landslides (GRDRR, 2010). The Pacific Coast is vulnerable to
+hurricanes, while the interior of the country is affected by cyclical drought (ibid.) influenced by El Niño/La Niña (Solórzano, 2017). A cholera epidemic in the early 1990s killed hundreds of people (Groen and Jacobs, 2012).
+Landslides are a particularly high risk for Guatemala. Millions of years ago during the Pleistocene Epoch, much of Guatemala’s land was covered by ash and pumice during volcanic eruptions. The flow of this material created
+large valleys and basins in the landscape, which is now characterised by many sharp slopes. While these slopes resemble rock, the material is in fact ‘weakly cemented’ and can quickly disintegrate like soil if disrupted (Faber, 2016: 1). It has the highest frequency of deaths due to landslides in
+the region (ibid.), which explains why Guatemala is at the fourth highest risk in the world for landslides. In municipalities such as Mixco and Santa Catarina Pinula, 30% of settlements are located on hillsides with slopes of
+between 20 and 45 degrees (PCI 2017b; 2012) making them particularly vulnerable to landslides (see Box 4).
+A textured map of Guatemala. Photo credit: Leah Campbell, ALNAP.
+
+## Page 11
+
+barrio mio and katye: pci’s neighbourhood approach in cities 11 1.1 Space and settlements Guatemala’s rapid urbanisation has created challenges for national and municipal governments who have struggled to keep up with adequate
+services and planning (Cruz, 2017; WFP, 2017). Guatemala City’s urban plans were drafted in 1972 and have not been updated since (Wirtz, 2017) despite significant population growth.
+Guatemala has one of the worst housing deficits in the LAC region (Maria et al., 2017). The problem is one of both quantity and quality, and is further complicated by bureaucratic building processes. Urban dwellers can spend up
+to 65% of their monthly income on shelter (Ansari and DiFrancesca, 2014) with rent in the formal sector on average 40% more than renting in the informal, precarious settlements (Valladares Cerezo, 2003). Formal housing in close
+proximity to employment opportunities in the city centre is even costlier. Social housing is limited, and it is very difficult for those working in the informal economy to obtain loans from the formal banking system. Poorer people often
+get locked into exploitative loan arrangements with informal credit unions, which charge high interest rates (Ansari and DiFrancesca, 2014). The lack of affordable, safe housing in the city exacerbates the conditions of poverty for
+vulnerable GC residents (Valladares Cerezo, 2003) and has influenced the extreme growth of precarious settlements in the city (see Box 2).
+Rapid urbanisation has created challenges for national and municipal governments who have struggled to keep up with adequate services and planning.
+Box 2: Precarious settlements in Guatemala City In 1991, a study by UNICEF and SEGEPLAN6 identified 232 precarious settlements within the GCMA, in which 702,100 people were living (Valladares Cerezo, 2003). By 2017, there were more than 800 informal
+settlements in the city (PCI, 2018). Estimates suggest that 1.7 million7 people living in the GMCA are at risk of flooding or landslides (Wirtz, 2017). Many of the 6.5 million projected new urban dwellers in Guatemala are likely to move to these precarious settlements (Wirtz, 2017), with much
+of this growth expected to be due to poverty-driven internal migration
+(PCI, 2017b).
+Guatemala City’s precarious settlements date back to the aftermath of the 1917–1918 earthquake, which destroyed the city and shaped its physical and civic landscape (Cabrera and Haase, 2017). In the late 1950s, mass arrivals
+resulted in massive informal settlements, such as ‘La Limonada’, now the largest precarious settlement in Central America, home to between 60,000 and 100,000 people.8 In 1976, another earthquake (7.6 magnitude) devastated parts of the city, triggering more than 10,000 landslides (Faber,
+2016) and affecting 1.3 million people (Cabrera and Haase, 2017). Described
+as a ‘poor quake’, it demonstrated acutely how disasters affect people “ ”
+
+## Page 12
+
+ALNAP CASE STUDY
+12 in urban areas in unequal ways (IDNDR, 1996: 8); with those living in unsafe, informal settlements having the highest mortality rate (Miles et al., 2012) and suffering the most damage. Temporary accommodation was set up for those affected, which remained in place for nearly a decade.
+The government set up BANVI9 (a National Housing Bank) and a series of building schemes primarily to relocate these affected households.
+Earthquake survivors moved away from the most precarious areas, leaving these unoccupied (IDNDR, 1996). As the population continued to grow in the 1980s, those arriving in order to escape economic crisis and armed conflict10 settled themselves in precarious areas, or on lands where BANVI
+had planned developments for the earthquake survivors. Some of these settlements were cleared but others remained (Valladares Cerezo, 2003).
+The more recent generations of migrants and urban poor are willing to live in the disaster-prone areas (Cabrera and Haase, 2017).
+Growth in Guatemala City has tended to spread outwards rather than upwards, with precarious settlements arising further and further from the city centre. This exacerbates and sustains poverty and social precariousness, considered to be one of the nation’s most serious
+problems (Valladares Cerezo, 2003). Often, precarious settlements are constructed overnight with residents constructing haphazard, structurally unsound dwellings (Miles et al., 2012). In some cases, groups are moving to these areas to escape ‘oppressive and unaffordable conditions’ in the
+formal rental sector (Green et al., 2009: 5).
+Tension and distrust exist between the ‘informal’ precarious settlements and the ‘formal’ established city (ibid). This is illustrated by the language often used, with government interviewees often referring to new settlements as ‘invasions’ of the city. Many households living in precarious
+settlements have complex land tenure arrangements (PCI, 2015b). One 1993 study found that up to 75% of those living in informal settlements have no legal security to their land (Valladares Cerezo, 2003).
+Guatemala City’s precarious settlements are vulnerable to land and mudslides. The dwellings are likely to be of poor quality and the ground surface may not be firm. There is often no access to basic services such as water, adequate sanitation or electricity, there is little infrastructure such
+as paved roads, or any basis for communities; the most precarious may be illegally sited on land deemed unsuitable for construction (Groen and Jacobs, 2012; Valladares Cerezo, 2003).
+
+## Page 13
+
+barrio mio and katye: pci’s neighbourhood approach in cities 13 1.2 Politics and governance Between 1960 and 1996, Guatemala was devastated by a civil war that caused approximately 200,000 deaths (83.5% of whom were of Mayan descent)
+and displaced more than 1.5 million people (Cruz, 2017; Peralta, 2008). This displacement often forced people who already were marginalised into further precarious, marginal places in the city (Green et al., 2009). Peace accords were
+completed and signed in 1996, but the decades of political violence ‘left an indelible impact on society’ (McIlwaine and Moser, 2003: 118), including the population’s lack of trust in the government (Green et al., 2009). The ‘structures
+of exclusion’ imposed during the civil war have influenced patterns of gang violence which exist in the city today (Cruz, 2017: 25) (see Box 3).
+Box 3: Urban violence in Guatemala City The proliferation of gangs in Guatemala City began in the 1950s (Cruz, 2017). Levels of crime and violence continued to rise even after the civil war ended in 1996 and overt political violence diminished (McIlwaine and
+Moser, 2003). In the late 1990s, political instability, civil rights abuses and a poor economic climate contributed to rising levels of urban violence. At the same time, the United States deported a large number of gang members
+from Los Angeles back to Guatemala, which also had a significant impact (Cabrera and Haase, 2017; Cruz, 2017).
+It is difficult to know the scale of the gang population (Cruz, 2017).
+However, Guatemala is now one of the most violent countries in the LAC region, with 4,400 murders and 5,200 aggravated assaults recorded in 2017 (OSAC, 2018). While this rate has been declining in recent years, the country consistently ranks among the top 10 to 25 most dangerous
+countries in the world (ibid.).
+Following the civil war, a system of local development councils (SISCODE)11 was developed which operates at several levels (Castellanos, 2015; Peralta, 2008). In principle, the SISCODE system facilitates citizen participation in
+planning and development (Peralta, 2008) and funding should be available for each level. In practice, particularly at the municipal (COMUDE12) and community (COCODE13) levels, interviewees expressed concern about the system’s transparency and representativeness (particularly relating to
+gender). Furthermore, not every settlement has a functioning or recognised
+COCODE14.
+The ‘structures of exclusion’ imposed during the civil war have influenced patterns of gang violence which exist in the city today.
+“ ”
+
+## Page 14
+
+ALNAP CASE STUDY
+14 Guatemala is highly decentralised, with municipalities acting as ‘autonomous entities with no obligation to follow national recommendations’ (Castellanos, 2015: 46). Municipal governments are responsible for delivering most public services. However, their limited
+institutional and financial capacity constrains their abilities to meet these increasing responsibilities (Maria et al., 2017), a situation that is not helped by rapid and unplanned urbanisation (Gencer, 2013). Cyclical municipal
+election periods have also hindered long-term planning and development (Wirtz, 2017). As one interviewee explained, ‘one mayor just may not like what the previous one started to do even though it’s going well, and he’ll start something new and stop the other’.
+1.3 Society and culture Based on data from the 2002 census, the population of Guatemala City is 93.5% Ladino,15 5.5% Mayan, 0.08% Garífuna and 0.03% Xinca (Cabrera and Haase, 2017). The country’s civil war was driven by class, income and ethnic divides,
+particularly between Ladinos and indigenous people (Cruz, 2017). Guatemala City is still divided by class. Poor people live in extremely risky areas, and livelihoods are also often segregated, with certain jobs being done by poor, less
+educated people (Cabrera and Haase, 2017).
+In the early development of the city, the poor were located on the margins of the city. However, as the city has grown and expanded into the broader GMCA, these pockets of vulnerability are now located all over the metropolitan area. At
+the same time, wealthier inhabitants have gravitated towards high-rise buildings and gated communities, a spatial segregation which has accentuated social disparities in the city (ibid.). One interviewee explained the effects of this: ‘now
+there’s less and less urban society, interactions between people, because my street is closed off to your street.’ Municipal governments’ ... limited institutional and financial capacity constrains their abilities to meet
+these increasing responsibilities.
+“ ”
+
+## Page 15
+
+barrio mio and katye: pci’s neighbourhood approach in cities 15 1.4 Economy and livelihoods Guatemala City is the country’s primary economic centre, generating 63% of its industrial production (Valladares Cerezo, 2003). While Guatemala has the
+largest economy in the LAC region, it also has a high rate of poverty (56% in total, 27%16 in urban areas) (IFPRI, 2002) and what is thought to be one of the world’s most unequal income and land distributions (IFPRI, 2002; Dodman et
+al., 2012; Angel, 2000). Poverty in rural areas is the main driver of urbanisation in Guatemala (Valladares Cerezo, 2003; PCI, 2015a).
+The city also has a huge informal economy, where more than 60% of the urban population (TECHO, 2015; Cabrera and Haase, 2017) get their income. Working informally can mean a shorter commute and allow women to keep their young
+children with them in the day. However, these roles offer no benefits or steady hours, and sometimes include dangerous commutes and protection risks (PCI, 2017b). 1.5 Services and infrastructure In Guatemala, municipal governments are responsible for most services and
+infrastructure, from water and sanitation to roads and public transportation (Maria et al., 2017). As municipalities consider most precarious settlements to be illegal ‘invasions’ of land, service provision for these areas is often patchy
+at best (Castellanos, 2015). For instance, a 2015 survey of informal settlements found that 53% were connected to municipal drainage and 63% accessed water via municipal infrastructure (TECHO, 2015). In some places, provision appears
+to have improved: for example, in 2003, a survey found that only 26% had access to rubbish collection services (Valladares Cerezo, 2003); by 2015, this number had increased to 53% (TECHO, 2015).17 However, most households in precarious
+urban settlements have little or no systems for rainwater drainage and sewage, which cause sanitation problems and flooding (Ansari and DiFrancesca, 2014).
+In one survey, 50% of inhabitants listed drainage as the biggest problem in their settlement (compared to 33% who listed landslide risk) (Green et al., 2009).
+Transportation options in the city are insufficient to cope with the size of the population. In municipalities such as Mixco, many settlements are ‘bedroom communities’,18 with residents travelling a significant distance to work and
+simply returning to the area to sleep. Public transportation is often a target for violence – 1,138 passengers and drivers were killed between 2010 and 2017 (Cruz, 2017).
+While Guatemala has the largest economy in the LAC region, it also has a high rate of poverty and what is thought to be one of the world’s most unequal income and land distributions.
+“ ”
+
+## Page 16
+
+ALNAP CASE STUDY
+16 Many of Guatemala’s public services were privatised after the end of the civil war. Education provision is poor (IFPRI, 2002) and schools are in need of infrastructure improvements. However, this is difficult as many schools in the
+GCMA were built on land without clear legal ownership, so construction work would not be straightforward. Levels of school attendance amongst the poor is low, with many households unable to pay school fees or relying on income from
+child labour (PCI, 2015b). While urban residents are more likely to be in close proximity to healthcare services, IFPRI notes that socio-economic differences in terms of use of and access to such facilities are much larger in urban
+compared to rural areas:
+… thus, in spite of the greater availability of services in urban areas, the poorest segments of the population often continue to be left out of programs or available public services. This, in turn, perpetuates their vulnerability and risk of being poor, food insecure and malnourished.
+(IFPRI, 2002: 2)
+The informal settlement La Limonada. Photo credit: Leah Campbell, ALNAP.
+
+## Page 17
+
+barrio mio and katye: pci’s neighbourhood approach in cities 17
+2. Introduction to Barrio Mio
+Barrio Mio (‘My Neighbourhood’) is a disaster risk reduction (DRR) project convened by PCI and funded by the Office of US Foreign Disaster Assistance (OFDA), as part of the United States Agency for International Development
+(USAID). The project works across seven out of eight municipalities in the GMCA, and has been implemented in three phases, from 2012. It is described by PCI and OFDA as using a ‘neighbourhood approach’.
+Barrio Mio’s objective is to identify, pilot and scale solutions to upgrade high-risk urban informal settlements, improve emergency response to urban disasters and transform these areas into safer, healthier and more resilient
+neighbourhoods. Barrio Mio aims to achieve this by convening more than 40 different stakeholders from national and local government, academic institutions, the private sector and communities living in precarious urban settlements. In this way, a PCI staff member described Barrio Mio as more than
+a project, but rather a strategy:
+by which you can change, advocate or influence, improve and reduce risk for people, taking into account how the city functions from the very smallest scale up to the largest scale. 2.1 Phases of Barrio Mio Barrio Mio began in mid-2012 with an initial funding agreement for two years.
+At the time of publication in 2019, Barrio Mio was midway through Phase Three. The phases are outlined below.
+Phase One, October 2012 – March 2015: The first phase of Barrio Mio focused on the municipality of Mixco, and 17 specific precarious settlements within it. Two neighbourhoods (Vistas de la Comunidad and Cipresales) would be ‘demonstration’ communities where PCI would pilot a number of
+initiatives, working more directly though still in partnership. The remaining 15 communities would then be ‘replicated’ by the municipality, communities and other public and private partners with the support of PCI, building on
+lessons learned in the demonstration communities. PCI developed manuals to document in particular the technical lessons learned from the demonstration communities.
+Phase Two, April 2015 – October 2017: The second phase focused on expansion to six more municipalities (those which comprised the Mancomunidad Gran Ciudad del Sur). The project built on lessons learned from working in Mixco,
+but at a larger scale. Particular focus was on strengthening the capacity of both communities and municipal staff who would be the ones to carry out ‘replication’ of the activities piloted during Phase One, in their respective
+municipalities.
+Barrio Mio convenes more than 40 different stakeholders from national and local government, academic institutions, the private sector and communities.
+“ ”
+
+## Page 18
+
+ALNAP CASE STUDY
+18 Phase Three, October 2017 – September 2020: During this phase, Barrio Mio has expanded to a seventh municipality (Guatemala City) and has aims to support partners to scale the approach nationally. This phase is focused
+on supporting Barrio Mio’s partners to upgrade precarious settlements, and to effectively respond to and recover from urban emergencies, continuing to create partnerships between organisations, providing further technical
+support to government and working together to inform new policies and procedures which support the neighbourhood approach. 2.2 Components of Barrio Mio Barrio Mio addresses a wide range of issues that add to the vulnerability of
+precarious urban settlements and their inhabitants. As such, the project has a
+range of components including:
+Assessing risk and vulnerability: PCI developed a set of 28 vulnerability criteria19 and then worked with the Mixco municipality to identify evaluate 700 different neighbourhoods/settlements against these metrics to identify
+17 highly vulnerable communities that the project would target. The municipality and Mancomunidad have adapted and continue to use this vulnerability matrix to prioritise future interventions. Interviewees from the Mixco planning department emphasised both the usefulness of the matrix
+for their work, particularly in justifying decisions about which areas are prioritised by the municipality, as well as the ownership they now feel over the matrix.
+PCI then asked CONRED,20 the national body responsible for DRR and response, to assess the risk of the 17 identified neighbourhoods. A red/ yellow/green traffic light system is commonly used to identify which areas are safe to live in. In this system, areas designated as red are completely
+uninhabitable, yellow areas are risky but can be made habitable with structural improvements, and green areas are safe. A team from CONRED agreed to do the analysis, and initially assessed the entire project area to be red. PCI staff understood why that initial assessment came about: ‘I don’t
+blame the person from CONRED because his or her name [is] on it… are you going to be responsible for saying this is safe? No!’. Having realised that by using this approach, 60% of the municipality would end up being assessed as red, PCI asked CONRED to consider redoing the assessment,
+with the municipality and community members providing support. PCI also offered technical assistance, such as a soil analysis done by experts from a local university, which helped to identify a range of potential retrofitting measures. This reassured the CONRED team that retro-fitting could
+reduce the risk. A reassessment was carried out more carefully, resulting in a map that had a mixture of red, yellow and green areas, which gave the municipality more meaningful options about how different land could be used.
+
+## Page 19
+
+barrio mio and katye: pci’s neighbourhood approach in cities 19 While PCI supported the process by providing technical and methodological assistance, the mapping and enumeration was carried out entirely by community members.
+Participatory mapping/enumeration: PCI has worked with community members to carry out participatory mapping and enumeration in 52 neighbourhoods. While PCI supported the process by providing technical and methodological assistance, the mapping and enumeration was carried out
+entirely by community members. One community member interviewed for this
+research explained how they made the map as a group:
+We were able to know how many people live here. We discovered how there are even four families within one plot, up to 17 people in a 7x15 m plot. Our research gave us this information. We also found out [that] there are a lot of people who have disabilities, in wheelchairs, and now
+we know who is more vulnerable in case there is an emergency.
+While working with communities to produce these maps, PCI used a process whereby the freehand drawings made by community members were done at scale, allowing this information to be layered with other maps and data sources.
+This approach validates the community perspective, allowing it to be used alongside maps produced by government actors.
+Figure 3: Example of one neighbourhood’s map Source: Drawn by community members in La Canchita neighbourhood “ ”
+
+## Page 20
+
+ALNAP CASE STUDY
+20 Identifying and piloting innovative shelter, water and sanitation retro-fitting solutions: Particularly during the first phase of Barrio Mio, PCI used the ‘demonstrate and replicate’ approach to pilot a number of innovative solutions
+to retro-fit shelter, water and communal areas in precarious settlements. These interventions both reduced the disaster risk and improved service provision.
+Throughout the 17 communities in Phase One, 2,976 shelters were improved, and 780 people directly benefited from improved water and sanitation through the installation of 1,370 m of water pipes, 955 m of sewers and two water
+treatment plants that will sustain two communities for the next 20 years. Access routes were improved by building sidewalks and stairs with reinforced concrete, and a community centre was built in one neighbourhood.
+Women Empowered groups: Mujeres Empoderadas or ‘Women Empowered’ (WE) groups are a social, political and economic empowerment approach developed by PCI. A Barrio Mio staff member explained the ‘integrated
+empowerment’ approach:
+Our objective is that the women can be agents of change, decisionmakers in their own story, and that they have the tools and skills to be able to transform their lives, those of their families and their communities.
+The groups receive training on a range of topics, such as financial literacy, conflict resolution and entrepreneurship. Meeting regularly, the groups encourage participants to save regularly and contribute to a community fund
+when they are able to. They sometimes offer loans to one another – in the first PCI used the ‘demonstrate and replicate’ approach to pilot a number of innovative solutions to retrofit shelter, water and communal areas in precarious
+settlements.
+Community members present their maps to the municipality. Photo credit: PCI.
+“ ”
+
+## Page 21
+
+barrio mio and katye: pci’s neighbourhood approach in cities 21 five years of the project, 115 loans had been given with a total value of 28,000 GTQ (£2,750). In Phase Two, the WE groups were connected to one another in a network, though these connections have been difficult to sustain (see section 5
+on obstacles).
+Disaster response: While Barrio Mio is primarily a DRR project, a number of disaster events have happened in Guatemala City over the project’s lifespan.
+These included a landslide in 2015 that devastated the El Cambray Dos community (see Box 4) and an eruption of the Fuego volcano in 2018. The project has adapted to include support for disaster response in these cases.
+Two Barrio Mio project staff also travelled to Mexico days after an earthquake in September 2017 for a brief peer learning mission to support municipal authorities in Oaxaca to carry out a damage and needs assessment with
+Geographic Information System (GIS) technology in the municipality and to advocate for a recovery process similar to Barrio Mio.
+Box 4: El Cambray Dos Landslide On 1 October 2015, a landslide triggered by heavy rain destroyed El Cambray Dos, a precarious settlement located at the foot of a hill alongside the Pinula River, part of Santa Catarina Pinula municipality. The landslide
+killed more than 280 people, destroying and burying 200 homes under 13 metres of material, rendering the site uninhabitable (Wirtz, 2017; EHP, 2015). The high physical vulnerability of the area had been known for some time, with CONRED recommending evacuation of the area in 2014 (Wirtz,
+2017). According to one interviewee, assessments had emphasised the risk of flooding but ‘they didn’t check if there was any risk that could provoke a landslide’.
+Initially, the 445 evacuated residents were housed in temporary collective centres provided by the municipality (IFRC, 2016). PCI helped CONRED to document how many houses and residents there had been before the landslide. Barrio Mio had already been working in El Cambray Dos, having
+formed a WE group not long before the landslide. The project also provided support to the municipality and to evacuated residents in the collective centres.
+Shortly after the landslide, former President Alejandro Maldonado promised publicly that all surviving residents from Cambray would be resettled in a new housing scheme. This approach of resettling people post-disaster is common in the country with estimates that 75,000 homes
+have been provided in similar resettlement schemes in the past decade (Barillas, 2015). Known as ‘greenfield construction’, this approach has received a lot of criticism. Often, these schemes take years to arrange, with people waiting in limbo to be resettled (Sarmiento et al., 2016b),
+which can damage social and economic ties (Bryson et al., 2014) and have psychological impacts (Claudianos, 2014). If and when the resettlement
+
+## Page 22
+
+ALNAP CASE STUDY
+22 does take place, it is often far away from the urban landscape –– ‘in many cases, the areas proposed for new settlements do not have the basic economic and social elements found in even the most sub-standard neighbourhoods—roads, schools, clinics, and markets…’ (ibid.) This leads to
+people abandoning the resettlement location and returning to their original urban neighbourhoods, where they have built their lives and livelihoods (Faber, 2016).
+The president’s promise to Cambray survivors materialised as a plan to construct a new neighbourhood on the seized estate of a narcotics trafficker, a scheme known as ‘Mi Querida Familia’21 which would house 181 affected households. At the time, he promised that it would be ready
+before Christmas 2015 – an announcement considered by interviewees to be made to boost his political image rather than follow technical advice.
+Ultimately, the project experienced numerous delays and lack of funds and was not completed until December 2017. It is located remotely, three hours away from the El Cambray Dos site, with limited transport links. While the final Querida Familia homes were handed over to residents at the end
+of 2017, interviewees suggested that a number of these houses have since been abandoned, with households moving elsewhere to meet social and economic needs.
+A number of affected households from El Cambray Dos chose not to move to Querida Familia at all. One family interviewed for this case study explained their choice: ‘The place was so far away, was going to be difficult.
+There was no schooling, work. My daughter has a health issue and has to be under care, so we just couldn’t even think about going to that far place.’ The slope of the cliff above El Cambray Dos after the landslide. Photo credit: Leah
+Campbell, ALNAP.
+
+## Page 23
+
+barrio mio and katye: pci’s neighbourhood approach in cities 23 As part of Barrio Mio, PCI worked with Habitat for Humanity, Cementos Progreso and other partners to provide an alternative housing solution for El Cambray Dos Landslide victims who did not want to move to Querida
+Familia. The response was the first pilot of the financial models that Barrio Mio partners had been developing. Ten houses were built using this model, with residents moving in a year after the landslide, in October 2016 – 14
+months before Querida Familia was completed. The houses are in a new subdivision called Villa Venecia, about two hours away from El Cambray Dos but with good transport links and close to a school and livelihood opportunities.
+Supporting the development of COCODEs and COLREDs: Barrio Mio has supported the establishment/strengthening of local development councils (COCODEs) and local disaster management committees (COLREDs22).23 While each settlement can have both a COCODE and a COLRED according
+to the nationwide structures, not every neighbourhood does, and these councils and committees are particularly absent in precarious settlements.
+Municipalities have to approve/recognise COCODEs, and cannot do so in areas that are deemed completely uninhabitable (those with a red risk rating). As part of Barrio Mio, PCI has provided capacity development and support to new and existing COCODEs and COLREDs, and has helped
+to connect groups to municipal government. Working with these groups helped to generate community support for the physical rehabilitation of houses and communal areas. Working with the COCODE also helped to legitimise the community members who carried out the participatory
+mapping and enumeration. It was not always straightforward, however, as
+one community member explained:
+One of the biggest challenges… was that lack of trust among all of us… We might be neighbours, but we don’t know one another. [There were] people who didn’t want to share information with us, because they didn’t trust us… Betty, who was in charge of the COCODE… she
+could vouch for us.
+Access to livelihoods, banking, lower cost loans and affordable housing:
+PCI’s baseline assessments identified that a large proportion of people living in precarious settlements had informal employment or worked in factories or as labourers, on very low wages. These people lacked access to the formal
+banking or loan system. If they needed loans, they would pay extortionate rates of 35% to 80% per annum informally (PCI, 2015b). Barrio Mio has implemented a wide range of activities to support economic development and access. The most significant piece of work undertaken within this
+component is around access to loans and affordable housing. PCI worked with several banks and financial cooperatives, CORDAID and academics to better understand the loan system and to explore the possibility of providing PCI worked with
+several banks and financial cooperatives, CORDAID and academics to better understand the loan system and to explore providing low-cost loans, and access to formal banking systems for people in precarious settlements.
+“ ”
+
+## Page 24
+
+ALNAP CASE STUDY
+24 low-cost loans, and access to formal banking systems for people in precarious settlements.24 The result was a model outlining financial products that vulnerable families could access, which combines low-cost loans with existing
+subsidies from the National Housing Fund (FOPAVI25) (PCI 2016). The savings generated by WE groups have helped to convince formal banks that vulnerable households are a viable untapped market, creditworthy and capable of saving
+and repaying loans.
+Building the capacity of municipalities: Barrio Mio has spent a lot of time building the capacity of municipal staff, particularly in planning departments and women’s offices. Interviewees from municipalities noted the impact this
+has had for them, and an independent evaluation found that, by supporting municipalities to improve their data on precarious settlements, the project has supported the development of a relationship between municipal government
+and communities (Sarmiento et al., 2016b).
+Much of the capacity development has been around technical skills such as GIS.
+Rather than providing training directly, PCI has connected municipalities with other governmental and academic bodies such as CONRED, INSIVUMEH26 and IGN.27 PCI also established a technical advisory group (TAG) to provide ongoing
+peer support and learning for municipal planning offices, linking municipalities to other actors who had information they needed and who could support the municipality to collect further information themselves. One TAG member
+described how PCI introduced them to a risk map and aerial photography, which they used to identify precarious informal settlements, and then visit the
+communities directly:
+I, myself, had never been to the field. It’s not the same to see a map, and it’s not the same to go to the field and write down all the needs that they have. To see if they have water, if they have proper draining systems,
+if they are in a high-risk area, if they have proper roads...We were able to create analysis maps… This information was very useful for the municipality. It was so useful that we tried to copy this, and replicate it in other zones.
+Aerial view of an informal settlement in Guatemala City. Photo credit: PCI.
+
+## Page 25
+
+barrio mio and katye: pci’s neighbourhood approach in cities 25
+3. Katye and the origins of the neighbourhood
+approach Barrio Mio, while it has included a component of disaster response, is unarguably a DRR project. However, the origins of the neighbourhood approach, which is the basis for Barrio Mio, are humanitarian. As this case study
+seeks to inform future urban humanitarian action, an introduction to Katye and the origins of the neighbourhood approach have been included here. In the following sections, outlining how Barrio Mio has addressed urban complexity,
+and the challenges and enablers around this, examples from Katye will also be referenced, to emphasise the relevance of this case study for effective urban humanitarian action. 3.1 The origins of the approach The approach that has evolved into Barrio Mio has origins back in 1999 in
+Bamako, Mali where OFDA funded a four-year DRR project following a flash flood that caused significant destruction in the city. Like Barrio Mio, the Bamako project addressed flood risk in a highly participatory, multi-sectoral way
+(Sarmiento et al., 2016b).
+In 2006–2007, OFDA funded the Kabul Area Shelter and Settlements (KASS) project which provided support to returning refugees and displaced people.
+It brought together municipal and community actors and demonstrated the importance of a programming approach which recognised the interconnectedness of different community needs, such as shelter, health, road gravelling and livelihoods support (ibid.). Having funded both of these
+initiatives, when Port-au-Prince was reduced to ruins by the 2010 earthquake, OFDA was one of several organisations that recognised the need to try something different to respond to this urban disaster. 3.2 Introduction to Katye
+On 12 January 2010, Haiti was struck by a 7.0 magnitude earthquake, devastating the capital city Port-au-Prince and affecting 3 million people (Kirsch et al., 2012). Some 222,750 people died, and 1.5 million people were displaced (ibid.),
+leading to the establishment of more than 1,500 camps. The situation was overwhelming in every possible way: ‘Any way you looked at it, it was just like “oh my God, where do we start? What is the priority?” It was just everything
+seemed so dramatic, so huge’ one interviewee recalled.
+Ravine Pintade was one of hundreds of informal settlements affected. Situated between downtown Port-au-Prince and Pétionville, this densely populated settlement (63,649 people per km2) was built on a steep slope. Its precarious
+housing was severely damaged and 90% of residents were displaced, while damaged to roads and rubble made the settlement inaccessible (IDMC, 2015).
+Barrio Mio has origins back in 1999 in Bamako, Mali where OFDA funded a four-year DRR project following a flash flood that caused significant destruction in the city.
+“ ”
+
+## Page 26
+
+ALNAP CASE STUDY
+26 The earthquake damaged the structures so severely that 56% were completely destroyed or rendered uninhabitable and 37% were significantly damaged (World Bank, 2016; Kessler, 2012).
+The Katye Neighbourhood Upgrading and Recovery Program (Katye meaning ‘neighbourhood’ in Haitian Creole) was a USAID OFDA-funded project to provide relief and recovery for the residents of Ravine Pintade.
+CHF International (now Global Communities) and PCI both implemented the project. The goal of Katye was to meet the basic humanitarian needs of those affected or displaced by the earthquake, to provide safe, habitable neighbourhoods and to create the conditions for essential services to be
+upgraded (Kessler, 2012). Unlike many of the other response projects in Haiti at the time, Katye aimed to engage with affected households and return them to their original neighbourhood, rather than using camps and greenfield
+construction.
+Katye was implemented in Ravine Pintade and neighbouring areas. It was conceived of just days after the earthquake, following discussions about the importance of doing something different, rather than relocating residents to
+camps or beginning greenfield construction, seen as inappropriate for urban areas.
+Katye began in November 2010. In the ten months between the earthquake and Katye’s official start, both CHF and PCI engaged in other response activities (including emergency shelter, health, protection, livelihoods, debris removal
+and water, sanitation and hygiene (WASH) interventions). An evaluation of the project found that these activities had ‘generated substantial trust and mutual understanding between the communities and the implementing agencies, which
+contributed to Katye’s eventual success’ (Kessler, 2012: 13).
+Ravine Pintade after the 2010 earthquake in Haiti. Photo credit: CHF.
+The goal of Katye was to meet the basic humanitarian needs of those affected or displaced by the earthquake, to provide safe, habitable neighbourhoods and to create the conditions for essential services to be upgraded.
+“ ”
+
+## Page 27
+
+barrio mio and katye: pci’s neighbourhood approach in cities 27 Given the extreme conditions in Ravine Pintade, the evaluation found that residents’ trust was only won by providing tangible solutions to quickly address acute problems identified by the community. Addressing immediate concerns
+demonstrated to residents that the organisation were not offering abstract promises, and laid the foundation for the longer-term planning work Katye would need to do to succeed (ibid).
+Katye included a number of different components:
+• Mapping the layout of the community pre-earthquake and a process of
+participatory enumeration led by residents.
+• Participatory planning for shelter and public space reconstruction using
+elected committees for each zone.
+• Short-term cash-for-work for returning community members to clear
+35,000 cubic metres of rubble (USAID, 2012).
+• Repair to 200 damaged houses and construction of 345 new transitional
+homes, 75 of which were two-storey to maximise space.
+• A range of water and sanitation solutions including underground storm
+drainage (to prevent standing water and to stabilise land), WASH education activities, installation of community water points, latrines with septic tanks and innovative rainwater harvesting systems (USAID, 2012).
+• Safe social spaces and activities for youth throughout the project period,
+ranging from dance to computer classes, vocational training and life skills courses.
+• A photography project to address violence in the area, emphasising non-
+violent expression – this documented politically charged graffiti in the area and provided space for youth to discuss its significance.
+• Construction of 2.5 km of retaining walls to support the slopes around
+Ravine Pintade, which also created platforms that could be used as public space and community water points. Residents agreed to amend their plot sizes  and locations so that access and egress could be improved, and pathways constructed and expanded.
+• Repair of city streets allowing access to the neighbourhood which enabled
+access for water delivery and rubbish collection services (World Bank, 2016).
+• A free clinic providing basic primary healthcare, counselling, sexual health
+and disease prevention campaigns with a team of community health workers and Haitian doctors and nurses. A ‘willingness to pay’ study was conducted, and steps taken to transfer the operation of the clinic to a local NGO29 when the project ended.
+• Installation of solar lighting and provision of childcare at child-friendly
+spaces run by protection staff and community volunteers.
+
+## Page 28
+
+ALNAP CASE STUDY
+28 3.3 From Katye to Barrio Mio For many working in the region, the 2010 Haiti Earthquake was ‘a wake-up call to urban risk’ in the LAC region.30 After Katye, OFDA’s LAC office put out a call for proposals to fund ‘neighbourhood approach’ DRR initiatives,
+with four funded in 2012 and a further four funded in subsequent calls. OFDA has continued to develop their understanding of the approach and has since incorporated more of a focus on governance. OFDA has also partnered with
+academics who have carried out a number of comparative evaluations and studies in order to distil good practice from the use of the neighbourhood approach in LAC.
+One of these studies, by Sarmiento et al. (2016b), noted that OFDA’s promotion of the neighbourhood approach in the LAC region built on several important lessons learnt from Katye. The project proved that neighbourhood revitalisation
+depends on community involvement and support. It also enabled USAID and OFDA, as well as the LAC region, to recognise that the post-disaster response conditions that the neighbourhood approach aimed to address are entirely
+relevant for urban DRR programming as well. Such conditions included:
+inadequate pre-event urban planning; unsafe pre-event living environments; ambiguous land tenure and rights to build or occupy shelter; poor access to local healthcare, water and sanitation services; limited space and high population
+density; poverty and largely informal sector economic activity; vulnerability to flooding, landslides, high winds; and seismic activity (ibid.)
+Community members working on Katye. Photo credit: PCI.
+
+## Page 29
+
+barrio mio and katye: pci’s neighbourhood approach in cities 29 As a result of the Katye participatory processes, residents were ‘analyzing and identifying potential hazards, reshaping perilous terrain, and improving the neighborhoods’ overall design to mitigate risk, thereby reducing their
+vulnerability to future disasters’ (ibid.: 14).
+Both OFDA and PCI have built on lessons learned from Katye, from a broad, conceptual level of what it means to work in urban neighbourhoods, to specific WASH innovations and participatory enumeration methodologies. In these
+ways, both Barrio Mio and Katye contribute to understanding how to implement the neighbourhood approach in cities. 3.4 The neighbourhood approach Barrio Mio and Katye, like KASS and the Bamako project before them, are described by their donor and implementing organisations as following the
+neighbourhood approach. This approach – also called an area-based or settlements approach31 – is not a new idea, as it draws on principles which have been used by urban planning and development practitioners for decades.
+However, it is a new way of working for many humanitarians who have relatively little experience in urban areas and whose work tends to be sector rather than area-based. Despite growing interest in these approaches, there is
+still no consensus about what a neighbourhood/area/settlement approach really is, with the term used inconsistently to describe projects that are quite different from one another.32 There are also critiques about the potential for creating silos
+between areas, rather than between sectors (see section 5 on obstacles).
+USAID and the neighbourhood approach USAID defines the neighbourhood approach as ‘an area-based means of responding to multi-sector needs that is informed by a community-based decision-making process reflective of the social, economic, and physical features
+of the delimited area’ (USAID, 2011: 1). Furthermore, it notes the following:
+The approach is ‘shelter-led but settlement-focused’, considering livelihoods, social connections, health and security of affected persons.
+• It adopts a long-term view of land and services where short-term response
+is linked to larger recovery planning initiatives.
+• It focuses on communities in neighbourhoods rather than a conventional
+focus on households.
+• It encourages coordinated, integrated efforts, recognising that success
+depends on actively involving community stakeholders ‘in a highly consultative planning process that takes into account their needs, tastes and expectations’ but balancing this with assistance and capacity development of local authorities (ibid).
+This approach  is not a new idea, as it draws on principles which have been used by urban planning and development practitioners for decades.
+“ ”
+
+## Page 30
+
+ALNAP CASE STUDY
+30 In the LAC region, where it has funded a number of neighbourhood approach DRR projects, USAID has used the following definition: ‘an integrated, multisectoral analytical framework that centers on the geographic confines of
+neighborhoods in order to address risks in the urban environment’ (Sarmiento et al, 2018). It has given four common characteristics for the
+neighbourhood approach:
+• promoting compliance with local laws and international guidelines;
+• fostering the reduction of economic and social impacts of present and
+future disasters;
+• reflecting the needs of key stakeholders through participatory processes;
+• using GIS to collect and analyse data (ibid).
+Figure 4: PCI’s five pillars of the neighbourhood approach Source: Jones et al, 2019
+
+## Page 31
+
+barrio mio and katye: pci’s neighbourhood approach in cities 31 PCI and the neighbourhood approach PCI first implemented the neighbourhood approach with Katye in Ravine Pintade. It has since incorporated the neighbourhood approach into its
+development and humanitarian programming in a number of countries, in particular Guatemala with Barrio Mio. The approach developed organically, without a prescribed definition of what it meant. PCI is currently drafting guidance about it (Jones et al., 2019) including a framework to define the
+neighbourhood approach, developed by looking at practice (see Figure 4).
+PCI defines the neighbourhood approach as ‘a community-led,33 multi-sectoral process that takes place in a geographically defined neighbourhood and uses evidence from the local context to improve the quality of humanitarian
+assistance in responses to disasters, while laying the foundations for building back safer, healthier and more resilient neighbourhoods’ (Jones et al., 2019: 7).
+Painting permeable paving slabs in Barrio Mio. Photo credit: PCI.
+
+## Page 32
+
+ALNAP CASE STUDY
+32
+4. How Barrio Mio and Katye navigate
+urban complexity The contextual background at the start of this case study highlights the many ways in which urban environments are dynamic and interconnected. Land tenure is linked to governance, which is linked to service provision and poverty
+in a myriad of ways. These dynamics can be described as the complexity of the urban environment. ALNAP’s previous research (Campbell, 2016) has highlighted the need to better understand this interconnectedness and to find new ways of
+working which more effectively navigate the reality of the complex city.
+Barrio Mio and Katye are both examples of projects that take on the challenge of navigating the complexity of the urban environment. The sections below outline the ways in which they do this and explore the obstacles and enabling
+factors involved. In many respects, these ways of working are themselves interconnected, and each reinforces and supports the other. 4.1 Understanding the context and acting on this understanding Effectively understanding the context of the city and neighbourhoods where
+the project has taken place has been an important element of both Barrio Mio and Katye. Moreover, both have actively used this understanding in order to engage with relevant stakeholders and design interventions that acknowledge
+and make use of capacities already within the context. ‘Everything that we do in crisis has to be informed with what we know of the local context and if we don’t know enough about local context, then we need to figure it out,’ an PCI staff
+member explained.
+Both projects have used an iterative, fairly unstructured approach to understanding the context, building on their understanding over time. While this has led to critical insights into areas that may otherwise have been missed,
+not all information gathered is ultimately used. Without a standard set of tools, time is spent creating new tools whenever one is needed, a challenge explored more in section 5.
+While a solid understanding of context34 (and not just needs/vulnerabilities) is important in any humanitarian response, this is a particularly important part of working in a city, due to the number of interconnected challenges, opportunities
+and stakeholders that exist before a crisis and remain long after (Campbell,
+2018). One interviewee said, for example, the Haiti context presented:
+very complex political systems of land tenure that totally paralysed the ability to do shelter and…housing reconstruction… We would go to the cluster meetings and people would say stuff like, “people will start a riot if you try to move their land”. There was clearly no research being done,
+it was just an echo chamber.’ A solid understanding of context is a particularly important part of working in a city, due to the number of interconnected challenges, opportunities and stakeholders that exist before a crisis
+and remain long after.
+“ ”
+
+## Page 33
+
+barrio mio and katye: pci’s neighbourhood approach in cities 33 Barrio Mio and Katye have sought to understand the context and to use this
+information in a number of ways, including:
+Developing relationships with a wide range of stakeholders. Barrio Mio has established relationships with more than 40 different actors, from all levels of government, the private sector, academia, environmental groups and other NGOs. While many humanitarians focus on engaging only with
+those organisations with which they need to coordinate (to reduce gaps/ duplication) or those organisations they wish to formally partner with (i.e. local NGOs), Barrio Mio and Katye demonstrate the importance of engaging with
+stakeholders who are relevant to the context itself. To gather the information they needed, the Barrio Mio team created a stakeholder map which documented the roles and responsibilities related to urban risk for each actor
+as well as potential ways to engage with them.
+Understanding the incentives that will bring different stakeholders to the table. One particular aspect that has been critical to Barrio Mio has been the ability to understand what different stakeholders want and need – what would
+motivate them to engage. A big lesson from Barrio Mio for one interviewee was that ‘you really do have to invest in understanding who your partners are’. Partners can’t just be told ‘that you think that they should be involved in
+a project because it’s a good thing to do…If it’s a bank, you need to… present financial data. If it’s a municipality, it’s understanding the tax base, and the actual dollar cost, or political cost, or social cost, of not acting, for example. If
+it’s a community, you have to really understand how they can benefit, in a real way, and that just takes research, and time, and work’.
+Barrio Mio partners looking at maps. Photo credit: PCI.
+
+## Page 34
+
+ALNAP CASE STUDY
+34 Hiring local staff. PCI’s international humanitarian team is comprised of three people. While they have some sectoral expertise and sometimes hire internationals with particular skillsets, PCI’s field teams are generally entirely
+locally staffed. One interviewee explained how PCI try to avoid specialising primarily in emergencies, only learning about the contexts on the job: ‘Instead we try to be a team of people who respond with local people who know the
+contexts and help them to understand how to navigate the emergency.’ Katye employed 55 people, only four of whom were not Haitian (Brown, 2012).
+Asking questions. PCI invested time in the project design phase before the start of both Barrio Mio and Katye to understand both the context and needs in the area where the project would be implemented. While the projects both
+had specific objectives and deliverables that were identified before significant engagement began, the project was designed in a way that would allow interventions to be flexible enough for contextualisation. Well before and
+throughout both projects, the project teams sought to ask questions rather than assume that they had the answer.
+Making use of the capacities that already exist in the city. Both Barrio Mio and Katye involved a lot of capacity development. The majority of this was delivered by organisations with these capacities already in the context. For example, in
+Guatemala the team connected municipalities with mapping experts at IGN, encouraging IGN to build the capacity of the municipalities, who would in turn share information identified back to IGN. Another interviewee gave an
+example of how an organisation specialising in counselling support for genderbased violence (GBV) would need to resist the instinct to plough ahead, but to recognise that in an urban environment, many of those counselling services may
+exist in some form. Instead the organisation could develop capacity to provide services and share expertise.
+Nurturing critical thinking within the project team. During Katye, the project team was asked to do a piece of research, something PCI includes as an element of each humanitarian response. While this helps to generate further understanding
+on a particular aspect of the context, it also fosters critical thinking and a culture of enquiry among the team (see section 6 for more on how this enables the approach). In Katye, one of these pieces of research, conducted with 80 youth
+enumerators, identified 250 services that had existed within the city before the earthquake, that the international humanitarian system did not appear to be
+aware of or engaged with. One interviewee recalled:
+when you asked people at the cluster level, [they were] saying “these services don’t exist”. That’s not true. They were there. We didn’t know about them, and communities knew about them, so we went out and found those organisations and found ways to link them to what
+organisations were doing.
+
+## Page 35
+
+barrio mio and katye: pci’s neighbourhood approach in cities 35 4.2 Seeing the city as holistic designing interconnected interventions across sectors and geographic boundaries Both Barrio Mio and Katye focus on a range of vulnerabilities and needs within
+one socially and geographically bound neighbourhood (see section 5 for a reflection on the challenges of working with one specific area in this way). They take a ‘neighbourhood approach’ which ‘responds to a variety of humanitarian
+needs, including not only shelter…but also economic recovery; water, sanitation, and hygiene; protection for populations at risk of violence and exploitation; and disaster risk reduction’ (Sarmiento et al, 2016a: 10). In Phase Three of
+Barrio Mio, the team are now working on introducing food security and gender components to make the project even more integrated.
+This is of particular importance in an urban area because of the ‘complex and interconnected reality of urban risk’ (Sarmiento and Herard, 2015: 225). One interviewee explained the need to acknowledge the levels of complexity that are
+present in urban environments and to recognise the constraints inherent with both sector-specific working and across multiple sectors. For Barrio Mio and Katye, the tension has been between depth and scale. In order to cover a broad
+range of connected issues, the projects have started small and efforts to replicate them have not always been easy.
+Barrio Mio and Katye created a holistic and interconnected project in the
+following ways:
+Start with a holistic understanding. For both Katye and Barrio Mio, PCI aimed to understand the nature of vulnerability and need in a comprehensive way.
+This meant looking across and beyond traditional humanitarian sectors, and across geographical boundaries to consider how different levels of governance, for example, were inter-related. When asked why not just focus on one sector
+(such as WASH) and perhaps expand the scale of the project, one interviewee explained how fixing water and sanitation wouldn’t take away the vulnerability of the population. ‘We’d only be fixing two of the multiple problems they have.’
+Look at the community, not just the household. Barrio Mio and Katye are projects in which an entire population living in one neighbourhood all benefit from the interventions and assistance provided. One interviewee explained how
+going ‘house to house’ didn’t make sense in a place where everyone was living in the same unsafe conditions.
+You have to look at the neighbourhood to understand water and sanitation and drainage, disaster risk, crime, access, egress, health, spread of disease, protection issues, gender-based violence, lighting…you can do much better work by looking at all the sectors in an integrated
+way at the neighbourhood level in addition to the household or individual level.
+One interviewee explained the need to acknowledge the levels of complexity present in urban environments and to recognise the constraints inherent with both sectorspecific working and across multiple sectors.
+“ ”
+
+## Page 36
+
+ALNAP CASE STUDY
+36 It is important to recognise that this does not mean all households would receive the same assistance. Barrio Mio and Katye had specific interventions for youth and women, and did consider household-based vulnerability and need to
+target some components of the project, such as shelter rebuilding.
+Focus on needs and vulnerabilities, not sectors. By focusing on communitylevel vulnerability, need and capacity, Barrio Mio and Katye addressed issues as people experienced them. With Barrio Mio, this meant looking at issues from
+sanitation and permeable pavements to accessible financial models so that vulnerable people could access loans to retrofit their homes. This approach challenges the sector-based way in which humanitarian aid is currently organised. The Barrio Mio team, who have primarily engineering/settlements
+backgrounds, brought in partners and technical specialists when working on project components beyond their expertise. One interviewee involved in Katye reflected that often the way in which humanitarians plan their responses, results
+in them becoming blinkered – We take sectoral approaches often to doing assessments…but what happens if the critical impediments or the opportunities…are not the subject of your assessments… In Katye, there were many challenges that
+the humanitarian community…weren’t prepared for. They didn’t know [these] were issues that needed to be dealt with, and they didn’t have a methodology for dealing with them.
+Work at multiple levels, not constrained by geographic boundary. Katye and Barrio Mio have aimed to have an emphasis on the interconnectedness between neighbourhoods and broader urban areas and on how broader areas can affect critical outcomes related to relief and recovery (Jones et al., 2019).
+While Katye primarily focused on the Ravine Pintade neighbourhood, many of the components of the project, including health, protection, WASH and cashfor-work, had a much larger catchment area in surrounding neighbourhoods.
+This was done both to reduce tension with surrounding communities (where unfortunately, similar interventions were not taking place) and in recognition of the interconnectedness between one neighbourhood and those surrounding
+it (see section 5 for further discussion on potential tensions with surrounding areas). In Barrio Mio, PCI has been able to work at multiple levels – with national government to influence housing and risk policy, with municipalities
+and the Mancomunidad (union of municipalities) and with individual neighbourhoods. Barrio Mio has also created links between, for example, one neighbourhood WE group and another, and has encouraged skill-sharing between municipalities and between national and municipal levels
+of government.
+
+## Page 37
+
+barrio mio and katye: pci’s neighbourhood approach in cities 37 Flexible design and funding. While both Katye and Barrio Mio had a comprehensive project design before the projects began, these plans focused on broad goals wherever possible. An interviewee reflecting on the Katye
+project explained that PCI tries not to ‘consider ourselves as specialists in any one sector, necessarily, but [as] specialists in understanding the critical...issues associated with accomplishing our goals’. For example, if a goal was to build
+transitional shelter, the team realised that they had to understand land tenure.
+This did not make them a land tenure organisation but rather it was an issue that they needed to learn about, and develop a strategy for, even within an emergency timeline. Barrio Mio and Katye are good examples of the important
+role that donors can play in ensuring organisations have sufficient flexibility to work across traditional sector silos to have a greater impact. One interviewee noted however, ‘it only really works if you have flexibility to do more multi-
+sectoral approaches. It really depends on who your donor is’. 4.3 Being a convenor and facilitator rather than an implementer The Barrio Mio team have maximised their impact by acting more as a convenor and facilitator than a direct implementer, reducing the amount of
+direct intervention with each phase of the project. An evaluation described Barrio Mio’s collaboration and coordination with other partners as ‘particularly strong from the very beginning’ and describes the project as ‘an initiative
+designed more to facilitate local partners to generate solutions, rather than implement solutions on their behalf’ (Sarmiento et al., 2016b: 30). In Phase Two of Barrio Mio, the direct number of people targeted (such as those who
+would receive capacity development training from PCI and participate in WE groups) was just 1,222. However, the total number of people who would benefit from the project indirectly was 264,860 due to municipalities and other partners
+replicating the various activities that PCI had piloted in Phase One (PCI,2015b).
+This approach has been particularly important given the wealth of experience and capacity that already exists in urban areas. One interviewee believed that the humanitarian community needed to be willing to work much more closely
+with local actors and counterparts than usual:
+one of the reasons for that is [in an urban area] you need to be working on some pretty difficult and challenging issues, with a lot of overlapping implications, between municipalities and ministries, and private companies, and universities, and local NGOs, and communities.
+An evaluation describes the project as ‘an initiative designed more to facilitate local partners to generate solutions, rather than implement solutions on their behalf’.
+“ ”
+
+## Page 38
+
+ALNAP CASE STUDY
+38 Facilitating connections between stakeholders, rather than being a direct provider of assistance, aims to ensure sustainability beyond the life of the project. In order to take on these different roles of convenor and facilitator,
+Barrio Mio did the following:
+Foster relationships between stakeholders. Barrio Mio goes beyond identifying and developing capacity for different stakeholders, and has actively become a broker, convening different actors and helping to build bridges between them (Sarmiento et al., 2016b). One senior government official
+interviewee described how, prior to Barrio Mio, governments would intervene
+directly in the settlements:
+They never really start working with the community and trying to do the neighbourhood approach… The project has helped us a lot to learn how to work with municipalities, and how to work with the neighbourhoods… that are in risk areas, informal settlements, and [to]
+start working with the people.
+By working in this way, Barrio Mio has sought to strengthen existing structures and relationships rather than bypassing them.
+Engage in problem-solving with affected people. One Barrio Mio staff member explained how the project doesn’t provide assistance to vulnerable people directly, but supports them to identify the problem, to work with many different
+actors and to find a solution to the problem. Another said that they needed to orchestrate other agencies to find solutions together: ‘We couldn’t necessarily tell people what to do, certainly not tell people before we knew what to do, and
+we couldn’t just do everything ourselves’.
+Harness existing resources. In urban areas, many resources are ‘already there that you can leverage’, explained one interviewee. When retro-fitting the two demonstration communities in the first phase of Barrio Mio, a collaborative
+planning exercise took place. Once the work began, each partner had to bring their resources to the table.
+Community members working together on the Katye project in Haiti. Photo credit: PCI.
+
+## Page 39
+
+barrio mio and katye: pci’s neighbourhood approach in cities 39 So, the community did a lot of the spadework: they organised, and they provided help to technical people and so forth. The private sector brought in materials at low cost or no cost. The municipality gave us
+the heavy machinery and a lot of materials for the technical people, and ultimately, PCI only provides the technical assistance for getting it done, but every other sector has to contribute their resources. (Interviewee)
+Innovate so others can replicate. Throughout both Barrio Mio and Katye, PCI encountered a number of challenging problems. By using innovative problemsolving to identify solutions which then could be scaled increased the impact
+of their activities. One staff member explained how different hurdles had to be
+crossed, despite misgivings:
+I don’t think we should be developing financial products, for example… but we had to do it once. I don’t think we should be building retaining walls, frankly. We did it. We…were going to try to bid it out, and nobody knew how to do it properly. So, we did it ourselves… alongside all of
+those partners. We learned how to do it, and we walked the partners through it.
+To do this, Barrio Mio drew on the technical knowledge of both their staff as well as partners. However, this approach does require other organisations being willing and able to scale up those innovations, which has not always been easy –
+see section 5 for more on this obstacle.
+Build a sense of shared ownership. The most important thing that Barrio Mio has successfully built is a shared sense of responsibility for both the problem and the solution. The project has convened a wide range of actors, private and
+public sectors, academics and communities, from banks to planning offices to geologists to cement companies. One partner interviewed acknowledged that, ‘Barrio Mio cannot be done by one, sole organisation, it has to involve the work
+of everyone, in order to work’. A final evaluation of Katye found that the project had generated a shared sense of ownership through a highly participatory
+process that harnessed the knowledge and creativity within the community:
+All the residents of each zone were thoroughly versed in construction plans and thus were often instrumental in guiding contractors on site on a real-time basis, and once work was completed, they turned to the care and maintenance of that which they had worked so hard to plan and
+help build. (Kessler, 2012: 19)
+Projects that emphasise the neighbourhood require implementers to first and foremost take the time to understand the ‘human dimension’ before embarking on technical solutions.
+“ ”
+
+## Page 40
+
+ALNAP CASE STUDY
+40 4.4 Working in a community-led way One critical approach used by both Barrio Mio and Katye is to be led by the needs and perspectives of the community with which the project is working.
+Projects that emphasise the neighbourhood require implementers to first and foremost take the time to understand the ‘human dimension’ before embarking on technical solutions (Sarmiento et al., 2016b). The independent evaluation of
+Katye found that:
+Community members were involved in every step of settlement planning, from mapping and enumeration to supervision of final construction and placement of shelters, and in all levels of decision making, from large-scale planning decisions such as the location of
+retaining walls, footpaths and storm drainage lines, to more simple decisions, such as the location of solar lights. (Kessler, 2012: 18)
+In urban areas, it can be more difficult to engage in a participatory approach due to issues around representative leadership and non-geographic communities (Campbell, 2017). One interviewee for this case study emphasised
+that community means something very different in an urban environment, and knowing that how a community defines itself in an urban context is very different than in a rural one. Among the challenges are working out how to convene people together and which issues to discuss, as the interviewee
+explained:
+Some issues are going to be more relevant to talk with a community of people who are gathered because of sheer proximity … like where do we put the walkway, … the latrine, how do we manage the latrines?
+Whereas [with] some issues like vulnerability or livelihoods, you have communities that are not geographic but around age, gender, profession, education and literacy…you have to form groups and strategies – that’s a hard thing for organisations to do because we’re not used to doing it and
+it … starts to erode the very fabric of how we’re organised.
+In Katye and Barrio, a number of approaches were used to ensure that affected
+people had a leading role, including:
+Treat the community as partners not beneficiaries. In Katye, community members made decisions about the location of shelters, retaining walls, lighting, footpaths, and so on – features that led to the final evaluation of the
+project noting the approach to ‘community members as partners rather than beneficiaries’ and its ‘respect for the right of the community to be the arbiters of their own future’ were key to the project’s success (Kessler, 2012: 44). Similarly
+in Barrio Mio, PCI staff see community members as partners in the project, rather than passive recipients. Both projects have attempted to ‘shrink the gap’ (ibid.: 14) between the community and project teams, for example, by using
+participatory enumeration – a data-gathering process that is designed and One interviewee emphasised that community means something very different in an urban environment, and knowing that how a community defines itself in an urban
+context is very different than in a rural one.
+“ ”
+
+## Page 41
+
+barrio mio and katye: pci’s neighbourhood approach in cities 41 conducted jointly by the people being surveyed. One interviewee explained, ‘it’s a way of mobilising communities to not only learn about their context, but to begin to make decisions about how to advocate with the municipality, or
+organise themselves to solve their own problems’.
+Earn the community’s trust. Building trust with community members proved critical in both projects, but had to be earned due to scepticism in both Guatemala City and Ravine Pintade. In Barrio Mio, PCI found that when the project began, community members did not trust organisations due to others
+reneging on promises in the past (PCI, 2015a). Trust was even harder to obtain, but even more critical, in Katye where residents were asked to change their plot size to allow for community improvements, and asked to temporarily relocate
+during construction. Trust was generated in the projects by keeping promises and demonstrating this was the case. For example, one of the zones within Ravine Pintade, Impasse 138 was able to begin reconstruction work before other
+zones, due to its near complete destruction. Quickly visible and tangible results helped to build confidence in the community that rebuilding would actually happen (Kessler, 2012; World Bank, 2016).
+Building genuine relationships. Katye and Barrio Mio teams invested time and effort to be present and build relationships with community. One of the PCI Guatemala team members explained, ‘we try to create a link with the people, and really...become part of that community’. Locating the Katye
+field office beside the project site, where all staff including senior leadership were accessible with an open-door policy, made a major difference. Investing resource in community mobilisation was also important – Katye hired a
+community mobilisation manager, six experienced mobilisers and five community facilitators (Jones et al., 2019). These relationships proved helpful in mitigating conflict, with community members intervening to keep tensions,
+protests and police interventions to a minimum. The community also helped to safeguard contractors, staff and building materials (Kessler, 2012).
+Addressing diverse needs and vulnerabilities. Both Katye and Barrio Mio made sure to consider the needs and perspectives of a range of different community members – young people, women, older people – mindful of their different
+vulnerabilities to shocks and stress. Katye planning documents were shared with community leaders as well as the broader community to ensure that all needs were addressed. Amendments made to the plans included creating lakou (shared
+spaces between homes) in response to concerns expressed by older people; consulting young women on the design and placement of toilets to prevent GBV; and erecting guardrails along the retaining wall drop-offs.
+Establishing and strengthening community leadership structures. Creating and strengthening opportunities for community mobilisation and leadership were important in both projects. In Katye, a site-wide planning committee and five zonal committees with elected leaders supported the participation
+Both Katye and Barrio Mio made sure to consider the needs and perspectives of a range of different community members, mindful of their different vulnerabilities to shocks and stress.
+“ ”
+
+## Page 42
+
+ALNAP CASE STUDY
+42 of community members. For Barrio Mio, supporting the revitalisation of COCODEs and COLREDs and establishing the WE groups were critical to the success of the project. Supporting community leadership structures provided a mechanism for addressing neighbourhood-wide issues and enabling
+better coordination between communities, and between communities and government representatives.
+Ensure community engagement is coordinated. Ensuring that community engagement and participation was well coordinated proved extremely important. Katye was implemented jointly by PCI and CHF. At the start of the project, each organisation had a different approach to community mobilisation,
+which initially caused problems. Getting on the same page was critical, to ensure community participation was aligned. As Jones et al. (2019: 26) note, effective engagement ‘requires an alignment of timelines, principles and methodologies
+around community participation platforms to simplify engagement processes and enable integrated, sequenced, multi-sector planning and implementation’. 4.5 Using an iterative, evidence-based ‘pilot and scale’ approach By starting small and demonstrating tangible results that could be replicated,
+both Katye and Barrio Mio were able to build trust, generate buy-in and ensure the quality of context-relevant approaches that worked. Important to the ability to pilot and scale has been an iterative and flexible process, the use of evidence
+and a culture of enquiry. Projects like Katye and Barrio Mio require a high level of flexibility in planning and implementation in order to adapt to permanently changing circumstances that can affect project goals (Sarmiento et al., 2016b).
+However, working in a flexible, iterative way can make it difficult to monitor and capture learning.
+Being able to identify, and then make changes in order to respond to new information and realities is particularly important in a complex urban area. In Haiti, initial estimates about the number of affected people,35 the amount of
+rubble that needed clearing and the cost of construction were all significantly incorrect. This required Katye to be flexible in its programme design, work plans, targets and budgetary allocations, so that it could direct resources
+towards the most pressing needs, as identified by on-the-ground experience and information (Kessler, 2012). In the words of one interviewee, ‘if we didn’t adapt, we would be fools’. When rubble removal and construction exposed previously
+hidden features and issues, Katye technical staff, contractors, and community leaders modified plans (World Bank, 2016). An evaluation of the project found that donor support was ‘critical to program flexibility and therefore Katye’s
+effectiveness’ (Kessler, 2012: 3) – an issue explored in more detail in section 6 on enabling factors.
+Projects like Katye and Barrio Mio require a high level of flexibility in planning and implementation in order to adapt to permanently changing circumstances that can affect project goals.
+“ ”
+
+## Page 43
+
+barrio mio and katye: pci’s neighbourhood approach in cities 43 Katye and Barrio Mio were able to pilot and scale by using a variety of
+approaches, including:
+Starting small. Both Katye and Barrio Mio started small. In Haiti, PCI’s initial response following the earthquake was at a much bigger scale. After several months, the start of Katye provided a chance to unpack the thorny issues –
+‘from the rubble to the land tenure to the gangs…nothing is off limits’. Choosing to address a range of issues in a difficult context required PCI to keep their ambitions in check. Rather than pursue greater amounts of funding and more
+large-scale interventions, their aim was to start small and work towards scaling up in an accountable, sustainable way. Barrio Mio also used this approach, starting Phase One in two demonstration communities described by one
+interviewee as ‘learning laboratories’.
+Using replication to allow flexibility and context relevance. While starting small, both Katye and Barrio Mio had aims of large-scale replication. While the project did inform responses by other actors36 in Haiti, replication of Katye
+did not go as planned. Barrio Mio’s strategy used demonstration, replication and dissemination to achieve maximum reach, impact and sustainability from the very first proposal (PCI, 2012) in order to build on learning from
+Katye. This replication approach helps to support the flexibility and context relevance of the project. According to one interviewee, flexibility exits because municipalities and communities can choose and adopt those elements of the
+project which best suit their needs.
+Recognising that replication takes time and effort. The proposal for Katye had big aims for scaling up. Learning from Katye was incorporated into projects from other organisations in Haiti (IDMC, 2015) and PCI and OFDA have used lessons learned in other projects such as Barrio Mio. However,
+Katye’s original goal was that others would replicate the project in other neighbourhoods in Port-au-Prince – and that didn’t happen. The problem, according to interviewees, was both local and national governments in Haiti
+were stretched and had limited capacity following the earthquake, which made it difficult to build capacity in real time. In Guatemala, this has been less of a problem. The aim to build on experience, scaling and replication
+was factored into Barrio Mio from Phase One, and the ambitions have grown with each next phase. One interviewee noted that with Barrio Mio, the team, ‘would watch and support local partners to implement these same techniques
+in other areas’. The experiences of Katye and Barrio Mio highlight the fact
+that scaling and replication take time. Other factors affect replication as well:
+technical and programmatic aspects, the need for a deep knowledge of the territory and its actors, and permanent interaction with social, environmental, cultural, economic and political dynamics (Sarmiento et al., 2018). For these
+reasons, evaluators studying Barrio Mio and the other neighbourhood approach projects funded by USAID believe that such projects have an ideal duration
+
+## Page 44
+
+ALNAP CASE STUDY
+44 of three years and never less than two years (ibid.). Interviewees echoed this, emphasising that this is particularly true when replication is to be done by government, with the complications of bureaucracy and staff turnover. Section 5
+explores the challenges of replication and sustainability in more detail.
+Plan to adapt from the beginning. From the start of both projects, it was clear to PCI that flexibility and adaptation would be required. PCI’s approach has been to welcome requests to change, with one interviewee explaining, ‘it’s a
+good sign when our humanitarian response teams want to change our designs.
+It suggests that they and their local counterparts feel ownership’. An evaluation of Katye found that its final plans were kept flexible to allow the project team to change mid-programme and to make improvements to some of the proposed
+site protection features where relevant as opportunities arose (Kessler, 2012).
+Focus on setting outcomes and but allow flexibility in how they are achieved.
+One of the ways in which flexibility was included in project design for Katye and Barrio Mio was to set broad outcomes but allow flexibility in the process of reaching them. For example, in the first phase of Barrio Mio, the objective was
+to work with 17 communities, creating a map for each, preparing COLREDs for each, and so on. Ultimately, those deliverables were met. However, changes had to be made along the way, when, for example, a number of municipal staff who
+had received training were fired and their replacements had to be trained as well. Sometimes, meeting the outcomes required new activities not previously anticipated. This approach did face challenges when trying to monitor the
+project, as indicators did not adapt alongside the project activities. This obstacle is discussed further in section 5.
+
+## Page 45
+
+barrio mio and katye: pci’s neighbourhood approach in cities 45 Rely on evidence rather than assumption. Working in urban areas often challenges humanitarian assumptions, and it can be more difficult to rely on past practice (especially where it has been derived from programmes in rural
+areas). Seeking out information using a wide range of methods has helped Barrio Mio and Katye to understand what has or hasn’t worked from piloting, and where changes need to be made. One interviewee explained that when changes happen, it’s ‘because there’s enough data to justify [it]’. In Katye, a
+broad range of strategies was used to collect data and information: participatory enumeration, participatory mapping exercises, geotechnical studies, aerial mapping, surveys, focus groups, and key informant interviews (Jones et al.,
+2019). Similarly, Barrio Mio used participatory enumeration and community engagement, mapping and GIS, and connecting with experts like those at INSIVUMEH. One approach used by PCI in both projects is a system called D-RISK (Dynamic Research Informed System for managing risK). D-RISK
+combines a range of different information to inform project decision-making by helping PCI to prioritise and analyse data. It considers the certainty of information required to make a decision, how detailed information is and how
+frequently it needs to be updated so that relevant information can be identified by different decisionmakers making different types of decisions.
+Create a culture of enquiry. Fostering a culture of enquiry helped PCI to test out innovative approaches in pilot and to know when adaptiveness is required.
+In the words of one interviewee, ‘we do have an enquiring mind, and we don’t take an answer for granted’. In these projects, ‘analysis is not something that is simply done at the start of the project and then set aside, but rather
+is an iterative process of learning’ (Sarmiento et al., 2016b: 38). For example, incorporating mini research projects helps the team to collect the kind of data needed to contextualise and adapt programmes, challenge the design, and
+continue to learn about the context. One interviewee described the importance
+of building this culture by:
+writing a proposal that recognises what the challenges are, be very clear on what you’re going to accomplish, and giving the team all the tools and so forth it needs, but then…challenging them to question every day what they’re doing and come up with innovative ideas about how to do
+better, and how to look at gaps, for things we didn’t think about.
+Another said that what PCI wanted to accomplish was having all members of local teams think critically about the context, and to be comfortable in adapting
+programmes to that context:
+making changes or suggestions… trying to innovate new ideas, and nurture good ideas from one another, regardless of where they were in the hierarchy of things, as well as from our communities.
+In these projects, ‘analysis is not something that is simply done at the start of the project and then set aside, but rather is an iterative process of learning’.
+“ ”
+
+## Page 46
+
+ALNAP CASE STUDY
+46 4.6 Approaching DRR and response with a longterm focus In both Barrio Mio and Katye, PCI were judged to have considered ‘the longterm welfare and safety of vulnerable communities’ (Sarmiento and Herard, 2015). By ‘thinking long, acting short’ (Setchell, 2006: 9), these projects
+go beyond a typical humanitarian approach. According to USAID, most humanitarian actors’ mandates, protocols, expertise and institutional memories do not extend to the longer-term needs of communities, leading them to often overlook links to such needs (USAID, 2018). One interviewee described
+the pitfall of having only a focus on saving lives: ‘you undermine the ability for anyone to ever get development in the first place, and to rebuild better than they were before’. Another raised the importance of accountability for
+humanitarians:
+Accountability is not just in the moment. It’s also about what you leave and if you leave a city like Port-au-Prince in a situation where communities are less well organised, infrastructure is worse off…a lot of infrastructure that was intended to be temporary, now is
+made permanent and it creates obstacles for redevelopment and reconstruction, it’s built in unsafe areas, [with] problems with water and sanitation and access and egress and protection issues and so forth.
+Then the humanitarian community has an accountability issue.
+As these quotes suggest, linking short-term response and risk reduction activities to longer-term recovery and development is not solely an urban issue – in fact it is a current major concern in the humanitarian sector, a key theme
+in the latest State of the Humanitarian System report (ALNAP, 2018) and one of the strategic priorities for the Inter-Agency Standing Committee’s new reform process (IASC, 2019). However, this issue is particularly important in urban
+areas given the existence, regardless of any disaster event, of both extreme vulnerability in cities as well as a range of stakeholders, policies and processes for long-term development and planning.
+One interviewee described the pitfall of having only a focus on
+saving lives:
+‘you undermine the ability for anyone to ever get development in the first place, and to rebuild better than they were before’.
+“ ”
+
+## Page 47
+
+barrio mio and katye: pci’s neighbourhood approach in cities 47
+In Barrio Mio and Katye, long-term issues were brought into the project by:
+Acting as a support to the community, rather than claiming to have all the answers. A senior leader at PCI explained how long-term redevelopment starts on day one – from within the relationship that is built with the community,
+by showing people respect, by not creating dependency and by being open about the importance of rebuilding better. The community takes the lead, helps the teams to understand, while the teams support them, according to the
+interviewee.
+Mitigating the root causes of vulnerability. By assessing both pre-earthquake vulnerabilities and those created by the earthquake, Katye aimed to improve conditions at household and neighbourhood levels, compared to the situation
+before the quake, and to rebuild a neighbourhood that would be less vulnerable than before (Jones et al., 2019). For example, one interviewee explained the situation the Katye team found regarding sanitation: ‘None of the houses in the
+neighbourhood had bathrooms. Everyone was using the river area to go to the bathroom, which would flood. So, we couldn’t just put it back the way it was.’ Keeping in mind the long-term consequences of response actions and making
+conscious decisions that avoided unintended negative consequences. Still on
+the complications of providing sanitation, one interviewee explained:
+In order to build a [sanitation] system in an urban environment, you can’t just build one for this little community. Because right behind…this community is this whole community… So, you have to build a sanitation system that can capture all of the sewage from the uphill area…that
+will also accommodate growth for 30 years… It goes back to the “do no harm” principle. We don’t want to lay stuff down in a crisis that becomes the bones of a future community that doesn’t work because we didn’t do sufficient planning.
+Informal settlement in Guatemala City. Photo credit: PCI.
+
+## Page 48
+
+ALNAP CASE STUDY
+48 Ensuring any new infrastructure could function within a wider municipal system and be taken over by others in the long-term was important, the interviewee said.
+To do otherwise would waste money and would divert municipal and national
+governments away from building resilient urban infrastructure:
+…that doesn’t mean we don’t use all of the things in our toolkit in emergency response to provide sanitation, latrines and so forth but it just means that you programme with an awareness of what were the municipal systems and what was the impact of the disaster on them,
+and how do you take advantage of the response to rebuild those systems in a way that immediately provides humanitarian objectives but also forwards long-term recovery so people are less vulnerable after the disaster than they were before.
+Addressing emergency and long-term issues at the same time, from the start of the project, challenging the notion of a continuum between relief and development (Jones et al., 2019). For example, in Katye, a community consensus
+process that verified land rights allowed for emergency shelter and debris removal activities to go ahead without conflict. It also paved the way for more inclusive planning in the long-term, providing documentation that affirmed
+land rights to residents, many of whom had never had this before (PCI, 2018).
+Building the capacity of, and the relationships between, community and government actors as part of a planned exit strategy. This involves equipping them with the tools and skills to apply similar approaches when crises recur
+(Jones et al., 2019). Barrio Mio in particular specifically aimed to develop the municipality’s capacity to implement DRR measures, with the transfer of project responsibilities to local stakeholders formally as part of the mandate
+(Sarmiento et al., 2016b). In Barrio Mio, PCI also linked government with academic and private sector actors in order to facilitate sustainable information and funding support beyond the life of the project.
+Promoting preventative urban upgrading and retro-fitting solutions rather than reactive displacement to camps and greenfield construction. Both Katye and Barrio Mio advocate for the importance of retaining and rebuilding neighbourhoods, not least to maintain existing social systems. ‘When we take
+people out of their communities and put them in camps, those systems often break, and they become very reliant on us as NGOs to provide for those things they would normally provide for themselves,’ one interviewee said. Following
+the Haiti earthquake, Katye was unique and in fact was criticised by some who preferred the more traditional aid model of supporting the displaced people in camps. However, the evidence eventually showed that almost 50% of those
+displaced into camps were still there more than a year after the earthquake, and that those who received aid in the first month were no better off than those who did not. This suggests that the initial (substantial) response ‘yielded little
+effect on household economic recovery’ (Kirsch et al., 2012: 9). Eventually, the consensus of the humanitarian community in Haiti shifted from camp-based assistance to neighbourhood reconstruction, in recognition of the greater
+benefit to long-term household economic security (ibid.).
+Following the Haiti earthquake, Katye was unique and in fact was criticised by some who preferred the more traditional aid model of supporting the displaced people in camps.
+“ ”
+
+## Page 49
+
+barrio mio and katye: pci’s neighbourhood approach in cities 49
+5. Obstacles and challenges
+While Barrio Mio and Katye have found many ways to navigate working in complex cities, there are a number of obstacles and challenges to working in this way. These are outlined below.
+This way of working is not how humanitarian organisations typically function, and not everyone will appreciate a new approach. One of the most significant obstacles for projects like Barrio Mio and Katye is that they challenge conventional approaches, and thus can be met with resistance. This
+can manifest in different ways. For example, there are often strong political motivations for a greenfield construction approach and a lack of willingness to tackle difficult urban issues. In Haiti, it was difficult to find funding for
+projects like Katye as many donors preferred projects to be built outside the city in a different area, configuring the community and housing on a grid basis and then moving people in. In retrospect, it is possible to see that many of
+those greenfield efforts have failed, in some cases receiving significant media criticism.
+Overturning old ways of working can be hard, as interviewees explained:
+Guatemala has been responding to emergencies in both urban and rural ways with the same…methodologies, for a really long time. And what Barrio Mio is suggesting is a radical redefinition of that, in many ways… what we’re proposing, [is] in very stark contrast.
+Another interviewee described how attitudes were entrenched across
+hierarchies:
+At the national level from the president down, very well-developed and sometimes rigid understandings of what humanitarian assistance is supposed to look like [persist] and even if you have everybody in the room saying, “you have to do it this way, we’ve tried it a million times
+and we have really clear lessons learned”, they’re still going to do it the old way.
+Cost implications underlie some of the reluctance. Initially, Katye was perceived as being expensive. However, given the impact the project achieved, and the amount of money that was spent working in different ways, it is now difficult to
+substantiate these concerns. As one interviewee lamented, If you compare the opportunity costs and the real costs of Katye compared to how much [was] spent keeping people in camps for years or programming in general and not addressing the root causes
+early on, and what it would cost now for municipalities, communities, ministries and others where we didn’t do that infrastructure work and hard work up front, I would think that the cost of Katye was pennies in comparison.
+
+## Page 50
+
+ALNAP CASE STUDY
+50 Katye also faced challenges coordinating with the broader humanitarian response. ‘How you deal with the humanitarian community that is used to working one way, when you’re proposing to work another?’ asked one interviewee. Even within one specific sector, it was difficult to coordinate
+with organisations used to working in another way. Katye planned to rebuild housing and communal areas following a participatory planning process which involved negotiating changes with households to plot size and land ownership.
+To this end, the project initially supported households with emergency shelter.
+For those residents who did not have relatives to stay with elsewhere, basic emergency shelters were created. One interviewee described how this was different to typical emergency shelter where households are given plastic
+sheeting and other materials but are otherwise left to create their own dwelling.
+Instead the project used a technical team to help each household to build an emergency shelter that could function as well as a transitional shelter, with each dwelling built to certain standards.
+The approach has since been praised in shelter coordination meetings, and was duplicated by organisations such as J/P Haitian Relief Organization in the 2016 Hurricane Matthew response. However, at the time there was some conflict.
+Once organisations started to receive funding and materials to construct transitional shelters, there was a rush to find somewhere to put them. Katye participated in shelter coordination meetings, but other organisations would
+meanwhile arrive in Ravine Pintade and try to convince community members to abandon the Katye project and work with them instead, luring them with promises of instant shelter. ‘Who in their right mind, in Haiti, is not going to
+say “yes” to that? And now, we have the risk of people putting shelters all over the place and completely undermining the whole project,’ said one interviewee.
+This highlights the problems of working within a humanitarian system where very different ideas exist about how to achieve what ends.
+An iterative and adaptive programming approach can make it difficult to document learning. Another challenge for Barrio Mio and Katye has been how to document learning from the project, which is important for the ‘pilot and scale’ approach. For Barrio Mio, a lot of the difficulties are related to the
+project’s iterative and adaptive design. One interviewee admitted the process lacked rigorous documentation: ‘…most of the stuff we do, we do on the fly and we do not document…that’s where our biggest gap is… it’s very hard to document
+and systematise a process like this, because it’s not defined’. Describing the Barrio Mio team, another interviewee said: ‘They could send a rocket to the moon. They’re really good. [But] they would have no idea when it would arrive,
+how they did it, when it’s going to come back.’ Projects like Katye and Barrio Mio require a high level of flexibility in planning and implementation in order to adapt to permanently changing circumstances that can affect
+project goals.
+“ ”
+
+## Page 51
+
+barrio mio and katye: pci’s neighbourhood approach in cities 51 For Katye, the problem also relates to a fear of failure. One interviewee
+explained that, at the time:
+we didn’t share the right lessons, and we didn’t share where we did not do well.’ Amid a climate of intense scrutiny and media attention of humanitarian organisations, interviewees recalled a fear of reputational risk, where some individuals involved felt that there was a lack of
+open dialogue because of concerns that the project and implementing organisations would acquire a negative reputation. One interviewee reflected, ‘it’s very hard to get NGOs in such a high-profile disaster, to feel comfortable admitting mistakes.
+Donors’ and implementers’ tendency to organise by sector makes it difficult to work in an integrated way. Sector silos were an obstacle for Barrio Mio and Katye, and limited the full potential for a holistic, integrated project.
+Early plans for Katye had hoped to include livelihoods activities within the proposal, but this was discouraged by the donor which felt it might be ‘‘too much’ to take on given the complexity of the situation. The evaluation of Katye
+later noted:
+The economic benefits of the program could have been magnified by an economic development component, possibly including job training, access to credit, assistance with marketing or other elements to support improved livelihoods (Kessler, 2012: 3).
+For Barrio Mio, the USAID call for proposals listed specific sectors (WASH, Shelter and Settlements, Economic Recovery and Market Systems, and later Natural and Technological Risks); projects were required to fit within these
+(Sarmiento et al., 2018). Interviewees felt that Barrio Mio was an integrated programme, but that they were expected to pull it apart and fit it into each sector, even though ‘it doesn’t fit very well’. OFDA’s support for the project,
+and its integrated approach, is demonstrable – so the challenge is more of bureaucracy. For OFDA, projects must be separated by sector. Barrio Mio found ways to incorporate sectors that don’t fit into these categories, such as
+by finding alternative funding for food security and protection interventions, and by leveraging relationships and activities within Barrio Mio to bring these components together. The Barrio Mio team has also looked for other funds to
+work in sectors not covered by OFDA.
+Interviewees felt that Barrio Mio was an integrated programme, but that they were expected to pull it apart and fit it into each sector, even though ‘it doesn’t fit very well’.
+“ ”
+
+## Page 52
+
+ALNAP CASE STUDY
+52 There can be a misfit between indicators and outcomes, which makes it difficult to monitor the project accurately. Another significant challenge for these projects has been how to monitor in a way that captures the full impact
+being achieved. The evaluation for eight neighbourhood approach projects funded by USAID found that this was a common challenge, and recommended
+that:
+monitoring and evaluation tools should emphasize the complexity of the urban neighborhood context and its social dynamics; and that the development of qualitative indicators is important to understanding these processes. (Sarmiento et al., 2016b: 44)
+For Barrio Mio, the indicators monitored for each phase were outlined in the funding proposal. Indicators are from a standardised OFDA list, which means that some of Barrio Mio’s DRR activities are not quite aligned with indicators
+that are mostly about humanitarian response. As noted above, these indicators are separated by sector and cover things such as the number of shelters incorporating hazard mitigation measures, how much precarious land is repurposed for reforestation/recreation space, how many people demonstrated
+good handwashing practices, and the percentage of households participating in WE groups (PCI, 2012).
+These indicators can be important in demonstrating achieved deliverables and can in some cases compare the result achieved to an initial baseline. However, they fail to capture the richness of the Barrio Mio project and what it has been
+able to achieve – which is far beyond the level of ambition that these indicators suggest. Barrio Mio has, over the project, tackled issues that were not originally predicted, and therefore not included in the original monitoring plan. As one
+interviewee explained, Barrio Mio is ‘not only the activities that we planned but the strategies…[but] you can’t find them anywhere because monitoring and evaluation is not planned for that’.
+The Barrio Mio team did develop a number of complementary indicators (such as family savings, literacy levels, community knowledge about DRR, community cohesiveness and relationships between community and municipality) which
+allow PCI to measure more fully the impacts produced by the project strategies on the lives and living conditions of the families and communities involved (PCI, 2015a). However, this approach still relies on a list of indicators to monitor
+impact. There remains a tension between what some describe as a ‘myopic’ focus on the list of indicators and the overall impact the project has had, which has yet to be fully captured. Interviewees described a particular difficulty
+with monitoring aspects of the projects that do not have a concrete physical deliverable, such as the development of financial models. There is a need to strike more of a balance between reporting on specific deliverables and the ability
+to articulate more comprehensively the impacts project activities have had, including those which are difficult to evidence.
+There remains a tension between what some describe as a ‘myopic’ focus on the list of indicators and the overall impact the project has had, which has yet to be fully captured.
+“ ”
+
+## Page 53
+
+barrio mio and katye: pci’s neighbourhood approach in cities 53 It is difficult to monitor and achieve outcomes when working with multiple ‘replicating’ partners. One of the biggest challenges for these projects has been around replication and sustainability. Because PCI are not implementing
+directly, they are completely dependent on other organisations. In Barrio Mio, electoral politics, staff turnover, small municipal and ministry budgets and bureaucratic timeframes have all created delays. PCI have found an inconsistent
+capacity and political will among local partners to dedicate enough resources
+(PCI, 2018). One interviewee explained:
+it took us a lot more [time] because we’re not building homes but creating relationships with the municipal technicians and decisionmakers to open their minds to support and to adopt our ideas and processes. This is the real work of Barrio Mio. Create awareness,
+showing them that it can be done and waiting or expecting that they adopt the strategies and the products.
+Making interventions sustainable has been particularly challenging. An evaluation of Barrio Mio’s Phase One found that the communal gardens created in the demonstration communities no longer existed and that sanitation infrastructure had not been maintained as well as it could have been (Sarmiento
+et al., 2018). Interviews conducted for this case study with WE group members found that, while groups do continue to meet after the capacity development support from Barrio Mio staff has ended, there was less energy in the group
+and links to the broader WE network had not been maintained. There are many other areas where Barrio Mio interventions have been sustained, but it is important to reflect on where sustainability has been more difficult as it is a
+critical challenge for projects like these to overcome.
+Barrio Mio community members and staff looking at maps. Photo credit: PCI.
+
+## Page 54
+
+ALNAP CASE STUDY
+54 It is even more difficult to monitor and achieve outcomes where government and other partners are replicating activities. In some cases, replication has been achieved – the evaluation of Phase One of Barrio Mio found that there
+was evidence that the Mixco municipality had been replicating components in various communities and appeared ready to continue doing so (PCI, 2015a).
+However, the evaluation of Phase Two found that:
+while Barrio Mio project staff worked directly and intensely in demonstration communities, interventions in replication communities were carried out by municipal authorities and therefore did not experience the same level of involvement and results. (PCI, 2017a: 8)
+Working with one neighbourhood can create tensions with surrounding areas. Another potential obstacle to working with one or more specific neighbourhoods in an urban area is that tensions can occur with residents in surrounding areas. In Barrio Mio, because of the ‘pilot and scale’ approach
+where municipalities planned to replicate interventions in other areas, this was less of a problem.
+In Katye, this was a real challenge. The project attracted criticism for not supporting surrounding communities (IDMC, 2015; Brown, 2012) and there were confrontations including ‘disturbances, threats to staff, rock-throwing,
+gang actions to destroy equipment and undermine security’ (Kessler, 2012:
+44). Interviewees acknowledged that the lack of similar interventions in other communities nearby created tensions and inequities: ‘this is a question for the broader humanitarian community. How [do] you divide up urban areas and
+come up with consistent approaches?’.
+Katye did make efforts to reduce these tensions and interviewees felt that, in fact, the extent to which surrounding areas accessed support through the project had not been given enough credit. Components not related to infrastructure (health, protection, cash-for-work) were open to a broad
+surrounding catchment area (PCI, 2018) to the extent that one interviewee believed that about 95% of the people benefiting from the Katye health services were not from the Ravine Pintade project area. The project’s
+evaluation noted that:
+by carefully monitoring the frustration level in the surrounding areas and modulating the pace of these activities correspondingly throughout the life of the project, these efforts were largely successful in preserving the peaceful conditions necessary for the project’s implementation.
+(Kessler, 2012: 2 )
+Interviewees acknowledged that the lack of similar interventions in other communities nearby created tensions and inequities.
+“ ”
+
+## Page 55
+
+barrio mio and katye: pci’s neighbourhood approach in cities 55 The approach entails (re)creating new tools and approaches – which takes time. As Katye and Barrio Mio are driven by context relevance, approaches and tools are developed from the ground up. While this helps the projects to work in
+the complex urban environment, it creates a time and efficiency challenge and may also be duplicative, with the need to reinvent the wheel. One interviewee explained this as ‘the balance we’re always trying to strike’ and noted that there
+are very systematic aspects to the approach where checklists and other tools are used from one emergency to the next, such as the emergency shelter approach.
+However, interviewees note that a tendency to ‘see every context as different’ and to build tools ‘on the fly’ was not always a good way to proceed. Yet, working this way does bring value in a complex environment. One interviewee felt that
+the best approach was to:
+create a tool for every context and mix and match, copy and paste, and then go with it, and use it, and be rigorous and systematic in your methodology, but also be really open, at any moment, to changing your strategy based on what you’re learning – and don’t only collect
+information that you’re looking for…. Find some way to contextualise yourself.
+
+## Page 56
+
+ALNAP CASE STUDY
+56
+6. Enabling and supporting factors
+Barrio Mio and Katye are examples of projects that have effectively navigated the complexity of an urban environment by working differently. A number of factors have enabled the project to do this. These are outlined below.
+An organisation willing to take risks, adapt and innovate. Interviewees for this case study consistently commented on the role of PCI’s organisational approach in making Katye and Barrio Mio work as they have. Particularly emphasised
+were the organisation’s ‘willingness to be in the fray and learn by doing’, its ‘agility to manoeuvre’ and ‘to be more flexible…and more creative’, and a ‘mentality that’s very open to innovation’. One interviewee recalled realising
+that PCI did not seem to experience some of the struggles encountered by others, such as legal constraints: ‘We don’t really have anyone telling us that we can’t do what we’re doing.’ An environment where staff feel empowered to act on their experience and
+judgement. Interviewees from across the organisation, in both Katye and Barrio Mio, consistently noted the freedom and autonomy they felt working at PCI.
+They noted the sense of value this gave them, and the feeling of satisfaction at being trusted and being given the opportunity to grow. While each staff member cannot just act as they want to, one interviewee said, ‘I have never, in
+my time at PCI, been told, “No, you can’t do it this way”.’ This has contributed in particular to the critical thinking and culture of enquiry that has been vital to the approach. One interviewee explained that community members would
+sometimes try to raise issues with international staff but that ultimately ‘good community participation in that context…requires that the community knows that their counterpart is that local person’. Those local staff recognised that
+‘PCI would never come into a community and in front of other people, go over my head’.
+Guatemala City traffic. Photo credit:
+Leah Campbell, ALNAP.
+
+## Page 57
+
+barrio mio and katye: pci’s neighbourhood approach in cities 57 Being a good partner. Partnership with a range of different organisations has been critical to this approach. In order to work well with different organisations,
+PCI has had to demonstrate itself as a good partner. One interviewee explained, ‘Unless you’re an organisation that, somehow, can manage every aspect of not only meeting the immediate emergency needs of people affected by a crisis, but
+also laying a foundation for recovery, you have to be willing to work together’.
+PCI has five Principles of Partnership that it applies across the organisation
+(PCI, no date A):
+• shared recognition for implementation and success,
+• shared responsibility for implementation and failure,
+• transparency of strengths and weaknesses,
+• joint decision-making,
+• and self-determination
+These principles, one interviewee explained, means that ‘we take our partners into account, we give them a lot of credit for the work we do together. We aspire to have people feel good about partnering with us’.
+A donor that allows flexibility. The ability to make changes as required has been important to both Katye and Barrio Mio. Interviewees emphasised the important role that OFDA played in supporting this flexibility. ‘If we need to
+change the design, or adapt the design of a project, even in such a way that it changes what we had originally agreed with our donor, we’ll go to the donor and talk about it,’ said one interviewee, adding that they wouldn’t forge ahead
+with the original design if it did not seem the right fit. Another emphasised that OFDA was willing to respect that, ‘because they believe in the methodology of the continuous engagement, the flexibility, the adaptation’. Another noted that
+‘in many cases, OFDA as contributed to the design and adaptation…which makes them more invested in seeing them adapted and improved upon’. Interviewees felt that ‘it is an important chapter of this story that we have a donor that’s really
+flexible and works with us’. They also noted that while they had flexibility to act when needed, the final outcomes were entirely aligned to what was agreed with the donor – ‘at the end…the product is something that is totally in line with what
+we had committed to’.
+A donor that supports the project. Interviewees also cited the importance of OFDA’s active involvement in Barrio Mio and Katye from the design phase.
+‘They put faith in us to do the project and they provided technical input. In both cases, this was not just a donor–implementing agency relationship. It’s also a technical collaboration,’ one said. Partners interviewed explained that
+OFDA’s support for the project has helped to ‘create confidence’ and ‘credibility’ for other partners to get involved. This support is important for the success of projects like Katye and Barrio Mio, in that they play an enabling role in securing
+funding to respond to emergencies in a way that helps to build foundations for longer-term recovery (PCI, 2018).
+Interviewees felt that ‘it is an important chapter of this story that we have a donor that’s really flexible and works with us’.
+“ ”
+
+## Page 58
+
+ALNAP CASE STUDY
+58
+7. Questions for further study
+This case study has documented examples of how Barrio Mio and Katye have worked within interconnected, dynamic urban spaces and how they have adapted their ways of working in order to be more effective. The case study has
+been largely descriptive, and has offered specific examples of how things worked in these two projects. This case study is one of several which will be produced as part of this research. The case studies will all feed into a final research study.
+When reflecting on the examples of Barrio Mio and Katye, it is important to
+consider the following questions:
+• To what extent can the learning from Katye and Barrio Mio apply to other
+humanitarian contexts? In particular, are these new ways of working feasible in earlier stages of response, where time constraints may be prohibitive? What about protracted crises where there may not be a functioning government and other stakeholders to work with in order to
+achieve an impact at scale?
+• How can approaches that emphasise ‘community’ participation and
+engagement succeed in urban areas where ‘community’ does not mean a defined geographic space?
+• How feasible and scalable are the levels of donor and organisational
+flexibility that were critical to Barrio Mio and Katye?
+• How do approaches that focus on depth over scale, working in one or more
+individual geographic areas, avoid replacing sector-based silos with areabased silos?
+• How can organisations balance the joint imperatives of having an iterative
+implementation with the ability to document and share learning?
+
+## Page 59
+
+barrio mio and katye: pci’s neighbourhood approach in cities 59
+8. Key takeaways
+Barrio Mio is a project designed to reduce urban risk and improve response and recovery to future urban disasters in Guatemala City. Barrio Mio is based on learning from a related project, Katye, which was implemented in Ravine
+Pintade, Port-au-Prince after the 2010 earthquake. Both projects  have used new
+ways of working to navigate the complexities of urban areas, including:
+• Actively establishing, making use of and understanding context by
+developing relationships with different stakeholders; understanding the incentives that will bring stakeholders to the table; hiring local staff; asking questions; making use of the capacities which already exist in the city; and
+nurturing critical thinking within the project team.
+• Looking at the city as a holistic and interconnected place, and designing
+interventions which cut across sectors and geographic boundaries by creating a holistic understanding; looking at the community not just as individual households; focusing on needs and vulnerabilities not sectors; working at multiple levels; and having a flexible programme design
+and funding.
+• Being a convenor and facilitator, rather than an implementer, by fostering
+the relationships between different stakeholders; engaging in problemsolving with affected people; harnessing existing resources; innovating while others replicate; and building a sense of shared ownership.
+• Working in a way that is led by the needs and perspectives of affected
+people; by treating the community as partners not beneficiaries; earning trust; building genuine relationships; addressing diverse needs and vulnerabilities; establishing and strengthening community leadership structures; and ensuring community engagement is coordinated.
+• Using a ‘pilot and scale’ approach which is iterative, flexible and evidence-
+based, and which creates a space for learning and questioning; by starting small, using replication to achieve flexibility and context relevance, recognising the time and effort that replication takes; building adaptiveness
+into planning; focusing on outcomes and allowing flexibility in how these are achieved; using evidence and creating a culture of enquiry.
+• Approaching DRR and response with a focus on the long-term by
+mitigating the root causes of vulnerability; keeping in mind long-term consequences; addressing long and short-term issues in tandem; acting as a support to community; building the capacity of and relationships between government and community; and promoting preventative urban upgrading
+rather than reactive displacement and greenfield construction.
+
+## Page 60
+
+ALNAP CASE STUDY
+60 Barrio Mio and Katye encountered a number of obstacles to working in this way. These include resistance from those not wanting to work in a new way; difficulties in monitoring impacts and documenting learning; sector silos that
+inhibit integrated, multi-sectoral programming; problems achieving outcomes and sustainability when working with replicating partners; tensions arising in nearby areas; and lost efficiencies due to (re)creating tools and approaches.
+There are a number of enabling factors that have supported Barrio Mio and Katye. These include: PCI being an organisation that is willing to take risks, adapt and innovate; the creation of an environment which empowers staff;
+aspiring to identify and work with a broad range of partners in a way that is positive for all involved; and having a donor that allows for flexibility and supports the project.
+Finally, it is important to reflect on the applicability of learning from Barrio Mio and Katye for other humanitarian organisations. Are the approaches outlined in this case study applicable for humanitarian response, or just for DRR and
+reconstruction? Are the approaches relevant for contexts without functioning government/other stakeholders to partner with? How do projects achieve ‘community’ engagement in an urban area? How do projects avoid replacing sector-based silos with area-based silos? Is donor and organisational flexibility
+realistic at scale? How can organisations iterate and also document and scale learning? These questions and more will be explored in ALNAP’s ongoing work on this research project.
+
+## Page 61
+
+barrio mio and katye: pci’s neighbourhood approach in cities 61 Endnotes 1.
+The greater metropolitan area has a population of approximately 6 million residents (see endnote 4), with 1.7 million living in precarious settlements (see Box 2). 2.
+Guatemala City is the largest municipality within the Guatemala City Municipal Area (GCMA), a grouping of eight densely populated municipalities surrounding Guatemala City municipality itself. This area includes Guatemala City, Chinautla and six other municipalities (Amatitlán,
+Mixco, San Miguel Petapa, Santa Catarina Pinula, Villa Canales and Villa Nueva), which are collectively known as the Mancomunidad Gran Ciudad del Sur. There is no official definition of the metropolitan city (Valladares Cerezo, 2003). Throughout this publication, ‘Guatemala City’ is often used
+to refer to the broader GCMA unless otherwise specified. 3.
+‘Very high’ on the World Risk Index 2015 are countries with a score of 10.4 and above. Guatemala’s ranking is 20.10. See http://www.uni-stuttgart. de/ireus/Internationales/WorldRiskIndex/#tabs-3 to access the World Risk Index. ‘High’ on INFORM 2018 are countries with a score of 5–6.5.
+Guatemala’s score was 5.3 (INFORM, 2018). 4.
+Exact figures are difficult to obtain as there has not been a state census in Guatemala since 2002. Guatemala City itself has an estimated 2.5- million to 3.5 million inhabitants (Wirtz, 2017). Estimates suggest the combined
+population of six additional municipalities within the GMCA, together known as the Mancomunidad Gran Ciudad del Sur, is an additional 3 million
+(PCI 2017b).
+5.
+For comparison, the population density in Greater London is 5,590 inhabitants/km2. 6.
+SEGEPLAN stands for Secretaría de Planificación y Programación de la Presidencia (Guatemalan Secretariat for Planning and Programming of the Presidency). 7.
+Wirtz (2017) argues that 360,000 families are at risk. According to the UN Department of Economic and Social Affairs, Population Division (2018), Guatemala’s average household size is 4.8, making the number of individuals at risk approximately 1.7 million. This number is conservative
+– previous estimates suggest an urban household size of 5.2 people (IFPRI, 2002), which would make the number of individuals at risk 1.872 million. 8.
+For more information, see: https://www.lemonadeinternational.org/about/ la-limonada/ 9.
+Banco Nacional de la vivienda
+10.	 The country experienced a civil war from 1960 to 1996.
+
+## Page 62
+
+ALNAP CASE STUDY
+62
+11.	 Sistema de Concejos de Desarrollo (National System of Councils for Urban
+and Rural Development).
+12.	 Consejos Municipales de Desarrollo
+13.	 Consejos Comunitarios de Desarrollo
+14.	 Municipal governments must recognise COCODEs in order for them to
+receive their funding and recognition.
+15.	 According to Gibbons and Ashdown (2010), Ladinos are defined as non-
+indigenous persons or persons of mixed indigenous and European descent.
+16.	 This number may have decreased since then. SEGEPLAN reports that 20%
+of those in GMCA were living under the poverty line in 2015 (Cabrera and Haase, 2017).
+17.	 It should be noted that these studies were conducted by different
+institutions and are not a complete census of all informal settlements.
+18.	 The term ‘bedroom communities’ or ‘dormitory communities’ refers to
+areas where the majority of the population commute to work elsewhere.
+The population sleeps at home, but lives elsewhere (WFP, 2017).
+19.	 These included: presence of community organisations, previous disaster
+events, violence, number of young children in the area, geographical location (proximity to slopes), relationship of the community to the municipality.
+20.	 Coordinadora Nacional para la Reducción de Desastres
+21.	 ‘My Dear Family’.
+22.	 Coordinadora Local para la Reducción de Desastres
+23.	 The national government established a legal framework for disaster
+prevention and response coordination (CONRED), which is replicated at several levels, including municipal (COMRED) and local (COLRED). Before the start of the Barrio Mio project, five out of six of the municipalities in the Mancomunidad did not have an active or established COMRED (PCI,
+2015a). Barrio Mio has supported the development of both COMREDs and
+COLREDs.
+24.	 Catholic Organization for Relief and Development Aid.
+25.	 Fondo para la Vivienda
+26.	 Instituto Nacional de Sismología, Vulcanología, Meteorología e Hidrología
+(National Institute for Seismology, Volcanology, Meteorology and Hydrology)
+27.	 Instituto Geográfico Nacional – (Guatemalan National Geographic
+Institute, an agency within the Ministry of Agriculture, Livestock and Food)
+
+## Page 63
+
+barrio mio and katye: pci’s neighbourhood approach in cities 63
+28.	 An important insight from the Katye project was the willingness of
+residents to amend their plot sizes in the interest of safety. While many doubted that residents would be willing to do so, Katye proved that they were. One interviewee who worked on Katye explained, said, ‘I’m not saying it was easy, but you had people in these communities saying, “Look,
+you don’t have to tell us the benefits of having wider streets, because we had friends and neighbours who were killed, not because they were in their house and their house fell on them, they were in the street and the house
+fell on them, because it was so damn narrow they couldn’t get out of the way.’
+29.	 The original goal was for the clinic to be community-run. However, the
+‘willingness to pay’ study found that charging an affordable rate would leave the clinic operating at a deficit, so a community-run model was not sustainable. Instead, the clinic was connected to Clinic Solidarité, a locally
+managed clinic and to the Ministry of Public Health. Capacity development was provided to ensure a quality handover (Kessler, 2012).
+30.	 Interview with someone who responded to the Haiti earthquake, October
+2018.
+31.	 For more background on these approaches, see http://pubs.
+iied.org/10742IIED   And http://pubs.iied.org/pdfs/10825IIED. pdf   And https://www.sheltercluster.org/sites/default/files/docs/ urbansettlementcompendium_uswg_july2018.pdf
+32.	 For a discussion about possible differences/similarities between these terms
+see https://www.sheltercluster.org/settlements-approaches-urban-areas-wg/ documents/settlements-terminology-paper-draftapr2018
+33.	 PCI uses the term ‘community-led’ to emphasise the important role of the
+populations it works with. Not all of these individuals necessarily would identify as a cohesive ‘community’, a concept that is nuanced in an urban area (see Campbell, 2017).
+34.	 Context is defined as ‘the environment and circumstances within which
+something happens, and which can help to explain it. Context exists outside any situation which may have occurred, and is broader than the experience of any individual or group’ (Campbell, 2018).
+35.	 Initial estimates of 1,321 families in the neighbourhood pre-quake actually
+turned out to be 574 families (Kessler, 2012).
+36.	 PCI is currently drafting a post-project sustainability study, reflecting
+on the long-term impacts of Katye, field work for which has identified the impact of Katye on other responses in Haiti to be greater than PCI interviewees had anticipated. The study is due for publication by PCI later in 2019.
+
+## Page 64
+
+ALNAP CASE STUDY
+64 Bibliography ALNAP. (2018) State of the Humanitarian System 2018 Edition. London: ALNAP/ ODI. (www.alnap.org/help-library/the-state-of-the-humanitarian-system-2018full-report).
+Angel, S. (2000) Housing policies and programs in Guatemala: diagnosis, evaluation and guidelines for action. New York: The Inter–American Development Bank (IADB). (www.alnap.org/help-library/housing-policies-and-programs-in-
+guatemala-diagnosis-evaluation-and-guidelines-for).
+Ansari, A. and DiFrancesca, J. (2014) Public private partnerships and applicable financial instruments. San Diego: PCI. (www.alnap.org/help-library/publicprivate-partnerships-and-applicable-financial-instruments).
+Barillas. (2015) Urban policies in Guatemala: Adding DRM to the equation.
+Guatemala: Ministerio de communicaciones, enfraestructura y vivienda. (www. alnap.org/help-library/urban-policies-in-guatemala-adding-drm-to-theequation).
+Brown, D. (2012) ‘In one of Haitian capital’s roughest neighborhoods, a pretty good second chance’. [Website]. 20 March. Washington, D.C.: Washington Post. (www.alnap.org/help-library/in-one-of-haitian-capital%E2%80%99s-roughest-
+neighborhoods-a-pretty-good-second-chance).
+Bryson, A., Hwang, J. and Krystalli, R. (2014) Urbanisation, disaster and displacement in Central America and Southeast Asia. Oslo: NRC. (www.alnap.org/ help-library/urbanisation-disaster-and-displacement-in-central-america-and-
+southeast-asia).
+Cabrera, F. C. and Haase, D. (2017) ‘Guatemala City: A socio-ecological profile’.
+Cities, 72: 379-390. (www.alnap.org/help-library/guatemala-city-a-socioecological-profile).
+Campbell, L. (2016) Stepping back: Understanding cities and their systems. London:
+ALNAP/ODI. (www.alnap.org/help-library/stepping-back-understanding-citiesand-their-systems).
+Campbell, L. (2017) Working with people and communities in urban humanitarian crises. London: ALNAP/ODI. (www.alnap.org/help-library/working-with-peopleand-communities-in-urban-humanitarian-crises ).
+Campbell, L. (2018) What’s Missing? Adding context to the urban response toolbox.
+London: ALNAP/ODI. (www.alnap.org/help-library/whats-missing-addingcontext-to-the-urban-response-toolbox ).
+Castellanos, K. (2015) Hyogo framework for action in Guatemala: City risk management in hazard-prone informal settlements on slopes. Stockholm: KTH Royal Institute of Technology. (www.alnap.org/help-library/hyogo-framework-for-
+action-in-guatemala-city-risk-management-in-hazard-prone-informal).
+
+## Page 65
+
+barrio mio and katye: pci’s neighbourhood approach in cities 65 CEUR. (1998) ‘Metropolitan area of the city of Guatemala: A proposition of the
+bill of creation of the Metropolitan district’. Newsletter, 37 June. Guatemala:
+University of San Carlos of Guatemala. (www.alnap.org/help-library/ metropolitan-area-of-the-city-of-guatemala-a-proposition-of-the-bill-ofcreation-of-the).
+Claudianos, P. (2014) ‘Out of harm’s way; preventive resettlement of at risk informal settlers in highly disaster prone areas’. Procedia Economics and Finance, 18: 312-319. (www.alnap.org/help-library/out-of-harms-way-preventive-
+resettlement-of-at-risk-informal-settlers-in-highly).
+Cruz, J. J. (2017) Impact of gang violence on “Transporte Colectivo Público Urbano” in Guatemala City. New York: Columbia University. (www.alnap.org/help-library/ impact-of-gang-violence-on-transporte-colectivo-p%C3%BAblico-urbano-in-
+guatemala-city).
+Dodman, D., Brown, D., Francis, K., Hardoy, J., Johnson, C. and Satterthwaite,
+D. (2013) Understanding the nature and scale of urban risk in low-and middle-income
+countries and its implications for humanitarian preparedness, planning and response.
+London: International Institute for Environment and Development. (www.alnap. org/help-library/understanding-the-nature-and-scale-of-urban-risk-in-low-andmiddle-income-countries-and).
+EHP. (2015) Guatemala: Deslizamiento Santa Catarina Pinula, El Cambray II.
+Reporte de situación No. 01. Guatemala: Equipo Humanitario de País. (www.alnap. org/help-library/guatemala-deslizamiento-santa-catarina-pinula-el-cambray-iireporte-de-situaci%C3%B3n-no-01).
+Faber, E. J. (2016) Development of a landslide risk rating system for small-scale landslides affecting settlements in Guatemala City. Colorado: Colorado School of Mines. (www.alnap.org/help-library/development-of-a-landslide-risk-rating-
+system-for-small-scale-landslides-affecting).
+GAUC. (2016) Urban crises: Recommendations. Brussels: ECHO. (www.alnap.org/ help-library/urban-crises-recommendations).
+Gencer, E. (2013) An overview of urban vulnerability to natural disasters and climate change in Central America and the Caribbean region. Rome: Fondazzione Eni Enrico Mattei. (www.alnap.org/help-library/an-overview-of-urban-vulnerability-to-
+natural-disasters-and-climate-change-in-central).
+GFDRR. (2010) Disaster risk management in Latin America and the Caribbean Region: GFDRR country notes, Guatemala. Washington, D.C.: GFDRR. (www.alnap. org/help-library/disaster-risk-management-in-latin-america-and-the-caribbean-
+region-gfdrr-country-notes).
+GFDRR. (2014) Country program updates, Guatemala. Washington, D.C.: GFDRR. (www.alnap.org/help-library/country-program-updates-guatemala).
+
+## Page 66
+
+ALNAP CASE STUDY
+66 Gibbons, J. and Ashdown, B. (2010) ‘Ethnic identification, attitudes, and group relations in Guatemala’. Psychology, 2010, 1: 116-127. (www.alnap.org/help-library/ ethnic-identification-attitudes-and-group-relations-in-guatemala).
+Green, R., Miles, S., and Svekla, W. (2009) Situation assessment in Villa Nueva:
+Prospects for an urban disaster risk reduction program in Guatemala City’s Precarious settlements. Oxford: Oxfam. (www.alnap.org/help-library/situation-assessmentin-villa-nueva-prospects-for-an-urban-disaster-risk-reduction).
+Groen, E. and Jacobs, C. (2012). Risk mapping Guatemala sector disaster risk reduction & emergency aid. The Hague: Cordaid. (www.alnap.org/help-library/riskmapping-guatemala-sector-disaster-risk-reduction-emergency-aid).
+IASC. (2019) IASC architecture reform. 28 January 2019. New York: OCHA.
+IDMC. (2015) Home sweet home: housing practices and tools that support durable solutions for urban IDPs. Geneva: International Displacement Monitoring Centre. (www.alnap.org/help-library/home-sweet-home-housing-practices-and-tools-
+that-support-durable-solutions-for-urban).
+IDNDR. (1996) Cities at risk − Making cities safer before disaster strikes. Geneva:
+IDNDR. (www.alnap.org/help-library/cities-at-risk-%E2%88%92-making-citiessafer-before-disaster-strikes).
+IFPRI. (2002) Guatemala City: A focus on working women and childcare.
+Washington, D.C.: IFPRI. (www.alnap.org/help-library/guatemala-city-a-focuson-working-women-and-childcare).
+IFRC. (2016) Preliminary final report emergency plan of action (EPoA) Guatemala:
+Cambray II landslide country or region: Guatemala, Central America. Geneva: IFRC. (www.alnap.org/help-library/preliminary-final-report-emergency-plan-ofaction-epoa-guatemala-cambray-ii-landslide).
+INFORM. (2018) INFORM global risk index 2018. Geneva: IASC. (www.alnap.org/ help-library/inform-global-risk-index-2018).
+Jones, L., DiFrancesca. J., Campbell, E., Krivchenia, L. and Packwood, S. (2019)
+The neighbourhood approach in practice. Washington, D.C.: USAID.   [Forthcoming]
+Kessler, E. (2012) KATYE Neighborhood Rebuilding Program Final Evaluation.
+Washington, D.C.: OFDA/ USAID.
+Kirsch, T. D., Leidman, E., Weiss, W. and Doocy, S. (2012) ‘The impact of the earthquake and humanitarian assistance on household economies and livelihoods of earthquake-affected populations in Haiti’. American Journal of
+Disaster Medicine, 7(2): 85-94. (www.alnap.org/help-library/the-impact-of-theearthquake-and-humanitarian-assistance-on-household-economies-and).
+Maria, A., Acero, J. L., Aguilera, A. I. and Lozano, M. G. (eds) (2017) Central America urbanization review: Making cities work for Central America. Washington ,D.C.: The World Bank. (www.alnap.org/help-library/central-america-
+urbanization-review-making-cities-work-for-central-america).
+
+## Page 67
+
+barrio mio and katye: pci’s neighbourhood approach in cities 67 McIlwaine, C. and Moser, C. (2003) ‘Poverty, violence and livelihood security in urban Colombia and Guatemala’. Progress in Development Studies, 3(2): 113-130.
+(www.alnap.org/help-library/poverty-violence-and-livelihood-security-in-urbancolombia-and-guatemala ).
+Miles, S. B., Green, R. A., and Svekla, W. (2012) ‘Disaster risk reduction capacity
+assessment for precarious settlements in Guatemala City’. Disasters, 36(3):
+365-81. (alnap.org/help-library/disaster-risk-reduction-capacity-assessment-forprecarious-settlements-in-guatemala).
+OSAC. (2018) Guatemala 2018 crime & safety report. Washington, D.C: OSAC. (www.alnap.org/help-library/guatemala-2018-crime-safety-report).
+PADF. (n.d.) Disaster preparedness Guatemala and El Salvador. Washington, D.C.:
+PADF. (www.alnap.org/help-library/disaster-preparedness-guatemala-and-elsalvador).
+PCI. (2012) Technical narrative proposal – Barrio Mio. [internal document]
+Guatemala: PCI.
+PCI. (2015a) Barrio Mio (my neighbourhood) - Final evaluation report. [internal document] Guatemala: PCI.
+PCI. (2015b) Technical narrative proposal – Barrio Mio expansion. [internal document Guatemala: PCI.
+PCI. (2016) Barrio Mio expansion: Annual report. [internal document] Guatemala:
+PCI.
+PCI. (2017a) Barrio Mio expansion: Final report. [internal document] Guatemala:
+PCI.
+PCI. (2017b) Technical narrative proposal – Barrio Mio scale up. [internal document] Guatemala: PCI.
+PCI. (2018) ‘Neighborhood Approach to Urban Disaster in Ravine Pintade, Haiti’, in Global shelter cluster working group: Settlement approaches in urban areas, compendium of case studies, July 2018. Port au Prince: PCI.
+PCI. (n.d.a) PCI’s five principles of partnership. [internal document] San Diego:
+PCI.
+PCI. (n.d.b) Engaging youth in post-disaster environments with cash for work assessment of youth-based public health and data collection initiative in postearthquake Haiti. [internal document] Port au prince: PCI.
+Peralta, G. (2008) ‘Peace in Guatemala: settling for what seems possible or aiming for what is desirable’, in The Paradoxes of Peacebuilding Post-9/11.
+Vancouver: UBC press. (www.alnap.org/help-library/peace-in-guatemalasettling-for-what-seems-possible-or-aiming-for-what-is-desirable).
+
+## Page 68
+
+ALNAP CASE STUDY
+68 Rodgers, D. (2009) Slum wars of the 21st century: gangs, mano dura and the new urban geography of conflict in Central America. London: LSE. (www.alnap.org/helplibrary/slum-wars-of-the-21st-century-gangs-mano-dura-and-the-new-urban-
+geography-of-conflict).
+Sarmiento, J. P. and Herard, D. (2015) ‘Sistematización in urban disaster risk reduction’. Disaster Prevention and Management, 24(2): 221-229. (www.alnap.org/ help-library/sistematizaci%C3%B3n-in-urban-disaster-risk-reduction).
+Sarmiento, J. P., Gelman, P., and Bittner, P. (2016a) The post-project review of urban disaster risk reduction: Neighborhood approach projects. Florida: Florida International University. (www.alnap.org/help-library/the-post-project-review-
+of-urban-disaster-risk-reduction-neighborhood-approach-projects).
+Sarmiento, J. P., Gelman, P., Vittner, P. and Herard, D. (2016b) Urban disaster risk: Systematization of neighborhood practices. Florida: Florida International University. (www.alnap.org/help-library/urban-disaster-risk-systematization-of-
+neighborhood-practices).
+Sarmiento, J. P., Sandoval, V., Jerath, M., Hoberman, G., Arrieta, A., Chen, W., Lidth de Jeude, M., Schütte, O., Mazariegos, E., Palacios, E., Cardona, O.D., Bernal, G., Ruiz, P., Rosales, E., and Polak, S. (2018) Performance evaluation in
+LAC urban DRR programming: The neighborhood approach. Washington, D.C.:
+USAID. (www.alnap.org/help-library/performance-evaluation-in-lac-urban-drrprogramming-the-neighborhood-approach).
+Setchell, C.A. (2018) Global Settlement trends and implications for humanitarian action. Washington, D.C.: USAID. (www.alnap.org/help-library/global-settlementtrends-and-implications-for-humanitarian-action).
+Setchell, C.A. (2006) ‘Post-crisis, long-term shelter response is vital’, in Rollnick,
+R. (ed), Habitat Debate 12 (No. 4). Nairobi: UN Habitat. (www.alnap.org/help-
+library/post-crisis-long-term-shelter-response-is-vital).
+Solórzano, A. (2017) Study on shock - Responsive social protection in Latin America and the Caribbean, Guatemala case study. Oxford: Oxford Policy Management. (www.alnap.org/help-library/study-on-shock-responsive-social-protection-in-
+latin-america-and-the-caribbean).
+TECHO. (2015) Censo de Asentamientos informales. Guatemala: TECHO. (www. alnap.org/help-library/censo-de-asentamientos-informales).
+Transparency International. (2018) ‘Corruption perceptions index 2018’.
+[Website]. 20 March. Berlin: Transparency International. (www.alnap.org/helplibrary/corruption-perceptions-index-2018).
+UN Habitat. (2012) The state of Latin American and Caribbean cities, towards a new urban transition. Nairobi: UN Habitat. (www.alnap.org/help-library/the-state-of-
+
+## Page 69
+
+barrio mio and katye: pci’s neighbourhood approach in cities 69 latin-american-and-caribbean-cities-towards-a-new-urban-transition).
+UN Department of Economic and Social Affairs, Population Division. (2018)
+Household size & composition 2018 - Guatemala. Guatemala: United Nations Population Division. (www.alnap.org/help-library/household-size-composition2018-guatemala).
+USAID. (2011) The “neighborhood approach”, a means of improving the delivery of humanitarian assistance in urban areas. Washington, D.C.: USAID. (www.alnap.org/ help-library/the-neighborhood-approach-a-means-of-improving-the-delivery-
+of-humanitarian-assistance).
+USAID. (2012) ‘U.S. government marks conclusion of neighborhood rehabilitation project in Port-au-Prince’. [Website]. 20 March. Washington, D.C.: USAID. (www.alnap.org/help-library/us-government-marks-conclusion-ofneighborhood-rehabilitation-project-in-port-au-prince).
+USAID. (2018) Description of humanitarian shelter and settlements sector activities.
+Washington, D.C.: USAID. (www.alnap.org/help-library/description-ofhumanitarian-shelter-and-settlements-sector-activities).
+Valladares Cerezo, C.E. (2003) The case of Guatemala City. Guatemala: USAC. (www.alnap.org/help-library/the-case-of-guatemala-city).
+WFP. (2017) Seguridad alimentaria urbana Luchando contra el hambre en el mundo: Primera Fase, Desarrollo de instrumentos para la evaluación de la seguridad alimentaria urbana. Rome: WFP. (www.alnap.org/help-library/seguridad-
+alimentaria-urbana-luchando-contra-el-hambre-en-el-mundo-primera-fase).
+Wirtz, N. (2017) ‘Climate change, housing and displacement in Guatemala: Third in our series’. [Website]. 20 March. New York: Global Americans. (www.alnap. org/help-library/climate-change-housing-and-displacement-in-guatemala-
+third-in-our-series).
+World Bank. (2017) What did we learn? The shelter response and housing recovery in the first two years after the 2010 Haiti earthquake. Washington, D.C.: World Bank. (www.alnap.org/help-library/what-did-we-learn-the-shelter-response-and-
+housing-recovery-in-the-first-two-years).
+WRI. (2015) World Risk Index. Stuttgart: EHS/ United Nations University. (www. alnap.org/help-library/world-risk-index).
+Zicherman, N., Khan, A., Street, A., Heyer, H. and Chevreau, O. (2011) Applying
+conflict sensitivity in emergency response: Current practice and ways forward. London:
+HPN/ODI. (www.alnap.org/help-library/applying-conflict-sensitivity-inemergency-response-current-practice-and-ways-forward).
+
+## Page 70
+
+Margin = 15.75
+ALNAP
+Overseas Development Institute 203 Blackfriars Road London SE1 8NJ United Kingdom Email: alnap@alnap.org Related resources from ALNAP
+AP
+What’s Missing? Adding context to the urban response toolbox Stepping back: Understanding cities and their systems www.alnap.org

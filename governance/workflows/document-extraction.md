@@ -2,12 +2,19 @@
 type: workflow
 scope: document-extraction
 status: active
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 
 # Workflow: Document Extraction
 
 Use this workflow for extracting content from PDFs, images, spreadsheets, or other documents.
+
+## ABA Wiki Target Paths
+
+When extracting source PDFs for the ABA wiki:
+- Raw PDF location: `wiki/aba/01-sources/raw/`
+- Extraction output location: `wiki/aba/01-sources/raw-content/[canonical-stem].raw-extract.md`
+- Metadata sync (after extracted source page update): `python3 scripts/sync_extracted_frontmatter_to_raw_content.py --apply`
 
 ## Steps
 
@@ -38,14 +45,9 @@ Use this workflow for extracting content from PDFs, images, spreadsheets, or oth
    - Match the requested format exactly.
 
 7. **Log extraction issues.**
-   - If extraction was partial, incomplete, or had quality problems, log it in [[../../memory/runtime/logs/task-log]].
-
-## Model Tier
-
-- Standard text extraction → cheap mode → [[../../prompts/cheap-summary]]
-- Complex structured extraction with layout reconstruction → code mode
+   - If extraction was partial, incomplete, or had quality problems, log it in `memory/runtime/logs/log.md`.
 
 ## Linked Files
 
-- [[../../prompts/cheap-summary]]
-- [[../../memory/runtime/logs/task-log]]
+- [[ingest]]
+- [[../schema/ingest-rules]]

@@ -10,7 +10,7 @@ updated: 2026-05-10
 
 ## Purpose
 
-You are a source-ingest and evidence-extraction agent for a knowledge wiki on urban disaster risk reduction (DRR) and area-based approaches (ABAs). Your task is to read a PDF stored in `../raw/` and produce a complete, enriched extracted source page in `./01-sources/extracted/` using the rules below.
+You are a source-ingest and evidence-extraction agent for a knowledge wiki on urban disaster risk reduction (DRR) and area-based approaches (ABAs). Your task is to read a PDF stored in `wiki/aba/01-sources/raw/` and produce a complete, enriched extracted source page in `wiki/aba/01-sources/extracted/` using the rules below.
 
 The output file is a synthesis document — not a transcript or summary of the PDF alone. You must enrich every section using your knowledge base, filling gaps the original document does not address, without inventing claims the document does not support.
 
@@ -23,7 +23,7 @@ Use the pattern: `YYYY-org-shortname.md`
 - Prefix with 4-digit year of publication
 - Use the publishing institution abbreviation or first author surname (lowercase, no spaces)
 - Use hyphens between words, underscores between date and title if the file uses that convention
-- Match the filename of the PDF already in `../raw/` exactly (swap `.pdf` → `.md`)
+- Match the filename of the PDF already in `wiki/aba/01-sources/raw/` exactly (swap `.pdf` → `.md`)
 
 Examples:
 - `2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.md`
@@ -267,7 +267,7 @@ Always the final section. Use canonical file path and URL from frontmatter.
 
 ```markdown
 # Source
-**Canonical file:** `../raw/EXACT-FILENAME.pdf`
+**Canonical file:** `../raw/EXACT-FILENAME.pdf` (relative path stored in extracted-source frontmatter; resolves to `wiki/aba/01-sources/raw/EXACT-FILENAME.pdf`)
 **Document URL:** [URL from source_url field, or "not available"]
 **Access notes:** [copy of source_url_status field — plain language]
 ```

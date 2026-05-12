@@ -72,7 +72,7 @@ rg -n -L "duplication|gap|who.*where.*for whom|4W|5W" ./08coordination/*.md
 
 8. Uncited claims heuristic (sections with no source links)
 ```bash
-rg -n "^#|^##|\\[\\[./01sources/" wiki | head -n 400
+rg -n "^#|^##|\\[\\[./01-sources/" wiki | head -n 400
 ```
 
 ## Closeout
@@ -80,4 +80,3 @@ rg -n "^#|^##|\\[\\[./01sources/" wiki | head -n 400
 2. Add a dated entry to `log.md`:
    - `## [YYYY-MM-DD] lint | Manual lint checklist run`
 3. List exact pages requiring population or correction.
-

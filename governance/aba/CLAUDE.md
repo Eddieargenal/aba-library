@@ -1,27 +1,28 @@
 ---
 type: agent-guide
 status: active
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 # Urban DRR + ABA LLM Wiki Operating Rules
 
 You maintain a local git-backed LLM Wiki for urban disaster risk reduction and area-based emergency response.
 
-The wiki has three layers:
-1. ../raw/ = immutable source documents and extracted text — **ingest input only, never queried for answers**
-2. `./00-overview/` through `./12-risks-contradictions/` = numbered synthesis sections — **canonical source of truth for all answers**
-3. `governance/schema/` + `governance/aba/CLAUDE.md` = operating rules
+The wiki has four layers plus one operational mirror:
+1. `./01-sources/raw/` = immutable source PDFs — **ingest input only, never queried for answers**
+2. `./01-sources/raw-content/` = markdown text mirror of raw PDFs (operational convenience for extraction/review, not synthesis)
+3. `./01-sources/extracted/` + `./00-overview/` through `./12-risks-contradictions/` = extracted evidence + synthesis sections — **canonical source of truth for domain answers**
+4. `governance/schema/` + `governance/aba/CLAUDE.md` = operating rules
 
-**File format rule: ALL files in this vault must use .md extension.** This includes extracted source text in ../raw/extracted/. Never create .txt, .csv, or other formats — Obsidian only renders .md files.
+**File format rule: ALL files in this vault must use .md extension.** Never create `.txt`, `.csv`, or other non-markdown artifacts inside the vault.
 
 ## Layer discipline — critical
 
-`../raw/` files are input to the wiki. They are never the answer to a query.
+`./01-sources/raw/` and `./01-sources/raw-content/` are ingest inputs/support artifacts. They are never the answer layer for domain queries.
 
 When answering a domain question:
 - Read numbered section pages (`./00-overview/` through `./12-risks-contradictions/`) — these are the answer source
-- Read `./01-sources/` pages for citation metadata only (author, year, page)
-- Never open `../raw/extracted/` or `../raw/pdf/` to answer a question
+- Read `./01-sources/extracted/` pages for citation metadata and evidence grounding
+- Never answer from `./01-sources/raw/` or `./01-sources/raw-content/`
 - If `wiki/` content is insufficient, flag the gap and state what ingestion is needed — do not bypass the synthesis layer
 
 Never modify raw sources.
@@ -30,7 +31,10 @@ Always read indexes/agent-index.md before answering domain questions.
 
 ## When ingesting a source
 
-- Create or update the source page in ./01-sources/
+- Add/confirm raw PDF in `./01-sources/raw/`
+- Generate/update markdown extract in `./01-sources/raw-content/`
+- Create or update the source page in `./01-sources/extracted/`
+- Run `scripts/sync_extracted_frontmatter_to_raw_content.py --apply` to sync agreed metadata into raw-content extracts
 - Update affected concept pages in ./02-concepts/
 - Update affected tool pages in ./04-tools/
 - Update lifecycle pages in ./06-lifecycle/

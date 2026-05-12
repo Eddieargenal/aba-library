@@ -1,0 +1,4433 @@
+---
+type: "source_raw_extract"
+zone: "raw-content"
+status: "ingested"
+title: "Humanitarian response in urban contexts (Good Practice Review 12)"
+author: "David Sanderson"
+institution: "ODI / Humanitarian Practice Network (HPN)"
+year: 2019
+source_id: "2019-alnap-sanderson-humanitarian-response-urban-contexts"
+source_type: "field-evaluation"
+source_url: "https://odihpn.org/publication/humanitarian-response-in-urban-contexts/"
+file_type: "pdf"
+canonical_file: "../raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf"
+created: "2026-05-10"
+updated: "2026-05-10"
+ingest_date: "2026-05-10"
+ingest_status: "success"
+confidence: "high"
+---
+
+# Raw Extract: 2019_alnap-sanderson-humanitarian-response-urban-contexts
+
+Source PDF: `wiki/aba/01-sources/raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf`
+
+## Page 1
+
+# Raw Extract: 2019_alnap-sanderson-humanitarian-response-urban-contexts
+
+Source PDF: `wiki/aba/01-sources/raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf`
+
+## Page 1
+
+Humanitarian response in urban contexts David Sanderson Good Practice Review 12 Commissioned by
+
+## Page 2
+
+ii    |    Humanitarian response in urban contexts About the author Professor David Sanderson is the Inaugural Judith Neilson Chair in Architecture in the Faculty of the Built Environment at the University of New South Wales in Sydney, Australia.
+Humanitarian Policy Group Overseas Development Institute 203 Blackfriars Road London SE1 8NJ United Kingdom Tel. +44 (0) 20 7922 0300 Fax. +44 (0) 20 7922 0399 E-mail: hpgadmin@odi.org Website: www.odi.org/hpg © Overseas Development Institute, 2019
+Readers are encouraged to quote or reproduce materials from this publication but, as copyright holders, ODI requests due acknowledgement and a copy of the publication.
+
+## Page 3
+
+Contents   |    iii Contents Acknowledgements v Introduction viii Chapter 1 Context 001 1.1 Ways of seeing the city 001 1.2 Urban threats 009 1.3 Forced displacement 036 1.4 Vulnerability 044 1.5 Urban actors 048 Chapter 2 Themes and issues
+055 2.1 Coordination 055 2.2 Corruption 061 2.3 Urban resilience 066 Chapter 3 Tools and approaches 073 3.1 Frameworks, standards and alliances 073 3.2 Area-based approaches 079 3.3 Cash and markets 088 3.4 Geospatial analysis and mapping
+097 3.5 Context analysis 107 3.6 Assessments and profiling 112 3.7 Targeting 118 3.8 Response analysis 123 3.9 Design and management 132 3.10 Monitoring and evaluation 138 Chapter 4 Sectoral responses 153 4.1 Housing, land and property (HLP) rights
+153 4.2 Shelter and settlements 164 4.3 Debris and disaster waste management 174 4.4 Water, sanitation and hygiene 179 4.5 Livelihoods 192 4.6 Education 198 4.7 Protection 204 4.8 Health 220 4.9 Food security 228
+
+## Page 4
+
+iv    |    Humanitarian response in urban contexts
+
+## Page 5
+
+Acknowledgements   |    v Acknowledgements I am extremely grateful to the following, without whom this Good Practice Review (GPR) would not have been possible. Leah Campbell (ALNAP) and Wendy Fenton (HPN) provided materials
+and reviewed and edited initial drafts. Thanks to Robin Fraiture for research support in gathering reports and case study materials, and to Sarah Bailey, Leah Campbell, Paul Currion, Neil Dillon, Paul Knox Clarke, Francine Menashy, Ronak Patel, Amelie Sundberg and Michael Talhami for
+providing specialist inputs to specific sections. Matthew Foley (ODI) edited the final text.
+I am extremely grateful to the following reviewers: Patricia García Amado, Diane Archer, Natalie Brackett, Dean Brooks, Paul Currion, Neil Dillon, Alan Gundy, Giulia Frontini, Joanna Heil, Aynur Kadihasanoglu, Paul Knox Clarke, Tulio Mateo, Francine Menashy, Cristina
+Churruca Muguruza, Alice Obrecht, Chris Pain, Ronak Patel, Harriette Purchas, Sergio Regi, Aurelia Saint-Just, Pamela Sitko, Amelie Sundberg, Andrew Scott, Rolando Wallusche Saul, Kevin Savage and Michael Talhami.
+Thanks also to the members of the project’s advisory group: Diane Archer, Anne Burlat, Paul Currion, Giulia Frontini, Shaun Hazeldine, Jerold S. Kayden, Heather McCloud, Ronak Patel, Samer Saliba, Aynur Kadihasanoglu, Suzanne Maguire, Brett Moore, Hariette Purchas, Anshu
+Sharma and Michael Talhami.
+This document covers humanitarian aid activities implemented with the financial assistance of the European Union (EU Humanitarian Aid) through the International Rescue Committee (IRC). The views expressed herein should not be taken, in any way, to reflect the official
+opinion of the European Union, and the European Commission is not responsible for any use that may be made of the information it contains.
+This document is part of a series of learning products developed in partnership with the Global Alliance for Urban Crises. The Alliance, launched at the World Humanitarian Summit in 2016, is a global, multi-disciplinary and collaborative community of practice. It brings
+together officials from local government, built environment professionals, academics, humanitarian and development actors to work towards systemic change in the way we enable cities and urban communities to prevent, prepare for and respond to urban crisis. For
+more on the Alliance visit www.urbancrises.org.
+Finally, we are grateful for the support of ALNAP members and the donors to the Humanitarian Policy Group (HPG)’s Integrated programme.
+
+## Page 6
+
+vi    |    Humanitarian response in urban contexts
+
+## Page 7
+
+Chapter 1 Introduction    |    vii Introduction Just before the beginning of this decade, in around 2007, for the first time over half the planet’s population became urban. Today – at the end of the world’s first ‘urban decade’
+– there are over 4.2 billion urban dwellers.1 By 2045, the prediction is that there will be six billion,2 with most growth taking place in Asia and Africa.
+There has also been a sharp rise in crises affecting cities over the past decade. Large-scale flooding has become a regular feature of many Asian cities, including Bangkok, Chennai and numerous towns in Pakistan. In 2010, the Haiti earthquake caused widespread damage in the
+capital, Port-au-Prince, and the following year a devastating tsunami struck coastal towns in Japan. Typhoon Haiyan, which tore through towns and cities in the Philippines in 2013, caused widespread devastation. Flooding and windstorms are being worsened by climate
+change, which is also increasing the severity of urban heatwaves, affecting cities’ poorest urban residents worst of all.3 After a period of decline, the number and severity of conflicts began to rise in 2011, causing widespread destruction and loss of life, notably in cities in Syria and Iraq. Elsewhere, in
+Mexico, Central America and sub-Saharan Africa, urban violence is on such a scale that its effects can be equivalent to – or even exceed – deaths caused by conflict.
+One major consequence of these crises has been large-scale forced migration. According to the UN High Commissioner for Refugees (UNHCR), a record 68.5 million people were forcibly displaced in 2017. Displacement is increasingly an urban phenomenon, with more and more
+displaced people seeking shelter and employment in towns and cities rather than camps.4 Against this backdrop, the humanitarian sector is grappling with the challenges and opportunities of working in urban spaces. The Haiti earthquake was a wake-up call on
+the need to rethink humanitarian response to urban crises. Since then, a number of aid organisations (including UN agencies, donors, the Red Cross/Red Crescent Movement, NGOs, think tanks and consultants) have sought to ‘urbanise’ their approaches, recognising that
+many traditional ways of working derived largely from programming in rural areas need 1 UNDESA, The 2018 Revision of World Urbanization Prospects (New York: UN, 2018) (https://www.un.org/ development/desa/publications/2018-revision-of-world-urbanization-prospects.html).
+2 World Bank, ‘Urban Development’ (http://www.worldbank.org/en/topic/urbandevelopment/overview). 3 The Future We Don’t Want: How Climate Change Could Impact the World’s Greatest Cities, UCCRN Technical Report (https://c40-production-images.s3.amazonaws.com/other_uploads/images/1789_Future_We_Don’t_Want_Report_1.4_
+hi-res_120618.original.pdf). 4 IDMC, 2019 Global Report on Internal Displacement (Geneva: IDMC, forthcoming).
+
+## Page 8
+
+viii    |    Humanitarian response in urban contexts revising, rethinking or replacing with tools better suited to urban contexts. However, for agencies used to working in rural environments, the dynamism of the city, with its reliance
+on markets and intricate logistics, can be a daunting challenge. Huge, diverse and mobile populations complicate needs assessments, and close coordination is necessary with other, often unfamiliar, actors. Extreme inequality makes sophisticated targeting essential. A
+patchwork of authorities and alternate, potentially predatory forms of urban governance require constant negotiation, which can disintegrate rapidly in the face of recurrent violence.
+These actors are not merely barriers to overcome, but key partners for engagement during any humanitarian response – whether neighbourhood committees, municipal governments or local community groups, they are often part of wider city ‘systems’, with extensive local
+knowledge and contacts, and often act as first responders long before the international community arrives.
+The humanitarian sector is beginning to recognise the scale and complexity of this challenge.
+Many organisations have taken steps to adapt their approaches to urban contexts, piloting new approaches and documenting and applying lessons learned, complementing a number of literature and policy reviews. But despite increasing recognition of the need to improve
+humanitarian responses in urban areas, most practitioners still lack practical guidance. To meet this need, the Humanitarian Practice Network (HPN) at ODI and the Active Learning Network for Accountability and Performance in Humanitarian Action (ALNAP) commissioned
+this Good Practice Review (GPR) on responding to humanitarian needs in urban contexts.
+Reference guides for field-based practitioners, GPRs review operational experience of good practice in key areas, providing practical guidance for managers in designing, implementing and monitoring programmes.
+Structure This GPR is structured into four chapters. Chapter 1, on context, sets the scene. It describes ways of seeing the city (there are many; this section presents three). The chapter then discusses four particular threats: naturally-triggered disasters, climate change, conflict and
+violence. The next sections look at urban displacement and vulnerability – cities are homes to extremes of wealth and poverty, and the poorest are almost always the most vulnerable. The chapter ends with a discussion of actors in the urban space associated with the humanitarian
+ecosystem.
+Chapter 2, on themes and issues, comprises three sections. The first covers the complexities and challenges of coordination in urban areas. The next looks at corruption risks, both within urban institutions and structures and in aid programming itself. The chapter ends
+with a section on resilience, which is included given its importance in humanitarian efforts to reduce future risk, as well as figuring prominently in global agreements such as the Sustainable Development Goals (SDGs).
+
+## Page 9
+
+Introduction    |    ix Chapter 3 focuses on tools and approaches. It begins by identifying key frameworks, standards and alliances relevant to urban humanitarian action. The next sections look at area-based approaches (ABAs), which have become popular in recent years as a people- and
+neighbourhood-centred approach to post-crisis recovery, and cash and markets, another increasingly common tool with obvious resonance and application in cities. The next section is on mapping and the geospatial visualisation of information. While maps have always been
+used in humanitarian planning and programming, recent developments in technology have made it a powerful instrument in fast-changing situations.
+The following six sections follow the project management cycle, identifying and discussing urban-centric tools according to each stage. The first four sections relate to different forms of assessment. Context analysis refers to wider understandings of cities outside of the
+immediate crisis (for a better, more contextualised response); assessments and profiling gather information on which programming decisions are made, with profiling relating in particular to displacement as a result of conflict; targeting tools identify the most vulner-
+able in a crisis, which in cities can be fraught with complexity; and response analysis concerns reviewing assessment information, and from that formulating the best response.
+The next section, on design and management, presents a range of approaches to navigating the complex and fast-changing nature of many cities. The final section discusses the challenges of monitoring and evaluation in complex urban environments.
+Chapter 4, on sectors, is organised according to the current humanitarian architecture embodied in the Cluster approach. There are nine sections. The first, covering housing, land and property (HLP) rights, discusses the difficulties involved in addressing this issue in
+conflict, disaster and returnee situations, and the importance of land disputes as a common cause of conflict. Following this, the section on shelter and settlements emphasises the need to explore approaches beyond the provision of temporary structures. The section on
+debris and disaster waste management includes good practice in post-disaster clearance, explosive remnants of war and mine clearance.
+The next section focuses on water, sanitation and hygiene (WASH), including water provision in informal settlements and the maintenance of services in conflict settings.
+The section on livelihoods discusses the critical need to support livelihood opportunities, particularly for forcibly displaced people. Education in emergencies is discussed, in particular in protracted crises. The section on protection emphasises the need to respect
+and uphold the rights of people caught up in crises, and identifies particular groups who may require protection. The next section, on health, returns to the theme of urban systems, with an emphasis on the inter-connected nature of health provision in cities. The final
+section looks at food security and the opportunities of using cash to meet urban food needs.
+
+## Page 10
+
+x    |    Humanitarian response in urban contexts Research approach The research for this GPR drew on reports, journals and academic papers for each section, as well as cross-cutting reports. Online searches were made using existing databases,
+online libraries and dedicated journals, and expert organisations and individuals were also contacted for sources and inputs, alongside an advisory committee of 16 members comprising experienced practitioners, consultants and academics. Each section was
+reviewed by between two to five reviewers, as well as ALNAP and ODI, and in some cases by subject experts.
+In an endeavour of this size there are inevitably challenges and limitations. The first challenge, and limitation, was the scope of the task: each section in this GPR could have been an entire publication in itself, and as much has been left out as has been included.
+The GPR has tried to cover what is essential and important, identifying and presenting principles, practices, evidence and examples of what has worked, while providing links to further reading.
+A second, related, challenge was identifying what to include within the scope of humanitarian action. For example, this GPR does not cover pre-crisis mitigation and preparedness actions (other GPRs, such as the one on disaster risk reduction (DRR), address this).5
+A third challenge lies in defining what we mean by ‘city’, and what distinguishes ‘urban’ from ‘rural’. As discussed later, for some urban researchers the very notion that there is an urban/rural divide is problematic, and comparisons provide little value – both are equally
+important areas of engagement, with their own equally important complexities. Finally, the pace of learning in urban humanitarian action is its own challenge, albeit a welcome one, with a number of major reports and research outputs due to be published during 2019.
+5 John Twigg, Disaster Risk Reduction, GPR 9 (revised edition) (London: ODI, 2015).
+
+## Page 11
+
+Chapter 1 Context    |    001 Chapter 1 Context 1.1 Ways of seeing the city There are a number of ways of describing, defining and classifying a city.1 They include population density and size,2 infrastructure, range of economic activity and physical
+characteristics, the proportion of inhabitants engaged in non-agricultural activities, or a specific density of people to a particular area of land. An urban area may also be defined in relation to a particular administrative set-up. One UN report found that, ‘Of
+the 233 countries or areas for which estimates and projections of the urban and rural populations were produced, 125 use administrative criteria to distinguish between urban and rural areas’, while ‘Sixty-five of these countries use administrative designations as
+the sole criterion’. On population numbers, the report found that ‘the lower limit above which a settlement is considered urban varies considerably, ranging between 200 and 50,000 inhabitants’.3 Recent research points out that the different ways in which ‘urban’
+is understood lead to inaccurate generalisations (the world may be far more urbanised than is usually thought).4 There is also a view in critical urban studies going back nearly a century that the fundamental understanding that ‘urban’ and ‘rural’ are two different
+things is flawed, and that everything is urban (this is further discussed below).5 1.1.1 Three ways of describing the city
+This section presents three interrelated and overlapping ways of describing the city:
+the physical city; the city as a series of systems; and the people-centred city. These are emphasised here because they form the basis of much of the subsequent content presented in this Good Practice Review. 1 This review uses the term ‘city’ to refer to urban settlements, including cities, towns and peri-urban areas’
+2 In some countries, a place is ‘urban’ if it has population of 2,000 or more and provides amenities and facilities which indicate modern living, i.e. a combination of commercial, industrial, residential and other urban land use
+functions, such as health and educational facilities, restaurants, banks and police stations. 3 UN Department of Economic and Social Affairs, Population Division, World Urbanization Prospects: 2014 Revision (New York: UN) (https://esa.un.org/unpd/wup/publications/files/wup2014-report.pdf).
+4 Gregory Scruggs, ‘“Everything We’ve Heard about Global Urbanization Turns Out to be Wrong” – Researchers’, Thomson Reuters Foundation, 12 July 2018 (http://news.trust.org/item/20180712130016-lwnc2/%20and%20https:// ghsl.jrc.ec.europa.eu/degurba.php).
+5 See for example the extensive writings of Neil Brenner and Christian Schmid at the Harvard Urban Lab: http://www.urbantheorylab.net/.
+Chapter 1
+
+## Page 12
+
+002    |    Humanitarian response in urban contexts
+1. The physical city
+The physical manifestation of the city is perhaps what people think of first when thinking about what a city is. Thinking about physicality introduces words into humanitarian action that may not be often used, such as density, space, buildings, infrastructure, squares and
+streets. The physical city also reveals stark differences between wealth and poverty (and therefore the underlying vulnerability of many poorer urban dwellers). The physical city can
+be described in terms of:
+• A variety of building types and uses, with high densities and verticality and a wide
+range of functions, including industry, commerce and education.
+• A location for businesses (both formal and informal), commerce and government.
+• Infrastructure, such as water and sewage systems.
+• Public spaces such as parks, sports halls and exhibition venues.
+• Informal settlements, which in many cities are home to large numbers of people,
+often with complex land arrangements (see Section 4.5).
+• Transport networks such as rivers and canals, motorways, public transport and
+thoroughfares.
+• Large-scale infrastructure such as airports and power stations.
+• Historical landmarks and culturally important spaces.
+The physical city also relates to a city’s location, whether coastal, landlocked or in mountainous terrain. Urban locations of course are significant in terms of susceptibility to naturally-triggered disasters (see Section 1.2.3) and climate change (Section 1.2.4). A physical
+understanding of the city is the basis for land planning laws, administrative boundaries and municipal expenditures. Several aspects of urban humanitarian programming have a strong link to a city’s physical attributes, including area-based approaches, geospatial analysis
+(mapping) and infrastructure provision, such as debris management, shelter and WASH.
+A physical description of a city, however, has its limitations. For example (if discounting administrative boundaries), deciding where a city stops, and where the countryside begins, is not straightforward. The traditional concept of the city as a physical space within rural
+surroundings is also eroding and being replaced by much more complex and inter-connected human settlements (mega-cities, metropolitan regions, a ‘rural–urban continuum’ or city ‘clusters’). Suburbs can be ‘outer cities’ connected to multiple urban centres. Many informal
+settlements grow into self-organised areas, known variously around the world as favelas, shanty towns, urban villages and banlieues.
+
+## Page 13
+
+Chapter 1 Context     |    003
+2. The city as a series of systems
+A systems-based approach describes how different elements, aspects or functions of a city work together. Systems can be defined as ‘an interconnected collection of things (for example people, institutions, infrastructure, societal norms, economy or ecosystems), organised
+in a pattern or structure that changes frequently’.6 Systems here are used to describe how different elements, aspects or functions combine. An example would be financial markets or healthcare, which in a city might include hospitals, ambulances, health infrastructure,
+medical supply industries, pharmaceuticals, doctors, nurses and support staff. A systems approach also makes the links, and arguably helpfully blurs the lines, between ‘urban’ and ‘rural’ areas – for example a market system concerning the consumption of fish involves
+catching fish in the sea, processing them and transporting them from what may be coastal rural areas to the city.
+Systems thinking cuts across disciplines and is increasingly being used to describe and understand the complex processes by which people live their lives in society. Systemsbased thinking forces consideration of the links between and within different components
+of the city. This may challenge existing ways of working for humanitarian actors, where single-sector delivery may be the norm (see for example Section 3.6 on multi-sectoral assessments). A focus on systems also highlights the complexities of urban humanitarian
+action, and underpins the approaches and issues described in a number of sections of this review, including governance, corruption, violence and the role of cash programming and its relation to markets.
+There are a number of different ways of describing urban systems. UN-Habitat describes urban systems in terms of five attributes: space, organisations (such as neighbourhood groups and other associations), physicality (including buildings and infrastructure),
+functions (described as commercial, governance and social processes) and time (noting that cities change over months, years and centuries).7 Figure 1.1, from ALNAP, presents five interlinked systems. From which, the following might
+be noted.
+Infrastructure, services, space and settlements relate to the physical city, described above.
+Redundancy and flexibility of physical systems are extremely important. Systems should be built in such a way that they are safe to fail, i.e. will cause minimal harm in the event of a disaster. 6
+E. Levine, Strategic Resilience Assessment Guidelines (Portland, OR: Mercy Corps, 2017) (https://reliefweb.int/
+report/world/stress-strategic-resilience-assessment-guidelines-document), p. 5. 7 For a further description, see UN-Habitat, City Resilience Profiling Tool (http://urbanresiliencehub.org/wp-content/ uploads/2018/02/CRPT-Guide.pdf).
+Chapter 1
+
+## Page 14
+
+004    |    Humanitarian response in urban contexts Politics and governance relates to how power is exercised in cities. Governance concerns how goods, resources, people and power are organised, which can have positive and negative
+outcomes for how people live their lives in cities. Governance is sometimes confused with government, but constitutes a much wider set of structures, entities and relationships.
+Governance includes:
+• Formal power structures, such as municipal government and neighbourhood
+organisations.
+• Laws and regulations.
+• Law enforcement bodies, such as the police and civil defence.
+• Other power structures, such as gangs and organised crime.
+• Legal and cultural norms.
+Figure 1.1 Five urban systems Source: L. Campbell, Stepping Back: Understanding Cities and Their Systems, ALNAP Working Paper (London: ALNAP/ ODI, 2016) (www.alnap.org/help-library/stepping-back-understanding-cities-and-their-systems).
+Economy and livelihoods Politics and governance Social and cultural Space and settlements Infrastructure and services
+
+## Page 15
+
+Context    |    005 Chapter 1 Chapter 1 The quality of governance is directly linked to disasters and conflict. Governance failures (such as unresolved disputes) can lead to conflict, while weak governance does little to quell
+violence (further discussed in Section 1.2.2). High levels of corruption underpin vulnerability and exacerbate the effects of naturally-triggered disasters (Section 1.2.3).
+Economy and livelihoods relates to:
+• Income generation through formal and informal employment.
+• Production, consumption and supply chains.
+• The formal and informal economy.
+• Markets.
+• Human capital – the skills and abilities people possess and/or develop.
+• Land values.
+• Taxes and municipal revenue generation.
+• Private sector companies and trades.
+Culture and society describes how people live, work, engage and interact with one another.
+It includes:
+• Social networks, including networks of cooperation, reciprocity and trust.
+• Combinations of different social and ethnic groups, e.g. tribal affiliations, caste
+groups and groups from a particular heritage or culture.
+• Collective and shared histories.
+• Belief systems and religions.
+3. The people-centred city
+A people-centred approach emphasises the central belief and motivation of humanitarian action, which concerns providing help to the most vulnerable. The people-centred approach is used throughout this Good Practice Review as the basis for understanding what drives
+good practice, and is reflected in a number of sections relating to project management, such as assessments, profiling, response analysis and area-based approaches (each of which is discussed later).
+Cities are homes to billions of people, with competing and similar interests, and differences in wealth and poverty and in their ability to meet their needs and realise their ambitions. A focus on people is vital for all humanitarian operations, and is something that can become
+
+## Page 16
+
+006    |    Humanitarian response in urban contexts Figure 1.2 The people-centred city Source: D. Sanderson, Integrating Development and Disaster Management Concepts to Reduce Vulnerability in Low Income Urban Settlements, PhD Thesis, Oxford Brookes University,
+Oxford. Cited in ALNAP, Responding to Urban Disasters (London: ALNAP, 2009) (https://www.alnap.org/help-library/responding-to-urban-disasters).
+For example water, land, education, electricity, services Basic needs For example food, water, warmth, security Meet Build Social Human Political Financial Physical Natural Cultural Discrimination Helps or hinders access Resources
+Controls Access People Assets Threats Shocks and stresses Barrier
+
+## Page 17
+
+Context    |    007 Chapter 1 Chapter 1 quickly lost.8 Good urban programming remembers that dignity is an essential element, and that humanitarian action is, as noted above, about assisting affected people in times of crises. IFRC9 describes the people-centred approach as ‘listening to and understanding what
+people think at all times, rather than imposing ideas or projects on them’.
+The model in Figure 1.2 describes people’s lives and livelihoods: how they access resources (and what gets in the way); how resources are controlled; and how they use resources to meet basic needs and build assets to withstand threats, including shocks (such as rapid-
+onset disasters) and stresses (such as escalating violence).
+From this model the following might be noted.
+Assets are key to reducing vulnerability to external threats. Assets, and how people access, manage, keep control of and trade them, is a central aspect of how people live. Asset
+types include:
+• Physical (belongings, land, a property).
+• Economic (money, jobs and opportunities).
+• Social (including friendships and relationships, connectedness).
+• Human (for example knowledge, skills and abilities).
+• Political (the organisation of power, such as community groups, slum groups or
+political parties).
+• Natural (land, water and the functioning of ecosystems).
+• Cultural (including monuments, shrines and historically important structures and
+locations).
+Assets play a key role in people’s vulnerability and capacity – broadly speaking, the stronger their assets, the less vulnerable people are likely to be to external threats. The use of assets by people in development and in vulnerability reduction is well documented.10 This
+8 A compelling study relating to this is M. Anderson, D. Brown and J. Isabella, Time to Listen: Hearing People on the Receiving End of International Aid (Cambridge, MA: CDA Collaborative Learning Projects, 2012) (https://www.
+cdacollaborative.org/publication/time-to-listen-hearing-people-on-the-receiving-end-of-international-aid/). The researchers asked over 6,000 people from across the world of their experiences of humanitarian aid after disaster.
+Among other things, the study found that ‘Very few people call for more aid; virtually everyone says they want “smarter” aid. Many feel that too much is given too fast’ (p. 2). 9 IFRC, Roadmap to Community Resilience (Geneva: IFRC, 2016) (https://media.ifrc.org/ifrc/wp-content/uploads/
+sites/5/2018/03/1310403-Road-Map-to-Community-Resilience-Final-Version_EN-08.pdf). 10	  C. Moser, Assets, Livelihoods and Social Policy, paper delivered at the Arusha Conference on ‘New Frontiers of Social Policy’, 12–15 December 2005 (https://pdfs.semanticscholar.org/438f/3192022273fc7d056e8e52bafe5974cc270a.pdf).
+
+## Page 18
+
+008    |    Humanitarian response in urban contexts includes social assets, especially among low-income urban neighbourhoods, for borrowing and loaning money,11 and more widely within post-disaster recovery – it’s often your
+neighbours who pull you out of the rubble (see Section 1.5 on emergent groups). Belonging to a particular ethnic group can also make people more or less vulnerable, depending on the circumstances. Assets therefore act as the ‘buffer’ between people and sudden-onset
+disasters (shocks), or slow-burning stresses (for example an illness that, without access to proper treatment, can prove life-threatening). Assets are key to living in the city: having assets enables people to access resources, such as education, healthcare, food and
+markets. It therefore follows that those with fewer assets have less access to resources.
+There are different types of community in the city. While traditionally ‘community’ was often synonymous with a fixed location, such as a village or neighbourhood, the term has wider application in the city. Communities can be linked by non-physical connections. Recent
+research12 identifies six typologies of urban communities:
+• Communities of interest, which form around a common issue or concern.
+• Communities of culture, where people share a common language, values or faith.
+• Communities of resistance, where people coalesce around a shared negative
+experience, such as forced migration.
+• Communities of place – people with a common spatial connection, for instance living
+on the same street.
+• Communities of practice, such as a common livelihood.
+• Virtual communities – people connected through social media.
+Discrimination hinders access, for example belonging to a marginalised group, a minority faith-based group or LGBTQ+ people (see Section 4.7 on protection). Refugees living in cities and those who may be internally displaced regularly face discrimination (see Section 1.3 on
+displacement). People who are most vulnerable are also routinely discriminated against (see Section 1.4 on vulnerability).
+Threats are described as shocks (rapid-onset events, such as earthquakes, fires or floods) and stresses which, while being less ‘rapid’, may be no less damaging. Stresses may include escalating violence or worsening climate change-induced heatwaves. Threats are discussed
+further in the sections that follow. 11	  Strong social assets are the basis for savings and loans schemes popularised by the Grameen Bank and others. 12	  Adapted from L. Campbell, Working with People and Communities in Urban Humanitarian Crises, ALNAP Working
+Paper (London: ALNAP/ODI, 2017) (https://www.alnap.org/system/files/content/resource/files/main/alnap-urbanpeople-and-communities-2017.pdf).
+
+## Page 19
+
+Context    |    009 Chapter 1 Resources within the city are controlled. This might be land controlled by the authorities, jobs controlled by private sector organisations or services such as water and electricity controlled by service providers. Control of neighbourhoods might be in the hands of gangs
+or organised crime (see Section 1.2.2 on urban violence).
+In summary, therefore, for many the very notion and understanding of cities is complex, contested and confusing. As regards humanitarian action, this section has sought to introduce and emphasise a number of key points (which form the basis of the rest of this Good
+Practice Review). The first is that the humanitarian principle of helping the most vulnerable is equally essential for urban areas as elsewhere – a people-centred approach steers limited humanitarian efforts to those who need help the most. Within this, understandings of
+who is most vulnerable may be nuanced and not immediately obvious (see Section 3.6 on assessments for further discussion).
+A second key point is complexity. Activities, services and livelihoods do not take place in isolation. Almost everything is linked to something else, and often has a knock-on effect. In this regard, a systems approach helps to identify, and increase understanding of, some of the
+links and overlaps that shape how people live.
+A third point is that cities are home to complex levels and understandings of different forms of power held by different groups, ranging from formal governance structures (such as levels of government) to ‘informal’ groups, such as gangs (see Section 1.5 on urban actors). As with
+the other points, effective humanitarian action seeks to understand and work with power, while recognising how complicated that is. 1.2 Urban threats 1.2.1 Armed conflict Cities throughout history have been closely linked to armed conflict. As the locations of
+elites and power, they have attracted invaders and those seeking to wrest power and wealth from their incumbents. Cities have also been places of safety during times of war – think of the ramparts of ancient Middle Eastern and European cities, designed to keep invaders
+out and those inside safe. Cities can also concentrate conflict, leading to higher numbers of deaths than in other areas. Research by the International Committee of the Red Cross (ICRC) has found that, between March 2017 and July 2018, in four governorates of Iraq and
+Syria ‘Urban offensives account[ed] for eight times more conflict-related civilian fatalities … than ongoing fighting or fighting in other areas’.13 13	  ICRC, New Research Shows Urban Warfare Eight Times More Deadly for Civilians in Syria and Iraq (Geneva: ICRC, 2018)
+(https://www.icrc.org/en/document/new-research-shows-urban-warfare-eight-times-more-deadly-civilians-syria-iraq).
+Chapter 1
+
+## Page 20
+
+010    |    Humanitarian response in urban contexts This section defines armed conflict; discusses conflict and critical urban infrastructure; outlines the factors and choices influencing interventions in urban armed conflict settings;
+and identifies issues relating to working with local actors.
+Defining armed conflict Armed conflict can be defined as ‘a political  conflict  in which  armed  combat involves the armed forces of at least one state (or one or more armed factions seeking to gain control of all or part of the state), and in which at least 1,000 people have been killed by the fighting
+during the course of the  conflict’.14 International Humanitarian Law (IHL) recognises two types of armed conflict:15 international armed conflict between two or more states; and non-international armed conflict between government forces and non-governmental
+armed groups.
+Following decades of decline in the number and scale of conflicts around the world, since 2011 that trend has reversed.16 By 2017, there were 27 ongoing major armed conflicts; 52 new conflicts emerged between 2011 and 2017, 46 of which were in the Middle East. Conflict
+is increasingly affecting civilians. According to the Internal Displacement Monitoring Centre (IDMC), for example, ‘The number of new displacements associated with conflict and violence almost doubled, from 6.9 million in 2016 to 11.8 million in 2017. Syria, DRC and Iraq
+together accounted for more than half of the global figure’.17 According to IDMC estimates, 40 million people were internally displaced by conflict at the end 2017.
+Cities and conflict The ICRC identifies a number of underlying vulnerabilities which make urban contexts
+particularly prone to conflict. They include:
+• The fragility and scale of services, such as power and water supplies. The disruption of
+one water supply by conflict can leave large numbers of people with no coverage.
+• Dependence on municipal services or private bodies, for example for water,
+sanitation, electricity. When these services are lost or damaged, people may not be able to fix them themselves. 14	  ‘Defining Armed Conflict’, undated (http://ploughshares.ca/armed-conflict/defining-armed-conflict/). 15	 ICRC, How Is the Term ‘Armed Conflict’ Defined in International Humanitarian Law?, ICRC Opinion Paper, March 2008
+(https://www.icrc.org/en/doc/assets/files/other/opinion-paper-armed-conflict.pdf). 16	 M. Marshall and G. Elzinga-Marshall, Conflict, Governance, and State Fragility Global Report (Vienna, VA: Center for Systemic Peace, 2017) ( http://www.systemicpeace.org/vlibrary/GlobalReport2017.pdf).
+17	 IDMC, Global Report on Internal Displacement (Geneva: IDMC, 2018) (http://www.internal-displacement.org/globalreport/grid2018/).
+
+## Page 21
+
+Context    |    011 Chapter 1 Chapter 1 • The complexity of urban services. For example, a hospital relies on expert staff, complex IT systems and equipment.
+• Unequal distribution of services, for instance between formal and informal services.
+• Population movements into cities, which can increase the pressure on services.
+• Existing urban stresses, such as violence, gang activity and weak governance.
+• The density and diversity of communities and authorities, increasing the likelihood of
+political, sectarian or tribal conflict, or conflicts with the authorities.
+Critical infrastructure As the ICRC notes, ‘The complex, interconnected systems that provide water, electrical and sanitation services essential to urban health are often among the first to fall victim to urban warfare’.18 Figure 1.3 identifies critical urban services that may be at risk during armed conflict.
+The impact of conflict on urban services can be direct (such as infrastructure being  targeted), indirect (where services are damaged by conflict targeted elsewhere) and cumulative (effects over time; for instance, services may worsen or degrade)Table 1.1 identifies
+each of these impacts in relation to critical individuals, hardware, consumables and the general public.
+
+18	  ICRC, ‘I Saw My City Die’: Voices from the Front Lines of Urban Conflict in Iraq, Syria and Yemen (Geneva: ICRC, 2017) (https://www.icrc.org/en/document/iraq-syria-and-yemen-five-times-more-civilians-die-city-offensives-new-report-
+finds), p. 18.
+Vulnerability Time period Population City estimate Extreme heat Present day Over 200 million people Over 350 cities 2050s Over 1.6 billion people Over 970 cities Extreme heat and poverty Present day Over 26 million people
+Over 230 cities 2050s Nearly 215 million people Over 490 cities Water availability 2050s Over 650 million people Over 500 cities Food security 2050s Over 2.5 billion people Over 1,600 cities Sea level rise 2050s Over 800 million people
+Over 570 cities Sea level rise and power plants 2050s Over 450 million people Over 230 cities Table 1.1 The effects of climate change: summary of global numbers Source: The Future We Don’t Want: How Climate Change Could Impact the World’s Greatest Cities, UCCRN Technical
+Report (https://c40-production-images.s3.amazonaws.com/other_uploads/images/1789_Future_We_Don’t_Want Report_1.4_hi-res_120618.original.pdf).
+
+## Page 22
+
+012    |    Humanitarian response in urban contexts Pumping station Pumping station Informal settlement Water Electrical power plant Water treatment plant Water treatment plant Hospital Figure 1.3 Critical urban services Direct impact can lead to cumulative impact. For example, in relation to public health, a
+relatively short disruption to a supply of drinking water (for a day or a few days) ‘can greatly increase the probability of infection from diseases already present in the environment if the quality of the service was originally reliable’.19 Disease risks may increase if conflict
+drives more people and more disease strains into urban areas, ‘particularly when the 19	  H. L. Risebro et al., ‘Contaminated Small Drinking Water Supplies and Risk of Infectious Intestinal Disease: A Prospective Cohort Study’, PLoS One Special Issue, 2012, citing M. A. Al-Ghamdi et al., ‘Environmental Risk Factors for
+Diarrhoea among Male Schoolchildren in Jeddah City, Saudi Arabia’, Journal of Water and Health 7, 2009.
+Source: ICRC, Urban Services during Protracted Armed Conflict: A Call for a Better Approach to Assisting Affected People (Geneva: ICRC, 2015) (https://www.icrc.org/sites/default/files/topic/file_plus_list/4249_urban_services_during_
+
+## Page 23
+
+Context    |    013 Chapter 1 Road, rail, logistics Electronic transfer Finance Interdependence between urban centres Distant urban center Distant political center Agriculture Chapter 1 protracted_armed_conflict.pdf). A video produced by the ICRC exploring critical urban services can be found at
+https://www.youtube.com/watch?v=eVCkzbZiYRw. movements of people are coupled with poor general treatment of water and wastewater, and incomplete immunization campaigns’.20 Interventions in urban conflict Given the nature of armed conflict, where infrastructure, people, services and humanitarian
+aid providers themselves may well be targets, the factors and choices influencing aid interventions are more complex than in non-conflict settings. Reflecting on humanitarian
+action in Syria, Francois Grünewald argues that:
+20	  Ibid.
+
+## Page 24
+
+014    |    Humanitarian response in urban contexts To effectively support conflict-affected people in Syrian cities means working in very complex, volatile, unpredictable and dangerous environments. Humanitarian agencies
+have to be agile, flexible, opportunistic and risk-taking. Classic operational modalities imposed by donor procedures or guidelines, which require lengthy planning, standardised operational modalities and sophisticated accountability mechanisms, are of limited use in
+these highly volatile and complex urban contexts.21 The ICRC recommends that, in urban conflict operations, the following factors need to
+be considered in determining what may be achievable in an urban armed conflict setting:
+• The scale of the challenge. Restoring damaged infrastructure in large cities has the
+potential to benefit thousands, perhaps hundreds of thousands, of people. However, this is often too costly for humanitarian agencies focused on traditional emergency response.
+• The duration of the challenge, which may be months or years in protracted conflict.
+• The interconnected nature of essential services (see above).
+• The fact that ‘urban’ extends beyond a city’s formal boundaries; distant active
+combat can affect essential urban services (e.g. supply routes, water and wastewater treatment plants, supplies of food or other commodities).
+• The cumulative and indirect impacts of conflict, as well as the direct ones.
+• The complex political context in a highly securitised operating environment.
+• Gaps in evidence and analysis.
+• The challenges arising from lack of respect for IHL.
+• Funding that may not match the duration or scale of the needs.
+Working with local actors Grünewald’s review of working with local actors in urban Syria underscores the need for
+inclusion, clarity of purpose and the ability to negotiate:
+Effective humanitarian response in conflict-affected urban areas in Syria requires a capacity to engage in strategic dialogue, firmly rooted in humanitarian principles, with a wide range of actors, including the government, political/religious factions and
+associated armed militias and what remains of municipal institutions. Such negotiations demand language and negotiation skills, a thorough understanding of both the urban and 21	  F. Grünewald, ‘Cities in Conflict: The Lessons of Syria’, Humanitarian Exchange 59, 2013 (https://odihpn.org/
+wp-content/uploads/2013/11/HE_59_web.pdf).
+
+## Page 25
+
+Context    |    015 Chapter 1 underlying socio-political context, the networks to facilitate the necessary connections and a willingness to accept relatively high levels of risk.22 Due to the complexity of many urban areas, exacerbated during armed conflict, the
+relationships implementing organisations have with key actors is highly important (see also
+Section 1.5 on urban actors and 2.1 on coordination). Key points include:
+• Strong, long-term partnerships are vital, particularly with the municipal and central
+government structures that are usually responsible for urban services. However, in conflict situations they may not always be possible partners, for reasons of political bias towards one side in a conflict, or corruption (this is discussed further in Section
+2.2 on corruption).
+• High staff turnover often means that relations need to be constantly made and
+remade if operations are to function effectively.
+• Private sector organisations such as contractors may often be needed, in particular
+where in-house expertise within municipalities is missing. 1.2.2 Violence Violence can be defined as ‘the intentional use of physical force or power, threatened or actual, against oneself, another person, or against a group or community, that either results
+22	  Ibid.
+Chapter 1 Box 1.1 Locally-driven response in Aleppo: the Conflict, Security and Safety Fund (CSSF) project An initiative in conflict-affected Tamkeen in Aleppo (which at the time was in a non-government-held area) supports local actors to prioritise and manage local
+services. The project involves participatory activities geared towards setting up local committees that manage budgets and plans for service delivery such as health, education, food and infrastructure. A review of the project concluded that it illustrates
+a way to engage with local governance bodies’ using remote management’, where ‘priority interventions were outlined by the communities themselves. Here, most of the communities opted for basic services, infrastructure and development rather than
+humanitarian aid in the form of food, shelter or emergency health services’.
+Source: S. Dadu-Brown and A. Dadu, Strengthening Local Councils to Bridge the Aid Gap in Aleppo, IIED Briefing, January 2018 (http://pubs.iied.org/pdfs/17449IIED.pdf).
+
+## Page 26
+
+016    |    Humanitarian response in urban contexts in or has a high likelihood of resulting in injury, death, psychological harm, maldevelopment, or deprivation’.23 Violence has traditionally not been considered a humanitarian
+priority, with the focus traditionally on the consequences of disasters and conflict.
+However, given the scale of destruction in a number of cities around the world, and given the humanitarian mandate to help people affected by acute shocks, an increasing number of humanitarian agencies, donors and think tanks are tackling urban violence.
+23	  Violence Prevention Alliance, ‘Definition and Typology of Violence’ (https://www.who.int/violenceprevention/ approach/definition/en/).
+Box 1.2 ICRC’s recommendations concerning urban conflict ICRC’s authoritative 2017 report I Saw My City Die, concerning armed conflict in Iraq, Syria and Yemen, provides ten recommendations, of which the following are relevant to
+actors responding to emergencies:
+• Parties to the conflict and the international community should refrain from
+displacing people and respect the rights and address the needs of those displaced within their countries.
+• Authorities and the international community should protect and assist refugees
+from these conflicts.
+• Authorities, parties to the conflict and the international community should do
+much more to ensure that essential service providers and humanitarian workers are protected.
+• Authorities, humanitarian actors and the international community should invest
+more in ensuring that victims of violence have access to appropriate psychosocial and mental health support services.
+• Authorities, humanitarian actors and the international community should help
+rebuild communities, not just infrastructure. Cities are made up of people, not just buildings.
+These recommendations point to the need for humanitarian practitioners, among other things, to retain where feasible a neighbourhood-based approach (discussed in Section 3.2); prioritise protection both for affected populations and service providers (see
+Section 4.7); and prioritise a people-centred approach.
+See ICRC, ‘I Saw My City Die’: Voices from the Front Lines of Urban Conflict in Iraq, Syria and Yemen (Geneva: ICRC, 2017) (https://www.icrc.org/en/document/iraq-syria-and-yemen-five-times-more-civilians-die-city-offensives-new-
+report-finds). ICRC also maintains a valuable website, ‘War in Cities’, which can be found at https://www.icrc.org/en/ war-in-cities.
+
+## Page 27
+
+Context    |    017 Chapter 1 This section describes the scale of the issue. It presents the drivers of urban violence, including interpersonal and gender-based violence (GBV), discusses gangs and violence and explores the relationship between violence and naturally-triggered disasters. The section
+includes an abridged version of an article describing humanitarian action on urban violence in Central American cities.
+The scale of the issue The consequences of violence are enormous. More people die from violence (globally some 4,200 every day) than from naturally-triggered disasters or conflict. According to one estimate, violence kills around half a million people a year.24 Between 2007 and 2012, almost
+40,000 drug-related deaths were reported in Mexico.25 Violence and crime is thought to cost Latin American and Caribbean countries between 2.4% and 3.6% of their GDP. Urban violence in Latin America displaces more people than declared conflicts and war.
+The impact of violence on urban life has prompted a number of agencies to consider it within humanitarian practice. The ICRC states that ‘the destructive force of urban violence on people’s lives and livelihoods – and the suffering it causes – is a major concern of the ICRC
+in many contexts in which it works around the world. This violence – often symptomatic of socio-economic pressures linked to rapid urbanization, soaring population growth and large population movements – will be one of the defining features, and key challenges,
+of the twenty-first century’.26 Similarly, MSF has expanded its work in what have been termed ‘other situations of violence’. The 2006 Geneva Declaration acknowledged that armed violence ‘prevents humanitarian assistance from reaching people in need’, and
+commits signatories to ‘integrate armed violence reduction programmes into humanitarian assistance, emergency and crisis management initiatives’. Some researchers have equated urban violence with an emerging form of warfare, where ‘Chronically violent cities …
+[comprise] a “new” kind of armed conflict with grave implications for humanitarian action and human welfare. These and other urban centres are experiencing a variation of warfare, often in densely populated slums and shantytowns’.27
+24  ICRC, Urban Violence and the ICRC’s Humanitarian Response (Geneva: ICRC, 2016) (https://www.icrc.org/en/ document/urban-violence-and-icrc-humanitarian-response). 25	  E. Ferris, ‘Protecting People in Cities: The Disturbing Case of Haiti’, Disasters 36(1), July (https://onlinelibrary.wiley.
+com/doi/abs/10.1111/j.1467-7717.2012.01285.x). 26	  ICRC, Urban Violence and the ICRC’s Humanitarian Response (Geneva: ICRC, 2016) (https://www.icrc.org/en/ document/urban-violence-and-icrc-humanitarian-response). 27	  R. Muggah and K. Savage, ‘Urban Violence and Humanitarian Action: Engaging the Fragile City’, Journal of
+Humanitarian Assistance, January 2012 (https://sites.tufts.edu/jha/archives/1524).
+Chapter 1
+
+## Page 28
+
+018    |    Humanitarian response in urban contexts Drivers of urban violence Reviewing the drivers of extreme urban violence, one investigation28 identifies a collection of risk factors, including income and social inequality, rapid urban growth with poor
+development and access to basic services, an unemployed youth bulge and weak police and justice mechanisms that allow urban violence to prosper. Other research29 analyses how violence in urban areas spreads and tips over into wider city-level violence. The same
+investigation found three key areas for stemming the spread of violence: improving lowincome informal settlements, strengthening governance structures and reducing inequality.
+Social cohesion and building social networks, inclusion and citizen participation, alongside social protection programmes, were also key opportunities for reducing violence.
+An ALNAP lessons paper30 on urban violence identifies the following urban-specific challenges:
+• A persistent culture of violence can reduce collective action and erode collective
+social capital, leading to more alienation.
+• Density can concentrate violence, leading for example to high murder rates in
+relatively small urban areas such as low-income settlements.
+• Access to services by humanitarian organisations and others can be restricted, for
+instance for security and safety reasons or because organised gangs may block access.
+• Complex urban living conditions, including ‘predatory authorities, front-lines,
+opportunities for criminal gains, alternate forms of urban governance in slums, the need to negotiate access to very localized areas with a number of different actors along with urban chaos and structural dysfunctions’.
+• Education for children and teenagers can be affected, leading to diminished life
+opportunities.
+A number of other research initiatives in this area are under way. The Igarapé Institute’s project on Humanitarian Action in Situations Other than War (HASOW) ‘has as its central aim the empirical examination of the dynamics of urban violence and the changing face
+of humanitarian action’. HASOW comprises research on a number of themes and issues, including the impacts of violence on health and organised gangs and violence. HASOW can be found at https://igarape.org.br/en/issues/safer-cities/hasow/.
+28	  J. DeBoer, R. Muggah and R. Patel, Conceptualizing City Fragility and Resilience (Tokyo: UNU, 2016) (https://cpr.unu. edu/conceptualizing-city-fragility-and-resilience.html). 29	  C. Moser and D. Rodgers, Understanding the Tipping Point of Conflict, Working Paper 7 (Manchester: University of
+Manchester, 2012) (http://siteresources.worldbank.org/EXTGOVACC/Resources/GlobalPolicyReport.pdf). 30	  E. Lucchi, Humanitarian Interventions in Situations of Urban Violence (London: ALNAP, 2013) (https://www.alnap.org/ help-library/alnap-lessons-paper-humanitarian-interventions-in-settings-of-urban-violence).
+
+## Page 29
+
+Context    |    019 Chapter 1 Chapter 1 Box 1.3 is an abridged version of an article by Robert Muggah, co-founder of the Igarapé Institute. It discusses the scale of urban violence in central American cities, and the humanitarian activities currently under way in response by a number of agencies.
+Finally, aid organisations have typically started small, built to scale and then handed over their pilots to government or local non-governmental counterparts. Notwithstanding the temptation to undertake large-scale programmes in fragile cities, relief organisations are
+proceeding with caution. There are meaningful ways to scale up city-based interventions, but only if these are properly aligned with formal and informal delivery providers, with stable resourcing and political investment. To be effective, aid agencies need to keep an
+open mind, take risks and invest heavily in partnerships from the start.
+Box 1.3 Humanitarian responses to violence in Central America’s fragile cities The countries and cities of the so-called Northern Triangle of Central America – El Salvador, Guatemala and Honduras – have some of the world’s highest rates of violent
+deaths, with murder rates exceeding those of Afghanistan or Syria. The violence in Central America is propelled by a volatile combination of transnational gangs, drug-trafficking and weak law enforcement. Rival factions run extortion rackets and
+assassins for hire, and recruit heavily from poorer neighbourhoods and shanty-towns throughout the region. Most gangs are involved in extortion, protection rackets and drug transhipment and retail.
+Some humanitarian agencies have launched interventions in the region. For more than half a decade, the ICRC has been quietly testing new programmes to protect civilians and facilitate better access to basic services in San Salvador, Tegucigalpa in
+Honduras and Ciudad Juarez in Mexico, as well as Rio de Janeiro and Medellin. MSF has also initiated violence prevention and mental health-related activities and projects to address at-risk youth, including women and girls, in inner-city neighbourhoods across
+Central America.
+The decision whether and how to deploy humanitarian assistance is not straightforward. Many agencies and donors are struggling with how best to negotiate with municipal authorities and communities and engage productively with complex and
+interconnected urban infrastructures. Most directors of humanitarian organisations first ask very basic questions, including in relation to the extent of their own competencies in cities under fire. What is the organisation’s added value? Will it make a
+real difference on the ground? Is it safe for staff? What are the legal implications?
+
+## Page 30
+
+020    |    Humanitarian response in urban contexts Introduction   |    020 Box 1.3 (continued)
+Humanitarian agencies that run violence prevention and emergency response programmes tend to be guided by a set of basic principles. These include being clear on the aims of the intervention, being flexible and ready to adapt, adopting highly localised
+interventions in partnership with civic authorities, developing strong community partnerships, planning for the long term (while also having an exit strategy) and doing no intentional harm. Agencies are taking advantage of lessons learned in war zones, but
+also adjusting and adapting them.
+Many of the priorities of humanitarian agencies remain the same in war and non-war zones. The focus continues to be on protecting civilians and civilian assets, mitigating the effects of violence on urban populations and enabling or strengthening protective
+factors that limit exposure to violence. This includes investing in early childhood programmes, school-based activities, initiatives for single female-headed households, projects targeting at-risk adolescents, psycho-social support services and urban
+improvement schemes.
+Another key goal is to supplement – rather than replace – services such as water provision, waste management and health and education. Aid agencies such as the ICRC and MSF have found it imperative to work with government institutions, rather
+than around them, with an emphasis more on coordination than implementation.
+Although there is more sensitivity today to the importance of building local capacity and ownership, working with national partners and avoiding the distortion of domestic markets is difficult. For aid agencies used to rapidly delivering aid, setting up logistics
+systems and working around (reluctant or interfering) state agencies, habits take time to change.
+An additional critical lesson emerging from the field is the importance of high-quality data collection and real-time mapping of rapidly changing conditions on the ground.
+Access to a wide range of high-resolution information on beneficiary populations, service delivery systems and existing organisations and actors is critical. Even in data-scarce environments there are opportunities to harvest and analyse information,
+including using new technologies. Humanitarian agencies are strongly advised to build this capacity in-house.
+Source: R. Muggah, ‘A Humanitarian Response to Central America’s Fragile Cities’, Humanitarian Exchange 69, June 2017 (https://odihpn.org/magazine/the-humanitarian-consequences-of-violence-in-central-america/).
+
+## Page 31
+
+Context    |    021 Chapter 1 Chapter 1 Gangs Gangs are particularly urban phenomena, in part because of the concentration of population – it is simply easier to form gangs in urban settings than in rural areas – but also
+because economic resources are concentrated in cities. Gangs may be exceptionally powerful: in Haiti they have been ‘credited with overthrowing governments, silencing the political opposition, preventing foreign and local investment, creating a nascent
+kidnapping industry and terrorizing entire cities’.31 Many also serve as a social network for youth and groups not well served by public systems providing material and nonmaterial support. Such associations can improve the short-term welfare and resilience
+of their members, albeit with a long-term cost, to them and to society more widely.
+The nature and changing shape of urban gangs is a complex issue and area of understanding. Research on ‘gangs in the global city’32 notes that, while most gangs are unsupervised teenage peer groups, many are institutionalised in ghettos, barrios and
+favelas across the world. In addition, ‘Gangs are “social actors” whose identities are formed by ethnic, racial and/or religious oppression [and] through participation in the underground economy’.33 The word ‘gang’ may be a catch-all term for a large and complex array of organised violent
+groups, with a wide range in terms of size, power, age (youth gangs are a defined grouping) and scope. In urban areas, research into gangs has found that they are often closely associated
+with the neighbourhoods they operate in. Research on urban gangs in Haiti found that:
+• They are engaged in small-scale crime, including extortion, selling stolen goods and
+inflicting violence on those who may be a threat.
+• They are sometimes politically motivated, and are often funded by businesses.
+• They may be connected to a wider network, but individual units are often small and
+geographically isolated.
+• They are made up of young men from low-income or informal settlements.
+• They may provide help locally, for example with burial costs and school fees, or may
+provide protection against outside armed actors or police abuse. 31	  A. R. Kolbe, Revisiting Haiti’s Gangs and Organized Violence, HiCN Working Paper 147, 2013, cited in J. M. Hagedorn (ed.), Gangs in the Global City: Alternatives to Traditional Criminology (Chicago, IL: University of Illinois Press, 2007),
+cited in A. Winton, ‘Gangs in Global Perspective’, Environment and Urbanization 26(2), 2014 (https://journals.sagepub. com/doi/abs/10.1177/0956247814544572). 32	  Hagedorn (ed.), Gangs in the Global City, cited in A. Winton, ‘Gangs in Global Perspective’, Environment and
+Urbanization 26(2), 2014 (https://journals.sagepub.com/doi/abs/10.1177/0956247814544572). 33	  Winton, ‘Gangs in Global Perspective’, p. 405.
+
+## Page 32
+
+022    |    Humanitarian response in urban contexts Gangs are key urban actors and are part of the governance structures of many urban areas, in particular low-income neighbourhoods and settlements. ICRC identifies three key points for
+engagement with gangs. First, it is important to gain acceptance from gang leaders as gangs are often organised hierarchically; second, gang leaders need to benefit from humanitarian interventions; and third, relief efforts which undermine a gang’s position may create risks.
+Interpersonal and gender-based violence Interpersonal violence includes sexual abuse, child abuse, GBV, violence against the elderly and self-harm. One report notes that ‘every day, more than 4,000 people, over 90% of them
+in low- and middle-income countries, die because of violence. Of those killed, approximately 2,300 die by their own hand and over 1,500 because of injuries inflicted by another person’.34 Research has found that GBV in low-income settlements in low- and middle-income
+countries is frequent and acute.35 ActionAid’s Women in the City report identifies poor urban development and infrastructure as drivers of violence and insecurity for women and girls, with a lack of safe public spaces and public transport and unreliable recourse to police or
+the authorities. GBV in these circumstances includes physical and sexual violence from partners and violence against children. Sexual violence can also be linked to displacement: ‘disaster after disaster produces irrefutable evidence that with displacement – be it
+as a result of natural hazards or conflict – the risk of physical abuse to women and girls rises substantially’.36 Research by the Women’s Refugee Commission37 on GBV against refugees in four cities concluded that the risks are a result of ‘multiple and complex unmet social, medical, and
+economic needs, as well as intersecting oppressions based on race, ethnicity, nationality, language, class, gender, sexual orientation, and disability. Misperceptions further contribute to discrimination toward refugees, which in turn heightens their vulnerability’.
+Their key recommendations for tackling urban GBV are:
+34	  A. Butchart et al., Preventing Violence and Reducing Its Impact: How Development Agencies Can Help (Geneva: WHO,
+2008) (http://apps.who.int/iris/bitstream/handle/10665/43876/9789241596589_eng.
+pdf;jsessionid=58B8188AD0AA79563256E8ACA6F9D308?sequence=1), p. 1. 35	  S. Chant, ‘Cities through a “Gender Lens”: A Golden “Urban Age” for Women in the Global South?’, Environment and Urbanization, 25(1) (https://journals.sagepub.com/doi/abs/10.1177/0956247813477809).
+36	  IFRC, World Disasters Report 2007: Focus on Discrimination (Geneva: IFRC, 2017). 37	  Women’s Refugee Commission, Mean Streets: Identifying and Responding to Urban Refugees’ Risks of Gender-Based Violence (New York: Women’s Refugee Commission, 2016) (https://www.womensrefugeecommission.org/gbv/
+resources/1272-mean-streets).
+
+## Page 33
+
+Context    |    023 Chapter 1 Chapter 1 • ‘Systematize and broaden engagement of local actors.
+• Develop proactive, targeted strategies for addressing GBV risks related to shelter and
+livelihoods.
+• Prioritize, and earmark resources for, targeted actions and proactive outreach
+tailored to meet the needs of different at-risk subpopulations.
+• Formalize non-discrimination and standards of care for engaging all refugee
+subpopulations, put accountability mechanisms in place for UNHCR partners, and take a proactive approach to eliminating discrimination.’ For further recommendations, information and discussion, see Women’s Refugee Commission, Mean Streets: Identifying and Responding to Urban Refugees’ Risks of
+Gender-Based Violence (New York: Women’s Refugee Commission, 2016) (https://www. womensrefugeecommission.org/gbv/resources/1272-mean-streets).
+Violence and naturally-triggered disasters The incidence of violence regularly increases after a naturally-triggered disaster.
+Research by the IFRC38 highlights that post-disaster violence can increase due to a combination of factors, including increased stress, loss of belongings, a failure of services, lack of money, resort to self-medication (alcohol) and drug use and living in temporary
+shelters, often in cramped and poor-quality conditions. The IFRC highlights that ‘people with pre-existing vulnerabilities to violence’ are especially at risk. This may include children, women, older people and people with mental and/or physical disabilities.
+The IFRC recommends that the threat of violence should be treated in the same way as a public health emergency, with ‘the same urgency, attention and resources as other preventable public health emergencies such as diarrheal disease, respiratory illnesses,
+malaria, measles and malnutrition’.39 The same research suggests a number of actions that can be taken and describes good practice in preventing interpersonal violence, including violence-prevention education during the disaster risk reduction phase; prioritising the
+prevention of violence during the response phase; rapid response to cases of violence; enhanced data collection; and support for community-based social support systems. 38	  Canadian Red Cross, Predictable, Preventable: Best Practices for Addressing Interpersonal and Self-Directed Violence
+During and After Disasters, 2012 (http://www.rcrc-resilience-southeastasia.org/document/predictable-preventablebest-practices-for-addressing-interpersonal-and-self-directed-violence-during-and-after-disasters/). 39	  DeBoer, Muggah and Patel, Conceptualizing City Fragility and Resilience.
+
+## Page 34
+
+024    |    Humanitarian response in urban contexts 1.2.3 Naturally-triggered disasters It is by now well accepted that so-called ‘natural’ disasters are not natural. The natural phenomenon – windstorm, flood, earthquake, landslide, volcanic eruption or tsunami
+– needs to coincide with some form of vulnerability to produce a disaster. Until a disaster occurs, natural phenomena remain hazards, but are not disasters.
+Cities are home to vulnerabilities that can coincide with a hazard to create a disaster. These include poorly built buildings, which may collapse in an earthquake (for a variety of reasons, not least corruption in the construction and regulatory process, which is discussed in
+Useful sources of further information Access to affected neighbourhoods presents particular challenges. ICRC’s Safer Access Framework ‘proposes a structured approach to meeting the challenges of operating in sensitive and insecure contexts’. See https://www.icrc.org/en/what-we-do/cooperating-
+national-societies/safer-access-all-national-societies.
+Articles on urban violence in the IDMC’s annual Global Report on Internal Displacement (GRID): see http://www.internal-displacement.org/global-report The Humanitarian Action in Situations Other than War (HASOW) project, part of the
+Igarapé Institute: see https://igarape.org.br/en/issues/safer-cities/hasow/.
+Robert Muggah’s analysis of urban violence in Central America is part of a wider set of articles on urban violence in a special issue of Humanitarian Exchange on ‘The Humanitarian Consequences of Violence in Central America’ (69, June 2017: https://
+odihpn.org/magazine/the-humanitarian-consequences-of-violence-in-central-america/).
+For further discussion of assessments, partnerships and sector-specific lessons see E.
+Lucchi, Humanitarian Interventions in Situations of Urban Violence, ALNAP Lessons Paper (London: ALNAP/ODI, 2013).
+Hugo Slim, ‘Remember the Millions of People Living in Urban Violence’, Humanitarian Law and Poverty, July 2016 (http://blogs.icrc.org/law-and-policy/2016/07/04/icrc-onhabitat-3-urban-violence/).
+M. Harroff-Tavel, ‘Violence and Humanitarian Action in Urban Areas: New Challenges,
+New Approaches’, International Review of the Red Cross, 92(878), June 2010 (https:// www.icrc.org/en/international-review/article/violence-and-humanitarian-actionurban-areas-new-challenges-new).
+
+## Page 35
+
+Context    |    025 Chapter 1 Section 2.2). Another example is poorly located neighbourhoods, such as low-lying land that floods, or housing on steep slopes prone to landslides. With high population densities and concentrations of infrastructure and services, cities are prone to high levels of vulnerability.
+Naturally-triggered disasters are almost certainly set to increase given the rapid pace of urbanisation, leading to more people being concentrated in often dangerous areas, usually poorer people living on lower-quality land. At the same time, the effects of climate change
+will cause stronger windstorms, increased flooding and rising temperatures. Indeed, some phenomena may be so overwhelming that even the best-laid plans struggle to cope, as happened in 2011 with the massive earthquake and ensuing tsunami which destroyed
+a number of urban areas along Japan’s east coast and damaged the Fukushima nuclear power plant.
+This section discusses urban disasters. It looks at displacement from disasters and everyday urban disaster risks. It links very closely to a number of other sections, in particular Section 1.2.4 on climate change, Section 2.3 on resilience, Section 1.4 on vulnerability and Section
+2.2 on corruption. This section (like most of the others) seeks to distil key relevant points related to an enormous issue. Further reading is provided on a number of points discussed.
+The scale of urban disasters The risk of naturally-triggered disasters in urban areas has increased in recent years, especially among those living in low-income settlements.40 Between 2008 and 2017, the most prevalent recorded disaster types were floods (1,522), followed by storms (1,001) and other
+types (622). Floods are thought to have affected 730 million people. Some two billion people have been affected by the consequences of natural hazards over the last ten years, 95% of which were weather-related (such as floods and windstorms).41 Urban disasters are also
+expensive: in the built environment, global expected average annual losses associated with earthquakes, floods, tsunamis, storm surges and wind from tropical cyclones is estimated at $314 billion.42 At an individual, neighbourhood and city level, vulnerability comprises three elements
+– exposure to risk (the threat of a disaster), susceptibility to harm and ability to reduce or remove the risk. Given this definition, it is unsurprising that the most vulnerable are also the poorest or most marginalised in society). Underlying vulnerability is almost always the
+40	  D. Dodman et al., Understanding the Nature and Scale of Urban Risk in Low- and Middle-income Countries and its Implications for Humanitarian Preparedness, Planning and Response, Human Settlements Discussion Paper Series,
+Climate Change and Cities (London: IIED, 2013) (http://pubs.iied.org/pdfs/10624IIED.pdf). 41	  According to the EM-DAT database, recorded in IFRC, World Disasters Report: Leaving No One Behind (Geneva: IFRC,
+2018) (https://media.ifrc.org/ifrc/world-disaster-report-2018/).
+42	  UNISDR, Global Assessment Report on Disaster Risk Reduction (Geneva: UNISDR, 2015).
+
+## Page 36
+
+026    |    Humanitarian response in urban contexts chief determinant of the impact of disasters. For example, the devastating 7.0 magnitude earthquake that struck Haiti in 2010 may have killed anywhere between 50,000 and 220,000
+people,  while the much more powerful 8.8 magnitude earthquake43 that hit Chile six weeks later killed under 1,000 – still a large death toll, but substantially lower thanks to better preparation and stronger buildings and infrastructure. In Haiti, poor-quality governance and
+public service provision led to a lack of investment over decades and widespread poverty. At the time of the earthquake, Haiti ranked 149th on the Human Development Index, with Chile a full 100 places higher, at 49. The links between corruption and disaster are discussed in 2.2.
+Different hazard types produce different kinds of disaster. For instance, a flood may be expensive and cause widespread damage, but the death toll may be lower when compared to a rapid-onset disaster such as an earthquake. Location also matters: where cities are relates
+to the degree of risk (the exposure) an area might have to a natural hazard. Globally, around two-thirds of cities with populations over five million44 are located in low-lying coastal areas or along rivers at risk of flooding. In Africa, around 50% of urban residents live in arid areas with low
+rainfall; in India, the equivalent figure is two-thirds.45 Cities located along the Pacific coast and in the Himalayas are at high risk of earthquakes and other geological phenomena. According to the Intergovernmental Panel on Climate Change (IPCC), ‘Inland cities face different hazards
+to coastal cities, including risks arising from floods, heat islands, desiccation, desertification, reduced fresh water supply, low food security, and the impact of diseases’.46 Displacement from disasters Figure 1.4 indicates that many more people are displaced by weather-related hazards such
+as floods, compared to geophysical events such as earthquakes. Disasters also contribute to rural to urban migration. Traditional ways of life are affected, for example by land being rendered unproductive by rising sea levels and coastal erosion, resulting in climate-induced
+migration (see Section 1.2.4 for further discussion).47 43	  It should be noted that the epicentre was at a greater depth in Chile than in Haiti, meaning that the earth absorbed more of the earthquake’s impact. 44	  G. McGranahan, D. Balk and B. Anderson, ‘Risk of Climate Change for Urban Settlements in Low Elevation Coastal
+Areas’ in G. Martine et al. (eds), The New Global Frontier: Urbanization, Poverty and Environment in the 21st Century (London: 2007), cited in Dodman et al., Understanding the Nature and Scale of Urban Risk. 45	  Dodman et al., Understanding the Nature and Scale of Urban Risk.
+46	  C. E. Hanson et al. (eds), Climate Change 2007: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change (Cambridge: Cambridge University
+Press, 2007), quoted in Dodman et al., Understanding the Nature and Scale of Urban Risk, p. 20. 47	  A. Gero, J. Kohlitz and J. Willetts, ‘Informal Settlements in the Pacific and Links to Sustainable Development’, Development Bulletin 78, 2017 (https://opus.lib.uts.edu.au/bitstream/10453/118057/1/Informal%20settlements%20
+in%20the%20Pacific%20and%20links%20to%20sustainable%20development.pdf).
+
+## Page 37
+
+Context    |    027 Chapter 1 Box 1.4 The Nepal earthquakes in 2015 The two major earthquakes that struck Nepal in 2015 caused extensive damage there and in northern areas of the Indian state of Bihar. An assessment visit shortly after the
+first earthquake found that many unreinforced masonry buildings as well as reinforced concrete houses had collapsed, as well as heritage structures such as temples. The study attributed the damage in part to a ‘widespread lack of preparedness even
+when the seismic hazard of the Himalayan region is well established’, including poor construction practices.
+Source: C. Rai Durgesh et al., ‘Reconnaissance of the Effects of the M7.8 Gorkha (Nepal) Earthquake of April 25, 2015’, Geomatics: Natural Hazards and Risk 7(1).
+Figure 1.4 New displacements by disasters by hazard category, 2008–16 Source: IDMC, Global Report on Internal Displacement, 2017, p. 32. 2008 2009 2010 2011 2012 2013 2014 2015 2016 Average: 25.3 m/year 14.0% 31.9m Millions
+45 40 35 30 25 20 15 10 5 0 36.5 16.7 15.0 22.1 42.4 Weather related Geophysical 32.4 Total (2008–2016) 227.6m 86.0% 195.7m 19.1 19.2 24.2 20.8m 15.3m 13.9m 20.3m 17.4m 14.7m 4.5m 1.7m 1.8m 1.1m 1.5m 4.0m 15.8m 23.5m 38.3m
+31.7m
+
+## Page 38
+
+028    |    Humanitarian response in urban contexts Flooding can cause massive damage and displace millions of people for weeks or months – or indeed for good if they relocate elsewhere. Recent examples include the 2012 Bangkok
+floods and extensive flooding in Pakistan in 2010 (and subsequent years), which covered one-fifth of the country and affected some 14 million people in urban and rural areas. The example in Box 1.5 is from the 2016 floods in Chennai.
+A common government response to hazards is often relocation to safer areas. While there is a strong case for this, often poorer neighbourhoods are forcibly relocated. There is a great deal of research and work concerning the unfairness – and often illegality – of forced evictions
+of low-income settlements by the authorities.48 In some instances neighbourhoods may be relocated to other equally risky locations, doing little to reduce the threat of disaster. In one Indian state, ‘state and local authorities have been building resettlement tenements on
+inland marsh areas using centrally sponsored schemes for affordable housing. These have been used as a “quick fix” after disasters, but without addressing communities’ underlying needs and inequalities. Their siting has also increased flood risk across the urban area,
+creating new risks’.49 Neighbourhoods may be relocated far from jobs and existing networks, storing up problems for the future.
+Everyday urban disaster risk Flooding, which is for many a seasonal, recurring hazard, is one example of an ‘everyday’ risk that may affect urban areas. Others are captured in Table 1.2, drawn from the 2010 IFRC World Disasters Report, which focuses on urban risk. Urban poverty and vulnerability are
+further discussed in Section 1.4. 1.2.4 Climate change Climate change exacerbates the risk of disasters and increases migration. The Intergovernmental Panel on Climate Change (IPCC) warns that ‘global warming is likely to reach
+48	  See for example the archive of the Centre On Housing Rights and Evictions (COHRE) at https://www.cohre.org/. 49	  G. Jain, C. Singh and T. Malladi, Rethinking Post-disaster Relocation in Urban India, IIED Briefing, August 2017
+(http://pubs.iied.org/pdfs/17430IIED.pdf).
+Box 1.5  Floods in Chennai The Indian city of Chennai recorded nine large-scale floods between 1943 and 2015.
+Issues that increase flood risk include ‘haphazard town planning, choked drains, poor garbage management, and the rampant destruction of mangroves, forests, and pastures’. The severe flood of December 2015 was attributed to El Niño and a low
+pressure system, which led to extremely heavy rains.
+Source: F. Rafiq et al., ‘Urban Floods in India’, International Journal of Scientific and Engineering Research 1, January 2016 (https://www.ijser.org/researchpaper/Urban-Floods-in-India.pdf).
+
+## Page 39
+
+Context    |    029 Chapter 1 Aspect of human poverty Implications for everyday risk Implications for disaster risk Inadequate and often unstable income and thus inadequate consumption of necessities, including food and, often, safe and
+sufficient water. Often, problems of indebtedness, with debt repayments significantly reducing income available for necessities.
+Inability to pay for insurance.
+Very limited capacity to pay for housing, which in urban areas means living in the worst-quality and most overcrowded homes in illegal settlements on dangerous sites lacking provision for infrastructure and services – so very high levels of
+environmental health risk.
+In most cities and many urban centres in low- and middle-income nations, most low-cost housing is on dangerous sites, e.g. at high risk from flooding or landslides. The lack of public provision for infrastructure and services adds to such risks,
+particularly for flooding.
+Inadequate, unstable or risky asset base (e.g. property, skills, savings, social networks) for individuals, households or communities.
+Very limited capacity to cope with stresses or shocks in everyday life – including rising prices or falling incomes, injuries or illness.
+Very limited capacity to cope with disaster events when they occur, including lacking assets that are not damaged or destroyed by the disaster and having no insurance.
+Poor-quality and often insecure, hazardous and overcrowded housing (often rented) located on dangerous sites such as flood plains, steep slopes and soft or unstable ground.
+High risk levels from physical accidents, fires, extreme weather and infectious diseases – with risks often increased by overcrowding.
+Housing is often of poor quality so at risk from storms/high winds, earthquakes, landslides, floods, fires and disease transmission, which may cause epidemics.
+Inadequate provision of ‘public’ infrastructure (piped water, sanitation, drainage, roads, footpaths, etc.), which increases the health burden and often the work burden.
+High levels of risk from contaminated water, inadequate sanitation, house flooding from lack of drainage.
+Lack of protective infrastructure against flooding. Lack of roads, footpaths and drains inhibiting evacuation when disaster threatens or happens.
+Inadequate provision of basic services – day care, schools, vocational training, healthcare, emergency services, public transport, communications, policing and good information on safe building practises.
+Unnecessarily high health burden from diseases and injuries because of lack of healthcare and emergency response.
+Lack of healthcare and emergency services that should provide rapid response to disaster (and should have had a role in reducing disaster risk and in disaster preparedness).
+Limited or no safety net to ensure basic consumption can be maintained when income falls; also to ensure access to housing, healthcare and other necessities when these can no longer be paid for (or fully paid for).
+Very limited capacity to cope with stresses or shocks in everyday life – including rising prices or falling incomes, injuries and diseases.
+Very limited capacity to recover from disaster, for instance to afford food and water, rebuild homes and livelihoods. Lack of documentation often means not getting post-disaster support.
+Lack of influence over what government does, including what it does in post-disaster responses.
+Low-income survivors often not allowed to move back to their former settlement and rebuild their homes and livelihoods.
+Little external support for low-income groups and their organisations to rebuild in ways that reduce disaster risk.
+Limited influence over external civil society actors such as international aid agencies during disaster risk reduction and response.
+Lack of local input can lead to inappropriate development investments or missed opportunities to reduce risk and to build more secure local economies and livelihoods.
+International humanitarian actors can overwhelm local government and civil society organisations alike.
+Lack of partnership inhibits good governance.
+Table 1.2 What different aspects of urban poverty imply for everyday and disaster risk Source: IFRC, World Disasters Report (Geneva: IFRC, 2010), p.21.
+
+## Page 40
+
+030    |    Humanitarian response in urban contexts 1.5°C50 between 2030 and 2052 if it continues to increase at the current rate’.51 As a result, cities could experience more heatwaves and flooding (resulting from sea-level rises and changing
+rainfall patterns) and stronger windstorms.
+This section summarises the impacts of climate change on cities. It discusses urban climate change consequences, the impact of climate change on informal settlements and activities associated with climate change adaptation. This section is very closely related to Section 1.2.3
+on naturally-triggered disasters, where there is further discussion on and links to sources of information concerning disasters and hazards. Other closely aligned sections include Section 2.3 on resilience (concerning adaptive capacity) and Section 1.4 on vulnerability.
+Climate change and cities Cities both contribute to, and are impacted by, climate change. Globally, cities produce up to 80% of greenhouse gas emissions and 70% of the world’s waste.52 A 1.5°C rise in temperature by 2050, as forecast by the IPCC, could expose more than 350 million people across a
+number of large cities (including Lagos and Shanghai) to deadly levels of heat.
+Climate change is impacting cities in different ways, creating complex challenges.  Table 1.3 summarises the direct and indirect impacts of climate change on urban areas.
+
+50	 A. Trundle and D. McEvoy, ‘Honiara Urban Resilience and Climate Action Plan (HURCAP), Honiara City Council and the Solomon Islands Government’, 2016. 51	  IPCC, Global Warming of 1.5 Degrees: Summary for Policymakers, 2018 (http://report.ipcc.ch/sr15/pdf/sr15_spm_final.
+pdf), p. 6. 52	  World Bank, Natural Hazards, Unnatural Disasters: The Economics of Effective Prevention (Washington DC: World Bank, 2010) (http://www.worldbank.org/en/news/feature/2010/11/15/natural-hazards-unnatural-disasters-the-
+economics-of-effective-prevention).
+Box 1.6  Urban disasters in the Pacific Pacific Island nations are undergoing rapid urbanization, much of it unplanned and informal. Tropical Cyclone Winston, which struck Fiji in 2016, caused widespread damage in the capital, Suva. A key priority in the immediate recovery concerned
+water, sanitation and emergency shelter. Following extensive flooding in Honiara, the capital of the Solomon Islands, a review50 of low-income settlements and disaster risk identified a number of challenges, including underlying chronic problems that
+exacerbated disaster risk, such as poor sanitation, lack of drainage, poorly built buildings and unsuitable siting of settlements in areas prone to landslides.
+Source: Gero, Kohlitz and Willetts, ‘Informal Settlements in the Pacific’.
+
+## Page 41
+
+Context    |    031 Chapter 1 Change in climate Direct impacts on urban areas Indirect impacts on urban areas Tropical cyclones, storm surge High winds Storm-surge induced-flood Heavy rainfall Disruption of livelihoods and city
+economics Damage to infrastructure, including homes and businesses Loss of life and assests Extreme rainfall More intense flooding Higher risk of landslides As for tropical cyclones, storm surge and precipitation Drought Water shortages
+Higher water and food prices Food insecurity Disruption of hydo-electricity Distress migration from rural areas Extreme temperature events Heatwaves Coldwaves Short term increase in energy demands for cooling/heating Effects on human health
+Abrupt climate change Possible extreme sealevel rise Extreme temperature change As for sea-level rise As for extreme temperature events
+
+Change in means Temperature Fewer cold days and nights Warmer and more frequent hot days and nights
+
+Increased risk of flooding Increased risk of landslides Coastal flooding Increased energy demands for cooling Reduced energy demands for heating Worsening air quality intensified by urban heat islands Creation of vector habitats in new
+areas Distress migration from rural areas Interruption of food supply net­ works Increased transmission of malaria Increased spread of cholera Reduced income from agriculture and tourism Salinisation of water resources Damage to coastal infrastructure
+Displacement of urban populations Table 1.3 The direct and indirect impacts of climate change in urban areas Source: D. Dodman et al., Understanding the Nature and Scale of Urban Risk in Low- and Middle-income Countries and
+Its Implications for Humanitarian Preparedness, Planning and Response (London: IIED, 2013) (http://pubs.iied.org/ pdfs/10624IIED.pdf).
+
+## Page 42
+
+032    |    Humanitarian response in urban contexts Vulnerability Time period Population City estimate Extreme heat Present day Over 200 million people Over 350 cities 2050s Over 1.6 billion people Over 970 cities Extreme heat
+and poverty Present day Over 26 million people Over 230 cities 2050s Nearly 215 million people Over 490 cities Water availability 2050s Over 650 million people Over 500 cities Food security 2050s Over 2.5 billion people Over 1,600 cities
+Sea level rise 2050s Over 800 million people Over 570 cities Sea level rise and power plants 2050s Over 450 million people Over 230 cities Table 1.4  The effects of climate change: summary of global numbers Source: The Future We Don’t Want: How Climate Change Could Impact the World’s Greatest Cities, UCCRN Technical
+Report (https://c40-production-images.s3.amazonaws.com/other_uploads/images/1789_Future_We_Don’t_Want Report_1.4_hi-res_120618.original.pdf).
+Table 1.5 indicates the impact of the effects of climate change in terms of populations and numbers of cities affected.
+The consequences of urban climate change
+In urban areas, the consequences of climate change could include:
+• Increased climate-related displacement and migration. In 2016, climate and
+weather-related disasters displaced 23.5 million people, accounting for 97% of all disaster-related displacements. The ten largest disaster displacement events were weather-related.53 Climate change is also leading to migration to cities: one study
+in Mozambique suggested that 40% of migrants to urban areas had left their rural homes in part because of environmental problems, including ‘those likely to result from climate change’.54 • Security concerns. As OCHA notes, ‘the impact of climate change on water avail-
+ability, food security, coastal boundaries, and population movements may also 53	  IDMC, Global Report on Internal Displacement 2017 (http://www.internal-displacement.org/global-report/ grid2017/), p. 32. 54	  OCHA, Climate Change and Humanitarian Action: Key Emerging Trends and Challenges, OCHA Occasional Policy
+Briefing Series No. 2, 2009 (https://www.unocha.org/sites/unocha/files/Climate%20Change%20and%20 Humanitarian%20Action%202009_0.pdf), p. 5.
+
+## Page 43
+
+Context    |    033 Chapter 1 combine with non-climate related factors, such as poverty,governance and existing regional tensions, to trigger and exacerbate conflicts’.55 • Food scarcity, particularly in arid areas, affecting cities in sub-Saharan Africa (around
+half of Africa’s urban residents live in arid areas).
+• More frequent and intense droughts, which affect cities through, for example,
+increased migration of people unable to sustain rural livelihoods, as well as water shortages for poorer urban dwellers who cannot afford price rises or are unable to build boreholes.
+• Increased health risks, including malaria and dengue fever in low-lying areas.
+Water-level rises may also contribute to increased levels of water-borne diseases and diarrhea. 55	  The Future We Don’t Want: How Climate Change Could Impact the World’s Greatest Cities, UCCRN Technical Report (https://c40-production-images.s3.amazonaws.com/other_uploads/images/1789_Future_We_Don’t_Want_Report_1.4_
+hi-res_120618.original.pdf). 56   See ‘India Heatwave Claims More Than 2,000 Lives; Government Launches Education Campaigns’, 30 May 2015 (https://www.abc.net.au/news/2015-05-30/india-reels-under-heatwave-as-death-toll-tops-2000/6509482).
+55	  Ibid.
+Source: ‘PROJECT: Deepening and Expanding Heat Health Action in India’ (https://cdkn.org/project/deepening-andexpanding-heat-health-action-in-india/?loclang=en_gb).
+Box 1.7  Urban heatwaves As the IPCC report cited above makes clear, heatwaves are a major threat to urban areas. According to recent research,55 the number of cities experiencing temperatures of over 35 degrees in a three-month average is expected to reach 970 by 2050, an
+increase from 354 currently. Many of these cities will be in Africa; the report found that ‘by 2050, many of the most at risk cities with large urban populations in poverty will be in West Africa, as well as Sudan and Egypt’.
+Heatwaves are causing increased fatalities in India. In 2015, Andhra Pradesh and Telangana alone tallied nearly 2,000 heat-related deaths.57 In the Gujarati city of Ahmedabad, low-income settlements suffer heat extremes both night and day, with
+limited ventilation.  According to one report, the adoption of a ‘heat action plan’ has reduced fatalities from extreme heat from over 1,000 in 2010 to just seven in 2016. The plan combines public awareness, building medical capacity and hospital readiness and
+having an effective early warning system.
+
+## Page 44
+
+034    |    Humanitarian response in urban contexts Impacts on informal settlements Inevitably, people living in low-income settlements are least equipped to deal with climate change. The effects of heat, for example, are amplified substantially by poorly ventilated
+buildings; corrugated iron roofing also increases temperatures. One recent report56 predicts that, by 2050, some 215 million people will be living in poverty in 495 cities that have a regular three-month average temperature of over 35 degrees – which is eight times
+the current number. Settlements that lack adequate drainage or sanitation facilities tend to fare worse when flooding occurs than better-maintained neighbourhoods. For further discussion on the most vulnerable in cities see Section 1.4.
+Climate change adaptation Climate change adaptation (CCA) can be defined as ‘the process of preparing for, and adjusting proactively to, climate change – both negative impacts as well as potential opportunities’.57 The World Bank’s 2011 report Guide to Climate Change Adaptation in Cities notes that key
+actions for implementing CCA include urban design and planning, improved urban transport, more efficient use of buildings and better waste management. The guide provides a roadmap for city decision-makers to develop and implement CCA plans, including city adaptation
+plans, policies and actions. It also discusses the central importance of policies and practices around building resilience, in particular in relation to adaptive capacity (discussed below). 58  The Future We Don’t Want, p. 18.
+57	  World Bank, Guide to Climate Change Adaptation in Cities (Washington DC: World Bank, 2011) (http://siteresources.worldbank.org/INTURBANDEVELOPMENT/Resources/336387-1318995974398/ GuideClimChangeAdaptCities.pdf), p. 4.
+Source: R. Wilson and T. Smith, Urban Resilience to Climate Change Challenges in Africa, Policy Research Project on Urban Resilience to Climate Change Challenges in Africa (Austin, TX: University of Texas, 2015) (https://www.springer.com/gp/book/9783319039848).
+Box 1.8  Climate change and health impacts in Kampala The IPCC predicts that Uganda’s temperature will increase by 1.5 degrees by 2030, and by 4.3 degrees by 2080. As a result the capital, Kampala, may see a 20% increase in rain, accompanied by stronger and more frequent storms. Both are likely to lead
+to increased flooding. Sanitation conditions are poor – pit latrines are widely used.
+Increased flooding combines poorly with pit latrines, leading to overflows of effluent and the contamination of water sources (on which the majority of the population relies). This in turn leads to more outbreaks of disease: Kampala suffered five recorded
+outbreaks of cholera between 1997 and 2008, which were linked to flooding.
+
+## Page 45
+
+Context    |    035 Chapter 1 The concept of resilience is discussed in Section 2.3.
+The extent to which CCA can be enacted depends on adaptive capacity, which can be defined as ‘The ability of systems, institutions, humans and other organisms to adjust to potential damage, to take advantage of opportunities, or to respond to consequences’.58 This in turn
+depends on cost (financial, social and political), the policy environment and a willingness to change behaviour. This poses a challenge for a number of cities that are at high risk. For example, those cities in Asia most vulnerable to climate risk (namely Manila, Dhaka and
+Jakarta) also have the lowest adaptive capacity.59 Given the potentially enormous costs of CCA, funds that arrive in low-income neighbourhoods post-disaster need to be used, not only to meet present needs, but also invested to reduce the impact of future shocks. One example is geographically-focused
+initiatives such as area-based approaches (ABAs, discussed in Section 3.2). This can be coupled with a systems-based perspective on the city, so that strategic investments can be made that meet immediate needs, but which also contribute to mitigating long-
+term impacts. Another opportunity lies in engaging in post-disaster and post-conflict reconstruction planning that uses morphological approaches, for example working with existing topography to minimise flooding, or adopting low-carbon approaches in post-
+58	  IPCC, ‘Glossary’, undated (https://www.ipcc.ch/pdf/assessment-report/ar5/syr/AR5_SYR_FINAL_Glossary.pdf), p. 118. 59	  WWF, Mega-stress for Mega-cities: A Climate Vulnerability Ranking of Major Coastal Cities in Asia (Gland: WWF
+International, 2009), cited in Dodman et al., Understanding the Nature and Scale of Urban Risk, p. 17.
+Useful sources of further information The website of C40, ‘a network of the world’s megacities committed to addressing climate change’, comprises extensive information, guidance and research on a variety of themes, including heat extremes, climate change and poverty, water availability and food security.
+The website is https://www.c40.org/.
+D. Broekhoff, G. Piggott and P. Erickson, Building Thriving, Low-Carbon Cities: An Overview
+of Policy Options for National Governments (Stockholm: Stockholm Environment Institute,
+2018) (https://newclimateeconomy.report/workingpapers/workingpaper/building-
+thriving-low-carbon-cities-an-overview-of-policy-options-for-national-governments/).
+World Bank, Guide to Climate Change Adaptation in Cities (Washington DC: World Bank, 2011) (http://siteresources.worldbank.org/INTURBANDEVELOPMENT/ Resources/336387-1318995974398/GuideClimChangeAdaptCities.pdf).
+
+## Page 46
+
+036    |    Humanitarian response in urban contexts crisis (disaster and conflict) reconstruction. A recent systematic review of energy efficiency in buildings, low-carbon transport and sustainable waste management concluded that
+‘low-carbon measures can help to achieve a range of development priorities, such as job creation, improved public health, social inclusion, and improved accessibility’.60 In conclusion, more frequent and worse floods and windstorms, combined with higher
+temperatures and more severe drought, will lead to increasing demand for humanitarian response, which in turn will need to be much more strategic in its actions (not only because of climate change, but also because of the other issues described in this review around the
+scale and challenges of urban humanitarian action). Strategic decisions need to consider a changing future, not just focus on the present. 1.3 Forced displacement People can be forcibly displaced as a result of conflict, violence, disasters and climate change.
+People who stay within the country they are resident in are called internally displaced persons (IDPs), while those who flee abroad are classed as refugees. The distinction is important: while refugees enjoy forms of globally recognised protection,  such as the 1951
+Refugee Convention, IDPs are provided no such formal legal cover. Although there is a set of international standards focused on IDPs – The Guiding Principles on Internal Displacement, adopted by the UN General Assembly in 1998 – unlike the Refugee Convention this does not
+have the force of a binding treaty.61 Further still, people may be stateless (and rendered deliberately so by the authorities in their home country), as is the case for the Rohingya in Myanmar. UNHCR estimates that at least 10 million people were without a nationality or at
+risk of statelessness at the end of 2016.62 This section outlines the scale of displacement. It discusses displacement and cities, and current thinking and practice in humanitarian responses to urban displacement.
+This section relates closely to a number of others in this review, including Section 1.4 on the most vulnerable, Section 1.5 on urban actors, Section 1.2.1 on conflict and Section 1.2.2 on violence. 60	  A. Gouldson et al., The Economic and Social Benefits of Low-Carbon Cities: A Systematic Review of the Evidence
+(London and Washington DC: Coalition for Urban Transitions, 2018) (https://newclimateeconomy.report/ workingpapers/wp-content/uploads/sites/5/2018/06/The-Economic-and-Social-Benefits-of-Low-Carbon-Cities-Asystematic-review-of-the-evidence.pdf), p. 1.
+61	  See ‘Twenty Years of the Guiding Principles on Internal Displacement’, Forced Migration Review, 59, October 2018 (https://www.fmreview.org/sites/fmr/files/FMRdownloads/en/GuidingPrinciples20_0.pdf). 62	  Adrian Edwards, ‘Forced Displacement Worldwide at Its Highest in Decades’, UNHCR, 19 June 2017
+(http://www.unhcr.org/afr/news/stories/2017/6/5941561f4/forced-displacement-worldwide-its-highest-decades.html).
+
+## Page 47
+
+Context    |    037 Chapter 1 1.3.1 The scale of displacement Displacement from conflict, persecution and violence is at its highest level for 70 years.
+According to UNHCR, by the end of 2017 68.5 million people were forcibly displaced worldwide,63 a large proportion of them children. Nearly two-thirds (40 million people) are IDPs. Over 80% of refugees are in low- and middle-income countries, which are also
+experiencing the fastest rates of urbanisation. Countries in the Middle East have received high numbers of displaced people as a result of conflict and unrest following the 2010 Arab Spring, and the conflict in Syria in particular. Meanwhile, displacement from disasters
+is set to worsen, with increasing numbers of naturally-triggered disasters and increasing impacts of climate change (see Sections 1.2.3 and 1.2.4 respectively). In 2016 displacement from disasters was more than three times higher than from conflict and violence, with over
+24 million people newly displaced in 118 countries64 (the annual average between 2007 and 2018 was over 25 million).65 Displacement is also increasingly an urban phenomenon: globally, it is thought that some 60% of refugees live in urban areas, rising to close to 80–90% in countries such as Jordan and
+63	  UNHCR, Global Trends: Forced Displacement in 2017 (Geneva: UNHCR, 2018) (http://www.unhcr.org/ globaltrends2017/). 64	  The equivalent figure for conflict was 6.9 million. IDMC, Global Report on Internal Displacement (Geneva: IDMC, 2017).
+67	  These are registered numbers from UNHCR; the actual figure may be as much as 30,000–40,000 higher.
+Source: C. Wake and T. Cheung, Livelihood Strategies of Rohingya Refugees in Malaysia (London: ODI, 2016) (https://www.odi.org/publications/10449-livelihood-strategies-rohingya-refugees-malaysia).
+Box 1.9  Urban marginalisation for Rohingya refugees in Malaysia Around 65,000 Rohingya who have fled persecution in Myanmar are currently living in Malaysia,67 all of whom are thought to be in cities (given there are no camps), mostly
+in the capital, Kuala Lumpur. While the government put in place a plan to issue 10,000 temporary work permits in 2006 to allow refugees to work legally, one study notes that this was ‘halted after a few days amidst corruption claims’. The same study reports that
+‘the tenuous legal status of refugees in Malaysia renders them vulnerable to employmentrelated abuse and exploitation, including non- and partial payment of wages, verbal abuse, arbitrary dismissal, physical abuse, sexual harassment and workplace raids
+… Refugees have little recourse to address these problems, and most incidents go unreported’. Other issues include access to healthcare and education; concerning the latter, it is thought that only 40% of refugee children have any access to education.
+
+## Page 48
+
+038    |    Humanitarian response in urban contexts Turkey.66 Over half of IDPs are also thought to be living in urban areas.67 Once the crisis that caused their displacement has passed, people may choose not to return to their rural
+homes, preferring instead to stay in or move to cities in search of a better life; following the end of the civil war in Sudan, for example, almost 2 million South Sudanese from rural backgrounds returned to the South Sudanese capital, Juba, doubling the city’s population
+in the six years between 2005 and 2011.68 1.3.2 Urban displacement challenges
+Issues displaced people may encounter in cities include:
+• The trauma of being uprooted, typically more than once, to different locations, often
+without a choice being involved.
+• Discrimination due to race, ethnicity or religion. Authorities may view displaced
+people from conflict settings as ‘terrorists’ or rebels.
+• Lack of official documentation, such as work permits or passports.
+• Few if any social networks.
+• Health and psychological issues, especially for newly-arrived displaced people who
+may have had arduous journeys.
+• Poor prospects of employment (if allowed to work at all in the formal sector), especially
+for people displaced from rural areas or with a low level of formal education, who may not have the skills to compete for work in the urban economy.
+• Where work permits are not allowed, such as for refugees, a reliance on the informal
+economy for work, often at reduced pay rates. Displaced people working in the informal economy can be vulnerable to abuse by their employers and risk being arrested.
+• Displaced women and girls may be at greater risk of sexual violence.69
+• Trafficking70 and modern-day slavery.
+66	  World Bank, Cities of Refuge in the Middle East: Bringing an Urban Lens to the Forced Displacement Challenge, Policy Note (Washington DC: World Bank and GFDRR, 2017) (http://documents.worldbank.org/curated/ en/922371511267498593/pdf/121515-repl-CITIES-OF-REFUGE-01242018webLATEST.pdf), p. 6.
+67	  IDMC, Global Overview 2015: People Internally Displaced by Conflict and Violence (Geneva: IDMC, 2015). 68	  IDMC, Global Report on Internal Displacement. 69	  IRC, Violence in the City: A Systematic Review of the Drivers of Violence against Displaced Populations in Urban
+Crisis and Post-crisis Settings (New York: IRC, 2017) (https://www.rescue-uk.org/sites/default/files/document/1290/ violenceinthecityweb.pdf). 70   For a powerful account, see Puttanee Kangkun and John Quinley, ‘Mass Atrocities and Human Trafficking: Rohingya
+Muslims on the Move’, Humanitarian Exchange, 73, October 2018 (https://odihpn.org/wp-content/uploads/2018/10/ HE-73_web.pdf).
+
+## Page 49
+
+Context    |    039 Chapter 1 • Arbitrary arrest, detention and eviction, especially if they lack the right documentation.
+• Uncertain timeframes, where displaced people may not return home for years or
+decades, or not at all.
+• Isolation. Refugee families may be dispersed across a city, living in a neighbourhood
+where they may not speak a common language or may feel stigmatised.
+• Due to lack of choice, many live in informal settlements, with overcrowding, poor
+access to services and the threat of eviction.
+Rapid migration can have a substantial impact on cities. This includes increased pressure on land and services, more competition for jobs and potential risks of conflict between host and incoming populations over scarce resources, especially in poorer urban settlements. There
+can also be positive impacts, however. In Jordan, for instance, ‘there has been an increase in rental housing stock to meet Syrian demand, benefiting both the displaced and small landlords in host communities’.71 In Amman, the Greater Amman Municipality is actively
+supporting the start-up of refugee-owned businesses.
+Box 1.10 (page 040) provides a helpful summary of the key impacts of urban displacement in cities. For further information on internal displacement, see IDMC’s website at www.internal-displacement.org, and ICRC, Displaced in Cities: Experiencing and Respond-
+ing to Urban Internal Displacement Outside Camps  (Geneva: ICRC, 2018), which provides case studies of displacement experiences in Baidoa in Somalia, Maiduguri in Nigeria, Mosul in Iraq and San Pedro Sula in Honduras (https://shop.icrc.org/displaced-in-
+cities-experiencing-and-responding-to-urban-internal-displacement-outside-camps2822.html). 1.3.3 Current practice Humanitarian aid actors have been slow to recognise the ‘urbanisation of displacement’, with agencies and their mechanisms organised towards setting up and managing refugee
+and IDP camps.72 UNHCR’s 2009 policy on urban refugees states that it essentially applies the same principles as it would in camp settings, while recognising that cities are legitimate places for refugees to live, and that they need protection.73 The 2014 Policy on
+Alternatives to Camps, which includes urban areas, expands on the 2009 policy, stating that the goal should be ‘working to remove such restrictions so that refugees have the 71   World Bank, Cities of Refuge in the Middle East, p. 9.
+72	  It was only in 2009, for instance, that UNHCR updated its policy to consider urban areas. 73	  UNHCR Policy on Refugee Protection and Solutions in Urban Areas, September 2009 (http://www.unhcr.org/en-au/ protection/hcdialogue%20/4ab356ab6/unhcr-policy-refugee-protection-solutions-urban-areas.html).
+
+## Page 50
+
+040    |    Humanitarian response in urban contexts Environment Health Security Education Livelihood Housing and infrastructure Social and cultural life Urban internal displacement Cities can provide higher levels of anonymity and security to displaced
+people. However, displaced children, women and other vulnerable groups can be at risk of abuse and violence in informal settlements, mismanaged collective centres or other housing arrangements. Young IDPs in cities affected by criminal violence can
+be forced to join gangs, increasing insecurity for all.
+Overcrowding, pollution and limited access to water and sanitation increase the risk of communicable and environmental diseases, especially for fragile people in the displaced and the host communities. Mental health has been identified as an important
+impact that tends to be overlooked.
+Overall, jobs are more available in cities than in camps or rural areas. In the long run, cities can support self-reliance. Yet, in most cases, urban IDPs fare worse or find themselves in similar conditions to the urban poor.
+When fleeing from rural areas, agricultural workers’ skills become irrelevant. They often have lower incomes and less extensive social networks before displacement, making it even more difficult for them to adapt to their
+new environment.
+Large inflows of IDPs in already over-populated urban areas can rapidly increase air, water and soil pollution levels. Cities must be prepared and able to adapt their waste management, sanitation and water supply infrastructure in
+case of mass displacement.
+In cities, IDPs often live in overcrowded, substandard conditions. They are more likely to face evictions and abuses from landlords.
+Rent is regularly cited as one of the main expenses for IDPs, but they also live in host families or collective centres. Ensuring their access to secure tenure and decent housing must be a priority for urban authorities.
+Cities offer better access to education than rural areas. IDPs tend to prioritize education over other services as it is a transferrable human capital that is key for rebuilding lives after displacement. Education in urban
+areas can be affected by the use of schools as emergency shelters for IDPs. School systems in cities must adapt rapidly to ensure continued quality education for children from both displaced and host communities, and sometimes that is not the case.
+As compared to camps, cities can allow more social mobility and local integration, which is becoming the preferred durable solution to urban displacement. Yet, many IDPs can find themselves socially and culturally excluded
+and marginalized because of their gender, ethnic and socioeconomic background.
+Creating ties with host communities is essential to support their integration in new urban spaces. Urban authorities must make sure they are included via participatory processes, along with the other urban dwellers that are often excluded from decision-making.
+Box 1.10  Key impacts of urban displacement in cities Source: IDMC, 2019 Global Report on Internal Displacement (Geneva: IDMC, forthcoming).
+
+## Page 51
+
+Context    |    041 Chapter 1 possi-bility to live with greater dignity, independence and normality as members of the community, either from the beginning of displacement or as soon as possible thereafter’.74 Other actors are also increasingly turning their attention to urban displacement. Specific
+recommendations from the Global Alliance for Urban Crises (GAUC), for example, include taking an area-based approach (see Section 3.2), supporting livelihoods and engaging in shelter provision (see Section 4.2).75 Concerning IDPs, recent research76 notes that
+identifying and reaching IDPs may be more difficult in a variegated, dense and complex urban environment, or where they choose to remain invisible for fear of persecution or hostility from host communities and the authorities. Displacement also brings with it
+protection concerns. One review by IRC into the drivers of violence against displaced people in urban areas found that it took a number of forms, including verbal, physical and sexual violence. The research recommended programming that recognised women’s and girls’
+particular susceptibility to violence; prioritising the legal status and documentation of displaced people; and improving the monitoring and reporting of sexual abuse (see Section 1.2.2 on urban violence, Section 1.4 on vulnerability and Section 4.7 on protection).77
+Related to this, there have been regular calls for host authorities and communities to allow displaced people greater agency and rights, including ‘the free, active and meaningful participation of migrants, refugees and IDPs in urban decision-making processes and
+urban and spatial development’ and their inclusion in ‘national action plans and strategies, such as plans on the provision of public housing or national strategies to combat racism and xenophobia’.78 The New Urban Agenda, ratified at the HABITAT III conference in Quito,
+Ecuador, in 2016, calls for ‘refugees, internally displaced persons, and migrants, particularly the poorest and those in vulnerable situations’79 to enjoy equal rights to the city, including 74	  UNHCR, Policy on Alternatives to Camps, 2014 (http://www.unhcr.org/5422b8f09.html), p. 4.
+75	  GAUC, Forced Displacement in Urban Areas: What Needs To Be Done, October 2016 (https://www.rescue-uk.org/ report/forced-displacement-urban-areas-what-needs-be-done). 76	  A. Controneo, ‘Specificities and Challenges of Responding to Internal Displacement in Urban Settings’,
+International Review of the Red Cross, 99 (1), 2017 (https://www.cambridge.org/core/journals/international-review-ofthe-red-cross/article/specificities-and-challenges-of-responding-to-internal-displacement-in-urban-settings/437B517C
+56BBF0BE1F2BD01AE0795008).
+77	  For further discussion on actors, see P. Sitko and A. Massella, Urban Displacement from Different Perspectives: An Overview of Approaches to Urban Displacement, GAUC, 2019 (https://drive.google.com/ file/d/1o6VI0Iil1jaf0hcnx4nxUOAZ-kNyfEBw/view). See also A. Masella and P. Sitko, Protocol of Engagement between
+Local Governments and Humanitarian Actors, GAUC, January 2019 (https://drive.google.com/file/d/1IzkZm_ MqvwFWCY56EiSRg-Wp-DwP6dqh/view). 78	  UN-Habitat, ‘HABITAT III Issues Paper 2: Migration and Refugees in Urban Areas’, 3 June 2015
+(https://www.alnap.org/help-library/habitat-iii-issue-papers-2-migration-and-refugees-in-urban-areas). 79	  The New Urban Agenda (https://habitat3.org/).
+
+## Page 52
+
+042    |    Humanitarian response in urban contexts movement, access and non-discrimination (for example in equal access to housing and – where refugees are allowed to work – access to equal employment opportunities). Research
+by IRC80 on forcibly displaced people in the Tanzanian capital Dar es Salaam identified the
+following principles for operational agencies:
+• Ensure that displaced people are aware of the services they are entitled to.
+• Be clear on how to fight discrimination towards displaced people, and within that,
+promote social cohesion between host and displaced populations.
+• Within a specific area, such as a neighbourhood, understand the different vul-
+nerabilities of different groups.
+Other recent research81 into urban displacement and the responses of humanitarian aid organisation argues for a more developmental, long-term approach involving a wider range
+of actors. Recommendations include:
+• Address the needs of refugees and host communities equally, in terms of jobs and
+services. 80	  IRC, The Right to the City for Urban Displaced. 81	  World Bank, Cities of Refuge in the Middle East.
+See IRC, The Right to the City for Urban Displaced: A Review of the Barriers to Safe and Equal Access to the City for the Displaced Residents of Dar es Salaam (London: IRC, 2017) (https://www.rescue-uk.org/report/right-city-urban-
+displaced), pp. 8–9.
+Box 1.11  Permit and non-permit refugees in Dar es Salaam The Tanzanian capital Dar es Salaam is home to tens of thousands of refugees from DRC and Burundi. Some have been in the city for nearly 40 years. Refugees are roughly
+identified as belonging to one of three groups: a ‘permit refugee’ who has been registered and is allowed to live outside of camps; a ‘non-permit refugee’ who may live in the city but does not have permission to do so; and non-registered migrants, who do not have
+refugee status. UNHCR, with a partner organisation, the Relief to Development Society (REDESO), and the government’s Department of Refugee Affairs provide financial and medical support to ‘permit refugees’. Non-permit refugees and those not registered do
+not qualify for support. Refugees are required to live in ‘designated areas’. However, ‘nonpermit refugees’ are allowed to live in the city if they apply for and are granted a residence permit. The permit can be very expensive (up to $3,000). Permits have in effect been
+phased out: according to IRC, ‘none of these permits have been issued since 2012 … and previous permits have expired’.
+
+## Page 53
+
+Chapter 1 Context    |    043 Figure 1.5  A development-oriented approach to urban displacement Syria In conflict Iraq Recently emerged from conflict Lebanon Some instability and coping with refugee influx West Bank and Gaza
+Some instability, complex political situation Jordan Stable but coping with refugee influx Emergency response Rebuilding infrastructure, expanding services, reconstructing housing –	 Iraq Emergency Operation for Development Project
+Building development solutions Investing in municipal services and equipment to relieve immediate pressure on services caused by refugee influx –	 Beirut urban masterplan focused on resilience –	 Lebanon Municipal Services Emergency
+Project Engagement Building urban resilience , supporting municipalities in enhancing capacity and services delivery –	 Beirut urban masterplan focused on resilience –	 Lebanon Municipal Services Emergency Project Stability
+Fragility Relief Development Nature of response Proximity to conflict Source: World Bank, Cities of Refuge in the Middle East: Bringing an Urban Lens to the Forced Displacement Challenge, Policy Note (Washington DC: World Bank and GFDRR, 2017)
+(http://documents.worldbank.org/curated/en/922371511267498593/pdf/121515-repl-CITIES-OF-REFUGE-01242018webLATEST.pdf), p. 15.
+
+## Page 54
+
+044    |    Humanitarian response in urban contexts • Integrate civil society organisations into collaborative activities.
+• Work with and through national and local government.
+Drawing on experience from the Middle East, Figure 1.5 illustrates the idea of taking a developmental approach to long-term urban displacement. Three overlapping stages are indicated: short-term emergency response; medium-term ‘development solutions’; and
+long-term efforts towards building urban resilience (see Section 2.3).
+As this example indicates, and as is repeated throughout this Good Practice Review, effective aid provision in cities needs to take a long-term view beyond an assumed response or recovery phase. At the same time, and particularly for people fleeing conflict, humanitarian
+response is mired in complexity and uncertainty, with difficult decisions to be made on the scale and duration of assistance.82 Early efforts at protection are essential, as is assistance in securing livelihoods (to prevent people from sliding further into poverty) and finding
+adequate shelter and legal recognition (where relevant, such as the right to work or access social services). Above all, the goal should be the integration of new arrivals in the city. This concerns in particular the leadership of city authorities in enacting measures to achieve this
+(such as ensuring newly-arriving displaced people have equal access to services), as well as civil society organisations and others, such as faith-based organisations, which are often active in providing immediate support, such as food banks and clothing.
+1.4 Vulnerability Humanitarian operations that seek to help crisis-affected people usually try to identify the most vulnerable and/or those most in need of assistance. In urban areas the most vulnerable individuals or groups may be hidden and difficult to identify, and may defy assumptions
+and expectations. Who is most vulnerable may also be subject to flux depending on the timing and nature of a crisis. In many rapidly growing cities, the most vulnerable are often the urban poor, who may not have been affected by a disaster directly, but may be more in
+need than those who are.
+This section discusses the most vulnerable in relation to the concept of ‘leave no one behind’.
+It presents an assets-based understanding of vulnerability. It discusses vulnerability and poverty, urban marginalisation and displacement. How to engage those most vulnerable, and the programming implications, are covered in relevant sections of this Good Practice
+Review. For example, Sections 3.5, 3.6 and 3.7 cover context analysis, assessments and profiling and targeting. Sections on protection (4.7) and shelter (4.2) also refer to approaches for ensuring that assistance reaches the most marginalised.
+82	  Noting that a critical decision in urban humanitarian response (and generally) is when to withdraw assistance. See for example ALNAP’s urban lessons paper, lesson number one, concerning clear boundaries for urban humanitarian
+action (Sanderson and Knox-Clarke, 2012)
+
+## Page 55
+
+Context    |    045 Chapter 1 1.4.1 Leave no one behind Humanitarian action focuses on providing assistance to those who need it most. As the IFRC’s 2018 World Disasters Report puts it, ‘Neglecting to make humanitarian assistance
+available and accessible to those in most acute need not only fails to abide by humanitarian principles but also increases the vulnerability of those same populations – leaving them even poorer, more at risk in the face of future shocks, and even further behind’.83
+The 2016 New Urban Agenda asserts as its first core principle to ‘leave no one behind’84 (see Section 3.1 on frameworks). This is also a central theme of the Sustainable Development Goals (SDGs). In these contexts, ‘leaving no one behind’ means ending extreme poverty
+in all its forms, and reducing inequalities among both individuals (vertical) and groups (horizontal).85 This in turn means addressing the underlying drivers of vulnerability.
+Humanitarian actors can contribute to this, for example through improving preparedness to disasters, ensuring that their interventions also consider long-term impacts and working with governments to change policies, in particular to reduce future risks, and in
+settings of conflict and violence contributing to peace-building. According to OCHA, leave no one behind ‘calls on humanitarians locally, nationally, and internationally to work differently with one another and with counterparts in development, peace operations,
+climate change, and gender equality to move people out of crisis: reducing vulnerability, doubling down on risk management, and tackling root causes of crises and conflict’.86 1.4.2 An assets-based understanding of vulnerability87
+Vulnerability may be obvious, such as being made homeless from a disaster. It may also be hidden, such as trauma or depression stemming from experiences of crises or their consequences, for instance being forcibly displaced. Common forms of vulnerability include:
+• Being unable to meet basic needs, such as shelter, water and food.
+• Having little or no social capital, such as friends, family or social networks (see the
+example from Dhaka in Box 1.13). 83	  IFRC, World Disasters Report: Leaving No One Behind (Geneva: IFRC, 2018) (http://media.ifrc.org/ifrc/wp-content/ uploads/sites/5/2018/10/B-WDR-2018-EN-LR.pdf), p. 85. 84	  UN-Habitat, ‘New Urban Agenda’ (http://habitat3.org/the-new-urban-agenda/), 2016, p. 7.
+85	  S. Stuart and E. Sammon, Defining ‘Leave No One Behind’, ODI Briefing Note (London: ODI, 2017) (https://www.odi. org/sites/odi.org.uk/files/resource-documents/11809.pdf), p. 1. 86	  OCHA and CDA, Leaving No One Behind: Humanitarian Effectiveness in the Age of the Sustainable Development
+Goals, 2016, p. 5. 87	  See Section 1.1 on ways of seeing the city for a further discussion of assets and vulnerability.
+
+## Page 56
+
+046    |    Humanitarian response in urban contexts • Being unable to access goods and services, often through lack of money but also as a result of disability or social or legal exclusion.
+• Being discriminated against, for example being denied access to a particular building
+for belonging to the ‘wrong’ social grouping.
+In cities, the groups most vulnerable to crises include those that are unable to access goods, services and opportunities due to their age, ability/disability or from social and/or legal exclusion:
+• Those alienated by wider society, for instance convicted criminals, people who are
+mentally ill, people with a sexually-transmitted disease such as HIV or people facing stigma, such as LGBTQ+ people.
+• Children (see Section 4.7 on protection).
+• The physically frail, including older and infirm people, and those living with
+disabilities (see the example below and later examples in this section).
+• Irregular migrants, including those who have been trafficked or held in modern slavery.
+• Members of social or religious groups despised or victimised by more powerful groups
+(although there is evidence of reduced vulnerability when belonging to a group).
+• Those whose asylum status has been denied, and who as a consequence end up in a
+state of limbo and thus open to exploitation by employers and landlords, or who lack the paperwork to access services such as healthcare. 1.4.3 Vulnerability and poverty There is an established correlation between poverty and vulnerability – the poorest are almost
+always the most vulnerable. This challenge is set to grow: by 2030, an estimated 325 million people classed as extreme poor will be living in the 49 countries most prone to disasters.88 88	  Andrew Shepherd et al., The Geography of Poverty, Disasters and Climate Extremes in 2030, ODI, Met Office and RMS,
+October 2013.
+Source: IFRC, World Disasters Report: Leaving No One Behind (Geneva: IFRC, 2018) (http://media.ifrc.org/ifrc/wpcontent/uploads/sites/5/2018/10/B-WDR-2018-EN-LR.pdf), p. 92.
+Box 1.12  Older people and disaster risk Disasters disproportionately affect older people. For example, while people over 60 made up just 8% of the population, they accounted for 29% of fatalities in the 2015 Nepal earthquakes. In Typhoon Haiyan in the Philippines, 38% of fatalities were over 60, while
+the over-60s accounted for only 7% of the population. Globally, the situation is expected to get worse: by 2100, 22% of the world’s population – around 2.5 billion people – are expected to be over 60, compared to 7% currently.
+
+## Page 57
+
+Context    |    047 Chapter 1 Not all vulnerable people are poor – those caught up in ethnic conflict may find little protection from being well-off, while violent crime may specifically target wealthier people.
+A number of those killed in Ahmedabad during the Gujarat earthquake89 in 2001 were wealthy people90 living in a modern building that collapsed.91 Conversely, people and households may have forms of compensation through social networks or other means that make them less
+vulnerable than their seemingly equally poor neighbours. 89   World Bank, Dhaka: Improving Living Conditions for the Urban Poor (Washington DC: World Bank, 2006), p. 10. 90   D. Narayan and P. Petesch, Voices of the Poor: Crying Out for a Change (Washington DC: World Bank, 2000)
+(http://siteresources.worldbank.org/INTPOVERTY/Resources/335642-1124115102975/1555199-1124115201387/cry.pdf), pp. 120–21. 91	  Saeed Khan, ‘2001 Gujarat Earthquake: Builder and Architect Acquitted in Paldi Building Collapse Case’, Times of
+India, 1 October 2014 (https://timesofindia.indiatimes.com/city/ahmedabad/2001-Gujarat-earthquake-Builderarchitect-acquitted-in-Paldi-building-collapse-case/articleshow/43979325.cms).
+Source: D. Sanderson, ‘Building Livelihoods of the Most Marginalised in Urban Areas: Strategic Approaches from Dhaka’, Environmental Hazards, 11(2), January 2012 (https://www.tandfonline.com/doi/abs/10.1080/17477891.2011.609881).
+Box 1.13  Who are the most vulnerable in urban Bangladesh?
+Dhaka’s ‘hated poor’ ‘A 2005 World Bank participatory study of slums in Dhaka asked poorer people to rank their perceptions of poverty. They identified three groups: less poor, more poor, and poorest.91 The latter was defined as those who “do not have regular income and
+are extremely vulnerable”. Characteristics include: beggars, widows, elderly and the disabled; female-headed households with small children without any male support; no secure income (e.g. erratic employment, daily labourers, begging); have one meal a day
+(if lucky); and, are more dependent on others.
+‘In several communities, poor people are further divided92 into three subcategories that describe their ill-being: the social poor, the helpless poor, and the hated or bottom poor. The helpless poor are identifiable by their old clothes and pained faces. They
+can afford neither health care nor education for their children. In urban contexts, this group is referred to as the “hard-core poor”. “Most of them are widows, separated, or have husbands with ill health”, say women. The women also say that the hard-core poor
+often beg, have no reliable income, and live in sublet rooms and tin shacks. Disabled people are also among the hated poor. Members of these households often starve.
+Lacking land and other assets, they do not have access to loans, even from family or friends. In addition, they are not accepted as members of local organizations, and thus cannot benefit from group assistance as a last resort.’
+
+## Page 58
+
+048    |    Humanitarian response in urban contexts For further discussion of poverty and vulnerability, see T. Fujii, Concepts and Measurement of Vulnerability to Poverty and Other Issues: A Review of Literature, ADBI Working Paper 611 (Tokyo:
+Asian Development Bank Institute, 2016) (https://www.adb.org/publications/concepts-andmeasurement-vulnerability-poverty). 1.5 Urban actors Cities are by their nature home to a wide diversity of people and groups, many of whom
+may well become involved in crises – and crisis response – in a variety of ways. This section identifies the different actors that engage in crises. It identifies categories of urban actors and their facets. It discusses four groups: government at its different levels, emergent
+(voluntary) groups, businesses and the informal sector.
+This section closely aligns to others describing how different actors engage with one another. Section 2.1, on coordination, discusses how different actors co-exist and work Source: https://oxfamblogs.org/fp2p/gender-disability-and-displacement-reflections-from-research-on-syrian-
+refugees-in-jordan/.
+Box 1.14  Extract from ‘Gender, Disability and Displacement:
+Reflections from Research on Syrian Refugees in Jordan’, by Bushra Rehman ‘I’m introduced to a 60 year old Syrian refugee, who welcomes me into her fourth storey home. There’s no lift so I climb up the stairs, with some difficulty, to her apartment where
+I’m introduced to her children – three daughters and three sons, all of whom have physical and intellectual impairments. A range of environmental barriers in their local community, such as steep hills and staircases, restrict their capacity to move around, to easily access
+humanitarian services, to form communal relationships and as such, reinforce the sense of isolation that refugees are already facing.
+‘These women face discrimination not only because of the negative social attitudes and stigma attached to disability, but also because of the pernicious inequalities associated with being a woman, adding further susceptibility to violence and discrimination which
+inhibits their access to education, work, community spaces and activities. At the same time, they felt as though the “de-gendering” effects of disability prevented them from fulfilling socially-important gender roles, such as being a mother or a wife. Indeed,
+historically, disabled women have been subjected to cultural stereotypes which view them as asexual, unfit to reproduce and dependent’.
+
+## Page 59
+
+Context    |    049 Chapter 1 with one another; Section 1.2.2, on violence, discusses gangs; Section 1.1 looks at different ways of understanding the city and using a systems approach; Section 3.2 on area-based approaches (ABAs) describes how actors engage throughout the project management cycle;
+and Section 3.3 on cash concerns working with private sector organisations. 1.5.1 Categories of urban actors There are a number of ways to categorise the wide diversity of actors present in the city.
+Figure 1.6 (page 050) identifies and organises different national actors according to three groupings: the public sector, the private sector and civil society.
+International actors
+International actors include:
+• Donors (governments, collective fund-raising entities, individual groups).
+• UN organisations.
+• The Red Cross/Red Crescent: ICRC (in cases of conflict) and IFRC.
+• International NGOs.
+• Private sector organisations involved in recovery and reconstruction and private
+security.
+• Search and rescue teams.
+• Faith-based organisations.
+• Interested individuals.
+Government Governments at their various levels are inevitably critical actors. National governments set national policies and may intervene in the aftermath of large-scale disasters. City governments are charged with municipal management. This is particularly important in
+post-disaster recovery, and in the provision of services to displaced people. A recurring theme throughout this Good Practice Review is the need for stronger coordination with local government in particular, and within local government departments, for example
+planning departments (see Section 2.1 on coordination).
+For a discussion of different actors in relation to forced displacement, see J. Basedow,
+C. Westrope and A. Meaux, Urban Stakeholder Engagement and Coordination: Guidance Note
+for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/pdfs/10821IIED.pdf).
+
+## Page 60
+
+050    |    Disaster Risk Reduction Figure 1.6 Actors in the city National government –	 line ministries International firms Gangs Law enforcement, police, militaries Hawkers, market traders Diaspora Social services, hospitals,
+nurses, doctors Small and medium-sized businesses, employers CSOs and CBOs, charities, national and local RCRC societies Schools, school councils, teachers Landlords/owners/renters, housing associations Religious authorities,
+faith-based organisations Regional government Black markets Municipal government –	 line ministries Labour networks/unions/guilds, emplyees, seasonal workers Traditional authorities, elders, traditional healers, tribal/ethnic
+group leaders, influential families Judicial and penal actors Service/utility providers (water, transportation, etc.), healthcare providers Media institutions, newspapers, radio Emergency services (fire, ambulance)
+Media groups and news organisations Community/ grassroots media Political parties Chambers of commerce, business associations Youth groups, women’s groups, marginalised groups Local development councils Finance institutions,
+banks, lenders, treasury Sports and leisure groups Public sector Private sector Civil society Source: L. Campbell, Stepping Back: Understanding Cities and Their Systems (London: ALNAP, 2016) (www.alnap.org/ help-library/stepping-back-understanding-cities-and-their-systems), p. 41.
+
+## Page 61
+
+Context    |    051 Chapter 1 For tools for and approaches to engaging with city planners in urban displacement, see IRC, From Response to Resilience: Working with Cities and City Plans to Address Urban Displacement (London: IRC, 2018) (https://www.rescue.org/report/response-resilience-
+working-cities-and-city-plans-address-urban-displacement).
+Emergent (volunteer) groups Recent research has categorised people who organise themselves after a disaster as ‘emergent groups’.92 Emergent groups are people who come together, often spontaneously, immediately after a disaster to perform first aid and provide water, food, warmth and
+shelter. Emergent groups may themselves be affected by disaster. Such groups may disappear as spontaneously as they appear (though not always, as illustrated below). A key point to note is that emergent groups are voluntary.93 Membership is constantly changing;
+they form and disband quickly, there is usually little or no clarity on leadership, and the focus of work is usually short-term (on immediate needs), rather than long-term.
+Depending on the crisis, the activities of emergent groups may be on a large scale. For example, following the 1999 earthquake in north-eastern Turkey ‘relief and rescue activities were carried out mainly by neighbours, relatives, spontaneously formed volunteer groups
+and some NGOs’.94 One survey found that ‘34 per cent of earthquake victims interviewed said that they received most help immediately after the earthquake from family members and neighbours, as well as through their own efforts; only 10.3 per cent mentioned help from
+state authorities’. 92	  J. Twigg and I. Mosel, ‘Emergent Groups and Spontaneous Volunteers in Urban Disaster Response’, Environment & Urbanization 29 (2): 443–58 (http://journals.sagepub.com/doi/abs/10.1177/0956247817721413 ).
+93	  A discussion of the scale and nature of voluntary-led actions in relation to refugee movements in Europe is provided in J. Borton, ‘The Humanitarian Impulse: Alive and Well among the Citizens of Europe’, Humanitarian
+Exchange 67, September 2016 (https://odihpn.org/wp-content/uploads/2016/09/HE-67-FINAL.pdf). 94	  Ibid.
+Source: Patrick Daly et al., ‘Situating Local Stakeholders within National Disaster Governance Structures: Rebuilding Urban Neighbourhoods Following the 2015 Nepal Earthquake’, Environment and Urbanization 29(2), 2017.
+Box 1.15  Actors after the Nepal earthquakes Following the earthquakes that struck Nepal in 2015, a study of five urban settlements found that actors engaged in immediate relief comprised a combination of neighbourhood residents, NGOs and local civil society organisations. Activities included
+rubble clearance and repairs to infrastructure and buildings. The study found that ‘Lacking support from the government’s National Reconstruction Authority, all five settlements drew on informal governance structures to form community reconstruction
+and planning committees and collaborative relationships with NGOs and other organisations, loosely coordinated with local government’.
+
+## Page 62
+
+052    |    Humanitarian response in urban contexts Businesses Private sector organisations or businesses (defined here as for-profit organisations or individuals) are major actors in cities. They range from multinationals with headquarters
+in cities to small and medium-sized businesses. They also include people working in the informal sector.
+The role of businesses during and after crises is wide-ranging and varied, from post-disaster reconstruction and supplying goods to security contracting and providing IT. Businesses can be vital and high-profile: following the 2010 Haiti earthquake, the mobile phone
+company Digicel was instrumental in the rebuilding of the iconic Iron Market in Port-auPrince. Research following the earthquake concluded that ‘Increasing collaboration between the private sector, humanitarian organisations and governments in order to scale up and
+better tackle urban post disaster recovery using a fundamentally “private approach” offers opportunities for more effective responses for the next urban disaster’.95 Recent research finds that the ‘greatest direct contribution [of businesses] has come in the
+form of new technologies and other innovations and the sharing of technical capacities in areas such as logistics, telecommunications and cash transfers. In addition, businesses, as seen in the growth of social enterprises, are increasingly developing models which are
+commercial in nature but which ultimately help to meet humanitarian needs and reduce vulnerability to future disasters’.96 The same research also identified the benefits of and
+barriers to private sector engagement for humanitarian action, which are summarised below:
+Benefits • Speed/timeliness • Coverage • Durability • Value for money • Innovation and transformation.
+Barriers • Few community-wide interlocutors • Limited forums for interaction 95	  D. Smith, ‘Petty Trade and the Private Sector in Urban Reconstruction: Learning from Haiti’s Post-earthquake Iron Market’, in D. Sanderson, J. Kayden and J. Leis, Urban Disaster Resilience: New Dimensions from International Practice in
+the Built Environment (New York: Routledge, 2016), p. 167. 96	  S. Zyck and R. Kent, Humanitarian Crises, Emergency Preparedness and Response: The Role of Business and the Private Sector (London: ODI, 2014) (http://www.urbanresponse.org/resource/19404).
+
+## Page 63
+
+Context    |    053 Chapter 1 • Limited awareness of novel partnerships • Lack of clarity in decision-making • Partnerships remain at headquarters level • Aid agency vetting (due diligence) requirements.
+Actors in the informal economy The informal sector often accounts for an enormous portion of economic activity in many cities in low- and middle-income countries. For instance, in sub-Saharan Africa the International Labour Organization estimates that over 66% of people work in the urban informal
+sector.97 The informal sector, crises and disasters are closely linked. High inflation and unemployment during conflict can lead to a growth in the informal sector, which might provide one of the few sources of affordable goods and food. Usually, as conflicts continue, and in post-
+conflict settings, the informal economy expands to provide livelihood opportunities to vulnerable people, such as selling items of food and clothing, or selling their labour.
+Opportunities for humanitarian agencies to engage with actors in the informal economy are often not taken up, except perhaps via links with local NGOs and civil society organisations.
+One reason for this is that informal actors are by definition considered to be outside the formal system. For example, people squatting on public land may be prevented from getting help from agencies engaged in shelter recovery, since those agencies may be unable to secure
+the necessary government permissions to build in such locations. This is a significant issue given the large numbers of people living in informal urban settlements (see Sections 4.1 and 4.2 on housing, land and property rights and shelter and settlements for further discussion).
+Yet there are opportunities for engagement: informal markets, for instance, are often up and running immediately after a disaster, given that people need to buy and sell goods to survive.98 Assistance may also be provided to communities who relocate in new areas (see the
+Canaan example following the Haiti earthquake, in Section 4.2 on shelter and settlements). 97	  ILO, ‘Five Facts about Informal Economy in Africa’ (http://www.ilo.org/addisababa/whats-new/WCMS_377286/ lang--en/index.htm).
+98	   C. Clermont, D. Sanderson, H. Spraos and A. Sharma, Urban Disasters: Lessons from Haiti. Study of Member Agencies’ Responses to the Earthquake in Port au Prince, Haiti (London: Disasters Emergency Committee (DEC), 2010)
+(https://www.alnap.org/help-library/urban-disasters-%E2%80%93-lessons-from-haiti-study-of-memberagencies%E2%80%99-responses-to-the).
+
+## Page 64
+
+054    |    Humanitarian response in urban contexts
+
+## Page 65
+
+Chapter 2 Themes and issues     |    055 Chapter 2 Themes and issues 2.1 Coordination Humanitarian coordination can be defined as ‘the systematic use of policy instruments to deliver humanitarian assistance in a cohesive and effective manner. Such instruments
+include strategic planning, gathering data and managing information, mobilising resources and ensuring accountability, orchestrating a functional division of labour, negotiating and maintaining a serviceable framework with host political authorities and providing
+leadership’.1 The subject of humanitarian coordination has been widely written about and studied. This section focuses on urban issues associated with coordination. It discusses coordination with city authorities and steps for engaging with them in planning processes. It reviews
+coordination with emergent (voluntary) groups and gangs, as two examples of particularly urban phenomena. It reviews cluster coordination in urban areas. 2.1.1 Levels of coordination Recent research2 into organisations engaged in emergencies identifies three levels of
+coordination: communication, where information and knowledge is shared between organisations; alignment, where organisations ‘may adjust their activities to create a more effective response on the basis of the activities of other organisations’, for example ensuring
+they work in different neighbourhoods; and collaboration, where organisations may have common goals and share activities.
+In urban areas there are of course a wide range and diversity of stakeholders (see Section 1.5 on actors), many with competing interests and different degrees of power and legitimacy. While humanitarian coordination is often with national government structures,
+local government bodies are essential stakeholders. Coordinating with local government may not always be possible, particularly in situations of conflict or immediately after 1
+L. Minear et al., UN Coordination of the International Humanitarian Response to the Gulf Crisis 1990–1992
+(Providence, RI: Thomas J. Watson Institute for International Studies, 1992) (https://reliefweb.int/sites/reliefweb.int/ files/resources/A62BFF27BE6837F6C1256C2500535B54-coordination_brown_jul2000.pdf), cited in N. Reindorp and P.
+Wiles, Humanitarian Coordination: Lessons from Recent Field Experience, 2001 (https://www.odi.org/sites/odi.org.uk/ files/odi-assets/publications-opinion-files/4186.pdf), p. ii. 2
+P. Knox Clarke and L. Campbell, Exploring Coordination in Humanitarian Clusters (London: ALNAP, 2015)
+(https://www.alnap.org/system/files/content/resource/files/main/update-exploring-coordination-in-humanitarianclusters.pdf).
+Chapter 2
+
+## Page 66
+
+056    |    Humanitarian response in urban contexts a disaster, but international actors should never assume that local government is not functioning. Instead, they should make working with the city authorities the default, unless
+this proves impossible for reasons of government capacity or lack of neutrality. 2.1.2 Engaging with city authorities Local government and its officials are essential actors in urban humanitarian response. Yet the humanitarian community has repeatedly been found wanting in how it engages with
+city authorities. One study of the response of 13 INGOs following Typhoon Haiyan in 2013 found that, across the track of the typhoon, local government was largely bypassed by aid agencies, which worked directly at the community level.3 Following the 2010 Haiti
+earthquake, ‘local authorities … complained that three months after the earthquake they felt “like strangers in [their] own city”’.4 This is a particular problem in urban areas, where meaningful action often relies on complex systems of governance.
+A wide-ranging study of cities and crises in 20165 found the following:
+• overwhelmed and under-resourced municipalities that also lacked expertise to deal
+with ‘the exponential needs resulting from crisis’;
+• a failure by international agencies ‘to understand local dynamics and to engage with
+local stakeholders’;
+• an approach that was sector-based rather than settlement-based; and
+• a ‘lack of city-level multi-stakeholder coordination mechanisms’, contributing to ‘the
+divergence between international and local actors’.
+The report found that these problems led to a sub-optimal response (for example bad targeting and duplication), undermined local systems and fuelled community tensions (for example in not consulting with all actors, leading to perceptions of bias). Failing to engage
+with municipal authorities can also mean that short-term emergency interventions in areas such as shelter and settlement, WASH and public health fail to articulate with – and even set back – longer-term development planning.
+Research by ALNAP emphasises that working with government structures is a necessity, not a choice: ‘in many situations there are possibilities to work closely with line ministries 3
+D. Sanderson and Z. Delica Willisen, Philippines Typhoon Haiyan Response Review, 2014 (https://www.alnap.org/
+system/files/content/resource/files/main/dec-hc-haiyan-review-report-2014.pdf), p. 15. 4 Francois Grünewald et al., Real-time Evaluation of Humanitarian Action Supported by DG ECHO in Haiti, 2009–2011 (Plaisian: Groupe URD, November 2010–April 2011).
+5 IMPACT and UCLG, Consultations on Humanitarian Responses in Urban Areas: Perspectives from Cities in Crisis, World Humanitarian Summit, 2016 (https://www.uclg.org/sites/default/files/cities_in_crisis.pdf).
+
+## Page 67
+
+Chapter 2 Themes and issues     |    057 Chapter 2 or other parts of government, even where the government is engaged in internal conflicts.
+Where even this is not possible, coordination models should be designed to align with government structures to the degree possible, to allow for government ownership at a later date’.6 Humanitarian organisations’ roles may therefore need to shift – ‘depending on the
+capacity of the local authorities, the humanitarians’ role may be more about facilitation and enabling than direct service provision’.7 However, engagement with authorities can often be sensitive, particularly in conflict situations. Where authorities are partisan or may
+be the aggressors, engagement may not be possible, as is evident in the example from Mogadishu in Box 2.1. 2.1.3 Engaging with local authorities From its work in urban areas,8 IRC identifies the following key steps for establishing urban
+partnerships:
+6 Knox Clarke and Campbell, Exploring Coordination in Humanitarian Clusters, p. 7. 7
+B. Mountfield, Using the Sphere Standards in Urban Settings (Geneva: The Sphere Project, 2016)
+(www.sphereproject.org/silo/files/using-the-sphere-standards-in-urban-settings.pdf), p. 11. 8 IRC, From Response to Resilience. Working with Cities and City Plans to Address Urban Displacement: Lessons from Amman and Kampala (New York: IRC, 2018) (https://www.rescue.org/sites/default/files/document/2424/
+fromresponsetoresiliencefinalweb.pdf), p. 37.
+Source: F. Grünewald, ‘Aid in a City at War: The Case of Mogadishu, Somalia’, Disasters 36(1), July 2012 (https://onlinelibrary.wiley.com/toc/14677717/36/s1).
+Box 2.1  Relations between humanitarian actors and municipal authorities in Mogadishu ‘One of the main conceptual difficulties for aid actors has been to approach Mogadishu as a city and not as a classic humanitarian situation. This requires strategic sector-
+based coordination linked to administrative units rather than cluster-type sectorbased coordination, and, above all, an attempt to engage with urban authorities.
+While some of the NGOs working in Mogadishu have tried to establish Memoranda of Understanding with the Ministry of Health, they have bypassed the municipal level and gone down to the district commissioner level, which is responsible only for law-and-
+order control functions rather than urban planning. The reasons why there has not been any engagement with municipal authorities include the fear of politicisation, the risk of corruption; and, more broadly, ignorance about their roles, if not reluctance to
+work with these urban actors.’
+
+## Page 68
+
+058    |    Humanitarian response in urban contexts • Begin a dialogue with local municipal authorities to identify opportunities for collaboration around shared outcomes.
+• Determine whether a master plan exists, and other relevant documentation and
+policies.
+• Identify the interests and incentives of all stakeholders (including the authorities).
+• Ensure that all actors are operating based on the same information, including where
+necessary information on humanitarian approaches.
+• Ensure as far as possible effective coordination between all stakeholders, including
+local authorities, NGOs, faith-based organisations and the private sector.
+• Link all recovery actions to long-term developmental approaches, strategies and
+goals.
+Another collaborative planning approach developed by ACTED and IMPACT is AGORA, which aims to provide ‘predictable capacity to localise aid action and promote efficient, inclusive and integrated local planning and service delivery in contexts of crisis’.9 AGORA
+uses a settlements-based approach (see Section 3.2 on area-based approaches). For further information see http://www.impact-initiatives.org/agora. The ‘local generalist approach’ seeks to support city authorities by providing financial and technical assis-
+tance. For further information, see http://www.cites-unies-france.org/Local-Authoritiesin-Crisis. 9 See http://www.impact-initiatives.org/agora.
+Box 2.2  Using area-based approaches to improve coordination in Mafraq, Jordan The Community Engagement Project, which works in Mafraq in Jordan and in a number of other countries, seeks to improve coordination between local government, NGOs and
+CBOs in efforts to build social cohesion. The vehicle for this has been through enacting an area-based approach (see Section 3.2 for further discussion). Joint activities between actors and communities have included assessments and stakeholder mapping
+of key capacities.
+For further discussion of this initiative, and for additional examples from Bangui, Bogo, Gaziantep, Port-au-Prince and Tacloban, see IMPACT and UCLG, Consultations on Humanitarian Responses in Urban Areas: Perspectives from Cities in Crisis, World
+Humanitarian Summit, 2016 (https://www.uclg.org/sites/default/files/cities_in_crisis.pdf).
+
+## Page 69
+
+Chapter 2 Themes and issues     |    059 2.1.4 Engaging with emergent (voluntary) groups While not exclusively an urban phenomenon, the scope and range of emergent groups (introduced and discussed in Section 1.5 on actors) in cities is particularly noticeable.
+However, aid organisations can find it difficult to meaningfully engage with these groups.
+According to one study: ‘the core problem is that emergency planners and plans rarely take emergent groups and spontaneous volunteering into account. They do not understand the nature and characteristics of emergence or the strong motivations behind it. Emergence
+is an implicit challenge to the “command and control” approach of most official disaster management and emergency response agencies, with their top-down bureaucratic systems and standard operating procedures’.10 The study also gives an example of more successful
+coordination: ‘in the Kobe earthquake, initial problems regarding duplication of effort were overcome by creating an umbrella group, the Nishinomiya Volunteer Network, to coordinate the work of emergent groups and collaborate with the government on distributing food and
+other goods, collecting information about survivors’ needs from temporary shelters, and liaising between survivors and government’.11 2.1.5 Engaging with gangs In urban areas, gangs or criminal elements will control some neighbourhoods, raising
+questions about how or whether humanitarian organisations should engage with them.
+ALNAP observes that ‘Any work carried out by humanitarian players in a city neighbourhood, or in an area within a prison, that is controlled by a gang will be subject to discussion or authorisation by the gang, whether one is aware of it or not’. One programming consider-
+ation here is how far to engage with gang leaders.12 ALNAP’s study cites research on the ICRC’s experience,13 and notes ‘the need to gain acceptance from gang leaders, given that many gangs are hierarchically organised; also that gang leaders need to perceive some
+benefit from the organisation’s operation’.14 See also Section 1.2.2 on urban violence. 10	  J. Twigg and I. Mosel, ‘Emergent Groups and Spontaneous Volunteers in Urban Disaster Response’, Environment & Urbanization 29(2) (https://journals.sagepub.com/doi/full/10.1177/0956247817721413), p. 452.
+11	  Ibid., p. 454. 12	  D. Sanderson and P. Knox Clarke, ALNAP Lessons. Responding to Urban Disasters: Learning from Previous Relief and Recovery Operations (London: ALNAP, 2012) (https://www.alnap.org/system/files/content/resource/files/main/
+alnap-lessons-urban-web.pdf), p. 19. 13	  E. Ferris, Urban Disasters, Conflict and Violence: Implications for Humanitarian Work (Washington DC: Brookings Institution, 2012) (https://www.brookings.edu/on-the-record/urban-disasters-conflict-and-violence-implications-for-
+humanitarian-work/). 14	  Sanderson and Knox Clarke, ALNAP Lessons, p. 19.
+
+## Page 70
+
+060    |    Humanitarian response in urban contexts 2.1.6 The cluster approach and urban response The cluster approach, introduced into humanitarian action as part of the 2005 Humanitarian Reform Agenda, is the internationally-accepted norm for organising aid support according
+to sectors, or clusters. The Inter-Agency Standing Committee (IASC)15 describes key cluster functions as supporting service delivery, informing strategic decision-making, planning and strategy development, advocacy, monitoring and reporting on the implementation of the
+cluster strategy, contingency planning, preparedness and capacity-building, and integrating early recovery from the outset of the humanitarian response.
+ALNAP’s research into organisations engaged in emergencies (referred to above) found that ‘overwhelmingly, Cluster activities fall at the “alignment” level’. This is especially true where competing interests, stresses and pressures call on different organisations to
+make careful calculations on where and how to align their efforts. Other factors include workflows, policies and institutional cultures; the capacity and willingness of local government and local civil society to be involved and/or lead coordination; and what level
+of coordination is being attempted. That said, coordination in disasters and crises is an essential element of any successful intervention.
+While the cluster system overall has improved coordination and information-sharing,16 it has been problematic in urban areas. As the IRC observes: ‘The traditional cluster system does not lend itself to the complexity of needs, services and systems across an urban
+landscape with humanitarian agencies struggling to deal with the complexity, density and built environment of towns and cities or [un]able to take full advantage of the potential a city has to offer’.17 The IASC has challenged the very validity of the cluster approach in
+urban recovery operations: ‘the current cluster system is structured around sectors of expertise and sectorial coordination, while in a context of urban crises there might be a need to identify and respond holistically to multi-sectorial needs in a given territory,
+requiring stronger inter-cluster linkages and coordination at city-level’.18
+For clusters to work well in urban areas, the following should be noted:
+15	  IASC, Reference Module for Cluster Coordination at the Country Level, 2012, cited in Knox Clarke and Campbell, Exploring Coordination in Humanitarian Clusters, p. 20. 16	  See for example V. Humphries, Improving Humanitarian Coordination: Common Challenges and Lessons Learned
+from the Cluster Approach (Medford, MA: Tufts University, 2013) (http://sites.tufts.edu/jha/archives/1976). See also Knox Clarke and Campbell, Exploring Coordination in Humanitarian Clusters. 17	  IRC, Humanitarian Crises in Urban Areas: Are Area-Based Approaches to Programming and Coordination the Way
+Forward? (New York, IRC, 2015) (http://www.syrialearning.org/resource/21830) p. 5. 18	  IASC, Guidance Note for Improving Coordination and Responses to Urban Crises in the Humanitarian Programme Cycle through the IASC and its Cluster System, IASC Working Document, 2016, p. 1.
+
+## Page 71
+
+Chapter 2 Themes and issues     |    061 • Leadership by local government is important, to avoid creating parallel structures which remove ownership from existing governance structures.
+• Cross-sectoral coordination is vital: single-sector interventions that do not recognise
+urban complexity risk causing harm (a systems perspective on how cities work, described in Section 1.1, is a useful starting-point here).
+• Meeting locations and the frequency of meetings in cities are important. Traffic jams
+in congested areas can waste time and cluster members might not bother to attend meetings. In Port-au-Prince after the 2010 earthquake, chronic traffic jams and the location of cluster meetings on the outskirts of the city meant that several hours a
+day could be spent in a vehicle.19 • Many NGOs may find it difficult to attend a large number of meetings, especially if an organisation is involved in more than one sector.
+• Language is an important consideration – default English in a non-English- speaking
+location alienates local bodies and discourages engagement.
+• Many local stakeholders may well not attend cluster meetings, for instance private
+sector organisations or gangs. Other ways of engaging them are therefore needed.
+Concerning cross-sector coordination, the IASC20 has discussed adopting a city-level intercluster working group (led by city authorities wherever possible) that ‘would support stronger coordination among sectors and with local actors’. An important opportunity for
+cross-sectoral coordination lies in conducting multi-sectoral assessments. This is discussed further in Section 3.6 on assessments. 2.2 Corruption Humanitarian response to disasters and conflict is carried out in areas where risks are
+high, where there may well be endemic poverty and where governance structures are usually weak and public institutions overwhelmed and under-resourced, often prior to the emergency. Humanitarian operations therefore almost by definition take place in areas
+where there is corruption. This, arguably, is compounded in cities with extremes of wealth and poverty, where public institutions are based, and where cash, markets and competition are concentrated. 19	  C. Clermont et al., Urban Disasters: Lessons from Haiti. Study of Member Agencies’ Responses to the Earthquake in
+Port au Prince, Haiti, January 2010 (London: Disasters Emergency Committee (DEC), 2011) (https://www.alnap.org/helplibrary/urban-disasters-%E2%80%93-lessons-from-haiti-study-of-member-agencies%E2%80%99-responses-to-the). 20	  IASC, Guidance Note, p. 3.
+
+## Page 72
+
+062    |    Humanitarian response in urban contexts This review found little information specific to urban areas, though there are examples relating to building practices, and efforts to combat corruption within humanitarian
+operations are equally applicable to both rural and urban contexts. This section looks at corruption risks within humanitarian aid operations, and good practice in reducing them. 2.2.1 Defining corruption Transparency International (TI) defines corruption as ‘the abuse of entrusted power for
+private gain’.21 ‘Private gain’ here may not only be financial: transactional sex, for instance, fits this definition. Other non-financial forms of corruption include the diversion of humanitarian assistance to benefit non-target groups, coercion and intimidation of staff or
+beneficiaries to participate in corruption and preferential treatment for friends or relatives in recruitment and assistance processes.22 Corruption is complex and differs in different contexts – in some societies, what elsewhere may be perceived as cronyism and nepotism
+can be widely accepted.
+A recent review of corruption in emergencies notes that it is ‘hard to measure and difficult to separate from other issues, such as excessive political influence and economic mismanagement … In essence, corruption subverts public resources for private gain, to the
+damage of the body politic and people at large. It is often associated with political violence and authoritarianism and is a highly exploitative phenomenon’.23 2.2.2 Corruption and naturally-triggered disasters Research indicates a strong link between disasters and corruption. One study found that ‘83%
+of all deaths from building collapse in earthquakes over the past 30 years occurred in countries that are anomalously corrupt’.24 Other research documents how ‘corruption linked to poor planning and regulation, unauthorised structures and inadequate municipal management
+presents major impediments to creating disaster resilience in Sri Lankan cities’.25 21	  Transparency International, Preventing Corruption in Humanitarian Operations (Berlin: Transparency International, 2014) (https://www.transparency.org/whatwedo/publication/preventing_corruption_in_humanitarian_
+operations). 22	  Ibid. 23	  D. Alexander, ‘Corruption and the Governance of Disaster Risk’, Oxford Research Encyclopedia of Natural Hazard Science, 2017 (http://oxfordre.com/naturalhazardscience/view/10.1093/acrefore/9780199389407.001.0001/acrefore-
+9780199389407-e-253). 24	  N. Ambrasays and R. Bilham, ‘Corruption Kills’, Nature, 469, 13 January 2011 (https://www.nature.com/ articles/469153a). 25	  A. Williams and K. Dupuy, Corruption and the City: How Aid Donors Can Support Integrity Building in Urban
+Spaces, U4 Brief, CMI (https://www.u4.no/publications/corruption-and-the-city).
+
+## Page 73
+
+Chapter 2 Themes and issues     |    063 Chapter 2
+A review of corruption and disasters26 concluded that:
+Organized crime tends to look upon disaster as an opportunity. Reconstruction usually involves a building boom, which attracts mafia interests in the construction industries.
+Often, the process is not well regulated, in part because the desire to complete the process quickly prevails over the need to work methodically. Mafias can activate their contacts in government and public administration to expedite their involvement. The interference of
+organized crime in the construction industry tends to affect reconstruction phases by the neglect of building codes and quality assurance.
+Besides involvement in reconstruction, disruption may lead to an increase in other harmful activities, including people trafficking, abduction, modern slavery such as forced prostitution and the drug trade. 2.2.3 Corruption in humanitarian operations
+Corruption within humanitarian operations is particularly ugly. As TI puts it: ‘In the case of humanitarian assistance, resources have been entrusted to organisations – including national and local governments, inter-governmental organisations, NGOs and local
+communities – specifically for alleviating the suffering of people affected by crises and restoring their dignity’.27 The arrival of humanitarian resources in resource-poor countries 26	  D. Alexander, ‘Corruption and the Governance of Disaster Risk’, Oxford Research Encyclopedia of Natural Hazard
+Science, 2017 (http://oxfordre.com/naturalhazardscience/view/10.1093/acrefore/9780199389407.001.0001/acrefore9780199389407-e-253). 27	  Transparency International, Preventing Corruption in Humanitarian Operations.
+Source: The Guardian, 7 May 2009. A detailed case study is provided in I. Davis and D. Alexander, Recovery from Disaster (London: Routledge, 2015), pp. 48–51.
+Box 2.3  Poor construction in the Sichuan earthquake in China The Sichuan earthquake in China in 2008 killed some 87,150 people and left nearly 5 million homeless. Around 1.5 million houses were destroyed and 6 million damaged.
+A number of newly-built schools collapsed, killing over 5,000 children. Corruption was widely reported in the building process, leading to buildings collapsing that should have stayed up. As one article noted: ‘The issue has been an enduring source
+of grief for parents. They say the schools crumbled so easily because corruption and mismanagement led to slipshod construction methods and weak buildings that were not up to standard. Some say materials meant for school construction projects were
+sold by contractors for personal gain’.
+
+## Page 74
+
+064    |    Humanitarian response in urban contexts with weak institutions can exacerbate power asymmetries and increase corruption, thereby undermining the humanitarian mission.
+Factors that contribute to reducing the transparency and accountability of decision-making processes during humanitarian crises include:28 • The need for quick decisions, often with incomplete knowledge.
+• The large amounts of incoming cash and other resources.
+• The need to recruit large numbers of people, often very quickly.
+• The pressure to act fast and show results.
+• The wide range of actors engaged in response operations (local, national and inter-
+national NGOs, donors, the private sector, the government, affected communities).
+• Unequal power distribution, for example between local and international NGOs, or
+between NGOs and affected people.
+TI reports that corruption risks related to programme support functions are generally in relation to finance, supply chain management (for example procurement, transport and managing goods) and within human resources.29 Corruption risks also run through the
+implementation of programmes, for example in needs assessment and resource allocation, the selection of local partners, targeting and registering beneficiaries and programme monitoring and evaluation. Figure 2.1 maps assistance activities with possible corruption
+risks, all of which are applicable to urban contexts.30 TI’s Collective Resolution for Enhanced Accountability and Transparency in Emergencies (CREATE) project aimed to ‘produce an evidence base concerning the risks on aid integrity,
+in particular corruption risks, as well as prevention and mitigation measures, in relation to the implementation of humanitarian assistance’. Examples were provided from four settings, in Afghanistan, the Ebola emergency in Guinea, southern Somalia and the Syrian
+refugee response in Lebanon. The project report, while not urban-specific, documents incidents of corruption, relating to different programming approaches.31 28	  Drawn from E. Calossi, S. Sberna and A. Vannucc, ‘Disasters and Corruption, Corruption as Disaster’, in A. de Guttry
+et al. (eds), International Disaster Response Law (The Hague: Asser Press, 2012). 29	  Transparency International, Preventing Corruption in Humanitarian Operations. 30	  P. Ewins et al., Mapping the Risks of Corruption in Humanitarian Action (London: ODI, 2006) (https://www.odi.org/
+sites/odi.org.uk/files/odi-assets/publications-opinion-files/874.pdf), p. 7. 31	  The full report can be found at https://tikenya.org/wp-content/uploads/2018/08/CREATE_Synthesis-report_ formatted_final.pdf.
+
+## Page 75
+
+Chapter 2 Themes and issues     |    065 Figure 2.1 Map of corruption risks in humanitarian emergencies Source: P. Ewins et al., Mapping the Risks of Corruption in Humanitarian Action (London: ODI, 2006) (https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/874.pdf), p. 7.
+Corruption risk example –	 Elites bribe/influence those conducting the assessment to inflate needs and/or to favvour specific groups –	 Response selected to enhance personal or organisational reputation rather than based on needs
+–	 Double funding: allocating the same overhead expenditure to two or more projects –	 Agency staff invent partners or demand kickbacks –	 Goods which are substandard or do not meet the original specification are accepted and ultimately
+paid for through kickbacks, bribes, collusion –	 Powerful individuals within the community manipulate the beneficiary lists –	 Beneficiaries have to bribe agency staff, local elites or authorities to maintain their place in a distribution
+line or receive goods –	 Manipulation of monitoring reports/information to attract further resources –	 Reports falsified to hide corruption –	 Disposal of assets to favoured people –	 Monitoring, reporting or evaluations falsified to hide
+evidence of corruption that was found
+Key sections:
+Shelter Food and nutrition Health care Water and sanitation Refugees/IDPS Finance, personnel, administration Project monitoring, reporting, evaluation and programme closure Initial assessment, decision to repond and programme design
+Fundraising and allocation of funding Agreements to work with local organisations Establishment/ scale-up of offices and operations Targeting and registration of specific beneficiaries Procurement and logistics Implementation/distribution
+Assistance process
+
+## Page 76
+
+066    |    Humanitarian response in urban contexts TI’s 2014 handbook Preventing Corruption in Humanitarian Operations contains information and practical advice on tackling corruption within project support functions, for example
+in procurement, and throughout the project management cycle. Nonetheless, it is of great importance that the elimination of corruption and the formulation of anti-corruption policies remain context-specific. Often, policies and procedures to promote transparency,
+integrity and accountability are already in place in humanitarian agencies, and can serve as a starting-point to creating an organisational context that resists corruption.
+While the TI handbook does not distinguish between rural and urban locations, it is highly relevant to urban programming, especially the parts concerning project cycle management.
+Particularly relevant sections include operating in cash environments and using cash-based programming, and construction and reconstruction. For further guidance and practical information on combating corruption, see: https://www.transparency.org/whatwedo/
+publication/preventing_corruption_in_humanitarian_operations. For other reports, case
+studies and guidance notes relating to corruption in humanitarian operations, see:
+https://www.transparency.org/search?topic=83. 2.3 Urban resilience The concept of resilience has attracted substantial interest and momentum in recent years, and is now widely used within humanitarian and development practice. It is embodied in
+Sustainable Development Goals (SDGs) 9 and 11 (known as the ‘urban SDG’) concerning sustainable cities and communities.32 For many, resilience is a helpful concept, and a useful term that ties together actions both before and after a crisis. Building resilience is
+a proactive term that can galvanise action. For others, however, it does not go far enough in addressing systemic issues of vulnerability and inequality, and there are concerns that calling a community ‘resilient’ may imply that external help is not needed.33
+This section provides a definition of urban resilience and highlights some of its attributes.
+It presents an operational model of resilience. The section discusses applying the concept of resilience in urban areas. The section ends with sources of further information. Urban resilience has close links to a number of other sections in this review, including those on
+climate change and ways of seeing the city. 32	  See http://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-11-sustainable-cities-andcommunities.html. 33	  This was the core of the criticism of government inaction following Hurricane Katrina in New Orleans. See M.
+Kaika, ‘“Don’t Call Me Resilient Again!” The New Urban Agenda as Immunology … or What Happens when Communities Refuse to be Vaccinated with “Smart Cities” and Indicators’, Environment and Urbanization, 29 (1), 2017 (http://journals.sagepub.com/doi/abs/10.1177/0956247816684763).
+
+## Page 77
+
+Chapter 2 Themes and issues     |    067 Chapter 2 2.3.1 Defining resilience The concept of resilience has its roots in a number of disciplines, including engineering, psychology and ecology. In recent years, the concept has been used in a number of urban
+approaches, including 100 Resilient Cities – Pioneered by The Rockefeller Foundation, UNISDR’s Resilient Cities campaign34 and the Asian Cities Climate Change Resilience Network.35 The definition from The Rockefeller Foundation, formulated from their extensive work in urban
+resilience, defines it as: ‘the capacity of individuals, communities, institutions, businesses, and systems within a city to survive, adapt, and grow no matter what kinds of chronic stresses and acute shocks they experience’.36 In practice, this means that, in order to build resilience:
+• The key is to recognise and build upon existing capacities.
+• Building capacity applies at different levels – individual, communities, institutions,
+businesses and systems.
+• Resilience-building requires iterative approaches and investing in building relations
+and connections among city actors.
+• Success relies on combinations of inclusive, people-centred approaches and under-
+standing the complexities at a larger scale (such as thinking about systems).
+• Restoring/building connections between different actors and layers is fundamental.
+• It’s not just about relief but also, in programming terms, building preparedness (in
+order to survive), building flexibility and thinking in new ways (in order to adapt) and strong disaster risk reduction (DRR) measures (in order to grow).
+• Implicit in growth is the idea that all preparedness, response, recovery and DRR
+measures combine to make urban areas stronger for the next crisis. So, in all actions, thought needs to be given to the next emergency as well.
+• ‘No matter what kind of chronic stresses’ (meaning ongoing threats, such as water
+shortages, violence and excessive heat) and acute shocks (such as earthquakes, conflict and floods) implies not just focusing on one threat, but considering the wider spectrum of risk.
+A number of other layers and understandings can be added to this definition. For instance:
+• Capacity is often described in terms of ‘adaptive capacity’ in relation to climate
+change and the need for individuals and institutions to adapt (see also Section 1.2.4 34	  See https://www.unisdr.org/we/campaign/cities. 35	  See https://www.acccrn.net/. 36	  See http://www.100resilientcities.org/.
+
+## Page 78
+
+068    |    Humanitarian response in urban contexts on climate change). Two other forms of capacity are anticipatory capacity, i.e. getting ready, and absorptive capacity, or the ability to recover.37
+1.	 Other definitions highlight the need for action before a disaster more prominently
+(for example IFRC’s definition,38 which adds the words ‘anticipate’ and ‘reduce the impact of’).
+2.	 The term ‘bounce back’ (i.e. absorptive capacity) is often associated with
+understandings of resilience. This is from engineering, where bridges are designed to recover their shape after stresses are removed from them. 2.3.2 Models of resilience A number of resilience models are available – one recent review found 13 operational
+frameworks, indices and tools related to the concept.39 Examples include ISET’s frame-work for urban climate resilience (https://www.tandfonline.com/eprint/ VaVMpErdVGCNYa82jefg/full#.UxY8-ZGpd4M) and ARUP’s City Resilience Index, which
+seeks to quantify resilience according to infrastructure, health, economy and leadership (https://www.arup.com/projects/city-resilience-index). A third model used in relation to naturally-triggered disasters is ‘disaster resilience of place’ (DROP), which emphasises
+location in relation to resilience and vulnerability (see https://www.sciencedirect. com/science/article/pii/S0959378008000666). A fourth model40 assesses the level of resilience in low-income urban settlements (http://discovery.ucl.ac.uk/1517964/1/1-s2.0-
+S2212420916300504-main.pdf). A fifth model, focusing on children, is Plan International’s Child-Centred Urban Resilience Framework (https://www.plan.org.au/-/media/plan/ documents/reports/curf_brochure2016v8.pdf).
+The following model, from DFID, is presented here as it is readily understandable and is applicable to urban areas, for example in its emphasis on systems. 37	  Taken collectively, these three forms of capacity (adaptive, anticipatory and absorptive) are sometimes referred to as
+the Three As. See for instance https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9812.pdf. 38	  Resilience is ‘the ability of individuals, communities, organizations or countries exposed to disasters and crises
+and underlying vulnerabilities to anticipate, reduce the impact of, cope with, and recover from the effects of shocks and stresses without compromising their long-term prospects’. See D. Sanderson and A. Sharma (eds) IFRC World
+Disasters Report. Resilience: Saving Lives Today, Investing for Tomorrow (Geneva: IFRC, 2016) (https://reliefweb.int/ report/world/world-disasters-report-2016-resilience-saving-lives-today-investing-tomorrow-enar). 39	  L. Bosetti, A. Ivanovic and M. Munshey, A Review of Fragility, Risk and Resilience Frameworks (New York: United Nations
+University Centre for Policy Research, 2015), p. 16, cited in Sanderson and Sharma (eds), IFRC World Disasters Report. 40	  S. Woolf et al., ‘Towards Measurable Resilience: A Novel Framework Tool for the Assessment of Resilience Levels in
+Slums’, International Journal of Disaster Risk Reduction 19, 2016 (http://discovery.ucl.ac.uk/1517964/1/1-s2.0S2212420916300504-main.pdf).
+
+## Page 79
+
+Chapter 2 Themes and issues     |    069 Chapter 2 Figure 2.2 A model of resilience Shocks Stresses System or process
+1. Context
+e.g. social group, region, institution Resilience of what?
+Resilience of what?
+2. Disturbance
+e.g. natural hazard, conflict, insecurity, food shortage, high fuel prices
+3. Capacity to
+deal with disturbance
+4. Reaction to
+disturbance e.g. survice, cope, recover, learn, transform Exposure Bounce back better Bounce back Recover but worse than before Collapse Sensitivity Adaptive capacity Source: DFID, Defining Resilience: A DFID Approach Paper (London: DFID, 2011), reproduced in J. Twigg, Disaster Risk
+Reduction, Good Practice Review 9, Revised Edition (London: ODI, 2015), p. 19.
+In this operational model (which aligns with Rockefeller’s definition above):
+• Shocks and stresses are described as disturbances (a word commonly used in
+resilience thinking).
+• In describing what actions to take (No. 3, capacity to deal with disturbance), the
+key words are exposure (the size of the shock or degree of stress), sensitivity (how much the individual, community or system is vulnerable) and the ability to adapt (the changes people or systems make as a result).
+• Outcomes from the interventions taken range from very positive (‘bounce forward’)
+to failure (collapse).
+
+## Page 80
+
+070    |    Humanitarian response in urban contexts This model is helpful in particular because of the three choices given in No. 3. Actions that work therefore include a combination of reducing exposure, reducing sensitivity and
+building adaptive capacity. 2.3.3 Applying the concept of resilience in urban areas Resilience has a wide array of applications in urban programming. At a high policy level, resilience is embedded in SDG 11, to ‘make cities and human settlements inclusive, safe,
+Box 2.4  The Honiara Urban Resilience and Climate Action Plan (HURCAP), Solomon Islands The 2016 Honiara Urban Resilience and Climate Action Plan (HURCAP) is a collaboration between Honiara City Council, the Solomon Islands government and UN-Habitat.
+The aim of the HURCAP is to strengthen the capital’s resilience to the effects of climate change, earthquakes, tropical cyclones and tsunamis, as well as structural vulnerabilities including unplanned urban growth and poor urban planning.
+Building resilience in this context has focused on promoting participatory and collaborative planning in ten priority areas: urban planning and land development; housing; infrastructure; water, sanitation and waste; ecosystem services and coastal processes;
+human health and well-being; communication (awareness and education); livelihoods and behaviour change; disaster preparedness and response; and governance and partnerships.
+Box 2.5  Resilience: lessons from Amman and Kampala With the Rockefeller Foundation’s 100 Resilient Cities Programme, IRC is working to incorporate refugee movements into city development plans. In Amman and Kampala, it is working with the city authorities to support refugee-owned businesses,
+in particular women-owned businesses, in marginalised neighbourhoods. The initiative also included ensuring that international NGOs work more closely with local government and align their activities with local government policy. In Kampala, action
+points included a commitment not to view refugees as a burden, but ‘as an opportunity to identify and realise pathways to sustainable and inclusive growth’; and to engage both host and refugee populations collectively for mutual gain.
+Source: P. Jones and D. Sanderson, ‘Urban Resilience and Informal and Squatter Settlements in the Pacific Region’, Development Bulletin 78, 2017.
+Source: IRC, From Response to Resilience. Working with Cities and City Plans to Address Urban Displacement: Lessons from Amman and Kampala (London: IRC, 2018).
+
+## Page 81
+
+Chapter 2 Themes and issues     |    071 resilient and sustainable’. This is important because it signals that almost all the world’s governments have signed up to enact a resilience-based approach from now until 2030.
+According to the UN,41 as of 2015 142 countries had developed national policies, ‘the vast majority’ of which align with the SDGs. Resilience therefore can be openly discussed with national government decision-makers as a uniting course of action. The same applies where
+national policy translates to city-level policy (see the example below on municipal planning).
+Resilience has also been especially tied in with climate change (recognised as both a shock and a stress: see Section 1.2.4 on climate change). The concept of resilience has also been used in the following ways.
+• To provide convening power to unite disparate actors for collective action. The term
+itself is positive, and is readily understandable. As an example, the NGO CordAid uses ‘building urban resilience’ as a goal for convening neighbourhood groups to develop DRR programmes.42 41	  See https://unstats.un.org/sdgs/report/2016/goal-11/.
+42	  See, for example, http://www.worldurbancampaign.org/cordaid-urban-resilience-peoples-approach.
+Useful sources of further information
+P. Sitko and A. Massella, Building Urban Resilience in the Face of Crisis: A Focus on People
+and Systems, GAUC, 2019 (https://drive.google.com/file/d/146jonovw5v0WItmyf8aEIhP9 7uSmxibJ/view). 100 Resilient Cities and the global resilience movement (https:// action.100resilientcities.org/page/s/join-the-global-resilience-movement#/-_/).
+An extensive list of resources on resilience and climate change adaptation can be found at http://www.i-s-e-t.org/resources-cca-resilience.
+The World Bank’s publication Building Urban Resilience, while focused on disaster risk reduction, includes guidelines on risk assessment and land upgrading, among other things (http://www.gfdrr.org/sites/gfdrr/files/publication/EAP_handbook_principles_
+tools_practice_web.pdf).
+UN-Habitat’s 2017 publication Trends in Urban Resilience provides useful information on key actors and several case studies of urban resilience programming from a number of contexts (http://urbanresiliencehub.org/wp-content/uploads/2017/11/Trends_in_
+Urban_Resilience_2017.pdf).
+
+## Page 82
+
+072    |    Humanitarian response in urban contexts • To emphasise DRR efforts to reduce disaster risk before a shock or stress occurs.
+• To better combine development and humanitarian emergency actions and
+understandings – a theme running throughout this review is that effective urban humanitarian action requires longer, more developmental timeframes.
+
+## Page 83
+
+Chapter 3 Tools and approaches    |    073 Chapter 3 Tools and approaches 3.1 Frameworks, standards and alliances A number of frameworks, standards and alliances relate to humanitarian response in urban areas. The following seeks to highlight the urban-specific content of particular documents,
+while acknowledging that wider aspects of each document may also be applicable. Many of the following examples are of internationally agreed standards, often reflecting where the lenses of humanitarian practitioners are. These should be referred to alongside the national
+regulatory frameworks, standards and codes (for example building codes) that emergency response operations must adhere to. 3.1.1 Frameworks and global agreements
+These include:
+The Sustainable Development Goals (SDGs)
+The Sustainable Development Goals (SDGs)1 were agreed by world leaders in 2015 as part of the UN 2030 Agenda for Sustainable Development. While all 17 are relevant to urban issues (for example ending poverty and hunger and gender equality), SDG11 – ‘Make cities
+inclusive, safe, resilient and sustainable’ – is known as ‘the urban SDG’. Indicators for this goal include:2 • ‘Access for all to adequate, safe and affordable housing and basic services; upgrade slums.
+• ‘Access to safe, affordable, accessible and sustainable transport systems for all,
+improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older people.
+• ‘Inclusive and sustainable urbanisation and capacity for participatory, integrated
+and sustainable human settlement planning and management.
+• ‘Protect and safeguard the world’s cultural and natural heritage.
+1 See https://www.un.org/sustainabledevelopment/sustainable-development-goals/ 2 ‘SDG 11: Sustainable Cities and Communities’ –  Indicators by Targets’ (https://medium.com/sdgs-resources/sdg11-indicators-5a613061b3dc).
+
+## Page 84
+
+074    |    Humanitarian response in urban contexts • ‘Reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.
+• ‘Reduce the adverse environmental impact of cities, including by paying special
+attention to air quality and municipal and other waste management.
+• ‘Universal access to safe, inclusive and accessible green and public spaces, in
+particular for women and children, older persons and people with disabilities.
+• ‘Positive economic, social and environmental links between urban, peri-urban and
+rural areas by strengthening national and regional development planning.
+• ‘Increase the number of cities and human settlements adopting and implementing
+integrated policies and plans for inclusion, resource efficiency, mitigation and adaptation to climate change and resilience to disasters, and develop and implement them, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030
+(see below).
+• ‘Support least developed countries, including through financial and technical
+assistance, in building sustainable and resilient buildings utilising local materials.’ The New Urban Agenda The New Urban Agenda (NUA)3 was agreed at the Habitat III conference hosted by UN-Habitat in Quito, Ecuador, in 2016. The NUA ‘lays out standards and principles for the planning,
+construction, development, management, and improvement of urban areas along its five main pillars of implementation: national urban policies, urban legislation and regulations, urban planning and design, local economy and municipal finance, and local implementation’.
+Concerning humanitarian crises, the NUA refers to the need for better coordination and investments; the need to adopt and implement disaster risk reduction and management; the need to build urban resilience; better management of natural resources; and building
+the capacities of local authorities to develop and implement disaster risk reduction and response plans.
+The Grand Bargain The Grand Bargain4 that resulted from the 2016 World Humanitarian Summit makes no specific reference to ‘urban’ or ‘cities’. Its commitments are nonetheless highly relevant to
+urban practice. They include:
+3 See http://habitat3.org/the-new-urban-agenda/. 4 See https://www.agendaforhumanity.org/initiatives/3861.
+
+## Page 85
+
+Chapter 3 Tools and approaches    |    075 Chapter 3 • more support and funding for local and national responders;
+• increased use and coordination of cash-based programming (see Section 3.3);
+• improved joint and impartial needs assessments (see Section 3.6);
+• more emphasis on people receiving aid making decisions that affect their lives (a
+‘participation revolution’); and • better engagement between humanitarian and development actors.
+The Sendai Framework for Disaster Risk Reduction 2015–2030 The Sendai Framework for Disaster Risk Reduction 2015–20305 comprises seven targets and four priorities for reducing risk to disaster. In relation to urban issues in particular, the
+framework emphasises the need to consider land use, urban planning and building codes, and the promotion of disaster risk transfer and insurance mechanisms. 3.1.2 Standards
+These include:
+The Sphere Project Perhaps the best known set of standards is the Sphere Project’s Sphere Handbook: Humanitarian Charter and Minimum Standards in Humanitarian Response.6 While there is no dedicated urban chapter, the 2018 revision comprises guidance relating to urban areas within each section,
+including food, health, shelter and WASH (for sector-specific information see relevant sections of this review). For example, Sphere’s guidance on WASH states that ‘Community engagement can be harder in urban areas, where the population density is higher and at risk groups are
+less visible. However, in urban areas, public spaces, media and technology can provide the opportunity for broader and more efficient dialogue. Diverse ownership of assets (households in rural areas, public–private mix in urban areas) affects the choice of response options and
+methods of delivery’. The guidance suggests a mixed approach to WASH, including using markets, cash and vouchers, technical assistance and community engagement.
+Sphere’s 2016 guide Using the Sphere Standards in Urban Settings comprises urban case studies and ‘a checklist guiding practitioners in their choice of standards and adaptation of
+the supporting indicators and actions’.7 Issues covered by the guide include:
+5 See https://www.unisdr.org/we/coordinate/sendai-framework. 6 Sphere Project, Sphere Handbook: Humanitarian Charter and Minimum Standards in Humanitarian Response, 2018 (http://www.sphereproject.org/), p. 90. 7 Sphere Project, Using the Sphere Standards in Urban Settings, 2016 (https://www.spherestandards.org/
+wp-content/uploads/using-the-sphere-standards-in-urban-settings.pdf).
+
+## Page 86
+
+076    |    Humanitarian response in urban contexts • Community representation and leadership.
+• Recognising and minimising marginalisation.
+• Communication, outreach, feedback and accountability.
+• Protection concerns in urban situations.
+• Working in unplanned settlements with poor land use.
+• Minimising the negative effects of humanitarian assistance.
+• Awareness and prevention of gender-based violence.
+• Working in areas controlled by gangs or where rule of law is limited.
+• Working with a wider range of stakeholders.
+• Coordination of urban humanitarian responses.
+• Working in illegal and unrecognised settlements.
+The guide ends with a checklist for considering standards in urban contexts, covering applicability (for instance, are rurally derived standards applicable to urban contexts?), protection, communications (which standards need communicating?) and opportunities (for
+example using local markets).
+The Core Humanitarian Standard on Quality and Accountability The Core Humanitarian Standard on Quality and Accountability (CHS)8 comprises nine commitments that aim to improve the quality and effectiveness of humanitarian prog-
+rammes, in particular relating to improved accountability to communities. Although the CHS makes only one reference to ‘urban’, the commitments, concerning for example improved programme quality and participation, are relevant to programming in urban areas.
+One report on accountability to urban communities in crises found that it had not been ‘sufficiently embedded in the culture and practice of the humanitarian system to make a meaningful impact on the manner in which the humanitarian programme cycle is
+managed’.9 The paper presents ten reasons why this is so, among them weak governance, the humanitarian–development divide and a lack of incentives for affected people to meaningfully engage.
+The report is A. Brouder, Accountability to Affected Populations in Urban Crises: Who Cares?, Urban Crises Learning Partnership (UCLP), 2017 (http://pubs.iied.org/pdfs/G04278.pdf). 8 See www.corehumanitarianstandard.org. 9
+A. Brouder, Accountability to Affected Populations in Urban Crises: Who Cares? Urban Crises Learning Partnership
+(UCLP), 2017 (http://pubs.iied.org/pdfs/G04278.pdf), p. 1.
+
+## Page 87
+
+Chapter 3 Tools and approaches    |    077 Chapter 3 UNHCR’s 2009 policy on refugee protection and solutions in urban areas UNHCR’s 2009 policy on refugee protection and solutions in urban areas ‘is based on the principle that the rights of refugees and UNHCR’s mandated responsibilities towards them
+are not affected by their location, the means whereby they arrived in an urban area or their status (or lack thereof) in national legislation. The Office considers urban areas to be a legitimate place for refugees to [exercise] their rights, including those stemming from their
+status as refugees as well as those that they hold in common with all other human beings’.10
+The policy outlines rights and responsibilities, and offers guidance on:
+• Providing reception facilities.
+• Registration and data collection.
+• Ensuring that refugees are documented.
+• Determining refugee status.
+• Reaching out to the community.
+• Fostering constructive relations with urban refugees.
+• Maintaining security.
+• Promoting livelihoods and self-reliance.
+• Ensuring access to healthcare, education and other services.
+• Meeting material needs.
+• Promoting durable solutions.
+UNHCR’s subsequent 2014 Policy on Alternatives to Camps ‘refocuses attention on refugees living in camps and extends the principal objectives of the urban refugee policy to all operational contexts’.11 The policy identifies several ‘lines of action’ for successful
+implementation, which includes ‘consulting with refugees and host communities’, ‘achieving synergies with national development planning’ and ‘engaging with national authorities’.
+For further discussion of these policies see Section 1.3 on displacement. 10	  UNHCR Policy on Refugee Protection and Solutions in Urban Areas, September 2009 (http://www.unhcr.org/en-au/ protection/hcdialogue%20/4ab356ab6/unhcr-policy-refugee-protection-solutions-urban-areas.html), p. 3.
+11	  UNHCR, Policy on Alternatives to Camps, 2014 (http://www.unhcr.org/5422b8f09.html), p. 6.
+
+## Page 88
+
+078    |    Humanitarian response in urban contexts 3.1.3 Alliances and networks
+These include:
+The Global Alliance for Urban Crises (GAUC)
+The GAUC12 ‘promotes a vision of inclusive, safe, resilient, and sustainable cities and towns in which urban communities, their leaders and members have the power, capacities and resources to address the risks and reality of humanitarian crises, to mitigate crisis
+impacts on the most vulnerable, including the displaced, and to enable affected people to determine, with dignity, the course of their lives and their futures’. Its aim is ‘to develop and connect global, regional and national rosters of urban and local government experts
+specializing in humanitarian crisis response and resilience building’. GAUC’s members are drawn from academia, aid agencies, municipalities and business.
+GAUC’s Urban Crises Charter is intended to be used as ‘a basis for both policy and operational level engagement, in order to be more effective in preventing, preparing for, and responding to humanitarian crises in urban environments’. The charter comprises the following
+commitments:
+• Prioritise local municipal leadership in determining responses to urban crises that
+are aligned with development trajectories and promote the active participation of affected people.
+• Adopt urban resilience as a common framework to align human rights, humanitarian
+and development goals.
+• Manage urban displacement as a combined human rights, development and
+humanitarian concern.
+• Build partnerships between city, national, regional and global levels, across discipl-
+ines and professions.
+As an example of the first commitment, ‘prioritising local leadership’, IRC’s work in Amman (see Section 2.3) has focused on engaging with the local municipality to ensure long-term strategic planning for integrating Syrian refugees into city life. Greater Amman Municipality’s
+Resilience Strategy contains a commitment to: 10% refugee ownership of business startups (in particular those run by women); enhancing social cohesion; supporting refugee businesses start-ups in non-refugee areas; and strengthening the engagement of women
+and girls in municipal youth centres. 12	  http://urbancrises.org/.
+
+## Page 89
+
+Chapter 3 Tools and approaches    |    079 Chapter 3 Uniting Cities and Local Governments (UCLG)
+UCLG13 is a network of local governments. Its aim is ‘To be the united voice and world advocate of democratic local self-government, promoting its values, objectives and interests, through cooperation between local governments, and within the wider international community’.
+UCLG’s Taskforce for Territorial prevention and management of crisis, formed in 2008, focuses primarily on preparedness. Its 2016 report Urban Consultations: Perspectives from
+Cities in Crisis14 identified three key challenges in urban humanitarian response:
+• Lack of pre-crisis preparedness.
+• Divergence in the responses of local and international actors, ‘fuelled by lack of
+coordination mechanisms between them’.
+• The consequences of diverging trends between international and local actors, i.e.
+‘the loss in effectiveness, efficiency and relevance of the humanitarian response because of the failure to promote synergies between international and local actors’.
+The Cities Alliance The Cities Alliance,15 a partnership between the World Bank and UN-Habitat, ‘promotes long-term programmatic approaches that are focused on strengthening local skills and capacity, developing national urban policies, investing in infrastructure, enabling strategic
+city planning, and engaging citizens’. Among other things, the website provides guidance and advice to local municipalities concerning improved city management. 3.2 Area-based approaches Area-based approaches (ABAs) have become popular in recent years as an urban-
+derived approach to post-crisis recovery. They are first and foremost about supporting neighbourhoods to recover. In practice, they resemble more a developmental approach than perhaps a traditional humanitarian one.
+There are a number of different definitions for ABAs,16 as well as a number of different names, including settlements approach, place-based approach and neighbourhoods 13	  See https://www.uclg.org/ 14	  UCLG, Consultations on Humanitarian Responses in Urban Areas: Perspectives from Cities in Crisis, 2016
+(https://www.uclg.org/sites/default/files/cities_in_crisis.pdf). 15	  See http://www.citiesalliance.org/. 16	  See for instance E. Parker and V. Maynard, Humanitarian Response to Urban Crises: A Review of Area-based Approaches, IIED Working Paper (London: IIED, 2015) (http://pubs.iied.org/10742IIED).
+
+## Page 90
+
+080    |    Humanitarian response in urban contexts approach.17 All, however, encapsulate the importance of being based in a defined location (such as a neighbourhood). The aim is to strengthen local ownership and the engage-
+ment of affected populations by working in a participatory way and taking a multi-sectoral approach.
+This section provides a definition for ABAs and outlines ten principles for implementing ABAs according to the broad steps of the project management cycle (assessment and design, implementation and evaluation and learning). Given the cross-cutting and multi-sectoral
+nature of ABAs, this section relates closely to a large number of others in this review, including assessments and targeting (Section 3.6), design and management (3.9) and monitoring and evaluation (Section 3.10).
+This section draws on research into ABAs as part of the Stronger Cities Initiative.18 The full report, which contains further information and guidance, is D. Sanderson and P. Sitko, Urban Area-based Approaches in Post-disaster Contexts (London: IIED, 2017) (http://pubs.iied.org/
+pdfs/10825IIED.pdf). 3.2.1 Defining ABAs One definition is that an ABA ‘supports people after a disaster in a specific location to transition effectively from relief to recovery; it works with existing structures and can be
+scaled up’. The Global Shelter Cluster Working Group identifies the following commonalities
+across 30 case studies:
+• Understanding the community – context is key.
+• Engagement with multiple actors.
+• Supporting alignment of humanitarian and development priorities.
+• Capacity strengthening of local actors.
+• Strong engagement with local authorities.
+• Significant resource requirements and time investment.
+• Scaling up beyond a specific context is challenging.
+17	  For further discussion, see Global Shelter Cluster, Settlements Approaches in Urban Areas Working Group, 2018 (https://www.sheltercluster.org/settlements-approaches-urban-areas-wg/documents/settlements-terminology-paper-
+draftapr2018). 18	  The Stronger Cities Initiative was a consortium initiative comprising the International Rescue Committee (IRC), the Norwegian Refugee Council (NRC), World Vision International (WVI) and the University of New South Wales (UNSW).
+The purpose of the Initiative was to produce practical, field-tested guidance for humanitarian organisations working in urban conflict, displacement and natural hazard settings.
+
+## Page 91
+
+Chapter 3 Tools and approaches    |    081 Chapter 3 • Established humanitarian coordination mechanisms remain structured around a sectoral or cluster approach.
+• The Housing, Land and Property context is complex.
+• The relationship with and impact on nearby settlements can be difficult: ‘Challenges
+and tensions can arise when balancing the needs and priorities of affected populations within the specific settlement in relation to neighboring settlements and overall city level planning’.19 The Global Shelter Cluster’s Settlement Approaches in Urban Areas: Compendium of Case
+Studies (Geneva: IFRC and UNHCR, 2018) can be found at https://www.sheltercluster.org/ sites/default/files/docs/urbansettlementcompendium_uswg_july2018.pdf.
+As noted in the introduction, ABAs are one form of a wider approach to post-disaster recovery programmes that embodies neighbourhood-based, place-based and settlementsbased approaches. For a discussion, see C. Setchell, ‘The Emerging Importance of the
+Settlements Approach’, in Global Shelter Cluster, State of the Humanitarian Shelter and Settlements Report. For a summary of the developmental roots of ABAs, see D. Sanderson, ‘Implementing Area-based Approaches (ABAs) in Urban Post-disaster Contexts’,
+Environment and Urbanization 29(2), October 2017 (https://journals.sagepub.com/doi/ abs/10.1177/0956247817717422).
+ABAs are complex to manage, and involve negotiation and dialogue with local residents, government figures and other stakeholders (see the example from Haiti in Box 3.1).
+The effective coordination of sectoral inputs, such as WASH, shelter, protection and livelihoods, also takes a lot of effort. This complexity mirrors the reality of city recovery, and the evidence indicates that this is what is required if investments in recovery programmes
+are to have positive and lasting results. 3.2.2 Implementing ABAs in the project management cycle Figure 3.1 presents ten principles for implementing ABAs according to the project management cycle (assessment and design, implementation and evaluation and learning).
+19	  Global Shelter Cluster, Settlement Approaches in Urban Areas: Compendium of Case Studies (Geneva: IFRC and UNHCR, 2018) (https://www.sheltercluster.org/sites/default/files/docs/urbansettlementcompendium_uswg_july2018.pdf).
+
+## Page 92
+
+082    |    Humanitarian response in urban contexts Box 3.1  Implementing an ABA: Delmas 19, Port-au-Prince, Haiti The Haiti Urban Regeneration and Reconstruction Programme (URRP) was instigated by the British Red Cross (BRC) in Port-au-Prince following the Haiti earthquake as an urban
+ABA programme. Activities covered a range of coordinated interventions, including cash (small business loans and microfinance), reconstruction of infrastructure and housing repairs. The final evaluation report documents some of the programming challenges in
+involved in working in ‘the densely populated Delmas 19, which was characterised by endemic urban violence and a lack of community cohesion, and [the neighbourhood] was also extremely vulnerable as a result of underlying poverty as well as the effects
+of the earthquake … the social, political and economic networks of any densely populated, urban environment are incredibly complex and ceaselessly changing.
+‘At the time, BRC took the risky decision to locate its entire Community Mobilisation Team in the heart of the community, investing heavily to develop a “Community Mobilisation Team” in an effort to foster greater links, transparency and accountability
+with the community it was seeking to support. While the relationships and tensions between BRC and the community ebbed and flowed, it is important to highlight that BRC was able to work with the entire community to plan and design the URRP’.20
+The evaluation also discusses challenges relating to timeframes. ‘BRC intentionally pursued a participatory approach in the design and delivery of the URRP, which increased levels of engagement and transparency. However, it also led directly to
+delays in programme delivery, as it took time to consult and engage with the multitude of participants with vested interests, from single individuals to local unelected committees up to Mayoral elected authorities. The Community Mobilisation Team
+was central to the URRP delivery, convening the community and programme team, communicating information and mitigating challenges from pre-design to post-exit phases … reaching consensus amongst stakeholders in an urban environment, let alone
+a dense urban slum such as Delmas 19, is incredibly difficult … due to the scale of the beneficiary assessment process, which ensured accurate and triangulated vulnerability data, but also involved negotiating with a large community of residents to determine
+the most appropriate programme option’.21 Source: Advisem Services, British Red Cross’ Haiti Urban Regeneration and Reconstruction Programme (URRP). Final Evaluation (Ottowa: Advisem Services, 2016) (https://www.alnap.org/help-library/british-red-cross-haiti-urban-
+regeneration-and-reconstruction-programme-urrp). 20    Advisem Services, British Red Cross’ Haiti Urban Regeneration and Reconstruction Programme (URRP). Final Evaluation (Ottowa: Advisem Services, 2016) (https://www.alnap.org/help-library/british-red-cross-haiti-urban-
+regeneration-and-reconstruction-programme-urrp). 21   Ibid.
+
+## Page 93
+
+Chapter 3 Tools and approaches    |    083 Chapter 3
+The ten principles are as follows:
+1. Multi-agency, multi-sector participatory assessments
+Assessments above all need to be participatory, with mutual learning between agencies, local government and neighbourhood members reinforced wherever possible. Assessment approaches are discussed at length in the following sections: Section 3.5 (context analysis);
+Section 3.6 (assessments and profiling); Section 3.7 (targeting) and Section 3.8 (response analysis).
+Figure 3.1 Ten principles for implementing ABAs in the project management cycle Source: Sanderson and Sitko, Urban Area-based Approaches in Post-disaster Contexts.
+Evaluation and learning 9	 Plan for scaling-up and 10	 Measure contribution not attribution Assessment and design 1	 Multi-agency, multi-sector participatory assessments 2	 Focus on location 3	 Realistic timeframes Implementation
+4	 People-centred actions – whose reality counts? 5	 Work with existing structures 6	 Collaborating sectors and programmes 7	 Flexible programming: adaptive management 8	 Nimble internal systems
+
+## Page 94
+
+084    |    Humanitarian response in urban contexts
+2. Focus on location
+The intent behind focusing on location is to reinforce the importance of people’s identity (in belonging to a specific part of the city), and of rebuilding people’s everyday lives.
+Focusing on location also forces implementing agencies to take account of the complex, interconnected nature of real life. For example, looking at what people live in (shelter; see Section 4.2) also ties into safety (protection; see Section 4.7), access to services
+(WASH; see Section 4.4), the work people might do in or immediately outside their homes (livelihoods; see Section 4.5), and so on. Focusing on place has been a long-established approach in recovery. For example, after Typhoon Haiyan IFRC found that one benefit of
+focusing on location is that it ‘involves the consideration20 of other aspects of community life beyond shelter and how these aspects all fit together physically and functionally’.21 Location, often referred to as ‘the neighbourhood approach’,  is discussed in Section 4.2
+on shelter and settlements.
+3. Realistic timeframes
+Perhaps one of the most significant challenges of ABAs is that they may take longer than traditional recovery efforts by external agencies. When this is the case, ensuring local ownership of activities is vital so that (as well as for other reasons) programmes do not stall
+when agencies withdraw.
+It is worth noting here that, beyond immediate life-saving actions following a disaster, such as search and rescue, emergency medicine and meeting basic needs (food, water and shelter), the belief that aid needs to be hurried is largely a myth. A study of the experi-
+ences of some 6,000 people in humanitarian relief and recovery operations in a number of disasters found that what people needed was less speed, and more consideration.
+The study found that ‘many feel that “too much” is given “too fast”’. The study also found that ‘very few people call for more aid: virtually everyone says they want “smarter aid”’.22 It takes time to ensure the right programmes are designed, conceived and
+implemented in collaboration with local power structures. 21	  V. Stodart, ‘Regulatory Barriers and the Provision of Shelter in Post-disaster Situations: Housing, Land and Property (HLP) Issues in the Recovery of Tacloban after 2013 Typhoon Haiyan’, in D. Sanderson, J. Kayden and J. Leis,
+Urban Disaster Resilience: New Dimensions from International Practice in the Built Environment (Routledge, New York, 2016), p. 108. 22	  M. Anderson, D. Brown and J. Isabella, Time to Listen: Hearing People on the Receiving End of International Aid
+(Cambridge, MA: CDA Collaborative Learning Projects, 2012) (http://cdacollaborative.org/wordpress/wp-content/ uploads/2016/01/Time-to-Listen-Hearing-People-on-the-Receiving-End-of-International-Aid.pdf), p. 2.
+
+## Page 95
+
+Chapter 3 Tools and approaches    |    085 Chapter 3
+4. People-centred actions – whose reality counts?23
+Adherence to what are commonly known as people-centred approaches or actions (as
+introduced in Section 1.1, ways of seeing the city) involves:
+• supporting affected populations in their own recovery;
+• adopting a consultative, facilitative approach;
+• taking the time to listen (through participatory assessments); and
+• using tools such as those common in action planning (see principle seven below).
+The importance of such an approach is identified in the 2014 Core Humanitarian Standard, namely Standard Four, that response is based on participation (see Section 3.1 on frameworks, standards and alliances). Further tools on participatory assessment
+(such as participatory rapid appraisal) are described in Section 3.6. See also D. Archer and S. Boonyabancha, ‘Seeing a Disaster as an Opportunity – Harnessing the Energy of Disaster Survivors for Change’, Environment and Urbanization 23(2) (London: IIED, 2011)
+(http://journals.sagepub.com/doi/full/10.1177/0956247811410011).
+5. Work with existing structures
+A key point about cities is that structures for almost everything already exist: the job of humanitarian assistance and recovery is to engage with them. Structures here are taken to mean services provided by government, utilities such as water supply, electricity and
+sewage and community-organised structures such as water committees. For interventions to be effective after the life of a programme, activities must engage with existing structures, even if these are weak – otherwise, such structures may be weakened even further.24
+Working with existing structures is explored further in Section 2.1 on coordination.
+6. Collaboration between sectors and programmes
+Collaboration between sectors is essential in order to deliver a more coherent and unified
+response. As the UN Office for the Coordination of Humanitarian Affairs (OCHA) notes:
+‘no single humanitarian agency can cover all humanitarian needs; collaboration is not an 23	  ‘Whose reality counts?’ is a question for successful neighbourhood interventions coined by participation expert Robert Chambers. The question relates to interventions undertaken by external agencies on behalf of local
+populations, and is intended to challenge their assumptions and approaches. Asking ‘whose reality counts?’ compels intervening agencies to consider the aims, desires and aspirations of affected people first (and to question their own
+assumptions), and from that, to implement programmes that are relevant first and foremost to the people they are intended to help. 24	  P. Knox Clarke and L. Campbell, Exploring Coordination in Humanitarian Clusters, ALNAP Study (London: ALNAP/
+ODI, 2016) (https://www.alnap.org/system/files/content/resource/files/main/update-exploring-coordination-inhumanitarian-clusters.pdf).
+
+## Page 96
+
+086    |    Humanitarian response in urban contexts option, it is a25 necessity’.26 In urban areas, with overlapping and complex needs, collaboration is especially important. Collaboration is discussed in Section 2.1 on coordination. See also
+T. Alcanya and F. Al-Murani, Urban Humanitarian Response: Why Local and International
+Collaboration Matters, Briefing, (London: IIED, 2016) (file:///Users/david/Desktop/HIF%20 proposals%20March%202017/17378IIED.pdf). 25   Source: Global Shelter Cluster, Settlement Approaches in Urban Areas: Compendium of Case Studies (Geneva: IFRC
+and UNHCR, 2018) (https://www.sheltercluster.org/sites/default/files/docs/urbansettlementcompendium_uswg_ july2018.pdf).
+
+26	  OCHA, ‘The Four Pillars of Humanitarian Reform’, 2005 (www.humanitarianreform.org).
+Box 3.2  Settlement-based response and recovery in Bangui Following the easing of conflict in the Central African Republic in 2016–17, a pilot project, AGORA, assisted the return of some 20,000 people to the capital city, Bangui.
+The initiative piloted a settlements-based approach in four neighbourhoods, following extensive consultation and agreement between local neighbourhood groups, mayors, civil society representatives, informal community leaders, UN agencies and NGOs. The
+project’s five steps comprised:
+1.	 Setting up an institutional framework and Urban Working Group.
+2.	 Multi-sectoral settlement-based assessments, involving collecting primary data and
+consultations with local actors.
+3.	 Settlement-based response planning ‘reflecting priorities jointly agreed by local
+and international actors and response actions in the short, mid and long term’.
+Progress was posted on a shared website.
+4.	 Coordination and implementation of response plans, chaired jointly by the mayor
+and OCHA.
+5.	 	Capacity-building of local authorities.
+Challenges included coordination (‘A lot of time was required to clarify the link between existing Clusters and inter-cluster systems and the Urban working group, causing delay in project implementation’ 26); limited local capacities and resources; and limited
+resources, preventing project replication in other neighbourhoods.
+Source: Global Shelter Cluster, Settlement Approaches in Urban Areas: Compendium of Case Studies (Geneva: IFRC and UNHCR, 2018) (https://www.sheltercluster.org/sites/default/files/docs/urbansettlementcompendium_uswg_ july2018.pdf).
+
+## Page 97
+
+Chapter 3 Tools and approaches    |    087 Chapter 3
+7. Flexible programming and adaptive management
+A long-recognised hindrance to effective programming in aid responses relates to tools, funding flows and administrative requirements that are insufficiently flexible.27 The recent development and piloting of new tools, such as adaptive management, may be suited
+to grappling with the uncertainties and complexities of urban programming. Adaptive management, along with other approaches, is discussed further in Section 3.9 on design and management.
+8. Nimble internal systems
+For an urban ABA to have the best chance of success, agencies’ internal systems, such as human resources and finance, need to be aligned to the purpose and overall goal of the programme. Involving HR and finance staff at the earliest stages of the design of an ABA
+can help support services function more smoothly in the subsequent implementation of a programme, with agreed clarity (between programme and non-programme staff) on the overall aim.
+9. Plan for scaling-up
+Successful ABAs need to consider scale-up – one-off, isolated projects do little to assist with the wider requirements a city may need for recovery. Activities for ensuring scale-up include:
+• Ensure local ownership as far as possible (see Principle 4).
+• Work within local structures and municipal planning processes (see Principle 5).
+• Coordinate with other organisations to ensure a more even spread of effort.
+• Ensure the area-based project does not work against wider municipal urban planning
+and development by coordinating with the local government (see Section 2.1 on coordination).
+Given the projectised approach of most humanitarian aid responses, there are challenges to scaling up. They include:28 • Insufficient analysis of social, cultural and economic conditions and relationships, leading to projects with a narrow focus that are hard to replicate.
+• Project duration, which may be short and not aligned to the timetables of other
+organisations. 27	  L. Wild, D. Booth and C. Valters, Putting Theory into Practice: How DFID Is Doing Development Differently (London:
+ODI, 2017) (www.odi.org/publications/10729-putting-theory-practice-how-dfid-doing-developmentdifferently). 28	  UNDP, Guidance Note: Scaling Up for Development Programmes, January 2013 (https://www.undp.org/content/ undp/en/home/librarypage/poverty-reduction/participatory_localdevelopment/guidance-note--scaling-up-
+development-programmes.html).
+
+## Page 98
+
+088    |    Humanitarian response in urban contexts • Short-term and/or unpredictable funding.
+• Lack of local ownership.
+Further guidance on scaling up can be found in WHO, Nine Steps for a Scaling Up Strategy (Geneva: WHO, 2010) (http://www.expandnet.net/PDFs/ExpandNetWHO%20Nine%20Step%20 Guide%20published.pdf) and UNDP, Guidance Note: Scaling Up for Development Programmes,
+January 2013 (https://www.undp.org/content/undp/en/home/librarypage/poverty-reduction/ participatory_localdevelopment/guidance-note--scaling-up-development-programmes.html).
+10. Measure contribution not attribution
+Evaluations of agency activities almost always seek to measure attribution, i.e.  correlating the activities of one project to community benefits. ABAs however are intended to be crosssectoral, holistic and oriented towards engaging in processes and people. To these ends, there
+is an opportunity to measure an initiative’s contribution to wider outcomes, not only those constrained by a particular project. This suits ABAs, since ‘the activities of an individual agency, and the effects of those activities, will not normally occur in isolation but rather as part of a
+multi-layered, complex response by both local and external actors’.29 Two approaches to this are measuring ‘contribution to change’ and neighbourhood-level changes in assets. Both these approaches are discussed further in Section 3.10 on monitoring, evaluation and learning.
+3.3 Cash and markets The use of cash transfers and vouchers in humanitarian action has grown substantially in recent years. In 2016, cash transfers and vouchers were worth approximately $2.8 billion, a 40% increase from 2015.30 Cash transfers and vouchers are particularly appropriate in cities;
+indeed, the Cash Learning Partnership31 argues that cash transfers should be the primary response in urban areas. Cash transfers and vouchers require functioning markets to be in place – which cities have in abundance – and working with markets compels external
+agencies to operate with and within existing structures.
+All the indications are that cash transfers and vouchers will continue to gain momentum. 29	  R. Few et al., Contribution to Change: An Approach to Evaluating the Role of Intervention in Disaster Recovery (Rugby: IT Publications, 2014) (http://www.opml.co.uk/sites/default/files/bk-contribution-change-intervention-
+disaster-recovery-221113-en_0.pdf), p. 8. 30	  Development Initiatives, Global Humanitarian Assistance Report 2018 (Bristol: Development Initiatives, 2018) (http://devinit.org/wp-content/uploads/2018/06/GHA-Report-2018.pdf), p. 11.
+31	  T. Cross and A. Johnston, Cash Transfer Programming in Urban Emergencies: A Toolkit for Practitioners, CaLP, 2011 (http://www.urban-response.org/resource/7056).
+
+## Page 99
+
+Chapter 3 Tools and approaches    |    089 Chapter 3 This section32 identifies current forms of cash transfers and vouchers. It discusses decisionmaking on using cash transfers. The section reviews using cash in urban refugee settings. It
+ends with a discussion of markets and some current market analysis approaches. 3.3.1 Types of cash transfers and vouchers Cash transfers and vouchers can be used for a variety of humanitarian and recovery objectives. These interventions support households by providing them with resources to
+meet their needs, and have the secondary benefit of supporting local markets. They enable greater choice and flexibility for households compared to the distribution of in-kind goods.
+Cash transfers Cash transfers refer to the provision of money to individuals or households. Money is usually distributed using existing financial infrastructure, such as banks, money transfer companies and payment companies. In some cases transfers can be provided digitally (also referred
+to as ‘electronic transfers’, ‘e-transfers’ and ‘digital transfers’) via mobile devices and cards (such as prepaid, ATM, credit or debit cards). E-transfers work particularly well in urban areas, where there is often good financial infrastructure and relatively high literacy rates.33 Where
+financial services are weak or absent, cash can be distributed in envelopes, though this can pose risks for people receiving the cash and the entities transporting and distributing it.
+Cash transfers emerged as an alternative to in-kind assistance because it does not make sense to distribute commodities that are available in local markets. They can also increase access to existing services. Humanitarian aid agencies can provide cash transfers for specific
+purposes – such as improving food security or access to shelter – or define objectives more broadly around supporting households to meet their basic needs. These types of transfers are sometimes referred to as ‘multipurpose cash grants’, as the intention is for households to
+use the transfer for multiple purposes that they choose, rather than specific ones determined by humanitarian agencies. However, money is inherently flexible, so households may use the marginal income from a cash transfer as they choose regardless of a programme’s objective.
+Multipurpose cash may also provide a more integrated, multisectoral response. This is important in programming in complex urban areas (see for example Section 3.2 on ABAs).
+Further information on multipurpose cash grants can be found at  http://www.cashlearning. org/thematic-area/multipurpose-cash-assistance. 32	  This section benefited greatly from the inputs of Sarah Bailey. 33	  G. Smith and L. Mohiddin, A Review of Evidence of Humanitarian Cash Transfer Programming in Urban Areas, IIED
+Working Paper (London: IIED, 2015).
+
+## Page 100
+
+090    |    Humanitarian response in urban contexts Vouchers Vouchers are a token, digital credit or coupon exchanged for pre-identified goods at designated locations. Vouchers are appropriate when cash transfers are not feasible (for example because
+of government objections), to ensure the quality of goods (such as vouchers for shelter materials) or to link recipients to specific services, for example latrine desludging. In some cases aid agencies (and/or their donors) are more comfortable with vouchers as they can
+influence spending towards specific goods and services in line with their missions. However, vouchers limit recipients’ choices and require administrative work to identify, monitor and pay vendors, and some evaluations have found that the prices of goods are higher in voucher
+shops than in local markets.34 It is therefore important that vouchers are selected because they are the most appropriate way to meet people’s needs in a particular context, and not simply to control people’s spending in line with a humanitarian agency’s objectives.
+Cash for work Cash for work (CFW) entails paying recipients for undertaking a labour-based activity. CFW programmes can be considered when the aid agency has the necessary equipment and technical skills to supervise the work and adhere to legal regulations, public or community
+works are needed, the target population has the capacity to undertake the work and meaningful assets can be created and maintained.35 One criticism of such schemes is that they sometimes lead to poor-quality or unnecessary work.36
+Recent research by ALNAP37 on the use of CFW in earthquake response suggests that it can be appropriate, providing income to households and creating useful work, including drain and canal clearance and rubble removal. The report cites an example from Nepal following
+the earthquakes there, where a UNDP CFW programme was used to ‘remove debris from public buildings, demolish private houses, and help rehabilitate local government offices’.38 The study also notes concerns in implementing CFW programmes. Citing CFW after the Haiti
+earthquake, it notes problems including ‘a lack of preparation and capacity to implement on a large scale, a slow governmental approval process, and difficulties in identifying both the 34	  See for example J. Drummond et al., WFP’s Regional Response to the Syria Crisis, 2011–2014 (Rome: WFP, 2015); S.
+Bailey, An Independent Evaluation of Concern Worldwide’s Emergency Response in North Kivu, DRC (London: ODI, 2009). 35	  See International Red Cross and Red Crescent Movement, Cash in Emergencies Toolkit, 2016 (http://rcmcash.org/).
+36	  See for example C. Clermont et al., Urban Disasters: Lessons from Haiti. Study of Member Agencies’ Responses to the Earthquake in Port au Prince, Haiti, January 2010 (London: DEC, 2011). 37	  H. Juillard and J. Jourdain, ALNAP Lessons Paper: Responding to Earthquakes (London: ODI, 2019).
+38	  A. Bhattacharjee, After-action review of Nepal earthquake response, UNDP Crisis Response Unit, 2016, p.15, cited in H. Juillard and J. Jourdain, ALNAP Lessons Paper: Responding to Earthquakes (London: ODI, 2019).
+
+## Page 101
+
+Chapter 3 Tools and approaches    |    091 Chapter 3 activities to conduct and the affected populations to participate’.39 Other reports note opportunities for corruption (‘zombie crews’, where payments are made to non-existent
+workers) and examples of meaningless work.40 Careful consideration should also be given to the purpose of a CFW scheme. If it is to provide cash to households, then cash transfers should be preferred – don’t think that people need to ‘earn’ the money by undertaking work
+for the sake of it.41 Safety nets Safety net programmes identify vulnerable people with ongoing and regular support, usually to meet basic needs. Such approaches have been widely used in food-scarce locations and in situations of chronic poverty.42 In Ethiopia, for example, the Productive Safety Net
+Programme (PSNP) provides transfers of food, cash or a combination to chronically foodinsecure households. Around 8 million people participate in the scheme. In Kenya, four major unconditional cash transfer programmes operate under the National Safety Net Programme
+(NSNP), providing monthly payments of between KES 2,000 and KES 2,700 (around $20–$30).
+Conditionality Any form of transfer (cash, voucher or in-kind) can be provided with conditions (conditional) or without (unconditional). Unconditional means that no action is required to receive the transfer. Conditional transfers require that households do something in order to receive
+the transfer (e.g. sending children to school). In some instances conditions are put in place for receiving instalments of large grants related to livelihoods recovery or shelter, such as rebuilding part of a shelter. Conditions are usually imposed to encourage behaviour change,
+which may not be appropriate during an emergency. Conditions are more common in social protection programmes than in humanitarian ones, such as large-scale conditional cash transfers in Latin America. Because CFW requires work to be completed, it is sometimes
+described in humanitarian operations as a conditional transfer. 3.3.2 Deciding when to use cash transfers Decision-making on cash transfers in urban areas follows the same general criteria as any other response. The main questions are whether people can buy what they need safely at
+39	  Juillard and Jourdain, ALNAP Lessons Paper, p.18. 40	  D. Sanderson and P. Knox-Clarke, Responding to Urban Disasters: Learning from Previous Relief and Recovery Operations (London: ODI, 2012) (https://www.alnap.org/help-library/responding-to-urban-disasters-learning-from-
+previous-relief-and-recovery-operations). 41	  F. Grünewald et al., Realtime Evaluation of Humanitarian Action Supported by DG ECHO in Haiti, Groupe URD, 2012, p. 6. 42	  See for example https://www.worldbank.org/en/topic/safetynets.
+
+## Page 102
+
+092    |    Humanitarian response in urban contexts Source: T. Cross and A. Johnston, Cash Transfer Programming in Urban Emergencies: A Toolkit for Practitioners, CaLP, 2011 (http://www.urban-response.org/resource/7056), p. xviii.
+Is the urban economy cash based?
+Do the most vulnerable groups have access to markets?
+Are urban financial institutions functioning?
+Are basic goods available for the most vulnerable groups in the urban markets that they usually access Are mobile phone, ATMs, internet, and point-of-sale networks functioning?
+Are there security risks, such as riots or robbery, related to in-kind distributions or large gatherings of people in urban settings?
+If yes to the preconditions, an urban cash transfer response is appropriate. Consideration of advantages of using different types of cash programming (grants, cash-for-work, or vouchers) and transfer mechanisms is required.
+Consider in-kind assistance Consider in-kind or organised fairs Consider in-kind, supply side, or vouchers Consider in-kind distribution or recapitalisation of micro-finance institutions Preconditions Urban advantages Yes?
+Yes?
+Yes?
+Yes?
+Yes?
+Yes?
+No?
+No?
+No?
+No?
+Figure 3.2 Decision-making tree
+
+## Page 103
+
+Chapter 3 Tools and approaches    |    093 Chapter 3 reasonable prices, and whether money can be delivered efficiently, safely and accountably compared to other possible forms of assistance.43 The decision-making tree in Figure 3.2
+highlights the kinds of responses that can be used based on the circumstances.
+Reasons for using cash transfers in urban areas include:
+• The cash-based nature of urban living, for example to buy food and pay rent.
+• Providing cash supports local markets.
+• Urban areas have the financial infrastructure and institutions for distributing transfers.
+• In-kind distributions are likely to be more costly and difficult and may be in- or less
+appropriate.
+The potential risks and challenges of using cash transfers and vouchers in urban areas are
+similar to those elsewhere:
+• Protection issues, such as security risks, and cultural barriers that prevent women
+from receiving transfers. Some groups, such as elderly or illiterate people, may find it difficult to access or spend transfers.
+• Although generally better than in rural areas, e-transfer infrastructure in urban areas
+may still be limited – see the example from Niamey in Box 3.3.
+• Lack of familiarity with the technology used to deliver transfers, such as mobile
+phones and ATM cards. 43	  High Level Panel on Humanitarian Cash Transfers, Doing Cash Differently: How Cash Transfers Can Transform Humanitarian Aid (London: ODI, 2015).
+Box 3.3  Challenges in mobile money transfers in Niamey One study of a cash transfer programme operated by Save the Children for refugees in the Nigerien capital Niamey found that ‘mobile phone delivery mechanisms could be
+more cost-efficient than the MFI mechanisms’.  There were however significant set-up costs. According to the study, this was due to the need for training, given low levels of familiarity with mobile phone technology. ‘The study estimated that it would take 10
+months to offset these costs.’ Source: P. Creti, Mobile Cash Transfers for Urban Refugees in Niamey, Niger, SCUK, cited in G. Smith and L. Mohiddin, A Review of Evidence of Humanitarian Cash Transfer Programming in Urban Areas, IIED Working Paper (London: IIED,
+2015), p. 33.
+
+## Page 104
+
+094    |    Humanitarian response in urban contexts A ‘toolkit for practitioners’44 identified the following recommendations for cash transfers
+in cities:
+• Building trust with other urban stakeholders through partnerships and collaboration
+is key, especially in relation to government, which can act as both facilitator and gatekeeper of cash transfers.45 • Effective private sector relationships are essential. Activities include the use of technology (such as mobile cash transfers) for effective and timely coverage.
+• Design cash transfers to be flexible and aimed at a number of outcomes.
+• Design cash transfers according to the regulatory environment.
+• Advocacy is an essential programming tool. Advocacy around the use and benefits
+of cash transfers, for instance to host governments, can lead to more effective programmes and wider coverage.
+• Combine cash transfers with other forms of support to meet basic needs, promote
+livelihoods and increase access to basic services (often referred to as cash plus).
+Cash programmes in displacement contexts should always consider in their design host populations, who may be at the same level of poverty as (or poorer than) displaced people (see the example in Box 3.5 from Jordan). The aim should be to reduce tensions between
+host and displaced groups. The provision of cash transfers and vouchers in humanitarian responses and in social protection programmes has created opportunities for stronger links between the two; in the Philippines and Nepal, for instance, aid agencies have ‘topped
+up’ existing social assistance transfers to people affected by disaster, and in Mali design 44	  T. Cross and A. Johnston, Cash Transfer Programming in Urban Emergencies: A Toolkit for Practitioners, CaLP, 2011 (http://www.urban-response.org/resource/7056).
+45	  For further elaboration, see ibid., p. 44.
+Box 3.4  The Common Cash Facility (CCF) in Jordan The Common Cash Facility (CCF), a partnership between UNHCR, the Cairo Amman Bank and IrisGuard, a biometrics company, provides cash assistance to refugees in Jordan. The Facility allows refugees to withdraw cash from an ATM equipped with iris
+scanning technology. Refugees are informed by SMS that cash is ready for withdrawal.
+Operated by UN agencies and NGOs, the CCF is used by over 90% of refugees in Jordan living outside camps.
+Source: UNHCR, The Common Cash Facility (CCF) (Geneva: UNHCR, 2017) (https://www.unhcr.org/596331dd7.pdf).
+
+## Page 105
+
+Chapter 3 Tools and approaches    |    095 Chapter 3 features have been46 tweaked to align with social protection programmes.47 The governmentled safety net programmes in Ethiopia and Kenya mentioned above provide higher transfer
+values and reach more people in response to worsening food insecurity. 3.3.3 Markets and market analysis Markets here are taken to mean where providers exchange goods and services with purchasers. Markets are both physical and non-physical spaces; they can be formal and
+informal, i.e. where people sell goods without paying government taxes. Informal markets in low- and middle-income countries are often substantial.
+Markets may be affected by the disaster or crisis, and understanding them is important in
+designing and implementing humanitarian interventions. As one study notes:
+Market awareness should be integral in humanitarian aid decision-making, in all sectors and regardless of the modalities of intervention being considered. Trying to understand the impacts of a crisis without understanding how a market has been and will be affected
+is not to see the whole picture.48 46   IRC, Finding Economic Opportunity in the City, p. 14. 47	  C. O’Brien et al., Shock-responsive Social Protection Systems Research: Case Study – Social Protection and Humanitarian Responses to Food Insecurity and Poverty in Mali (Oxford: Oxford Policy Management, 2018).
+48	  S. Levine, Markets in Crises: The Implications for Humanitarian Action (London: ODI, 2017 (https://www.odi.org/ sites/odi.org.uk/files/resource-documents/11722.pdf), p. 19.
+Box 3.5  IRC’s cash transfer programme in Jordan IRC’s cash transfer programme in the cities of Mafraq, Irbid and Ramtha in Jordan provides three types of funding to assist both Syrian refugees and Jordanian households: unconditional payments for six months for vulnerable women, a one-
+off winterisation payment for families and a one-off emergency payment for those especially vulnerable. Cash is distributed via ATMs and through the hawala system, ‘a method of transferring money whereby an agent in one location distributes funds
+to recipients upon confirmation that equivalent funds have been received by his/her associate in another location’.47 Additional support includes counselling and discussion groups on managing money. A financial management training course helps with
+developing business plans, with viable proposals eligible for start-up grants.
+Source: IRC, Finding Economic Opportunity in the City: Lessons from IRC’s Cash and Livelihoods Programmes in Cities within Lebanon and Jordan (London: IRC, 2016) (https://www.rescue.org/report/finding-economic-opportunity-city).
+
+## Page 106
+
+096    |    Humanitarian response in urban contexts Figure 3.3 Integrating market analysis into the different phases of the project cycle Source: ICRC, Market Analysis Guidance (Geneva: ICRC, 2014).
+Tool 1.1:
+Secondary data
+Tool 5.1:
+Baseline market selection
+Tool 2.1:
+Long-listing response options
+Tool 5.2:
+Baseline market mapping
+Tool 2.2:
+Analysing marketrelated risks
+Tool 5.3:
+Checklists for interviews with target population, traders and key informants
+Tool 2.3:
+Analysing marketrelated appropriateness criteria
+Tool 1.2:
+Secondary data
+Tool 2.1:
+Long-listing response options
+Tool 2.2:
+Analysing market-related appropriateness criteria
+Tool 2.3:
+Analysing market-related risks
+Tool 1.3:
+Secondary data
+Tool 1.4:
+Secondary data
+Tool 1.5:
+Secondary data
+Tool 1.6:
+Secondary data
+Tool 1.7:
+Interview with key informants DQ 1.1 Which markets should be focused on?
+DQ 1.2  How are markets structured?
+DQ 1.3  What is the impact on the population’s access to markets?
+DQ 1.4  What is the capacity of traders to respond?
+DQ 1.5  Do market actors behave competitively?
+DQ 1.6  Do macro factors influence the market’s capacity to respond?
+DQ 5.1  Which market information is relevant when developing a baseline and predicting the likely effects of a chosen scenario?
+DQ 5.1  How can market information help to identify potential responses?
+DQ 2.1 How can market information help identify a range of potential response options?
+DQ 2.2  How can market information help screen response options against appropriateness?
+DQ 2.3  How can market information help analyse the feasibility of response option?
+Driving questions Driving questions Driving questions Driving questions Assessment                                                        Response analysis Contingency planning
+
+## Page 107
+
+Chapter 3 Tools and approaches    |    097 Chapter 3
+Tool 5.1:
+Partner selection
+Tool 5.2:
+Contract template
+Tool 3.1:
+Checklist on secondary data
+Tool 3.2:
+Checklist for field monitors
+Tool 3.3:
+Organising primary price data
+Tool 3.4:
+Analysing price changes
+Tool 3.5:
+Responding to price changes
+Tool 4.1:
+Checklist for interviews with beneficiaries
+Tool 4.2:
+Market mapping
+Tool 4.3:
+Checklist for FGDs with beneficiaries and nonbeneficiaries
+Tool 4.4:
+Checklist for FGDs and interviews with traders DQ 5.3  Which market-specific preparedness measures should be put in place?
+DQ 3.1 Which prices need to be monitored and how to do it?
+DQ 3.2  Have prices significantly changed and why?
+DQ 3.3  How to respond to significant price changes?
+DQ 4.1 Which market system have been most affected by the project?
+DQ 4.2  Which actors have been affected by the project?
+DQ 4.3  What has been the impact of the project on the primary beneficiaries and their access to the market?
+DQ 4.4  What has been the general impact of the project on the traders?
+Driving questions Driving questions Driving questions Price monitoring                                                         Evaluation
+
+## Page 108
+
+098    |    Humanitarian response in urban contexts In recent years a number of market assessment tools have been developed to help agencies understand markets, and how and where their interventions can be most effective. Often
+this is linked to sectoral interventions, for example where purchases can be made and at what point in a supply chain to intervene, for instance with shelter provision. Examples of
+market analysis tools include:
+• ICRC’s Market Analysis Guidance (MAG) ‘provides processes and tools aimed at
+integrating market analysis into the different phases of the project cycle’ (see Figure 3.3, page 96 and 97).
+• CaLP’s minimum requirements for market analysis49 identifies four areas: ‘scope of
+the assessment, analysis, data collection, monitoring and ensuring validity of data’.
+• The Emergency Market Mapping Analysis (EMMA) Toolkit, developed by Practical
+Action Consulting, IRC and Oxfam, has been widely used in a number of rapid-onset emergencies and protracted crises (see Box 3.6). Examples of the use of EMMA in urban areas can be found at https://www.emma-toolkit.org/tags/urban.
+Further information on markets and crises can be found at the markets in crises discussion group (https://dgroups.org/dfid/mic). 49	  L. Austin and S. Chessex, Minimum Requirements for Market Analysis in Emergencies (Oxford: CaLP, 2013), p. 9.
+Box 3.6  Using EMMA in Lebanon EMMA was used in a rapid assessment in the North and Bekaa Governorates of Lebanon to understand how refugees and host communities use markets to earn money, and how interventions could be designed that supported livelihood opportunities for both
+populations. The analysis looked at labour markets, in particular construction, the service sector and agricultural labour.
+The analysis concluded that ‘Overall … the construction labor market system has been drastically impacted by the crisis in Syria and that income opportunities for refugees or host communities in construction are very limited. In the current context where the supply
+of labor (from refugees, Syrian migrants, and Lebanese workers) exceeds the demand for workers, it is not feasible to promote large-scale construction-oriented livelihood programs’. The report however provided recommendations concerning programmes,
+including ‘link[ing] refugees and Lebanese with employment services and trainings providing the necessary tools to identify and qualify for income-earning possibilities’.
+Source: EMMA Lebanon, Emergency Market Mapping and Analysis (EMMA) of the Construction Labor Market System in North and Bekaa, Lebanon, 2013 (https://seepnetwork.org/files/galleries/Lebanon_Labor.pdf), p.4.
+
+## Page 109
+
+Chapter 3 Tools and approaches    |    099 In summary, using cash in urban humanitarian response seems an easy decision: people living in cities survive largely by buying goods, and markets abound. The recent surge in cash
+programming bears testimony to the benefits of this approach in terms of lower transaction costs, increased agency for the people receiving cash assistance and the benefits to local economies. Of course cash, like any other approach, is not a panacea and has its limitations
+(cash programming in shelter recovery, for instance, can be questioned if technical assistance is reduced as a result). Where cash has been used well in urban areas, it has been part of a larger coordinated programme of recovery, and has been accompanied by good market analysis.
+3.4 Geospatial analysis and mapping Geospatial analysis – often translated into maps – to identify locations, concentrations of people and transport routes, among other things, has been used widely in urban humanitarian response for some time.50 More recently, Geographic Information Systems
+50	  See for example D. Smith, ‘Kosovo: Applying GIS in an International Humanitarian Crisis’, esri, 2001 (http://www.esri.com/news/arcuser/0701/kosovo.html).
+Useful resources
+P. Harvey and S. Bailey, Cash Transfer Programming in Emergencies, Good Practice
+Review 11 (London: ODI, 2011) (https://odihpn.org/resources/cash-transferprogramming-in-emergencies/).
+C. O’Brien et al., Shock-Responsive Social Protection Systems Toolkit: Appraising the Use
+of Social Protection in Addressing Largescale Shocks (Oxford: Oxford Policy Management,
+2018) (https://www.opml.co.uk/files/Publications/a0408-shock-responsive-social-
+protection-systems/srsp-toolkit.pdf?noredirect=1).
+The Cash Learning Partnership (http://www.cashlearning.org/resources/library).
+Operational Guidance and Toolkit for Multipurpose Cash Grants, various agencies, 2015 (http://www.cashlearning.org/downloads/operational-guidance-and-toolkit-formultipurpose-cash-grants---web.pdf).
+International Red Cross and Red Crescent Movement, Cash in Emergencies Toolkit, 2016 (http://rcmcash.org/).
+Cash and Market, Humanitarian Response, 2018 (https://www.humanitarianresponse. info/en/operations/yemen/cash-and-marketing).
+
+## Page 110
+
+100    |    Humanitarian response in urban contexts (GIS) have provided additional analytical capability to crisis response, combining and visualising spatial data in new ways.51 This section52 discusses the development and use of GIS and mapping in humanitarian
+action. Examples are provided from Haiti, Guinea, Iraq, Syria and Nepal. This section links closely to a number of others, in particular assessments and profiling, which use mapping to visualise data (Section 3.6). 3.4.1 GIS and mapping
+One of the biggest challenges for humanitarian action has been the lack of up-to-date and accurate maps to guide decision-making. This has changed radically as spatial data has entered the mainstream through the increasing availability of remote sensing (primarily
+satellite) imagery, the digitisation of a wide range of maps and the arrival of the Geospatial Positioning System (GPS) into civilian use. In urban areas, providing coordinated management information linked to space, density and access is of course especially helpful.
+As the internet has enabled people to connect to commercial services – most obviously those provided through mobile phone networks, such as Google Maps and Uber – geospatial analysis has become useful, not just for technical specialists working in GIS, but also the
+general public. This became clear in the response to the 2010 Haiti earthquake, when geospatial tools combined with networked communities to enable the real-time updating of visual information that involved affected communities themselves.
+Advances in mapping using geospatial analysis allow humanitarian actors to assess, plan, target and coordinate assistance more effectively and efficiently. Recent research53 identifies three particular applications: improving situational awareness – knowing which
+organisations are operating in specific areas, what they’re doing and how to contact them; needs assessment – where ‘a single, integrated, localized overview of needs across all sectors’ can be achieved; and operational circumstances – ‘knowing the available resources
+in the region, and logistical options to deliver aid and mobilise these resources’. These are illustrated in the example in Box 3.7. 51	  GIS was first used in the humanitarian sector in mine action, and has also been used in the health sector,
+particularly for epidemiology. 52	  This section benefited from inputs by Paul Currion. 53	  D. Paulus et al., ‘Turning Data into Action: Supporting Humanitarian Field Workers with Open Data’ in Proceedings of the 15th ISCRAM Conference, Rochester, New York, 2018 (www.researchgate.net/publication/324171780_Turning_
+data_into_action_supporting_humanitarian_field_workers_with_open_data), cited in H. Campbell, ‘Maps, Models and Data Management: Geospatial Analysis in Shelter Response’, in Global Shelter Cluster, State of Humanitarian Shelter
+and Settlements 2018 (Geneva: Global Shelter Cluster, 2018) (https://www.sheltercluster.org/resources/library/statehumanitarian-shelter-and-settlements), p. 155.
+
+## Page 111
+
+Chapter 3 Tools and approaches    |    101 Box 3.7  Ushahidi and crisis mapping The Ushahidi platform was one of the first to take advantage of the spread of the internet to enhance mapping capabilities. It was created in Kenya as a means of
+monitoring violence during elections in 2008, but its deployment in Haiti following the 2010 earthquake brought it to wider public attention and helped people recognise the
+potential of crisis mapping. Ushahidi was successful because it:
+• Filled information gaps during the first days and weeks, before the UN and large
+organisations were operational.
+• Provided situational information for small NGOs that did not have field presence.
+• Helped small privately funded responses to target needs (through having access to
+up-to-date information).
+• Provided situational awareness with a geographic precision lacking in other tools
+available to the public.
+• Directly engaged Haitians and the Haitian diaspora.
+Figure 3.4 illustrates the kind of information that was mapped, including infrastructure damage, hazards and security threats.
+Source: Ushahidi.
+Figure 3.4 Map showing camps and destroyed housing
+
+## Page 112
+
+102    |    Humanitarian response in urban contexts 3.4.2 Crisis mapping Crisis mapping is undertaken by a wide range of organisations.54 These include NGOs providing mapping services and staff in humanitarian emergencies, for example MapAction
+(https://mapaction.org/) and CartONG (https://cartong.org), as well as volunteers working remotely from around the world to support responses, such as the Standby Task Force (www. standbytaskforce.org). Crisis mapping helps organisations to coordinate better as maps can
+provide a shared awareness of who is doing what, where and when (often referred to as ‘4W’).
+Crisis mapping has expanded to include new data sources. Building on map data and satellite imagery, crisis mapping also includes crowd-sourced information and data collected by drones.55 Geospatial analysis of this kind is not exclusive to urban response, but there
+tends to be more spatial data covering a denser population over a wider range of sectors in urban areas. Both residents and responders also have access to and experience of richer communication technologies than in rural areas, creating more potential, both for faster and
+wider data collection, and for analysis to inform decision-making.
+The diversity of crisis mapping initiatives can be seen in Table 3.1, which shows a sample of crisis mapping efforts between 2010 and 2011; there have been many more such initiatives since then. Because of the grassroots nature of many of these projects, there is often little
+continuity between them, and it has been difficult to track them and learn from them. 3.4.3 Crisis mapping in urban conflict contexts Mapping is especially helpful in conflict contexts to track changes in security conditions,
+protection issues, ‘no-go areas’ and population movements. The Urban Analysis Network Syria (UrbAN-S) project, operated by JIPS,56 uses mapping as a key element in its profiling.
+JIPS is working with a number of partners, including iMMAP57 and Mercy Corps, ‘to provide up-to-date and holistic analyses of critically-affected cities in Syria’, with the aim of providing usable information to local government, NGOs and UN organisations. The project uses an
+area-based approach (see Section 3.2) to gather and present information, including damage assessments and city profiles (see Section 3.6).58 54	  Many of these organisations are members of the International Network of Crisis Mappers:
+http://crisismapping.ning.com/. 55	  For further information on the use of drones in humanitarian emergencies, see OCHA, Unmanned Aerial Vehicles in Humanitarian Response, OCHA Policy and Studies Series, June 2014 (https://www.unocha.org/sites/unocha/files/
+Unmanned%20Aerial%20Vehicles%20in%20Humanitarian%20Response%20OCHA%20July%202014.pdf). 56	  See https://www.jips.org/jips-country/syrian-arab-republic/. 57	  See https://immap.org/.
+
+## Page 113
+
+Chapter 3 Tools and approaches    |    103 Table 3.1  Crisis mapping initiatives Source: Center for Security Studies (CSS), ETH Zurich.
+Selected crisis mapping initiatives Case Haiti January 2010 United States April 2010 Russia July–September 2010 Japan March 2011 Libya Spring/summer 2011
+URL
+http://haiti.ushahidi.com http://oilspill.labucketbrigade.org http://russian-fires.ru http://www.sinsai.info http://libyacrisismap.net Crisis Earthquake Deep-sea oil rig explosion Wildfires Earthquake/tsunami Political crisis
+Initiator Individual/organisation Grass roots (Louisiana Bucket Brigade (LABB))
+Individual Individual/organisation Intergovernmental organisation (OCHA)
+Main partners Emergency Information Service (EIS), InSTEDD, Ushahidi, Haitian telcos, Tufts University, US State Department Tulane University Disaster Resilience Academy Russian bloggers Georepublic Japan, OpenStreetMap Foundation Japan
+UNOSAT, NetHope, volunteer technical community Aim of the map Report emergencies, public health issues, security threats, infrastructure damage, natural hazards, services Track oil spill effects and response, provide visible
+testimony of community impacts To link those who need help with those who want to help, listed assistance centres Reports and notices from public and private officials, news on disasters, evacuation centres and requests for help
+Track conflict events (armed confrontations, attacks, etc.), list needs and responses, track mass displacements Who used the map Emergency responders, diaspora communities, media, government officials Local stakeholders (citizens,
+universities, businesses, etc.), media Local stakeholders (those needing and offering help), media Local stakeholders, diaspora community, public and private actors, media Emergency responders, diaspora community, government officials, media
+Role of the map Test-ground for crisis mapping, better maps of Haiti, reference point for crisis responders Provided public insight and accountability, information on clean-up efforts Delivery of relief Go-to map for corporations,
+government and organisations, created transparency in crisis relief Increased situational awareness Role of government Core partner (US government)
+Not directly involved, aware of the map, provided information Not directly involved; after crisis, Civic Chamber of Russian Federation became involved Not involved initially, became involved by submitting reports Intergovernmental body (UN)
+involved and led the effort
+
+## Page 114
+
+104    |    Humanitarian response in urban contexts Two examples of crisis mapping, in relation to the Ebola response in West Africa and in the response to the 2015 earthquakes in Nepal, are given in Box 3.8.
+Box 3.8  Crisis mapping in West Africa and Nepal Humanitarian Open Street Map Team and the Ebola response The Humanitarian Open Street Map Team59  (HOT) developed from an informal group of volunteers into a registered non-profit organisation with full-time staff. HOT has built
+a volunteer community providing map data for humanitarian response based on Open Street Map (OSM) (www.openstreetmap.org).
+HOT was active during the 2014 Ebola response in West Africa. MSF-Switzerland deployed a GIS Officer to Guinea and acquired satellite images, but decided to outsource the creation of detailed maps of cities and major roads to HOT. Within three days, 244
+volunteers had mapped three priority cities, and within five they had mapped more than 90,000 buildings, which would not have been possible for the GIS Officer working alone.60 A review of HOT’s work found that it had been valuable in the Ebola response, particularly
+where data could be used by decision-makers to allocate resources.
+HOT has partnered with MSF and the American and British Red Cross Societies to launch the Missing Maps Project (https://www.missingmaps.org/), an open, collaborative project whereby members of the public help to map areas where humanitarian
+organisations are responding to crises. HOT has also moved beyond crisis mapping into community-based mapping run by implementing organisations. This is part of a wider trend as networked technology has enabled local communities to engage with crisis
+response in the same way as international actors, and facilitated coordination between actors inside and outside the crisis area, where spatial data becomes a useful focal point for coordination Source: EMMA Lebanon, Emergency Market Mapping and Analysis (EMMA) of the Construction Labor Market System in
+North and Bekaa, Lebanon, 2013 (https://seepnetwork.org/files/galleries/Lebanon_Labor.pdf), p.4. 59  See https://www.hotosm.org/. 60  MSF Switzerland, GIS Support for the MSF Ebola Response in Guinea 2014, July 2014 (http://cartong.org/sites/
+cartong/files/GIS%20Support%20for%20the%20MSF%20Ebola%20Response%20in%20Guinea_Case%20Study.pdf).
+
+## Page 115
+
+Chapter 3 Tools and approaches    |    105 Figure 3.5 (page 106) provides an example from the Shelter Cluster of mapping in Mosul in Iraq.
+In summary, recent developments in geospatial technology provide valuable ways of visualising data in spatial terms.59 This is particularly helpful in urban contexts,60 which are often defined and described in physical and spatial ways. Such information can promote
+coordination efforts, as witnessed by the presence of maps on the dashboards of a number of cluster websites. It also provides a simplified visualisation of complex data for use by a wide range of actors, not least affected people themselves. Presenting maps digitally also
+allows for quick updates that can keep up with the fast-changing conditions typical of crises and post-disaster contexts.6162 59 60 61 62 Box 3.8  (continued)
+Post-earthquake crisis mapping in Kathmandu In response to the 2015 earthquakes that struck Nepal, Kathmandu Living Labs (KLL)61 launched the QuakeMap website62 to enable users to report their needs to emergency organisations. KLL worked with other organisations, including HOT, to understand what
+maps were needed for earthquake relief; online volunteers around the world used postquake satellite images to update pre-quake maps, while KLL staff scraped images of damage from social media and mapped the damaged city on foot. QuakeMap was used
+by search and rescue teams, emergency services, international relief agencies and the Nepalese army, which downloaded reports from QuakeMap every two hours, passed on requests for assistance to their relief division, verified reports and updated the
+database once problems were resolved.63 QuakeMap closed to new reports in July 2015, but KLL continued to work on mapping projects, as well as becoming involved in other data collection projects related to disaster risk management in Nepal.
+For a further description of KLL’s work following the earthquakes, as well as other organisations, see J. McMurren et al., Nepal: Open Data to Improve Disaster Relief (London: ODI, 2017) (http://odimpact.org/files/case-nepal.pdf).
+61  KLL is a not-for-profit civic tech company founded in 2013 following a World Bank project mapping critical geographical and infrastructural features in Nepal on Open Street Map. See http://www.kathmandulivinglabs.org/.
+62  QuakeMap.org: http://www.kathmandulivinglabs.org/projects/quakemaporg. 63  J. McMurren et al., Nepal: Open Data to Improve Disaster Relief, Open Data for Developing Economies Case Studies, 2017 (http://odimpact.org/files/case-nepal.pdf).
+
+## Page 116
+
+106    |    Humanitarian response in urban contexts Figure 3.5 Locations of shelter and non-food-items, Mosul, Iraq, 2017 Source: https://www.sheltercluster.org/sites/default/files/docs/irq_3w_shelter_nfi_mosulresponse_10oct2017_0.pdf.
+
+## Page 117
+
+Chapter 3 Tools and approaches    |    107 3.5 Context analysis Context can be defined as ‘the environment and circumstances within which something happens and which can help to explain it’.63 The aim of context analysis is to ‘help
+humanitarian actors have a better understanding of the dynamics in a given setting’.64 To these ends, while closely related to other forms of analysis, such as needs and vulnerability assessment, context analysis is more to do with understanding the unique aspects of a
+specific location, rather than the consequences of a disaster or conflict. 63	  L. Campbell, What’s Missing? Adding Context to the Urban Response Toolbox (London: ALNAP/ODI, 2018) (https://www.alnap.org/help-library/whats-missing-adding-context-to-the-urban-response-toolbox), p. 11.
+64	  International Rescue Committee, Urban Context Analysis Toolkit. Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10819IIED), p. 3.
+Useful resources City72 Toolkit (http://toolkit.sf72.org/map/).
+Crisis Mapping Program, Harvard Humanitarian Initiative, 2018 (https://hhi.harvard.edu/ research/crisis-mapping#intro).
+Drones in Humanitarian Action (http://drones.fsd.ch/en/drones-in-humanitarian-action/).
+Humanitarian Innovation Fund, Humanitarian Crisis Map for the Central African Republic (CAR), 2012 (http://www.elrha.org/hif-blog/crisis-map-car-works/).
+MapAction, Field Guide to Humanitarian Mapping, 2011 (https://mapaction.org/wpcontent/uploads/2016/12/mapaction_field_guide_to_humanitarian_mapping.pdf).
+P. Meier and J. Leaning, Applied Technology to Crisis Mapping and Early Warning in
+Humanitarian Settings (Cambridge, MA: Harvard Humanitarian Initiative, 2009) (https://hhi.harvard.edu/publications/applied-technology-crisis-mapping-and-earlywarning-humanitarian-settings).
+A. Obrecht and M. Thomas, Mapping a Response: Using Satellite Images to Aid
+Humanitarian Action (London: ODI, 2016) (http://www.elrha.org/wp-content/ uploads/2016/02/alnap-HOT-Open-Aerial-Mapping-case-study-2016.pdf).
+OpenStreetMap in Humanitarian Response (https://www.preparecenter.org/content/ openstreetmap-humanitarian-response).
+
+## Page 118
+
+108    |    Humanitarian response in urban contexts This section65 defines and discusses context analysis. It reviews a number of context analysis tools and outlines stakeholder analysis, network analysis, conflict analysis and governance
+analysis. The section provides links to other sources of information and further resources.
+It links closely to other sections, in particular assessments and profiling (Section 3.6) and monitoring and evaluation (Section 3.10). 3.5.1 Different forms of context analysis There are many kinds of context analysis, depending on what is being analysed. Examples
+include stakeholder analysis, market analysis, such as the Emergency Market Mapping and Analysis (EMMA) toolkit,66 political analysis, governance analysis and conflict analysis. There are also many different tools for each form of analysis: concerning conflict analysis alone,
+one recent review67 found ‘literally dozens of conflict analysis tools’. 65	  This section benefited in particular from inputs by Leah Campbell of ALNAP. 66	  EMMA is ‘an approach to assessing market systems in post-emergency contexts that aims to improve emergency
+responses by encouraging and assisting relief agencies to better understand, support and make use of local marketsystems in disaster zones’. See http://www.emma-toolkit.org/. See also Section 3.3 on cash and markets. 67	  F. Oliva and L. Charbonnier, Conflict Analysis Handbook. A Field and Headquarter Guide to Conflict Assessments
+(Turin: United Nations Systems Staff College, 2016) (https://www.unssc.org/sites/unssc.org/files/unssc_conflict_ analysis_fabio_oliva_lorraine_charbonnier.pdf).
+Figure 3.6 What is context?
+What do we mean by context?
+Economy and livelihoods Politics and governance Services and infrastructure Social and cultural Space and settlements Stakeholder dynamics The environment and circumstances within which something happens and which can help
+to explain it Source: L. Campbell, What’s Missing? Adding Context to the Urban Response Toolbox (London: ALNAP/ODI, 2018) (https://www.alnap.org/help-library/whats-missing-adding-context-to-the-urban-response-toolbox), p. 11.
+
+## Page 119
+
+Chapter 3 Tools and approaches    |    109 For a discussion of context analysis, see L. Campbell, What’s Missing? Adding Context to the Urban Response Toolbox (London: ALNAP/ODI, 2018) (https://www.alnap.org/help-library/
+whats-missing-adding-context-to-the-urban-response-toolbox).
+IRC’s Urban Context Analysis Toolkit, created specifically for urban situations, aims to ‘enable users to appreciate stakeholders, existing power relations, resource distribution, governance and legal frameworks, sources of livelihoods, social networks, and access to services’. The
+toolkit covers approaches to stakeholder analysis; opportunities to strengthen existing or for future programming; and identifying entry points for programming and risk mitigation strategies. See http://pubs.iied.org/10819IIED.
+3.5.2 Stakeholder analysis Many humanitarian organisations use stakeholder analysis in some form in their programming. Stakeholder analysis can be a ‘context tool’, but only if it is used to better understand the range of actors relevant, not just to one project, but to the context itself.
+Box 3.9 Urban context overview and analysis in Juba In 2016, World Vision undertook a context analysis in the South Sudanese capital Juba in order to ‘map, identify and understand the vulnerabilities faced by residents in Juba so that
+it, and other stakeholders could carry out the most efficient and effective interventions required by those in need’.
+The study used three types of analysis: resilient systems, wellbeing mapping and gender.
+Resilience issues covered access to and use of resources and infrastructure, including utilities and public spaces, governance networks and social dynamics. Wellbeing mapping reviewed among other things wealth and income and access to public services. The gender
+analysis considered sex, age, culture and language.
+Activities included key informant interviews and focus group discussions (FGDs). Secondary data reviewed included reports and related literature. FGDs took place in both wealthier and poorer parts of Juba. FGDs and interviews were carried out with the help of trained
+field assistants.
+Programmatic recommendations for action derived from the analysis and associated activities included the need to ‘address social stresses and social cohesion’, ‘facilitate access to public services and resources’, and ‘make markets work for the poor and vulnerable’.
+Source: Juba: Urban and Peri-urban Context Overview and Analysis, World Vision and the Start Network, 2017.
+
+## Page 120
+
+110    |    Humanitarian response in urban contexts With this in mind, stakeholder analysis may be best described as ‘an approach, a tool or set of tools for generating knowledge about actors – individuals and organizations – so as to
+understand their behaviour, intentions, inter-relations and interests; and for assessing the influence and resources they bring to decision-making or implementation processes’.68 Stakeholder analysis helps in understanding the interests and capacities of these actors,
+and the relationships (including conflicts, power dynamics and networks) between them (the range of urban stakeholders is discussed further in Section 1.5 on urban actors). 3.5.3 Network analysis Social networks describe the connections between individuals, for example within organ-
+isations and communities.69 Social Network Analysis (SNA) is the process of mapping these relationships.70 SNA can help humanitarian organisations understand patterns of interaction between stakeholders, as well as a possible lack of connections. Impact
+Initiatives is developing a toolkit specifically for urban analysis, which uses SNA to identify key informants who can provide contextual information about a specific area. See http://www.impact-initiatives.org/settlement-based-assessment-and-analysis-in-contexts-
+of-displacement.
+Further information about area-based approaches can be found in Section 3.2.
+Figure 3.7 gives an example of the results of a stakeholder analysis from Sierra Leone. 3.5.4 Conflict analysis Conflict analysis considers the ‘broader range of issues which contribute to a conflict situation and within which it occurs’.71 An example of conflict analysis is the use of Participatory Violence
+Appraisal (PVA), which aims to identify ‘both tipping points of particular types of violence as well as violence chains, through the voices of local people themselves’.72 Examples of conflict analysis can be found at https://www.wvi.org/peacebuilding-and-conflict-sensitivity/
+publication/good-enough-context-analysis-rapid-response. For an example of the use of conflict analysis in DRC see https://www.alnap.org/system/files/content/resource/files/main/GECARR_ 68	  Z. Varvasovszky and R. Brugha, ‘How to Do (Or Not to Do) … A Stakeholder Analysis’, Health Policy and Planning
+15(3), 2000 (www.alnap.org/help-library/how-to-do-or-not-to-do-a-stakeholder-analysis). 69	  IRC, Urban Context Analysis Toolkit. 70	  Ibid. 71	  Saferworld et al., Conflict-sensitive Approaches to Development, Humanitarian Assistance and Peace-building: A
+Resource Pack (London: APFO, CECORE, CHA, FEWER, International Alert and Saferworld, 2004). 72	  See C. Moser, Understanding the Tipping Point of Urban Conflict: Participatory Methodology for Gender-based and Political Violence, Working Paper 2 (Manchester: University of Manchester, 2012).
+
+## Page 121
+
+Tools and approaches    |    111 Chapter 3 Context    |    111 Figure 3.7 Stakeholder analysis in Sierra Leone Source: International Rescue Committee, Urban Context Analysis Toolkit. Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10819IIED).
+District Medical Officer District Health Medical Team Paramount Chief Section Chief Secret society head Pastor Town Chief Children Women Traditional healer Women’s leader Men IRC Health Supervisor IRC Health Manager IRC Health
+Coordinator Nurse Peer supervisor Primary Health Unit Community Health Worker Minister of Health National Ebola Response Centre District Ebola Response Centre
+UNICEF
+DFID
+Healthworkers Community members Authorities
+NGOs
+Donors Formal reporting lines Financial suypport Non-financial support Informal influence over Conflict Weak Moderate Strong
+
+## Page 122
+
+112    |    Humanitarian response in urban contexts DRC-CaseStudy.pdf. For further information on conflict analysis more generally, see www.alnap. org/help-library/conflictanalysis-linking-humanitarian-action-and-peacebuilding; www.alnap.
+org/help-library/conflict-sensitive-approaches-todevelopment-humanitarian-assistanceand-peacebuilding; and www.alnap.org/help-library/how-to-guide-to-conflict-sensitivity. See also Section 1.2.1 on conflict. 3.5.5 Governance analysis
+Governance analysis aims to ‘understand the range of structures, institutions and stakeholders/actors  that have influence over responses to an urban crisis and the power dynamics at play within and between formal and informal institutions’.73 Commonly used
+in the development sector, governance analysis is understood here as an umbrella term encompassing institutional and social analysis, power analysis and political economy analysis. Governance analysis is often used at macro (national) levels,74 but can also be used
+at other scales. Like the other kinds of context tools discussed here, governance analysis looks at trends and seeks to ‘move beyond a description of symptoms, and to understand the underlying causes’.75 A number of governance analysis tools exist: examples include USAID’s Democracy,
+Human Rights and  Governance  Strategic  Assessment  Framework and DFID’s Drivers of Change. For further information on these and other tools, see R. Nash, A. Hudson and C.
+Luttrell, Mapping Political Context: A Toolkit for Civil Society Organisations (London: ODI, 2006) (https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/186.pdf). 3.6 Assessments and profiling Assessments provide the basis on which many of the key decisions in an emergency are
+made, and as such are a vital part of emergency response. Similarly, profiling is aimed at understanding the needs of displaced people, usually in conflict settings. Undertaking assessments and profiling in urban areas in relation to conflict and disasters is complex
+for many reasons: density, spread, sheer numbers of people, ‘hidden’ vulnerability (where people may prefer to remain invisible), and existing high levels of poverty, which makes it 73	  A. Meaux and W. Osofisan, A Review of Context Analysis Tools for Urban Humanitarian Response (London: IIED, 2016)
+(www.alnap.org/help-library/a-review-of-context-analysis-tools-for-urban-humanitarianresponse), p. 10. 74	  E. Boak, Education in Fragile Situations: A Review of Political Economy and Conflict Analysis Literature and Tools
+(Reading: Education Development Trust, 2011). (www.alnap.org/help-library/education-in-fragile-situationsa-reviewof-political-economy-and-conflict-analysis). 75	  T. Dahl-Ostergaard et al., Lessons Learned on the Use of Power and Drivers of Change Analyses in Development
+Co-operation (Lyngby and Brighton: COWI/IDS, 2005) (www.alnap.org/help-library/lessons-learned-on-the-use-ofpower-and-drivers-of-change-analyses-in-development-co), p. 3.
+
+## Page 123
+
+Chapter 3 Tools and approaches    |    113 difficult to identify people in need specifically due to humanitarian circumstances (such as IDPs and refugees in protracted crises).
+In recent years, aid agencies and academics have done a considerable amount of work to improve practice and knowledge in urban assessment and profiling. This section discusses multi-sectoral and single-sector assessments, identifies a number of sector-specific urban assessment toolkits,
+and reviews profiling in urban displacement. The section ends by referencing assessments relating to urban violence. This section closely links to the sections on targeting and response analysis and context analysis. It also relates to Section 3.4 on geospatial analysis and mapping.
+3.6.1 Multi-sectoral assessments A 2017 systematic review of best practice in urban assessments recommends taking a multi-
+sectoral approach:
+Sector-based vulnerability analyses and targeting approaches are ill suited to complex urban crises, where needs are interrelated. A population’s needs for shelter, WaSH, health, food security and livelihoods do not exist in isolation from one another. Rather, needs interact to
+shape vulnerability, and must thus be met with a multi-sectoral approach to guide targeting.76 Taking a multi-sectoral approach in urban areas is also recommended in IFRC’s shelter assessment guidelines.77 There are however concerns about multi-sectoral assessments. For
+instance, in addressing shelter, there is a risk that needs are reduced ‘purely to the number of damaged buildings’, and that ‘Nuances such as markets analysis, tenure needs and spatial uses are therefore lost’78 (single-sector assessments are discussed further below).
+A number of multi-sectoral assessment toolkits are available. Urban-specific toolkits include NRC’s urban multi-sector vulnerability assessment tool (UMVAT).79 This is used in displacement contexts and includes advice on initial assessment planning, tool contextualisation,
+data analysis and report writing. Tools include a multi-sector questionnaire for use in KoBo 76	  R. Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected by Urban Humanitarian Emergencies? A Systematic Review Protocol of Methods and Specific Tools Used to Target the Most At-Need Individuals,
+Households and/or Communities in Urban Crises (Cambridge, MA: Humanitarian Evidence Programme, Tufts University,
+2016) (https://www.researchgate.net/publication/308026610_What_are_the_practices_to_identify_and_prioritize_
+vulnerable_populations_affected_by_urban_humanitarian_emergencies_Systematic_review), p. 31. 77	  PASSA: Participatory Approach for Safe Shelter Awareness (Geneva: IFRC, 2011) (http://www.ifrc.org/ PageFiles/95526/publications/305400-PASSA%20manual-EN-LR.pdf).
+78	  L. Babister, ‘The Grand Bargain: Challenge or Opportunity for the Shelter Sector?’, in D. Sanderson and A. Sharma (eds), State of the Humanitarian Shelter and Settlements Report 2018 (Geneva: IFRC and UNHCR, 2018) (https://www.sheltercluster.org/resources/library/state-humanitarian-shelter-and-settlements).
+79	  See http://pubs.iied.org/10823IIED/?k=USA.
+
+## Page 124
+
+114    |    Humanitarian response in urban contexts Toolbox for mobile devices; a guidance document (including assessment methodology, sampling techniques, aspects to consider during contextualisation, data collection tech-
+niques and approaches to trend and data analysis); focus group discussion and key informant checklists; and training materials. See http://pubs.iied.org/pdfs/10823IIED.pdf.
+Another urban-specific technical guidance is ACAPS’ Rapid Humanitarian Assessments in Urban Settings, which covers research questions and approaches according to a number of urban themes. See www.alnap.org/resource/20125.
+Other multi-sectoral assessment toolkits that have an urban application include:
+• Vulnerability and Capacity Assessment (VCA),80 a longstanding approach which ‘uses
+various participatory tools to gauge people’s exposure to and capacity to resist natural hazards’. VCA draws on participatory methodologies such as Participatory Rapid Appraisal (PRA). While often used in rural areas, VCA has strong application in urban
+settlements. IFRC’s manual Integrating Climate Change and Urban Risks into the VCA provides useful guidance and steps for conducting urban VCAs. See http://www.ifrc. org/Global/Publications/disasters/reducing_risks/VCA/1260200-VCA-EN-LR2.pdf.
+• UNHCR’s Emergency Handbook is an online, easy-to-navigate source of information
+and links. The handbook provides urban-oriented information on assessments (albeit of a rather general nature) according to sectors. See https://emergency.unhcr.org.
+• The IASC’s Multi Cluster/Sector Initial Rapid Assessment (MIRA), which is intended to be
+undertaken within the first two weeks of a disaster. The aim is to enable humanitarian actors to ‘develop a joint strategic plan, mobilise resources and monitor the situation and the response’.81 There are five stages to the MIRA process: 1. Initiation; 2. Secondary
+data analysis; 3. Community-level assessments; 4. Analysis; and 5. Dissemination. See https://interagencystandingcommittee.org/iasc-transformative-agenda/documentspublic/multi-clustersector-initial-rapid-assessment-mira-manual.
+3.6.2 Sector-specific urban assessment toolkits A number of sectors are ‘urbanising’ their approaches. For example the Food Security and Livelihoods in Urban Settings Working Group has produced a number of guidance documents on conducting food security assessments in urban areas, piloting new approaches in
+a number of cities including Harare, Guatemala City and Kinshasa. See https://fscluster.org/ food-security-and-livelihoods-urban/workinggroup/food-security-and-livelihoods-urban. 80	  VCA is widely used by the IFRC and Red Cross Red Crescent National Societies: see http://www.ifrc.org/vca. It is based
+on Anderson and Woodrow’s work in developing a capacity and vulnerability analysis (CVA) tool. See M. Anderson and P.
+Woodrow, Rising from the Ashes: Development Strategies in Times of Disaster (Boulder, CO: Westview Press, 1989). 81	  IASC Multi Cluster/Sector Initial Rapid Assessment (MIRA), 2012 (https://docs.unocha.org/sites/dms/documents/
+mira_final_version2012.pdf), p. 3.
+
+## Page 125
+
+Chapter 3 Tools and approaches    |    115 A number of learning products have emerged around the use of cash and assessments.
+Although developed primarily as a guide to implementing cash transfers in urban contexts, Cash Transfer Programming in Urban Emergencies,82 published by the Cash Learning Partnership (CaLP), includes advice on how existing assessment tools can be applied to
+urban contexts. See http://www.cashlearning.org/downloads/resources/calp/CaLP_Urban_ Toolkit_web.pdf. 3.6.3 Profiling in urban displacement Profiling can be defined as ‘The collaborative process of identifying internally displaced
+groups or individuals through data collection, including counting, and analysis, in order to take action to advocate on their behalf, to protect and assist them and, eventually, to help bring about a solution to their displacement’.83
+In urban areas, profiling has been used to ‘obtain better information about the range of experiences, needs and capacities of the displaced, their host families and their nondisplaced neighbours in urban settings’.84 The Global Alliance for Urban Crises identifies six
+elements of urban profiling:85 82	  T. Cross and A. Johnston, Cash Transfer Programming in Urban Emergencies: A Toolkit for Practitioners, CaLP, 2011 (http://www.urban-response.org/resource/7056). 83	  IDMC and OCHA, Guidance on Profiling Internally Displaced Persons (Geneva: IDMC/OCHA, 2008)
+(http://www.internal-displacement.org/publications/guidance-on-profiling-internally-displaced-persons). 84	  JIPS, Guidance for Profiling Urban Displacement Situations: Challenges and Solutions, Joint IDP Profiling Service,
+2014 (https://www.jips.org/files/818). 85	  P. Sitko and A. Massella, Urban Profiling for Better Responses to Humanitarian Crises, Global Alliance for Urban Crises, 2019 (http://www.urbancrises.org/downloads).
+Box 3.10 The Syria Needs Analysis Project The Syria Needs Analysis Project (SNAP) was undertaken by ACAPS and MapAction from 2012 to 2015. The aim was to provide information to operational agencies working with Syrian refugees living in urban areas of Jordan. Particular challenges included limited information
+and a fast-changing situation. In this context, SNAP aimed to contribute to improved targeting and more efficient responses by providing capacity-building and technical support for undertaking assessments. Key activities included secondary data reviews within multi-
+sector needs analyses, producing scenarios relating to different political and conflict-related outcomes (in order to enable better planning) and analysis of sectors.
+Source: SNAP: Syria Needs Analysis Project (https://www.acaps.org/sites/acaps/files/products/files/1_s-snapsummary-of-work-dec-2012-june-2015.pdf).
+
+## Page 126
+
+116    |    Humanitarian response in urban contexts
+1.	 The use of spatial analysis, wherein ‘[urban] conditions are analyzed at granular
+levels to be able to understand the specific challenges of different neighborhoods and the types of short and long-term responses required’.
+2.	 Prioritising a people-centred approach – ‘The needs of specific population groups must
+be analyzed both on their own and in relation to the urban population as a whole’.
+3.	 Recognising change over time, i.e. noting history and ‘Comparing present
+vulnerabilities with past conditions’.
+4.	 Analyse the entirety of a city, noting in particular the interlinked nature of systems.
+5.	 Collaborative action ‘for a more coherent and coordinated response’.
+6.	 Local ownership: ‘Bringing in local stakeholders both as drivers of the process as
+well as conveners of expertise can vastly enrich the usefulness of the data and the quality of the analysis’.
+For further discussion and elaboration and lessons from practice, see P. Sitko and A.
+Massella, Urban Profiling For Better Responses To Humanitarian Crises, Global Alliance for Urban Crises, 2019 (http://www.urbancrises.org/downloads).
+Undertaking a profiling exercise can be expensive and complex. Clarity among actors on the purpose and scope of the work is important. One study found that, in profiling undertaken in the Middle East, ‘many of the people involved did not realise at the beginning that
+the extensive data-collection and analysis exercises undertaken would not directly result in a useable targeting tool’ leading to ‘widespread frustration at the perceived slowness of the process’.86 Supporters of profiling argue that it is necessary in order to better tailor
+responses to assist displaced people in complex urban environments. According to the
+Joint IDP Profiling Service (JIPS), profiling comprises:
+• A process of data gathering, beginning with building consensus on what needs to be
+gathered and how, with a validation at the end by relevant stakeholders.
+• Collaboration is important, among key stakeholders such as government and
+NGOs. In this respect, profiling is an important means of engaging with affected communities.87 86	  K. Sharp, Targeting Cash and Food Assistance for Syrian Refugees in Lebanon, Jordan and Egypt: Issues Emerging, Lessons Being Learned, Consultancy report for UNHCR and WFP, June 2015.
+87	  See for example J. Basedow, C. Westrope and A. Meaux, Urban Stakeholder Engagement and Coordination:
+Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (pubs.iied.org/pdfs/10821IIED.pdf).
+
+## Page 127
+
+Chapter 3 Tools and approaches    |    117 • Comparing displaced and non-displaced communities in order to improve targeting.
+• Data is disaggregated, e.g. by location, gender and age.
+JIPS is an inter-agency service established in 2009 to provide technical support to government, humanitarian and development actors seeking to improve their information about internally displaced populations. See http://www.jips.org/.
+Profiling toolkits include:
+• The JIPS Essential Toolkit (JET) provides online tools including questionnaires, data
+collection and data analysis approaches for profiling. See https://jet.jips.org/.
+• Developing a Profiling Methodology for Displaced People in Urban Areas88 provides
+profiling tools and training modules for use by implementing organisations.
+• The Profiling and Assessment Resource Kit (PARK) is an online database of docu-
+ments, tools and guidelines for profiling and joint assessment activities. See http://www.parkdatabase.org/.
+• UN-Habitat’s City Resilience Profiling Programme (CRPP) ‘focuses on providing
+national and local governments with tools for measuring and increasing resilience to multi-hazard impacts, including those associated with climate change’. The aim is to ‘develop a comprehensive and integrated urban planning and management
+approach for profiling and monitoring the resilience of any city to all plausible hazards’.
+See https://unhabitat.org/urban-initiatives/initiatives-programmes/city-resilienceprofiling-programme/. UN-Habitat’s City Resilience Profiling Tool can be found at http://urbanresiliencehub.org/wp-content/uploads/2018/02/CRPT-Guide.pdf.
+88	  K. Jacobsen and R. Nichols, Developing a Profiling Methodology for Displaced People in Urban Areas Final Report (Cambridge, MA: Tufts University, 2011) (https://www.preparecenter.org/sites/default/files/78668794-developing-a-
+profiling-methodology-for-displaced-people-in-urban-areas.pdf).
+
+Box 3.11 Profiling refugee groups and local communities in Delhi In 2013, JIPS and the Feinstein International Center undertook a profiling exercise of Afghan, Burmese, Somali and Indian households in the same neighbourhoods in the Indian capital
+Delhi. The aim was to identify differences in vulnerabilities. The findings indicated that vulnerabilities were indeed different. For example, Burmese and Somali refugees had more difficulty finding housing and jobs than Afghans and Indians.
+Source: JIPS, Guidance For Profiling Urban Displacement Situations: Challenges and Solutions, Joint IDP Profiling Service, 2014 (https://www.jips.org/files/818), p. 24.
+
+## Page 128
+
+118    |    Humanitarian response in urban contexts 3.6.4 Undertaking assessments relating to urban violence Assessments in relation to urban violence inevitably need careful planning. The ALNAP Lessons Paper Humanitarian Interventions in Situations of Urban Violence89 recommends and
+discusses a number of steps, such as the need to carefully assess local needs and strengths, to conduct repeat assessments and to use a combination of quantitative and qualitative methods. See also Section 1.2.1 on urban violence.
+In summary, assessments are vital to effective programming in post-disaster and conflict situations. A range of tools exist, and more are almost certainly on the way as knowledge and expertise in urban programming continue to develop. Multi-sectoral assessments are
+considered good practice, though these may not always be the ‘right’ approach in every context. The visualisation of data through maps and spatial analysis is an important aspect.
+Profiling is also increasingly gaining recognition as a valuable tool for ‘rooting’ humanitarian action within specific contexts. 3.7 Targeting Targeting is used to direct limited humanitarian resources to those who need them most. It
+is closely associated with response analysis, context analysis and assessments and profiling, which are discussed in other sections of this review.
+This section defines urban targeting, identifies urban targeting challenges and discusses targeting methods. The section ends with the steps involved in urban targeting approaches.
+An example is given of using cash-based indicators for urban targeting. 3.7.1 Defining targeting and targeting challenges Targeting can be defined as ‘the process by which individuals or groups are identified and selected for humanitarian assistance programmes, based on their needs and vulnerability.
+It is a way to focus limited resources on those within the population that would most benefit from support’.90 Targeting in urban areas is fraught with complexity. Vulnerability may well be hidden – those seemingly living well may be in chronic debt, or unable to sustain livelihoods (see
+the example from Syria in Box 3.10). Conversely, those who may appear to be vulnerable 89	   For further information see E. Lucchi, Humanitarian Interventions in Situations of Urban Violence, ALNAP Lessons Paper (London: ODI, 2013) (https://www.alnap.org/help-library/alnap-lessons-paper-humanitarian-interventions-in-
+settings-of-urban-violence). 90	  G. Smith, L. Mohiddin and L. Phelps, Targeting in Urban Displacement Contexts: Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10826IIED).
+
+## Page 129
+
+Chapter 3 Tools and approaches    |    119 may well not be (a single-headed, unemployed household may be receiving remittances, for instance). Accurate baseline vulnerability data may not be available, which can exacerbate the challenge of distinguishing between those with humanitarian needs from
+those who are in chronic need (for example the chronically poor). In adhering to a strict interpretation of humanitarian need (in order to ‘focus limited resources on those within the population that would most benefit from support’, as noted in the definition above),
+one review91 recommends that clear targeting objectives are essential: ‘Many high-risk and rapidly growing urban environments are characterized by widespread need and endemic problems and deficits of development in the absence of any acute crisis. Targeting
+vulnerable populations in such urban areas affected by crises cannot be an open invitation to permanent missions or demand that all pre-existing needs or deficits of development are met. Clear objectives and exit strategies must be employed’.92
+A 2017 guidance note, Targeting in Urban Displacement Contexts,93 makes the following
+useful observations concerning urban targeting. First, that targeting is imperfect:
+‘all [targeting activities] will generate errors of inclusion and exclusion’. Second, that targeting requires trade-offs, for example in cost and coverage, and in the time required to undertake targeting and the quality of information gathered. Third, that it is important
+to remain pragmatic – ‘practitioners should select the mechanism that allows for the rationing and prioritisation of assistance to meet needs as quickly, fairly and transparently as possible’. Fourth, to use mixed methods – ‘given the scale of need and the limitations of
+each targeting mechanism, it is considered best practice to use more than one targeting mechanism in combination so as to reduce errors and further prioritise resources’.
+Concerning displacement situations, one study on urban targeting94 identifies the following
+challenges:
+• The complex nature and heterogeneity of urban vulnerability – there is no easy
+distinction between ‘the vulnerable’ and those who are ‘not vulnerable’: most households may be considered vulnerable to varying degrees.
+• Accurate data can be limited, biased or non-existent, for instance where a munici-
+pality has poor records or there have been recent population movements or rapid 91	  R. Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected by Urban Humanitarian Emergencies? A Systematic Review Protocol of Methods and Specific Tools Used to Target the Most At-need
+Individuals, Households and/or Communities in Urban Crises (Cambridge, MA: Humanitarian Evidence Program, Tufts University, 2016) (https://policy-practice.oxfam.org.uk/publications/what-are-the-practices-to-identify-and-prioritize-
+vulnerable-populations-affect-605166). 92	  Ibid., p. 32. 93	  Smith, Mohiddin and Phelps, Targeting in Urban Displacement Contexts. 94	  Ibid.
+
+## Page 130
+
+120    |    Humanitarian response in urban contexts population growth. Records concerning informal settlements in particular may be missing or inaccurate.
+• Extensive chronic poverty – for example, many people live below the Sphere minimum
+standards, for instance regarding water availability (see Section 3.1 on standards) even without a crisis.
+• Targeting and assessments may be open to manipulation (see Section 2.2 on
+corruption).
+• Urban populations are often fluid, for example because of seasonal rural-to-urban
+migration, intra-urban migration and rapid population growth. 3.7.2 Methods for targeting A systematic review looking at best practice in urban assessments95 identified the following methods for targeting vulnerable urban populations affected by conflict, disasters and
+displacement.
+Targeting by displacement or disaster-affected status, i.e. IDPs or refugees versus host populations. This approach can be problematic as it may create resentment, for instance among people not assisted. Evidence suggests that both host and refugee populations
+should be included given the prevalence of extensive chronic urban poverty, which often leads to similar vulnerabilities among both groups.96 Using locally derived assessment tools, incorporating local voices, leading to context-specific
+indicators that may be more precise and accurate. Recognising the complexity and heterogeneity of urban areas, the review concludes that ‘Evidence suggests locally contextualized tools may represent best practice going forward’.97 It is noted, however, that this takes time
+and is resource-intensive. One example of such an approach98 is from Ethiopia, where a screening tool was developed to rapidly identify female refugee survivors of GBV in order to target services better. The tool was developed through interviews and focus group discussions.
+95	  Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected by Urban Humanitarian Emergencies? 96	  See for example Under Pressure: The Impact of the Syrian Refugee Crisis on Host Communities in Lebanon, World Vision, 2013 (https://assets.worldvision.org.uk/files/1413/7363/8729/Lebanon_Report_
+UNDER_PRESSURE_WV.pdf).
+97	  Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected by Urban Humanitarian Emergencies?, p. 31. 98	  A. Wirtz, N. Glass et al. (2013) ‘Development of a Screening Tool to Identify Female Survivors of Gender-based
+Violence in a Humanitarian Setting: Qualitative Evidence from Research among Refugees in Ethiopia’, Conflict and Health 7(1), 2013, cited in Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected
+by Urban Humanitarian Emergencies?
+
+## Page 131
+
+Chapter 3 Tools and approaches    |    121 Targeting by demographic category, such as gender, age, ability and ethnicity. While there are benefits of such an approach in terms of transparency and ease, entire groups who may be vulnerable can be overlooked. For example, ‘In Syria, unaccompanied Iraqi men
+living in Damascus were not considered for resettlement, despite lacking family or local networks’.99 There is also a risk of being perceived as partisan. One study from Somalia reported that ‘Targeting is another extremely difficult exercise in Mogadishu. The Somali
+clan and sub-clan system is such that aid organisations run the risk of being seen as the enemy by one side if they provide aid to another, making needs-based targeting and the allocation of aid a risky endeavour’.100 Using pre-existing administrative data. The risk here is that data may be inaccurate, destroyed
+or biased. ACAPS notes that ‘The civil wars in Sierra Leone and Liberia, and the 2010 Haiti earthquake and 2008 Typhoon Fengshen in Manila, saw the destruction of physical data’.101 Self-targeting, wherein people identify themselves as vulnerable, and, for example, may seek
+help at an office. Drawing on examples from Syria and Somalia, the review found that ‘selftargeting is unlikely to reach the most vulnerable who may wish to remain hidden and proved expensive and difficult to maintain long term or to transition to local authorities’.102 In DRC,
+UNHCR and partner agencies used self-identification as one targeting approach for girls engaging in survival sex.103 Programme staff made contact with girls who were known to frequent specific areas. Staff encouraged girls to introduce them to their friends; support
+included protection, health and economic help.
+Community-based targeting, wherein communities themselves identify who is vulnerable.
+Effective participatory assessments involve affected populations learning about needs and capacities alongside agencies. For example, following Typhoon Haiyan the NGO ActionAid undertook PRA exercises to enable communities to identify their needs and present them
+to NGOs.104 Community-based targeting must be well-planned, with adequate training provided. Problems can arise when this is not the case. One programme by Oxfam and Concern in Nairobi, for example, relied on local community members – community health
+99	  S. Haysom and S. Pavanello, Sanctuary in the City? Urban Displacement and Vulnerability in Damascus, HPG Working Paper (London: ODI, 2011). 100	 F. Grünewald, ‘Aid in a City at War: The Case of Mogadishu, Somalia’, Disasters 36(1), 2012.
+101	  ACAPS, Rapid Humanitarian Assessments in Urban Settings: Technical Brief, 2015 (www.alnap.org/ resource/20125), p. 20. 102	  Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected by Urban
+Humanitarian Emergencies?, p. iii. 103	 This example is from Smith, Mohiddin and Phelps, Targeting in Urban Displacement Contexts, p. 46. 104	 Sanderson and Delica Willison, Philippines Typhoon Haiyan Response Review.
+
+## Page 132
+
+122    |    Humanitarian response in urban contexts workers – to identify beneficiaries.105 A validation survey found substantial evidence of inclusion error, indicating that the health workers did not correctly identify the most
+vulnerable households.106 Problems included a preference for including friends or relatives and a lack of incentives to make the extra effort to uncover every vulnerable household in their area, as they did not receive compensation.107
+105   T. Cross and A. Johnston, Cash Transfer Programming in Urban Emergencies: A Toolkit for Practitioners, CaLP, 2011 (http://www.urban-response.org/resource/7056). 106   MacAuslan and Farhat, Review of Urban Food Security Targeting Methodology and Emergency Triggers.
+107	 I. MacAuslan and M. Farhat, Review of Urban Food Security Targeting Methodology and Emergency Triggers. Final Report, Oxfam, 2013, cited in Smith, Mohiddin and Phelps, Targeting in Urban Displacement Contexts, p. 52.
+Box 3.12  Using cash-based indicators for urban targeting CaLP’s Urban Toolkit on cash programming notes that good practice in urban targeting ‘requires clear definition of urban-specific vulnerability criteria, a selection process
+that prioritises the neediest families, and a verification process that can ensure that exclusion and inclusion errors are corrected transparently and quickly’.106 Given the critical role that markets play in meeting the needs of urban residents, chronic
+and widespread poverty and its link with vulnerability and the growing use of cash and market-based approaches in humanitarian response, income- or poverty-related measures might be particularly useful targeting criteria. Various indicators may be used,
+each with their own pros and cons:107 • Livelihoods and income. Income is critical in urban areas but hard to measure directly, hence the use of proxies. Questions on type of employment are more likely to succeed and are often useful. Questions on debt are important but can be unreliable
+and sometimes ambiguous.
+• Expenditure. This is highly relevant information but hard and time-consuming to
+collect. Proxies are easier.
+• Assets and housing. This information can be relatively easy to gather and reliable
+because it can be verified by targeting teams, but may not be well correlated to poverty following an emergency (therefore reducing the usefulness of proxy means tests).
+• Receipt of assistance from formal or informal sources. This information is usually
+highly relevant but can be difficult to interpret in contexts where informal sharing of resources is common.
+Finally, regardless of poverty measures, the coping strategies used by individuals and households may be a better reflection of their vulnerability, but may not be captured by the measures listed above. A scale based on locally contextualised coping strategies
+may allow for a more holistic assessment of vulnerability and thus guide targeting.
+
+## Page 133
+
+Chapter 3 Tools and approaches    |    123 Area-based targeting, where neighbourhoods or wider administrative areas are selected.
+Criteria for this may vary, such as levels of damage following a disaster or conflict, preexisting activities by aid agencies (which may want to continue working in the same area); negotiations within coordination meetings to assign activities; and level of legality
+(host governments may for instance not give permission for agencies to work in informal settlements). Area-based approaches are discussed further in Section 3.2.
+For further discussion of these methods, see R. Patel et al., What Are the Practices to Identify and Prioritize Vulnerable Populations Affected by Urban Humanitarian Emergencies?
+A Systematic Review Protocol of Methods and Specific Tools Used to Target the Most At-need Individuals, Households and/or Communities in Urban Crises (Cambridge, MA: Humanitarian Evidence Programme, Tufts University, 2016) (https://policy-practice.oxfam.org.uk/
+publications/what-are-the-practices-to-identify-and-prioritize-vulnerable-populationsaffect-605166).
+Cash programming is discussed further in Section 3.3. 3.7.3 Steps in urban targeting The guidance note Targeting in Urban Displacement Contexts108 provides principles for targeting criteria and decision-making tools. Figure 3.8 (page 124), from the guidance note,
+illustrates five steps in urban targeting in relation to the project management cycle.
+In summary, good targeting involves trade-offs, including time, affordability, quality of data and achieving something ‘good enough’ for informed programming. Transparency concerning ‘who is getting what and why’ is critical.
+3.8 Response analysis Response analysis is essentially what follows assessments and other activities such as profiling, where findings are reviewed, leading to programme design. During response analysis, programme options are decided.109 Response analysis should include a
+consideration of elements such as costs and benefits, actors’ engagement and capacity, risk analysis and technical feasibility. Good response analyses therefore are used to engage a large number of stakeholders. Response analyses can be wide-ranging and complex, and
+in urban areas need to be managed, in order to be realistic in terms of timeframe, scope, numbers and types of actors engaged with (the list can verge on limitless) and complexity. 108	 Smith, Mohiddin and Phelps, Targeting in Urban Displacement Contexts.
+109	 D. Maxwell et al., Response Analysis and Response Choice in Food Security Crises: A Roadmap, Network Paper 73 (London: ODI, 2013) (https://odihpn.org/wp-content/uploads/2013/02/NP73.pdf).
+
+## Page 134
+
+124    |    Humanitarian response in urban contexts
+•	 Verification processes
+•	 Communication and feedback
+mechanisms including appeal and redress process
+•	 Monitoring
+•	 Checklist to guide programming
+•	 Annex D; Methodological guidance for
+implementing CBT and Scorecards Programme Management Cycle Response analysis – defining priorities and objectives for programmes Monitoring Programme implementation Programme design and implementation set up Step 5: Manage
+and monitor targeting implementation Section 7
+Step 1:
+Assessment and anlysis Section 3 Step 3: Establish targeting critria Section 5 (supporting Tool 1)
+Step 4: Choose the targeting mechanism(s)
+Section 6 (supporting Tool 2 and 3) (Annex D)
+Source: G. Smith, L. Mohiddin and L. Phelps, Targeting in Urban Displacement Contexts: Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10826IIED), p. 12.
+Figure 3.8  Five steps in urban targeting Assessment – understanding needs and vulnerabilities
+
+## Page 135
+
+Chapter 3 Tools and approaches    |    125
+•	 Linkages between assessment, response analysis and
+targeting
+•	 How to design and implement vulnerability assessments
+to inform targeting
+•	 How to use response anaysis findings to inform targeting
+•	 Checklist to guide programming
+•	 Defining vulnerability; types of vulnerability criteria; their
+appropriateness for targeting multi-sectorial assistance in urban contexts; key considerations for their use
+•	 How to identify vulnerability critria
+•	 Checklist to guide programming
+•	 Supporting tool 1: Selecting targeting indicators
+•	 Overarching considerations when selecting the targeting
+mechanism
+•	 The range of targeting mechanisms; the main
+advantages and risks of these in an urban context and possible solutions; guidance on the step by step process for geographical targeting
+•	 Checklist to guide progeamming
+•	 Supporting tool 2: Selecting targeting mechanisms
+•	 Supporting tool 3: Geographical vulnerability indicators
+•	 Annex D: Methodological guidance for implementing
+CBT and Scorecards
+•	 Benefits and risks of blanket distribution
+•	 Checklist to guide programming
+Step 2: Decide whether to target Section 4
+
+## Page 136
+
+126    |    Humanitarian response in urban contexts This section identifies the challenges of undertaking an urban response analysis. It presents a number of response analysis frameworks that are applicable to post-conflict urban
+contexts. It presents an urban-specific response analysis tool, and provides two examples of sectoral response analysis frameworks, for food security and cash programming. 3.8.1 Challenges of undertaking an urban response analysis
+Response analyses can be large, take substantial time and resources and require research expertise. In one example, of a food security response analysis in East Africa, activities comprised ‘an extensive literature review as well as qualitative interviews with
+approximately 150 key informants. Interviews were conducted with headquarters and field level staff (Ethiopia, Somalia and Kenya) of a variety of local, national and international NGOs, international NGOs, UN agencies, the Red Cross movement, global experts, as well as
+national government and donor officials’.110 Response analyses (as with almost any other approach) can be susceptible to misuse,
+however unwittingly. One study concluded that:
+The term ‘response analysis’ implies that response choices are made solely on the basis of evidence and analysis. However, many factors contribute to how agencies select a response, and ‘response choice’ does not always involve an evidence-based, analytical
+process. Research … suggests that response choices are also driven by the capacity and organisational ethos of the implementing agency, the personal experience of programme staff and a range of external factors, including donor resources and policy, government
+policy in the recipient country, media and political influences, the costs of reporting and compliance associated with different resources, the capacity of partner organisations and considerations (or assumptions) about the risks associated with different responses.
+Sometimes the complexity of the context can severely constrain response options.111
+Other challenges include:
+• Engaging stakeholders adequately, which takes time and effort. Stakeholders can
+be various and there can be a large number of them. They can include (but are not limited to) municipal water and electricity utilities, private providers acting as utilities (water, electricity, sanitation services), health structures, neighbourhood associations,
+criminal gangs/organisations, the police, political parties and religious associations.
+• Spending time on response analysis rather than addressing the immediate needs of
+vulnerable people. 110	 Ibid., p. 1. 111	 Ibid.
+
+## Page 137
+
+Chapter 3 Tools and approaches    |    127 Response analysis framework Brief description Disaster phase and sectors covered Conflict-specific?
+Refugee Coordination Model
+(RCM), UNHCR
+UNHCR Handbook (https:// emergency.unhcr.org/ entry/60930)
+Sector leads undertake response analysis in close collaboration with UNHCR, developing the Refugee Response Plan. The role of UNHCR in ensuring appropriate implementation of the response analysis process is not very clear.
+OCHA follows a similar decentralised approach whereby cluster leads in consultation with their members identify responses.
+Although the RCM is not designed for urban contexts, it would utilise information from the analysis of urban contexts. However, there is no guidance on how to apply these processes to an urban context in which the stakeholders and contextual aspects such as conflict may
+require greater sensitivity.
+Phases: All refugee situations and throughout a refugee response, whether it is in a new or protracted emergency, or located in a camp, rural dispersed or in urban settings or in mixed situations.
+Sectors: Multiple sectors depending on results from needs assessments.
+Inherently, as UNHCR has a protection mandate.
+However, the needs assessment for refugee emergencies (NARE) and related needs assessment guidance does not provide robust guidance on how to respond in such contexts.
+Multi-Sector Response Analysis Framework (draft)
+Save the Children, 2015 (not available online)
+The MSRA is designed to facilitate the consolidation of sector assessment data into a multi-sector analysis process, and as such responsibility lies with sector specialists or assessment and analysis specialists, in line with standard humanitarian programme planning.
+Therefore, ensuring the engagement of any additional leadership and/ or decision-makers in the process. The MSRA is relatively new and has not yet been field-tested.
+To be used in conjunction with the Operational Guidance and Toolkit for Multi-Purpose Cash Grants (ERC, 2015).
+Phases: All phases.
+Sector: Multi-sector approach using expenditure basket calculations.
+Not specifically. However, relevant tools are suggested.
+Response Management Procedure Save the Children, 2016 (not available online)
+Although not a framework per se, this procedure is designed to guide Response Team Leaders and Deputy Response Team Leaders through the key actions and processes of managing a Save the Children response, from launch to close or transition.
+Essentially an internal tool, providing step-by-step guidance and checklists to support the implementation of an accountable, quality and timely response. There is clarity as to who is involved in the various stages of developing a response strategy, [but there is] less
+information on how decisions related to responses are made.
+Phases: All phases.
+Sectors: Multi-sector approach.
+Not specifically.
+However, relevant tools are suggested.
+Table 3.2  Frameworks that can be adapted to urban post-conflict contexts Source: L. Mohiddin, G. Smith and L. Phelps, Urban Response Analysis Framework (URAF). Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.
+org/10824IIED), p. 15.
+
+## Page 138
+
+128    |    Humanitarian response in urban contexts Box 3.13  NRC’s Urban Response Analysis Framework NRC’s Urban Response Analysis Framework (URAF) aims to provide an urban-specific multi-sectoral response analysis tool for use in situations where people have been
+displaced. The intention of the URAF is to identify which needs should be prioritised in multi-sector programmes, and which populations should be targeted; define programme objectives, response modalities and delivery mechanisms; and identify
+programme- and context-related indicators for monitoring. The URAF comprises six steps, which are given, along with outputs, in Figure 3.9.
+Figure 3.9 The URAF’s six steps Source: Mohiddin, Smith and Phelps, Urban Response Analysis Framework.
+Step 1: Have the urban population’s multi-sector needs and vulnerabilities been assessed?
+Output: Multi-sector needs assessment data for specific group and/or area Step 2: Who are the population(s) in need? What are their priority?
+Output: Multi-sector needs assessment data for specific group and/or area Step 3: What opportunities and limitations exist in the internal and external operational environment?
+Output: Operational context overview and SWOT analysis Step 4: What are the programme objectives, potential response options, modalities and delivery mechanisms?
+Output: Programme objectives, potential multi-sector responses and assumptions Step 5: What response options, modalities and delivery mechanisms are recommended?
+Output: Multi-sector programme response decisions, monitoring indicators Step 6: To maintain response appropriateness what needs to be monitored?
+Output: Multi-sector programme response decisions, monitoring indicators
+
+## Page 139
+
+Chapter 3 Tools and approaches    |    129 • Needs can be extremely complex, making meaningful analysis difficult.
+• Needs and issues may change rapidly, potentially rendering an analysis that is not
+sufficiently flexible out of date.
+• The risk of doing harm, for instance by using out of date findings or not engaging
+sufficiently with relevant stakeholders. 3.8.2 Different response analysis frameworks There are a number of different frameworks relating to conflict and disasters. Table 3.2 presents a number of response analysis frameworks that can be applied to post-conflict
+situations in urban areas, though none has been specifically designed for urban use. 3.8.3 Sectoral response analyses Response analyses can be used to investigate the most appropriate delivery mechanisms in particular sectors (while recognising that sectors need to work closely together and multi-
+sectoral responses are important, as discussed in Section 3.2 on area-based approaches and referred to elsewhere in this Good Practice Review). Examples below concern food security and cash programming.
+Food security Figure 3.10 identifies the steps undertaken in response analysis, and where it appears in the programme management cycle. The example concerns food security needs following a rapid-onset disaster, or in preparation for a declining food situation where an early warning
+has been given. Cross-cutting considerations are indicated.
+Cash programming The following example from UNHCR identifies high-level critical decisions concerning the use of cash. The analysis is based on asking simple and clear questions, leading to a decision on the best modality for cash delivery based on the particular circumstances.
+Cash-based programming is discussed further in Section 3.3.
+
+## Page 140
+
+130    |    Humanitarian response in urban contexts Figure 3.10 A roadmap for response analysis Source: D. Maxwell et al., Response Analysis and Response Choice in Food Security Crises: A Roadmap, Network Paper 73 (London: ODI, 2013) (https://odihpn.org/wp-content/uploads/2013/02/NP73.pdf).
+Needs assessment
+•	 Prevalence (who, how many,
+how severe?)
+•	 ‘Gap’ (how much, how long?)
+•	 Spatial/temporal dimension
+(where, when?) (Baseline vulnerability)
+Causal analysis
+•	 Underlying causes (why?)
+•	 Trends (direction over time?)
+Cross-cutting considerations Procurement (LRP)
+Access/security Capacity Recipient preference Logistics Government policy Partnerships Risk assessment Lessons learned/M&E Gender Proposal writing/detailed programme design Programme design Situation analysis Response analysis
+First-order options 1	 Assistance to protect consumption? (Food assistance) 2	 Assistance to protect nutritional status? (Nutrition support) 3	 Assistance to protect income/production? (Livelihoods support) 4	 Other forms of support?
+(Water, health)
+Second-order options
+•	 General food
+distribution
+•	 Market (cash/
+vouchers)
+•	 SFP/TFP; IYCF;
+micro-nutrient programmes
+•	 Livelihood
+assistance/resilience
+•	 Asset protection
+•	 Other
+Third-order options
+•	 Conditionality
+•	 Targeting
+•	 Fairs or shop-
+based
+•	 Food/nutrition
+products
+•	 Food basket/
+value of transfer Shock or early warning
+
+## Page 141
+
+Chapter 3 Tools and approaches    |    131 Figure 3.11  UNHCR cash delivery assessment tool Are FSPs present already or willing to set up an operation in the programme area Do any of your partners have the capacity to manage cash
+transfers efficiently Does the organisation have the capacity to manage cash transfers efficiently?
+Are FSPs fully regulated?
+Ask Investigate Consider Are electronic transfer options available Can bank accounts be opened for person of concern?
+Delivery through agents (Over-theCounter Do mobile money bulk payment options exist?
+Are cardbased options available?
+Cash Direct Payment by Organisation Delivery through agents (Over-theCounter)
+Accounts/ Wallets Bank accounts Post Office, MTA, etc.
+Mobile money Smart cards Prepaid cards This option is more flexible but may be more costly/ complex to procure Ask simple questions before moving ahead Try and find out more Conduct a more in-depth assessment to make a final
+decision This option is often the cheapest and fastest to procure CBI is not feasible at this stage Consider Consider Consider Investigate Investigate Investigate Consider Ask Ask Ask Ask Ask Ask Ask Consider Consider Consider
+Consider MFIs, traders, hawalas, etc.
+IP Cash Direct Payment Cash Direct Payment Yes Yes Yes Yes Yes Yes Yes Yes No No No No No or or No No Source: UNHCR, Cash Delivery Mechanism Assessment Tool (www.unhcr.org/uk/protection/livelihoods/5899ebec4/ cash-delivery-mechanism-assessment-tool.html), cited in Mohiddin, Smith and Phelps, Urban Response Analysis
+Framework.
+
+## Page 142
+
+132    |    Humanitarian response in urban contexts 3.9 Design and management This section presents four design and management approaches for complex and fastchanging environments: adaptive management; collaborating, learning and adapting (CLA);
+action planning; and human-centred design, design thinking and user journeys. This section combines design and management because the tools used in design, such as logframes, invariably become management tools as well.
+This section is closely aligned to the previous sections on assessments and response analysis. Without due attention to these prior activities, project design and its eventual management is unlikely to succeed. It is also closely associated with the following section on
+monitoring and evaluation (for example where tools such as adaptive management are also applicable). It also links to the section on area-based approaches (ABAs), which use some of the approaches discussed here. 3.9.1 Logframes
+The logframe analysis tool (and its variants across agencies and donors) remains the ‘industry standard’ for aid programme design and management. Logframes provide a clear project focus (the purpose); clear accountability (the indicators); and a test of
+potential project risks (the assumptions). When used well, logframes can be helpful tools for collaborative design (for example organising a stakeholder workshop to formulate a jointly owned project). They also build in accountability. However, their use in urban areas
+can be limited for a variety of reasons, including:
+• As a rigid design and management tool, they can be difficult to amend (especially if
+the logframe has formed part of a contract, as it often does).
+• Outputs are usually predetermined, and may take little or no account of project
+iterations or changes in conditions.
+• They risk reinforcing a single-sector focus, especially if one sector dominates the
+purpose statement.
+• Indicators may measure inputs and not outputs. For example, counting the number
+of houses built does not indicate quality, affordability or appropriateness.
+• They focus on short-term outputs, with little if any consideration of longer-term
+outcomes or impact.
+A detailed critique of project management tools and approaches is provided in A. Obrecht with S. Bourne, Making Humanitarian Response More Flexible, ALNAP Background Paper (London: ALNAP/ODI, 2018) (https://www.alnap.org/system/files/content/resource/files/main/
+ALNAPpaper%20Making%20humanitarian%20response%20more%20flexible_1.pdf).
+
+## Page 143
+
+Chapter 3 Tools and approaches    |    133 In reaction to this, a number of design and management tools that suit urban humanitarian settings are being piloted and used. Some of these are described below. 3.9.2 Design and management tools that adapt to changing urban environments
+Previous sections of this review have underscored the complexity of cities, where any engagement needs to be flexible, iterative and open-ended, working in areas that are fastchanging with high degrees of uncertainty and dynamic change. Given logframes have their
+limitations in this area, other urban- and complexity-oriented tools exist. Four of these, which have evolved from and/or have application to the uncertainties and complexities of urban programming, are presented here.
+1. Adaptive management
+Adaptive management is ‘a programming approach that combines appropriate analysis, structured flexibility, and iterative improvements in the face of contextual and causal complexity’.112 Work in this area is being undertaken by the International Rescue
+Committee (IRC) and Mercy Corps, which have set up an approach called ADAPT (Analysis Driven Agile Programming Techniques) to develop tools that work in complex and fastchanging environments.
+In recent research across programmes in six locations,113 emerging lessons included the
+need for the following:
+• Appropriate data and reflective analysis, for example through having many data
+sources and the ability to analyse incoming information, with the time for reflection.
+• Responsive decision-making and action, linked closely to context analysis and
+assessments, with decisions taken as closely to operational realities as possible.
+• Dynamic and collaborative teams, building in mentorship and collaborative app-
+roaches and hiring people who are adaptable and flexible.
+• Agile and integrated operations, linking functions such as human resources, finance
+and procurement.
+• Trusting and flexible partnerships, flexible budgets and flexibility in organisational
+activities. 112	 R. Chambers and B. Ramalingam, Adapting Aid: Lessons from Six Case Studies, IRC and Mercy Corps, 2016 (https://www.mercycorps.org/sites/default/files/Mercy_Corps_ADAPT_Adapting_aid_report_with_case_ studies.7.21.16.pdf), p. 2.
+113	 In Africa, the Middle East and Asia. The studies were not specifically on urban areas, though they do relate to complex and dynamic humanitarian situations, hence their relevance to this review. See Chambers and Ramalingam,
+Adapting Aid.
+
+## Page 144
+
+134    |    Humanitarian response in urban contexts ALNAP’s work on organisational flexibility114 describes three components of adaptive capabilities in humanitarian settings: knowing when to change, including timing and motivation; deciding what the change is; and implementing the change through changing/
+adapting plans and mobilising resources. Figure 3.12 identifies these three components in the context of the project management cycle, referred to in the research as ‘the adaptiveness cycle’.
+Further useful sources of information on adaptive management include:
+114	 A. Obrecht with S. Bourne, Making Humanitarian Response More Flexible, ALNAP Background Paper (London:
+ALNAP/ODI, 2018) (https://www.alnap.org/system/files/content/resource/files/main/ALNAPpaper%20Making%20 humanitarian%20response%20more%20flexible_1.pdf).
+Source: A. Obrecht with S. Bourne, Making Humanitarian Response More Flexible, ALNAP Background Paper (London:
+ALNAP/ODI, 2018) (https://www.alnap.org/system/files/content/resource/files/main/ALNAPpaper%20Making%20 humanitarian%20response%20more%20flexible_1.pdf), p. 42.
+Figure 3.12 The adaptiveness cycle
+
+S
+u pp ly c h ai n a nd l og is ti cs
+
+Fu nd in g
+
+M
+o ni to ri n g a nd e va lu at io n
+
+Pe op le a nd s ki ll s
+
+K
+n o w i n g
+
+w h e n
+
+t o
+
+c h a n g e
+
+I
+m p l e m e n t i n g
+
+t h e
+
+c h a n g e
+
+D
+e c i d i n g
+
+o n
+
+t h e
+
+c h a n g e
+
+## Page 145
+
+Chapter 3 Tools and approaches    |    135 The Humanitarian Innovation Guide produced by the Humanitarian Innovations Fund (HIF).
+The guide can be found at https://higuide.elrha.org/.
+For examples on the application of adaptive management, see R. Chambers and
+B. Ramalingam, Adapting Aid: Lessons from Six Case Studies, IRC and Mercy Corps, 2016
+(https://www.mercycorps.org/sites/default/files/Mercy_Corps_ADAPT_Adapting_aid_ report_with_case_studies.7.21.16.pdf).
+For further discussion on adaptive management throughout the project management cycle, see H. Desai, G. Maneo and E. Pellfolk, Managing to Adapt: Analysing Adaptive Management for Planning, Monitoring, Evaluation, and Learning (Oxford: Oxfam, 2018) (www.alnap.org/
+help-library/managing-to-adapt-analysingadaptive-management-for-planning-monitoringevaluation-and).
+2. Collaborating, learning and adapting (CLA)
+The collaborating, learning and adapting (CLA) approach provides tools to support iterative learning leading to modifications and improvements during the life of a project.
+Three key elements of CLA are:
+• Connect CLA tools to activities, to track the progress of a project.
+• Do analysis quickly, to enable adjustments to project activities that may need changing.
+• Share information and findings with stakeholders as they emerge.
+Box 3.14  Building in flexibility in human resources and finance functions Adaptive management, action planning and CLA require flexible internal systems within organisations. Research on the use of these approaches in managing area-based programmes
+found three key requirements. The first was that the internal systems of agencies, such as human resources (HR) and finance, need to be aligned to the flexible and iterative nature of the approach. One way to achieve this is to involve HR and finance staff at the earliest stages
+of the design of an ABA, which can help support services function more smoothly in the subsequent implementation of the programme. The second requirement was for HR functions to be more flexible: job descriptions may need to be written to be open-ended, which may
+require post-holders to apply skills beyond those in which they may have been formally trained. The third requirement was that staff profiles would be closer to a combination of social entrepreneur, negotiator and networker, rather than, say, engineer, house-builder or
+logistician (while recognising that technical skills such as these are essential).
+Source: D. Sanderson, ‘Implementing Area-based Approaches (ABAs) in Urban Post-disaster Contexts’, Environment and Urbanization 29(2), October 2017 (http://journals.sagepub.com/doi/full/10.1177/0956247817717422).
+
+## Page 146
+
+136    |    Humanitarian response in urban contexts For more information on CLA, see https://researchforevidence.fhi360.org/how-to-successfullyapply-the-collaborating-learning-and-adapting-cla-approach-in-your-programs.
+Building flexibility into programme management is discussed in the example in Box 3.14.
+3. Action planning
+Action planning115 is a project design and management approach that relies on neighbour-
+hood-level participation and consensus-building. Its nine characteristics are:
+1.	 Problem-based and opportunity-driven, to give clarity on actions to be undertaken.
+2.	 Based on achievable actions, to build confidence that recovery can take place.
+3.	 Reliant on local knowledge and skills, emphasising local ownership.
+4.	 Non-reliant on complete information, using the principle of ‘optimal ignorance’ to
+avoid the notion that everything needs to be known before anything can happen.
+5.	 Small in scale and neighbourhood-based, in order to instill neighbourhood-level
+ownership.
+6.	 Embraces serendipity, e.g. chance encounters that lead to the forging of local
+connections.
+7.	 Actions are incremental rather than comprehensive – this is particularly important
+given the short funding cycles often associated with post-disaster recovery.
+8.	 Starting points rather than end states, reflecting the complexity of urban
+programming, where initially envisaged approaches may not be appropriate as the project progresses.
+9.	 Visible, tangible outputs, to encourage engagement and replication elsewhere.
+An extensive description of tools and approaches to implementing action planning can be found in N. Hamdi and R. Goethert, Action Planning for Cities: A Guide to Community Practice (Rugby: IT Publications, 1997).
+A database of other process-oriented, people-centred design tools can be found at http://www.spatialagency.net/. 115	 N. Hamdi and R. Goethert, Action Planning for Cities: A Guide to Community Practice (Rugby: IT Publications, 1997).
+
+## Page 147
+
+Chapter 3 Tools and approaches    |    137
+4. Human-centred design, design thinking and user journeys
+Human-centred design116 means collaborating with people in need to design spaces, projects and policies that benefit them directly. This approach (which has been around for a number of years within the design community) recently gained attention with the first
+‘Design for Humanity Summit’ in 2018, which aimed to inspire humanitarians and designers
+to develop a humanitarian design charter by:
+• amplifying the discourse on the role of design processes in humanitarian response;
+• integrating human-centred design processes into the norms of humanitarian action;
+and • building a coalition of humanitarians and designers to launch research and pilot projects.
+Human-centred design was used in Regent Park in Toronto, where a 69-acre public space is being redeveloped. Designers aimed to improve the lives of residents and 25,000 Syrian refugees in the area using a range of collaborative and consultative design processes.117
+Design thinking, closely related to human-centred design, is ‘a collaborative tool that mixes empathy with systems design to develop more user-friendly human systems’.118 While used in the design world for a number of years, with a track record of success, design thinking is little
+known in humanitarian circles.119 Design thinking was recently used in research to rethink humanitarian aid, where the aim was to ‘reimagin[e] what a more effective humanitarian system would look and act like if we truly “put people at the centre” and designed the system
+from the perspective of its users up and down the humanitarian value chain’.120 User journeys are a related approach to design thinking which also use empathy as a tool for analysis. In a recent study of the use of cash in Kenya,121 the user journeys ‘aim to expose
+116	 For further information, see A. Wells, Design for Humanity Report, 2018 (https://issuu.com/iiha/docs/ design4humanity-report-2018). 117	 R. Smyth, Business of Home Feature: Designers are Collaborating with the UN on Humanitarian Initiatives,
+Institute of Humanitarian Affairs, 2018 (https://medium.com/humanitarianpulse/business-of-home-designers-arecollaborating-with-the-un-on-humanitarian-initiatives-12b6e9bec867). 118	 C. Bennett et al., Constructive Deconstruction: Imagining Alternative Humanitarian Action (London: ODI, 2018)
+(https://www.odi.org/sites/odi.org.uk/files/resource-documents/12206.pdf), p. 1. 119	 See for example T. Brown, Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation (New York: HarperCollins, 2009). See also http://designthinking.ideo.com/.
+120	 Bennett et al., Constructive Deconstruction, p. 1. 121	 E. Sagmeister and M. Seilern, Kenya Case Study: Improving User Journeys for Humanitarian Cash Transfers (Vienna and London: Ground Truth Solutions and ODI, 2018) (http://groundtruthsolutions.org/wp-content/uploads/2018/08/
+User_Journeys_Kenya_Report_2018.pdf).
+
+## Page 148
+
+138    |    Humanitarian response in urban contexts the experience of receiving cash transfers from different standpoints. Actively empathising with participants enabled the research team to identify unmet and latent needs, as well
+as opportunities for change from the users themselves’. The study also used behaviour mapping and a survey of 264 respondents. The resulting data presents individuals’ ‘journeys’ and their positive and negative experiences of cash delivery mechanisms. This
+information is combined with more traditional statistical analysis and data presentation.
+The report is E. Sagmeister and M. Seilern, Kenya Case Study: Improving User Journeys for Humanitarian Cash Transfers (Vienna and London: Ground Truth Solutions and ODI, 2018) (http://groundtruthsolutions.org/wp-content/uploads/2018/08/User_Journeys_Kenya_
+Report_2018.pdf).
+In summary, programme design and management in urban areas needs to be more flexible, iterative and adaptable in order to respond meaningfully to fast-changing, complex and interlinked environments. The above examples, many of which are relatively new to
+humanitarian aid, provide pointers as to how these approaches may evolve. 3.10 Monitoring and evaluation In nearly all humanitarian aid programmes, the tasks of ongoing monitoring, programme evaluation and learning are vital to success. Monitoring and evaluation activities are particularly
+important in complex urban settings, where initial programme design is likely to require modifications and adaptations in response to a rapidly changing operating environment.
+The subject of monitoring and evaluation in humanitarian action is vast, and a wealth of tools and approaches are available (several are given in this section). This section,122 like others, does not intend to review the entirety of monitoring and evaluation, but aims instead
+to highlight key principles, challenges and opportunities relating to urban areas. The section introduces some of the challenges in urban monitoring and evaluation, identifies emerging lessons and approaches for urban monitoring and evaluation and discusses remote
+monitoring in conflict situations. As with some other sections of this GPR, this is an area of emerging rather than established good practice.
+Monitoring and evaluation ties in closely to a number of other sections discussed in this GPR, especially those within the project management cycle, in particular assessments (Section 3.6) and design and management (Section 3.9).
+122	 This section benefited in particular from inputs from Paul Knox Clarke, Amelie Sundberg, Neil Dillon and Leah Campbell of the ALNAP Secretariat.
+
+## Page 149
+
+Chapter 3 Tools and approaches    |    139 3.10.1 Challenges in urban monitoring and evaluation The complexities of designing and enacting urban programmes are discussed throughout this GPR. The process of monitoring and evaluating programme activities and outcomes
+needs to deal with this complexity and the ways in which humanitarians respond to it (including by adapting to rapid changes in the environment, engaging with a multitude of actors and in some instances undertaking multi-sectoral programming).
+Two reports from ALNAP123 describe some general challenges to monitoring and evaluation
+in humanitarian interventions, which are particularly relevant for urban emergencies:
+• Identifying what needs to be known in the balance between robustness and speed is
+particularly difficult in cities due to the interconnectedness and density of people and services, which often cannot be untangled in a clear way. The monitoring information needed is also likely to change as an emergency evolves, but not all organisations are
+accepting of an iterative approach (for a further discussion on tools relating to this, see Section 3.9 concerning design and management).
+• Considering how to use secondary data rather than resorting to primary data
+collection (which can be time-consuming and costly to collect) is important in urban contexts.
+• Humanitarian evaluations are often undertaken in periods of severe disruption,
+which can limit access to information and key informants.
+• In situations of conflict, it may be difficult for evaluators to access affected commun-
+ities, limiting the amount of information available from the users of humanitarian goods and services (in urban environments, access may also be a problem even where there is no overt conflict – in certain particularly violent parts of a city, for example).
+This is further discussed in the section on remote management below.
+• Conflicts can also generate sharply differing points of view, which may make it
+difficult to arrive at an objective assessment of a particular issue. To reduce the risk of bias, triangulation (basing findings on more than one source) is always necessary.
+Several other challenges to evaluation are intensified in urban environments:
+• Given that cities are dynamic, the humanitarian situation, and humanitarian needs,
+can change very quickly. This means that the objectives and activities of urban programmes often change. Monitoring and evaluation systems need to be flexible enough to capture these changes, and broad enough to identify unexpected results.
+123	 See A. T. Warner, What is Monitoring in Humanitarian Action? Describing Practice and Identifying Challenges (London:
+ALNAP/ODI, 2017) (https://www.alnap.org/help-library/what-is-monitoring-in-humanitarian-action-describing-practiceand-identifying); and ALNAP, Evaluation of Humanitarian Action Guide (London: ALNAP/ODI, 2016) (https://www.alnap.
+org/system/files/content/resource/files/main/alnap-evaluation-humanitarian-action-2016.pdf).
+
+## Page 150
+
+140    |    Humanitarian response in urban contexts • The density and interconnectedness of services in urban areas means that humanitarian needs are generally multi-sectoral and intertwined. For example, disruption in electricity generation can lead to water and sanitation systems closing down, with
+knock-on effects on health and education services. Closure of markets can prevent people from accessing food, health services or employment – which in turn can make it even harder to access food. To understand the humanitarian situation, and to capture
+the effects of humanitarian programmes, monitoring systems and evaluations will generally need to be multi-sectoral, and will often need to be multi-agency.
+• Any specific humanitarian intervention will very often have a number of important
+but indirect effects, which will tend to occur in combination with the effects of other interventions. For example, the provision of child-friendly spaces may help improve the psychological and physical well-being of children, but it is possible that this
+effect was also a result of better provision of water (so that children or their parents did not have to go longer distances in an unsafe environment to collect water).
+Where the chain between cause and effect is long, and where many elements are involved, evaluators need to think about how they consider causality: they cannot assume that an intervention will lead, in a straight line, to an outcome.
+• The sheer numbers of people in urban environments mean that deciding who to
+include – and who to leave out – in any form of consultation may be challenging. It is also important to remember that communities may not be defined by physical boundaries. Communities of practice and interest may also be relevant (see Section
+1.1 on ways of seeing the city for a discussion of communities).
+• Given the complexity of cities, the learning functions of evaluations – understanding
+what works and why – are particularly important. This challenges evaluations to rigorously consider the reasons for success or failure.
+• The diversity of urban populations means that there will often be multiple interests
+involved in any intervention, making humanitarian activities the focus of much political attention. Evaluators should be prepared to navigate the politics of the city.
+• Potential key informants may be from a wide range of sources, including local and
+national government, journalists, businesspeople and academics. Gatekeepers may or may not be apparent, but will almost always be there. Challenges in negotiating with gangs, for instance, and seeking access to particular neighbourhoods may be
+exacerbated in urban environments (see Section 1.5 on urban actors). 3.10.2 Emerging lessons and approaches for urban monitoring and evaluation
+Lessons and approaches to urban monitoring and evaluation include:
+
+## Page 151
+
+Chapter 3 Tools and approaches    |    141 Build monitoring and evaluation into the programme from the beginning In urban programmes, it is especially important to include monitoring and evaluation as part of the original programme design. Urban programmes tend to be particularly ‘information
+heavy’, as a result of the number and diversity of people and elements involved, and the need to capture changes in the context. For programmes to be successful, resources for information collection and – particularly – analysis need to be made available at the planning stage. Many
+urban programmes are also fairly small compared to the level of needs across a city. To be effective, they often rely on scaling up. This depends on good information on what worked, what didn’t and why (see Section 3.2 on area-based approaches for a further discussion of
+scaling up). Several of  the programme design approaches outlined in Section 3.9 combine iterative programming with ongoing data collection and analysis. These approaches cannot be used successfully without a clear monitoring and evaluation plan.
+ALNAP’s Evaluation of Humanitarian Action guide124 outlines key issues that should be considered, from the outset, in the design of evaluation systems. These are also broadly
+relevant for thinking about the design of monitoring systems. They include:
+• The purpose of the evaluation. Is it to show the value of the programme to donors?
+To provide learning for future programmes? To allow for course correction of an existing programme? To help with scaling-up an existing programme? The purpose of the evaluation will, to a degree, drive the design.
+• Key users of the evaluation. Who will use it? How can they be engaged in the design to
+ensure that they get the outputs they need?
+• Focus questions. No evaluation can tell the user everything about an activity or
+programme. A good evaluation will identify the most important questions, and then use a methodology that is able to answer those questions.
+Focus on specific information needs Complex, diverse and rapidly changing urban environments create specific information needs. Monitoring and evaluation systems need to ensure that these needs are met, and that the specificities of urban response are reflected in the design of monitoring and evaluation
+systems.
+Ideally, monitoring should consider ‘need to know versus want to know’ – in such a dense environment, where monitoring has to be timely and relevant with scarce resources, untangling information needs is critical. Monitoring needs to consider the context – are there
+changes in the situation? Have these led – or are they likely to lead – to changes in need?
+Monitoring also needs to consider the outcomes of activities – what effects (both intended 124	 ALNAP, Evaluation of Humanitarian Action Guide.
+
+## Page 152
+
+142    |    Humanitarian response in urban contexts and, where these can be identified, unintended) are activities having? What does this mean for the programme?
+Evaluations need to focus on a number of issues:
+• Causal factors: the reasons for the relative success or failure of an intervention –
+either to allow for adaptive programming, or for extending or scaling up pilot programmes.
+• Tailoring to context: the degree to which approaches were appropriate to the
+urban context – potentially against the benchmark of best practice guidelines for working in cities.
+• Interconnectedness: the extent to which the programme took account of the
+interconnectedness of urban response, both in terms of interactions with other actors and the potential unintended spill-over effects of programme activities in other areas.
+• Dynamic programming: the rationale for programme adaptations and changes
+away from initial programme objectives and the quality of the decision-making that led to those changes.
+For further information, see:
+I. Christoplos and N. Dillon with F. Bonino, Evaluation of Protection in Humanitarian Action
+(London: ALNAP/ODI, 2018) (https://www.alnap.org/system/files/content/resource/files/ main/EPHA%20Guide%20online%20interactive.pdf).
+S. Jabeen, ‘Unintended Outcomes Evaluation Approach: A Plausible Way to Evaluate
+Unintended Outcomes of Social Development Outcomes’, Eval Program Plann 68, June 2018 (https://www.ncbi.nlm.nih.gov/pubmed/28965770).
+J. Puri et al., What Methods May Be Used in Impact Evaluations of Humanitarian Assistance?,
+Working Paper 22 (New Delhi: International Initiative for Impact Evaluation (3ie), 2015) (https://www.alnap.org/system/files/content/resource/files/main/wp-22-humanitarianmethods-working-paper-top.pdf).
+Engage in complexity and systems thinking Overall, urban monitoring and evaluation means engaging in complexity and systems thinking (see Section 1.1, on ways of seeing the city). Three guides that outline steps for undertaking
+evaluations in complex settings or using a systems-based approach to evaluation are:
+
+## Page 153
+
+Chapter 3 Tools and approaches    |    143
+J. M. Bamberger, J. L. Vaessen and E. R. Raimondo (eds), Dealing with Complexity in
+Development Evaluation (Thousand Oaks, CA: Sage, 2015).
+M. B. Hargreaves, Evaluating System Change: A Planning Guide (Princeton, NJ: Mathematica
+Policy Research, 2010) (https://www.mathematica-mpr.com/our-publications-and-findings/ publications/evaluating-system-change-a-planning-guide).
+B. Williams and R. Hummelbrunner, Systems Concepts in Action: A Practitioner’s Toolkit
+(Stanford, CA: Stanford University Press, 2010) (https://www.sup.org/books/title/?id=18331).
+P. J. Rogers, ‘Using Program Theory to Evaluate Complicated and Complex
+Aspects of Interventions’, Evaluation 14, 2008 (https://journals.sagepub.com/doi/pdf/ 10.1177/1356389007084674).
+This USAID paper considers issues specific to monitoring in situations of complexity:
+Discussion Note: Complexity-Aware Monitoring, July 2018 (https://usaidlearninglab.org/sites/ default/files/resource/files/cleared_dn_complexity-aware_monitoring.pdf).
+Box 3.15 Using indicators in monitoring a multi-sectoral programme in Guatemala City In Barrio Mio, an area-based disaster risk reduction and response project in Guatemala City, Project Concern International (PCI) implemented a multi-sectoral programme with
+activities ranging from women’s savings groups to the installation of retaining walls and water tanks and building the GIS capacities of municipal actors. Initially, the project relied on a set of indicators from its funding proposal. These were separated by sector, and
+covered issues such as the number of shelters incorporating hazard mitigation measures and the number of people demonstrating good handwashing practices.
+A case study on the project found that, while these indicators helped to demonstrate achieved deliverables, they failed to ‘capture the richness of the Barrio Mio project and what it’s been able to achieve – which is far beyond the level of ambition that
+these indicators suggest’. The Barrio Mio team developed a number of complementary indicators in addition to the additional list from the donor, though tensions remained ‘between what some describe as a “myopic” focus on the list of indicators and the overall
+impact the project has had’.
+Adapted from Campbell (forthcoming, 2019).
+
+## Page 154
+
+144    |    Humanitarian response in urban contexts Be aware of the multiple information sources available in the city Cities are information-rich. Local government, service providers, chambers of commerce, journalists and many others may collect the information that monitoring or evaluation
+systems require. It may also be possible to make use of geospatial approaches (see Section 3.4 on mapping and geospatial analysis) to identify, or triangulate, changes in context or the effects of programmes. When using secondary data, however, it is important to ensure
+that the data adequately represents the populations of greatest concern. Official data often ignores certain parts of cities (such as informal settlements), or is aggregated at a high level, and so effectively hides the reality of life for the poorest or most marginalised groups.
+When investigating the degree to which outcomes are achieved, or the constraints to achieving them, qualitative data is also important. One literature review on urban crises advises that ‘qualitative data may be required to capture impacts and outcomes that are
+more difficult to quantify (e.g. impacts on local power structures and urban socio-economic realities)’.125 Qualitative approaches are critical to explaining how and why something occurs.126 A 2016 learning workshop of urban disaster risk reduction practitioners empha-
+sised the need for monitoring and evaluation tools to recognise the complex social dynamics in urban neighbourhoods, and use qualitative indicators to understand the context.127
+For further information, see:
+M. Skovdal and F. Cornish, Qualitative Research for Development: A Guide for Practitioners
+(Rugby: Practical Action, 2015) (http://eprints.lse.ac.uk/64207/).
+M. Quinn Patton and M. Cochran, ‘A Guide to Using Qualitative Research Methodology’, MSF,
+2012 (https://evaluation.msf.org/sites/evaluation/files/a_guide_to_using_qualitative_research_ methodology.pdf).
+ICRC, Acquiring and Analysing Data in Support of Evidence-based Decision Making (Geneva:
+ICRC, 2017) (https://www.icrc.org/en/publication/acquiring-and-analysing-data-supportevidence-based-decisions-guide-humanitarian-work).
+M. Bamberger, J. Rugh and L. Mabry, ‘Qualitative Evaluation Approaches’ in RealWorld
+Evaluation: Working under Budget, Time, Data, and Political Constraints (Thousand Oaks, CA:
+Sage Publications, 2012). 125	 D. Brown et al., Urban Crises and Humanitarian Responses: A Literature Review (London: UCL, 2015) (https://www.urban-response.org/system/files/content/resource/files/main/bartlett.pdf). 126	 M. Skovdal and F. Cornish, Qualitative Research for Development: A Guide for Practitioners (Rugby: Practical Action,
+2015) (http://eprints.lse.ac.uk/64207/).
+127	 J. P. Sarmiento et al. (eds), Urban Disaster Risk: Systematization of Neighborhood Practices (Miami, FL: Florida International University Extreme Events Institute, 2016).
+
+## Page 155
+
+Chapter 3 Tools and approaches    |    145
+M. Q. Patton, Qualitative Evaluation and Research Methods (Thousand Oaks, CA: Sage
+Publications, 2002).
+Use people-centred approaches As discussed throughout this Good Practice Review (and introduced in Section 1.1 on ways of seeing the city), people-centred approaches are key. One guide presents an approach which asks households to (retrospectively) describe their livelihoods before the disaster,
+immediately after the disaster and after humanitarian interventions; identify changes; and describe the contribution interventions have made to these changes. It also lays out good practice in working with affected communities. See R. Few et al., Contribution
+to Change: An Approach to Evaluating the Role of Intervention in Disaster Recovery (Rugby:
+Practical Action Publishing, 2013) (https://reliefweb.int/report/world/contribution-changeapproach-evaluating-role-intervention-disaster-recovery).
+Similarly, the Good Enough Guide to Impact Measurement and Accountability in Emergencies provides a number of simple and effective tools and principles for understanding the impact of humanitarian activities from the perspective of the people who are meant to benefit from
+them: see https://www.alnap.org/help-library/good-enough-guide-impact-measurementand-accountability-in-emergencies.
+The ‘most significant change’ (MSC) approach relies on collecting significant change stories coming out of a programme, and the systematic selection of the most significant stories by panels of designated stakeholders or staff. It is particularly good at identifying the
+more unusual or extreme effects of interventions, and for creating a shared understanding between stakeholder groups involved in a response. See R. Davies and J. Dart, The ‘Most Significant Change’ (MSC) Technique: A Guide to Its Use, 2005 (https://www.mande.co.uk/wp-
+content/uploads/2005/MSCGuide.pdf).
+In addition, a number of toolkits and guidance notes are available to support participatory
+approaches to information collection and analysis. They include:
+• IFRC’s VCA Toolbox (http://www.ifrc.org/Global/Publications/disasters/vca/vca-
+toolbox-en.pdf)
+• Tools and methods for undertaking PRA (also called RRA) in urban areas
+(https://www.iied.org/rra-notes-21-participatory-tools-methods-urban-areas).
+• Participatory urban planning approaches (https://participatoryplanning.ca/sites/
+default/files/upload/document/participatory_urban_planning_brochure_2016. pdf).
+
+## Page 156
+
+146    |    Humanitarian response in urban contexts Consider working ‘backwards’, from outcomes to interventions An important element of many people-centred approaches to evaluation is that they invert the ‘normal’ sequence of evaluation. Rather than starting with an intervention and working
+forwards to try to identify the results of the intervention, they begin with the changes that people have seen and work backwards to see how these changes link to the intervention. As a result, they are generally better adapted to evaluating urban programmes, where there
+are often long and complicated causal chains between the humanitarian response and the effects on people’s lives, and where multiple interventions may have contributed to the final outcome. That said, they may be less good at fulfilling donor requirements to show how a
+single, specific intervention worked. Some of these approaches may also be too demanding for certain types of humanitarian crises, such as rapid-onset emergencies.
+The Good Enough Guide, MSC and Contribution to Change discussed above all take this approach, as does the increasingly popular ‘outcome harvesting’ method, which uses a sixstep process to identify positive and negative, intended and unintended outcomes, and then
+articulates verifiable connections between these outcomes and initiatives of interest: see https://www.outcomemapping.ca/download/wilsongrau_en_Outome%20Harvesting%20 Brief_revised%20Nov%202013.pdf.
+Traditional approaches for evaluating urban interventions can still be relevant and appropriate. The ALNAP evaluation guide presents different evaluative options, such as project evaluation, process evaluation and impact evaluation and accompanying methods,
+including case studies, process reviews, outcome reviews, before and after comparisons, interrupted time series and comparison groups.128 Evaluation is not the only way to promote organisational learning, nor is it necessarily
+the most cost-effective. Formal EHA sits alongside a range of additional learning and accountability tools, from beneficiary tracking to monitoring systems and After-Action Reviews. Other learning processes to consider in humanitarian action are also presented in
+the ALNAP guide.
+Consider using iterative approaches As noted throughout this GPR, cities are dynamic environments, where needs often change quickly. For this reason, many approaches to monitoring and evaluation emphasise an ongoing, iterative process that relies less on establishing whether pre-defined indicators
+are being achieved and more on understanding what is changing, and how (and whether) the humanitarian response is achieving these changes. 128	 ALNAP, Evaluation of Humanitarian Action Guide, pp. 193–214.
+
+## Page 157
+
+Chapter 3 Tools and approaches    |    147 Box 3.16 Iterative monitoring and evaluation of the 2010 Haiti earthquake Following the 2010 earthquake in Haiti, Groupe URD conducted a number of iterative130 and real-time evaluations. Iterative evaluation aims to ‘analyse how a programme is
+being implemented in relation to changes in context and needs, and to ensure that the programme remains relevant and that there is effective coordination between the actors involved’. From 2012–15, Groupe URD maintained a ‘Haiti observatory’ to conduct iterative
+monitoring, promoting learning and good practice.
+
+More information about the work of the Haiti observatory can be found at https://www.urd.org/en/field-offices/Ouractivities-in-Haiti/. 130  See https://www.urd.org/en/field-offices/Our-activities-in-Haiti/What-we-do/Evaluation,130/Iterative-
+evaluation-of-the and https://www.urd.org/en/field-offices/Our-activities-in-Haiti/What-we-do/Evaluation,130/ Evaluation-of-the-Support,1416.
+Examples of this type of iterative approach include:
+• Outcome mapping: a tool for planning, monitoring and evaluating interventions
+that focuses on the changes in behaviour that these interventions are intended to achieve, rather than hard outputs such as better shelter units or availability of water. It is designed to be cyclical, with monitoring and evaluation activities
+feeding into (re)designs of the programme. More information is available at https://www.outcomemapping.ca/download/OM_English_final.pdf.
+• Real-time evaluations: participatory evaluations that aim to identify bottlenecks and
+problems in a response, to allow for immediate course corrections and changes to programming. See https://www.alnap.org/help-library/real-time-evaluations-ofhumanitarian-action-an-alnap-guide. See also http://journals.sfu.ca/jmde/index.
+php/jmde_1/article/view/380.
+• The Collaborating, Learning and Adapting approach (CLA): another monitoring
+approach that is specifically designed to support adaptive programming (see Section 3.9 on design and management). A brief introduction can be found at https://usaidlearninglab.org/node/14633.
+The Good Enough Guide and MSC approaches outlined above are both intended to be used iteratively.
+
+## Page 158
+
+148    |    Humanitarian response in urban contexts It is worth noting that simply having an iterative approach is not enough: effective monitoring and evaluation of urban humanitarian action requires not only that monitoring
+and evaluation systems are in place, but also that they are linked to the relevant decisionmaking procedures and systems. Early engagement with key users (see above) can go some way to addressing this problem. For more suggestions on ensuring that evaluative
+(and, by extension, monitoring) information is used, see A. Hallam and F. Bonino, Using Evaluation for a Change: Insights from Humanitarian Practitioners (London: ALNAP/ODI, 2013) (https://www.alnap.org/system/files/content/resource/files/main/alnap-study-using-
+evaluation-for-a-change.pdf).
+Work collaboratively with other stakeholders Another common feature of many monitoring and evaluation approaches suited to urban environments is that they are intended to be used by multiple stakeholders, including humanitarian agencies, local government and civil society. In fact, many aim to
+simultaneously produce information and build shared understanding of the context and a shared commitment to response activities.
+Shared or joint approaches have important advantages in urban contexts, where, in the wake of a humanitarian crisis, many organisations will be working on response activities that will influence (and hopefully support) each other. Joint monitoring and evaluation
+could facilitate an understanding broader than any one project, and ‘may provide better opportunities to document challenges, shortcomings, failures and successes’, as well as potentially revealing systemic issues, rather than individual cases.130
+It should be noted that collaboration can often be difficult, particularly where the agencies involved are competing for funding or where they have very different organisational structures and cultures. See Section 2.1 on coordination for further discussion on this. See also T. Beck
+and M. Buchanan-Smith, Joint Evaluations Coming of Age? The Quality and Future Scope of Joint Evaluations (London: ALNAP/ODI, 2008) (https://www.alnap.org/help-library/joint-evaluationscoming-of-age-the-quality-and-future-scope-of-joint-evaluations). The UN Evaluation Group’s
+Resource Pack on Joint Evaluations (2014) may also be helpful: http://www.unevaluation.org/ document/detail/1620. 3.10.3 Remote monitoring in conflict situations Monitoring in conflict situations is inevitably governed by access and security concerns. In
+cases where access by international humanitarian actors is restricted, remote monitoring may take place. In contexts where access is severely limited, remote monitoring, as a wider part of 130	 Brown et al., Urban Crises and Humanitarian Responses.
+remote management, may be the only option. Remote management can be defined as:
+
+## Page 159
+
+Chapter 3 Tools and approaches    |    149 A reactive stance in response to insecurity that involves some delegation of authority and decision-making responsibility to national implementers. There is commonly a moderate investment in capacity building for nationals and procedures in place that enable better
+communication, monitoring, and quality. Assumes that decision-making and authority will revert back to international [staff] following the restoration of security.131 A 2017 literature review of humanitarian programming and monitoring in inaccessible
+conflict settings132 noted that ‘remote operations require increased monitoring and reporting requirements than traditional programming due to the lack of field presence and direct oversight by international organizations, but often have fewer resources to meet these
+increased demands’. Challenges include ‘limited opportunities for data collection, poor quality data and inaccurate information, and lack of monitoring skills and capacity of local staff, among others’.
+An important issue here concerns risk transfer to local staff and other local actors.
+Concerning this, the same literature review concluded that ‘Remote operations involve the transfer of risk from international to local actors, who are assumed to be at lower risk for targeting and therefore safer when implementing. This is often a false assumption as they
+face unique threats that are often not acknowledged in security assessments. Additionally, local actors are infrequently present at trainings on security, and are often left with minimal security-related equipment when expatriates evacuate’.133
+Where access is impossible, such as in conflict situations, existing data and resources are sometimes used. For example, FAO and WFP used government data for their 2018 monitoring report on food security in 16 conflict-affected countries.134
+For more discussion on remote monitoring, see:
+Workshop Summary: Remote Monitoring, Evaluation and Accountability in the Syria Response, ALNAP and DEC, 27 June 2014 (https://www.alnap.org/system/files/content/resource/files/ main/alnap-dec-syria-workshop-summary-final.pdf).
+131	 S. Choudhri, K. Cordes and N. Miller, Humanitarian Programming and Monitoring in Inaccessible Conflict Situations: A Literature Review, Health Cluster, 2017 (https://www.who.int/health-cluster/resources/publications/remote-lit-review.pdf).
+132	 Ibid. 133	 Ibid., p. 8. 134	 FAO and WFP, Monitoring Food Security in Countries with Conflict Situations: A Joint FAO/WFP Update for the United Nations Security Council, January 2018, Issue 3 (http://www.fao.org/3/I8386EN/i8386en.pdf), p. iii.
+
+## Page 160
+
+150    |    Humanitarian response in urban contexts Box 3.17 Libya Joint Market Monitoring Initiative (JMMI)
+The Joint Market Monitoring Initiative (JMMI) was established in 2017 by REACH and the Libya Cash and Markets Working Group (CWG) to monitor market dynamics in order to improve cash programming. REACH describes the methodology for data collection as
+follows: ‘The methodology for the JMMI is based on purposive sampling. In each assessed market, at least four prices per item need to be collected from different shops to ensure the quality and consistency of collected data.
+‘Partner field teams, in coordination with the CWG, identify shops to assess based on the following criteria: 1. Shops need to be large enough to sell all or most assessed items. 2.
+Prices in these shops need to be good indicators of the general price levels in the assessed area. 3. Shops should be located in different areas within the assessed city or baladiya.
+‘In locations where it is not possible to identify four large markets that fulfil criterion (1), smaller shops, such as grocery shops, vegetable vendors, butchers and bakeries, are added to the shop list, as long as they fit criteria (2) and (3), in order to guarantee at least
+four prices per item of interest. Each month, price data is collected from the same shops whenever possible to ensure comparability across months.
+‘The CWG primarily targets urban areas throughout Libya, aiming to ensure coverage of markets that serve as commercial hubs for surrounding regions. Data is collected via the KoBo mobile data collection application. The CWG maintains a joint KoBo136 account for
+the JMMI. The data collection tool is published alongside the dataset every month and disseminated to the humanitarian community’.
+Monitoring takes place monthly of a ‘minimum expenditure basket’, comprising both food and non-food items. REACH reports that ‘By following the price developments of products such as bread, beans, soap and fuel, REACH and the CWG have been able to provide
+humanitarian actors [with] information on the financial burdens faced by households dependent on market priced goods in their respective localities’. The information indicates variations between cities and regions, wherein ‘the assessment noted clear spatial
+patterns both in May and June [2018] with basket costs generally lowest in coastal port cities and highest in southern Libya’.
+Source: REACH, Libya: What Does It Take to Make Ends Meet: Understanding Financial Burdens with the Aid of the Minimum Expenditure Basket (Geneva: REACH, 2018) (https://reliefweb.int/report/libya/libya-joint-marketmonitoring-initiative-jmmi-1-10-october-2018).
+136  See https://www.urd.org/en/field-offices/Our-activities-in-Haiti/What-we-do/Evaluation,130/Iterative-evaluationof-the and https://www.urd.org/en/field-offices/Our-activities-in-Haiti/What-we-do/Evaluation,130/Evaluation-of-the-
+Support,1416.
+
+## Page 161
+
+Chapter 3 Tools and approaches    |    151
+E. Sagmeister and J. Steets, The Use of Third-party Monitoring in Insecure Contexts: Lessons from
+Afghanistan, Somalia and Syria, SAVE Resource Paper, October 2016 (https://www.gppi.net/ media/SAVE__2016__The_use_of_third-party_monitoring_in_insecure_contexts.pdf).
+B. Norman, Monitoring and Accountability Practices for Remotely Managed Projects
+Implemented in Volatile Operating Environments, Tearfund, 2012 (https://www.elrha.org/ wp-content/uploads/2015/01/Remote20Monitoring20and20Accountability20Practice20_ web2028229.pdf).
+
+## Page 162
+
+152    |    Humanitarian response in urban contexts
+
+## Page 163
+
+Chapter 4 Sectoral responses    |    153 Chapter 4 Sectoral responses 4.1 Housing, land and property (HLP) rights Engaging in housing, land and property (HLP) rights is vital for effective post-disaster recovery efforts and providing assistance to people caught up in long-term displacement situations. HLP
+can be a complex area to work in and act upon in urban areas (not least given the large number of forms of tenure arrangements) – but failure to engage can lead to wasted aid investments, increase affected people’s vulnerability and generate conflict over contested land.
+This section1 defines HLP and identifies some of the challenges that complex HLP can bring to urban humanitarian response. It identifies challenges in HLP programming. It discusses addressing HLP issues in shelter programmes.
+HLP rights are a vital part of shelter and settlements programming, and so this section links closely to Section 4.2 on shelter and settlements. It also links closely to protection (HLP falls within the Global Protection Cluster, and is further discussed in Section 4.7), area-based
+approaches (Section 3.2), WASH (for example in accessing services; see Section 4.4), conflict (Section 1.2.1) and violence (Section 1.2.2). 4.1.1 Defining HLP HLP rights are about ‘having a home, free from the fear of forced eviction; a place that offers
+shelter, safety, and the ability to secure a livelihood. HLP rights are referenced and defined in several international human rights instruments, and organisations providing protection and assistance to persons affected by crisis should respect the human rights, including HLP
+rights, of affected persons at all times, and advocate for their promotion and protection to the fullest extent’.2 Key to HLP is tenure, defined by the Global Shelter Cluster as ‘the relationship among people, as groups or individuals, with respect to housing and land, established through statutory
+law or customary, informal or religious arrangements’.3 Within this are many forms of urban tenure arrangements, including private ownership, leasehold, cooperative housing, rental 1 This section benefited in particular from inputs by Leah Campbell of ALNAP.
+2 NRC, Security of Tenure in Urban Areas: Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10827IIED). 3 Shelter Cluster, Land Rights and Shelter: The Due Diligence Standard, 2013 (www.sheltercluster.org/resources/
+documents/due-diligence-shelter-a4), cited in NRC, Security of Tenure in Urban Areas.
+
+## Page 164
+
+154    |    Humanitarian response in urban contexts accommodation (on both formal and informal land) and living in informal settlements. Land ownership types include statutory, customary, religious or hybrid arrangements (see Table
+4.1 for examples).
+An important element is the distinction between tenure that is de jure (how things should happen according to the law) and de facto (how they happen in reality). This is particularly important in relation to informal settlements (which by law should not be there, but which
+account for the tenure arrangements of hundreds of millions of people). 4.1.2 HLP in urban areas HLP is particularly complex in urban areas, for a number of reasons. Cities have a wide range of different living arrangements, from single-family occupancy to multiple occupancy,
+such as in a high-rise tenement. Multi-occupancy buildings may comprise both owners and renters. In some instances people may share rooms in shifts. People who rent property may do so under different forms of agreement with the landlord (see Table 4.1).
+Another complexity relates to informal settlements, i.e. people living on land with precarious ownership arrangements who may have no formal documentation of ownership. Research
+by IDMC4 notes the following points about HLP rights and urban informal settlements:
+• ‘Urban informal settlers are particularly vulnerable to disasters and represent a
+significant proportion of those displaced • ‘Housing assistance tends to be based on ownership criteria rather than needs, which excludes many urban informal settlers who are mostly tenants or squatters • ‘The complex and unclear tenure situation in informal settlements, combined with
+weak urban governance, hinders the provision of housing assistance. As a result, a disproportionate amount of international resources are dedicated to temporary shelter rather than long-term interventions • ‘Housing responses for urban informal settlers displaced by disasters require
+consistency and continuity between humanitarian and development assistance to address beneficiaries’ immediate needs as well as their underlying vulnerability to future disaster and displacement.’ The IFRC notes, following the Pisco earthquake in Peru in 2007, 78% of landowners received
+grants for reconstruction, while tenants and informal settlers were generally excluded.5 4   B. McCallin and I. Scherer, Urban Informal Settlers Displaced by Disasters: Challenges to Housing Responses (Geneva: IDMC, 2015) (http://www.internal-displacement.org/publications/urban-informal-settlers-displaced-by-
+disasters-challenges-to-housing-responses). 5   IFRC,  World  Disasters  Report  2010:  Focus  on Urban Risk (Geneva: IFRC, 2010).
+
+## Page 165
+
+Chapter 4 Sectoral responses    |    155 In displacement situations, refugees and IDPs are at high risk of tenure insecurity, given that many will have limited choices about where to live, and will often have little option
+but to live in informal settlements or in places with little or no formal rental agreements.
+Research by NRC6 on women’s HLP rights in six countries (Afghanistan, Ecuador, Lebanon, Liberia, Palestine and South Sudan) found that the rights of women ‘are often neglected in humanitarian response’. HLP vulnerability is highly gendered. According to UN Habitat, ‘less
+than 2% of women’s land and property rights are registered worldwide’.7 NRC’s research found that inheritance and marital property laws can protect women’s HLP, that ‘there is a need to recognise the significance of religious and customary structures’ and that existing
+discrimination is often worsened during displacement. UN Habitat explains that ‘After disaster or conflict, women-headed households – whose land rights are secured through male relatives – may become vulnerable to a loss of land and access to livelihoods’.8
+See NRC, Life Can Change: Securing Housing, Land and Property Rights for Displaced Women (Oslo:
+NRC, 2012) (http://womenshlp.nrc.no/wp-content/uploads/2014/03/GlobalReportWHLP.pdf).
+Disputes over land rights can fuel conflict and discrimination. Regarding IDPs in Mogadishu, IDMC notes that ‘land and property disputes are at the heart of the urban conflict’.9 The report notes that ‘Common housing, land and property (HLP) challenges include the
+unlawful appropriation and attribution of public land titles by government officials and private owners, inheritance disputes and claims over land and property by returning IDPs, refugees and migrants’.10 The report also notes that ‘An estimated 80 per cent of court
+cases heard in Mogadishu’s supreme court are related to land’.11 Crises can also be an opportunistic moment for illegal or unjust land acquisition, which can sometimes include overt violence and carefully planned legislative measures.12
+Finally, crises can also lead to a loss of documentation such as personal identification.
+One report on providing access to identification for refugees in Jordan states that 6   NRC, Life Can Change: Securing Housing, Land and Property Rights for Displaced Women (Oslo: NRC, 2012) (http://womenshlp.nrc.no/wp-content/uploads/2014/03/GlobalReportWHLP.pdf).
+7  ‘Land and Property: UN-Habitat in Disaster and Conflict Contexts’, undated (http://mirror.unhabitat.org/pmss/ listItemDetails.aspx?publicationID=3192). 8   Ibid. 9   IDMC, City of Flight: New and Secondary Displacements in Mogadishu, Somalia (Geneva: IDMC, 2018)
+(http://www.internal-displacement.org/sites/default/files/inline-files/201811-urban-displacement-mogadishu.pdf), p. 7. 10   Ibid. 11   Ibid., p. 8. 12   D. Brown et al., Urban Crises and Humanitarian Responses: A Literature Review (London: UCL, 2015)
+(https://www.urban-response.org/system/files/content/resource/files/main/bartlett.pdf).
+
+## Page 166
+
+156    |    Humanitarian response in urban contexts ‘In humanitarian crises, the absence of identity documents can create a multitude of administrative dead ends for refugees: reducing their ability to register with authorities
+and/or humanitarian organisations, limiting their freedom of movement, preventing them from accessing formal employment or education, and making it difficult or impossible to access a wide range of humanitarian services’.13 In Haiti, many humanitarian organisations
+were ill-equipped to deal with the complications of issuing identification to displaced earthquake survivors.14 Records relating to land ownership, housing and property may also have been lost or destroyed. ‘In post-disaster situations, particularly following conflict, legal frameworks
+can collapse altogether, making the task of verifying the legal status of land and property ownership especially difficult, as was the case in Kosovo.’15 Combined with damage to their residence, the absence of HLP documentation may prevent displaced people from returning
+to their place of origin.
+For further discussion of these issues, see A. de Waal, ‘Why Humanitarian Organizations Need to Tackle Land Issues’, in S. Pantuliano (ed.), Uncharted Territory: Land, Conflict and Humanitarian Action (Rugby: Practical Action, 2009) (https://www.odi.org/sites/odi.org.uk/
+files/odi-assets/publications-opinion-files/5559.pdf).
+See also M. Lombard, Land Tenure and Urban Conflict: A Review of the Literature, Global Urban Research Centre Working Paper 8 (Manchester: Manchester University, 2012) (http://hummedia.manchester.ac.uk/institutes/mui/gurg/working_papers/GURC_
+wp8_000.pdf). 4.1.3 Challenges in HLP programming16 HLP challenges cannot usually be addressed by short-term responses. However, short-term actions can make a lasting impact on HLP for affected populations. Key challenges include
+the following:
+13   M. Wilson and J. Casswell, Recognising Urban Refugees in Jordan: Opportunities for Mobile-enabled Identity Solutions (London: GSMA, 2018) (https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2018/12/Recognising_
+urban_refugees_in_Jordan.pdf). 14   Response to the Humanitarian Crisis in Haiti following the 12 January 2010 Earthquake: Achievements, Challenges and Lessons to be Learned, IASC, 2010 (https://www.alnap.org/help-library/response-to-the-humanitarian-crisis-In-haiti-
+following-the-12-january-2010-earthquake-0). 15   D. Brown et al., Urban Crises and Humanitarian Responses: A Literature Review (London: UCL, 2015) (https://www.urban-response.org/system/files/content/resource/files/main/bartlett.pdf).
+16	  This section draws in particular on NRC, Security of Tenure in Urban Areas.
+
+## Page 167
+
+Chapter 4 Sectoral responses    |    157 Ignoring HLP issues can do harm There are a number of ways in which humanitarian responses can affect HLP rights. For example, assistance to repair homes or resume livelihoods activities can cause tensions if
+there are competing rights and claims.17 Use of land for humanitarian activities (such as the provision of services in temporary camps, use of space to store stock and the construction of critical infrastructure) can all have ‘unintended and negative impacts for the population
+such as forced evictions and forced relocation, notably for unregistered tenants and families living in informal settlements’.18 Post-disaster recovery efforts that ignore tenure can also have negative consequences, including agencies being sued by absentee landowners when they discover housing has been
+built on their land without their consent. Failure to consider tenure can also lead to forced evictions of people who have been assisted. In addition, ‘The threat of unexploded ordnance in urban and peri-urban areas creates risks for HLP rights. Ordnance clearance and release of
+land, houses and properties may be used to legitimize secondary occupation or exacerbate pre-crisis disputes’.19 See Section 4.3 on debris and waste management.
+HLP issues can be long-term, systemic problems After a sudden-onset or displacement crisis, urban residents may be rendered homeless, ending up in spontaneous camps (set up by people themselves) or planned camps (set up by agencies).
+People may live for months or years (for example in Port-au-Prince after the earthquake in Haiti) with no formal tenure arrangements, and be subject to removal at any time.
+People displaced into cities often find themselves living among poorer residents who themselves face HLP challenges, ranging from exploitative/conflictual relationships with landlords to insecure land tenure. In Tripoli in Lebanon, some of the most vulnerable
+settlements are considered illegal by municipal authorities.
+For more on HLP issues and Syrian refugees in Lebanon, see UN Habitat and UNHCR, Housing, Land and Property Issues of Syrian Refugees in Lebanon from Homs City, 2018 (https://unhabitat.org/books/housing-land-and-property-issues-of-syrian-refugees-in-
+lebanon-from-homs-city-november-2018/). 17	  Global Protection Cluster, Emergency Response to Housing Land and Property Issues in Syria, 2013 (https://reliefweb.int/sites/reliefweb.int/files/resources/Emergency%20response%20to%20Housing%20Land%20
+and%20Property%20issues%20in%20Syria.pdf). 18	  Ibid. See also S. Levine, S. Bailey and B. Boyer, Avoiding Reality: Land, Institutions and Humanitarian Action in Postearthquake Haiti (London: ODI, 2012) (www.odi.org/publications/6979-avoiding-reality-land-institutions-and-
+humanitarian-action-post-earthquake-haiti). 19	  Global Protection Cluster, Emergency Response to Housing Land and Property Issues in Syria.
+
+## Page 168
+
+158    |    Humanitarian response in urban contexts The degree of tenure can be an indicator of vulnerability Wider vulnerability and the level of tenure are often linked: those with greater insecurity – such as IDPs, refugees and poorer urban dwellers – are almost always more vulnerable.20
+Table 4.1 identifies different tenure categories and associated rights. The first six of the nine types of tenure identified relate to the informal sector. 20	  NRC, Technical Guidelines for Identifying and Addressing HLP Issues in Informal Settlements/Camps and Collective
+Centres in Northern Syria (Oslo: NRC, 2017).
+Form of tenure Meaning Level of rights Street/pavement dweller Squatter or informal settler No rights (no protection against forced eviction)
+Squatter tenant (partial possession)
+Squatter or informal settler renting a plot/land with some degree of protection (e.g. may be administrative, such as access to utilities) or Squatter ‘owner’ Squatter or informal settler with some degree of protection (e.g. may
+be administrative, such as access to utilities).
+Limited rights against eviction if there is a temporary form of protection Tenant in unauthorised subdivision Tenant without legal protection with regard to zoning or land use No rights (no protection against forced eviction) if the site is
+unsuitable for development Owner in unauthorised subdivision Owner without legal protection with regard to zoning or land use or Limited rights against eviction if the site is eligible for upgrading Legal owner in unauthorised
+construction Owner with legal protection with regard to zoning or land use, but without construction permit Limited rights to use Tenant with contract Tenant with legal protection and temporary contract (may be formal or informal contract), including
+approved zoning and construction Leaseholder with contract Long-term leaseholder with renewable and registered contract, including approved zoning and construction Access to full set of rights Freeholder Legal owner, including approved
+zoning and construction Table 4.1 Gradation of tenure options Source: A. Durand-Lasserve and H. Selod, ‘Urban Land Markets: Improving Land Management for Successful Urbanization’ in S. V. Lall et al. (eds), The Formalization of Urban Land Tenure in Developing Countries (Dordrecht:
+Springer, 2009) (https://link.springer.com/chapter/10.1007%2F978-1-4020-8862-9_5#page-1).
+
+## Page 169
+
+Chapter 4 Sectoral responses    |    159 For further discussion on land tenure types and their relationship to internal displacement, see J. Kiggundu, Why Land Tenure Matters for IDPs: Lessons from Sub-Saharan Africa (Washington
+DC: Brookings, 2008) (https://www.brookings.edu/on-the-record/why-land-tenure-matters-foridps-lessons-from-sub-saharan-africa/).
+See also G Payne et al., Land Tenure in Urban Environments, USAID Issue Brief, (Washington DC: USAID, 2014) (https://www.land-links.org/wp-content/uploads/2016/09/USAID_Land_ Tenure_Urban_Brief_061214-1.pdf).
+For an example of an initiative to address land rights and informality in Freetown, Sierra Leone, see Development Action Group, Sierra Leone Urban Research Centre Propoor Land Rights and Informality (Freetown: SLURC, 2018) (https://www.slurc.org/
+uploads/1/0/9/7/109761391/final_dag_report.pdf).
+Box 4.1  Due diligence requirements in camp settings, northern Syria In northern Syria, NRC produced guidance for working in informal settlements and collective centres, emphasising that ‘Whether they are working in new or existing
+informal settlements/camps or collective centres, humanitarian actors have a duty to establish who the owner of the land/property on/in which their intervention will be conducted is and to secure their agreement before commencing activities’.
+‘Due diligence requirements include:
+• ‘Conduct a stakeholder analysis, which should be updated on a regular basis, to gain
+and maintain an understanding of stakeholders’ roles in managing and influencing HLP issues.
+• ‘Ensure that you are dealing with the real owner of the land/property prior to
+intervention. There may be more than one owner, in which case humanitarian actors need to ensure they are dealing with all.
+• ‘Beware fraudulent claims, i.e. people claiming land they do not own for recompense.
+• ‘Use of Collective Centres – Collective Centres include public and private buildings
+that are used to offer temporary shelter to IDPs. At some stage the community is likely to want to use the building for its originally intended purpose. It is always important, therefore, to consider how long the collective centre will be available before planning
+interventions.
+• ‘Lease/Rental Agreement put in place – there should be a written agreement between
+the owner of the land/property and the party who is leasing it’.
+Source: Technical Guidelines for Identifying and Addressing HLP Issues in Informal Settlements/Camps and Collective Centres, May 2017 (http://www.globalprotectioncluster.org/_assets/files/final-nrc-checklist-hlp-issues-in-informal-
+settlements-and-collective-centers(1).pdf).
+
+## Page 170
+
+160    |    Humanitarian response in urban contexts Undertake due diligence to ensure that activities are rooted in a knowledge of legal conditions. Due diligence is the cornerstone of HLP rights. The aim is that those engaging
+in HLP have as clear an understanding as possible of the operating context concerning land and tenure. This includes understanding land rights, working to avoid the future threat that affected people may be forcibly evicted from the arrangements planned and preventing the
+risk of igniting conflict around construction activities. The example in Box 4.1 discusses the steps for enacting due diligence in camps in northern Syria.
+For more information on due diligence, see Shelter Cluster, Land Rights and Shelter: The Due Diligence Standard, 2013 (https://www.sheltercluster.org/sites/default/files/docs/Due%20 diligence%20in%20shelter-A4.pdf).
+Engage with reality There is often a gap between the reality of what actually happens and the laws that dictate what should happen (referred to above as de jure and de facto). Complex HLP arrangements also mean that not everything that would be ideal will be possible. In the past, efforts
+may have ‘pushed for certain unworkable solutions, such as mass resettlement, rental ceilings and moratoriums on evictions, rather than accepting that such solutions were unrealistic’.21 The example from Haiti in Box 4.2 illustrates some of the difficulties encoun-
+tered in complex situations. 21	  Levine et al., Avoiding Reality.
+Box 4.2  Addressing land tenure in Port-au-Prince After the 2010 Haiti earthquake, many humanitarian organisations struggled with complex land tenure arrangements in Port-au-Prince. The scale of the crisis put pressure on
+organisations that had never had to address the complexity of land tenure in this way before. When organisations began to clear rubble and debris, this created conflict with some residents who felt that the debris was the only thing they had to identify their land.
+In this tense environment, it was unclear whether it was possible to address land issues at all. In the Katye project, implementing organisations PCI (formerly Project Concern International) and CHF International sought to rebuild the Ravine Pintade neighbourhood.
+They engaged extensively with community members before removing debris, and used a community consensus process to verify land rights. This allowed debris removal and emergency shelter activities to go ahead, and paved the way for further community
+participation in planning the neighbourhood’s reconstruction.
+Source: Campbell (forthcoming, 2019).
+
+## Page 171
+
+Chapter 4 Sectoral responses    |    161 Chapter 4
+For more on land issues in the Haiti earthquake see S. Levine et al., Avoiding Reality:
+Land, Institutions and Humanitarian Action in Post-earthquake Haiti (London: ODI, 2012) (https://www.odi.org/publications/6979-avoiding-reality-land-institutions-andhumanitarian-action-post-earthquake-haiti). 4.1.4  Addressing HLP issues in shelter programmes
+As the above example from Haiti illustrates, shelter and settlement programmes in postdisaster reconstruction need to fully engage with HLP issues. In displacement situations (i.e. involving IDPs, refugees and people displaced by disasters and violence) this can
+include working with existing neighbourhoods to ensure that new arrivals are sufficiently accepted, and investing in local neighbourhoods, including infrastructure and services, so that incoming and host populations equally benefit. Concerning rental situations, firming
+up rental agreements and providing support for resolving disputes is a key activity. Here it may be beneficial to place rental agreements in the names of both women and men in a household in contexts where women may be especially vulnerable.22
+Provide support to prevent unlawful evictions Forced eviction is a humanitarian concern in displacement situations as well as in postdisaster contexts (failure to engage with the threat of evictions undoes recovery and support
+efforts and increases protection risks). NRC’s advice is to undertake assessments in eviction situations to differentiate between forced evacuations and lawful evictions. In the former there are grounds to provide legal support. CRS’ experience in the response to Typhoon
+22	  NRC, Security of Tenure in Urban Areas.
+Box 4.3  Community rental agreements in Lebanon ‘While implementing a neighbourhood approach project in several neighbourhoods in Lebanon, Care International provided infrastructure upgrades for vulnerable Syrian and Lebanese households (a mixture of renters and owners). Where the household was
+renting, an agreement was signed by the renter, landlord and a representative from a community committee which gave consent for the works to be implemented, and promised the tenant would not be evicted or face a rental increase for a given period of
+time. While the rental agreements would not be enforceable by law, the involvement of a community committee helped to ensure these agreements were upheld. Monitoring has shown that a high percentage of tenants who received assistance in this project are
+still living in the upgraded home and had not been evicted or had their rent increased, even 1–2 years after the agreement had expired’.
+Source:  Quoted from forthcoming ALNAP case study, May 2019.
+
+## Page 172
+
+162    |    Humanitarian response in urban contexts Haiyan in Tacloban city in 2013 highlighted the need to enable safe tenure conditions by facilitating notarisation or legalisation of rental or land usage contracts, and to coordinate
+with local authorities on referral pathways for legal support to tenants. The example in Box 4.4 summarises research concerning evictions and the support provided by agencies.
+Provide legal support to access documentation Humanitarian organisations can support crises-affected people to reclaim their HLP rights by facilitating access to legal support to replace lost identification and documentation. In Iraq,
+one individual who had been denied food rations because she did not have identification was given access to rations following the intervention of a lawyer provided by IRC and UNHCR.23 Identity needs will vary by person – for example, some individuals will find it particularly
+difficult to obtain legal recognition, and may not want digital records of their identity, such as people fleeing persecution.24 23	  J. St. Thomas King and D. Ardis, ‘Identity Crisis? Documentation for the Displaced in Iraq’, Humanitarian Exchange
+65, November 2015 (https://odihpn.org/magazine/identity-crisis-documentation-for-the-displaced-in-iraq/). 24	  Wilson and Casswell, Recognising Urban Refugees in Jordan.
+Box 4.4  Evictions in Lebanon ‘A study of UN-Habitat and UNHCR in 2014 in Lebanon indicated how most eviction cases are due to refugees’ inability to pay their agreed rental fees. Other reasons for eviction were related to security concerns; either local tensions or proximity to an Army
+position. It was found that eviction often takes place outside of a legal framework and in violation of both international and Lebanese national laws. Moreover, refugees often do not have access to courts to address objections.
+‘Refugees often resort to social networks. Mediation and legal advice offered by international NGOs are effective means in addressing HLP protection concerns.
+Although taking a rights-based approach should be the main focus, it may be complemented by market-based incentives to effectively ensure refugees’ HLP protection. For example, state private land and awkaf (religious endowment land) can
+offer formal opportunities to improve regulation of landlord tenant relations’.
+Source: Quoted from UN-Habitat and UNHCR, HLP Issues in Lebanon: Implications of the Syrian Refugee Crisis (Beirut: UNHCR, 2014) (https://data2.unhcr.org/ar/documents/download/41590).
+
+## Page 173
+
+Chapter 4 Sectoral responses    |    163 Monitor and evaluate tenure This is often overlooked, but is essential if understandings of tenure are to be improved, both within active programmes and also for longer-term activities in other crises. As
+noted above, monitoring and evaluation should be undertaken within multi-sectoral, holistic programme approaches, such as ABAs (discussed in Section 3.2). Monitoring and evaluation is discussed in Section 3.10.
+Use advocacy measures to improve tenure Advocacy concerns improving the operating environment in which agencies enact programmes. Activities and outcomes of successful advocacy can include liaising with city authorities to ensure that displaced people have fair access to resources, where disputes
+can be resolved and where refugees’ access to formal employment can be secured.
+Advocacy approaches range from informally engaging decision-makers to formal positions and statements (these may be more successful when agencies are aligned). Advocacy can however be risky depending on the nature of governance in a particular setting, and the
+freedom civil society enjoys to criticise power-holders.
+After Typhoon Haiyan in the Philippines, a number of organisations advocated to the government against the imposition of a ‘no build zone’. One national NGO, Urban Poor Associates, supported by Christian Aid, organised 200,000 families in a campaign against
+the policy, resulting in a government agreement to cease evictions until permanent and decent housing was available, and securing the right to build transitional shelters.25 In summary, HLP rights cannot be overlooked in humanitarian action in urban settings.
+In post-disaster recovery, decisions on location that ignore HLP can lead to wasted investments, while in protracted crises the vulnerability of affected households may be heightened by uncertainty around where they live. Failure to address tenure adequately can
+lead to conflict and violence. Effective HLP engagement therefore involves understanding the context, identifying barriers, engaging with relevant actors (landlords, the private sector, municipal authorities and affected people) and, perhaps above all, given the
+subject’s complexity, deciding on what can realistically be achieved over what timeframe. 25	  V. Dubuisson and A. T. Escandor, ‘After Haiyan: Life on Hold in the “No Build Zone”’, Christian Aid Global, undated (https://medium.com/philippines-haiyan-s-legacy/after-haiyan-life-on-hold-in-the-no-build-zone-1a3fc00203ff).
+Chapter 4
+
+## Page 174
+
+164    |    Humanitarian response in urban contexts 4.2 Shelter and settlements Shelter refers to a safe place for people to sleep, eat and carry out household functions. In urban areas, while there are a range of options for meeting shelter needs, there are also
+a number of challenges. In cities, many different forms of shelter exist, including shacks in informal settlements, apartments, individual rooms with shared services, shared accommodation, temporary hostels, high-rise buildings and individual houses. In many
+cities, people also live on the street and in parks in makeshift structures.
+Settlements relates to the areas where people live and form communities, such as neighbourhoods, often with high densities, shared services and shared public spaces.
+This section discusses some of the challenges and opportunities in enacting urban shelter and settlements activities. It covers damage assessments, cash transfer programming, technical support, settlements-based approaches, building local skills and recovery and location
+considerations. Examples are provided from rapid-onset disasters and protracted crises.
+Useful resources As with other sectors discussed in this section, HLP is a wide-ranging and cross-sectoral topic. For further guidance, see the Global Protection Cluster, ‘HLP Essential Guidance by Themes’ (http://www.globalprotectioncluster.org/en/tools-and-guidance/essential-
+protection-guidance-and-tools/hlp-essential-guidance-and-tools/hlp-essentialguidance-by-themes.html).
+Global Shelter Cluster, ‘Housing Land and Property’ (https://www.sheltercluster.org/hlp).
+M. Wyckoff, Securing Tenure in Shelter Operations: Guidance for Humanitarian Response
+(Oslo: NRC, 2016) (https://www.sheltercluster.org/sites/default/files/docs/nrc_shelter_ tenure_guidance_external.pdf).
+IFRC, Rapid Tenure Assessment Guidelines for Post-disaster Response Planning: Pilot Version (Geneva: IFRC, 2015) (http://www.globalprotectioncluster.org/_assets/files/ tools_and_guidance/housing_land_property/ifrc-nrc-hlp-report-2016.pdf).
+K. Abhas et al., Safer Homes, Stronger Communities: A Handbook for Reconstructing after
+Natural Disasters (Washington DC: World Bank, 2010) (http://documents.worldbank.org/ curated/en/290301468159328458/pdf/528390PUB0safe101Official0Use0Only1.pdf).
+NRC and IRC, The Importance of Addressing Housing, Land, and Property (HLP):
+Challenges in Humanitarian Response (http://www.globalprotectioncluster.org/_assets/ files/tools_and_guidance/housing_land_property/ifrc-nrc-hlp-report-2016.pdf).
+
+## Page 175
+
+Chapter 4 Sectoral responses    |    165 Chapter 4 This section links to a number of others in this Good Practice Review. It links closely to Section 1.3 on displacement. The many forms of rights to live in places, i.e. tenure and its relationship
+to housing, land and property (HLP) rights, is a vital component of shelter, discussed in Section 4.1. Using cash, for example to subsidise rents for refugees, is also an important tool.
+Cash is discussed in Section 3.3. Shelter and settlements also relate closely to protection (Section 4.7) and WASH (Section 4.4). In programming terms, it especially relates to areabased approaches (ABAs) (Section 3.2), and links closely with market assessments.
+4.2.1 Challenges Addressing shelter and settlement needs in a post-disaster setting has been described as ‘one of the most intractable problems in international humanitarian response’.26 In urban
+areas there are a number of challenges, including:
+• Density, leading to a lack of space. After a rapid-onset disaster spontaneous camps
+often appear, where households gather in open spaces such as parks and squares and may build temporary shelters. Space is at a premium, with ensuing problems of water, sanitation and protection.
+• Verticality. Urban living includes living in high-rise buildings. After a rapid-onset
+disaster, the repair of such buildings may be outside the scope of operational agencies.
+• Timeframe. In displacement situations, the shelter and housing needs of refugees
+and IDPs may last for years or decades. In post-disaster situations, people may be in temporary camps and living in makeshift shelters for years (as was the case in Portau-Prince following the earthquake in 2010).
+• Government controls. While this is an operational reality for all stages of pro-
+gramming across all sectors, in many post-disaster situations governments – for their own reasons – have prevented agencies from engaging in shelter recovery programmes, for example following the 2005 earthquake in Pakistan.
+• Land ownership, which can be complex and varied. For instance, land that may appear
+vacant may be owned by absentee landlords; people living in ‘illegal’ settlements may be omitted from rebuilding efforts (see Section 4.1 on HLP rights).
+• Linking to long-term municipal planning decisions. Temporary housing often becomes
+permanent, with quick decisions such as where to site a camp leading to long-term consequences. Where to locate camps therefore is a critical planning issue, but one that is sometimes omitted when enacting relief and recovery operations (see below).
+26	  P. Ashdown, Humanitarian Emergency Response Review (London: Humanitarian Emergency Response Review,
+2011) (www.alnap.org/help-library/humanitarian-emergency-response-review), p. 25.
+
+## Page 176
+
+166    |    Humanitarian response in urban contexts • Diversity of stakeholders. The multiplicity of actors in urban settings (including the private sector, civil society, political parties and spontaneous volunteer groups), as
+with other sectors, means that time is needed for negotiation if a degree of consensus is required (see Section 1.5 on urban actors).
+The Global Shelter Cluster’s inaugural State of the Humanitarian Shelter and Settlements 2018 report27 emphasises the need to take an ‘urban approach’ to enacting shelter programmes in cities, meaning taking a systems view of the city (discussed previously in
+Section 1.1), understanding the context (see Section 5.5), adopting a cross-sectoral approach (see Section 2.1), aligning humanitarian action with longer-term development and planning considerations, such as protection and HLP rights (discussed in Sections 4.7 and 4.1).
+As the Global Shelter Cluster acknowledges, a systemic challenge in urban shelter provision has been that the global shelter approach, until relatively recently, has been geared towards the provision of physical shelter products, such as tarpaulins, tents, temporary shelters
+27	  Global Shelter Cluster, State of the Humanitarian Shelter and Settlements Report (Geneva: IFRC and UNHCR, 2018) (https://www.sheltercluster.org/resources/library/state-humanitarian-shelter-and-settlements).
+Box 4.5  Urban shelter needs in the Nepal earthquakes Three of the 14 districts worst affected by the earthquakes in Nepal in 2015 were in towns and cities, with the government’s Post-Disaster Needs Assessment (PDNA) reporting that 25% of the damage occurred in urban areas. However, urban response
+was largely overlooked. One report notes that: ‘In urban areas, renters whose rental accommodation was damaged or destroyed by the earthquake are a potentially very vulnerable group that there is little information on, especially as they are outside of the
+reconstruction grant programme’.
+Research among 13 international NGOs that responded to the earthquakes appears to confirm this omission. As one key informant stated, urban areas ‘got camps, relief items and cash, and there it stopped’. Another said that their organisation did not work in
+urban areas as these were ‘not comfortable’. A third key informant stated that ‘urban people have been left out just because they look better’. A fourth said that the response ‘missed urban affected communities, areas and issues’. In a survey of NGO personnel,
+in response to the statement ‘Sufficient attention was given to affected urban areas’, no one strongly agreed and 17% agreed, while 59% were neutral and 24% disagreed or strongly disagreed.
+Source: D. Sanderson et al., Nepal Earthquakes Appeal Meta-synthesis (London: DEC, 2019).
+
+## Page 177
+
+Chapter 4 Sectoral responses    |    167 (of various types) and shelter kits. While these can be useful in urban areas – especially tarpaulins and tents in an immediate post-disaster situation – temporary shelter in urban
+areas has proved problematic, for reasons including space constraints, the time taken to deliver it and the cost.28 There is also growing awareness of the environmental costs of the provision of temporary materials.29 For further discussion of these issues, see A. Kadihasanoglu, ‘Shelter in the City: The New
+Game-changer’, in Global Shelter Cluster, State of the Humanitarian Shelter and Settlements Report (Geneva: IFRC and UNHCR, 2018) (https://www.sheltercluster.org/resources/library/ state-humanitarian-shelter-and-settlements).
+4.2.2 Opportunities Cities, by their nature, offer varied approaches and opportunities for shelter and settlements programming. Many do not include building temporary shelters (beyond perhaps tents in open spaces after a rapid-onset disaster), but rather are about reusing and/or reconstructing
+existing building stock (see damage assessments, section 4.2.3), or using financial mechanisms and rental arrangements. For instance, support to rent apartments or rooms is widely provided in many displacement situations involving refugees and IDPs (see the
+Lebanon case study in Box 4.8). Figure 4.1 identifies different typologies for urban shelter pre- and post-disaster, for displaced and non-displaced populations.
+Deciding what not to do is perhaps at least as important as deciding what to do. Rebuilding a ten-storey apartment building is probably beyond the timeframe, affordability and remit of most agencies. A key question, as with other sectors, must be: how can limited resources
+best help those affected? Concerning shelter, housing an urban population is more in the remit of city planning and government decision-making. To these ends, whatever actions aid agencies take in this sector ought to consider both meeting immediate basic needs, but also,
+where possible, how to invest in the long-term recovery of affected households, especially the most vulnerable.
+The essential fact (illustrated well by the Baghdad case study in Box 4.6) is that successful shelter programmes are heavily process-oriented. This is a key point repeatedly made throughout the Global Shelter Cluster’s State of the Humanitarian Shelter and Settlements
+2018 report – that failure to engage sufficiently in process, for instance the inclusion of 28	  See for example D. Sanderson et al., ‘Lost in Transition: Principles, Practice and Lessons from Haiti for Urban PostDisaster Shelter Recovery Programs’, Asian Journal of Environment and Disaster Management (AJEDM) 6(2).
+29	  See Section 4.3 on debris management. This is also discussed by Jake Zarins in the chapter on ‘Leading by Example: Looking to the Future for the Shelter and Settlements Sector’, in Global Shelter Cluster, State of Humanitarian
+Shelter and Settlements Report.
+
+## Page 178
+
+168    |    Humanitarian response in urban contexts 168    |    Humanitarian response in urban contexts Figure 4.1  Urban pre- and post-disaster housing options Pre-disaster settled population Temporary or permanent shelter
+Post-disaster non-displaced population Temporary or transitional shelter; repair or reconstruction Post-disaster non-displaced population Temporary or transitional shelter Durable solutions Reconstruction, resettlement, reintegration
+Settlement typologies Disaster Settlement typologies Settlement typologies House owneroccupier House owneroccupier Dispersed selfsettlement with no legal status Hosting by families Self-settled, unplanned camps Short-term land,
+house or apartment tenant Collective centres Planned and managed camps Land tenant Land tenant House tenant House tenant Apartment owneroccupier Apartment owneroccupier Occupancy with no legal status Occupancy with no legal
+status Apartment tenant Apartment tenant Source: IFRC and SKAT, Sustainable Reconstruction in Urban Areas: A Handbook (Geneva and St. Gallen: IFRC and SKAT, 2012) (www.urban-response.org/resource/6393).
+
+## Page 179
+
+Chapter 4 Sectoral responses    |    169 people in critical decisions on location, undermines eventual shelter programmes. As the report notes, quoting shelter practitioner Graham Saunders, programmes that do not engage sufficiently in process (and focus on the shelter product alone) ‘fail to maxi-
+mize local enterprize opportunities or acknowledge cultural or contextual concerns, and reflect the relative lack of involvement of specifiers and end-users in the design and development process’.30 4.2.3 Damage assessments
+Damage assessments are used to evaluate the state of buildings and infrastructure following
+a disaster. ALNAP and RedR31 identify the following forms of damage assessment:
+• Rapid Visual Assessments (RVAs), an initial review of the quality of a building or
+infrastructure, undertaken by trained teams.
+• Structural Integrity and Damage Assessments (SIDAs) undertaken by engineers and
+other suitably qualified personnel.
+• Detailed Engineering Assessments (DEAs), also undertaken by engineers and other
+suitably qualified personnel. 30	  Global Shelter Cluster, State of the Humanitarian Shelter and Settlements Report, p. 3. 31	  See Sophie Grimaud and Leah Campbell, Shelter and Settlements Response in Urban Emergencies, ALNAP and
+RedR, 2016 (https://www.alnap.org/system/files/content/resource/files/main/alnap-redr-urban-learning-report.pdf)
+Box 4.6  Shelter reconstruction in Baghdad An urban shelter response in Baghdad undertaken by NRC illustrates the need to engage with the complexity of the situation, and that adequate programming takes time and involves building relations. Four steps are identified. The first is ‘positioning’, involving
+engaging with stakeholders, identifying challenges and opportunities, learning from history and learning from recent responses. The second step is ‘analysing’, which comprises understanding the context (using context analysis – further discussed in
+Section 5.5 – looking at institutions, relations and power) and developing a theory of change. The third step is ‘strategising’, including identifying entry points, precedents and trade-offs. The fourth step is ‘implementing’, including accessing information,
+knowing where to look, knowing who to ask, building a team and building relationships with governments and communities.
+Source: L. Heykoop and F. Kelling, Lessons from Baghdad: A Shift in Approach to Urban Shelter Response (Oslo: NRC, 2014).
+
+## Page 180
+
+170    |    Humanitarian response in urban contexts The research has recommended undertaking assessments on a neighbourhood-byneighbourhood basis and being aware of population movements (given that, post-disaster, people may move temporarily elsewhere, and return later on).
+See also Section 4.3 on debris management. 4.2.4 Using cash programming in shelter As with other sectors, using cash provides greater choice in the kinds of activities that can be undertaken.32 Cash has obvious traction in urban areas where markets exist. For housing
+recovery, affected people may use cash for rent or to rebuild, or use the money to move to a better location – something which may be especially attractive to people living in poorquality and unsanitary conditions (see the case study on Haiti in Box 4.9). Cash programming
+in relation to shelter also encourages an ‘owner-driven approach’ (as opposed to a ‘donordriven approach’), long recognised as beneficial in supporting local people to make their own decisions.
+In protracted crises, cash transfer programming provides options for households, in particular in cities where there are functioning rental markets (which is just about everywhere). Cash also has application in rapid-onset disasters, in terms of giving people
+greater choice, enabling local purchases of materials (thus supporting local markets, vendors and materials) and reducing transaction costs. Shelter practitioners also note that a challenge remains in ensuring technical quality (if technical assistance is not included as
+part of a shelter cash programme). 32	  This does not refer to grant payments provided by governments, often in the form of tranches, as for example following earthquakes in Pakistan (2005) and Nepal (2015).
+Box 4.7  RVAs in Nepal and Haiti An RVA of buildings was carried out in Nepal after the 2015 earthquakes. Assessors conducted both internal and external inspections. Later assessments were carried out by engineers. After the 2010 Haiti earthquake, satellite imagery was used (comparing
+locations before and after the disaster) as part of a damage assessment process that took some 14 months to complete. Buildings were marked with a simple colour coding: safe buildings were marked green, more risky buildings yellow and dangerous buildings red.
+For further discussion, see S. Grimaud and L. Campbell, Shelter and Settlements Response in Urban Emergencies, ALNAP and RedR, 2016. (https://www.alnap.org/system/files/content/resource/files/main/alnap-redr-urbanlearning-report.pdf).
+
+## Page 181
+
+Chapter 4 Sectoral responses    |    171 Quality improvements can be achieved by adding conditions or restrictions on the use of funds by recipients of assistance. For example, conditional transfers imply that households meet certain quality targets before receiving the next tranche. Restricted cash transfers
+imply that recipients need to use the funds for specific purposes or buy from selected vendors. This allows for monitoring of the quality of construction materials.
+Research from ALNAP and RedR33 notes that ‘cash response can create shocks in urban markets as it generates artificial inflation and impacts availability and access to markets’. To reduce this risk, the research recommends undertaking market assessments, for example of
+the rental market, construction markets and supply chains. Cash modalities and methods of market analysis are discussed further in Section 3.3 on cash and markets.
+See also:
+Global WASH and Shelter Cluster Joint Advocacy Paper ‘Increasing Sectoral Cash Transfer and Market Based Programming Capacity’, undated (https://www.sheltercluster.org/sites/ default/files/docs/wash_shelter_cash_advocacy_paper_-_final_version.pdf).
+Global Shelter Cluster, Shelter Cash Champion Deployments: Updates and Lessons Learnt (https://www.sheltercluster.org/sites/default/files/docs/lessons_learned_shelter_cash_ champion_june_6_2018.pdf). 4.2.5 Providing shelter assistance with technical support
+In shelter building programmes, combining materials with practical training and technical assistance is vital. Failure to do so may make rebuilt structures more dangerous than the ones that were there before. Experience also shows that, within neighbourhoods, decision-
+making needs to be transparent, with the ongoing engagement of affected households.
+This can be a lengthy process, but it is a vital one given that, for most households, a home represents their biggest asset. In shelter programmes using cash transfers, structural quality may not be fully adhered to by recipients of assistance, for example because stronger
+construction costs more money. 4.2.6 Settlements-based approaches For recovery involving reconstruction, a settlements-based approach has been shown to work well in urban areas. Based on long-standing principles of urban planning, settlements-
+based approaches focus on long-term recovery programmes working with neighbourhood groups in local contexts, combining different sectors (such as WASH and protection). 33	  Grimaud and Campbell, Shelter and Settlements Response in Urban Emergencies.
+Chapter 4
+
+## Page 182
+
+172    |    Humanitarian response in urban contexts Settlements-based approaches have attracted a lot of interest in the last few years in particular. Also known as area-based approaches (ABAs), this is discussed in Section 3.2.
+A wider settlements-based approach underscores that shelter and settlements programmes involve, not just shelter or housing, but also infrastructure, such as roads, walls and steps, and services, such as water, sanitation and lighting. Any programme therefore needs to treat
+this as a multifaceted reconstruction project, with associated technical skills, foresight, links to planning, adherence to building regulations and links to other sectors. This is complex and takes a long time. 4.2.7 Building local skills
+If engaging in reconstruction, use this to contribute to the local economy and also strengthen skills. Supporting local businesses to supply construction materials that are locally sourced helps generate jobs and income. Shelter reconstruction programmes can include training for
+craftspeople, masons and carpenters, providing a form of investment in long-term recovery.
+Training should be high-quality, for example through the use of certified schemes recognised by employers (see Section 4.5 on livelihoods). 4.2.8 Recovery and location considerations In the reconstruction of settlements, policy and practice has been to keep households in
+their original locations, if it is safe to do so, to maintain social and historic ties. The World Box 4.8  Shelter support in Lebanon Over 80% of Syrian refugees living in Lebanon are in urban areas. In 2013 the NRC began
+a programme working with landlords to improve existing buildings, to then rent out to refugees for a fixed period. The programme aims to assist refugees by investing in infrastructure and the local economy, for example through paying builders and other
+craftspeople to make improvements. As well as improving buildings, the programme focuses on adequate water and sanitation facilities and providing information, counselling and legal assistance, for example on contract disputes with landlords. A report on
+NRC’s activities states: ‘As a result of the intervention, NRC has supported thousands of vulnerable families with rent-free hosting, invested resources in the local community and increased the affordable housing market. Through household-level information and
+counselling, refugees have been able to access services and make use of their rights.
+An evaluation carried out in 2015 found that the win-win approach increased host community acceptance of refugees’.
+Source: Humanitarian Shelter and Settlements Guidelines, Thematic Policy Document No 9 (Brussels: ECHO, 2017).
+
+## Page 183
+
+Chapter 4 Sectoral responses    |    173 Bank’s disaster recovery guidelines state that ‘Relocation disrupts lives and should be minimized’.34 Following the Haiti earthquake, UN-Habitat adopted a strategy of ‘safe return’ (i.e. rebuilding in the original neighbourhood if safe to do so); following the 1985
+Mexico City earthquake, homeless residents were encouraged to camp close to or in their neighbourhoods while reconstruction took place.
+This approach may not apply in all circumstances (for example where land is rendered dangerous from landslides). It is also questionable for people living in informal settlements and sub-standard living conditions. In these circumstances, relocation elsewhere may
+well be a better option. The case study in Box 4.9 presents experience following the Haiti earthquake, where neighbourhoods living in poor conditions have relocated.
+In summary, there are a range of options for enacting programmes for people affected by rapid-onset disasters or forcibly displaced by conflict. At the same time, shelter programming is complex and multifaceted. Post-disaster reconstruction is slow, expensive and beset by
+challenges, some of which have been identified in this section. Urban shelter programming differs markedly from rural shelter recovery programmes (on which the experience of the shelter sector is largely based), and planned refugee camps, for obvious reasons of
+space, density, complex land ownership arrangements, markets and building restrictions.
+Urban shelter programmes are often as much (if not more) to do with rental markets and 34	  World Bank, Safer Homes, Stronger Communities: A Handbook for Reconstructing Housing and Communities after Natural Disasters, GFDRR, 2010 (www.urban-response.org/resource/12606), p. ix.
+Box 4.9  Construction in Canaan, Haiti Over 200,000 homes and more than a million people were displaced by the earthquake in Haiti in January 2010. The severity of the damage, combined with pre-disaster population densities (with many people living in poor-quality tenements), caused large numbers
+of people to move out of the capital Port-au-Prince, to an empty piece of land called Canaan. By the end of 2016, the population of Canaan had increased to 200,000, making it the country’s fourth-largest urban area. This ‘represents a massive mobilization of local
+grass-roots organization and private and/or redirected humanitarian resources’. The rapid growth of Canaan is attributed to the government declaring the area public land in 2010, which led to informal growth and house-building by investors. This is not new – ‘Port-au-
+Prince had seen opportunistic rapid urbanization during previous periods of political and economic crisis over the past two decades’. The lessons from Canaan point to the capacity of affected people to determine and act on their own recovery.
+Source: M. Stephenson, ‘Learning from People’s Actions: Canaan, Port-au-Prince, Haiti’, Box 6.5 in IFRC, World Disasters Report (Geneva: IFRC, 2016).
+
+## Page 184
+
+174    |    Humanitarian response in urban contexts landlords than they are to do with agency-driven physical reconstruction. Successful shelter programmes take note of this complexity and plan for long-term, neighbourhood-
+oriented and inclusive recovery programmes, such as those described in Section 3.2 on ABAs. 4.3 Debris and disaster waste management After a rapid-onset urban disaster such as an earthquake, landslide or tsunami, millions
+of tons of rubble need clearing and, where possible, reusing. Large amounts of rubble and debris also must be cleared during and after armed conflict, as well as unexploded bombs, munitions and booby traps, known as explosive remnants of war (ERWs).
+This section defines debris and disaster waste; identifies hazard types and the kinds of waste that can result from disasters and conflict; and key actors and good practice in debris clearance. The section ends with a discussion of ERW.
+4.3.1 Defining debris and disaster waste Debris can be defined as ‘a mixture of building waste and rubble typically arising from damaged buildings and their demolition. This waste stream can include natural materials such as clay and mud, trees, branches, bushes, etc’.35 The broader term ‘disaster waste’
+includes ‘all solid and liquid waste generated from a disaster, not limited to debris’.36 Within humanitarian response, debris clearance is often coordinated by the shelter cluster, while waste management falls under WASH (see Section 4.4).
+Table 4.2 identifies some of the types of waste that can result from disasters and armed conflict. 4.3.2 Key actors
+A wide range of actors are engaged/can engage in debris management, including:
+• People working in the informal economy collecting and recycling waste – in many
+cities, waste picking and recycling is a large factor in the lives of many poorer people. 35	  OCHA, Disaster Waste Management Guidelines, 2011 (https://www.sheltercluster.org/sites/default/files/docs/ Debris%20Management%20Guidelines%202010.pdf), p. 6.
+36	  The full list is: ‘concrete, steel, wood, clay, tar elements from damaged buildings, infrastructure, household furnishings, parts from power and telephone grids such as electrical poles, wire, electronic equipment, transformers, parts from water and sewage distribution centres, natural debris such as trees, mud and plants,
+chemicals, dyes and other raw materials from industries and workshops, waste from relief operations, damaged boats, cars, buses, bicycles, unexploded ordnances (UX), packaging materials, pesticides and fertilizers, paint,
+varnish and solvents and healthcare waste’.
+
+## Page 185
+
+Chapter 4 Sectoral responses    |    175 Earthquakes Structures collapse ‘in-situ’, i.e. floor slabs collapse on top of each other, trapping waste within damaged buildings and structures. This can lead to challenges in sorting out hazardous waste (e.g. asbestos) from non-hazardous (e.g. general building rubble).
+Handling waste often requires heavy machinery, which communities may not be able to afford or have difficulty to access.
+Collapsed buildings may overlap across streets, making access difficult for the search and rescue and relief operations.
+Quantities of waste are high compared to other disaster types since all building contents normally become waste.
+Flooding Floods often lead to mass displacement, which in turn requires shelters and camps and leads to large volumes of household wastes.
+Initial damage depends on the structural integrity of infrastructure, while building contents are normally damaged extensively. Mould may be present and timber may have begun to rot.
+Buildings are typically stripped by owners and waste placed on roads for collection. Waste is often mixed with hazardous materials such as household cleaning products and electronic goods.
+Flooding may bring mud, clay and gravel into affected areas, making access difficult once the floodwater recedes. Removal may be required for relief and recovery operations. The mud, clay and gravel may be mixed with hazardous materials, requiring further assessment before dumping.
+Tsunami Strong tsunamis can cause widespread damage to infrastructure, spreading debris over large areas. Debris is often mixed with soils, trees, bushes and other loose objects such as vehicles. This makes waste difficult to handle and segregate.
+Strong winds can tear the roof off buildings, after which they may collapse.
+Poorly constructed houses and huts can ‘fold’ under roof tops. Even brick and concrete walls may collapse.
+Waste is spread over open land, streets and marketplaces. This would include roofing materials, small items and dust carried by the wind. This may cause serious problems where asbestos is present.
+Ships and boats are often thrown ashore and destroyed, requiring specialised waste management. Vessels that sink in harbours need to be removed.
+Electrical and telephone grids as well as transformers containing oil and PCBs may be destroyed.
+Intense, short-term conflicts can involve rockets, missiles and bombs, which, combined with land combat, result in damage to buildings and infrastructure, key strategic installations being bombed and/or widespread damage to industrial and residential areas.
+Damaged infrastructure is often burnt, resulting in the destruction of most internal furnishings and fittings. This reduces the quantities of debris to be managed and leaves primarily non-flammable items such as concrete, bricks and stones. Bridges, roadways, railway structures, etc. are often
+targeted. Their clearing requires heavy machinery such as excavators and bulldozers.
+Waste collection vehicles may be damaged or be commandeered for military purposes.
+Unexploded ordnance (UXO) including undetonated landmines may be present among waste.
+Protracted conflicts share similarities with short-term, intense conflicts, but there is often more widespread damage to building and infrastructure, and increased use of landmines on or near strategic roadways and facilities.
+Table 4.2 Hazard types and waste Source: OCHA, Disaster Waste Management Guidelines, 2011 (https://www.sheltercluster.org/sites/default/files/docs/Debris%20Management%20Guidelines%202010.pdf), p. 6.
+Hurricanes, typhoons, cyclones Conflict – short term Conflict – protracted
+
+## Page 186
+
+176    |    Humanitarian response in urban contexts • Public and private sector solid waste management service companies.
+• Specialist organisations dealing in hazardous waste removal (see below).
+• Local authorities responsible for waste management.
+• National and city governments.
+• In armed conflict situations, specialist organisations experienced in the disposal of
+explosive materials (see below). 4.3.3 Good practice in debris clearance A UNDP review of debris management37 in disaster and armed conflict situations identified the following key lessons.
+Put people at the centre of debris clearance efforts. In contexts without hazardous materials, the review notes that ‘debris removal and recycling is inextricably linked to getting the community back onto its feet in the often slow and painstaking job of returning to normalcy’.
+Start clearance immediately, given that a comprehensive debris management plan may take several months to formulate and adopt. Main arteries should be cleared first, followed by markets and schools. Hazardous sites should be cleared last, to discourage people from
+moving to them.38 Balance the above with a recognition of the value of debris. Debris provides materials for emergency shelter as well as fuel for heating and cooking food or boiling water. Much debris has value to the owner and considerable use in the recovery effort. As CARE notes,
+‘Simply collecting and disposing of all debris without taking these factors into account will make the recovery process more costly and more difficult than if the debris is transformed into a positive contribution to recovery’.39 Studies indicate that 30%–40% of urban debris
+is recyclable, and metals and plastics can be sold both locally and internationally. Debris removal also provides an opportunity to build capacity through coordination, communication and partnerships between the private sector, NGOs and local authorities. Debris clearance is
+also an opportunity for cash for work programmes.
+Be respectful of personal belongings, which may be mixed up with rubble. Rubble itself may be seen as a personal possession, for instance where it demarks a residence. In a number of 37	  UNDP, Disaster Waste Management Guidelines, 2010 (https://www.sheltercluster.org/sites/default/files/docs/
+Disaster%20Waste%20Management%20Guidelines%202010.pdf). 38	  J. Kennedy, ‘Post-disaster Rubble Removal Strategies: Having the Elbow-room to be Resilient’, 24 August 2013 (http://resilienturbanism.org/guest_blogger/rubble-removal-strategies/).
+39	  CARE International and ProAct Network, Emergency Shelter Cluster Quick Guide: Post-Disaster Debris Management, undated, p. 1.
+
+## Page 187
+
+Chapter 4 Sectoral responses    |    177 instances in Haiti after the 2010 earthquake, the presence of rubble was the only proof of land ownership (see Section 4.1 on HLP rights).
+Be mindful of health and safety – such as safety clothing for people working on clearance.
+UNDP recommends a group health insurance scheme for workers, including those engaged in cash for work programmes.
+Strike a balance between the social benefits of labour-intensive rubble removal involving local communities and engaging private companies, which may utilise heavy machinery, for example bulldozers, and get the job done much more quickly.
+Assess the quantity of rubble to be removed40 in order to plan the work at hand: the timeframe, equipment and labour needed and the means of removal and disposal.
+Debris removal should take into account traffic conditions and the time it is likely to take.
+Unusable rubble needs to be transported to areas where it will not cause problems later.
+This needs planning.
+Additional good practice includes:
+Recycling opportunities exist for plastic sheeting. Plastic sheeting is one of the most common items of emergency assistance following a rapid-onset disaster. Given the volume of such assistance, recycling and reusing these materials present opportunities for local
+entrepreneurs and others. A Global Shelter Cluster Operational Guidance Note provides advice on the repair, reuse and disposal of plastic sheeting – see https://www.sheltercluster. org/sites/default/files/docs/recycling_reuse_and_disposal_of_plastic_sheeting.pdf.
+Hazardous materials need specialist clearance. Often, debris can include toxic elements, for instance composites of construction materials. These should be analysed at an early stage through rapid assessments. Once hazardous materials are found, they should be managed
+according to best practice and the legal framework in the location concerned. Asbestos is a common problem after disasters and requires special attention due to its impact on health. For further information, see https://www.sheltercluster.org/sites/default/files/docs/
+Asbestos%20in%20Emergencies%202010.pdf. 4.3.4 Explosive remnants of war Explosive remnants of war are a common danger during and after conflict. ERWs include landmines, booby traps, cluster munitions and unexploded ordnance, which can explode
+at any time. ERWs can stay in place for decades. Children are particularly vulnerable ‘given their propensity to play with foreign objects that may look like toys or otherwise attract 40	  OCHA, Disaster Waste Management Guidelines.
+
+## Page 188
+
+178    |    Humanitarian response in urban contexts their attention’.41 Contamination can also ‘contribute to population displacement, loss of livelihoods, impeded or obstructed access to essential infrastructure and services, and
+increased vulnerability’.42 ERWs may be within collapsed buildings, making them harder to detect, and finding ERWs and making them safe slows down reconstruction. Following Israeli airstrikes in Gaza in 2014, for example, some 7,000 ERWs were left in damaged buildings. In
+such instances, ‘the process of removing contaminated rubble is often dangerous in itself as unexploded ordnance can detonate and injure clearance teams’.43 41	  ICRC and InterAction, When War Moves to Cities: Protection of Civilians in Urban Areas – Outcome Report, 2017
+(https://reliefweb.int/report/world/when-war-moves-cities-protection-civilians-urban-areas-outcome-reportmay-2017), p. 10. 42	  UN Mine Action Strategy 2019–23 (https://www.mineaction.org/sites/default/files/publications/un_mine_action_
+strategy_2019-2023_lr.pdf). 43	  ICRC and InterAction, When War Moves to Cities, p. 11.
+Box 4.10 Debris removal after the Haiti earthquake The earthquake in Haiti in 2010 produced around 10 million cubic metres of debris. In its aftermath, the government and the UN implemented an Action Plan for National Recovery and Development (PARDN), which included debris clearance and the
+demolition of dangerous buildings. Lessons include:
+• Ensure clarity on neighbourhood expectations, capacities and constraints.
+• Coordinate between key actors at all levels – between different parts of
+government, and between neighbourhood leaders and other organisations, such as NGOs and other civil society organisations.
+• Set up community platforms: ‘The effective participation of the population through
+community platforms must take place in the early stages of the programme and must consider gender and generational equity issues’.
+Source: Debris Management: The Door to Development (Port-au-Prince: UNDP, 2013) (http://www.undp.org/content/ dam/undp/library/crisis%20prevention/TOI%20Interactive%20English.pdf).
+For a detailed description of rubble removal efforts in Haiti, as well as a wider discussion of rubble management plans and challenges to rubble management, see M. Hooper, ‘When Diverse Norms Meet Weak Plans: The Organizational Dynamics of Urban Rubble Clearance in Post-Earthquake Haiti’, International Journal of Urban and
+Regional Research 25 September 2018 (https://onlinelibrary.wiley.com/doi/epdf/10.1111/1468-2427.12696).
+
+## Page 189
+
+Chapter 4 Sectoral responses    |    179 A number of specialist humanitarian organisations work in this area, including the Mines Advisory Group (MAG)44 and the Halo Trust.45 At the time of writing the Halo Trust was piloting
+a project for more effective urban demining, which aims to ‘assess the level and nature of explosive contamination in post-conflict urban environments, primarily in the Middle East, and
+develop new clearance methods’.46 Civilians may also sometimes engage in clearing ERWs:
+In Aleppo, the Syrian Civil Defense, or White Helmets, works to clear rubble and detonate ERW using nonexplosive methods. This group of volunteers also disseminates information about the dangers of ERW to people through discussions in schools, mosques, and other
+public spaces. When surveyed, Gazans, having experienced three conflicts between 2008 and 2014, were well aware of methods for reporting ERW to the proper authorities; this is likely attributable to mine risk education efforts.47
+Projects relating to ERWs also include risk awareness training, victim assistance and support for protection needs. Examples can be found on the database managed by UN Mine Action (https://www.mineaction.org/en/portfolio-of-mine-action-projects).
+International Mine Action Standards (IMAS) provides ‘criteria for all aspects of demining’, including guiding principles, legal requirements and responsibilities of respective actors. Further information can be found at: https://www.mineactionstandards.org/standards/international-mine-
+action-standards-imas/imas-in-english/. 4.4 Water, sanitation and hygiene Implementing water, sanitation and hygiene (WASH) programmes in urban areas is complex and difficult. As a basic need, effective WASH is vital to prevent loss of life and the spread
+of disease, a consideration that in dense urban areas can be especially acute. The reliance of people living in cities on essential services such as water and sanitation makes them especially vulnerable to service disruptions during crises.
+This section48 identifies general WASH issues. It discusses WASH in protracted crises and in displacement settings, and reviews good practice in water and hygiene. This section links 44	  See https://www.maginternational.org/.
+45	  See https://www.halotrust.org/. 46	  The pilot, ‘Clearing Explosive Hazards in Post-conflict Environments’, is being hosted at (http://www.elrha.org/maplocation/clearing-explosive-hazards-in-post-conflict-environments/).
+47	  ICRC and InterAction, When War Moves to Cities, p. 11. 48	  This section benefited in particular from the inputs of Michael Talhami, Urban Adviser – Water and Habitat Unit, ICRC.
+
+## Page 190
+
+180    |    Humanitarian response in urban contexts closely to a number of others in this review, including health, protection, shelter and cash, and of course to all sections relating to project management. 4.4.1 WASH challenges
+The range and quality of urban WASH is vast, from sewage and water supply systems in the wealthier parts of cities to the almost complete absence of water and sanitation facilities in informal settlements. Vital components of WASH interventions include social
+and institutional factors (for example who gets what quality of service, depending on where they live in the city and their level of access), as well as technical solutions (the ways in which water and sanitation is provided and managed).49
+Like other sectors, WASH in cities presents particular challenges related to the scale, com-
+plexity and interconnectedness of urban service systems. Issues to consider include:
+• Deteriorating and aging infrastructure and service systems, including but not limi-
+ted to water, wastewater, electricity and solid waste management.
+• Dilapidated buildings requiring repair and maintenance of water and sanitation
+systems. These strucures may be several storeys high, including residential buildings, hospitals and schools.
+• Different types of ownership (private and/or public), operation and maintenance of
+municipal water and sewerage services.
+• Private sector service providers such as pit latrine emptiers that operate on a small
+scale but play an essential role in cities (particularly in low-income areas).
+• The wide range of urban WASH needs and issues, from the use of water-borne sewage
+systems to cesspits and pit latrines in informal settlements.
+• People living in informal settlements may rely on water pumps and/or water vendors
+(public or private, formal or informal) for their water supply.
+• Sanitation conditions in informal settlements can be extremely poor, affecting
+health, protection concerns and dignity, for instance in relation to menstrual hygiene, and options for excreta disposal may be limited.
+A complex web of stakeholders are involved in WASH, each with their own aims, mandates and areas of expertise. All have shifting relationships with each other, and understanding this web of relationships is a crucial part of urban WASH programming. For a discussion
+of service providers, with examples from Lebanon and Jordan, see L. Diep et al., Water, 49	  ALNAP and RedR UK, Urban WASH in Emergencies (London: ALNAP and RedR, 2014) (https://www.alnap.org/ system/files/content/resource/files/main/urban-wash-in-emergencies-v3.pdf).
+
+## Page 191
+
+Chapter 4 Sectoral responses    |    181 Crises and Conflict in MENA: How Can Water Service Providers Improve Their Resilience?, IIED Working Paper (London: IIED, 2017) (http://pubs.iied.org/10846IIED). 4.4.2 WASH interventions
+During an acute emergency, humanitarian organisations may substitute for a service provider by installing tanks or bladders and initiating water trucking. In protracted settings, considerations include encouraging municipal authorities to cover the financing
+for the salaries of their staff, as well as funding for operations and maintenance, and mobilising the central government and possibly development actors (once the situation allows for their return) to actively commit to restoring services and helping the utility move
+towards financial stability. Support to service providers typically aims to help them meet their responsibility to operate, maintain and repair the system. In these circumstances, humanitarian organisations have a role to play in providing spare parts and consumables,
+and sub-contracting out repairs and rehabilitation work to construction companies.
+The long-term provision of basic water and sanitation services is the mandate of official service providers (public and/or private), not NGOs. Humanitarian responses must therefore clearly understand whether substituting for those service providers or support-
+ing them is more appropriate. If the former is required, then there must be a clear strategy and roadmap for establishing (or re-establishing) a sustainable service, and when and how responsibilities will be transferred back to official service providers. Building the resilience
+of water and sanitation utilities through coordinating with and supporting local actors in the short term will better prepare them to adapt and serve urban populations during future humanitarian crises.
+In contexts of displacement, UNHCR states that ‘WASH interventions in urban areas aim to provide refugees [and IDPs] with safe access to water of sufficient quality and quantity, and good quality sanitation; to improve hygiene practices; and improve WASH in hospitals,
+health and nutrition centres, schools and other institutions, in order to achieve the same quality of services as host communities and ultimately reach national WASH service
+standards’.50 To that end, UNHCR identifies the following key activities:
+• Assess gaps and needs in WASH infrastructure.
+• Constantly monitor WASH needs and changes in needs.
+• Work closely and coordinate with government ministries, water providers,
+municipalities and other actors (such as UN agencies and donors), noting that ‘The best outcome is to provide urban refugees with full access to national services’. 50	  UNHCR, Emergency Handbook: WASH in Urban Areas, undated (https://emergency.unhcr.org/entry/112697/wash-in-
+urban-areas).
+
+## Page 192
+
+182    |    Humanitarian response in urban contexts • UNHCR also notes that water needs paying for. For those unable to afford this, cash grants are an option. State-supplied water is almost always cheaper than bottled water or water supplied by vendors.
+Further guidance on WASH and urban refugees can be found in UNHCR’s online Emergency Handbook: WASH in Urban Areas, undated (https://emergency.unhcr.org/entry/112697/ wash-in-urban-areas). See also ICRC, Displaced in Cities: Experiencing and Responding to
+Urban Internal Displacement Outside Camps (Geneva: ICRC, 2018) (https://www.icrc.org/ en/publication/4344-displaced-cities-experiencing-and-responding-urban-internaldisplacement-outside). 4.4.3 Water Water here means ground water, water treatment and testing, surface water, desalinated
+water, collected rainwater and water supply (water supply is any water that is intended for consumption, hygiene and industrial use). Typical stages from source to consumer include production, treatment, transmission, storage and distribution. Issues concerning urban
+water delivery include:51 • Water delivery ranges from piped water supply in wealthier parts of the city to water points (such as wells and boreholes) and vendors selling water in informal settlements. Humanitarian interventions in an emergency, where water supply is
+disrupted, should ensure that they do not distort the long-term market for formal water supply.
+• Water systems need technical know-how to work. This may be in short supply
+immediately after a disaster, and restoring water systems may take time. Effort is required to support local engineers (often including employees from the water and wastewater service provider/utility) and other technical specialists.
+• Water quality can be an issue at any step from source through to consumption,
+and hence needs to be factored in from production to treatment, transmission, storage and distribution. Household-level treatment may need to be considered in some cases.
+• There may be issues regarding legal constraints around providing permanent water
+supply to temporary shelters.
+• The provision of drinking water using disposable plastic bottles can create a solid
+waste management concern. Currently there is little recognition of or responsibility for addressing this issue among implementing agencies. 51	  ALNAP and RedR UK, Urban WASH in Emergencies.
+
+## Page 193
+
+Chapter 4 Sectoral responses    |    183 • Wastewater can be a problem. The focus in areas where there is a wastewater collection and treatment system is to ensure that the network remains intact and that lifting stations continue to function properly so that wastewater is safely
+evacuated from a built-up, populated area.
+• Sewage systems that utilise wastewater collection and treatment systems can be
+a significant problem. In urban settings, humanitarian actors often focus on water supply and leave wastewater as a distant priority. In Aleppo during the Syrian conflict, the wastewater treatment plant was damaged and looted to the extent that
+there was nothing humanitarian organisations supporting the local service provider could do to bring it back online.52 This can pose a health risk for the population, for the general environment and for groundwater.
+In repairing water systems, agencies need to identify where their best efforts lie. This almost certainly involves partnering with the private sector and/or public sector institutions (see the example from Gaza in Box 4.11). It also means advocating for supply to reach less developed
+parts of the city, so that repairs do not focus only on wealthier areas or areas experiencing rapid influxes of IDPs and refugees. The repair of city water supplies provides an important advocacy opportunity for extending the reach of water supply to poorer settlements, and
+relief activities can be complemented by work to strengthen the preparedness and capacity of official service providers to respond to crises in the future.
+For examples of public/private sector water supply reconstruction initiatives, see ALNAP and RedR UK, Urban WASH in Emergencies (London: ALNAP and RedR, 2014) (https://www.alnap. org/system/files/content/resource/files/main/urban-wash-in-emergencies-v3.pdf).
+52	  Michael Talhami, ICRC, personal correspondence, February 2019.
+Box 4.11  Wastewater evacuation in Gaza ‘In 2014, the hostilities in the Gaza Strip at times required urgent action to ensure the safe evacuation of wastewater from built-up areas. In coordination with the Coastal Municipal
+Water Utility (CMWU), the ICRC supported the repair of wastewater infrastructure that was damaged. These actions included repairs successfully carried out on a sewage pumping station, a wastewater treatment plant, sections of the network, both inlet and outlet pipes
+to lagoons, as well as an effluent pressure pipeline. These quick repairs carried out by a construction contractor helped to prevent untreated wastewater from flooding into the streets and nearby homes, seeping into the aquifer, or flowing off to the sea. Ultimately,
+these actions aim to safeguard public health’.
+See also ICRC, ‘Rafah Wastewater Treatment Plant’, undated (https://www.icrc.org/en/doc/assets/files/2011/rafahwastewater-treatment-plant-2011.pdf).
+
+## Page 194
+
+184    |    Humanitarian response in urban contexts 4.4.4 Water in protracted conflict situations In protracted conflict settings, one aim is to reduce the rate of service decline, such as water supply, to avert a public health crisis and mitigate displacement (or at least that
+displacement that is in part caused by a lack of access to essential services). For example, programmes may seek to ensure that municipal service providers have the spare parts and consumables they need, which year after year is logistically heavy in protracted settings
+(for instance, consumables for water treatment such as aluminium sulphate, sodium hypochlorite and silica sand).
+Repair and rehabilitation work can continue during active conflict. For example, in coordination with the local service provider, ICRC arranged for a construction company to carry out repairs to the main water transmission pipeline to the Syrian city of Hama, home to
+1.3 million people. While the assessment and repairs took a week, negotiation to ensure safe access took three. In the words of one ICRC water specialist, ‘we often say that emergency response is less about the technical side and the ability of the contractors to perform the
+work, and more about the politics and negotiations that are necessary to ensure that you have safe access’.53 For further discussion of ICRC’s experience of water services in conflict settings, see Bled Dry: How War in the Middle East Is Bringing the Region’s Water Supplies to Breaking
+Point (Geneva: ICRC, 2015) (https://app.icrc.org/app/water-in-middle-east/PDF/full_ report-water-middle-east-icrc.pdf).
+For more information on improving the resilience of water service providers in the Middle East, see Diep et al., Water, Crises and Conflict in MENA. 4.4.5 Sanitation Sanitation here refers to ‘the provision of facilities and services for the safe management
+of human excreta from the toilet to containment and storage and treatment onsite or conveyance, treatment and eventual safe end use or disposal’.54 Typical stages from household sources (toilets, and potentially including grey water from sinks and drains
+at household level if there is no storm water system in place) to treatment and potential reuse include collection, transmission, treatment and discharge. Sanitation in urban areas is varied, ranging from the use of water-borne sewage systems to cesspits, latrines and open
+defecation. In long-term emergencies, access to quality services may be diminished, while people caught up in rapid-onset disasters may find themselves without access to sanitation (see Section 4.8 on health). 53	  ICRC, Urban Services in Protracted Armed Conflict (Geneva: ICRC, 2015) (https://www.icrc.org/sites/default/files/
+topic/file_plus_list/4249_urban_services_during_protracted_armed_conflict.pdf), p. 30. 54	  WHO, ‘Sanitation’ (https://www.who.int/topics/sanitation/en/).
+
+## Page 195
+
+Chapter 4 Sectoral responses    |    185 One review of practice notes that ‘Safe excreta disposal is particularly difficult in an urban context. Issues of access for sludge removal and land availability for disposal can be
+especially challenging and need to be given immediate priority’.55 For example, following the 2010 earthquake in Haiti ‘excreta disposal was a major problem. Pit latrines and elevated latrines (both used as rudimentary cesspits) and portable toilets were used but desludging
+proved difficult because of the limited number of desludging vehicles, traffic congestion, and the cost’.56 A DFID evidence review paper found that ‘There is good evidence that for urban on-site sanitation systems to be effective they must allow for pit-emptying, or at least
+replacement of the pit, and the safe disposal of the pit contents where necessary’.57
+Another review of good practice in urban sanitation in emergencies found the following:
+• ‘WASH interventions should prioritise both the immediate collection of human waste
+and identification of final locations of disposal • During flooding, agencies should also prioritise the prevention of the overflow of raw sewage from pits, septic tanks and water borne sewage networks 55	  ALNAP and RedR UK, Urban WASH in Emergencies.
+56	  J. Cocking and A. Bastable, ‘Water, Sanitation and Public Health in Post-earthquake Haiti: Reflections on Oxfam’s Experience’, Humanitarian Exchange 48, 2010, p. 21. 57	  DFID, Water, Sanitation and Hygiene Evidence Paper, 2013 (https://www.humanitarianlibrary.org/resource/water-
+sanitation-and-hygiene-evidence-paper-0), p. 10.
+Box 4.12  Sanitation and a cholera outbreak in Zambia A prolonged cholera outbreak in Lusaka, Zambia, from December 2017 to March 2018 originated in peri-urban areas of the city, where many residents access water using unregulated boreholes or shallow wells located close to poorly constructed pit latrines
+that leach their contents into a high water table. The response to the outbreak included public and private sector service providers. For example, the Lusaka Water and Sewerage Company (LWSC) identified the pit latrines that were in danger of flooding in two peri-
+urban areas, and subsidised existing faecal sludge management (FSM) businesses, within community-based WASH organisations known as Water Trusts, to empty them safely. The outbreak did not lead to private sanitation service providers curtailing their operations
+to the same extent as during previous outbreaks, and encouraged greater engagement of public stakeholders such as Lusaka City Council and LWSC with FSM and sanitation provision in lower-income areas of the city. Post-payment for pit emptying services
+continued throughout, albeit at subsidised prices.
+Source:  Rosie Renouf and Claire Grissafi, Water & Sanitation for the Urban Poor (WSUP), February 2019.
+
+## Page 196
+
+186    |    Humanitarian response in urban contexts • For excreta disposal, digging pits may not be feasible, given space, legal and ground constraints • Where pits are used, the building of urinals and urine diversion toilets is good
+practice to reduce pit-filling times. Other options include building raised latrines (used for example by Oxfam in Haiti after the 2010 earthquake) on sites where space was limited, digging was impossible or landowners refused permission to dig. Other
+useful approaches include compost toilets, biodegradable bags and urine diversion toilets (where biodegradable bags are used, it is important to put an organised collection system in place)
+• Chemical toilets have a high maintenance cost and limited storage capacity. They
+may also be in short supply following an emergency • Final disposal of faecal matter can be a difficult and contentious issue. Environmentally suitable locations should be identified as part of government contingency planning. Where this has not been done, agencies should prioritise identification of
+suitable locations • For recovery actions, agencies need to work closely with water and sanitation/ sewage departments, but with adequate agency coordination (through the WASH cluster or similar)
+• Care should be taken concerning permanent system repair, which may be outside the
+scope and experience of agencies and which may also inadvertently not be focusing on more vulnerable locations such as informal settlements which usually have no such facilities’.58 Protection concerns in relation to sanitation are also an issue. WHO’s 2018 guidelines on
+sanitation and health note that ‘Public and shared sanitation in urban settlements has been linked to stress from lack of cleanliness, anxiety and withholding relief due to long lines, women’s and girls’ fear of harassment from men and boys, and lack of privacy or safety’.59
+Protection is discussed further in Section 4.7. 4.4.6 Hygiene Hygiene here refers primarily to community engagement and participation, hygiene kit distribution and health data monitoring, as well as information, education and communication (IEC)
+to promote behaviour change. A review of good practice regarding urban hygiene found that:
+58	  D. Sanderson and P. Knox Clarke, Responding to Urban Disasters: Learning from Previous Relief and Recovery Operations (London: ALNAP/ODI, 2012) (http://www.urban-response.org/system/files/content/resource/files/main/
+alnap-lessons-urban-web.pdf), p. 14. 59	  WHO, Guidelines on Sanitation and Health (Geneva: WHO, 2018) (https://www.humanitarianlibrary.org/sites/ default/files/2018/12/9789241514705-eng.pdf), p. 13.
+
+## Page 197
+
+Chapter 4 Sectoral responses    |    187 ‘In Haiti following the 2010 earthquake, Oxfam disseminated hygiene messages through mothers’ clubs, schools and children’s clubs, as well as household visits and poster campaigns. Social media and mobile phones were also used.
+A simpler but still effective way of encouraging people to use sanitation facilities is to ensure that they are clean and well maintained, either by the community or by paid attendants.
+These attendants can also communicate hygiene messages.
+Good hygiene practices in dense urban areas are critical to reduce disease incidences. Oxfam identifies first-response activities in dense areas as the minimising of high-risk practices such as indiscriminate open defecation, “flying toilets” (where excreta are thrown into public
+spaces in plastic bags) and the reduction of transmission of faecal–oral disease’.60
+In addition:
+Concerning urban hygiene promotion, community consultation is key, which can be challenging in cities, where people have a wide range of social, economic and cultural backgrounds, making it difficult to tailor specific messages.
+In relation to vector control, people affected by emergencies and conflicts are vulnerable to vector-borne diseases through greater exposure to bites and contact through poor shelter, lack of sanitation, stagnant water and poor nutrition, and by injuries that can
+become infected. In Syria, a reported increase of Leishmaniasis was caused by sand flies in building debris.61 4.4.7 Cash and WASH As with other sectors, the use of cash in relation to WASH is increasingly resonating in urban
+emergencies. This reflects in part a wider recognition that WASH actors may need to take on more of an enabling approach than a provider role given the complexity of cities and of urban response.62  A 2016 Global WASH Cluster position paper on cash and markets concluded
+that cash ‘may be effective in overcoming financial barriers to accessing WASH goods and services when combined with complementary approaches in contexts with an enabling environment’.63 60	  Sanderson and Knox Clarke, Responding to Urban Disasters, p. 15.
+61	  See WHO, ‘Danger in the Rubble: Fighting Leishmaniasis in Syria’, 23 October 2017 (http://www.emro.who.int/syr/ syria-news/danger-in-the-rubble-fighting-leishmaniasis-in-syria.html). 62	  ALNAP and RedR UK, Urban WASH in Emergencies, p. 14.
+63	  WASH Cluster, Cash and Markets in the WASH Sector, 2016 (https://www.alnap.org/system/files/content/resource/ files/main/gwc-cash-and-markets-position-paper-dec-2016.pdf), p. 1.
+
+## Page 198
+
+188    |    Humanitarian response in urban contexts Box 4.13 Refugee water access in Jordan ‘An integrated needs assessment carried out by Oxfam GB in March 2013 found that, while the majority of refugees in host communities can access water through the municipal
+supply system, the cheapest source of water, this is intermittent and unreliable, and many are forced to buy water from private vendors in order to meet their needs.
+‘To develop [a further] understanding a market assessment was undertaken in Oxfam’s operational areas (the urban areas of Balqa and Zarqa Governorates, and in the informal tented settlements around factories and agricultural land) based on the
+Emergency Market Mapping and Analysis (EMMA) approach [see Section 3.3].
+‘Given the deficiencies of the municipal supply, private wells are a critical part of the water market system. These wells, which are privately owned and operated, sell water to the Water Authority, to supplement supplies in the piped network, and to businesses,
+water transporters (water trucks) and individual households.
+‘Refugees may often not have access to truck operators, and rely on their neighbours and landlords to make contact with them … Refugees with limited contact with their neighbours struggle to set up these types of arrangements. Even if these households
+manage to access truck operators, they may not have the capacity to store all the water that they have paid for.
+‘In summary, the market assessment established that access to water for poor households (in particular refugees) is primarily determined by purchasing power and the availability of adequate water storage capacity within the household. More
+fragmented social connections also restrict access to the water trucking market.’ The market analysis enabled a range of response options for immediate implementation.
+‘As a result of the analysis the following activities were identified:
+• ‘Increasing access to drinking water through water vouchers linked to local water
+vendors: Water vouchers (commodity vouchers) for bottled drinking water are distributed to beneficiaries, to be redeemed from contracted vendors.
+• ‘Increase access to drinking water by providing household water filters: The
+distribution of water filters to individual households is a viable solution. Filters are available on the local market, and beneficiaries have requested them.
+• ‘Increase households’ water storage capacity: The extra [piped] water … allows
+all users to fill a minimum [water storage] tank … and so the aim is to increase the storage capacity of households possessing less than this.
+
+## Page 199
+
+Chapter 4 Sectoral responses    |    189 Box 4.13 (continued)
+‘The market assessment confirmed that, for the urban areas of Balqa and Zarqa, the market system is vital for water access. In water-scarce and densely populated areas such as these there are few viable options for WASH programming. Critically, the market assessment was
+able to analyse the functionality, capacity and scope for expansion of the market system, making possible a range of short- and longer-term responses to help refugees to access water in an equitable manner and at a fair price, without stretching the market beyond its capacity.’
+For the full article, see T. Wildman and C Brady, ‘Can Jordan’s Water Market Support the Syrian Refugee Influx?’, Humanitarian Exchange 59, November 2013 (https://odihpn.org/ magazine/can-jordan%C2%92s-water-market-support-the-syrian-refugee-influx/).
+Country Benefits of CBI over hygiene kits Jordan
+•     Freedom of choice to refugees in selecting which items they need.
+•      More convenient than queuing to receive NFIs.
+•      Satisfaction levels amongst beneficiaries were much higher.
+•      Saved time for the team and therefore more cost effective than
+providing the kits directly.
+•      Increased monthly revenues of traders by 8,000 JOD (11,000 USD).
+•      Helped integration of refugees in the host community, as they were
+contributing to the local economy.
+Haiti
+•      Freedom of choice to IDPs in selecting which items they need.
+•      Reduced security risks associated with mass distibutions.
+Table 4.3 Comparing cash and hygiene kits in Jordan and Haiti Source: UNHCR, Cash Based Interventions for WASH Programmes in Refugee Settings, undated, p. 9.
+A review by UNHCR of cash programmes in refugee situations in 23 countries found that cash ‘can successfully support activities aiming to improve sanitation at the household level’.64 Cash-based interventions ‘have mostly been used to increase access to drinking water through
+a variety of water vendors, as well as to improve access to kits for water storage and treatment, repair and recover the piped water network and ensure maintenance of water supply’.65 64	  UNHCR, Cash Based Interventions for WASH Programmes in Refugee Settings, undated (http://www.unhcr.
+org/59fc35bd7.pdf), p. 9. 65	  Ibid., p. 6.
+
+## Page 200
+
+190    |    Humanitarian response in urban contexts Table 4.3 shows some of the benefits of cash-based interventions over hygiene kits in urban areas of Jordan and Haiti. The same review identified the following lessons in enacting cash
+in WASH interventions:
+• Understanding WASH market systems is important for programme effectiveness.
+• Cash can help market actors overcome supply-side barriers in WASH markets.
+• The perceived risks of cash in relation to vouchers are not backed up by evidence (for
+instance that cash may be used for non-WASH activities).
+• Cash can complement rather than replace other forms of support, such as technical
+assistance.
+As in other sectors, cash works only where markets are functioning, which in turn requires market analysis. Figure 4.2, from the UNHCR study cited above, illustrates some of the key considerations when using cash in WASH. In summary, WASH is a vast area, including a wide
+range of actors, as well as expensive infrastructure. What actions an agency takes depends largely on its mandate, on whether engagement is short-, medium- or long-term, and to what degree efforts are intended to address systemic problems as well as immediate needs.
+Large-scale infrastructure reconstruction efforts fall outside of the mandate, budget and capacity of humanitarian actors. However, the repair and rehabilitation of specific assets within a system may not. In protracted crises, a key activity is to ensure that systems do not
+fail. While there is a sense of urgency to address immediate needs such as the destruction of or damage to infrastructure, addressing underlying needs such as a lack of proper operation and maintenance is more difficult because it requires a preventative maintenance approach.
+Useful resources
+‘ICRC, Protracted Conflict and Humanitarian Action: Some Recent ICRC Experiences (Geneva:
+ICRC, 2016) (https://www.icrc.org/sites/default/files/document/file_list/protracted_ conflict_and_humanitarian_action_icrc_report_lr_29.08.16.pdf).
+The sustainable sanitation alliance (SuSanA) hosts a large library on urban sanitation:
+see https://www.susana.org/en/.
+UNICEF’s online library of WASH-related issues can be found at https://www.unicef.org/ wash/3942_documents.html.
+Sanivation focuses on WASH issues in East Africa: see http://www.sanivation.com/.
+See also the WASH Innovation Catalogue (2019) from the Humanitarian Innovation FUND (HIF): https://www.elrha.org/wp-content/uploads/2019/01/HIF-WASH-innovationcatalogue-WEB_9.5MB.pdf.
+
+## Page 201
+
+Sectoral responses    |    191 Chapter 4 Inclusion    |    191 Figure 4.2 Key considerations when using cash in WASH Source: UNHCR, Cash Based Interventions for WASH Programmes in Refugee Settings, p. 20.
+•	 Understand who does not have access to
+water and why.
+•	 Understand who is not using good
+sanitation or hygiene practices and why, to decide the appropriate response. KAP surveys are useful.
+•	 Interview women and people with
+specific needs to understand their preferences for sanitation and hygiene items, if these items can be found on the local market, or if they prefer in-kind assistance.
+•	 What markets require special
+assessment tools. Assess water quality of local sources and providers.
+•	 Monitor prices and supply
+of basic WASH items, water, etc.
+•	 Monitor water quality both at
+point of sale/exchange and at household level.
+•	 CBIs to increase access to WASH
+goods and services (water, sanitation and hygiene kits, household water treatment, materials for WASH infrastructure, etc.).
+•	  Employment schemes or incentives can
+be used to rehabilitate water storage facilities, or construct latrines.
+•	 Temporary measure such as water
+vouchers in lieu of water trucking, until a more sustainable source of water can be found.
+•	 Focus group discussions with women
+to determine appropriate WASH items and establish adequate voucher or cash transfer value.
+•	 Employment schemes for sanitary
+and waste disposal (e.g. latrines, environmental management for vector control) must be accompanied by technical advice and support.
+•	 Complementary programmes such as
+IEC on WASH are essential where KAP surveys reveal a need.
+•	 Shortages and price inflation can be
+mitigated by supply-side interventions (e.g. rehabilitaing public water sources, and unconditional grants reducing the demand on single items).
+•	 SMS messaging with WASH messages.
+Set objectives Plan and design Monitor and learn Assess and analyse response options
+•	 For water vouchers, contact
+vendors who meet quality standards and a capacity assessment.
+
+## Page 202
+
+192    |    Humanitarian response in urban contexts 4.5 Livelihoods Cities are home to a wide range of income-earning opportunities, both formal and informal.
+Re-establishing livelihoods after a disaster as quickly as possible, and supporting livelihood opportunities for refugees and IDPs, are vital activities.
+Livelihoods links with other sections in this Good Practice Review, in particular cash and markets (Section 3.3) and assessments (Section 3.6). It also links to protection, where some livelihood activities may be risky to those engaging in them, or where people may be unable
+to undertake livelihood activities due to age or infirmity (see Section 1.4 on vulnerability).
+This section defines livelihoods.66 It discusses livelihoods programming after rapid-onset disasters. For refugee settings it identifies challenges to and opportunities for effective programming. The section ends with points for engaging refugees in livelihoods opportunities.
+4.5.1 Defining livelihoods Livelihoods projects in emergency contexts ‘aim to preserve and restore the income-earning opportunities of affected communities while stimulating economic recovery’.67 Livelihoods programming can account for a large portion of post-disaster recovery expenditure.68 In
+urban areas, and in particular in relation to refugees and their access to jobs, this definition can be expanded to include the need to influence the policy environment in which livelihoods can be secured (this is discussed further below).
+Following rapid-onset disasters, livelihood programmes can aid recovery and help improve opportunities for poorer and more vulnerable people, for instance through providing certified skills training (see the case study in Box 4.14). For protracted displacement
+situations, livelihoods programming is vital. Refugees and IDPs with little if any savings or remittances or insufficient access to employment are particularly vulnerable, and risk falling into deeper debt. A study of Syrian refugees living in Lebanon69 found that almost 90% of
+households surveyed were in debt in 2015, compared to 81% in 2014. Building livelihoods 66	  Livelihoods here refers to income-earning opportunities, rather than ‘sustainable livelihoods’ as used within developmental thinking.
+67	  CRS, Guidance on Livelihoods Programming in Emergency Response and Recovery Contexts (Baltimore, MD: Catholic Relief Services, 2018), p. 1. 68	  For example, expenditure on livelihoods programmes from the Disasters Emergency Committee among its 13
+operational NGO members in the 2015 Haiti earthquakes accounted for 31% of total expenditure for recovery funding, second only to shelter. 69	  UNCHR, UNICEF and WFP, Vulnerability Assessment of Syrian Refugees in Lebanon – 2015 Report, cited in IRC,
+Finding Economic Opportunity in the City: Lessons from IRC’s Cash and Livelihoods Programmes in Cities within Lebanon and Jordan (New York: IRC, 2016) (https://www.rescue.org/report/finding-economic-opportunity-city), p. 12.
+
+## Page 203
+
+Chapter 4 Sectoral responses    |    193 therefore presents opportunities to reduce dependency, and to tap into the varied resources and opportunities available within cities. 4.5.2 Livelihoods in post-disaster settings One of the IASC’s strategic objectives in urban post-disaster recovery is: ‘Restore Livelihoods
+and Economic Opportunities as a Priority, starting in the Emergency Phase for Expedited Early Recovery in Urban Areas’.70 According to the IASC, livelihood restoration in response
+strategies can be strengthened by:
+• Linking livelihoods to shelter reconstruction, including training people in relevant
+skills (see Box 4.14).
+• Engaging with supply chains, distribution systems and markets (see Section 3.3 on
+cash and markets).
+• Providing support to local suppliers and contractors.
+• Enacting protection approaches that tackle extortion and other corrupt practices.
+70	  IASC, Final Strategy for Meeting Humanitarian Challenges in Urban Areas, 2010 (https://www.alnap.org/help-library/ iasc-strategy-meeting-humanitarian-challenges-in-urban-areas).
+Box 4.14  Post-disaster recovery skills training programmes NGOs and others have implemented training programmes in a number of postdisaster recovery operations. Following Typhoon Haiyan in the Philippines in 2013, UNDP supported training in masonry, plumbing and carpentry as part of
+an accredited programme, Skills Training for Early Recovery and Reconstruction (STERR). In the 2005 earthquake response in Pakistan, Church World Service Pakistan/ Afghanistan supported a programme of training for men in carpentry, plumbing,
+electrics, masonry and welding. At the end of the 40-day programme, trainees sat an exam. Those who passed were recognised as suitably qualified and were subsequently hired by local employers. An independent review of the programme
+found that ‘The trainings helped in enhancing the income of graduates substantially and have been instrumental in establishing a sustainable source of livelihood for the beneficiaries. Most importantly, the training programmes instil skills that will remain
+with the trainees for life’.
+Sources: D. Sanderson and Z. Delica Willisen, Philippines Typhoon Haiyan Response Review, 2014 (https://www.alnap. org/system/files/content/resource/files/main/dec-hc-haiyan-review-report-2014.pdf), p. 4; and A. Hasan et al., ASPK-
+61 Appeal Earthquake Recovery and Rehabilitation – Pakistan. Evaluation (Geneva: ACT Alliance, 2009), p. 55.
+• Engaging younger people in particular (see the case study example from Ethiopia
+in Box 4.16).
+
+## Page 204
+
+194    |    Humanitarian response in urban contexts Key considerations in programming for livelihoods recovery include:71 • First, distinguish between basic needs and livelihoods promotion – after immediate relief needs, more detailed assessments may be required to understand and support
+different livelihood options, the market, skills, etc. Adequate assessments are critical to avoid people being forced into livelihoods they may have little interest in, and also address gendered views of livelihoods (for instance that women should learn
+basket-weaving).
+• Second, be timely in implementing programmes – given the fast-changing nature
+of urban environments, the time between assessment and implementation needs to be short.
+• Third, strong partnerships with city authorities can help ensure that activities
+become established and are in line with existing policies and laws.
+• Finally, link relief and recovery actions with longer-term development programmes,
+where they exist. 4.5.3 Refugee livelihoods The key finding of a wide-ranging study of urban refugees across eight countries is that ‘A common thread weaves the argument that urban refugees could be highly beneficial to cities
+if they were allowed to pursue productive lives absent of legal restrictions, harassment and insecurity’.72 It is unsurprising that, globally, the majority of refugees choose to live in cities.
+This is in no small part due to the livelihood opportunities they offer. Research by UNHCR in a number of countries73 concluded that most refugees of working age are either employed or self-employed, in both the formal and informal economy. That said, livelihood opportunities
+for urban refugees face a number of challenges, including:
+Prevention of the right to work. Many refugees are refused the right to work in their host countries, closing off opportunities to engage in society, pay taxes and enjoy various forms of insurance. Skilled and experienced people who find themselves as refugees are prevented
+from formally applying for positions that match their vocation or expertise.
+Precarious existence in the informal economy. Many refugees have no other option but to work in the informal sector. This in many ways is a benefit (at least as against having no work at all) 71	  This discussion is based on the British Red Cross’s experiences in urban livelihood recovery in Port-au-Prince, Haiti.
+72	  K. Jacobsen, ‘Refugees and Asylum Seekers in Urban Areas: A Livelihoods Perspective’, Journal of Refugee Studies, 19(3), 2006, p. 1. 73	  UNHCR, Designing Appropriate Interventions in Urban Settings: Health, Education, Livelihoods, and Registration for
+Urban Refugees and Returnees (Geneva: UNHCR, 2009). Note this research took place before the Syrian crisis.
+
+## Page 205
+
+Chapter 4 Sectoral responses    |    195 and has been the mainstay of millions of urban dwellers for decades. However, the informal economy does not bring the benefits usually associated with formal employment, such as social security, health and safety and fair employment practices.
+Refugees may have little or no documentation to prove they are qualified in a certain profession. They may also lack the funds to begin an enterprise or establish a livelihoods activity. They almost certainly lack (in the initial stages at least) the social capital to link with
+existing employment activities. Refugees may also be from a rural background, and may have to re-train to be relevant to the urban labour market.
+Exploitation risks. Refugees working in the informal sector may be exploited, for instance being paid less than locals. In Lebanon, this has increased tensions between displaced and host communities living in often impoverished urban areas. Here, host communities perceive
+the lower salaries as an unfair form of competition. Some refugees may also have no choice other than to work in illegal or risky areas, such as commercial sex or child labour.
+For further examples of livelihoods and refugees, drawing on case studies from Khartoum, Nairobi, Yei, Juba, Kabul and Nairobi, see S. Haysom, Sanctuary in the City?  Urban Displacement and Vulnerability, HPG Report (London: ODI, 2013) (https://www.odi.org/sites/
+odi.org.uk/files/odi-assets/publications-opinion-files/8444.pdf). 4.5.4 Opportunities for urban refugee livelihood programming74
+Interventions related to urban refugee livelihoods include:
+• Offer legal services – this is a critical area of work, providing assistance for example in
+preventing unfair evictions (see Section 4.1 on HLP rights).
+• Provide information on work permits and business registration. This links to
+employment support and career guidance (see the examples in Boxes 4.15 and 4.16 from Lebanon and Ethiopia).
+• Link refugees to vocational training schemes – preferably certified.
+• Make links with existing employers (where formal refugee employment is permitted)
+and support job applications, such as help with formulating CVs.
+• Provide help in accessing financial services. This may include raising awareness
+of loans offered at unaffordable interest rates, to help refugees avoid falling into unsustainable debt. 74	  This section draws in particular on UNHCR, Designing Appropriate Interventions in Urban Settings; IRC, Finding Economic Opportunity in the City.
+
+## Page 206
+
+196    |    Humanitarian response in urban contexts • Offer financial assistance, such as seed funding to set up income-generating enterprises.
+• Make links with educational establishments and promote relevant courses.
+4.5.5 Engaging refugees in livelihoods opportunities UNHCR observes that, ‘In urban settings, successful livelihood interventions result from a good understanding of the context, of the attitudes of potential beneficiaries and the
+capacity to identify existing services which can support refugees in the employment Box 4.15  Economic recovery and development in Lebanon IRC’s Livelihoods Centres in Akkar and Mount Lebanon are open to both Syrians and Lebanese who need assistance in legal matters and finding employment. Assistance
+is provided in developing business plans and securing small start-up grants. At the centres, ‘job-seekers are able to take advantage of intensive counselling services, with some also receiving training in marketable skills and – within the constraints
+of the Lebanese labour regulations – opportunities for on-the-job learning/ apprenticeships and short-term cash-for-work projects’.
+Box 4.16  Livelihood programming in Ethiopia A livelihood programme for younger refugees and host populations in Dollo Ado and Shire in Ethiopia comprises basic literacy and numeracy skills and practical vocational training. The programme, implemented by NRC, undertakes market
+assessments to gauge the relevance of skills training. People on the scheme have been trained in a variety of skills, including plumbing, electronics and hotel management. An evaluation of the programme found that ‘refugees and host
+community members work together to maximise their income generating potential.
+For example, host community beneficiaries (who know the refugees from vocational training programmes) work with their refugee peers to help them purchase or sell goods on the market as well as to procure local host communities contracts’.
+Source: IRC, Finding Economic Opportunity in the City: Lessons from IRC’s Cash and Livelihoods Programmes in Cities within Lebanon and Jordan (New York: IRC, 2016) (https://www.rescue.org/report/finding-economic-opportunity-city).
+Source: Samuel Hall, Thinking Forward about Livelihoods for Refugees in Ethiopia – Learning from NRC’s programming 2013–2016, 2016 (http://samuelhall.org/wp-content/uploads/2017/05/Thinking-forward-about-Livelihoods-forRefugees-in-Ethiopia-FINAL-REPORT.pdf).
+
+## Page 207
+
+Chapter 4 Sectoral responses    |    197 ambitions’.75 Strategic interventions for engaging refugees in improved livelihoods
+opportunities include:
+• Advocating for host governments to meet their international obligations to allow
+refugees to work, which should ‘foster an enabling environment for the economic empowerment and self-reliance of displaced populations’.76 • Recognising and capitalising on livelihoods efforts that build social cohesion. According
+to IRC, ‘Anecdotal evidence indicates that livelihoods programmes can enhance social cohesion between displaced and host communities to some degree. This goal should be considered a critical component of urban humanitarian response’.77
+• A recognition of the need for long-term engagement by donors, agencies and others
+to provide support in establishing urban refugees in their chosen locations.
+• In programme design, build in a diversity of approaches, such as combining
+livelihoods programming with cash transfers.
+• Build relationships with all actors. IRC’s research on the livelihoods of refugees in
+Lebanon and Jordan78 found that effective collaboration with government (at different levels), the private sector, service providers and community-based organisations improved programme efficiency and effectiveness and helped make programmes
+more locally relevant.
+Further guidance and ideas can be found in Feinstein International Center, Refugee Livelihoods in Urban Areas: Identifying Program Opportunities, 2012 (https://www.alnap.org/ system/files/content/resource/files/main/adult-app-form-march-2012.pdf).
+An inventory of toolkits and guidance notes can be found at ‘Livelihoods’ and ‘Emergency Livelihoods’, Humanitarian Response, 2018 (https://www.humanitarianresponse.info/en/ topics/environment/page/livelihoods; and https://www.humanitarianresponse.info/en/
+operations/iraq/social-cohesion-and-sustainable-livelihoods).
+The Secure Livelihoods Research Consortium (SLRC) ‘aims to strengthen the evidence base and inform policy and practice around livelihoods, basic services and social protection in conflict-affected situations’. See https://securelivelihoods.org/about-slrc/.
+75	  UNHCR, ‘Livelihoods and Self Reliance in Urban Areas’ (https://emergency.unhcr.org/entry/125822/livelihoodsand-self-reliance-in-urban-areas). 76	  UNHCR, Designing Appropriate Interventions in Urban Settings. 77	  IRC, Finding Economic Opportunity in the City, p. 22.
+78	  Ibid.
+
+## Page 208
+
+198    |    Humanitarian response in urban contexts
+See also:
+Food Security and Livelihoods in Urban Settings Working Group. Food Security Cluster, 2018 (http://fscluster.org/food-security-and-livelihoods-urban/workinggroup/food-securityand-livelihoods-urban).
+Livelihoods, IFRC, 2018 (https://www.ifrc.org/en/what-we-do/disaster-management/fromcrisis-to-recovery/what-is-a-livelihood/).
+Guidelines for Integrating Gender-based Violence Interventions in Humanitarian Action:
+Livelihoods, IASC, 2015 (https://gbvguidelines.org/wp/wp-content/uploads/2015/09/TAGlivelihood-08_26_2015.pdf). 4.6 Education The Inter-agency Network for Education in Emergencies (INEE) defines education in emergencies as ‘quality, inclusive learning opportunities for all ages in situations of crisis, including
+early childhood development, primary, secondary, non-formal, technical, vocational, higher and adult education. Education in emergencies provides physical, psychosocial, and cogn-itive protection that can sustain and save lives’.79 The need is substantial: the Global
+Education Cluster estimates that 58 million primary school age children and 20 million of secondary school age are currently out of education due to conflict.80 Girls in refugee situations are usually the worst affected.81 According to UNHCR estimates, only 50% of
+refugee children have access to primary education, and 22% secondary.82 In Lebanon, ‘more than half of [Syrian] refugee children in the age group 3–18 are still out of school, mainly adolescents and youth’.83 This Good Practice Review, while finding a large amount of information on education in
+conflict and emergencies,84 unearthed very little specifically directed at cities, or concerned 79	  INEE, Strategic Framework, forthcoming, 2019. 80	  UNESCO, Migration, Displacement and Education: Building Bridges, Not Walls, Global Education Monitoring Report
+(Paris: UNESCO, 2018) (https://en.unesco.org/gem-report/report/2019/migration). 81	  See for example UNHCR, Her Turn: It’s Time to Make Refugee Girls’ Education a Priority, UNHCR, 2019 (https://www.unhcr.org/herturn/). 82	   UNHCR, Missing Out: Refugee Education in Crises (Geneva: UNHCR, 2016) (https://www.unhcr.org/missing-out-
+state-of-education-for-the-worlds-refugees.html). 83	  UNHCR, ‘Education’ (https://www.unhcr.org/lb/education). 84	  See for example the INEE online toolkit (http://toolkit.ineesite.org/toolkit), which includes resources, information,
+the INEE Minimum Standards for Education and related materials on education in emergency programmes.
+
+## Page 209
+
+Chapter 4 Sectoral responses    |    199 with naturally triggered disasters in urban areas. In fact, according to one study, currently ‘no global policy instrument or document has carefully considered the unique educational
+needs of urban refugees’.85 That said, with the majority of IDPs and refugees living in urban areas, much of the good practice discussed in this section is relevant to urban areas.
+This section86 identifies good practice and challenges in protracted displacement settings.
+It discusses education in armed conflict settings. The section ends by identifying the need for psychosocial support (PSS) in education in emergencies. The section links with a number of others, in particular protection (Section 4.7), WASH (Section 4.4) and forced displacement
+(Section 1.3). 4.6.1 Good practice in displacement settings Students who are refugees or internally displaced and live in urban environments need to be integrated into existing public systems of education, presenting numerous challenges
+relating to overcrowding, teacher shortages and discrimination.87 In situations of migration, existing services can quickly become overwhelmed. In Lebanon, for example, the government has established a shift system in its largely urban public schools to accommodate
+nearly 500,000 Syrian refugee school-age children (this is further discussed in Box 4.17).88
+UNHCR’s advice on good practice in protracted displacement settings includes:
+• Take a holistic approach – if building schools, coordinate this with infrastructure
+(such as water and sanitation), teacher training and the provision of materials.
+• Provide and/or advocate for free primary education.
+• Do not set up parallel education structures.
+• Lobby decision-makers to recognise foreign school certificates to enable refugee
+children and adolescents to enroll.
+• Where possible set up support classes, for example for learning a new (local) language
+and remedial classes.
+• Integrate interventions into existing education systems.
+85	  M. Mendenhall, S. G. Russell and E. Buckner, Urban Refugee Education: Strengthening Policies and Practices for Access, Quality and Inclusion (New York: Columbia University, 2017) (https://www.tc.columbia.edu/media/centers/
+refugee-education-research-and-projects/Urban-Refugees-Full-Report.pdf). 86	  This section benefited in particular from the inputs of Dr Francine Menashy, Associate Professor in the Department of Leadership in Education at the University of Massachusetts.
+87	  UNICEF, State of the World’s Children 2012: Children in an Urban World (Geneva: UNICEF, 2012) (https://www.unicef. org/sowc2012/), pp. 28–30. 88	  UNHCR, ‘Operational Portal: Syria Regional Refugee Response’ (https://data2.unhcr.org/en/situations/syria).
+
+## Page 210
+
+200    |    Humanitarian response in urban contexts
+Other elements of good practice include:
+• ‘Explore options for leveraging teaching expertise among refugee populations.
+Amidst the teacher shortages in many countries, including those affected by conflict and/or hosting refugees, national governments should be encouraged to find ways to identify and leverage teaching expertise among refugee populations … Recognize
+and strengthen teacher qualifications for integration, repatriation and resettlement.’ • Apply ‘psychosocial well-being approaches that teachers can use to both provide their learners with additional social-emotional support and help them identify when
+students might need help that exceeds teachers’ knowledge and abilities’.
+• Apply ‘language teaching methods that allow teachers to support second language
+acquisition and learning among students entering a classroom with a new and unfamiliar language of instruction’.
+• ‘Provide opportunities for communities to stay apprised of and influence the policy
+making process, including establishing synergies between community-led efforts and formal education’.89 Coordination between sectors is crucial.90 UNHCR notes that ‘coordination between workers in the education, protection, shelter, water and sanitation, health and psychosocial sectors
+is important in establishing learner-friendly, safe spaces’.91 The case study on Syrian refugee children and education in Lebanon in Box 4.17 illustrates the importance of a coordinated response between agencies and government authorities.
+4.6.2 Challenges in protracted displacement settings
+Challenges to accessing a quality education in protracted displacement contexts include:
+• Public systems of education in cities may already be poorly resourced and struggle to
+provide quality education prior to the crisis.92 • Overcrowding in public schools due to absorption of refugee students.
+• Lack of teachers, in numbers and also ability.
+89	  Mendenhall, Russell and Buckner, Urban Refugee Education. See also M. Mendenhall, S. Gomez and E. Varni, ‘Teaching Amidst Conflict and Displacement: Persistent Challenges and Promising Practices for Refugee, Internally
+Displaced and National Teachers’, paper commissioned for UNESCO, Migration, Displacement and Education. 90	  See also the section on coordination in the INEE Minimum Standards, pp. 31–34. 91	  UNHCR, Designing Appropriate Interventions in Urban Settings: Health, Education, Livelihoods, and Registration for
+Urban Refugees and Returnees (Geneva: UNHCR, 2009) (https://www.unhcr.org/en-au/4b2789779.pdf). 92	  UNICEF, State of the World’s Children 2012.
+
+## Page 211
+
+Chapter 4 Sectoral responses    |    201 • Limited materials, such as books and stationery.
+• Monitoring and evaluation of refugee education may be difficult when children
+enrolled in schools are no longer identified as refugees.
+• Costs for uniforms, materials and travel to and from school.
+• Registration to attend school can be hampered by a lack of relevant documentation,
+such as IDs and past school certificates.
+Box 4.17  Coordinated efforts to support Syrian refugee children in Lebanon’s schools In Lebanon, ‘more than 221,000 Syrian refugee children aged 3–18 years enrolled in both morning and afternoon shifts during the 2017/2018 school year (of which 71
+per cent in the latter shift). Around 57 per cent of refugee children in the age group 6–14 are enrolled in public school. To accommodate this increase … [the Ministry of Education and Higher Education] MEHE initially opened 376 second shift schools, of
+which 350 schools remain open and at capacity.
+‘UNHCR focuses on community interventions identifying out-of-school children and youth, providing counseling and awareness sessions and community-based solutions for those at risk of dropping out. It has set up support activities such as homework
+groups led by community volunteers, increased parental engagement through parent community groups, and assigned community volunteers to second shift schools to prevent violence and refer child protection cases and children at risk of dropping out
+to specialized agencies/services, aiming at increased school retention.
+‘In 2017, UNHCR also started assessing MEHE schools for a rehabilitation and expansion project that will increase the capacity of approximately 24 schools during 2018, and will ensure they are equipped to provide inclusive education also for
+children with disabilities. International funding covers both the rehabilitation and expansion of public schools and community retention activities.
+‘The Education sector partners work closely together on the annual Back to School campaign. As the Ministry of Education started providing regulated non-formal education programmes targeting out-of-school children and youth as a way of (re)
+integrating them in certified education, the Back to School (or Back to Learning) campaign is now continuously ongoing throughout the year. In addition to its community outreach, UNHCR uses targeted SMS and Whatsapp messages to spread
+information widely about available education programmes’.
+Source: UNHCR, 2019, Education. See: https://www.unhcr.org/lb/education
+
+## Page 212
+
+202    |    Humanitarian response in urban contexts • Discrimination and xenophobia in schools.93 • Language barriers.
+• Refugee children may need psychosocial support (see below).94
+• Costly and lengthy school reconstruction post-disaster.
+• External pressures: school-age adolescents may also be household heads.
+Education may not be an economic priority for struggling families. One report notes that:
+Urban residents face a higher cost of living than those in camps or rural settings; they must rely on existing social services and make ends meet among limited livelihoods opportunities. For refugees who are struggling to provide basic needs for their families,
+it can prove difficult to prioritize education for their children, especially in the event that school and other fees are expected for enrollment and retention. Children may also be expected to work rather than attend school. 80% of survey respondents mentioned
+livelihoods as a barrier to education.95 Refugee communities sometimes start their own schools, but these are often unregulated and do not provide the recognised official diplomas required for access to higher education and the workforce.
+4.6.3 Education in conflict School buildings, teachers and students can be deliberately targeted in conflict; UNESCO reports that ‘In several long-running conflicts, armed groups have used attacks on school children and teachers to “punish” participation in state institutions’.96 According to the Safe
+Schools Declaration, a ‘political instrument through which states acknowledge the full range of challenges facing education during armed conflict and make commitments to better
+protect students, staff, and educational facilities in war time’:
+In the majority of countries affected by conflict over the past decade, fighting forces have used schools and universities for military purposes, such as for bases, barracks, weapon 93	  UNHCR, Missing Out. 94	  INEE, Guidance Note on Psychosocial Support: Facilitating Psychosocial Wellbeing and Social and Emotional Learning
+(New York: Inter-Agency Network for Education in Emergencies, 2018) (http://s3.amazonaws.com/inee-assets/ resources/INEE_Guidance_Note_on_Psychosocial_Support_ENG_v2.pdf). 95	  Mendenhall, Russell and Buckner, Urban Refugee Education, p. 13. Emphasis in the original.
+96	  UNESCO, The Hidden Crisis: Armed Conflict and Education. Education for All Global Monitoring Report (Paris:
+UNESCO, 2011) (https://unesdoc.unesco.org/ark:/48223/pf0000190743).
+
+## Page 213
+
+Chapter 4 Sectoral responses    |    203 stores, and detention facilities. This practice can convert educational facilities into military objectives, exposing students and staff to the potentially devastating consequences of
+attack. More generally, the presence of armed groups or armed forces in schools impairs efforts to ensure the continuation of education during war-time.97 Schools can also be closed for prolonged periods and require lengthy and costly reconstruction
+following disaster.
+For further information on the Declaration, including case study examples, see GCPEA, The Safe Schools Declaration: A Framework for Action (New York: Global Coalition to Prevent Education from Attack, 2015) (http://protectingeducation.org/sites/default/files/
+documents/a_framework_for_action.pdf). 4.6.4 Psychosocial support in education in emergencies The INEE advocates for the inclusion of PSS in education settings98 for the following reasons:
+• ‘Education can offer a stable routine and structure and support a sense of normality,
+all factors that can support children and youth in healing and developing resilience.
+• Learning spaces provide opportunities for friendship, as well as peer and adult
+support. These interpersonal skills and relational supports are essential for a healthy social ecology, psychosocial wellbeing, and longer-term resilience.
+• Learning spaces unite the wider community and strengthen the relational supports
+available for vulnerable children. Activities that engage parents, community leaders, and education authorities are critical in this regard and may also enhance social cohesion.
+• Education settings are ideal for structured play activities that help children learn,
+recover from distressing experiences and develop social and emotional skills.
+• Social-emotional learning supports the development of social and emotional
+competencies that strengthen academic performance and improve children’s ability to navigate adversity.’99 For further information see INEE, Guidance Note on Psychosocial Support: Facilitating Psychosocial Wellbeing and Social and Emotional Learning (New York: Inter-Agency Network
+97	  GCPEA, The Safe Schools Declaration: A Framework for Action (New York: Global Coalition to Prevent Education from Attack, 2015) (http://protectingeducation.org/sites/default/files/documents/a_framework_for_action.pdf), p. 9.
+98	  INEE, Guidance Note on Psychosocial Support, p. 9. 99	  Ibid.
+
+## Page 214
+
+204    |    Humanitarian response in urban contexts for Education in Emergencies, 2018) (http://s3.amazonaws.com/inee-assets/resources/ INEE_Guidance_Note_on_Psychosocial_Support_ENG_v2.pdf). See also the INEE toolkit on psychosocial
+support at https://toolkit.ineesite.org/inee_minimum_standards/ implementation_tools/%3Ch3%3Ekey_thematic_issues%3Ch3%3E/psychosocial_support. 4.7 Protection Protection involves efforts to ensure that people caught up in disasters, conflict or
+violence, or who have been forcibly displaced, are safe and are offered the full protection of human rights.
+This section defines protection. It discusses protection in naturally-triggered disasters and protection and forced displacement. It presents protection and urban warfare and protection and urban violence. The section identifies protection and particular groups, including children,
+women, lesbian, gay, bisexual, transgender and queer (LGBTQ+) people and people living with disabilities. It also discusses mental health and psychosocial support (MHPSS).
+Protection is an enormous subject, cutting across all sectors. As such, this section relates closely to a number of others in this Good Practice Review, including violence, conflict, vulnerability, education, health and HLP rights.
+Useful resources IINEE thematic areas: https://www.ineesite.org/en/eie-thematic-areas.
+IASC Education Cluster: https://www.ineesite.org/en/partnerships/education-cluster.
+INEE and the IASC Education Cluster training and capacity development materials:
+http://www.ineesite.org/en/training-capacity-development.
+INEE, Training Pack for Primary School Teachers in Crisis Contexts: http://www. ineesite.org/en/training-pack-for-primary-school-teachers-in-crisis-contexts.
+UNESCO, Migration, Displacement and Education: Building Bridges, Not Walls, Global Education Monitoring Report (Paris: UNESCO, 2018) (https://en.unesco.org/gemreport/report/2019/migration).
+
+## Page 215
+
+Chapter 4 Sectoral responses    |    205 4.7.1 Defining protection Protection can be defined as ‘all activities aimed at ensuring full respect for the rights of the individual in accordance with the letter and the spirit of the relevant bodies of law,
+i.e. human rights law, international humanitarian law and refugee law’.100 This definition, adopted by the ICRC, the IASC and a number of other agencies, explicitly ties protection into human rights and other bodies of law – protection is about securing human rights. A further,
+broader understanding, relating to protection in urban warfare, encompasses ‘immediate emergency activities pre- and post-bombing, as well as legal and human rights legislation and compliance’.101 All humanitarian interventions should undertake a protection risk analysis, including the
+following questions:
+• What are the existing/potential protection risks?
+• Who is vulnerable to those risks?
+• What capacities exist to deal with those risks, including local strategies, institutions
+or mechanisms that could be used and/or strengthened by international humanitarian actors (to avoid duplication of existing activities/structures)?
+• How do/could potential risks interact with the planned project (could the project
+increase risks? Could risks impact on the project?)
+• What mitigation measures can be put in place (to be regularly reassessed)?
+A number of protection assessment tools exist. ActionAid’s Safety with Dignity: A Field Manual for Integrating Community-based Protection across Humanitarian Programs can be found at https://drc.ngo/media/2113379/actionaid_safety-with-dignity.pdf.
+The Global Protection Cluster provides extensive guidance on operationalising protection across programmes, for example relating to cash programming and IDP protection. Issues include accountability, safety and dignity, inclusion and access. See
+http://www.globalprotectioncluster.org/tools-and-guidance/essential-protectionguidance-and-tools/cash-based-interventions-and-idp-protection/.
+For protection measures to work in urban areas – and as with almost certainly every other sectoral response – activities need to be cross-sectoral and multidisciplinary, with local 100	 S. Giossi Caverzasio, Strengthening Protection in War: A Search for Professional Standards (Geneva: ICRC, 2001),
+quoted in H. Slim and A. Bonwick, Protection: An ALNAP Guide for Humanitarian Agencies (London: ANALP/ODI, 2005) (https://www.alnap.org/help-library/protection-an-alnap-guide-for-humanitarian-agencies). 101	 C. Morrison, Civilian Protection in Urban Sieges: Capacities and Practices of First Responders in Syria (London: IIED,
+2017) (http://pubs.iied.org/10834IIED), p. 6.
+
+## Page 216
+
+206    |    Humanitarian response in urban contexts actors as much as possible in the lead. The case study in Box 4.18, summarising findings from research on an IDP protection response in Somalia, illustrates and reinforces this
+basic principle.
+A 2017 guidance note from the Syria crises on integrating livelihoods and protection observes that ‘Economic insecurity, discrimination, and marginalisation increase the protection risk for the displaced as they seek income-generating opportunities, creating a need for a more
+integrated approach to livelihoods initiatives’.102 The note presents ten ‘core principles’ for improving protection in relation to livelihoods, including developing complaints and feedback mechanisms and engaging private sector partners in protection.
+102	 L. G. Bermudez, Integrating Livelihoods and Protection for Displaced Persons in Urban Humanitarian Response.
+Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10829IIED), p. 3.
+Box 4.18  Protecting internally displaced communities in Somalia:
+experience from the Benadir region ‘Given the multi-dimensional nature of protection, multi-stakeholder engagement must be assured. The study findings indicate that IDP protection strategies should be integrated into various government sector plans and that community stakeholder
+engagement should be included in planning processes. It is imperative that protection activists adapt to the challenging conditions in the communities and promote advocacy and protection efforts to strengthen the resilience of IDPs at individual,
+household, and community levels.
+‘The study proposes a systems-based framework to address protection challenges across the various resilience dimensions, including human capital, health, security, governance and social capital. An integrated institutional framework for the
+identification, inclusion and support for physical and rights-based protection would offer a galvanised approach to enhancing resilience.
+‘The study recommends improvements to the government of Somalia’s existing IDP protection policy, which would help to ensure better identification, inclusion and support for the socioeconomic, physical, and rights-based protection of IDPs.
+Integrating legal assistance programmes in the current protection and resilience programmes would play a crucial role to support IDPs to access public justice services. Ensuring documentation of IDPs through a central registry and the creation
+of a special agency for IDPs is also proposed.’ Source: Quoted from M. Mohamoud et al., Protecting Internally Displaced Communities in Somalia: Experience from the Benadir Region (London: IIED, 2017) (http://pubs.iied.org/10841IIED).
+
+## Page 217
+
+Chapter 4 Sectoral responses    |    207 See L. G. Bermudez, Integrating Livelihoods and Protection for Displaced Persons in Urban Humanitarian Response. Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.org/10829IIED).
+For further information on mainstreaming protection, see the Global Protection Cluster’s tips at http://www.globalprotectioncluster.org/_assets/files/aors/protection_mainstreaming/ Protection_Mainstreaming_Training_Package_SECTORGUIDANCE_November_2014.pdf.
+4.7.2 Protection in naturally-triggered disasters Naturally-triggered disasters usually expose existing vulnerabilities, including:103 • Lack of safety and security, for example living in temporary, insecure shelter and crime.
+• Family separation, particularly affecting more vulnerable groups, such as children,
+older people and people with disabilities.
+• Loss of documentation.
+• Weak law enforcement.
+• Gender-based violence (discussed below).
+• Forced relocation.
+• Unequal access to assistance and discrimination in aid provision.
+• Abuse, neglect and exploitation of children (see below) and vulnerable adults.
+• Loss of communication means/channels and poor complaints mechanisms.
+• Lack of access to livelihood opportunities and service providers.
+The IASC’s operational guidelines for protection in naturally-triggered disaster situations is
+organised into four groups as follows:
+1.	 Protection of life; security and physical integrity of the person; and family ties, for
+example life-saving measures, in particular evacuation and protection against family separation.
+2.	 Protection of rights related to the provision of food, health, shelter and education.
+3.	 Protection of rights relating to HLP rights (see Section 4.1), livelihoods (see Section
+4.5) and education (see Section 4.6). 103	 This discussion draws on IASC Operational Guidelines on the Protection of Persons in Situations of Natural Disasters (Washington DC: Brookings – Bern Project on Internal Displacement, 2011) (https://www.ohchr.org/Documents/Issues/
+IDPersons/OperationalGuidelines_IDP.pdf).
+
+## Page 218
+
+208    |    Humanitarian response in urban contexts
+4.	 Protection of rights relating to documentation, freedom of movement, re-establishing
+family ties and assembly and electoral rights.
+As well as pre-existing vulnerabilities, the Global Protection Cluster notes that:
+Disasters often give rise to new protection concerns. Population displacement, weak law enforcement and the breakdown of social safety mechanisms can heighten the risks of looting, gender-based violence and child trafficking. When such issues are not addressed
+in the initial stages of a humanitarian response, violations are both more likely to occur and more likely to continue after the emergency is over. Responses include simple measures such as floodlighting and lockable shelter kits, and more technical programmes such as
+family tracing, training of border guards, and monitoring of vulnerable groups.104 104	 Global Protection Cluster, ‘Strengthening Protection in Natural Disaster Response: Introduction’, in ‘Protection Cluster Coordination Toolbox’, 2019 (http://www.globalprotectioncluster.org/tools-and-guidance/protection-cluster-
+coordination-toolbox/).
+Box 4.19  Protection after the 2010 Haiti earthquake ‘In response to reports of gender-based violence in bathrooms at night, young women were consulted on the design and placement of toilets. Narrow and steep passageways made of loose gravel were paved and widened or made into staircases
+with handrails. Retaining walls were important risk reduction infrastructure installed to prevent landslides and create more livable space. However, the walls also created significant drop offs, potentially dangerous to children. To protect children, guardrails
+were erected at child height at every drop off. Guardrails were also located along the length of the ravine and on the footbridges installed by the program. The process, as much as the physical improvements, reduced the vulnerability of the community.
+‘In addition to the physical improvements, [the NGO] KATYE aimed to establish the social structures necessary for a safe community. A team of community members worked with the protection team to identify and address potential protection
+violations such as mitigating the risk of corruption and exploitation related to CFW.
+They participated in trainings on potential abuses of the CFW system provided to each CFW participant. Supervisors were thoroughly versed in the zero tolerance policy and systems for reporting violations and the protection team followed up every reported
+case. Relative to committees focused on water management, sustaining these teams proved more challenging. At minimum, these activities prevented people’s exposure to further harm as a result of project activities. At best, they are a sustained system
+for identifying and addressing protection issues in a vulnerable community.’ Source: E. Kessler, Katye Neighborhood Improvement Program: Evaluation of CHF Program (Tabarre: USAID, 2012).
+
+## Page 219
+
+Chapter 4 Sectoral responses    |    209 For guidance on disasters and protection, see the Global Protection Cluster’s ‘Protection Cluster Coordination Toolbox’ at: http://www.globalprotectioncluster.org/tools-andguidance/protection-cluster-coordination-toolbox/.
+4.7.3 Protection and forced displacement Forcibly displaced people face a number of challenges, including difficulties accessing employment and livelihood opportunities (which may be a particular problem for refugees, who may not legally be allowed to work), violence, finding somewhere to live, accessing
+education and discrimination.
+Concerning refugees, UNHCR emphasises the need for registration as an essential tool for protection against refoulement, accessing basic rights, identifying specific needs, family reunification and the pursuit of durable solutions. Registration is also essential for needs
+assessment, programme planning and management of operations, and in engaging with official authorities, the police and other public bodies.
+There are also many reasons why refugees and IDPs avoid being registered, including protection concerns. These populations can be targeted for assistance in cities without the need for registration through area-based approaches that identify neighbourhoods hosting
+the highest numbers of IDPs and refugees, although this leaves IDPs and refugees living outside of these areas unassisted. Profiling exercises are also useful to identify areas where these people are living and in understanding their protection needs.
+The US State Department’s Bureau of Population, Refugees, and Migration (PRM)’s guidance on refugee protection in urban areas emphasises the need to identify and support the most vulnerable and prioritise access to services and legal protection, while also undertaking
+efforts that provide wider benefits to community members.105 Community-based protection is emphasised by the ICRC, which states that its approach is ‘to ensure that [ICRC’s] activities on behalf of IDPs and those at risk of displacement support, rather than undermine,
+communities’ and individuals’ self-protection mechanisms and coping strategies’.106
+For further reading, see Angela Cotroneo and Marta Pawlak, ‘Community-based Protection:
+The ICRC Approach’, Forced Migration Review 53, October 2016 (https://podcasts.ox.ac.uk/ fmr-53-community-based-protection-icrc-approach). 105	 US State Department Bureau of Population, Refugees, and Migration (PRM), PRM Principles for Refugee Protection
+in Urban Areas, 2012 (https://www.state.gov/documents/organization/187237.pdf). 106	 A. Cotroneo and M. Pawlak, ‘Community-based Protection: The ICRC Approach’, Forced Migration Review 53, October 2016 (https://podcasts.ox.ac.uk/fmr-53-community-based-protection-icrc-approach), p. 36.
+
+## Page 220
+
+210    |    Humanitarian response in urban contexts 4.7.4 Protection and urban warfare A 2017 research report concerning civilian protection in urban conflict found that a wide range of actors engage in what can broadly be termed as protection: ‘organisations
+and individuals engage in what can be loosely termed civilian protection of some type, without necessarily being aware of how this links to international norms and practices or even perceiving themselves as doing protection work’. The report makes the following
+recommendations to improve civilian protection:
+• ‘Develop more inclusive ways to relate international protection norms and frameworks
+and build a closer engagement with local actors and their understandings, activities and capabilities.
+• Extend guidance and information within international humanitarian law and other
+binding frameworks to operationalise first response activities with a focus on ground-level governance, coordination and capacities.
+• Widen the narrative on what constitutes “humanitarian” response, focusing firstly
+on local capabilities and how international actors can support these, not the other way round.
+• Adopt more inclusive mechanisms that integrate a larger set of first response actors
+and other stakeholders involved in civilian protection.’ See C. Morrison, Civilian Protection in Urban Sieges: Capacities and Practices of First Responders in Syria (London: IIED Working Paper, 2017) (http://pubs.iied.org/10834IIED).
+See also ICRC and InterAction, When War Moves to Cities: Protection of Civilians in Urban Areas Outcome Report, 2017 (https://reliefweb.int/sites/reliefweb.int/files/resources/When%20 War%20Moves%20to%20Cities%20-%20Report_May%202017_0.pdf).
+4.7.5 Protection and urban violence IRC’s 2017 report Violence in the City identifies a number of drivers of urban violence, organised according to four levels: structural, community, familial and individual. These are shown in Figure 4.3.
+A 2016 working paper on humanitarian protection in violent urban contexts observes that ‘protection work in violent urban settings is characterized by having blurred lines throughout the elements and approaches that interact between each other. For example, this interaction
+includes blurred lines between emergency and development; rights based approach and needs based approach, and assistance and protection’. The research concludes that, as a result: ‘[this] implies that in urban violence humanitarian actors rarely tackle the urban
+
+## Page 221
+
+Sectoral responses    |    211
+
+E
+co no mi c s tra in
+
+P
+oli cy co nc er ns/ lac k o f le ga l p ro te cti on s
+
+Ha rm fu l g en de r n or ms
+
+Ge nd er in eq ua lit y
+
+D
+is p la c e m en t
+
+L
+o ss a n d gr i ef Po lit ic al vi ol en ce
+
+S
+tr es se d i nf ra st ru ct ur e an d re so ur ce s
+
+W
+ea k s ec uri ty in sti tu tio ns
+
+Fr ac tu re d s oc ial
+
+n et wo rk s
+
+Dis cr im in ati on
+
+Substance abuse Chapter 4 Figure 4.3 Drivers of violence in urban humanitarian settings Source: IRC, Violence in the City: A Systematic Review of the Drivers of Violence against Displaced Populations in Urban Crisis and Post-crisis Settings (London: IRC, 2017), p. 14 (https://www.rescue.org/sites/default/files/document/1325/
+violenceinthecityweb.pdf).
+Structural Individual Familial Communitylevel problematic with a single approach, but combine different approaches and integrate various forms of response’.107 Urban violence is discussed further in Section 1.2.2. 107	 O. F. C. Aguirre, Humanitarian Protection in Violent Urban Settings: Challenges and Dynamics, CERAH Working Paper
+36 (Geneva: CERAH, 2016), p. 30 (https://cerahgeneve.ch/files/9514/8163/3254/WP36-Humanitarian-Protection-ViolentUrban-Settings.pdf).
+
+## Page 222
+
+212    |    Humanitarian response in urban contexts 4.7.6 Protection and particular groups The following section reviews protection in relation to particular groups.
+Child protection A 2015 study of child friendly spaces (CFS) in humanitarian emergencies notes that the use of CFS is ‘profoundly different’ in urban areas than in camps, and points to the need to ‘evolve strategies that are more effective in urban settings, where there are so many other activities
+that children are able to engage in. Increasingly, emergency response requires adjustments to programming to reflect the prevailing and unique challenges of an urban environment.
+Thus, it is critically important to examine if CFS is the best strategic approach in urban setting[s] for highly mobile population[s]’.108 A study of community-based child protection mechanisms among urban refugees in Kampala109 found that going to school was ‘the most effective way to protect refugee
+children from harm … The protective factor mentioned most commonly was that while a child is in school, he or she is safe, supervised and, most of all, busy’. Conversely, not having access to formal education was considered the greatest threat to protection: ‘Young girls
+were said to be at risk of rape, more so than boys, especially if they were out of school’.
+The Child Protection Minimum Standards (CPMS) comprise guidance and information concerning child protection in emergencies, though there is no distinction between rural and urban settings. See https://alliancecpha.org/cpms/.
+The Global Protection Cluster’s child protection checklist is at http://cpaor.net/sites/default/ files/cp/2016/2017%2009%2028%20CP%20HNO-HRP%20checklist.pdf.
+Further information relating to child protection can also be found at:
+• WHO, INSPIRE: Seven Strategies for Ending Violence against Children, 2016
+(http://www.who.int/violence_injury_prevention/violence/inspire/en/).
+• Global Protection Cluster, Minimum Standards for Child Protection Alliance for Child
+Protection in Humanitarian Action, 2012 (https://emergency.unhcr.org/entry/223550/ minimum-standards-for-child-protection-in-humanitarian-action). 108	 Evaluation of Child Friendly Spaces: Findings from an Inter-agency Series of Impact Evaluations in Humanitarian
+Settings (New York and Geneva: Columbia University Mailman School of Public Health and World Vision International,
+2015) (https://www.wvi.org/sites/default/files/Evaluation%20of%20CFS_Final%20Research%20Report.pdf), p. 21.
+109	 R. Horn et al., Community Based Child Protection Mechanisms amongst Urban Refugees in Kampala, Uganda: An Ethnographic Study, Save the Children (https://resourcecentre.savethechildren.net/node/14051/pdf/25-cbcpmsuganda-final-13-december-2013.pdf), p. 6.
+
+## Page 223
+
+Chapter 4 Sectoral responses    |    213 • Child Protection Working Group (CPWG) Child Labour Task Force, Responding to the Worst Forms of Child Labour in Emergencies, 2010 (https://resourcecentre. savethechildren.net/node/11090/pdf/Review_Responding_to-_WFCL_in_
+Emergencies_final.pdf).
+Mental health and psychosocial support (MHPSS)
+One global review of MPHSS concludes that ‘There is a lack of guidance on how to support MHPSS programs in non-emergency and/or urban settings’.110 UNHCR’s Operational Guidance: Mental Health and Psychosocial Support Programming for Refugee Operations
+observes that organising MPHSS interventions in urban settings presents problems in terms of access, identifying who is particularly vulnerable and developing appropriate levels and
+types of support.111 Examples of what has worked include:
+• Psychosocial case managers who can connect vulnerable refugees to support
+services.
+• Work to strengthen existing health services to enable refugee access (see Section
+4.8 on health).
+• Community centres that include psychosocial support within other activities, such as
+livelihoods development/support.
+• Using volunteers to set up support groups and make home visits.
+• Identifying and ensuring access to existing mental health services.
+• Opening phone hotlines for general information and emergency response.
+Generic guidance sources containing information relevant to urban practice include:
+UNHCR, Community-based Protection and Mental Health and Psychosocial Support, June 2017 (http://www.unhcrexchange.org/communities/9159/contents/347734).
+IASC, IASC Guidelines on Mental Health and Psychosocial Support, 2007 (https://interagency standingcommittee.org/mental-health-and-psychosocial-support-emergency-settings-0/ content/iasc-guidelines-mental-health). 110	 S. Meyer, UNHCR’s Mental Health and Psychosocial Support for Persons of Concern (Geneva: Policy Development and
+Evaluation Service, 2013) (https://www.unhcr.org/51bec3359.pdf), p. 8. 111	 UNHCR, Operational Guidance: Mental Health and Psychosocial Support Programming for Refugee Operations (Geneva: Division of Programme Support and Management, 2013) (https://cms.emergency.unhcr.org/
+documents/11982/54561/UNHCR%2C+Operational+Guidance+-+Mental+Health+and+Psychosocial+Support+Program ming+for+Refugee+Operations%2C+2013+--/1e901241-4b2d-4984-82b9-b0c31255f572), p. 46.
+
+## Page 224
+
+214    |    Humanitarian response in urban contexts Box 4.20  MHPSS provision for refugees in Costa Rica ‘Casa de Derechos [House of Rights] is a community center that is a joint effort between UNHCR, the Municipality of Desamparados and other implementing partners, in San
+Jose, Costa Rica. Of the 20,000 or so refugees in Costa Rica, the majority are Colombian, and have resided in urban areas for more than 8 years. UNHCR’s operation is focused on local integration of refugees, and as such, supports a number of activities, such as Casa
+de Derechos, that provides services and activities to achieve this durable solution.
+‘The center provides a range of services and activities, including microfinance, public health outreach, legal services and support groups to refugees and the local community. “Diverse groups” of members of the refugee population have been
+established to support youth, men and women to discuss common problems and interests. The center hosts a number of programs provided by other agencies and partners, including a legal aid clinic, a program focusing on youth and vocational
+training, and a labour rights program.
+‘The focus on multiple, integrated activities came from recognition from UNHCR and other actors that Colombian refugees often had a range of mental health and psychosocial issues such that “it’s going to be quite difficult for them to integrate
+because maybe they have so many other issues that they need to resolve somehow before getting to the point where they can actually apply for a job and go to the job interview and actually get the job or use micro credit effectively.” The center also
+responds specifically to the needs of urban refugees in this context, given in San Jose, “[r]efugees don’t have any places where they would naturally get together. So we needed to establish those bases for them. They might not know any other refugees. So,
+it’s about trying to facilitate those basic processes.” ‘There is a specific focus within the center on survivors of SGBV, who are able to access counselling and support groups. An evaluation of UNHCR’s AGDM activities described
+this program as “a model for dealing with SGBV cases,” given staff are well-trained in provision of legal and psychosocial support, and partner organisations refer SGBV survivors to the center for support. As such, the center provides both Level 2 and Level
+3 activities from the Intervention Pyramid, providing focused and specialised support to SGBV survivors, and activating social support networks amongst refugees through provision of a place to meet and interact, as well as provision of other services to
+facilitate local integration’.
+Source: Quoted from S. Meyer, UNHCR’s Mental Health and Psychosocial Support for Persons of Concern (Geneva: Policy Development and Evaluation Service, 2013) (https://www.unhcr.org/51bec3359.pdf), p. 28.
+
+## Page 225
+
+Chapter 4 Sectoral responses    |    215 Psychosocial support is also discussed in Section 4.6 on education in emergencies.
+Gender-based violence (GBV)
+The IASC defines gender-based violence (GBV) as ‘an umbrella term for any harmful act that is perpetrated against a person’s will, and that is based on socially ascribed [gender] differences between males and females’.112
+The Women’s Refugee Commission (WRC)’s Urban Gender-Based Violence Risk Assessment Guidance notes that ‘Refugees living in cities face high risks of gender-based violence (GBV), often on a daily basis. Some of these risks affect members of the host community as well.
+Where refugee women, for instance, experience sexual harassment or unwanted touching when taking public transportation, it may be the case that all women in that city encounter similar threats whenever they board a bus or take the metro’. The guidance assessment asks
+questions concerning transport, urban isolation, employment and livelihoods and housing.
+The full set of questions is at http://www.unicefinemergencies.com/downloads/ eresource/docs/Disability/Urban-GBV-Guidance-Identifying-Risks-Pilot.pdf. For examples from Beirut, Delhi, Kampala and Santo Domingo, see Women’s Refugee Commission,
+Interventions for Strengthening GBV Prevention and Response for Urban Refugees, March 2017 (https://www.womensrefugeecommission.org/gbv/resources/1462-urban-gbv-casestudies). See also World Refugee Commission, Mean Streets: Identifying and Responding to
+Urban Refugees’ Risks of Gender-Based Violence (New York: Women’s Refugee Commission, 2016) (https://www.womensrefugeecommission.org/gbv/resources/1272-mean-streets).
+Sources of guidance on tackling GBV include:
+IASC, Guidelines for Integrating Gender-based Violence Interventions in Humanitarian Action: Reducing Risk, Promoting Resilience, and Aiding Recovery (Geneva: IASC, 2015) (http://gbvguidelines.org/en/home/).
+ChildFund International and Women’s Refugee Commission, Gender-based Violence Against Children and Youth with Disabilities: A Toolkit for Child Protection Actors  (Richmond, VA and New York: ChildFund International and Women’s Refugee Commission, 2016)
+(www.womensrefugeecommission.org/populations/disabilities/research-andresources/1289-youth-disabilities-toolkit).
+Women’s Refugee Commission and International Rescue Committee, Building Capacity
+in Disability Inclusion in Gender-based Violence Programming in Humanitarian Settings:
+A Toolkit for GBV Practitioners (New York: Women’s Refugee Commission and Inter112	 IASC, Guidelines for Gender-based Violence Interventions in Humanitarian Settings (New York: IASC, 2005).
+
+## Page 226
+
+216    |    Humanitarian response in urban contexts national Rescue Committee, 2015 (www.womensrefugeecommission.org/?option=com_ zdocs&view=document&id=1173).
+Lesbian, gay, bisexual, transgender and queer (LGBTQ+) people A 2013 study of sexually and non-gender conforming (SGN) urban refugees in Mexico, South Africa and Uganda documented protection concerns including ‘commonplace’ assaults by
+the authorities, common assaults by local populations and other refugees and widespread discrimination, leading to reduced access to healthcare, information and social networks.
+The study provided a number of recommendations for improving protection, covering awareness training, building SGN networks and advocacy. The full report is ORAM, Blind Alleys: The Unseen Struggles of Lesbian, Gay, Bisexual, Transgender and Intersex Urban
+Refugees in Mexico, Uganda and South Africa, 2013 (https://www.alnap.org/system/files/ content/resource/files/main/oram-ba-synthesiseng-lr.pdf).
+See also the chapter on LGBT refugees in WRC, Mean Streets, cited above.
+Concerning naturally-triggered disasters, a 2018 research report from Oxfam states that:
+criminalisation, discrimination and marginalisation creates vulnerabilities before disasters, leading to specific and disproportionate disaster impact on gender and sexual minorities. Systemic institutional and societal discrimination in accessing justice, health,
+education, employment, housing, and other services does not go away after a disaster, neither does marginalisation due to exclusion from families, communities, religious and other organisations.113 The report also found that ‘humanitarian programs are often blind to the vulnerabilities,
+needs and strengths of sexual and gender minorities’, and that ‘Assumptions underlying mainstream programs may inadvertently exclude some sexual and gender minorities, or may exacerbate pre-disaster marginalisation’.
+People with disabilities A 2008 Resource Kit for Fieldworkers concerning disabilities among refugees and conflictaffected populations observes that ‘Problems of physical accessibility were often worse for refugees living in urban areas [compared to camps], where the opportunities to adapt or
+modify physical infrastructure were much more limited’. Unable to leave their homes or move around easily, ‘many refugees with disabilities faced greater levels of isolation than before 113	 Oxfam Australia, Down by the River: Addressing the Rights, Needs and Strengths of Fijian Sexual and Gender
+Minorities in Disaster Risk Reduction and Humanitarian Response (Carlton: Oxfam Australia, 2018) (https://www.gdnonline.org/resources/Down-By-The-River_Web.pdf).
+
+## Page 227
+
+Chapter 4 Sectoral responses    |    217 Box 4.21  Making disaster risk reduction and relief programmes LGBTI-inclusive: lessons from Nepal ‘Research on post-disaster and crisis situations demonstrates that emergencies often
+exacerbate prejudices and make marginalised people more vulnerable. Although disaster risk reduction (DRR) and relief protocols are increasingly sensitive to the needs of atrisk and vulnerable populations, the specific vulnerabilities of LGBTI people are often
+overlooked. Nepal offers some compelling examples for implementing LGBTI-inclusive DRR and relief policies and protocols. With full legal protections for LGBTI people (including legal recognition for a third gender category marked “third gender” or “other”
+on documents and registers, including the federal census), the local political landscape is conducive.
+‘Nepal is also highly disaster-prone. While implementation of LGBTI-friendly DRR and relief programmes has only just begun, Nepal’s experience is indicative of how improvements to existing programmes and policies can be put into practice around the
+world. LGBTI people may live in non-traditional arrangements. For example, in societies where having children in the household substantiates the claim of having established a “family”, LGBTI people living without children in their homes can suffer.
+‘The scope of inclusion ‘In relief policies and protocols, there are several important considerations for ensuring
+inclusion of the LGBTI population. These include, but are not limited to:
+‘How the definition of “family” or “household” may affect same-sex couples and their households, groups of people who do not live in traditional family units and homeless people or people who migrate. Red Cross-Nepal’s definition of “family unit” includes non-
+traditional and non-heterosexual groups of people living together.
+‘How transgender (or, more broadly, non-male, non-female) people can safely access facilities such as health clinics, bathrooms and shelters which are male/female gendersegregated. The construction of Nepal’s first gender-inclusive public toilet in Nepalgunj
+demonstrates the government’s commitment to inclusive facilities.
+‘How government-issued identification documents are used to validate citizens or grant access to assistance, and how this might affect people whose current appearance does not match the gender listed and the photo presented on the documents. The government of
+Nepal recently implemented a 2007 Supreme Court decision to issue citizenship certificates and other documents with the gender designation ‘other’ based on self-identification.
+
+## Page 228
+
+218    |    Humanitarian response in urban contexts Box 4.21  (continued)
+‘How people living with HIV/AIDS can access appropriate Anti-Retroviral Therapy (ART) in a safe and timely manner. Nepal currently stocks eight months-worth of ART supplies in the central Kathmandu warehouse.
+‘How all data collection and intake surveys, interfaces and databases can be adjusted to capture meaningful data on LGBTI populations in emergency situations.
+‘As aid organisations become more LGBTI-inclusive, it will be crucial to consider local legal systems and consult regularly with local NGOs and experts. Not only will this improve the nuance of programming, but it will also empower LGBTI people and
+organisations to act in the wake of disasters. As Nepal’s experience demonstrates, having a friendly legal environment and political landscape can expedite inclusive policies. Nonetheless, small changes to DRR and relief policies across legal and political
+contexts can prevent significant injury and loss of life, and ensure the continuation of important LGBTI protection and human rights activities despite disasters.’ Source: Kyle Knight and Richard Sollom, ‘Making Disaster Risk Reduction and Relief Programmes LGBTI-inclusive:
+Examples from Nepal’, Humanitarian Exchange 55, September 2012 (https://odihpn.org/magazine/making-disaster-riskreduction-and-relief-programmes-lgbti-inclusive-examples-from-nepal/). their displacement’. Refugees with disabilities also typically have little contact with local
+displaced people’s organisations’.114 Other research on disabled people forcibly displaced from Syria likewise found that ‘Persons with disabilities in these communities are not very visible. This was illustrated by the fact that leaders sometimes denied the existence of such
+people in communities’.115 The research notes a range of challenges facing disabled people, including buying and preparing food, limited employment opportunities and unsuitable accommodation.
+For further information regarding disability, conflict and refugees, see R. Reilly, ‘Disability among Refugees and Forcibly Displaced Populations’, Forced Migration Review 35, July 2010 (https://www.fmreview.org/disability-and-displacement/rachael-reilly).
+114	 Women’s Commission for Refugee Women and Children, Disabilities among Refugees and Conflict-affected Populations: Resource Kit for Fieldworkers, 2008 (http://www.corteidh.or.cr/tablas/25417.pdf). 115	 M. Crock and L. Smith-Khan, Syrian Refugees with Disabilities in Jordan and Turkey (Sydney: University of Sydney,
+2015) (https://www.researchgate.net/profile/Laura_Smith-Khan/publication/281853465_Syrian_refugees_with_
+disabilities_in_Jordan_and_Turkey/links/55fb8ba508ae07629e07bdec/Syrian-refugees-with-disabilities-in-Jordan-andTurkey.pdf?origin=publication_detail), p. 10.
+
+## Page 229
+
+Chapter 4 Sectoral responses    |    219
+See also:
+UNICEF, ‘Including Children with Disabilities in Humanitarian Action: Child Protection Guidance’, 2017 (http://training.unicef.org/disability/emergencies/protection.html).
+UNHCR, Need to Know Guidance on Working with Persons with Disabilities in Forced Displacement (Geneva: UNHCR, 2011) (http://www.unhcr.org/4ec3c81c9.pdf).
+Handicap International, Toolkit on Protection of Persons with Disabilities, 2008 (http://www.globalprotectioncluster.org/_assets/files/tools_and_guidance/age_gender_ diversity/HandicapInt_Toolkit_Protection_Disabilities_2008_EN.pdf).
+ADCAP, Humanitarian Inclusion Standards for Older People and People with Disabilities (Bensheim, London and Lyon: CBM International, HelpAge International and Handicap International, 2018) (www.helpage.org/download/5a7ad49b81cf8).
+Box 4.22  Protecting urban refugee women and girls with disabilities from abuse and discrimination in Kenya In 2016 the Kenyan network Women Challenged to Challenge (WCC) ‘identified refugee women and girls with disabilities as a priority group in all of their programs. The organization started
+assessing the situations of urban refugee women with disabilities through home visits, in order to better understand the challenges they face. WCC facilitated 20 urban refugee women with disabilities’ participation in the 2016 Humanitarian Action Training for Women Leaders
+of Disabled Persons’ Organizations (DPOs) organized by WRC. This training presented an opportunity for the women refugees to interact, and share their experiences, with key actors such as UN Women, HIAS, the International Rescue Committee (IRC) and DPOs. As a result of
+this training, refugee women with disabilities were able to strengthen their advocacy messages and learned from the experiences of those involved in Gender-Based Violence (GBV) programs.
+‘Following these activities, WCC developed a new training program for urban refugees with disabilities in Nairobi. This program was described as a “lifechanging event” by all of the women attending. The women learned about economic empowerment, sexual and
+reproductive health, and legal rights. They also developed their self-esteem and discovered that they were not alone in their situation’.
+Source: ‘Protecting Urban Refugee Women and Girls with Disabilities from Abuse and Discrimination in Kenya’, WCC, 2016 (https://www.makingitwork-crpd.org/sites/default/files/2018-05/Kenya%20-%20Protecting%20urban%20 refugee%20women%20and%20girls%20with%20disabilities%20from%20abuse%20and%20discrimination%20in%20
+Kenya%20%28WCC%29.pdf).
+
+## Page 230
+
+220    |    Humanitarian response in urban contexts 4.8 Health Health systems include ‘all organisations, people and actions whose primary intent is to promote, restore, or maintain health’.116 Urban health systems represent a complex mix of
+the built environment and social processes, both formal and informal. City health systems include costly healthcare infrastructure and services, which can be seriously affected by disasters and conflict. Investment in the health sector is expensive, and when losses are
+substantial they can take years to recover.
+Many people affected by conflict and disaster may have limited access to healthcare.
+Emergencies can cause disruption and strain due to infrastructure damage, loss of medical equipment and health staff and increased demand for services. Finally, baseline deficits in public health infrastructure and the physical and social determinants of health in rapidly
+growing cities may present a pre-existing health emergency even prior to a disaster or conflict.
+This section117 reviews health in urban emergencies. It discusses urban healthcare provision, and the role of cash and markets in health during urban crises. Health and forced displacement in urban areas is discussed. This section links to a number of others in this
+Good Practice Review, in particular food security (Section 4.9) and cash (Section 3.3). 4.8.1 Health in urban emergencies Different emergencies will result in differing needs. For instance, an earthquake causes immediate crush injuries and other related effects (see Table 4.4), while conflict will add
+penetrating wounds from bombs or gunshots and, for many, longer-term mental health disorders (referred to below). According to the World Health Organisation (WHO),118 the
+health impacts of urban disasters can be organised into four broad categories:
+• Communicable diseases, exacerbated by population movements and overcrowding.
+• Non-communicable diseases (NCDs), including lifestyle diseases (such as hypertension
+and obesity) and conditions needing long-term care (such as kidney disease requiring dialysis), exacerbated by disrupted access to medications.
+• Mental health and psychosocial (MHPSS) disorders, created or exacerbated by trauma.
+• Trauma due to external causes, such as falling buildings or electrocution.
+116	 Everybody’s Business: Strengthening Health Systems to Improve Health Outcomes. WHO’s Framework for Action (Geneva: WHO, 2017) (https://www.who.int/healthsystems/strategy/everybodys_business.pdf). 117	 This section benefited in particular from the inputs of Dr Ronak Patel, Clinical Assistant Professor of Emergency
+Medicine, Stanford University. 118	 WHO, Technical Report: Health Systems in Urban Disasters, 2013 (https://extranet.who.int/kobe_centre/en).
+
+## Page 231
+
+Chapter 4 Sectoral responses    |    221
+Similarly, one review119 identifies the generalised health consequences of urban crises:
+• Infectious pathogens can spread more easily given population movements and
+density, low vaccination coverage and compromised herd immunity, along with inadequate capacity to detect and respond to outbreaks.
+• Underlying poor health from malnutrition, frequent illnesses, inadequate access to
+care and baseline deficits in water, sanitation and public health infrastructure can all be exacerbated.
+• Mental health needs increase directly from post-traumatic stress disorder (PTSD),
+depression and anxiety, alongside disruption to prior support and care systems.
+• Increased trauma and injury, including from higher rates of urban violence.
+• Gender-based violence may increase.
+• Chronic diseases can be exacerbated by disruptions in care, leading to acute
+medical crisis.
+Table 4.4 gives examples of health needs resulting from two earthquakes.
+The Sphere Project’s 2018 revision notes that identifying people at risk120 and who may not
+have access to healthcare  poses  particular  challenges:
+people seeking refuge in towns and cities often do not have information about existing health services or how to access them, risking  a  further  increase  in  communicable diseases. Outreach will help people cope with new urban stresses such as inadequate
+access to shelter, food, healthcare, jobs or social support networks.121 The revision also notes that ‘Rumours and misinformation spread quickly in cities’. This was a
+particular issue in the West Africa Ebola response; as one study by ALNAP explains:
+Much of the initial communication [around Ebola] was dramatic and negative: ‘Ebola kills’, ‘There is no cure’ and ‘Don’t touch’ …  The public, not understanding, responded in panic, hiding sick relatives, reporting fewer cases and spreading misinformation. Several
+interviewees shared anecdotes of community members who saw neighbours taken to a 119	 C. Deola and R. Patel ‘Health Outcomes of Crisis Driven Urban Displacement: A Conceptual Framework’, Disaster Health 2(2), 2014 (https://www.ncbi.nlm.nih.gov/pubmed/28229003).
+120	 See also WHO, Rapid Risk Assessment of Acute Public Health Events, 2012, ((http://apps.who.int/iris/bitstream/ handle/10665/70810/WHO_HSE_GAR_ARO_2012.1_eng.pdf?sequence=1). 121	 The Sphere Handbook, Humanitarian Charter and Minimum Standards in Humanitarian Response, 2018
+(https://handbook.spherestandards.org/), chapter 8.
+
+## Page 232
+
+222    |    Humanitarian response in urban contexts Table 4.4  Frameworks that can be adapted to urban post-conflict contexts Source: L. Mohiddin, G. Smith and L. Phelps, Urban Response Analysis Framework (URAF). Guidance Note for Humanitarian Practitioners (London: IIED, 2017) (http://pubs.iied.
+org/10824IIED), p. 15.
+Disaster Great East Japan Earthquake Chile Earthquake Communicable diseases Health consequences of prolonged evacuation Respiratory problems Outbreak risks Influenza and influenza-like illnesses Food and waterborne diseases
+Tetanus Legionellosis Communicable diseases Skin lesions Ectoparasites Respiratory infections Outbreaks or epidemics Endemic diseases NCDs and chronic illnesses Chronic medical conditions Health consequences of prolonged evacuation
+Dialysis patients Hypertension Deep vein thrombosis Diabetes Musculoskeletal diseases Poor diet and lack of exercise Obesity Long-term care Post organ transplant Heart disease Asthma Cancer Chronic lung disease Hypercholesterolemia
+Care for patients dependent on oxygen and dialysis Chronic illnesses
+MHPSS
+Health and mental health consequences of prolonged evacuation Stress Suicide
+PTSD
+Insomnia Constipation Somatisation of mental and psychosocial conditions MHPSS for children, adults and the elderly Anxiety Depression Violent behaviour External causes Crushing deaths Multi-hazard impacts and approach Deaths
+Drowning Injuries and trauma Tsunami-associated pneumonia (soujou haien)
+Chemical burns of responders Short- to long-term effects of radiation on health Broken bones Winter season coming Trauma Effects of earthquake and tsunami Environmental health Environmental health monitoring and management related
+to radioactive waste Lack of understanding of radiation and its effects Water and food safety Health needs in evacuation centres Flies and mosquitos Management of dead bodies Carbon monoxide poisoning Sanitation Human waste disposal
+Waste water management Water and food safety Vulnerable groups Care for vulnerable groups: women, pregnant women, elderly, disabled persons and foreigners Hypothermia among the elderly Elderly care facilities destroyed Social
+determinants Risk tolerance of the people for the sake of continuing lives may pose risk to health Mass population movements
+
+## Page 233
+
+Chapter 4 Sectoral responses    |    223 treatment unit who never came back. Humanitarians often failed to understand that, where their communications did not address people’s concerns, rumours and misinformation would be likely to fill the gap.122
+In Sierra Leone, ‘rumours spread that the government was using Ebola for political gains. In 2015, research found that only 50% of those surveyed in Freetown considered the government trustworthy, compared with 70% of the population outside the Freetown capital area’.123
+For further discussion of public health crises in cities, see Cities and Public Health Crises, Report of the International Consultation, 29–30 October 2008, Lyon, France, 2009 (https://www.who.int/ihr/lyon/FRWHO_HSE_IHR_LYON_2009.5.pdf?ua=1).
+4.8.2 Urban healthcare provision in terms of health systems WHO124 emphasises the need to understand urban healthcare in terms of systems,125 comprising six inter-related sub-systems – governance, health financing, health workforce,
+service delivery, essential medicines and technology and health information systems.
+Recommendations include:
+• A systems approach helps at all stages of the project management cycle, including
+assessment, monitoring, documentation and evaluation.
+• The recovery phase provides an opportunity to advocate for better policies and planning.
+• A critical area that needs strengthening in emergencies is health information
+management, for example disease surveillance, coordination and patient records management.
+• Linked to the last point, external agencies needs to be cognisant of existing systems
+and their structures (see the case study in Box 4.23).
+• Rigorous evaluations of health systems can be ‘a policy window for health systems
+development’. 122	 L. Campbell and L. M. Morel, Learning from the Ebola Response in Cities: Communication and Engagement (London:
+ALNAP/ODI, 2017) (https://www.alnap.org/system/files/content/resource/files/main/alnap-urban-2017-ebolacommunication-community-engagement.pdf), p. 13. 123	 P. Richards et al., Community Cohesion in Liberia: A Post-war Rapid Social Assessment (Washington DC: World Bank,
+2013), cited in ibid. 124	 WHO, Technical Report: Health Systems in Urban Disasters. 125	 See also ‘Measuring Urban Capacity for Humanitarian Crises: Piloting an Urban Health Response System Assessment Tool (UHRSAT)’ (https://www.elrha.org/project/measuring-urban-capacity-humanitarian-crisis-piloting-
+urban-health-response/).
+
+## Page 234
+
+224    |    Humanitarian response in urban contexts Box 4.23  Health response on Luzon island to 2009 Philippines typhoons Three typhoons ravaged Luzon island, northern part of the Philippines, in September and October 2009. The metropolitan area that was affected was composed of more than 10
+decentralised cities.
+‘During the emergency, national and local governments and hospitals activated their emergency response plans and organized their incident command systems. There was strong national and local government lead response although most information available
+was from the national government perspective. The delineation of national and local government roles was well documented. The Philippines implemented a national version of the global cluster system where different sectors/needs were divided into focus areas
+(clusters) led by the government. Strong coordination was achieved between national and local governments (different levels), different sectors and government and non-government through the clusters. On the other hand, there were challenges in integrating national and
+international response coordinating mechanisms. Clusters were also organized at the local level. Some local governments had strong capacity in preparedness and response because of strong political will and prior planning. The local health sector is a member of the local
+disaster coordinating body (now disaster risk reduction and management body). Emergency response has been rolled down to the community level through the barangay (village) health emergency response teams. Hospitals had their own network and referral systems. The
+Philippine experience can give good lessons on how decentralized systems can work.
+‘Coordination was challenging within a complex system that was decentralized and with a strong private health sector. Coordination had to be built in different levels and lines – between national and local, between national and international, inter-sectoral and
+between public and non-government agencies. Coordination at the field level was also a different challenge that should be strengthened. The purpose of the clusters must be clear to partners and its efficiency must be enhanced. Perhaps as a result of decentralization
+with strong local government units, response efforts have been politicized with possible risks to inefficiency and inadequate access to essential health care and medicines.
+Some cities had local level contingency and response plans; development and review of these plans must be prioritized. Plans must clearly define the policy shift to emergency mode. The health information system must be strengthened and this includes disease
+surveillance, assessment and monitoring of needs, sharing of information and documentation. Other response priorities included strengthening of response capacity of the health workforce and regulation of donation practices’.
+Source: Quoted from WHO, Technical Report: Health Systems in Urban Disasters, p. 46.
+
+## Page 235
+
+Chapter 4 Sectoral responses    |    225 Further information on health systems can be found in UNICEF, Approach to Health Systems Strengthening (New York: UNICEF, 2016) (https://www.unicef.org/health/files/UNICEF_HSS_ Approach_-_8Aug16.pdf). See also WHO, Toolkit for Assessing Health System Capacity for
+Crisis Management (Copenhagen: WHO Regional Office for Europe, 2012) (http://www.euro. who.int/__data/assets/pdf_file/0008/157886/e96187.pdf); and WHO, Health Systems in Urban Disasters (http://www.who.int/kobe_centre/emergencies/Health-systems-in-urban-
+disasters_2013.pdf?ua=1). See also several recent studies from Elhra that explore ‘what works’ when providing public health services during humanitarian crises (see https://www.elrha.org/ news/eight-new-studies-on-providing-public-health-services-during-humanitarian-crises/).
+Section 1.1 on ways of seeing the city provides further discussion of systems.
+The case study example from the Philippines in Box 4.23 underscores the importance of a coordinated, systems-based approach to urban emergency health. 4.8.3 Good practice in strengthening health systems Good practice in this area includes prioritising working through, rebuilding or improving pre-
+existing healthcare systems as early as possible. Health interventions must be sustainable, and must not be seen purely as short-term life-saving measures built in parallel, as they then undercut existing systems. This can be as devastating as the disaster itself, taking
+years to recover.
+To these ends, humanitarian agencies should prioritise training local healthcare providers for a variety of basic emergency and longer-term mid-level treatment to leave behind greater capacity for primary care. Agencies engaged in humanitarian health interventions
+should also understand that there really is no such thing as an isolated health emergency:
+health and the ability to affect people’s health in cities is a function of all the complex and interactive systems within the urban space, including shelter, transport, security and infrastructure.
+Humanitarian agencies should be prepared to deal with psychosocial needs, which are often under-addressed before a crisis and compounded afterwards. Agencies should also resource interventions for the longer-term physical and psychological rehabilitation required after
+immediate healthcare needs are met. As part of the immediate healthcare response, agencies should also implement programmes that include screening for women and children who may be vulnerable to gender-based violence, intimate partner violence, trafficking or exploitation.
+For further guidance on mental health, see ‘Mental Health and Psychosocial Support in Humanitarian Crises’, Humanitarian Exchange 72, July 2018 (https://odihpn.org/magazine/ mental-health-and-psychosocial-support-in-humanitarian-crises/).
+
+## Page 236
+
+226    |    Humanitarian response in urban contexts Approaches to assisting rape survivors can be found in WHO, Clinical Management of Rape Survivors: Developing Protocols for Use with Refugees and Internally Displaced Persons
+(Geneva: WHO, 2014) (http://apps.who.int/iris/bitstream/handle/10665/43117/924159263X. pdf?sequence=1). 4.8.4 Cash, markets and healthcare during urban crises The Global Health Cluster and WHO126 make the following recommendations concerning the
+use of cash programming:
+• Cash assistance is helpful – it can make healthcare affordable.
+• Cash for health should not replace supply-side health financing, but should
+complement it.
+• Minimum quality standards in health provision need to be assured.
+Cash is discussed further in Section 3.3. 4.8.5 Health and forced displacement in urban areas UNHCR’s Operational Guidance on Refugee Protection and Solutions in Urban Areas emphasises the need for a multi-sectoral, holistic approach to refugee health in urban areas: ‘The health
+status of refugees will not be improved by health services alone; the underlying determinants of health must also be addressed by improving livelihoods and income, food security and nutrition, housing, education and access to water and sanitation services’.127 To achieve this, UNHCR
+advocates a ‘three-pronged approach’ of advocacy, support and monitoring and evaluation.
+A review of good practice by UNHCR128 identifies the following key points to consider
+concerning health provision in urban refugee settings:
+• The availability of health services (for instance ensuring enough beds for the number
+of patients anticipated). 126	 Global Health Cluster and WHO (2018), Working Paper for Considering Cash Transfer Programming for Health in Humanitarian Contexts, 2018 (http://www.who.int/health-cluster/about/work/task-teams/working-paper-cash-health-
+humanitarian-contexts.pdf). 127	 UNHCR, Ensuring Access to Health Care: Operational Guidance on Refugee Protection and Solutions in Urban Areas (Geneva: UNHCR, 2011) ( https://cms.emergency.unhcr.org/documents/11982/39268/UNHCR%2C+Operational+guidan
+ce+on+refugee+protection+and+solutions+in+urban+areas+%E2%80%93+Ensuring+access+to+health+care/300ef365188c-4b34-aa32-c00a387ee098), p. 3. 128	 UNHCR, Designing Appropriate Interventions in Urban Settings: Health, Education, Livelihoods, and Registration for
+Urban Refugees and Returnees (Geneva: UNHCR, 2009) (https://www.unhcr.org/4b2789779.pdf).
+
+## Page 237
+
+Chapter 4 Sectoral responses    |    227 • Distance to the nearest healthcare facilities.
+• Financial and legal constraints on accessing health services, including not being
+registered with UNHCR or not having legal identification documents in the host country.
+• Cultural and religious sensitivity. This might, for example, mean ensuring separate
+facilities for female patients and enough female providers for exams.
+• Giving thought to possible tensions between host and displaced communities with
+regard to healthcare provision and access, for example overwhelming already burdened facilities with additional patients.
+• Primary health care (PHC) and emergency health services need to be free of charge
+in the initial emergency phase (while taking care not to undermine pre-existing medical payment systems after an emergency).
+• Refugees from middle-income countries – as in the Syrian crisis – may be older
+than is typical for refugee populations elsewhere, and may present with chronic diseases.
+• Urban refugees need to be integrated into existing health services.
+• Avoid creating parallel health structures.
+• Urban refugees need to be connected to food and nutrition programmes and the
+other basics that underlie good health.
+• Monitoring urban refugees’ health needs and how they are being met can be
+problematic given the ‘hidden’ nature of urban life, and many people may use more than one health provider. This makes arriving at meaningful data on morbidity within urban refugee populations difficult.
+For a discussion on meeting the maternal and newborn health needs of displaced people see the Wilson Center’s Maternal Health Initiative (https://www.wilsoncenter.org/event/ humanitarian-response-urban-settings-meeting-the-maternal-and-newborn-health-
+needs-displaced). See also UNICEF and Save the Children, Newborn Health in Humanitarian Settings (New York: UNICEF Programme Division, 2016) (http://www.unicefinemergencies. com/downloads/eresource/docs/Health/NewBornHealthBook-ProductionV17-Web.pdf).
+For a discussion of refugee mental health needs in urban areas in Jordan, see MSF, ‘The Less Visible Humanitarian Crisis: Refugee Mental Health Needs in Urban Jordan’, 17 October 2018 (https://www.msf.org/mental-health-needs-refugees-urban-jordan). These issues are
+also discussed in D. J. H. te Lintelo and E. Soye, ‘Urban Wellbeing, Mental Health and the Syrian Refugee Crisis’, IDS Opinion, 9 October 2017 (https://www.ids.ac.uk/opinions/urbanwellbeing-mental-health-and-the-syrian-refugee-crisis/).
+
+## Page 238
+
+228    |    Humanitarian response in urban contexts In summary, health provision in urban emergencies is complex, with varying timeframes ranging from life-saving action to longer-term provision and care, such as for mental health
+needs. In protracted emergencies, engaging in healthcare systems is vital, recognising the multi-sectoral, multifaceted and interlinked nature of healthcare provision. 4.9 Food security According to the 2018 State of Food Security and Nutrition in the World report, in 2017 821
+million people were undernourished and, after several years of decline, global hunger has been on the increase since 2014 (mostly in South America and Africa). The report also noted that nearly 500 million of the most hungry people live in conflict-affected countries.129
+This Good Practice Review found considerable information concerning general food security (such as stunting, obesity and child malnutrition), food security operations in rural areas and urban food security in chronic poverty settings, links to which are provided at the end of this
+section. However, there is relatively little information specifically relating to food security in urban emergencies (with notable exceptions, which are presented here). Information on good practice often relates food security to other sectoral approaches, in particular
+livelihoods and cash and markets (discussed below, as well as in Sections 4.5 and 3.3).
+This section introduces food security. It presents good practice relating to disasters and conflict. The section ends with a list of websites and further reading on urban food security.
+As well as livelihoods and cash and markets, this section relates closely to Section 4.8 on health and Section 3.6 on assessments. 4.9.1 Food in cities Food security broadly refers to being able to obtain enough food to lead a healthy and
+productive life. According to the Sphere Handbook, ‘Undernutrition reduces people’s ability to recover after a crisis. It impairs cognitive functions, reduces immunity to disease, increases susceptibility to chronic illness, limits livelihoods opportunities and reduces the ability to
+engage within the community. It undermines resilience and may increase dependence on ongoing support’.130 Food security closely links to other urban challenges and issues. As the 2018 State of Food Security and Nutrition in the World report notes: ‘In addition to conflict, climate variability
+129	 FAO, IFAD, UNICEF, WFP and WHO, The State of Food Security and Nutrition in the World 2018: Building Climate Resilience for Food Security and Nutrition (Rome, FAO, 2018) (http://www.fao.org/state-of-food-security-nutrition/en/).
+130	 Sphere Project, Sphere Handbook: Humanitarian Charter and Minimum Standards in Humanitarian Response, 2018 (http://www.sphereproject.org/), p. 160.
+
+## Page 239
+
+Chapter 4 Sectoral responses    |    229 and extremes are among the key drivers behind the recent uptick in global hunger and one of the leading causes of severe food crises. The cumulative effect of changes in climate is
+undermining all dimensions of food security – food availability, access, utilization and stability’.131 Food shortages in cities can also lead to social unrest and inflation.132 In urban areas, information on malnutrition might be limited. One study notes that ‘the
+figures that are available mask pronounced inequalities within cities. Within apparently prosperous city centres, in huge slums or in condemned housing blocks, rates of malnutrition and infant mortality may be higher than they are in rural areas’.133 Consumption patterns
+may also differ between rural and urban areas, for instance people eating out of the home at street markets. An additional well-documented urban phenomenon is increasing levels of obesity, in both low- and middle-income countries. Recent research indicates that obesity is
+especially an issue among women.134 4.9.2 Urban food security in disasters The Sphere Handbook’s 2018 urban revision gives extensive information on food security and nutrition, which is generally applicable in urban areas. Key lessons following disasters
+include:
+Use cash. Cash is often a preferred mechanism for improving food security. WFP states that ‘If deployed in the right context, [cash] can improve access to food, contribute to more consistent consumption patterns and diversified diets as well as reduce negative coping
+strategies such as selling valuable production assets to buy food’.135 According to CaLP, 131	 FAO, IFAD, UNICEF, WFP and WHO, The State of Food Security and Nutrition in the World 2018, p. xii. 132	 For a discussion, see P. Bonnard, Assessing Urban Food Security: Adjusting the FEWS Rural Vulnerability Assessment
+Framework to Urban Environments, USAID FEWS Project, 2000 (https://www.alnap.org/system/files/content/resource/ files/main/pnacj249.pdf). 133	 Identification of Vulnerable People in Urban Environments Assessment of Sustainable Livelihoods and Urban
+Vulnerabilities, ACF, 2010 (https://fscluster.org/sites/default/files/documents/ACF%20-Identificationof%20 Vulnerable%20People%20inUrban%20Environments.pdf), p. 7. 134	 See for example D. Amugsi et al., ‘Prevalence and Time Trends in Overweight and Obesity among Urban Women:
+An Analysis of Demographic and Health Surveys data from 24 African Countries, 1991–2014, BMJOpen, 2017 (https://bmjopen.bmj.com/content/7/10/e017344). The research concluded that ‘Overweight and obesity are increasing among women of reproductive age in urban Africa, with obesity among this age group having more than
+doubled or tripled in 12 of the 24 countries. There is an urgent need for deliberate policies and interventions to encourage active lifestyles and healthy eating behaviour to curb this trend in urban Africa’. 135	 WFP, Cash-based Transfers for Delivering Food Assistance (Rome: WFP, 2017) (https://documents.wfp.org/stellent/
+groups/public/documents/communications/wfp284171.pdf?_ga=2.31747838.1528048293.1537155400478162095.1537155400). While increasing access to food, it should be noted that this in itself may not lead to nutrition security, where markets may comprise highly processed cheap high caloric foods (lots of sugar and fat) with limited
+nutritional value, or foodstuffs made from poor quality raw materials.
+
+## Page 240
+
+230    |    Humanitarian response in urban contexts ‘In general, smaller and more frequent cash grants will be spent on food, whereas larger one-time payments will be used for establishing livelihoods or replacing assets’. However,
+households may also use large grants ‘to buy staples in bulk, achieving increased value for money but less diversity in the diet’.136 For further information see WFP, Cash-based Transfers for Delivering Food Assistance, April 2017
+(https://documents.wfp.org/stellent/groups/public/documents/communications/wfp284171. pdf?_ga=2.31747838.1528048293.1537155400-478162095.1537155400).
+See also an ALNAP webinar, ‘Cash in the City:  Addressing Food Security Needs in Urban Crises’, 9 December 2016 (https://www.alnap.org/upcoming-events/cash-in-the-cityaddressing-food-security-needs-in-urban-crises-urban-webinar-15).
+Use existing markets. In Haiti, several agencies worked with street vendors immediately after the earthquake to provide food to affected people.137 Using existing markets can also prevent unfair competition from external food suppliers. One assessment by WFP after the
+Kashmir earthquake in 2005 concluded that urban food distributions would damage existing markets.138 Using markets necessitates a market analysis, discussed in Section 3.3. The example from Jakarta in Box 4.24 describes the benefits of using existing markets.
+Take a multisectoral approach. Access to food can be increased through both cash and livelihoods programmes. One example of this is Oxfam’s Emergency Food Security and Livelihoods (EFSL) approach, which links food security with livelihoods. A review of three
+Oxfam programmes (in Gaza, Haiti and Nairobi) responding to urban conflict and disaster situations found that combining these approaches is effective. In Port-au-Prince, the evaluation found that ‘The EFSL component contributed to the economic recovery in Port-
+au-Prince and an improved food security situation through inputs for the rehabilitation of livelihoods of earthquake-affected communities. It provided emergency food and livelihoods-recovery support to approximately 195,000 beneficiaries outside camps,
+successfully targeting the very poor, the poor, and small community-level businessowners who had lost most or all of their assets’.139 WFP’s ‘essential needs’ approach uses a multi-sectoral lens to understand vulnerability in urban settings, helping to ‘de-
+136	 T. Cross and A. Johnston, Cash Transfer Programming in Urban Emergencies: A Toolkit for Practitioners, CaLP, 2011 (http://www.urban-response.org/resource/7056), p. xix. 137	 C. Clermont et al., Urban Disasters: Lessons from Haiti. Study of Member Agencies’ Responses to the Earthquake in
+Port au Prince, Haiti, January 2010 (London: Disasters Emergency Committee, 2011). 138	 S. Sivakumaran, Market Analysis in Emergencies, CaLP, 2011 (http://www.cashlearning.org/downloads/resources/ calp/CaLP_Market_Assessments.pdf).
+139	 See I. Macauslan with L. Phelps, Oxfam GB Emergency Food Security and Livelihoods Urban Programme Evaluation (Oxford: Oxfam GB, 2012) (http://www.cashlearning.org/downloads/EFSL_Report_forweb.pdf), p. 6.
+
+## Page 241
+
+Chapter 4 Sectoral responses    |    231 structure the multi-layered and multi-dimensional complexity of elements associated to vulnerability through a thorough socio-economic and demographic investigation’.140 See: WFP, Urban Essential Needs Assessment in the Five Communes of Kimbanseke, Kinsenso,
+Makala, N’sele and Selembao (Kinshasa), September 2018 (https://docs.wfp.org/api/ documents/WFP-0000099888/download/?iframe); and WFP, Essential Needs Assessment Interim Guidance Note, July 2018 (https://docs.wfp.org/api/documents/WFP-0000074197/
+download/?_ga=2.144102577.565257219.1551103668-1509403955.1526301645).
+For further reading, see I. Macauslan with L. Phelps, Oxfam GB Emergency Food Security and Livelihoods Urban Programme Evaluation (Oxford: Oxfam GB, 2012) (http://www.cashlearning. org/downloads/EFSL_Report_forweb.pdf). 4.9.3 Food security in conflict
+FAO and WFP identify four ‘pillars’ of food security: availability, access, utilisation and stability, which ‘refers to the fact that all three must be maintained consistently. Conflict undermines all these pillars in many, and often interlinked, ways’.141 One urban food
+assessment in Juba found that ‘Urban households, for example, are particularly vulnerable to 140	 WFP, Essential Needs Assessment Interim Guidance Note, July 2018 (https://docs.wfp.org/api/documents/WFP0000074197/download/?_ga=2.144102577.565257219.1551103668-1509403955.1526301645), p. 10.
+141	 FAO/WFP, Monitoring Food Security in Countries with Conflict Situations: A Joint FAO/WFP Update for the United Nations Security Council, January 2018 (http://www.fao.org/3/I8386EN/i8386en.pdf), p. iii.
+Box 4.24  Food security in Jakarta during the 1997–98 El Niño ‘In Jakarta, Indonesia, as food security came under pressure from drought and reduced rice production during the 1997/98 El Nino event, a novel programme was established
+to use commercial markets for aid delivery. Imported wheat was milled into flour by Indonesian flour mills, and Indonesian companies produced pre-packaged noodles, providing jobs for some of those recently made unemployed in the city. In addition
+the noodles could also be used by street-side cafes, ensuring that small food traders and vendors were not adversely affected by the provision of food aid. The programme worked because it allowed each level in the production/delivery chain to make a profit
+while maintaining incentives and penalties based on performance.’ Source: D. Sanderson and P. Knox-Clarke, Responding to Urban Disasters: Learning from Previous Relief and Recovery Operations (London: ALNAP/ODI, 2012) (https://www.alnap.org/help-library/responding-to-urban-disasters-learning-
+from-previous-relief-and-recovery-operations), p. 9.
+
+## Page 242
+
+232    |    Humanitarian response in urban contexts inflation, food price increases, basic non-food price increases, exchange rate/depreciation, policies and regulations, unemployment, crime, illness/death, diseases including HIV/AIDS
+and epidemics, separation/divorce, general economic decline, conflicts and population influx, and natural disasters’.142 In Gaza, Oxfam’s EFSL programme responded to increased food insecurity exacerbated by the Israeli military occupation during 2008–2009 with cash
+(including vouchers and cash for work) and training for income generation.
+Food security in conflict can be greatly affected, and controlled by, a multiplicity of factors, as the extract in Box 4.25 on Syria illustrates.
+For a summary of food security in 17 countries affected by conflict, see FAO/WFP, Monitoring Food Security in Countries with Conflict Situations: A Joint FAO/WFP Update for the United Nations Security Council, January 2018 (http://www.fao.org/3/I8386EN/i8386en.pdf).
+For a description of the urban food security crisis in Somalia in 2009, and its impact on markets and prices, see C. Holleman and G. Moloney, ‘Somalia’s Growing Urban Food Security Crisis’, Humanitarian Exchange 42, March 2009 (https://odihpn.org/magazine/somalia%C2%92s-
+growing-urban-food-security-crisis/). See also examples from WFP Lebanon of food insecurity market assessments (http://vam.wfp.org/CountryPage_assessments.aspx?iso3=LBN). 142	 National Bureau of Statistics, Juba Urban Food Security and Nutrition Assessment. A collaborative activity of the
+National Bureau of Statistics with support from FAO, UNICEF, WFP and Juba Administrative Authorities, 2015).
+Box 4.25  Food security in Syria ‘Overall, trade remains hampered by insecurity. Localized mines and improvised explosive device contamination affect supply routes, which, along with reduced food availability, creates high and highly variable food prices. In addition, the removal of subsidies on
+certain goods, high inflation rates, lack of employment opportunities and income sources have substantially reduced households’ purchasing power. However, some trade routes have recently reopened such as those linking Damascus to other urban markets in the
+governorates of Aleppo, Al Hasakeh, and Deir-Ez-Zor. As a result, in October 2017 prices of a standard WFP food basket in some markets of Aleppo, Al Hasakeh and Rural Damascus were 12 to 35 percent lower than their yearly levels. Cereal import requirements are
+expected to continue to increase for the 2017/18 marketing year (17 percent compared with the previous year) due to below-average domestic production.’ Extract from FAO, IFAD, UNICEF, WFP and WHO, The State of Food Security and Nutrition in the World 2017: Building
+Resilience for Peace and Food Security (Rome: WFP, 2017), p. 35.
+
+## Page 243
+
+Chapter 4 Sectoral responses    |    233 Useful resources The Food Security and Livelihoods in Urban Settings Working Group’s website provides a number of useful reports concerning urbanisation and food security (https://fscluster.org/
+food-security-and-livelihoods-urban/workinggroup/food-security-and-livelihoods-urban).
+A number of tools exist derived from a developmental understanding of food security. For example, the Household Economy Approach guidelines include a section on adapting tools to urban use (http://www.heawebsite.org/about-household-economy-approach). The
+guidelines also provide examples of urban assessment criteria to monitor food security, as well as expenditure and income patterns.
+Identification of Vulnerable People in Urban Environments Assessment of Sustainable Livelihoods and Urban Vulnerabilities, ACF, 2010 (https://fscluster.org/sites/default/files/documents/ ACF%20-Identificationof%20Vulnerable%20People%20inUrban%20Environments.pdf).
+The African Food Security Urban Network (AFSUN) (http://www.afsun.org/).
+The Global Food Security and Cluster and World Food Programme’s 2015 report Tracking the Development of Urban Food Security Assessment Tools: 2010 to 2015 provides a desk review of urban food security assessment tools (https://fscluster.org/sites/default/
+files/documents/gFSC-WFP%20Adapting%20to%20an%20Urban%20World%20-%20 Revised%20DESK%20REVIEW_June%202015.pdf).
+Emergency Nutrition Network, Field Exchange: Special Focus on Urban Food Security and Nutrition 46, September 2013 (http://files.ennonline.net/attachments/1613/fx-46-web.pdf).
+Food Security Cluster (http://foodsecuritycluster.net/).
+Hungry Cities Partnership (http://hungrycities.net/).
+A desktop study of urban triggers and targeting relating to urban food security can be
+found in Oxford Policy Management, Food Security Urban Triggers and Targeting (Oxford:
+OPM, 2012) (https://www.alnap.org/help-library/review-of-urban-food-security-targetingmethodology-and-emergency-triggers-final-report).
+C. Skinner and G. Haysom, The Informal Sector’s Role in Food Security: A Missing Link in
+Policy Debates?, Discussion Paper No 6, March 2017 (http://hungrycities.net/wp-content/ uploads/2017/03/HCP6.pdf).
+WFP’s reports concerning urban food insecurity can be found at https://www.wfp.org/news/ urban-food-insecurity-1871.
+World Food Programme and urban safety nets: https://www.wfp.org/content/wfp-and-urbansafety-nets.
+
+## Page 244
+
+Humanitarian Practice Network

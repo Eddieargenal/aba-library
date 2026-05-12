@@ -1,43 +1,63 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-05-12
 status: active
 ---
 # Wiki Page Types
 
-## source
-Pages in ./01sources/. One per canonical document. Frontmatter: type, source_id, title, authors_or_orgs, year, canonical_file, original_filename, source_url, source_matrix_row, status, relevance, primary_topics, used_for, confidence, created, updated.
+Canonical page types used by frontmatter queries and index generation:
 
-## concept
-Pages in ./02concepts/. One per key concept. Frontmatter: type, status, maturity, source_count, related_tools, related_lifecycle_stages, created, updated.
+## `source`
+- Directory: `wiki/aba/01-sources/extracted/`
+- Purpose: structured extraction page per raw source document
+- Schema authority: `frontmatter-schema.md` Source Page block
 
-## framework
-Pages in ./03frameworks/. Decision frameworks. Same frontmatter as concept plus decision_domains.
+## `concept`
+- Directory: `wiki/aba/02-concepts/`
+- Purpose: synthesis concepts promoted from source evidence
 
-## tool
-Pages in ./04tools/. Operational tools with evidence collection. Frontmatter: type, tool_id, lifecycle_stage, status, primary_users, source_foundation, field_instruments, related_concepts, related_lifecycle_pages, created, updated.
+## `framework`
+- Directory: `wiki/aba/03-frameworks/`
+- Purpose: decision frameworks (Tier 1 operational + Tier 2 reference)
 
-## field-instrument
-Pages in ./05field-instruments/. Data collection instruments. Frontmatter: type, instrument_id, format, can_export_to, related_tool, required_for_decision_domains, created, updated.
+## `tool`
+- Directory: `wiki/aba/04-tools/`
+- Purpose: operational tools with explicit evidence collection/decision logic
 
-## lifecycle
-Pages in ./06lifecycle/. One per lifecycle stage. Describes decisions, evidence, tools, outputs for that stage.
+## `field-instrument`
+- Directory: `wiki/aba/05-field-instruments/`
+- Purpose: forms/checklists/guides used by tools for field data collection
 
-## sector-application
-Pages in ./07sector-applications/. One per sector. Links sector design to ABA, urban systems, DRR.
+## `synthesis`
+- Directory: `wiki/aba/outputs/internal/` (and approved output locations)
+- Purpose: filed analytical outputs and reusable internal syntheses
 
-## coordination
-Pages in ./08coordination/. Covers actor mapping, duplication, referrals, municipal alignment.
+---
 
-## mel
-Pages in ./09monitoring-learning/. MEL frameworks, indicators, reassessment.
+## Extension Section Types (Operational Content Sections)
 
-## transition
-Pages in ./10transition-scale/. Handover, scaling, municipal integration.
+These sections are active content zones and may use canonical page types above while section-specific schemas continue to evolve:
+- `wiki/aba/06-lifecycle/`
+- `wiki/aba/07-sector-applications/`
+- `wiki/aba/08-coordination/`
+- `wiki/aba/09-monitoring-learning/`
+- `wiki/aba/10-transition-scale/`
+- `wiki/aba/11-patterns/`
+- `wiki/aba/12-risks-contradictions/`
 
-## risk-contradiction
-Pages in ./12risks-contradictions/. Known tensions, weak evidence, unresolved questions.
+Agents should follow existing frontmatter in-section and `frontmatter-schema.md` constraints for shared critical fields (`lifecycle_stage`, `contradicts`, etc.).
 
-## agent-prompt
-Pages in ./13agent-prompts/. Reusable prompts for specific wiki operations.
+---
+
+## Operational Mirror Type (Non-Canonical Answer Layer)
+
+## `source_raw_extract`
+- Directory: `wiki/aba/01-sources/raw-content/`
+- Purpose: markdown text mirror of raw PDFs for ingestion/review workflows
+- Population method:
+  - body text generated from raw PDF extraction
+  - selected frontmatter fields synced from `01-sources/extracted/` using `scripts/sync_extracted_frontmatter_to_raw_content.py`
+- Query rule:
+  - do not use as primary answer source for domain questions
+  - use extracted/synthesis layers for answers; use raw-content for ingestion support and auditability

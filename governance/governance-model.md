@@ -2,7 +2,7 @@
 type: governance
 status: active
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 
 # Governance Model
@@ -124,12 +124,13 @@ The agent contract defines five named, callable workflows:
 
 ---
 
-## Three-Layer Architecture
+## Layer Architecture
 
 | Layer | Location | Rule |
 |-------|----------|------|
-| **Sources** | `sources/`, `wiki/aba/raw/` | Raw documents. Read only. Never edit. |
-| **Wiki** | `memory/`, `governance/workflows/`, `tools/`, `agents/`, `prompts/`, `wiki/aba/` | LLM-maintained knowledge pages. ABA wiki has its own schema and operating rules. |
+| **Raw sources** | `wiki/aba/01-sources/raw/` | Raw PDFs. Read only. Never edit. |
+| **Raw-content mirror** | `wiki/aba/01-sources/raw-content/` | Markdown text mirror of raw PDFs for ingest/review support. Not answer layer. |
+| **Wiki / synthesis** | `wiki/aba/01-sources/extracted/` through `wiki/aba/12-risks-contradictions/` | Canonical answer layer for ABA domain queries. |
 | **Governance** | `governance/`, `AGENTS.md` | Conventions, structure definitions, and behavioral contracts. |
 
 ---
@@ -141,7 +142,7 @@ The agent contract defines five named, callable workflows:
 | `wiki/index.md` | Master catalog of all wiki pages | Read first on every query. Update after every ingest. |
 | `memory/runtime/logs/log.md` | Append-only operation timeline | Append after every ingest, query that produces new knowledge, and lint. |
 | `AGENTS.md` | Agent entry point and routing table | Start here when navigating the vault. |
-| `governance/00_index.md` | Governance section index | Read before any governance or schema operation. |
+| `governance/00_governance-index.md` | Governance section index | Read before any governance or schema operation. |
 
 ---
 
@@ -190,7 +191,7 @@ graph TD
 ```mermaid
 flowchart LR
     A[User Request] --> AG[AGENTS.md]
-    AG --> GOV[governance/00_index.md]
+    AG --> GOV[governance/00_governance-index.md]
     GOV --> SEC[section 00_index.md]
     SEC --> F[target file]
     F --> G[Execute Task]

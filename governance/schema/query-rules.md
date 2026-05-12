@@ -1,22 +1,24 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-05-12
 status: active
 ---
 # Query Rules
 
-## The three-layer rule — READ THIS FIRST
+## The layer rule — READ THIS FIRST
 
-The wiki has three layers with distinct roles:
+The wiki has four layers plus one operational mirror with distinct roles:
 
 | Layer | Location | Role | Query use |
 |---|---|---|---|
-| Raw | `../raw/pdf/`, `../raw/extracted/` | Ingest input only — immutable source documents | NEVER read for answers |
-| Synthesis | `./00-overview/` through `./12-risks-contradictions/` | Canonical source of truth for all answers | Always read here first |
+| Raw | `./01-sources/raw/` | Immutable source PDFs | NEVER read for answers |
+| Raw-content mirror | `./01-sources/raw-content/` | Markdown text mirror for ingest/review support | NEVER read for answers |
+| Extracted source layer | `./01-sources/extracted/` | Structured extraction and source-level metadata | Read for citation/evidence grounding |
+| Synthesis | `./00-overview/` through `./12-risks-contradictions/` | Canonical source of truth for domain answers | Always read here first |
 | Schema | `governance/schema/`, `governance/aba/CLAUDE.md` | Operating rules | Read when behavior is unclear |
 
-**`../raw/` files are input to the wiki, not output from it. If the wiki synthesis does not contain the answer, flag the gap — do not go to `../raw/` to find it.**
+**`01-sources/raw/` and `01-sources/raw-content/` are input/support layers, not answer layers. If synthesis does not contain the answer, flag the gap — do not bypass to raw/raw-content.**
 
 The synthesis pages (e.g., `./02-concepts/`, `./04-tools/`) represent the processed, validated, agent-ready knowledge. Reading raw extracted text bypasses this layer, produces unverified answers, and defeats the purpose of the wiki.
 
@@ -24,13 +26,13 @@ The synthesis pages (e.g., `./02-concepts/`, `./04-tools/`) represent the proces
 1. Read index.md
 2. Identify the relevant pages in the numbered synthesis sections — concepts, tools, field instruments, lifecycle, risk pages
 3. Read those synthesis pages — these are your answer source
-4. Use `./01sources/` pages for citation metadata (author, year, page number) only — not as answer content
+4. Use `./01-sources/extracted/` pages for citation metadata and source grounding — not raw/raw-content files
 5. Produce practical outputs for technical teams
 
 ## When wiki content is insufficient
 - Note the gap explicitly in your answer
 - State which source has not yet been ingested
-- Do not go to `../raw/extracted/` or `../raw/pdf/` to fill the gap
+- Do not go to `./01-sources/raw/` or `./01-sources/raw-content/` to fill the gap
 - Do not fabricate evidence
 - Flag what ingestion is needed to complete the answer
 

@@ -2,11 +2,26 @@
 type: schema-changelog
 status: active
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 # Schema Changelog
 
 All schema changes must be logged here before taking effect. No exceptions.
+
+## [2026-05-12] schema-update | v2.5 — raw-content mirror + metadata sync governance
+
+### Changes
+- Added `source_raw_extract` operational mirror page type in `governance/schema/page-types.md`
+- Added `Raw-content Source Mirror Page` schema block to `governance/schema/frontmatter-schema.md`
+- Updated `governance/schema/ingest-rules.md` to include:
+  - raw PDF placement in `wiki/aba/01-sources/raw/`
+  - markdown extraction to `wiki/aba/01-sources/raw-content/`
+  - metadata synchronization via `scripts/sync_extracted_frontmatter_to_raw_content.py --apply`
+- Updated schema section index descriptions in `governance/schema/00_schema-index.md` to reflect raw-content mirror governance
+- Updated ABA operations references (`governance/aba/CLAUDE.md`, `governance/aba/prompts/ingest-new-source.md`, `governance/workflows/ingest.md`, `governance/workflows/document-extraction.md`, and related section indexes) to align with the new ingest pipeline
+
+### Rationale
+The vault now maintains a markdown operational mirror of raw PDFs in `01-sources/raw-content/` and uses an automated script to sync agreed metadata fields from extracted source pages. Governance and schema documents were updated so workflow, page-type, and ingest rules match actual vault behavior.
 
 ## [2026-05-12] schema-update | v2.4 — Index naming convention + schema remediation
 

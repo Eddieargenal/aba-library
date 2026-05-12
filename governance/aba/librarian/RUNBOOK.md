@@ -38,7 +38,7 @@ Invoke with `/librarian [operation] [optional-context]` in a Claude Code session
 | `/librarian close` | Every session end | Filled handoff, lint report, rebuilt index, log entry |
 | `/librarian query [question]` | Any domain question | Structured answer with source citations |
 | `/librarian ingest [path]` | New document added | Source page wired into wiki, index rebuilt |
-| `/librarian extract [pdf]` | New PDF in sources/raw/ | Extraction page in 01-sources/extracted/ |
+| `/librarian extract [pdf]` | New PDF in `wiki/aba/01-sources/raw/` | Extraction page in `wiki/aba/01-sources/extracted/` |
 | `/librarian lint` | Weekly + after major changes | Lint report in wiki/aba/outputs/internal/ |
 | `/librarian build-index` | After any page change | Updated indexes/agent-index.md |
 | `/librarian build-concept [name]` | After ingest pass | Concept page in 02-concepts/ |

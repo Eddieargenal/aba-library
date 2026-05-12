@@ -1,14 +1,14 @@
 ---
 type: agent-guide
 status: active
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 # Agent Operating Instructions
 
 This file tells AI agents how to work with the Urban DRR + ABA LLM Wiki.
 
 ## Entry Points
-- For any domain question: read [[index.md]] first
+- For ABA governance navigation: read [[00_aba-index]] first
 - Read canonical behavior contract: [[agent-contract]]
 - For tool use: read [[../../wiki/aba/04-tools/00_tools-index]] + linked field instruments
 - For new source ingestion: follow [[prompts/ingest-new-source]]

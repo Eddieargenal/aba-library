@@ -178,7 +178,7 @@ It contains the operating model, session protocol, and promotion gates.
 
 ## EXTRACT — Extract a source page from a raw PDF
 
-**Context**: path to PDF in `sources/raw/` or `sources/raw/pdf/`.
+**Context**: path to PDF in `wiki/aba/01-sources/raw/`.
 
 **Output**: `wiki/aba/01-sources/extracted/YYYY-org-author-short-title.md`
 

@@ -3,7 +3,7 @@ type: agent-prompt
 prompt_id: build-new-tool-from-sources
 status: operational
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-12
 ---
 # Build New Tool from Sources
 
@@ -13,7 +13,7 @@ When creating a new tool page from one or more source documents.
 ## Steps
 1. Identify the decision question the tool must answer
 2. Identify the lifecycle stage
-3. Read all relevant `./01sources/` pages for source metadata and links.
+3. Read all relevant `./01-sources/extracted/` pages for source metadata and links.
 4. If source-derived synthesis is already present in concept/tool/lifecycle pages, use that synthesis as primary content.
 5. If required content is missing in synthesis pages, flag ingestion gap explicitly and stop short of inventing content.
 6. Define 3-7 decision domains for the tool
@@ -40,7 +40,7 @@ When creating a new tool page from one or more source documents.
 15. Append to log.md
 
 ## Layer rule alignment
-- Do not use `../raw/pdf/` or `../raw/extracted/` as direct answer content.
+- Do not use `./01-sources/raw/` or `./01-sources/raw-content/` as direct answer content.
 - If synthesis is incomplete, document the specific missing ingestion needed and mark affected sections with `TODO[agent]`.
 - Follow `../../../governance/aba/CLAUDE.md` and `../../../governance/schema/query-rules.md` if any prompt text appears to conflict with layer rules.
 

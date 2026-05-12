@@ -6,7 +6,7 @@ updated: 2026-05-12
 
 # Frontmatter Schema — Authoritative Reference
 
-This file is the authoritative schema for all wiki page types. Agents creating or editing pages must conform to these schemas exactly. The schema is derived from `aba-wiki-detailed description.md` v2.4.
+This file is the authoritative schema for all wiki page types. Agents creating or editing pages must conform to these schemas exactly. The schema is derived from `aba-wiki-detailed description.md` v2.5.
 
 **CRITICAL fields** — missing these creates silent retrieval blackholes:
 - `lifecycle_stage:` — must use slugs from the controlled vocabulary (not human-readable strings)
@@ -48,6 +48,34 @@ notes:               # one-paragraph summary of relevance and key claims
 created:             # YYYY-MM-DD
 updated:             # YYYY-MM-DD
 ```
+
+---
+
+## Raw-content Source Mirror Page
+
+Operational mirror in `wiki/aba/01-sources/raw-content/`. Not part of the synthesis answer layer.
+
+```yaml
+type: source_raw_extract
+zone: raw-content
+status:              # copied from matching extracted source page
+title:               # copied from extracted source page
+author:              # copied from extracted source page
+institution:         # copied from extracted source page
+year:                # copied from extracted source page
+source_id:           # copied from extracted source page
+source_type:         # copied from extracted source page
+source_url:          # copied from extracted source page
+file_type:           # copied from extracted source page
+canonical_file:      # copied from extracted source page
+created:             # copied from extracted source page
+updated:             # copied from extracted source page
+ingest_date:         # copied from extracted source page
+ingest_status:       # copied from extracted source page
+confidence:          # copied from extracted source page
+```
+
+Population rule: use `scripts/sync_extracted_frontmatter_to_raw_content.py` (dry-run by default, `--apply` to write).
 
 ---
 

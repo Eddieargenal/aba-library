@@ -1,103 +1,102 @@
 ---
 type: workflow
 status: validated
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 
 # Ingest Workflow
 
-Add a new source document to the vault and update the wiki.
+Add a new source document to the ABA wiki and propagate updates through all required layers.
 
 ## When to Use
 
-When you have a new document, article, spec, or note to add to the knowledge base.
+When a new source PDF (or equivalent canonical source document) must be integrated into the wiki.
 
 ## Pre-conditions
 
-- You have a raw document (markdown, plain text, or PDF-to-markdown export)
-- The document has not been added to `sources/` before
-
----
+- Canonical filename is defined (`YYYY-org-author-short-title.pdf`)
+- Raw file is available
+- Source is not already ingested in `wiki/aba/01-sources/extracted/`
 
 ## Steps
 
-### 1. Save the source
+### 1. Save raw source (immutable)
 
-Save the raw document to `sources/` without modification:
+Place the raw PDF in:
 
-```
-sources/YYYY-MM-DD_slug.md
-```
+`wiki/aba/01-sources/raw/[canonical-filename].pdf`
 
-Example: `sources/2026-05-07_karpathy-llm-wiki-spec.md`
+Never edit this file after placement.
 
-Do not edit the file after saving. It is now immutable.
+### 2. Generate raw-content markdown mirror
 
-### 2. Read and extract
+Create or update:
 
-Read the source document completely. Extract:
+`wiki/aba/01-sources/raw-content/[canonical-stem].raw-extract.md`
 
-- **Key facts** — verifiable claims about systems, people, decisions
-- **Decisions** — choices made and their rationale
-- **Entities** — infrastructure, tools, projects referenced
-- **Open questions** — gaps, contradictions, things to verify
+Rules:
+- preserve source text faithfully
+- keep page-level separators/structure
+- no synthesis in this file
 
-Note which existing wiki pages are affected.
+### 3. Create or update extracted source page
 
-### 3. Update wiki pages
+Create or update:
 
-For each affected wiki page in `memory/categories/`:
+`wiki/aba/01-sources/extracted/[canonical-stem].md`
 
-- Add new entries with the correct claim type (✅🔹🎯💡❓)
-- Cite the source on every claim: `[source: sources/YYYY-MM-DD_slug.md]`
-- Update the `updated:` date in frontmatter
-- Change `status: stale` → `status: reviewed` if you've verified the content
+Use schema from `governance/schema/frontmatter-schema.md`:
+- `type: source`
+- required `contradicts: []` (or populated list)
+- complete source metadata
 
-If no appropriate page exists, create one in `memory/categories/` using the template at `templates/memory-record-template.md`.
+### 4. Sync agreed frontmatter to raw-content
 
-Contradictions found during ingest → log to `memory/categories/unresolved.md`.
+Run:
 
-### 3b. Update section 00_index.md
+`python3 scripts/sync_extracted_frontmatter_to_raw_content.py --apply`
 
-For each section folder where a new page was added or an existing page significantly changed:
-- Open that section's `00_index.md`
-- Update the file count if it changed
-- If the new page is significant (fully populated, not a stub), mention it in the index
-- Keep the index to ≤3 sentences — revise the characterization only if the section's purpose has meaningfully changed
+This copies the agreed metadata subset from extracted pages to matching raw-content files and sets:
+- `type: source_raw_extract`
+- `zone: raw-content`
 
-### 4. Update wiki/index.md
+### 5. Update synthesis layer pages
 
-Open `wiki/index.md` and:
+Update all impacted pages in:
+- `wiki/aba/02-concepts/`
+- `wiki/aba/03-frameworks/`
+- `wiki/aba/04-tools/`
+- `wiki/aba/05-field-instruments/`
+- `wiki/aba/06-lifecycle/`
+- `wiki/aba/12-risks-contradictions/` (if conflicts/tensions appear)
 
-- Add a row for any new wiki pages created
-- Update the summary of any pages whose content changed significantly
+### 6. Rebuild agent index
 
-This file is the audit registration — every wiki page must appear here. If the new page is not listed, add it now.
+Run:
 
-### 5. Append to log
+`python3 scripts/build-index.py`
 
-Open `memory/runtime/logs/log.md` and append:
+### 7. Log ingest operation
 
-```markdown
-## [YYYY-MM-DD] ingest | [source title]
-- Source: sources/YYYY-MM-DD_slug.md
-- Updated pages: [comma-separated list]
-- New pages: [comma-separated list, or "none"]
-- Open questions logged: [yes/no]
-```
+Append to:
 
----
+`memory/runtime/logs/log.md`
 
-## Notes
+Format:
 
-- Do not create a wiki page for every source — only when the knowledge is worth retaining long-term.
-- Do not copy raw text into wiki pages. Summarize and extract.
-- If the source is large, process it section by section before writing wiki entries.
-- Sources are immutable ground truth. If something in a source is wrong, log it to `memory/categories/unresolved.md` rather than editing the source.
+`## [YYYY-MM-DD] ingest | Source title`
+
+### 8. Validate completion
+
+Confirm:
+- raw PDF exists in `01-sources/raw/`
+- raw-content mirror exists in `01-sources/raw-content/`
+- extracted source page exists in `01-sources/extracted/`
+- affected synthesis pages updated
+- `indexes/agent-index.md` regenerated
 
 ## Related
 
-- [[../../AGENTS]] — Vault entry point and routing
-- [[../../sources/README]] — What belongs in sources/
-- [[../../wiki/index]] — Master catalog to update after ingest
-- [[../../memory/runtime/logs/log]] — Append-only log
+- [[../schema/ingest-rules]]
+- [[../schema/frontmatter-schema]]
+- [[../aba/prompts/ingest-new-source]]

@@ -1,7 +1,7 @@
 ---
 type: section-index
 status: active
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 
 # ABA Wiki — Operational Governance
@@ -26,11 +26,11 @@ Agents working in the ABA wiki read `wiki/aba/AGENTS.md` first (stub that redire
 
 ## Agent Prompts (`prompts/`)
 
-Read `prompts/00_index.md` for the full index. Quick reference:
+Read `prompts/00_prompts-index.md` for the full index. Quick reference:
 
 | Prompt File | Task It Runs | When to Use |
 |---|---|---|
-| [[ingest-new-source]] | Add a new source PDF through extraction, source page creation, and wiki updates | Whenever a new source document is available for ingestion |
+| [[ingest-new-source]] | Add a new source PDF through raw placement, raw-content extraction, extracted source page creation, metadata sync, and wiki updates | Whenever a new source document is available for ingestion |
 | [[extract-source-from-pdf]] | Convert a raw PDF into a complete extracted source page | Before running ingest-new-source; for any PDF in `01-sources/raw/` |
 | [[query-wiki]] | Answer a domain question using wiki content with citations | Any domain question about urban DRR, ABA, field tools, or response design |
 | [[lint-wiki]] | Run quality check — orphan pages, missing citations, stubs, evidence gaps | Periodically or after a major ingestion pass |

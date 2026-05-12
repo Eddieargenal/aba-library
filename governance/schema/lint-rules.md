@@ -1,7 +1,7 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-05-12
 status: active
 ---
 # Lint Rules
@@ -13,7 +13,7 @@ Run these checks when auditing the wiki.
 3. Tool pages missing field instruments — tool pages with no linked field instruments
 4. Decision questions without evidence requirements — tool pages that ask "what is X?" without specifying how to collect data to answer it
 5. Field instruments not linked to tools — field instrument pages with no related_tool in frontmatter
-6. Source claims without traceable references — claims not backed by a ./01sources/ page
+6. Source claims without traceable references — claims not backed by a `./01-sources/extracted/` page
 7. Contradictions between sources — conflicting guidance from two or more sources (flag in ./12risks-contradictions/known-contradictions.md)
 8. Old guidance superseded by newer coordination guidance — outdated recommendations not flagged in stale-guidance-watchlist.md
 9. Lifecycle stages missing tools — lifecycle pages with no linked tool pages

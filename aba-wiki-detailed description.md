@@ -2,7 +2,7 @@
 title: ABA/DRR Field Knowledge Wiki
 type: architecture-document
 doc_id: wiki-architecture-v2
-version: "2.4"
+version: "2.5"
 status: active
 created: 2026-05-11
 updated: 2026-05-12
@@ -30,9 +30,11 @@ This is the key difference: **the wiki is a persistent, compounding operational 
 
 ## Architecture
 
-There are four layers.
+There are four primary layers plus one operational mirror.
 
 **Raw sources** — the curated literature base. PDFs of IASC guidance, IFRC frameworks, academic studies, evaluation reports. Immutable. The LLM reads from them during ingest but never modifies them. This is the evidence floor.
+
+**Raw-content mirror** — markdown text extracts generated from raw PDFs and stored in `wiki/aba/01-sources/raw-content/`. These files preserve page-level source text in `.md` format for fast local reading and agent tooling. They are not the synthesis layer and do not replace extracted source pages; they are an operational convenience layer for ingestion and review workflows. Frontmatter is synced from extracted source pages using `scripts/sync_extracted_frontmatter_to_raw_content.py`.
 
 **Extracted sources** — one LLM-generated structured page per document. Key findings, methodology notes, source citations, and a `contradicts:` frontmatter field listing any existing wiki pages this source challenges. The `contradicts:` field is required on every extracted source page — an empty array `[]` is a meaningful assertion that the source was checked and found consistent. A missing field means nobody checked. This layer is what makes the corpus scalable: the LLM reads the extracted page rather than the raw PDF on every subsequent query.
 
@@ -343,12 +345,15 @@ Dataview queries against the same frontmatter fields serve human navigation. The
 ## Operations
 
 **Ingest.**
-1. LLM creates extracted source page with all required frontmatter — `contradicts:` explicitly set
-2. LLM updates affected concept, framework, and tool pages — adds cross-links and wikilinks
-3. LLM appends to `memory/runtime/logs/log.md` using format `## [YYYY-MM-DD] ingest | Source title`
-4. LLM runs `scripts/build-index.py` to regenerate `indexes/agent-index.md`
-5. Human reviews extracted page and any flagged contradictions
-6. Human approves or rejects promotion proposals
+1. LLM stores raw PDF in `wiki/aba/01-sources/raw/` (immutable evidence floor)
+2. LLM generates/updates markdown raw extract in `wiki/aba/01-sources/raw-content/` (page-level text mirror)
+3. LLM creates extracted source page with all required frontmatter — `contradicts:` explicitly set
+4. LLM runs `scripts/sync_extracted_frontmatter_to_raw_content.py --apply` to copy agreed metadata fields from extracted pages into matching raw-content files
+5. LLM updates affected concept, framework, and tool pages — adds cross-links and wikilinks
+6. LLM appends to `memory/runtime/logs/log.md` using format `## [YYYY-MM-DD] ingest | Source title`
+7. LLM runs `scripts/build-index.py` to regenerate `indexes/agent-index.md`
+8. Human reviews extracted page and any flagged contradictions
+9. Human approves or rejects promotion proposals
 
 **Query.** LLM runs frontmatter query against agent index → reads only relevant pages → synthesizes answer with `source_id` citations. Answers that reveal new connections are filed to `wiki/aba/outputs/internal/` as synthesis pages with `type: synthesis`.
 
@@ -383,6 +388,11 @@ Local REST API via **obsidian-local-rest-api** plugin (HTTPS `localhost:27124`) 
 - n8n ingest pipelines to create extracted source pages on document arrival
 - Native vault tool calls from Claude Code and other agents
 
+**Raw-content metadata sync script:** `scripts/sync_extracted_frontmatter_to_raw_content.py`
+- Purpose: copy the agreed frontmatter subset from `wiki/aba/01-sources/extracted/*.md` to matching `wiki/aba/01-sources/raw-content/*.raw-extract.md`
+- Matching strategy: `canonical_file` path (fallback to `source_id` when canonical metadata is malformed)
+- Safety: dry-run by default; explicit `--apply` required for writes
+
 Claude Code accesses the vault directly via the filesystem during active sessions. The REST API serves automated pipelines and tooling that run outside of agent sessions.
 
 ---
@@ -405,3 +415,5 @@ Claude Code accesses the vault directly via the filesystem during active session
 *Version 2.3 — updated 2026-05-11. Supersedes v2.2. Frontmatter schemas reconciled with actual vault content: region dropped (global lessons, context adaptation deferred); author/institution separated; source maintenance fields added; field instrument parent tool constraint corrected to plural; concept status/maturity distinction clarified; lifecycle_stage vocabulary expanded to 9 stages matching ABA operational model; governance reference updated to governance/00_index.md.*
 
 *Version 2.4 — updated 2026-05-12. Supersedes v2.3. All section indexes renamed from generic `00_index.md` to descriptive `00_*-index.md` names (e.g. `governance/00_governance-index.md`, `wiki/aba/02-concepts/00_concepts-index.md`). Governance reference updated accordingly. Librarian skill index-exclusion filter updated to `fname.startswith("00_")` pattern.*
+
+*Version 2.5 — updated 2026-05-12. Supersedes v2.4. Added `wiki/aba/01-sources/raw-content/` as an operational markdown mirror of raw PDFs. Documented ingest flow updates for raw-content generation and metadata sync. Added `scripts/sync_extracted_frontmatter_to_raw_content.py` to tooling, including dry-run/apply behavior and canonical-file-first matching with source_id fallback.*
