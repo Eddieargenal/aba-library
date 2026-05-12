@@ -7,7 +7,7 @@ updated: 2026-05-11
 
 # Vault Compliance Rules
 
-*Authoritative single copy. All other copies of these rules are superseded. See [[00_index]] for all governance sub-documents.*
+*Authoritative single copy. All other copies of these rules are superseded. See [[governance/00_governance-index]] for all governance sub-documents.*
 
 These 10 rules govern all content in the vault. No exceptions.
 

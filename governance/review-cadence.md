@@ -7,7 +7,7 @@ updated: 2026-05-11
 
 # Review Cadence & Governance Metrics
 
-*Part of the Knowledge Library Governance Framework v2.0. See [[00_index]] for all governance sub-documents.*
+*Part of the Knowledge Library Governance Framework v2.0. See [[governance/00_governance-index]] for all governance sub-documents.*
 
 ---
 

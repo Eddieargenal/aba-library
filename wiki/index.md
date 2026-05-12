@@ -10,7 +10,7 @@ tags: ['wiki', 'index', 'governance']
 
 # Wiki Index
 
-**Audit use only.** Agents doing work navigate via section `00_index.md` files. Use this file during ingest (to register new pages) and vault-maintenance (to check for orphans and staleness).
+**Audit use only.** Agents doing work navigate via section index files (named `00_*-index.md`). Use this file during ingest (to register new pages) and vault-maintenance (to check for orphans and staleness).
 
 After every ingest: add new pages, update summaries that changed. After every lint: mark stale pages.
 
@@ -60,15 +60,6 @@ Use [[../indexes/workflows]] if you need a workflow router before selecting a sp
 
 ---
 
-## Agents (`agents/`)
-
-| Page | Summary |
-|------|---------|
-| [[../agents/Hermes]] | Hermes: model-routing and task-execution agent (placeholder) |
-| [[../agents/OpenClaw]] | OpenClaw: gateway agent for server-side and external integrations (placeholder) |
-
----
-
 ## Prompts (`prompts/`)
 
 | Page | Summary |
@@ -82,10 +73,11 @@ Use [[../indexes/workflows]] if you need a workflow router before selecting a sp
 
 ---
 
-## Governance (`wiki/`)
+## Governance (`governance/`)
 
 | Page | Summary |
 |------|---------|
+| [[../governance/00_governance-index]] | Governance entry point — routes to all sub-sections |
 | [[../governance/compliance-rules]] | The 10 non-negotiable vault governance rules — canonical reference |
 | [[../governance/workflows/lint-plan]] | Self-contained lint routine: checks, output template, log destination |
 
@@ -102,13 +94,25 @@ Use [[../indexes/workflows]] if you need a workflow router before selecting a sp
 
 ## Urban DRR + ABA Knowledge Wiki (`wiki/aba/`)
 
-A separate, fully structured LLM wiki for urban disaster risk reduction and area-based emergency response. Entry point is its own index file.
+A fully structured LLM wiki for urban disaster risk reduction and area-based emergency response. Navigate via section indexes below.
 
-| Resource            | Path                                         |
-| ------------------- | -------------------------------------------- |
-| **Wiki index**      | [[aba/index]]                                |
-| **Quick answers**   | [[aba/wiki/00-overview/qa-common-questions]] |
-| **Operating rules** | [[aba/CLAUDE]]                               |
+| Section | Index | Contents |
+|---|---|---|
+| Overview | [[aba/00-overview/00_overview-index]] | Agent contract, operating model, access guide, knowledge map |
+| Sources — extracted | [[aba/01-sources/extracted/00_extracted-index]] | 23 extracted source pages with thematic groupings |
+| Sources — raw | [[aba/01-sources/raw/00_raw-index]] | PDF inventory and extraction status |
+| Concepts | [[aba/02-concepts/00_concepts-index]] | 25 concept pages with maturity ratings and thematic groupings |
+| Frameworks | [[aba/03-frameworks/00_frameworks-index]] | 9 Tier 1 operational frameworks + 32 Tier 2 reference frameworks |
+| Tools | [[aba/04-tools/00_tools-index]] | 17 operational tools (Tool 01 fully populated; 02–17 stubs) |
+| Field instruments | [[aba/05-field-instruments/00_instruments-index]] | 18 data collection instruments |
+| Lifecycle | [[aba/06-lifecycle/00_lifecycle-index]] | 11 programme phase pages (Stage 0–10) |
+| Sector applications | [[aba/07-sector-applications/00_sectors-index]] | 21 sector pages (stubs) |
+| Coordination | [[aba/08-coordination/00_coordination-index]] | 19 coordination structure and protocol pages |
+| Monitoring & learning | [[aba/09-monitoring-learning/00_monitoring-index]] | 11 MEL and adaptive management pages |
+| Transition & scale | [[aba/10-transition-scale/00_transition-index]] | 8 handover and scale-up pages |
+| Patterns | [[aba/11-patterns/00_patterns-index]] | Validated implementation patterns (empty — none yet) |
+| Risks & contradictions | [[aba/12-risks-contradictions/00_risks-index]] | 13 risk registers and contradiction pages |
+| Outputs — toolkits | [[aba/outputs/toolkits/00_toolkits-index]] | Finished synthesis artifacts for external use |
 
 ---
 
