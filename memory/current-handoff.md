@@ -46,7 +46,29 @@ Ran full lint pass. Fixed CRITICAL count from 37 → 0. Added `contradicts: []` 
 - **Extension page schemas**: 07-sector through 12-risks page type schemas not yet formally defined in `governance/schema/frontmatter-schema.md` — `contradicts:` fields are now present but type-specific schema rules (required fields, controlled vocabulary per section) are still TODO stubs
 
 ## Next Session Priority
-1. Define schemas for 6 extension page types in `frontmatter-schema.md` (07-sector through 12-risks) — the `contradicts:` gap this session revealed the absence; these schemas remain TODO stubs
-2. Link field instruments to tools (H-3) — 14 tools still have `field_instruments: []`; requires domain knowledge
-3. Ingest `2019-alnap-global-practice-review-urban-humanitarian-response` if raw PDF is available — referenced in several MEL and risks pages but no extracted page exists
-4. Ingest `2017-mohiddin-smith-phelps-urban-response-analysis-framework` if raw PDF is available — same situation
+
+### P1 — Schema (agent can do, no human input needed)
+1. **Define extension page schemas** — add formal schemas for 6 types to `governance/schema/frontmatter-schema.md`: `sector-application`, `coordination`, `monitoring-learning`, `transition`, `pattern`, `risk-contradiction`. Each schema must define: required frontmatter fields, controlled vocabulary, `contradicts:` semantics, and any type-specific lint rules. The `contradicts:` remediation this session exposed the gap — all 82 pages were created without schema enforcement.
+
+### P2 — Corpus gaps (human must supply PDFs)
+2. **Ingest ALNAP GPR 12 (2019)** — `2019-alnap-global-practice-review-urban-humanitarian-response` is referenced in `source_foundation:` on 8+ pages (MEL framework, misuse patterns, outcome monitoring, resilience indicators) but no extracted source page exists. Without it, the synthesis pages citing it are unreferenced. Check `wiki/aba/01-sources/raw/` for the PDF; if absent, source from ALNAP.
+3. **Ingest Mohiddin et al. (2017)** — `2017-mohiddin-smith-phelps-urban-response-analysis-framework` has the same problem: referenced in MEL and risks frontmatter, no extracted page. Check raw/ folder; if absent, source it.
+
+### P3 — Tool completeness (agent can do with domain guidance)
+4. **Link field instruments to tools (H-3)** — 14 tools still have `field_instruments: []`. The blocked tools cannot advance to `validated` status. Agent should propose linkages based on tool descriptions and field instrument content; human approves. Affected tools: run `grep -rn "field_instruments: \[\]" wiki/aba/04-tools/` to get current list.
+
+### P4 — Corpus expansion (human decides what to add next)
+5. **Next source ingestion** — 22 sources currently indexed. The full ingest flow: add PDF to `01-sources/raw/`, run extraction to `raw-content/`, create extracted source page, run sync script, update wiki pages, rebuild index, log. See `governance/aba/CLAUDE.md` for step-by-step.
+
+## Known Issues
+
+### Structural
+- **`contradicts: []` fields are unreviewed placeholders** — 82 fields added this session are correct assertions only in the sense that no one has checked them. As new sources are ingested and cross-referenced, agents must revisit and populate these with actual contradiction references where they exist.
+- **No schemas for extension page types** — `governance/schema/frontmatter-schema.md` defines schemas for concept, source, framework, tool, field-instrument, and synthesis. The 6 extension types (sector-application, coordination, monitoring-learning, transition, pattern, risk-contradiction) have pages but no formal schema rules. Lint currently catches `contradicts:` absence; type-specific field requirements are not enforced.
+
+### Corpus
+- **Two uningested sources referenced in frontmatter** — `2019-alnap-global-practice-review-urban-humanitarian-response` and `2017-mohiddin-smith-phelps-urban-response-analysis-framework` appear as `source_foundation:` entries on 10+ synthesis pages but have no extracted source pages. The synthesis pages citing them are ungrounded until these are ingested.
+- **3 concepts at source_count=1** — `area-based-assessment`, `protection-in-urban-settings`, `enabling-environment` each have only one independent source. Per promotion gates, a second independent source is required before any of these can be cited as established. Flag but do not promote until second source is ingested.
+
+### Tools and instruments
+- **14 tools with no linked field instruments** — these tools cannot reach `validated` status. The gap is by design (domain knowledge required) but it means the tool layer is functionally draft-only. Full list available via frontmatter query: `type == "tool" AND field_instruments == []`.
