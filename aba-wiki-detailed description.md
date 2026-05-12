@@ -2,14 +2,14 @@
 title: ABA/DRR Field Knowledge Wiki
 type: architecture-document
 doc_id: wiki-architecture-v2
-version: "2.3"
+version: "2.4"
 status: active
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-12
 authors: ["Eddie Argenal"]
 tags: [wiki, aba, drr, llm, knowledge-management, architecture]
 corpus_role: governance
-related_docs: [governance/00_index.md, governance/schema/changelog.md, AGENTS.md]
+related_docs: [governance/00_governance-index.md, governance/schema/changelog.md, AGENTS.md]
 ---
 
 # ABA/DRR Field Knowledge Wiki
@@ -390,7 +390,7 @@ Claude Code accesses the vault directly via the filesystem during active session
 ## Governance
 
 - Schema changes logged in `governance/schema/changelog.md` — unlogged change = critical failure
-- `governance/00_index.md` is the authoritative governance reference — routes to all sub-documents
+- `governance/00_governance-index.md` is the authoritative governance reference — routes to all sub-documents
 - Librarian skill at `.claude/commands/librarian.md` injected at every agent session start
 - Weekly lint cadence — compliance queue clears before new work begins
 
@@ -403,3 +403,5 @@ Claude Code accesses the vault directly via the filesystem during active session
 ---
 
 *Version 2.3 — updated 2026-05-11. Supersedes v2.2. Frontmatter schemas reconciled with actual vault content: region dropped (global lessons, context adaptation deferred); author/institution separated; source maintenance fields added; field instrument parent tool constraint corrected to plural; concept status/maturity distinction clarified; lifecycle_stage vocabulary expanded to 9 stages matching ABA operational model; governance reference updated to governance/00_index.md.*
+
+*Version 2.4 — updated 2026-05-12. Supersedes v2.3. All section indexes renamed from generic `00_index.md` to descriptive `00_*-index.md` names (e.g. `governance/00_governance-index.md`, `wiki/aba/02-concepts/00_concepts-index.md`). Governance reference updated accordingly. Librarian skill index-exclusion filter updated to `fname.startswith("00_")` pattern.*
