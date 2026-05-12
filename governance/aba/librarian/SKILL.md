@@ -223,7 +223,7 @@ DIRS = {
 for ptype, rel_dir in DIRS.items():
     dirpath = os.path.join(VAULT, rel_dir)
     for fname in os.listdir(dirpath):
-        if not fname.endswith(".md") or fname == "00_index.md": continue
+        if not fname.endswith(".md") or fname.startswith("00_"): continue
         content = open(os.path.join(dirpath, fname)).read()
         m = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
         if not m: print(f"CRITICAL C-1 no-frontmatter: {rel_dir}/{fname}"); continue
@@ -242,7 +242,7 @@ import os, re, yaml
 VAULT = "/Users/eddieargenal/Documents/obsidian-vault"
 tooldir = os.path.join(VAULT, "wiki/aba/04-tools")
 for fname in os.listdir(tooldir):
-    if not fname.endswith(".md") or fname == "00_index.md": continue
+    if not fname.endswith(".md") or fname.startswith("00_"): continue
     content = open(os.path.join(tooldir, fname)).read()
     m = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
     if not m: continue
@@ -261,7 +261,7 @@ import os, re, yaml
 VAULT = "/Users/eddieargenal/Documents/obsidian-vault"
 instdir = os.path.join(VAULT, "wiki/aba/05-field-instruments")
 for fname in os.listdir(instdir):
-    if not fname.endswith(".md") or fname == "00_index.md": continue
+    if not fname.endswith(".md") or fname.startswith("00_"): continue
     content = open(os.path.join(instdir, fname)).read()
     m = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
     if not m: continue
@@ -277,7 +277,7 @@ import os, re, yaml
 VAULT = "/Users/eddieargenal/Documents/obsidian-vault"
 conceptdir = os.path.join(VAULT, "wiki/aba/02-concepts")
 for fname in os.listdir(conceptdir):
-    if not fname.endswith(".md") or fname == "00_index.md": continue
+    if not fname.endswith(".md") or fname.startswith("00_"): continue
     content = open(os.path.join(conceptdir, fname)).read()
     m = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
     if not m: continue
@@ -293,7 +293,7 @@ import os, re, yaml
 VAULT = "/Users/eddieargenal/Documents/obsidian-vault"
 tooldir = os.path.join(VAULT, "wiki/aba/04-tools")
 for fname in os.listdir(tooldir):
-    if not fname.endswith(".md") or fname == "00_index.md": continue
+    if not fname.endswith(".md") or fname.startswith("00_"): continue
     content = open(os.path.join(tooldir, fname)).read()
     m = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
     if not m: continue
@@ -314,7 +314,7 @@ DIRS = ["wiki/aba/01-sources/extracted","wiki/aba/02-concepts","wiki/aba/03-fram
 all_pages = {}
 for d in DIRS:
     for f in os.listdir(os.path.join(VAULT, d)):
-        if f.endswith(".md") and f != "00_index.md":
+        if f.endswith(".md") and not f.startswith("00_"):
             all_pages[f.replace(".md","")] = 0
 link_re = re.compile(r'\[\[([^\]|]+)')
 for root, dirs, files in os.walk(os.path.join(VAULT, "wiki/aba")):
@@ -385,7 +385,7 @@ Confirm count. Append to log: `## [YYYY-MM-DD] maintenance | Rebuilt agent index
 **Do NOT create if**: framework already exists, source material not ingested, or logic belongs in a tool page.
 
 **Steps:**
-1. Read `wiki/aba/03-frameworks/00_index.md` — confirm gap
+1. Read `wiki/aba/03-frameworks/00_frameworks-index.md` — confirm gap
 2. Read gold standard: `wiki/aba/03-frameworks/2017-aba-appropriateness-decision-framework.md`
 3. Read relevant extracted sources (query by lifecycle_stage)
 4. Write framework page with complete frontmatter (tier: 1, source_foundation: [≥2 independent])
