@@ -79,7 +79,7 @@ A page with a missing `lifecycle_stage:` or `contradicts:` field is a **retrieva
 | Task | File |
 |---|---|
 | Session start | `memory/current-handoff.md` |
-| Governance / rule question | `governance/00_index.md` |
+| Governance / rule question | `governance/00_governance-index.md` |
 | ABA operating rules | `governance/aba/CLAUDE.md` |
 | Ingest a source | `governance/aba/prompts/ingest-new-source.md` |
 | Query the wiki | `indexes/agent-index.md` → read relevant pages |

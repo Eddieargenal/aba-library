@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: decision-memo-template
 title: Decision Memo Template
-format: document template
+format: form
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
 required_for_decision_domains:

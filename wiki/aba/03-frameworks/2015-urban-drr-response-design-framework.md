@@ -1,7 +1,11 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "Cross-cutting — informs stages 1, 2, 5, and 6"
+lifecycle_stage:
+  - area-selection
+  - neighbourhood-diagnosis
+  - integrated-area-strategy
+  - implementation-adaptation
 related_tools:
   - tool-04-urban-systems-diagnosis-tool
   - tool-05-hevc-risk-mapping-tool
@@ -14,7 +18,7 @@ related_concepts:
   - enabling-environment
   - urban-systems-thinking
 source_foundation:
-  - 2009_twigg-ucl_disaster-resilient-community
+  - 2009-twigg-ucl-disaster-resilient-community
   - 2015-undrr-sendai-framework-drr-2015-2030-framework
   - 2013-worldbank-building-urban-resilience-principles-tools-practice
   - 2017-ifrc-building-urban-resilience-guide
@@ -129,7 +133,7 @@ Score each Sendai priority dimension 0–3:
 
 ## Source foundation
 
-- [[../01-sources/extracted/2009_twigg-ucl_disaster-resilient-community]] — five Thematic Areas and 28 components as coverage framework; Basics First urgency-and-role-scoping logic; enabling environment concept; five-level milestone scale for tracking DRR maturity; methodological guidance on customisation and participatory application
+- [[../01-sources/extracted/2009-twigg-ucl-disaster-resilient-community]] — five Thematic Areas and 28 components as coverage framework; Basics First urgency-and-role-scoping logic; enabling environment concept; five-level milestone scale for tracking DRR maturity; methodological guidance on customisation and participatory application
 - [[../01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework]] — four Sendai priorities as DRR design lenses; seven global targets as measurable anchors; risk = hazard × exposure × vulnerability as the baseline risk calculation formula
 - [[../01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice]] — multi-pillar DRM framework; no-regret and flexible measure logic for design under uncertainty; residual risk management after investment; cost-benefit analysis for resilience infrastructure investment
 - [[../01-sources/extracted/2017-ifrc-building-urban-resilience-guide]] — five thematic areas adapted for Red Cross/Red Crescent movement urban programming; Movement Essentials linked to UNDRR Ten Essentials; urban-adapted tools and assessment protocols

@@ -7,7 +7,7 @@ key_tools:
   - tool-11-sector-technical-design
 source_foundation:
   - 2019_alnap_global-practice-review-urban-humanitarian-response
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2009-twigg-ucl-disaster-resilient-community
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -18,7 +18,7 @@ updated: 2026-05-07
 Develop detailed technical designs for each sector intervention, integrating DRR standards, local actor roles, targeting criteria, and Build Back Better principles. Produces sector design documents ready for implementation.
 
 ## Key decisions
-TODO[agent]: Define 3-5 key decisions that must be made at this stage. Key sources: 2019_alnap_global-practice-review-urban-humanitarian-response, 2007_twigg_characteristics-disaster-resilient-community-framework.
+TODO[agent]: Define 3-5 key decisions that must be made at this stage. Key sources: 2019_alnap_global-practice-review-urban-humanitarian-response, 2009-twigg-ucl-disaster-resilient-community.
 
 ## Required evidence
 TODO[agent]: Define minimum evidence required before this stage can be completed.

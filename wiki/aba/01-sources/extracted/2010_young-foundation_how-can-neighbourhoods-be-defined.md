@@ -7,7 +7,7 @@ edition_notes: "Originally published 2006; updated 2010 under Transforming Neigh
 source_url: "https://youngfoundation.org/wp-content/uploads/2012/11/How-can-neighbourhoods-be-understood-and-defined-August-2010.pdf"
 source_url_status: "verify — youngfoundation.org URL structure may have rotated"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "UK policy context — apply with caution in humanitarian settings. Intro
 canonical_file: ../raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf
 wiki_pages: []
 type: source
-source_id: 2010-young-foundation-neighbourhood
+source_id: 2010-young-foundation-how-can-neighbourhoods-be-defined
 source_type: ngo-guidance
 confidence: medium
 lifecycle_stage:

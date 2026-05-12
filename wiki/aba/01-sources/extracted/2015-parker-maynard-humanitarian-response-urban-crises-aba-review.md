@@ -6,7 +6,7 @@ year: 2015
 source_url: "http://pubs.iied.org/10742IIED"
 source_url_status: "verify — IIED migrated from pubs.iied.org; try https://www.iied.org/10742iied"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -31,7 +31,7 @@ notes: "IIED Working Paper. Literature review + practitioner interviews + worksh
 canonical_file: ../raw/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.pdf
 wiki_pages: []
 type: source
-source_id: 2015-parker-maynard-aba-review
+source_id: 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
 source_type: field-evaluation
 confidence: high
 lifecycle_stage:

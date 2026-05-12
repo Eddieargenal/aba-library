@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: kii-guide-market-actors
 title: "KII Guide — Market Actors"
-format: kii guide
+format: guide
 related_tools:
   - tool-04-urban-systems-diagnosis
   - tool-09-response-option-comparison

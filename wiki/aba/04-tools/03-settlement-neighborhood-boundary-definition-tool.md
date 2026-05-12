@@ -1,15 +1,16 @@
 ---
 type: tool
 tool_id: tool-03-settlement-boundary-definition
-lifecycle_stage: "1. Area selection and boundary definition"
+lifecycle_stage:
+  - area-selection
 status: draft
 primary_users:
   - Field teams
   - Program managers
   - GIS/mapping staff
 source_foundation:
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
+  - 2019-replication-scale-up-learning-note-framework
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
 field_instruments: []
 related_concepts:
   - neighborhood-boundaries
@@ -39,7 +40,7 @@ This tool operationalizes: [[../03-frameworks/2017-area-selection-framework]]
 - Are there boundary tensions between administrative definitions and community-recognized areas?
 
 ## Evidence required
-TODO[agent]: Specify evidence needed to define and validate boundaries. Key sources: [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]], [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]].
+TODO[agent]: Specify evidence needed to define and validate boundaries. Key sources: [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]], [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]].
 
 ## Field data points
 TODO[agent]: Define observable boundary markers (roads, rivers, walls, administrative lines, community-identified boundaries).
@@ -72,8 +73,8 @@ TODO[agent]: Risk of boundary reinforcing exclusion of marginalized populations;
 TODO[agent]: Verify boundary with multiple community representatives; check against administrative maps.
 
 ## Source foundation
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
 
 ## Links
 - Lifecycle stage: [[../06-lifecycle/01-area-selection-boundary-definition]]

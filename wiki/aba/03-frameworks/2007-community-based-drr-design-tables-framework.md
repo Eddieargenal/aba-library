@@ -9,7 +9,7 @@ title: "Community-Based DRR Design Tables Framework"
 lifecycle_stage:
   - implementation-adaptation
 source_foundation:
-  - 2009_twigg-ucl_disaster-resilient-community
+  - 2009-twigg-ucl-disaster-resilient-community
 related_tools: []
 related_concepts: []
 related_frameworks: []

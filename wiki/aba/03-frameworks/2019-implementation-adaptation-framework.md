@@ -1,7 +1,9 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "7. Implementation / 9. Monitoring and adaptation"
+lifecycle_stage:
+  - implementation-adaptation
+  - monitoring-learning
 related_tools:
   - tool-12-implementation-sequencing-dependency-map
   - tool-16-area-based-mel-adaptation-framework
@@ -13,7 +15,7 @@ related_concepts:
 source_foundation:
   - 2019-replication-scale-up-learning-note-framework
   - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
-  - 2019_alnap-sanderson-humanitarian-response-urban-contexts
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
@@ -95,4 +97,4 @@ Classify every proposed programme change using the following three-tier model be
 
 - [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]] — iterative management and learning cycles embedded in implementation; enabling conditions for scale-up including documented adaptations as organizational knowledge assets
 - [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — adaptive management as an explicit ABA design requirement (p. 21); contribution evaluation logic for multi-actor contexts (p. 27); real-time learning integrated into implementation sequence
-- [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]] — complexity-aware M&E design; rapid adaptation in urban humanitarian response; accountability constraints on adaptation in multi-stakeholder contexts
+- [[../01-sources/extracted/2019-alnap-sanderson-humanitarian-response-urban-contexts]] — complexity-aware M&E design; rapid adaptation in urban humanitarian response; accountability constraints on adaptation in multi-stakeholder contexts

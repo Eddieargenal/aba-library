@@ -3,8 +3,8 @@ type: monitoring-learning
 status: draft
 topic: "Area-Level Outcome Monitoring"
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2009-twigg-ucl-disaster-resilient-community
 created: 2026-05-07
 updated: 2026-05-07
 ---

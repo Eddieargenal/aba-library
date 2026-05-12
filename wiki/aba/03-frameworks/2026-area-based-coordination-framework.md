@@ -1,7 +1,9 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "3. Community and stakeholder engagement platform / 8. Area-based implementation"
+lifecycle_stage:
+  - joint-prioritization
+  - implementation-adaptation
 related_tools:
   - tool-06-stakeholder-coordination-mapping-tool
   - tool-13-area-coordination-dashboard
@@ -12,10 +14,10 @@ related_concepts:
   - convenor-role
   - multi-sector-response-analysis
 source_foundation:
-  - 2026-iasc-standard-terms-reference-area-based-coordination-tor
+  - 2026-iasc-standard-terms-reference-area-based-coordination-tor-tor
   - 2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy
   - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
-  - 2015_dfid-irc-alnap_aba-discussion-paper
+  - 2015-dfid-irc-alnap-aba-discussion-paper
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
@@ -110,7 +112,7 @@ Per IASC Standard TOR 2026: ABC is a subnational, operational, multi-sectoral me
 
 ## Source foundation
 
-- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]] — defines ABC as subnational, operational, multi-sectoral; specifies establishment criteria (concentrated need + coordination gap + chair capacity), TOR requirements, and dissolution conditions; canonical governance reference
+- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor-tor]] — defines ABC as subnational, operational, multi-sectoral; specifies establishment criteria (concentrated need + coordination gap + chair capacity), TOR requirements, and dissolution conditions; canonical governance reference
 - [[../01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy]] — host-government leadership principle (p.8); multi-stakeholder partnership framework; early formalization of coordination architecture as strategic priority for urban response
 - [[../01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies]] — scale typology (city/district/neighborhood) mapped to coordination models; case evidence of different coordination architecture choices and their outcomes across contexts
-- [[../01-sources/extracted/2015_dfid-irc-alnap_aba-discussion-paper]] — finding that area-based programming does not automatically produce area-based coordination; deliberate design is required; municipal convening (Haiti/Carrefour) outperforms purely humanitarian-led models
+- [[../01-sources/extracted/2015-dfid-irc-alnap-aba-discussion-paper]] — finding that area-based programming does not automatically produce area-based coordination; deliberate design is required; municipal convening (Haiti/Carrefour) outperforms purely humanitarian-led models

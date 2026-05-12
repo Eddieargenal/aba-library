@@ -1,15 +1,16 @@
 ---
 type: tool
 tool_id: tool-17-handover-scale-up
-lifecycle_stage: "10. Transition, handover, and scaling"
+lifecycle_stage:
+  - transition-handover
 status: draft
 primary_users:
   - Field teams
   - Program managers
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2015_undrr_sendai-framework-drr-2015-2030-framework
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2015-undrr-sendai-framework-drr-2015-2030-framework
+  - 2019-replication-scale-up-learning-note-framework
 field_instruments: []
 related_concepts: []
 related_lifecycle_pages:
@@ -70,7 +71,7 @@ TODO[agent]: Identify key risks in data collection and analysis; define mitigati
 TODO[agent]: Define checks to verify data accuracy and completeness.
 
 ## Source foundation
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
 TODO[agent]: Add remaining source links.
 
 ## Links

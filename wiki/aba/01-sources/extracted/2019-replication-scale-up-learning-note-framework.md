@@ -6,7 +6,7 @@ year: 2019
 source_url: ""
 source_url_status: "not found — source references sheltercluster.org and ABA Channel; search sheltercluster.org for ABA compendium or replication/scale-up learning note"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: on-revision
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -28,7 +28,7 @@ notes: "Filename 'replication-scale-up-learning-note-framework' may indicate a d
 canonical_file: ../raw/2019-replication-scale-up-learning-note-framework.pdf
 wiki_pages: []
 type: source
-source_id: 2019-globalcluster-replication-scale-up
+source_id: 2019-replication-scale-up-learning-note-framework
 source_type: ngo-guidance
 confidence: high
 lifecycle_stage:

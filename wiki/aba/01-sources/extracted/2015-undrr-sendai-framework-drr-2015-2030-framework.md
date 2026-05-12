@@ -6,7 +6,7 @@ year: 2015
 source_url: "https://www.undrr.org/media/16176/download"
 source_url_status: "active"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: on-revision
 last_reviewed: 2026-05-10
 next_review: 2030-01-01
@@ -31,7 +31,7 @@ notes: "Successor to HFA 2005-2015. Adopted March 2015 in Sendai, Japan. 7 globa
 canonical_file: ../raw/2015-undrr-sendai-framework-drr-2015-2030-framework.pdf
 wiki_pages: []
 type: source
-source_id: 2015-sendai-framework
+source_id: 2015-undrr-sendai-framework-drr-2015-2030-framework
 source_type: un-policy
 confidence: medium
 lifecycle_stage:

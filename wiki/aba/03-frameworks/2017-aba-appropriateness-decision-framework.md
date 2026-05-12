@@ -1,7 +1,8 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "0. Appropriateness decision"
+lifecycle_stage:
+  - appropriateness-decision
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
 related_concepts:
@@ -17,7 +18,7 @@ source_foundation:
   - 2016-campbell-stepping-back-understanding-cities-systems-guide
   - 2015-undrr-sendai-framework-drr-2015-2030-framework
   - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
-  - 2019_alnap-sanderson-humanitarian-response-urban-contexts
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
 created: 2026-05-07
 updated: 2026-05-11
 used_by_outputs: []
@@ -126,4 +127,4 @@ Even a high weighted score does NOT justify proceeding if any of the following a
 - [[../01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide]] — urban systems typology; systems interdependence rationale for Domain 4; cities-as-systems as the analytical foundation for urban response
 - [[../01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework]] — four Sendai priorities as DRR relevance weighting reference; global targets as measurable anchors for Domain 7
 - [[../01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies]] — case evidence of conditions under which ABA produced integrated outcomes vs coordination overhead without benefit
-- [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]] — global practice review; feasibility and safeguard conditions that determine operational viability in urban humanitarian contexts
+- [[../01-sources/extracted/2019-alnap-sanderson-humanitarian-response-urban-contexts]] — global practice review; feasibility and safeguard conditions that determine operational viability in urban humanitarian contexts

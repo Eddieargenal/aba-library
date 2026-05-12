@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: kii-guide-community-leaders
 title: "KII Guide — Community Leaders"
-format: kii guide
+format: guide
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
   - tool-07-community-engagement-platform

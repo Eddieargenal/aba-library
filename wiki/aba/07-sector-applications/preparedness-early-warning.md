@@ -9,7 +9,7 @@ related_lifecycle_stages:
   - "6. Program design and modality selection"
   - "7. Detailed technical design"
 source_foundation:
-  - 2015_undrr_sendai-framework-drr-2015-2030-framework, 2007_twigg_characteristics-disaster-resilient-community-framework, 2017_undrr_how-to-make-cities-more-resilient-handbook-2017-edition
+  - 2015_undrr_sendai-framework-drr-2015-2030-framework, 2009-twigg-ucl-disaster-resilient-community, 2017_undrr_how-to-make-cities-more-resilient-handbook-2017-edition
 created: 2026-05-07
 updated: 2026-05-07
 ---

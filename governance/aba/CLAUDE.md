@@ -20,23 +20,23 @@ The wiki has three layers:
 
 When answering a domain question:
 - Read numbered section pages (`./00-overview/` through `./12-risks-contradictions/`) — these are the answer source
-- Read `./01sources/` pages for citation metadata only (author, year, page)
+- Read `./01-sources/` pages for citation metadata only (author, year, page)
 - Never open `../raw/extracted/` or `../raw/pdf/` to answer a question
 - If `wiki/` content is insufficient, flag the gap and state what ingestion is needed — do not bypass the synthesis layer
 
 Never modify raw sources.
 
-Always read index.md before answering domain questions.
+Always read indexes/agent-index.md before answering domain questions.
 
 ## When ingesting a source
 
-- Create or update the source page in ./01sources/
-- Update affected concept pages in ./02concepts/
-- Update affected tool pages in ./04tools/
-- Update lifecycle pages in ./06lifecycle/
-- Update field instruments in ./05field-instruments/ if the source implies data collection methods
-- Update ./12risks-contradictions/ if claims conflict or require caution
-- Update index.md
+- Create or update the source page in ./01-sources/
+- Update affected concept pages in ./02-concepts/
+- Update affected tool pages in ./04-tools/
+- Update lifecycle pages in ./06-lifecycle/
+- Update field instruments in ./05-field-instruments/ if the source implies data collection methods
+- Update ./12-risks-contradictions/ if claims conflict or require caution
+- Update indexes/agent-index.md (run scripts/build-index.py)
 - Append to log.md
 - Commit if git is available
 
@@ -58,7 +58,7 @@ A tool FAILS quality review if it only lists questions without showing how field
 
 ## When querying
 
-- Search index.md first
+- Search indexes/agent-index.md first
 - Read relevant wiki pages before answering
 - Use source pages for citation support
 - Produce practical outputs for technical teams

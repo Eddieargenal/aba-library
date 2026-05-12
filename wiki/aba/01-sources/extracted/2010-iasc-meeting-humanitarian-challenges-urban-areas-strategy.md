@@ -6,7 +6,7 @@ year: 2010
 source_url: "https://interagencystandingcommittee.org/sites/default/files/migrated/2020-11/IASC%20Strategy%2C%20Meeting%20Humanitarian%20Challenges%20in%20Urban%20Areas.pdf"
 source_url_status: "corrected — original had typo 'Thttps://'; verify link is still live"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "Action matrix assigns leads/support roles and specifies priority actions
 canonical_file: ../raw/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf
 wiki_pages: []
 type: source
-source_id: 2010-iasc-urban-strategy
+source_id: 2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy
 source_type: iasc-guidance
 confidence: high
 lifecycle_stage:

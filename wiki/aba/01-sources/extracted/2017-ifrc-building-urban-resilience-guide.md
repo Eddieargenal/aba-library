@@ -6,7 +6,7 @@ year: 2017
 source_url: "https://www.ifrc.org/sites/default/files/1317300_GuidanceUrbanResilience_LR25b15d.pdf"
 source_url_status: "verify — IFRC file paths may have changed"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -31,7 +31,7 @@ notes: "Outcome of IFRC–Iranian Red Crescent Partnership on Urban DRR/DM (2013
 canonical_file: ../raw/2017-ifrc-building-urban-resilience-guide.pdf
 wiki_pages: []
 type: source
-source_id: 2017-ifrc-urban-resilience
+source_id: 2017-ifrc-building-urban-resilience-guide
 source_type: ngo-guidance
 confidence: medium
 lifecycle_stage:

@@ -139,7 +139,7 @@ From Parker & Maynard: do not promise community-driven design in an 18-month pro
 - [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — participatory assessment as Principle 1; styles of engagement framework
 - [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]] — iterative learning and participation in urban MEL
 - [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]] — participatory area delineation via MFGDs; community engagement in assessment design
-- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]] — community-led practice as one of six complexity-navigation approaches; PCI's convenor role model
+- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study]] — community-led practice as one of six complexity-navigation approaches; PCI's convenor role model
 
 ---
 

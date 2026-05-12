@@ -4,8 +4,8 @@ type: critical-analysis
 status: stub
 wiki_id: risk-02
 source_foundation:
-  - "[[2019_alnap_global-practice-review-urban-humanitarian-response-report]]"
-  - "[[2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]"
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
 tags: [weak-evidence, claims, epistemology, evidence-quality]
 created: 2026-05-07
 ---

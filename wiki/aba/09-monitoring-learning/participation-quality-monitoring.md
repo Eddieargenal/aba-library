@@ -3,8 +3,8 @@ type: monitoring-learning
 status: draft
 topic: "Participation Quality Monitoring"
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2015_parker-maynard_humanitarian-response-urban-crises-aba-review
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
 created: 2026-05-07
 updated: 2026-05-07
 ---

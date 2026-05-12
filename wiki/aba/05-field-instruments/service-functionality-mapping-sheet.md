@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: service-functionality-mapping-sheet
 title: Service Functionality Mapping Sheet
-format: mapping sheet
+format: form
 related_tools:
   - tool-04-urban-systems-diagnosis
 required_for_decision_domains:

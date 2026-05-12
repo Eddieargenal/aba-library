@@ -4,10 +4,10 @@ type: risk-register
 status: active
 wiki_id: risk-06
 source_foundation:
-  - "[[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]"
-  - "[[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]"
-  - "[[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]"
-  - "[[../01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note]]"
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2019-replication-scale-up-learning-note-framework
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
 tags: [protection, do-no-harm, risk, safeguarding]
 created: 2026-05-07
 updated: 2026-05-07
@@ -140,5 +140,5 @@ Catalogues protection risks specific to area-based approaches in urban settings.
 
 - Parker & Maynard (2015): cross-neighbourhood inequality, elite capture, responsibility displacement, structural problem distraction — [[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]] ✅ ingested
 - Sanderson & Sitko (2017): protection risks in post-disaster ABA — [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- GSC/USWG (2019): protection case examples — [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- GSC/USWG (2019): protection case examples — [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]
 - IRC (2017): Urban Context Analysis Toolkit — protection screening — [[../01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note]]

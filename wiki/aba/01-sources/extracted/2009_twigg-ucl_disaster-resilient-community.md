@@ -8,7 +8,7 @@ edition_notes: "Version 2, November 2009; supersedes 2007 first edition; revised
 source_url: ""
 source_url_status: "dead — abuhrc.org offline; obtain via UNDRR, ReliefWeb, or Preventionweb"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -35,7 +35,7 @@ notes: "Version 2; 5 thematic areas, 28 components, 167 characteristics aligned 
 canonical_file: ../raw/2009_twigg-ucl_disaster-resilient-community.pdf
 wiki_pages: []
 type: source
-source_id: 2009-twigg-ucl-drr
+source_id: 2009-twigg-ucl-disaster-resilient-community
 source_type: academic
 confidence: high
 lifecycle_stage:

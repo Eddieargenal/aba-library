@@ -6,7 +6,7 @@ year: 2012
 source_url: "https://ef-l.eu/wp-content/uploads/EFL_Brochure_Neighborhood_ApproachToolbox.pdf"
 source_url_status: "verify — ef-l.eu URL may have changed"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -29,7 +29,7 @@ notes: "European housing association context (Dutch/German actors). NOT a humani
 canonical_file: ../raw/2012_efl_neighbourhood-approach-toolbox.pdf
 wiki_pages: []
 type: source
-source_id: 2012-efl-neighbourhood-toolbox
+source_id: 2012-efl-neighbourhood-approach-toolbox
 source_type: ngo-guidance
 confidence: medium
 lifecycle_stage:

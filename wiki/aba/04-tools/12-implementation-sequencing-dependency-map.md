@@ -1,14 +1,15 @@
 ---
 type: tool
 tool_id: tool-12-implementation-sequencing
-lifecycle_stage: "8. Area-based implementation"
+lifecycle_stage:
+  - implementation-adaptation
 status: draft
 primary_users:
   - Field teams
   - Program managers
 source_foundation:
-  - 2019_alnap_global-practice-review-urban-humanitarian-response
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
 field_instruments: []
 related_concepts: []
 related_lifecycle_pages:
@@ -66,7 +67,7 @@ TODO[agent]: Identify key risks in data collection and analysis; define mitigati
 TODO[agent]: Define checks to verify data accuracy and completeness.
 
 ## Source foundation
-- [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]
+- [[../01-sources/extracted/2019-alnap-sanderson-humanitarian-response-urban-contexts]]
 TODO[agent]: Add remaining source links.
 
 ## Links

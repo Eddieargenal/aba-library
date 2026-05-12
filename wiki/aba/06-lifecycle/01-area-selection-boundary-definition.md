@@ -8,7 +8,7 @@ key_tools:
   - tool-03-settlement-boundary-definition
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2019-replication-scale-up-learning-note-framework
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -19,7 +19,7 @@ updated: 2026-05-07
 Select the most appropriate neighborhood(s) for ABA programming and define operational boundaries based on need, vulnerability, access, and feasibility. Produces a formally agreed area boundary that anchors all subsequent work.
 
 ## Key decisions
-TODO[agent]: Define 3-5 key decisions that must be made at this stage. Key sources: 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2019_gsc-uswg_area-based-approaches-urban-settings-compendium.
+TODO[agent]: Define 3-5 key decisions that must be made at this stage. Key sources: 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2019-replication-scale-up-learning-note-framework.
 
 ## Required evidence
 TODO[agent]: Define minimum evidence required before this stage can be completed.
@@ -43,4 +43,4 @@ TODO[agent]: Identify typical errors teams make at this stage, drawn from source
 ## Links
 - Related framework: [[../03-frameworks/area-selection-framework]]
 - [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

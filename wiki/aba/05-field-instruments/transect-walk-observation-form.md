@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: transect-walk-observation-form
 title: Transect Walk Observation Form
-format: observation form
+format: form
 related_tools:
   - tool-04-urban-systems-diagnosis
   - tool-05-hevc-risk-mapping

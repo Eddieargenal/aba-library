@@ -7,7 +7,7 @@ publication_year_note: Filename uses 2017 (original edition year); this extracti
 source_url: "https://reliefweb.int/attachments/b9709dd1-c221-3d27-ae9b-5d9e308f4cc3/201905013_urban_compendium.pdf"
 source_url_status: "active — ReliefWeb (May 2019 edition)"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: on-revision
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "May 2019 edition; filename uses 2017 (original publication year). Cases 
 canonical_file: ../raw/2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf
 wiki_pages: []
 type: source
-source_id: 2017-globalcluster-aba-compendium
+source_id: 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
 source_type: ngo-guidance
 confidence: high
 lifecycle_stage:

@@ -4,9 +4,9 @@ type: review-framework
 status: stub
 wiki_id: mel-05
 source_foundation:
-  - "[[2015_undrr_sendai-framework-drr-2015-2030-framework]]"
-  - "[[2017_undrr_how-to-make-cities-more-resilient-handbook-2017-edition]]"
-  - "[[2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook]]"
+  - 2015-undrr-sendai-framework-drr-2015-2030-framework
+  - 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
+  - 2013-worldbank-building-urban-resilience-principles-tools-practice
 tags: [sendai, municipal, drr, progress-review, reporting]
 created: 2026-05-07
 ---

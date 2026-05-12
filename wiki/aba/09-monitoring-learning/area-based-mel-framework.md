@@ -4,9 +4,9 @@ type: mel-framework
 status: stub
 wiki_id: mel-01
 source_foundation:
-  - "[[2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]"
-  - "[[2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]"
-  - "[[2015_undrr_sendai-framework-drr-2015-2030-framework]]"
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2015-undrr-sendai-framework-drr-2015-2030-framework
 tags: [mel, monitoring, evaluation, learning, area-based]
 created: 2026-05-07
 ---

@@ -6,7 +6,7 @@ year: 2019
 source_url: ""
 source_url_status: "not found — URL absent from source document; search reach-initiative.org or reliefweb.int using title"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -31,7 +31,7 @@ notes: "REACH/UNHCR practical guide for area-based assessments in out-of-camp di
 canonical_file: ../raw/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf
 wiki_pages: []
 type: source
-source_id: 2019-reach-unhcr-aba-ki
+source_id: 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
 source_type: field-evaluation
 confidence: high
 lifecycle_stage:

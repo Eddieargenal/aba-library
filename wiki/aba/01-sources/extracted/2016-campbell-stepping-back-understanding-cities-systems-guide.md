@@ -6,7 +6,7 @@ year: 2016
 source_url: "https://www.researchgate.net/profile/Leah-Campbell-5/publication/316990156_Stepping_Back_Understanding_Cities_and_Their_Systems/links/5a6769b0a6fdcc72a58b6337/Stepping-Back-Understanding-Cities-and-Their-Systems.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19"
 source_url_status: "verify — ResearchGate links are fragile; search alnap.org for canonical copy"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -28,7 +28,7 @@ notes: "ALNAP working paper. Core contribution: 5 urban systems typology (econom
 canonical_file: ../raw/2016-campbell-stepping-back-understanding-cities-systems-guide.pdf
 wiki_pages: []
 type: source
-source_id: 2016-alnap-campbell-urban-systems
+source_id: 2016-campbell-stepping-back-understanding-cities-systems-guide
 source_type: field-evaluation
 confidence: high
 lifecycle_stage:

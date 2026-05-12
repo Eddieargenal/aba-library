@@ -4,7 +4,7 @@ status: draft
 topic: "Scale-Up and Replication"
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2019-replication-scale-up-learning-note-framework
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -28,4 +28,4 @@ TODO[agent]: Identify common transition failures in this area.
 - Lifecycle: [[../06-lifecycle/10-transition-handover-scaling]]
 - Framework: [[../03-frameworks/transition-handover-framework]]
 - [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

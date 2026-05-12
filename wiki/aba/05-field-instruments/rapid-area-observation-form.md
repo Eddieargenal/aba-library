@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: rapid-area-observation-form
 title: Rapid Area Observation Form
-format: observation form
+format: form
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
   - tool-02-area-selection-matrix

@@ -5,7 +5,7 @@ related_tools:
   - tool-06-stakeholder-coordination-mapping
   - tool-13-area-coordination-dashboard
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2017_irc_urban-context-analysis-toolkit-guidance-note, 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2017_irc_urban-context-analysis-toolkit-guidance-note, 2019-replication-scale-up-learning-note-framework
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -28,5 +28,5 @@ TODO[agent]: Extract practical operational guidance from source documents. Key s
 TODO[agent]: Document common challenges and how to address them, drawn from case studies and practice reviews.
 
 ## Links
-- Source foundation: TODO[agent]: add [[../01-sources/extracted/...]] links for 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2017_irc_urban-context-analysis-toolkit-guidance-note, 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+- Source foundation: TODO[agent]: add [[../01-sources/extracted/...]] links for 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2017_irc_urban-context-analysis-toolkit-guidance-note, 2019-replication-scale-up-learning-note-framework
 - Related tools: [[../04-tools/06-stakeholder-coordination-mapping-tool]], [[../04-tools/13-area-coordination-dashboard]]

@@ -6,7 +6,7 @@ year: 2019
 source_url: "https://doi.org/10.1177/0975425319859115"
 source_url_status: "active — DOI link; verify institutional access if paywall applies"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "Journal article — Environment and Urbanization Asia (Sage, 2019). DOI:
 canonical_file: ../raw/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.pdf
 wiki_pages: []
 type: source
-source_id: 2019-baffoe-neighbourhood-evolution
+source_id: 2019-journal-urbanism-understanding-neighbourhood-concept-evolution
 source_type: academic
 confidence: medium
 lifecycle_stage:

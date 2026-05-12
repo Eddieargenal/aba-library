@@ -4,9 +4,9 @@ type: critical-analysis
 status: partial
 wiki_id: risk-05
 source_foundation:
-  - "[[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]"
-  - "[[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]"
-  - "[[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]"
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
+  - 2019-replication-scale-up-learning-note-framework
 tags: [misuse, risks, quality-control, critical-analysis]
 created: 2026-05-07
 updated: 2026-05-07
@@ -93,7 +93,7 @@ If any answer is no → not ABA.
 ### Patterns 5+: Pending Ingestion
 
 <!-- TODO[agent]: Add patterns from ALNAP GPR 12 (2019) after ingesting ./01sources/2019_alnap_global-practice-review-urban-humanitarian-response -->
-<!-- TODO[agent]: Add patterns from GSC/USWG Compendium (2019) after ingesting ./01sources/2019_gsc-uswg_area-based-approaches-urban-settings-compendium -->
+<!-- TODO[agent]: Add patterns from GSC/USWG Compendium (2019) after ingesting ./01sources/2019-replication-scale-up-learning-note-framework -->
 
 ---
 
@@ -114,4 +114,4 @@ Before accepting any programme's ABA claim, verify:
 
 - Parker & Maynard (2015) — [[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]] ✅ ingested
 - ALNAP GPR 12 (2019) — [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]] ⏳ not yet ingested
-- GSC/USWG (2019) — [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]] ⏳ not yet ingested
+- GSC/USWG (2019) — [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]] ⏳ not yet ingested

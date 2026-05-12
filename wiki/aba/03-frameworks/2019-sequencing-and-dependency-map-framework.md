@@ -9,7 +9,7 @@ title: "Sequencing and Dependency Map Framework"
 lifecycle_stage:
   - implementation-adaptation
 source_foundation:
-  - 2019_alnap-sanderson-humanitarian-response-urban-contexts
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
 related_tools: []
 related_concepts: []
 related_frameworks: []

@@ -4,7 +4,7 @@ status: draft
 topic: "Coordination Overhead Risk"
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2019-replication-scale-up-learning-note-framework
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -25,4 +25,4 @@ TODO[agent]: Define indicators that signal this risk is materializing.
 
 ## Links
 - [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

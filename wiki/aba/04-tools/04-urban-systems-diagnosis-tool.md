@@ -1,16 +1,17 @@
 ---
 type: tool
 tool_id: tool-04-urban-systems-diagnosis
-lifecycle_stage: "2. Area profile and systems diagnosis"
+lifecycle_stage:
+  - neighbourhood-diagnosis
 status: draft
 primary_users:
   - Technical advisors
   - Field teams
   - Program managers
 source_foundation:
-  - 2016_campbell_stepping-back-understanding-cities-systems-guide
-  - 2017_irc_urban-context-analysis-toolkit-guidance-note
-  - 2019_alnap_global-practice-review-urban-humanitarian-response
+  - 2016-campbell-stepping-back-understanding-cities-systems-guide
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
 field_instruments: []
 related_concepts:
   - urban-systems-thinking
@@ -40,7 +41,7 @@ This tool operationalizes: [[../03-frameworks/2017-neighborhood-diagnosis-framew
 - What systems must be restored for others to function, and in what sequence?
 
 ## Evidence required
-TODO[agent]: Define evidence per urban system type. Key sources: [[../01-sources/extracted/2016_campbell_stepping-back-understanding-cities-systems-guide]], [[../01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note]].
+TODO[agent]: Define evidence per urban system type. Key sources: [[../01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide]], [[../01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note]].
 
 ## Field data points
 TODO[agent]: Define measurable indicators for each urban system (functionality status, coverage, quality, access barriers).
@@ -73,9 +74,9 @@ TODO[agent]: Risk of overlooking informal systems (informal water vendors, commu
 TODO[agent]: Cross-check service provider data with community observations; verify secondary data currency.
 
 ## Source foundation
-- [[../01-sources/extracted/2016_campbell_stepping-back-understanding-cities-systems-guide]]
-- [[../01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note]]
-- [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]
+- [[../01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide]]
+- [[../01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note]]
+- [[../01-sources/extracted/2019-alnap-sanderson-humanitarian-response-urban-contexts]]
 
 ## Links
 - Lifecycle stage: [[../06-lifecycle/02-area-profile-systems-diagnosis]]

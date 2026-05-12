@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: stakeholder-5w-mapping-form
 title: Stakeholder 5W Mapping Form
-format: mapping form
+format: form
 related_tools:
   - tool-06-stakeholder-coordination-mapping
 required_for_decision_domains:
@@ -95,4 +95,4 @@ Score Domain 5 (stakeholder/coordination complexity) in Tool #01. Feed into dupl
 
 ## Source foundation
 - [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

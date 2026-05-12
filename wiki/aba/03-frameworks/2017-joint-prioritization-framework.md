@@ -1,7 +1,8 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "4. Joint risk and needs prioritization"
+lifecycle_stage:
+  - joint-prioritization
 related_tools:
   - tool-08-joint-risk-needs-prioritization-matrix
 related_concepts:
@@ -11,8 +12,8 @@ related_concepts:
   - multi-sector-response-analysis
   - contribution-vs-attribution
 source_foundation:
-  - 2009_twigg-ucl_disaster-resilient-community
-  - 2012_efl_neighbourhood-approach-toolbox
+  - 2009-twigg-ucl-disaster-resilient-community
+  - 2012-efl-neighbourhood-approach-toolbox
   - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
   - 2015-undrr-sendai-framework-drr-2015-2030-framework
 created: 2026-05-11
@@ -108,7 +109,7 @@ Multiply each domain score by its weight percentage, sum to produce a weighted t
 
 ## Source foundation
 
-- [[../01-sources/extracted/2009_twigg-ucl_disaster-resilient-community]] — Basics First logic; five Thematic Areas for resilience; urgency + actor role/responsibility as the joint criteria for prioritization; five-level milestone scale for tracking DRR maturity over time
-- [[../01-sources/extracted/2012_efl_neighbourhood-approach-toolbox]] — Basics First Triangle as operational prioritization framework; traffic-light scoring (red/orange/green) adapted for quick scan across multiple areas; urgency × actor role = prioritization decision; directly transferable to DRR triage logic
+- [[../01-sources/extracted/2009-twigg-ucl-disaster-resilient-community]] — Basics First logic; five Thematic Areas for resilience; urgency + actor role/responsibility as the joint criteria for prioritization; five-level milestone scale for tracking DRR maturity over time
+- [[../01-sources/extracted/2012-efl-neighbourhood-approach-toolbox]] — Basics First Triangle as operational prioritization framework; traffic-light scoring (red/orange/green) adapted for quick scan across multiple areas; urgency × actor role = prioritization decision; directly transferable to DRR triage logic
 - [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — joint prioritization as a design prerequisite to strategy development; multi-actor collaboration logic; contribution-not-attribution evaluation approach for post-disaster ABA
 - [[../01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework]] — four Sendai priorities as DRR weighting reference for domain 4; seven global targets as measurable anchors for DRR relevance scoring; framing of DRR as investment not cost

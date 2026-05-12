@@ -36,14 +36,15 @@ Determine whether an area-based approach is appropriate, necessary, and feasible
 
 Minimum evidence before this decision can be made (from Parker & Maynard 2015 and Tool #01):
 
-| Evidence | Source | Instrument |
-|---|---|---|
-| Geographic concentration of need | Rapid area observation + secondary data | [[../05-field-instruments/rapid-area-observation-form]] |
-| Sector failure interdependency | Field observation + KIIs | [[../05-field-instruments/transect-walk-observation-form]] |
-| Municipal capacity and plans | Municipal authority KII | [[../05-field-instruments/kii-guide-municipality]] |
-| Existing community structures | Community leader KII | [[../05-field-instruments/kii-guide-community-leaders]] |
-| Actor 5W mapping | All available sources | [[../05-field-instruments/stakeholder-5w-mapping-form]] |
-| Hazard/exposure/vulnerability profile | Field + secondary | [[../05-field-instruments/hazard-exposure-vulnerability-capacity-matrix]] |
+| Evidence                              | Source                                  | Instrument                                                                |
+| ------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------- |
+| Geographic concentration of need      | Rapid area observation + secondary data | [[../05-field-instruments/rapid-area-observation-form]]                   |
+| Sector failure interdependency        | Field observation + KIIs                | [[../05-field-instruments/transect-walk-observation-form]]                |
+| Municipal capacity and plans          | Municipal authority KII                 | [[../05-field-instruments/kii-guide-municipality]]                        |
+| Existing community structures         | Community leader KII                    | [[../05-field-instruments/kii-guide-community-leaders]]                   |
+| Actor 5W mapping                      | All available sources                   | [[../05-field-instruments/stakeholder-5w-mapping-form]]                   |
+| Hazard/exposure/vulnerability profile | Field + secondary                       | [[../05-field-instruments/hazard-exposure-vulnerability-capacity-matrix]] |
+|                                       |                                         |                                                                           |
 
 ---
 

@@ -6,7 +6,7 @@ year: 2015
 source_url: "https://alnap.org/documents/8949/area-based-approaches-dfid-irc-discussion-paper.pdf"
 source_url_status: "verify — ALNAP URL structure may have changed"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -29,7 +29,7 @@ notes: "Short but definitionally important: establishes the three core ABA chara
 canonical_file: ../raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf
 wiki_pages: []
 type: source
-source_id: 2015-dfid-irc-alnap-aba
+source_id: 2015-dfid-irc-alnap-aba-discussion-paper
 source_type: field-evaluation
 confidence: high
 lifecycle_stage:

@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: local-resource-inventory
 title: Local Resource Inventory
-format: inventory form
+format: form
 related_tools:
   - tool-06-stakeholder-coordination-mapping
   - tool-10-integrated-area-strategy-builder
@@ -108,4 +108,4 @@ Score Domain 6 (local capacity/resource leverage) in Tool #01. Feed into integra
 
 ## Source foundation
 - [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

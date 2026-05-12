@@ -5,7 +5,9 @@ related_tools:
   - tool-06-stakeholder-coordination-mapping
   - tool-13-area-coordination-dashboard
 source_foundation:
-  - 2026_iasc_standard-terms-reference-area-based-coordination, 2019_gsc-uswg_area-based-approaches-urban-settings-compendium, 2015_parker-maynard_humanitarian-response-urban-crises-aba-review
+  - 2026-iasc-standard-terms-reference-area-based-coordination-tor
+  - 2019-replication-scale-up-learning-note-framework
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -28,5 +30,5 @@ TODO[agent]: Extract practical operational guidance from source documents. Key s
 TODO[agent]: Document common challenges and how to address them, drawn from case studies and practice reviews.
 
 ## Links
-- Source foundation: TODO[agent]: add [[../01-sources/extracted/...]] links for 2026_iasc_standard-terms-reference-area-based-coordination, 2019_gsc-uswg_area-based-approaches-urban-settings-compendium, 2015_parker-maynard_humanitarian-response-urban-crises-aba-review
+- Source foundation: TODO[agent]: add [[../01-sources/extracted/...]] links for 2026_iasc_standard-terms-reference-area-based-coordination, 2019-replication-scale-up-learning-note-framework, 2015_parker-maynard_humanitarian-response-urban-crises-aba-review
 - Related tools: [[../04-tools/06-stakeholder-coordination-mapping-tool]], [[../04-tools/13-area-coordination-dashboard]]

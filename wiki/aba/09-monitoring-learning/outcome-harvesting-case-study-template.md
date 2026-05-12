@@ -4,8 +4,8 @@ type: template
 status: stub
 wiki_id: mel-04
 source_foundation:
-  - "[[2019_alnap_barrio-mio-katye-neighbourhood-approach-cities-case-study]]"
-  - "[[2019_alnap_global-practice-review-urban-humanitarian-response-report]]"
+  - 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
 tags: [outcome-harvesting, case-study, learning, documentation]
 created: 2026-05-07
 ---

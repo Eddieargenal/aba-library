@@ -4,7 +4,7 @@ type: learning-note
 status: stub
 wiki_id: trans-03
 source_foundation:
-  - "[[2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]"
+  - "[[2019-replication-scale-up-learning-note-framework]]"
   - "[[2019_alnap_barrio-mio-katye-neighbourhood-approach-cities-case-study]]"
   - "[[2019_alnap_global-practice-review-urban-humanitarian-response-report]]"
 tags: [replication, scale-up, learning, knowledge-transfer]

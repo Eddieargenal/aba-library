@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: kii-guide-ngos-cbos
 title: "KII Guide — NGOs and CBOs"
-format: kii guide
+format: guide
 related_tools:
   - tool-06-stakeholder-coordination-mapping
   - tool-01-aba-feasibility-and-necessity-assessment
@@ -92,5 +92,5 @@ Populate stakeholder 5W mapping form. Score Domains 5 (coordination complexity) 
 - [[../04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
 
 ## Source foundation
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]
 - [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]]

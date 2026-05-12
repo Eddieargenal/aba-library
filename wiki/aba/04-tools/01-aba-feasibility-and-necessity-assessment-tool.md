@@ -1,7 +1,8 @@
 ---
 type: tool
 tool_id: tool-01-aba-feasibility-and-necessity-assessment
-lifecycle_stage: "0. Appropriateness decision"
+lifecycle_stage:
+  - appropriateness-decision
 status: draft
 primary_users:
   - Program managers
@@ -9,13 +10,13 @@ primary_users:
   - Area coordinators
   - Humanitarian response teams
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2015_parker-maynard_humanitarian-response-urban-crises-aba-review
-  - 2016_campbell_stepping-back-understanding-cities-systems-guide
-  - 2015_undrr_sendai-framework-drr-2015-2030-framework
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
-  - 2019_alnap_global-practice-review-urban-humanitarian-response
-  - 2019_reach-unhcr_area-based-assessment-key-informants-practical-guide
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2016-campbell-stepping-back-understanding-cities-systems-guide
+  - 2015-undrr-sendai-framework-drr-2015-2030-framework
+  - 2019-replication-scale-up-learning-note-framework
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
+  - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
 field_instruments:
   - rapid-area-observation-form
   - transect-walk-observation-form
@@ -740,13 +741,13 @@ Completing this tool produces the following 12 deliverables:
 12. **Decision memo** — summary of evidence by module, total weighted score, recommendation, conditions and caveats, next steps, evidence gaps, and required approvals — use [[../05-field-instruments/decision-memo-template]]
 
 ## Source foundation
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]
-- [[../01-sources/extracted/2016_campbell_stepping-back-understanding-cities-systems-guide]]
-- [[../01-sources/extracted/2015_undrr_sendai-framework-drr-2015-2030-framework]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
-- [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]
-- [[../01-sources/extracted/2019_reach-unhcr_area-based-assessment-key-informants-practical-guide]]
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
+- [[../01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]]
+- [[../01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide]]
+- [[../01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]
+- [[../01-sources/extracted/2019-alnap-sanderson-humanitarian-response-urban-contexts]]
+- [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]]
 
 ## Links
 - Framework: [[../03-frameworks/aba-appropriateness-decision-framework]]

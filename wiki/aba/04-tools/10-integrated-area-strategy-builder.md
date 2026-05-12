@@ -1,15 +1,16 @@
 ---
 type: tool
 tool_id: tool-10-integrated-area-strategy
-lifecycle_stage: "5. Integrated area strategy"
+lifecycle_stage:
+  - integrated-area-strategy
 status: draft
 primary_users:
   - Field teams
   - Program managers
 source_foundation:
-  - 2017_mohiddin-smith-phelps_urban-response-analysis-framework
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2017-response-option-comparison-matrix-framework
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2019-replication-scale-up-learning-note-framework
 field_instruments: []
 related_concepts: []
 related_lifecycle_pages:
@@ -70,7 +71,7 @@ TODO[agent]: Identify key risks in data collection and analysis; define mitigati
 TODO[agent]: Define checks to verify data accuracy and completeness.
 
 ## Source foundation
-- [[../01-sources/extracted/2017_mohiddin-smith-phelps_urban-response-analysis-framework]]
+- [[../01-sources/extracted/2017-response-option-comparison-matrix-framework]]
 TODO[agent]: Add remaining source links.
 
 ## Links

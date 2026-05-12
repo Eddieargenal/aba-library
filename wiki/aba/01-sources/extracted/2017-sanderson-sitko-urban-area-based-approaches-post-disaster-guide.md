@@ -6,7 +6,7 @@ year: 2017
 source_url: "http://pubs.iied.org/10825IIED"
 source_url_status: "verify — IIED migrated from pubs.iied.org; try https://www.iied.org/10825iied"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -31,7 +31,7 @@ notes: "10-principle ABA guidance for post-rapid-onset-disaster urban response (
 canonical_file: ../raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf
 wiki_pages: []
 type: source
-source_id: 2017-sanderson-sitko-aba-post-disaster
+source_id: 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
 source_type: ngo-guidance
 confidence: high
 lifecycle_stage:

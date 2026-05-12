@@ -4,9 +4,9 @@ type: assessment-tool
 status: stub
 wiki_id: mel-03
 source_foundation:
-  - "[[2019_reach-unhcr_area-based-assessment-key-informants-practical-guide]]"
-  - "[[2017_irc_urban-context-analysis-toolkit-guidance-note]]"
-  - "[[2017_mohiddin-smith-phelps_urban-response-analysis-framework]]"
+  - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
+  - 2017-mohiddin-smith-phelps-urban-response-analysis-framework
 tags: [reassessment, monitoring, area-based, periodic-review]
 created: 2026-05-07
 ---

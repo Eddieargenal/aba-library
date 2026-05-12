@@ -178,7 +178,7 @@ From Parker & Maynard (2015):
 - [[../01-sources/extracted/2019-gsc-uswg-area-based-approaches-urban-settings-compendium]]
 - [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]]
 - [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]]
-- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]]
+- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study]]
 - [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]]
 - [[../01-sources/extracted/2015-dfid-irc-alnap-humanitarian-response-urban-areas-discussion-paper]]
 

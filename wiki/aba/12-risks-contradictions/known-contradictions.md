@@ -4,9 +4,9 @@ type: critical-analysis
 status: stub
 wiki_id: risk-01
 source_foundation:
-  - "[[2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]"
-  - "[[2019_alnap_global-practice-review-urban-humanitarian-response-report]]"
-  - "[[2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]"
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
 tags: [contradictions, critical-analysis, evidence-gaps, limitations]
 created: 2026-05-07
 ---

@@ -4,8 +4,8 @@ type: quality-control
 status: stub
 wiki_id: risk-04
 source_foundation:
-  - "[[2009_twigg_characteristics-disaster-resilient-community]]"
-  - "[[2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy]]"
+  - 2009-twigg-ucl-disaster-resilient-community
+  - 2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy
 tags:
   - stale-guidance
   - outdated

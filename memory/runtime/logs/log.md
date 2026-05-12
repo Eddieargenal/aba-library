@@ -86,7 +86,7 @@ Where `type` is one of: `ingest` · `query` · `lint` · `schema` · `maintenanc
 
 ## [2026-05-11] query | ABA characteristics according to Parker & Maynard (2015)
 - question: top three characteristics of area-based approach according to Maynard
-- pages read: 2015-parker-maynard-aba-review, area-based-approach concept
+- pages read: 2015-parker-maynard-humanitarian-response-urban-crises-aba-review, area-based-approach concept
 - answer: geographic targeting + participatory + multi-sectoral — all three required simultaneously
 - tensions flagged: stricter than DFID/IRC/ALNAP (2015), GSC (2019), Sanderson & Sitko (2017) definitions
 
@@ -96,3 +96,5 @@ Where `type` is one of: `ingest` · `query` · `lint` · `schema` · `maintenanc
 - pages read: grep on index, sed on 3 source files; concept page from prior session context
 - answer: 3 consensus characteristics (geographic, participatory, multi-sector); source-by-source additions mapped; simultaneity requirement contested
 - sources: parker-maynard-2015, dfid-irc-alnap-2015, sanderson-sitko-2017, globalcluster-2019
+
+## [2026-05-12] remediation | Alignment audit remediation complete — all spec-defined page types corrected; 2 sources need ingestion; H-3 field instrument linking deferred

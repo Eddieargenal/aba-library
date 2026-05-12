@@ -12,7 +12,7 @@ Rules: lowercase kebab-case; identify the SOURCE DOCUMENT, not derived tools; pr
 
 Examples:
 - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide.pdf
-- 2019_gsc-uswg_area-based-approaches-urban-settings-compendium.pdf
+- 2019-replication-scale-up-learning-note-framework.pdf
 - 2015_undrr_sendai-framework-drr-2015-2030-framework.pdf
 
 ## Wiki pages

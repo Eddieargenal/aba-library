@@ -6,7 +6,7 @@ year: 2017
 source_url: "http://pubs.iied.org/10824IIED"
 source_url_status: "verify — IIED migrated from pubs.iied.org; try https://www.iied.org/10824iied"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -32,7 +32,7 @@ notes: "URAF — 6-step decision support framework for multi-sector response sel
 canonical_file: ../raw/2017-response-option-comparison-matrix-framework.pdf
 wiki_pages: []
 type: source
-source_id: 2017-nrc-uraf
+source_id: 2017-response-option-comparison-matrix-framework
 source_type: ngo-guidance
 confidence: high
 lifecycle_stage:

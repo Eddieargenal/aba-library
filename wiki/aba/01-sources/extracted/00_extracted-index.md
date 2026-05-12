@@ -38,7 +38,7 @@ Synthesis pages for all 23 ingested source documents. Each file converts a raw P
 | [[2018_allen-building-better_concepts-of-neighbourhood-literature-review]] | Allen / Building Better NZ | 2018 | Concepts of Neighbourhood | Literature review: spatial / social / socio-spatial typology; resident-defined boundaries diverge from administrative; mixed-methods approaches |
 | [[2019_alnap-sanderson-humanitarian-response-urban-contexts]] | Sanderson / ODI–HPN | 2019 | Good Practice Review 12 | Comprehensive urban humanitarian response reference: context, cross-cutting themes, programme-cycle tools, sector guidance; adaptive design and M&E |
 | [[2019_journal-urbanism_understanding-neighbourhood-concept-evolution]] | Baffoe / Sage | 2019 | Neighbourhood Concept Evolution | Journal article: place / community / policy-unit typology; Chicago School roots; context-driven definitions; global south constraints flagged |
-| [[2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]] | Campbell / ALNAP | 2019 | Barrio Mio and Katye | PCI case study: six complexity-navigation approaches; convenor role shift; pilot-and-scale logic; iterative evidence-based adaptation |
+| [[2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study]] | Campbell / ALNAP | 2019 | Barrio Mio and Katye | PCI case study: six complexity-navigation approaches; convenor role shift; pilot-and-scale logic; iterative evidence-based adaptation |
 | [[2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]] | REACH / UNHCR | 2019 | Area-Based Assessment with Key Informants | MFGD boundary validation; topic-specific KI selection; optional social network analysis; community areas ≠ service areas |
 | [[2019-replication-scale-up-learning-note-framework]] | Global Shelter Cluster | 2019 | Replication / Scale-Up Learning Note | Scale-up pathways and lessons from ABA cases; may overlap with ABA Compendium ⚠️ Verify against raw PDF — possible duplicate content |
 | [[2026-iasc-standard-terms-reference-area-based-coordination-tor]] | IASC | 2026 | ABC Terms of Reference | Authoritative definition of area-based coordination: light, time-bound, geography-based structure; local actor engagement; accountability to affected people |
@@ -82,7 +82,7 @@ Use when looking for sources on a specific topic rather than a specific document
 - [[2017-response-option-comparison-matrix-framework]] — URAF six-step multi-sector response analysis
 
 ### Case studies and learning
-- [[2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]] — Barrio Mio, Guatemala City + Katye, Port-au-Prince
+- [[2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study]] — Barrio Mio, Guatemala City + Katye, Port-au-Prince
 - [[2019-replication-scale-up-learning-note-framework]] — scale-up learning (verify against raw PDF)
 
 ---

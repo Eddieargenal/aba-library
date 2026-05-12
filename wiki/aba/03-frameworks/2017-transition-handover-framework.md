@@ -1,7 +1,8 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "10. Transition and handover"
+lifecycle_stage:
+  - transition-handover
 related_tools:
   - tool-17-handover-scale-up-checklist
 related_concepts:
@@ -14,7 +15,7 @@ source_foundation:
   - 2019-replication-scale-up-learning-note-framework
   - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
   - 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
-  - 2026-iasc-standard-terms-reference-area-based-coordination-tor
+  - 2026-iasc-standard-terms-reference-area-based-coordination-tor-tor
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
@@ -99,4 +100,4 @@ Use a five-gate readiness model. All five gates must pass before full handover p
 - [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]] — pilot-demonstrate-replicate logic; enabling conditions for scale-up; role transfer from implementer to facilitator; iterative management during transition
 - [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — handover as planned endpoint designed at programme inception; engaging local structures as prerequisite for ownership; contribution-based evaluation logic for multi-actor transitions
 - [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]] — documented evidence of what happens when programmes fail to shift from implementer to facilitator; community-led practice as sustainability factor; iterative pilot-and-scale evidence
-- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]] — ABC platforms are explicitly time-bound with dissolution and succession criteria required in founding TOR; formal leadership transition protocols for non-local chairs
+- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor-tor]] — ABC platforms are explicitly time-bound with dissolution and succession criteria required in founding TOR; formal leadership transition protocols for non-local chairs

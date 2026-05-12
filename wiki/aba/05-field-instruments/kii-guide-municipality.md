@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: kii-guide-municipality
 title: "KII Guide — Municipality"
-format: kii guide
+format: guide
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
   - tool-06-stakeholder-coordination-mapping
@@ -109,4 +109,4 @@ Populate Domain 5 (coordination complexity), Domain 6 (local capacity), and Doma
 
 ## Source foundation
 - [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

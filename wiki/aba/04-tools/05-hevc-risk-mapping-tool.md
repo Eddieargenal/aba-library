@@ -1,16 +1,17 @@
 ---
 type: tool
 tool_id: tool-05-hevc-risk-mapping
-lifecycle_stage: "2. Area profile and systems diagnosis"
+lifecycle_stage:
+  - neighbourhood-diagnosis
 status: draft
 primary_users:
   - DRR specialists
   - Technical advisors
   - Field teams
 source_foundation:
-  - 2015_undrr_sendai-framework-drr-2015-2030-framework
-  - 2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2015-undrr-sendai-framework-drr-2015-2030-framework
+  - 2013-worldbank-building-urban-resilience-principles-tools-practice
+  - 2009-twigg-ucl-disaster-resilient-community
 field_instruments:
   - hazard-exposure-vulnerability-capacity-matrix
 related_concepts:
@@ -41,7 +42,7 @@ This tool operationalizes: [[../03-frameworks/2017-neighborhood-diagnosis-framew
 - How should the response design integrate DRR principles to reduce future risk?
 
 ## Evidence required
-TODO[agent]: Define evidence requirements for each HEVC component. Key sources: [[../01-sources/extracted/2015_undrr_sendai-framework-drr-2015-2030-framework]], [[2009_twigg_characteristics-disaster-resilient-community]].
+TODO[agent]: Define evidence requirements for each HEVC component. Key sources: [[../01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework]], [[2009_twigg_characteristics-disaster-resilient-community]].
 
 ## Field data points
 TODO[agent]: Define hazard indicators, exposure metrics, vulnerability factors (physical, social, economic, institutional), and capacity indicators.
@@ -74,8 +75,8 @@ TODO[agent]: Risk of using global hazard data without local verification; risk o
 TODO[agent]: Cross-check hazard maps with community knowledge; verify data currency and geographic resolution.
 
 ## Source foundation
-- [[../01-sources/extracted/2015_undrr_sendai-framework-drr-2015-2030-framework]]
-- [[../01-sources/extracted/2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook]]
+- [[../01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework]]
+- [[../01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice]]
 - [[2009_twigg_characteristics-disaster-resilient-community]]
 
 ## Links

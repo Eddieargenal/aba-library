@@ -7,7 +7,7 @@ related_tools:
   - tool-16-area-based-mel-adaptation-framework
 source_foundation:
   - 2015_undrr_sendai-framework-drr-2015-2030-framework
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2009-twigg-ucl-disaster-resilient-community
 created: 2026-05-07
 updated: 2026-05-07
 ---

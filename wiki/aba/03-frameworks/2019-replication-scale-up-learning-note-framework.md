@@ -10,7 +10,7 @@ lifecycle_stage:
   - transition-handover
 source_foundation:
   - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
-  - 2019_alnap-sanderson-humanitarian-response-urban-contexts
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
 related_tools: []
 related_concepts: []
 related_frameworks: []

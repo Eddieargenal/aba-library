@@ -7,7 +7,7 @@ key_tools:
   - tool-16-area-based-mel
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2009-twigg-ucl-disaster-resilient-community
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -18,7 +18,7 @@ updated: 2026-05-07
 Monitor area-level outcomes, generate learning on what is working and what is not, and trigger adaptive management responses based on evidence and community feedback.
 
 ## Key decisions
-TODO[agent]: Define 3-5 key decisions that must be made at this stage. Key sources: 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2007_twigg_characteristics-disaster-resilient-community-framework.
+TODO[agent]: Define 3-5 key decisions that must be made at this stage. Key sources: 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2009-twigg-ucl-disaster-resilient-community.
 
 ## Required evidence
 TODO[agent]: Define minimum evidence required before this stage can be completed.

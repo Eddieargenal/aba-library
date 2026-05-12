@@ -6,7 +6,7 @@ year: 2017
 source_url: "https://www.unisdr.org/campaign"
 source_url_status: "indirect — source_url is campaign home page, not specific 2017 PDF; search undrr.org for 'How to Make Cities More Resilient Handbook 2017'"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -31,7 +31,7 @@ notes: "2017 edition of the Making Cities Resilient campaign handbook. Structure
 canonical_file: ../raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf
 wiki_pages: []
 type: source
-source_id: 2017-undrr-mcr-handbook
+source_id: 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
 source_type: un-policy
 confidence: high
 lifecycle_stage:

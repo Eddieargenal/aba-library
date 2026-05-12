@@ -3,8 +3,8 @@ type: risk-contradiction
 status: draft
 topic: "Tokenistic Participation Risk"
 source_foundation:
-  - 2015_parker-maynard_humanitarian-response-urban-crises-aba-review
-  - 2019_alnap_global-practice-review-urban-humanitarian-response
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
 created: 2026-05-07
 updated: 2026-05-07
 ---

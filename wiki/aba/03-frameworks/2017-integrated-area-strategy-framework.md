@@ -1,7 +1,8 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "5. Integrated area strategy"
+lifecycle_stage:
+  - integrated-area-strategy
 related_tools:
   - tool-10-integrated-area-strategy-builder
   - tool-09-response-option-comparison-matrix
@@ -15,7 +16,7 @@ related_concepts:
 source_foundation:
   - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
   - 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
-  - 2012_efl_neighbourhood-approach-toolbox
+  - 2012-efl-neighbourhood-approach-toolbox
   - 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
 created: 2026-05-11
 updated: 2026-05-11
@@ -106,5 +107,5 @@ Apply a **readiness gate model** across all six domains before the strategy is a
 
 - [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — location-first programming logic; strategy design sequence (location → analysis → strategy → implementation); integrated vs. siloed response comparison; adaptive management as explicit design requirement
 - [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study]] — case evidence of strategy integration from Barrio Mio (Guatemala City) and Katye (Port-au-Prince); convenor role sustaining cross-sector strategy; local resource leverage in practice
-- [[../01-sources/extracted/2012_efl_neighbourhood-approach-toolbox]] — Basics First sequencing principle; coordinated intervention logic (customized by area but using standard analytical scaffold); four-step framework: goal → analysis → strategy → implementation
+- [[../01-sources/extracted/2012-efl-neighbourhood-approach-toolbox]] — Basics First sequencing principle; coordinated intervention logic (customized by area but using standard analytical scaffold); four-step framework: goal → analysis → strategy → implementation
 - [[../01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies]] — cross-context strategy examples; coordination architecture choices at different scales; multi-stakeholder integration patterns in urban ABA

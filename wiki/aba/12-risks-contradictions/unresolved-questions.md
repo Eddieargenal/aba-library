@@ -4,9 +4,9 @@ type: research-agenda
 status: stub
 wiki_id: risk-03
 source_foundation:
-  - "[[2019_alnap_global-practice-review-urban-humanitarian-response-report]]"
-  - "[[2015_parker-maynard_humanitarian-response-urban-crises-aba-review]]"
-  - "[[2017_mohiddin-smith-phelps_urban-response-analysis-framework]]"
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
+  - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+  - 2017-mohiddin-smith-phelps-urban-response-analysis-framework
 tags: [research-gaps, open-questions, knowledge-frontier]
 created: 2026-05-07
 ---

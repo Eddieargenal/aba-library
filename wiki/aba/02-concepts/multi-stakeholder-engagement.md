@@ -1,7 +1,7 @@
 ---
 type: concept
 status: active
-maturity: sapling
+maturity: emerging
 source_count: 8
 related_tools:
   - tool-06-stakeholder-coordination-mapping-tool

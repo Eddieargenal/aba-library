@@ -4,7 +4,7 @@ status: draft
 topic: "Municipal and Government Engagement"
 source_foundation:
   - 2016_campbell_stepping-back-understanding-cities-systems-guide
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
+  - 2019-replication-scale-up-learning-note-framework
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -27,4 +27,4 @@ TODO[agent]: Define minimum standards for this coordination function.
 - Tool: [[../04-tools/06-stakeholder-coordination-mapping-tool]]
 - Framework: [[../03-frameworks/area-based-coordination-framework]]
 - [[../01-sources/extracted/2016_campbell_stepping-back-understanding-cities-systems-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]

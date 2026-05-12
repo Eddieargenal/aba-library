@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: kii-guide-protection-actors
 title: "KII Guide — Protection Actors"
-format: kii guide
+format: guide
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment
   - tool-07-community-engagement-platform

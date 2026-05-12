@@ -6,7 +6,7 @@ year: 2018
 source_url: "http://www.buildingbetter.nz/resources/publications.html"
 source_url_status: "indirect — source_url points to publications index; direct PDF URL not confirmed; search buildingbetter.nz for Working Paper 18-02"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "Working Paper 18-02, Building Better Homes, Towns and Cities National Sc
 canonical_file: ../raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf
 wiki_pages: []
 type: source
-source_id: 2018-allen-neighbourhood-concepts
+source_id: 2018-allen-building-better-concepts-of-neighbourhood-literature-review
 source_type: academic
 confidence: medium
 lifecycle_stage:

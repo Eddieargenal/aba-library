@@ -4,9 +4,9 @@ type: indicator-set
 status: stub
 wiki_id: mel-02
 source_foundation:
-  - "[[2009_twigg_characteristics-disaster-resilient-community]]"
-  - "[[2017_undrr_how-to-make-cities-more-resilient-handbook-2017-edition]]"
-  - "[[2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook]]"
+  - 2009-twigg-ucl-disaster-resilient-community
+  - 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
+  - 2013-worldbank-building-urban-resilience-principles-tools-practice
 tags:
   - indicators
   - resilience

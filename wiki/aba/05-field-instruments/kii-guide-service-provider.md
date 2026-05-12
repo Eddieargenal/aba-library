@@ -2,7 +2,7 @@
 type: field-instrument
 instrument_id: kii-guide-service-provider
 title: "KII Guide — Service Provider"
-format: kii guide
+format: guide
 related_tools:
   - tool-04-urban-systems-diagnosis
   - tool-06-stakeholder-coordination-mapping

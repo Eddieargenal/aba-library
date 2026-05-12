@@ -4,7 +4,7 @@ status: draft
 topic: "Build Back Better and Recovery Alignment"
 source_foundation:
   - 2015_undrr_sendai-framework-drr-2015-2030-framework
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2009-twigg-ucl-disaster-resilient-community
 created: 2026-05-07
 updated: 2026-05-07
 ---

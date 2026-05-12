@@ -1,7 +1,8 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "2. Area profile and systems diagnosis"
+lifecycle_stage:
+  - neighbourhood-diagnosis
 related_tools:
   - tool-04-urban-systems-diagnosis-tool
   - tool-05-hevc-risk-mapping-tool
@@ -17,7 +18,7 @@ source_foundation:
   - 2017-iied-urban-context-analysis-toolkit-guidance-note
   - 2016-campbell-stepping-back-understanding-cities-systems-guide
   - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
-  - 2009_twigg-ucl_disaster-resilient-community
+  - 2009-twigg-ucl-disaster-resilient-community
 created: 2026-05-11
 updated: 2026-05-11
 used_by_outputs: []
@@ -114,4 +115,4 @@ This framework uses a **completeness threshold model**, not a scoring model. Eac
 - [[../01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note]] — 10-step, 3-phase urban context analysis toolkit; distinction between context analysis and needs assessment; five analytical themes; approximately two-week field collection baseline; triangulation requirements
 - [[../01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide]] — five-system urban typology (physical, economic, social, institutional, environmental); multi-scale systems analysis; what to look for in urban systems to identify leverage points for area-based programming
 - [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]] — KI-based assessment design; cumulative assessment across KI profiles; triangulation methodology; boundary-before-data rule; service functionality mapping through KII with service providers
-- [[../01-sources/extracted/2009_twigg-ucl_disaster-resilient-community]] — five Thematic Areas for DRR resilience assessment; VCA methodology aligned to HEVC structure; participatory hazard/risk assessment requirements; five-level milestone scale for tracking DRR maturity over time
+- [[../01-sources/extracted/2009-twigg-ucl-disaster-resilient-community]] — five Thematic Areas for DRR resilience assessment; VCA methodology aligned to HEVC structure; participatory hazard/risk assessment requirements; five-level milestone scale for tracking DRR maturity over time

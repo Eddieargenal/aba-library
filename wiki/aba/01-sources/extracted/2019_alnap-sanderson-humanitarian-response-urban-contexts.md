@@ -6,7 +6,7 @@ year: 2019
 source_url: "https://odihpn.org/publication/humanitarian-response-in-urban-contexts/"
 source_url_status: "verify — confirm this URL yields the specific PDF download for GPR 12"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "Good Practice Review 12 (GPR 12) from ODI/HPN. Comprehensive operational
 canonical_file: ../raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf
 wiki_pages: []
 type: source
-source_id: 2019-sanderson-gpr12
+source_id: 2019-alnap-sanderson-humanitarian-response-urban-contexts
 source_type: field-evaluation
 confidence: high
 lifecycle_stage:

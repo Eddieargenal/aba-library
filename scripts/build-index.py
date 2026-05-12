@@ -20,7 +20,7 @@ DIRS = {
     "field-instrument": "wiki/aba/05-field-instruments",
 }
 
-EXCLUDE = {"00_index.md"}
+EXCLUDE = None  # files whose names start with "00_" are excluded (see collect())
 OUTPUT = os.path.join(VAULT, "indexes", "agent-index.md")
 
 
@@ -64,7 +64,7 @@ def collect(ptype):
         return []
     pages = []
     for fname in sorted(os.listdir(dirpath)):
-        if not fname.endswith(".md") or fname in EXCLUDE:
+        if not fname.endswith(".md") or fname.startswith("00_"):
             continue
         fpath = os.path.join(dirpath, fname)
         fm = parse_frontmatter(fpath)

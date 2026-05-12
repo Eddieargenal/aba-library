@@ -1,15 +1,16 @@
 ---
 type: tool
 tool_id: tool-02-area-selection-matrix
-lifecycle_stage: "1. Area selection and boundary definition"
+lifecycle_stage:
+  - area-selection
 status: draft
 primary_users:
   - Field teams
   - Program managers
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
-  - 2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2019-replication-scale-up-learning-note-framework
+  - 2013-worldbank-building-urban-resilience-principles-tools-practice
 field_instruments: []
 related_concepts:
   - geographic-targeting
@@ -40,7 +41,7 @@ This tool operationalizes: [[../03-frameworks/2017-area-selection-framework]]
 - Are there trade-offs between need severity and operational feasibility that affect selection?
 
 ## Evidence required
-TODO[agent]: Define evidence for each scoring criterion. Key sources: [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]], [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]].
+TODO[agent]: Define evidence for each scoring criterion. Key sources: [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]], [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]].
 
 ## Field data points
 TODO[agent]: Define observable and measurable field data points for each criterion. Include hazard exposure indicators, need severity proxies, vulnerability markers, and access conditions.
@@ -73,9 +74,9 @@ TODO[agent]: Identify risks (cherry-picking, administrative bias, excluding disp
 TODO[agent]: Define data quality checks for area comparison data.
 
 ## Source foundation
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019_gsc-uswg_area-based-approaches-urban-settings-compendium]]
-- [[../01-sources/extracted/2013_worldbank-gfdrr_building-urban-resilience-principles-tools-practice-handbook]]
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
+- [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]
+- [[../01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice]]
 
 ## Links
 - Lifecycle stage: [[../06-lifecycle/01-area-selection-boundary-definition]]

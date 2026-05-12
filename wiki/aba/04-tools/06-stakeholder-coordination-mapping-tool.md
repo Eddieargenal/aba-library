@@ -1,16 +1,17 @@
 ---
 type: tool
 tool_id: tool-06-stakeholder-coordination-mapping
-lifecycle_stage: "2. Area profile and systems diagnosis"
+lifecycle_stage:
+  - neighbourhood-diagnosis
 status: draft
 primary_users:
   - Coordination officers
   - Program managers
   - Field teams
 source_foundation:
-  - 2017_irc_urban-context-analysis-toolkit-guidance-note
-  - 2017_mohiddin-smith-phelps_urban-response-analysis-framework
-  - 2026_iasc_standard-terms-reference-area-based-coordination
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
+  - 2017-response-option-comparison-matrix-framework
+  - 2026-iasc-standard-terms-reference-area-based-coordination-tor
 field_instruments:
   - stakeholder-5w-mapping-form
   - local-resource-inventory
@@ -43,7 +44,7 @@ This tool operationalizes: [[../03-frameworks/2026-area-based-coordination-frame
 - Which local actors, institutions, or resources can be engaged and leveraged?
 
 ## Evidence required
-TODO[agent]: Define evidence for 5W mapping and local resource identification. Key sources: [[../01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note]], [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]].
+TODO[agent]: Define evidence for 5W mapping and local resource identification. Key sources: [[../01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note]], [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]].
 
 ## Field data points
 TODO[agent]: Actor names, activity types, geographic coverage, target populations, funding status, coordination membership, local actor capacity.
@@ -77,9 +78,9 @@ TODO[agent]: Risk of excluding informal or non-registered local actors; risk of 
 TODO[agent]: Verify actor data with multiple sources; update 5W at regular intervals.
 
 ## Source foundation
-- [[../01-sources/extracted/2017_irc_urban-context-analysis-toolkit-guidance-note]]
-- [[../01-sources/extracted/2017_mohiddin-smith-phelps_urban-response-analysis-framework]]
-- [[../01-sources/extracted/2026_iasc_standard-terms-reference-area-based-coordination]]
+- [[../01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note]]
+- [[../01-sources/extracted/2017-response-option-comparison-matrix-framework]]
+- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]]
 
 ## Links
 - Lifecycle stage: [[../06-lifecycle/02-area-profile-systems-diagnosis]]

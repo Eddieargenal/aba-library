@@ -1,15 +1,16 @@
 ---
 type: tool
 tool_id: tool-11-sector-technical-design
-lifecycle_stage: "7. Detailed technical design"
+lifecycle_stage:
+  - integrated-area-strategy
 status: draft
 primary_users:
   - Field teams
   - Program managers
 source_foundation:
-  - 2019_alnap_global-practice-review-urban-humanitarian-response
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium
-  - 2007_twigg_characteristics-disaster-resilient-community-framework
+  - 2019-alnap-sanderson-humanitarian-response-urban-contexts
+  - 2019-replication-scale-up-learning-note-framework
+  - 2009-twigg-ucl-disaster-resilient-community
 field_instruments: []
 related_concepts: []
 related_lifecycle_pages:
@@ -67,7 +68,7 @@ TODO[agent]: Identify key risks in data collection and analysis; define mitigati
 TODO[agent]: Define checks to verify data accuracy and completeness.
 
 ## Source foundation
-- [[../01-sources/extracted/2019_alnap_global-practice-review-urban-humanitarian-response]]
+- [[../01-sources/extracted/2019-alnap-sanderson-humanitarian-response-urban-contexts]]
 TODO[agent]: Add remaining source links.
 
 ## Links

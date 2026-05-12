@@ -9,7 +9,7 @@ related_lifecycle_stages:
   - "6. Program design and modality selection"
   - "7. Detailed technical design"
 source_foundation:
-  - 2019_gsc-uswg_area-based-approaches-urban-settings-compendium, 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2013-worldbank-gfdrr
+  - 2019-replication-scale-up-learning-note-framework, 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide, 2013-worldbank-gfdrr
 created: 2026-05-07
 updated: 2026-05-07
 ---

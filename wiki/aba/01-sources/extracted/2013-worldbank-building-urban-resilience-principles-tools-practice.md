@@ -6,7 +6,7 @@ year: 2013
 source_url: "https://www.gfdrr.org/sites/default/files/publication/EAP_handbook_principles_tools_practice_web.pdf"
 source_url_status: "verify — GFDRR link structure may have changed"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -31,7 +31,7 @@ notes: "East Asia & Pacific focus but principles broadly applicable. Structured 
 canonical_file: ../raw/2013-worldbank-building-urban-resilience-principles-tools-practice.pdf
 wiki_pages: []
 type: source
-source_id: 2013-worldbank-urban-resilience
+source_id: 2013-worldbank-building-urban-resilience-principles-tools-practice
 source_type: government-policy
 confidence: high
 lifecycle_stage:

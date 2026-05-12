@@ -6,7 +6,7 @@ year: 2026
 source_url: "TODO[agent]: canonical publication URL not provided in request or extractable PDF text"
 source_url_status: "not found — URL absent from source document; search iasc.ch or interagencystandingcommittee.org for 'Standard Terms of Reference Area-Based Coordination 2026'"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: annual
 last_reviewed: 2026-05-10
 next_review: 2027-05-10
@@ -26,7 +26,7 @@ notes: "IASC-endorsed (March 2026) standard TOR for area-based coordination unde
 canonical_file: ../raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf
 wiki_pages: []
 type: source
-source_id: 2026-iasc-abc-tor
+source_id: 2026-iasc-standard-terms-reference-area-based-coordination-tor
 source_type: iasc-guidance
 confidence: high
 lifecycle_stage:

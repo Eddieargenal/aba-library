@@ -3,8 +3,8 @@ type: monitoring-learning
 status: draft
 topic: "Adaptive Management Triggers"
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2019_alnap_global-practice-review-urban-humanitarian-response
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2019-alnap-global-practice-review-urban-humanitarian-response
 created: 2026-05-07
 updated: 2026-05-07
 ---

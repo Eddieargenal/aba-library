@@ -6,7 +6,7 @@ year: 2017
 source_url: "http://pubs.iied.org/10819IIED"
 source_url_status: "verify — IIED migrated from pubs.iied.org; try https://www.iied.org/10819iied"
 file_type: pdf
-status: active
+status: ingested
 review_cycle: biennial
 last_reviewed: 2026-05-10
 next_review: 2028-05-10
@@ -30,7 +30,7 @@ notes: "IRC/Stronger Cities Initiative toolkit for urban context analysis in dis
 canonical_file: ../raw/2017-iied-urban-context-analysis-toolkit-guidance-note.pdf
 wiki_pages: []
 type: source
-source_id: 2017-iied-irc-urban-context-toolkit
+source_id: 2017-iied-urban-context-analysis-toolkit-guidance-note
 source_type: ngo-guidance
 confidence: high
 lifecycle_stage:

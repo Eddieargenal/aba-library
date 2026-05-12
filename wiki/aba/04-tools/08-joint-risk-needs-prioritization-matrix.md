@@ -1,15 +1,16 @@
 ---
 type: tool
 tool_id: tool-08-joint-risk-needs-prioritization
-lifecycle_stage: "4. Joint risk and needs prioritization"
+lifecycle_stage:
+  - joint-prioritization
 status: draft
 primary_users:
   - Field teams
   - Program managers
 source_foundation:
-  - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide
-  - 2019_reach-unhcr_area-based-assessment-key-informants-practical-guide
-  - 2017_irc_urban-context-analysis-toolkit-guidance-note
+  - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+  - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
+  - 2017-iied-urban-context-analysis-toolkit-guidance-note
 field_instruments: []
 related_concepts: []
 related_lifecycle_pages:
@@ -70,7 +71,7 @@ TODO[agent]: Identify key risks in data collection and analysis; define mitigati
 TODO[agent]: Define checks to verify data accuracy and completeness.
 
 ## Source foundation
-- [[../01-sources/extracted/2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]
+- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
 TODO[agent]: Add remaining source links.
 
 ## Links

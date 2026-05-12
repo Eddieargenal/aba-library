@@ -1,7 +1,8 @@
 ---
 type: framework
 status: active
-lifecycle_stage: "1. Area selection and boundary definition"
+lifecycle_stage:
+  - area-selection
 related_tools:
   - tool-02-area-selection-matrix
   - tool-03-settlement-neighborhood-boundary-definition-tool
@@ -13,7 +14,7 @@ related_concepts:
   - area-based-assessment
 source_foundation:
   - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
-  - 2012_efl_neighbourhood-approach-toolbox
+  - 2012-efl-neighbourhood-approach-toolbox
   - 2013-worldbank-building-urban-resilience-principles-tools-practice
   - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
 created: 2026-05-11
@@ -114,6 +115,6 @@ Even a high score does NOT justify selecting an area if any of the following app
 ## Source foundation
 
 - [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]] — location-first programming principle; 10-principle ABA framework; post-disaster area selection criteria grounded in needs concentration and operational feasibility
-- [[../01-sources/extracted/2012_efl_neighbourhood-approach-toolbox]] — two-stage quick-scan → in-depth diagnosis selection model; traffic-light scoring (red/orange/green) across three performance fields; Basics First concept applied to area triage
+- [[../01-sources/extracted/2012-efl-neighbourhood-approach-toolbox]] — two-stage quick-scan → in-depth diagnosis selection model; traffic-light scoring (red/orange/green) across three performance fields; Basics First concept applied to area triage
 - [[../01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice]] — risk calculation as hazard × exposure × vulnerability; no-regret investment logic for DRR relevance scoring; risk-based city and neighbourhood screening methodology
 - [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]] — boundary definition must precede data collection; area typology (settlement, neighbourhood, zone); MFGD boundary delineation with community validation
