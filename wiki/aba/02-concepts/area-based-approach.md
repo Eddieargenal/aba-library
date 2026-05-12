@@ -21,166 +21,57 @@ contradicts: []
 used_by_outputs: []
 ---
 
-# Definition
+> **Abstract.** The area-based approach (ABA) is a programme design logic that uses a defined geography as the primary entry point for multi-sector and participatory action. Eight sources in this wiki converge on ABA as a response to fragmentation in urban humanitarian programming, but they diverge on definitional strictness. Parker & Maynard (2015) provide the strictest formulation, requiring geographic targeting, participation, and multi-sector integration simultaneously. Other sources preserve the same orientation while adding systemic analysis, coordination, and context adaptation as core features. The central contested issue is classification: whether ABA should be treated as a binary standard with mandatory criteria, or as a family of related practices with variable intensity.
 
-A geographically targeted, multi-sectoral, and participatory approach to humanitarian response that focuses on all needs and resources within a defined urban area. **All three characteristics must be present simultaneously** for a program to qualify as area-based.
+## 1. Definition
 
-> "What makes an area-based approach distinct is that all three characteristics are integral to its delivery. For example, a programme can be multi-sectoral, but not area-based (if it does not take a participatory or geographically targeted approach)." — Parker & Maynard (2015, p.21)
+An area-based approach is a geographically defined, participatory, and multi-sector programme model in which the area itself is the primary unit of analysis and action, rather than a single sector or beneficiary category (Parker & Maynard, 2015, pp. 8-10, 21).
 
----
+The strict definition in Parker & Maynard (2015) requires all three characteristics simultaneously. This distinction matters operationally: a programme can be geographically located and multi-sector but still not qualify as ABA if participation is weak; likewise, participatory multi-sector work without a clear area logic remains non-ABA.
 
-# Why It Matters for Urban DRR and Response
+## 2. Evidence base and theoretical grounding
 
-Prevents fragmented sector-by-sector responses and ensures local systems, capacities, and coordination are leveraged for holistic outcomes. A program located in a neighborhood is not automatically area-based — the design logic must be geographically coherent, cross-sector, and community-driven.
+**Parker & Maynard (2015)** provide the foundational conceptual architecture in this source set. Their review of urban case studies identifies three defining criteria and documents why agencies shifted to ABA in cities: household-level targeting misses area-level vulnerability patterns, sector silos fail to address interdependence, and municipal plus non-humanitarian actors must be engaged for durable outcomes (pp. 11-13, 16-21).
 
-Urban crises require ABA because:
-- Vulnerability is often tied to infrastructure and services shared across an area, not just individual household conditions
-- Urban systems interdependencies mean sector failures compound each other
-- Inter-cluster coordination in urban contexts is chronically weak
-- Municipal and non-humanitarian actors must be engaged as genuine partners, not bystanders
+**DFID/IRC/ALNAP (2015)** and **Sanderson & Sitko (2017)** broaden the model from three criteria to wider operating principles, adding systems orientation, coordination requirements, and adaptive implementation under uncertainty. This reframes ABA from a static design type to a programme logic for complex urban systems.
 
----
+**Global Shelter Cluster (2019)** and **REACH/UNHCR (2019)** operationalize ABA through case comparisons and assessment practice. They reinforce whole-area logic and collaborative delivery while highlighting unresolved variation in scale, governance context, and boundary methods.
 
-# Evidence Base
+**Campbell (2019), Sanderson (2019), and IASC (2026)** connect ABA to implementation and coordination realities: convenor roles, iterative adaptation, and area-level coordination architecture all influence whether ABA moves beyond pilot activity to system-level change.
 
-## Three Defining Criteria (Parker & Maynard 2015)
+## 3. Contested dimensions
 
-Parker & Maynard (2015) established the foundational three-criteria definition through analysis of case studies in Kabul, Port-au-Prince, Baghdad, and Tacloban:
+**Strict vs. flexible definition.** Parker & Maynard (2015) require the three core criteria as simultaneous conditions (p. 21). Other sources present partially overlapping feature sets without a strict logical threshold. This creates classification inconsistency across agencies and evaluations.
 
-**1. Geographically targeted** — Area defines the entry point (not sector or target group). Selection is based on concentration of need, vulnerability, or hazard. Boundaries can be administrative (aligned to government units) or physical (roads, rivers, topography), combined with social analysis.
+**Neighbourhood approach vs. ABA.** Campbell (2019) uses neighbourhood language in practice cases, while Parker & Maynard (2015) treat neighbourhood as a scale descriptor, not a design logic. Programmes can therefore be labelled similarly while using different operating models.
 
-**2. Participatory** — Active community involvement in needs assessment, planning, and decision-making — not merely informing residents of decisions already made. USAID/OFDA: "success is dependent on the active involvement of community stakeholders in a highly consultative planning process."
+**Scale and phase applicability.** Sources agree ABA can operate across scales, from neighbourhood to wider urban systems, but evidence is concentrated at neighbourhood/district levels. The literature also leaves unresolved how strictly ABA criteria can be applied during acute emergency phases with compressed timelines.
 
-**3. Multi-sectoral** — Addresses interdependent sector needs in an integrated way. Turok (cited in Parker & Maynard): "depending on the character of local problems and opportunities available, [ABA] typically embraces a range of social, economic and physical development objectives cutting across fields such as education, housing, transport and economic development."
+## 4. Implications for practice
 
-## Why ABA Is Being Adopted (Parker & Maynard 2015, pp.11-13)
+- Use an explicit appropriateness test before selecting ABA, comparing it against market-, system-, institution-, and household-targeted alternatives for the specific context (Parker & Maynard, 2015, p. 13).
+- Document boundary rationale and area-selection logic transparently; operational convenience alone is insufficient for ABA legitimacy.
+- Build participation architecture early and specify who holds decision power, not only consultation roles.
+- Design multi-sector strategy around interdependencies and shared area outcomes, not parallel sector packages.
+- Link area strategy to municipal plans and coordination structures from inception; isolated area projects have weak sustainability and limited scale effects.
+- Treat monitoring as contribution-oriented and adaptive so systemic outcomes and iterative programme changes can be captured.
 
-Five urban challenges driving adoption:
-1. Beneficiary identification is problematic — vulnerability tied to shared infrastructure, not just individuals
-2. Different entry points required — "paradigm shift" from household to area as the unit of intervention
-3. Engaging/advocating approach needed over direct service delivery
-4. Gaps in inter-cluster coordination in urban settings
-5. Greater non-humanitarian partnership required (municipal, private sector, civil society)
+## 5. Open questions
 
-## ABA Has a Long History (Parker & Maynard 2015, pp.11-12)
-
-- UK: area-based approaches adopted since the 1970s targeting geographic deprivation
-- International development: since the 1990s (urban renewal, slum upgrading, integrated urban upgrading)
-- Humanitarian: UNHCR's 4Rs approach (repatriation, reintegration, rehabilitation, reconstruction) from 2002 applied area-based logic to refugee/host community programming
+- What minimum criteria should define ABA consistently across agencies without losing context flexibility?
+- Under what emergency conditions can a programme be considered ABA if participation or multi-sector integration is temporarily constrained?
+- Which mechanisms most reliably connect neighbourhood ABA results to city-level policy and investment decisions?
 
 ---
 
-# Practical Implications for Field Teams
+## Related concepts and tools
 
-## ABA Is Not the Only Option
-
-Before committing to ABA, compare it against:
-- **Market-based approaches** — re-establish supply/distribution/market mechanisms
-- **Systems-based approaches** — rehabilitate critical infrastructure (water, roads, health, education)
-- **Institution-based approaches** — target by school, clinic, workplace affiliation or support local authorities
-- **Individual/household approaches** — means testing, proxy targeting, self-targeting
-
-"[Area-based approaches] need to be reviewed alongside other approaches to ascertain their potential benefits or otherwise, in any given context." — Parker & Maynard (2015, p.13)
-
-## What ABA Is NOT (Parker & Maynard 2015, Box 2)
-
-| Term | Relationship to ABA |
-|---|---|
-| Neighbourhood/settlement approach | Can be ABA if all three criteria are met — the terms describe scale, not the design logic |
-| Multi-sector/integrated programme | Not ABA unless also participatory AND geographically targeted as primary entry point |
-| Holistic approach | Community-perspective framing — describes multi-sector programmes from the population's viewpoint |
-
-## Eight Good-Practice Principles (Parker & Maynard 2015, pp.16-20)
-
-a. Adopt ABA selectively — compare with alternative approaches first
-b. Define and test scope, outcomes, intended impacts — communicate to all stakeholders
-c. Match timeline to scope — participatory processes require 5+ years; 18-month humanitarian cycles are often insufficient
-d. Link to wider city/regional plans — vertical integration is costly but necessary for sustainability
-e. Early and ongoing engagement with local government and civil society
-f. Early and ongoing engagement with residents (community-driven, not community-informed)
-g. Design for flexibility — post-crisis contexts change rapidly
-h. Demonstrate results early — small visible interventions build trust and maintain participation momentum
-
----
-
-# Data Required to Assess This Concept in the Field
-
-From Parker & Maynard (2015) and Tool #01:
-
-| Dimension | Data needed | Source |
-|---|---|---|
-| Geographic concentration | % of affected population in target area vs. wider zone | Rapid area observation, secondary data |
-| Multi-sector need | Which sectors are failing and how they are interdependent | Transect walk, KIIs, household survey |
-| Participation feasibility | Existing community structures, timeline, access | KII community leaders, rapid assessment |
-| Coordination context | Number and activities of other actors | 5W mapping |
-| Boundary logic | Administrative, physical, or social basis for boundary | Area observation, municipal KII |
-
-→ Full assessment: [[../04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
-
----
-
-# Common Mistakes
-
-From Parker & Maynard (2015):
-
-1. **Geographic placement ≠ ABA** — The most common error. A program physically located in a neighborhood that targets households sector-by-sector is not area-based.
-2. **Multi-sector programming ≠ ABA** — Parallel sector programs in the same area without a shared geographic entry point and community engagement mechanism are not ABA.
-3. **Informing ≠ participating** — Single community meetings that present decisions already made do not meet the participatory criterion.
-4. **Administrative boundary = area selection** — Using existing administrative or operational zones without vulnerability analysis does not meet the geographic targeting criterion.
-5. **Underestimating time** — Programs designed for 18 months that require 5+ years of trust-building to succeed.
-
-→ Full misuse registry: [[../12-risks-contradictions/common-aba-misuse]]
-
----
-
-# Known Risks
-
-- Cross-neighbourhood inequality: targeting one area can create tensions with adjacent non-targeted areas (Katye programme, Port-au-Prince: "tension with surrounding neighbourhoods not included")
-- Elite capture in participation
-- Disconnect from wider city/regional plans
-- High implementation cost relative to simpler approaches
-- M&E difficulty due to urban population mobility
-
-→ Full risk analysis: [[../12-risks-contradictions/protection-and-do-no-harm-risks]]
-
----
-
-## Contested dimensions
-
-**Whether all three criteria must be simultaneously present:** Parker & Maynard (2015) are explicit that all three defining characteristics — geographic targeting, participatory, and multi-sectoral — must be integral to programme delivery for it to qualify as area-based (p. 21). This is the strictest formulation in the source set. Other sources treat the three criteria as tendencies or orientations rather than binary requirements: DFID/IRC/ALNAP (2015) define ABA through five characteristics (geographic focus, multi-sector, systemic lens, participation, coordination) without specifying simultaneity (pp. 6-7); the Global Shelter Cluster (2019) emphasizes whole-population targeting and four core characteristics but does not mandate all four as conditions of ABA legitimacy (pp. 9-10); Sanderson & Sitko (2017) present five elements of effective post-disaster ABA without a logical AND requirement (p. 12); REACH/UNHCR (2019) add collaborative framing and context-adaptability as requirements not present in other definitions (p. 5). The result is that the same programme may qualify as ABA under some source definitions but not others.
-
-**Neighbourhood approach vs. area-based approach:** Campbell (2019) uses "neighbourhood approach" throughout the Barrio Mio and Katye case documentation without distinguishing it from ABA (pp. 1-17). Parker & Maynard (2015, Box 2) specify that neighbourhood/settlement approach is a scale descriptor, not a design logic — it can be ABA if all three criteria are met, but the term does not imply it. This semantic overlap creates category ambiguity in reporting and cross-programme comparison.
-
-**Scale ambiguity:** The Global Shelter Cluster (2019) documents ABA operating at scales ranging from neighbourhood clusters to city-wide programmes, with different staffing, process, and coordination implications at each scale (p. 11). Parker & Maynard (2015) note that the area need not mean neighbourhood and that scale should be defined by the problem, but all four of their primary case studies operated at neighbourhood or district level (pp. 9-10). No source specifies whether the three-criteria definition holds consistently across scales, or whether participatory design and multi-sector integration work differently at city level than at neighbourhood level.
-
-**Whether ABA is appropriate in acute emergency phases:** All eight sources ground ABA in contexts where participatory design and multi-sector integration are feasible — typically stabilization or recovery phases. Parker & Maynard (2015) specify that participatory processes may require 12+ months before programme activities begin (p. 16). No source resolves whether a programme in an acute onset emergency that compromises the participatory criterion should be classified as non-ABA, as proto-ABA, or as ABA with a justified exception.
-
----
-
-# Open Questions
-
-- When is ABA appropriate in acute onset emergencies where participatory design is not feasible?
-- At what scale (neighbourhood vs. district vs. city-wide) does ABA logic hold?
-- How should ABA be sequenced relative to emergency relief in slow-onset crises?
-
-→ Unresolved: [[../12-risks-contradictions/unresolved-questions]]
-
----
-
-# Links to Tools
+- [[geographic-targeting]] — defines how areas are selected and bounded
+- [[participation-in-urban-response]] — defines the participation threshold required by ABA design
+- [[multi-sector-response-analysis]] — supports integrated cross-sector problem framing
 - [[../04-tools/01-aba-feasibility-and-necessity-assessment-tool]]
 - [[../04-tools/02-area-selection-matrix]]
 - [[../04-tools/10-integrated-area-strategy-builder]]
-
-# Links to Source Pages
-- [[../01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review]] ✅ ingested
-- [[../01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide]]
-- [[../01-sources/extracted/2019-gsc-uswg-area-based-approaches-urban-settings-compendium]]
-- [[../01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts]]
-- [[../01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor]]
-- [[../01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study]]
-- [[../01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide]]
-- [[../01-sources/extracted/2015-dfid-irc-alnap-humanitarian-response-urban-areas-discussion-paper]]
 
 ---
 
