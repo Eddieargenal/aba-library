@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "Municipal and Government Engagement"
 source_foundation:
   - 2016_campbell_stepping-back-understanding-cities-systems-guide

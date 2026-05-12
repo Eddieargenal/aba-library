@@ -2,6 +2,7 @@
 title: Handover Readiness Checklist
 type: checklist
 status: stub
+contradicts: []
 wiki_id: trans-01
 source_foundation:
   - "[[2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide]]"

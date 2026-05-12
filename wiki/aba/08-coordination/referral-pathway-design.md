@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "Referral Pathway Design"
 source_foundation:
   - 2017_irc_urban-context-analysis-toolkit-guidance-note

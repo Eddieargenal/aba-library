@@ -1,6 +1,7 @@
 ---
 type: risk-contradiction
 status: draft
+contradicts: []
 topic: "Handover Failure Risk"
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide

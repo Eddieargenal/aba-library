@@ -1,6 +1,7 @@
 ---
 type: risk-contradiction
 status: draft
+contradicts: []
 topic: "Area Targeting Protection Risk"
 source_foundation:
   - 2015_parker-maynard_humanitarian-response-urban-crises-aba-review

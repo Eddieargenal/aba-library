@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Urban Governance and Municipal Engagement"
 related_tools:
   - tool-06-stakeholder-coordination-mapping-tool

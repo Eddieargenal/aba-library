@@ -2,6 +2,7 @@
 title: Build Back Better Recovery Alignment Tool
 type: alignment-tool
 status: stub
+contradicts: []
 wiki_id: trans-04
 source_foundation:
   - "[[2015_undrr_sendai-framework-drr-2015-2030-framework]]"

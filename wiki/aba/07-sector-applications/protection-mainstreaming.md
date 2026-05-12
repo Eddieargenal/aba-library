@@ -2,6 +2,7 @@
 type: sector-application
 sector: "Protection Mainstreaming"
 status: draft
+contradicts: []
 related_tools:
   - tool-09-response-option-comparison
   - tool-11-sector-technical-design

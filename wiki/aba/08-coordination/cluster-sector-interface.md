@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "Cluster-Sector Interface"
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination

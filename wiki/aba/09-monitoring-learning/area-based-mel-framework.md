@@ -2,6 +2,7 @@
 title: Area-Based MEL Framework
 type: mel-framework
 status: stub
+contradicts: []
 wiki_id: mel-01
 source_foundation:
   - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review

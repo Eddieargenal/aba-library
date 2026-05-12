@@ -2,6 +2,7 @@
 title: Weak Evidence Claims
 type: critical-analysis
 status: stub
+contradicts: []
 wiki_id: risk-02
 source_foundation:
   - 2019-alnap-global-practice-review-urban-humanitarian-response

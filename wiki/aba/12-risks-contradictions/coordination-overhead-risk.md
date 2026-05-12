@@ -1,6 +1,7 @@
 ---
 type: risk-contradiction
 status: draft
+contradicts: []
 topic: "Coordination Overhead Risk"
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination

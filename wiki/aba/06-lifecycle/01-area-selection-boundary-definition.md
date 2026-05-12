@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 1
 stage_name: "Area Selection and Boundary Definition"
 status: draft
+contradicts: []
 key_tools:
   - tool-02-area-selection-matrix
   - tool-03-settlement-boundary-definition

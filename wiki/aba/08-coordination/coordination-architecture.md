@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "ABA Coordination Architecture"
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination

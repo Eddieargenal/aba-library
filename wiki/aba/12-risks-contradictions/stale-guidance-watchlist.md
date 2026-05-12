@@ -2,6 +2,7 @@
 title: Stale Guidance Watchlist
 type: quality-control
 status: stub
+contradicts: []
 wiki_id: risk-04
 source_foundation:
   - 2009-twigg-ucl-disaster-resilient-community

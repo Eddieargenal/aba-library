@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Food Security and Livelihoods"
 related_tools:
   - tool-09-response-option-comparison-matrix

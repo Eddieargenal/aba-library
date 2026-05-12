@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 8
 stage_name: "Area-Based Implementation"
 status: draft
+contradicts: []
 key_tools:
   - tool-12-implementation-sequencing
   - tool-13-area-coordination-dashboard

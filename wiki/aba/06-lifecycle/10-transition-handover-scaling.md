@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 10
 stage_name: "Transition, Handover, and Scaling"
 status: draft
+contradicts: []
 key_tools:
   - tool-17-handover-scale-up
 source_foundation:

@@ -1,6 +1,7 @@
 ---
 type: monitoring-learning
 status: draft
+contradicts: []
 topic: "Learning Documentation"
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide

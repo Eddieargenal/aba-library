@@ -2,6 +2,7 @@
 title: Community Resilience Indicators
 type: indicator-set
 status: stub
+contradicts: []
 wiki_id: mel-02
 source_foundation:
   - 2009-twigg-ucl-disaster-resilient-community

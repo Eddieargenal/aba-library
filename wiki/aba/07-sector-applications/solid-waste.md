@@ -2,6 +2,7 @@
 type: sector-application
 sector: "Solid Waste Management"
 status: draft
+contradicts: []
 related_tools:
   - tool-09-response-option-comparison
   - tool-11-sector-technical-design

@@ -2,6 +2,7 @@
 title: Municipal Integration Plan
 type: planning-tool
 status: stub
+contradicts: []
 wiki_id: trans-02
 source_foundation:
   - "[[2017_undrr_how-to-make-cities-more-resilient-handbook-2017-edition]]"

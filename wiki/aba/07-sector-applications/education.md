@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Education"
 related_tools:
   - tool-11-sector-technical-design-checklist

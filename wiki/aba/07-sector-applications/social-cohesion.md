@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Social Cohesion and Displacement"
 related_tools:
   - tool-07-community-engagement-platform-tool

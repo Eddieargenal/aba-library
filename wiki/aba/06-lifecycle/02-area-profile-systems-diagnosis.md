@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 2
 stage_name: "Area Profile and Systems Diagnosis"
 status: draft
+contradicts: []
 key_tools:
   - tool-04-urban-systems-diagnosis
   - tool-05-hevc-risk-mapping

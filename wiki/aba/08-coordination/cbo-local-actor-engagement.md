@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "CBO and Local Actor Engagement"
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide

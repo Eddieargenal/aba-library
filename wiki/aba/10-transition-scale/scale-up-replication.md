@@ -1,6 +1,7 @@
 ---
 type: transition
 status: draft
+contradicts: []
 topic: "Scale-Up and Replication"
 source_foundation:
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide

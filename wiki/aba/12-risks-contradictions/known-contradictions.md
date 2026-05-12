@@ -2,6 +2,7 @@
 title: Known Contradictions in Urban ABA/DRR Literature
 type: critical-analysis
 status: stub
+contradicts: []
 wiki_id: risk-01
 source_foundation:
   - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review

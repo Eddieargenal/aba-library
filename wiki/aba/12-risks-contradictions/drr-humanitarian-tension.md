@@ -1,6 +1,7 @@
 ---
 type: risk-contradiction
 status: draft
+contradicts: []
 topic: "DRR-Humanitarian Tension"
 source_foundation:
   - 2015_undrr_sendai-framework-drr-2015-2030-framework

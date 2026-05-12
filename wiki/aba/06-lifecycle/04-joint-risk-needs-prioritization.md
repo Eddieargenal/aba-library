@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 4
 stage_name: "Joint Risk and Needs Prioritization"
 status: draft
+contradicts: []
 key_tools:
   - tool-08-joint-risk-needs-prioritization
 source_foundation:

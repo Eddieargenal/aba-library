@@ -2,6 +2,7 @@
 title: Common ABA Misuse Patterns
 type: critical-analysis
 status: partial
+contradicts: []
 wiki_id: risk-05
 source_foundation:
   - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review

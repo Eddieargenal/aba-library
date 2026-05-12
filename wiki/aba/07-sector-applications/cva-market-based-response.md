@@ -2,6 +2,7 @@
 type: sector-application
 sector: "Cash and Voucher Assistance / Market-Based Response"
 status: draft
+contradicts: []
 related_tools:
   - tool-09-response-option-comparison
   - tool-11-sector-technical-design

@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "Area Coordination Platform Setup"
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination

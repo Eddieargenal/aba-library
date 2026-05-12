@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 topic: "Coordination Data Sharing Protocols"
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination

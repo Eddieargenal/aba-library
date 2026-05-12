@@ -1,6 +1,7 @@
 ---
 type: monitoring-learning
 status: draft
+contradicts: []
 topic: "Adaptive Management Triggers"
 source_foundation:
   - 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide

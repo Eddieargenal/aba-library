@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination
 created: 2026-05-07

@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 3
 stage_name: "Community and Stakeholder Engagement Platform"
 status: draft
+contradicts: []
 key_tools:
   - tool-07-community-engagement-platform
 source_foundation:

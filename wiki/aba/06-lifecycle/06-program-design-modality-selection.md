@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 6
 stage_name: "Program Design and Modality Selection"
 status: draft
+contradicts: []
 key_tools:
   - tool-09-response-option-comparison
 source_foundation:

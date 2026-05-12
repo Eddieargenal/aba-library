@@ -1,6 +1,7 @@
 ---
 type: risk-contradiction
 status: draft
+contradicts: []
 topic: "Urban Systems Complexity Underestimation"
 source_foundation:
   - 2016_campbell_stepping-back-understanding-cities-systems-guide

@@ -204,6 +204,11 @@ Use this framework before proposing scale-up or replication of any area-based in
 
 A model should only be replicated when **the core logic is clear, evidence of benefit is credible, costs and staffing are realistic, local conditions are understood, risks are manageable, and the team can state both what must be adapted and when not to replicate**.
 
+
+## Source
+
+→ Extracted source: [[../01-sources/extracted/2019-replication-scale-up-learning-note-framework]]
+
 ## Full URL
 
 https://resources.peopleinneed.net/documents/960-201905022_urban_compendium_highres.pdf

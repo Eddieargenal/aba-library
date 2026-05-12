@@ -1,6 +1,7 @@
 ---
 type: risk-contradiction
 status: draft
+contradicts: []
 topic: "Tokenistic Participation Risk"
 source_foundation:
   - 2015-parker-maynard-humanitarian-response-urban-crises-aba-review

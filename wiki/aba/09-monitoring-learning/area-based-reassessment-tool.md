@@ -2,6 +2,7 @@
 title: Area-Based Reassessment Tool
 type: assessment-tool
 status: stub
+contradicts: []
 wiki_id: mel-03
 source_foundation:
   - 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide

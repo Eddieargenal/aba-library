@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "DRR Integration"
 related_tools:
   - tool-05-hevc-risk-mapping-tool

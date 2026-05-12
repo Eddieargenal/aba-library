@@ -204,6 +204,11 @@ Use this framework when the team must justify **why one modality or package is b
 
 A strong modality decision should explain **what problem is being solved, which options were compared, what evidence was used, what trade-offs were accepted, what risks will be mitigated, and how the team will know if the modality needs to change**.
 
+
+## Source
+
+→ Extracted source: [[../01-sources/extracted/2017-response-option-comparison-matrix-framework]]
+
 ## Full URL
 
 https://www.iied.org/sites/default/files/pdfs/migrate/10824IIED.pdf

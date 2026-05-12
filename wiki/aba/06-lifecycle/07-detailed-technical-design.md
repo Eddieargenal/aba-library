@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 7
 stage_name: "Detailed Technical Design"
 status: draft
+contradicts: []
 key_tools:
   - tool-11-sector-technical-design
 source_foundation:

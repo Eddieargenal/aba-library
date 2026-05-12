@@ -2,6 +2,7 @@
 title: Unresolved Questions in Urban ABA/DRR
 type: research-agenda
 status: stub
+contradicts: []
 wiki_id: risk-03
 source_foundation:
   - 2019-alnap-global-practice-review-urban-humanitarian-response

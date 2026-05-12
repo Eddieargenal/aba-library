@@ -2,6 +2,7 @@
 title: Replication and Scale-Up Learning Note
 type: learning-note
 status: stub
+contradicts: []
 wiki_id: trans-03
 source_foundation:
   - "[[2019-replication-scale-up-learning-note-framework]]"

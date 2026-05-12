@@ -3,6 +3,7 @@ type: lifecycle
 stage_number: 5
 stage_name: "Integrated Area Strategy"
 status: draft
+contradicts: []
 key_tools:
   - tool-10-integrated-area-strategy
 source_foundation:

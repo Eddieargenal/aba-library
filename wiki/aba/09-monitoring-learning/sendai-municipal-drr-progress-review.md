@@ -2,6 +2,7 @@
 title: Sendai Municipal DRR Progress Review
 type: review-framework
 status: stub
+contradicts: []
 wiki_id: mel-05
 source_foundation:
   - 2015-undrr-sendai-framework-drr-2015-2030-framework

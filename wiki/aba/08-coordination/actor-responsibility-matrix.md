@@ -1,6 +1,7 @@
 ---
 type: coordination
 status: draft
+contradicts: []
 source_foundation:
   - 2026_iasc_standard-terms-reference-area-based-coordination
   - 2017_sanderson-sitko_urban-area-based-approaches-post-disaster-guide

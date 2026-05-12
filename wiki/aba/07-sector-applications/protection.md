@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Protection"
 related_tools:
   - tool-01-aba-feasibility-and-necessity-assessment-tool

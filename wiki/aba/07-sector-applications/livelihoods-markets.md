@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Livelihoods and Markets"
 related_tools:
   - tool-04-urban-systems-diagnosis-tool

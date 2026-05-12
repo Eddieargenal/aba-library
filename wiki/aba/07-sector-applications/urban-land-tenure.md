@@ -1,6 +1,7 @@
 ---
 type: sector-application
 status: draft
+contradicts: []
 sector: "Urban Land and Tenure"
 related_tools:
   - tool-03-settlement-neighborhood-boundary-definition-tool
