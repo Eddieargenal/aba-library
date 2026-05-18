@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
+type: source_raw_extract
+zone: raw-content
+status: ingested
 title: "Characteristics of a Disaster-Resilient Community: A Guidance Note"
-author: "John Twigg"
-institution: "UCL / Aon Benfield UCL Hazard Research Centre"
+author: John Twigg
+institution: UCL / Aon Benfield UCL Hazard Research Centre
 year: 2009
-source_id: "2009-twigg-ucl-disaster-resilient-community"
-source_type: "academic"
-source_url: ""
-file_type: "pdf"
-canonical_file: "../raw/2009_twigg-ucl_disaster-resilient-community.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+source_id: 2009-twigg-ucl-disaster-resilient-community
+source_type: academic
+source_url: https://www.preventionweb.net/files/2310_Characteristicsdisasterhighres.pdf?startDownload=true
+file_type: pdf
+canonical_file: ../raw/2009_twigg-ucl_disaster-resilient-community.pdf
+created: 2026-05-10
+updated: 2026-05-10
+ingest_date: 2026-05-10
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2009_twigg-ucl_disaster-resilient-community
@@ -275,10 +275,8 @@ ABBREVIATIONS AND ACRONYMS
 
 Characteristics of a Disaster-Resilient Community back to contents page
 NEXT STEPS FOR THE CHARACTERISTICS
-The Characteristics of a Disaster-Resilient Community is just one contribution to a much bigger and long-term process of building community resilience worldwide.  We hope it will continue to contribute to this process and that those of you
-who use it will help us to ensure that it remains relevant.
-When you read this document, you will become aware of how many organizations have used the Characteristics resource already and of the variety of ways in which they have applied it.  In time, we hope it will be taken up by
-many more organizations which are active in disaster risk reduction, climate change adaptation and other aspects of sustainable development.
+The Characteristics of a Disaster-Resilient Community is just one contribution to a much bigger and long-term process of building community resilience worldwide.  We hope it will continue to contribute to this process and that those of you who use it will help us to ensure that it remains relevant.
+When you read this document, you will become aware of how many organizations have used the Characteristics resource already and of the variety of ways in which they have applied it.  In time, we hope it will be taken up by many more organizations which are active in disaster risk reduction, climate change adaptation and other aspects of sustainable development.
 We would like the Characteristics project to be a vehicle for learning and sharing information about community resilience – understanding it, analysing it, implementing projects at the grass roots and lobbying for change at higher
 levels.  We will continue to collect and share lessons about how the Characteristics resource has been applied, its contribution to resilience building and how it can be adapted to make it more useful.
 User involvement is essential here.  Please send us feedback on your experiences with the Characteristics, as well as ideas for modifications or new applications; and do ask for advice, too, if you need it.
