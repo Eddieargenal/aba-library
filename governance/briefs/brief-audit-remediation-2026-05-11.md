@@ -18,9 +18,9 @@ Close 10 open findings from the Vault Audit Report dated 2026-05-11. Done = zero
 
 1. Minimum frontmatter on all 32 Tier 2 frameworks (C-2)
 2. IASC 2010 duplicate resolved — unique content merged into hyphen file, underscore extracted file + PDF deleted (C-3)
-3. `wiki/aba/outputs/internal/` folder created; existing lint report moved there (H-1)
+3. `outputs/` folder created; existing lint report moved there (H-1)
 4. `status:` field on all 70 currently non-compliant files (H-2)
-5. Fresh lint report at `wiki/aba/outputs/internal/lint-report-2026-05-11.md` (H-4)
+5. Fresh lint report at `outputs/lint-report-2026-05-11.md` (H-4)
 6. Lint cadence expectation added to `governance/review-cadence.md` (H-4)
 7. `wiki/aba/01-sources/raw/2021_unhcr_aba-humanitarian-early-recovery.pdf` deleted; raw index updated (M-2)
 8. `memory/next-session.md` and `memory/current-handoff.md` filled with current vault state (M-3)
@@ -60,7 +60,7 @@ Close 10 open findings from the Vault Audit Report dated 2026-05-11. Done = zero
   - `templates/memory-record-template.md`, `templates/task-log-template.md` → `status: reference`
   - `wiki/aba/03-frameworks/` Tier 2 (32 files) → `status: reference` ← handled by WU-2 (C-2) simultaneously
   - `wiki/aba/05-field-instruments/` (18 files) → `status: draft`
-  - `wiki/aba/outputs/toolkits/aba-technical-guide.md` → `status: draft`
+  - `outputs/toolkits/aba-technical-guide.md` → `status: draft`
 - **9 Tier 1 frameworks:** `2017-aba-appropriateness-decision-framework.md`, `2017-area-selection-framework.md`, `2017-neighborhood-diagnosis-framework.md`, `2026-area-based-coordination-framework.md`, `2017-joint-prioritization-framework.md`, `2017-integrated-area-strategy-framework.md`, `2019-implementation-adaptation-framework.md`, `2017-transition-handover-framework.md`, `2015-urban-drr-response-design-framework.md`
 
 ---
@@ -70,7 +70,7 @@ Close 10 open findings from the Vault Audit Report dated 2026-05-11. Done = zero
 - IASC underscore file must NOT be deleted until its unique content is merged into the hyphen file
 - `status:` values must match context: `active` for operational docs, `reference` for Tier 2 frameworks and templates, `draft` for unvalidated field instruments and toolkit
 - Append-only files (`archive/CHANGELOG.md`, `memory/runtime/logs/log.md`) must NOT be modified
-- The lint script output must be filed to `wiki/aba/outputs/internal/` — not to the old `outputs/wiki-lint-report.md` path
+- The lint script output must be filed to `outputs/` — not to the old `outputs/wiki-lint-report.md` path
 - `2026-05-07.md` (daily note at root) — do NOT add status: to this file
 
 ## Soft Constraints
@@ -148,14 +148,14 @@ None.
 
 ### WU-4: H-1 — Create outputs/internal/ and Move Existing Lint Report
 - Objective: Create the correct output filing path and move the misplaced lint report
-- Inputs: `wiki/aba/outputs/wiki-lint-report.md` (existing lint report at wrong path)
+- Inputs: `outputs/wiki-lint-report.md` (existing lint report at wrong path)
 - Output:
-  - `wiki/aba/outputs/internal/` folder created
-  - `wiki/aba/outputs/internal/lint-report-2026-05-09.md` (moved from `wiki-lint-report.md`)
-  - `wiki/aba/outputs/wiki-lint-report.md` no longer exists
+  - `outputs/` folder created
+  - `outputs/lint-report-2026-05-09.md` (moved from `wiki-lint-report.md`)
+  - `outputs/wiki-lint-report.md` no longer exists
 - Dependencies: WU-1
 - Complexity: Tier 1
-- Validation: `ls wiki/aba/outputs/internal/` shows `lint-report-2026-05-09.md`; `ls wiki/aba/outputs/wiki-lint-report.md` errors
+- Validation: `ls outputs/` shows `lint-report-2026-05-09.md`; `ls outputs/wiki-lint-report.md` errors
 
 ### WU-5: H-2 — Add status: to Non-Framework Non-Instrument Files (38 files)
 - Objective: Add `status:` field to all non-framework, non-field-instrument files missing it
@@ -177,11 +177,11 @@ None.
   - `sources/README.md` → `status: active`
   - `templates/memory-record-template.md` → `status: reference`
   - `templates/task-log-template.md` → `status: reference`
-  - `wiki/aba/outputs/toolkits/aba-technical-guide.md` → `status: draft`
+  - `outputs/toolkits/aba-technical-guide.md` → `status: draft`
 - Method: For each file, read frontmatter, add `status: [value]` as a new line after the last existing frontmatter field but before the closing `---`
 - Dependencies: WU-1
 - Complexity: Tier 1
-- Validation: `grep -rL "^status:" governance/aba/AGENTS.md governance/aba/CLAUDE.md governance/schema/ indexes/ sources/README.md templates/ wiki/aba/outputs/toolkits/` returns empty
+- Validation: `grep -rL "^status:" governance/aba/AGENTS.md governance/aba/CLAUDE.md governance/schema/ indexes/ sources/README.md templates/ outputs/toolkits/` returns empty
 
 ### WU-6: H-2b — Add status: draft to 18 Field Instruments + H-4 Lint + M-4 + M-5 + L-3
 - Objective: Add `status: draft` to 18 field instruments; run lint script; fill handoff files; patch concept and instrument pages
@@ -231,7 +231,7 @@ None.
 - Steps:
   1. Run: `cd /Users/eddieargenal/Documents/obsidian-vault && python3 wiki/aba/scripts/lint_wiki.py > /tmp/lint-output-2026-05-11.txt 2>&1`
   2. Read the output at `/tmp/lint-output-2026-05-11.txt`
-  3. Write a formatted lint report to `wiki/aba/outputs/internal/lint-report-2026-05-11.md` with frontmatter:
+  3. Write a formatted lint report to `outputs/lint-report-2026-05-11.md` with frontmatter:
      ```yaml
      ---
      type: lint-report
@@ -245,14 +245,14 @@ None.
      ```markdown
      ## Lint Cadence Expectation
      - **Target frequency:** Weekly (every 7 days)
-     - **Filing path:** `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`
+     - **Filing path:** `outputs/lint-report-YYYY-MM-DD.md`
      - **Trigger:** After any ingest, or on the weekly review schedule
      - **Responsible:** Agent Maintainer (per governance/governance-model.md)
      - **Last run:** 2026-05-11
      ```
 - Complexity: Tier 1
 - Validation:
-  - `wiki/aba/outputs/internal/lint-report-2026-05-11.md` exists and has content
+  - `outputs/lint-report-2026-05-11.md` exists and has content
   - `grep "Lint Cadence" governance/review-cadence.md` returns a result
 
 ### WU-8: M-2 — Delete 2021_unhcr PDF + Update Raw Index
@@ -314,8 +314,8 @@ Note: WU-7 depends on WU-4. Executor should start WU-7 only after WU-4 confirms 
 - [ ] `ls wiki/aba/01-sources/extracted/ | grep iasc` shows exactly 2 files (hyphen + 2026)
 - [ ] `ls wiki/aba/01-sources/raw/ | grep 2010_iasc` returns empty
 - [ ] `ls wiki/aba/01-sources/raw/ | grep 2021` returns empty
-- [ ] `ls wiki/aba/outputs/internal/` shows `lint-report-2026-05-09.md` and `lint-report-2026-05-11.md`
-- [ ] `ls wiki/aba/outputs/wiki-lint-report.md` errors (file does not exist at old path)
+- [ ] `ls outputs/` shows `lint-report-2026-05-09.md` and `lint-report-2026-05-11.md`
+- [ ] `ls outputs/wiki-lint-report.md` errors (file does not exist at old path)
 - [ ] `grep "Lint Cadence" governance/review-cadence.md` returns a result
 - [ ] `grep -l "used_by_outputs" wiki/aba/03-frameworks/` shows 9 files
 - [ ] `grep "maturity:" wiki/aba/02-concepts/concept-cluster-map.md` returns a result

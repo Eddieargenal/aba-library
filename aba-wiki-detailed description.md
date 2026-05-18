@@ -544,12 +544,12 @@ When corpus exceeds ~80 sources or ~200 pages, a local search tool (e.g. `qmd` o
 1. LLM runs frontmatter query against the agent index.  
 2. Reads only relevant pages (extracted + wiki).  
 3. Synthesizes answer with `source_id` citations and explicit handling of contradictions.  
-4. Answers that reveal new reusable connections are filed as `type: synthesis` under `wiki/aba/outputs/internal/`.
+4. Answers that reveal new reusable connections are filed as `type: synthesis` under `outputs/`.
 
 ### Lint Workflow
 
 - Runs weekly via cron.  
-- Output filed to `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`.  
+- Output filed to `outputs/lint-report-YYYY-MM-DD.md`.  
 - Mandatory reading at the start of the next session — the LLM clears the compliance queue before new work.
 
 **Critical lint checks:**

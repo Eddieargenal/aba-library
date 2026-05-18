@@ -10,9 +10,9 @@ Resolve all open findings from the Vault Audit Report dated 2026-05-11. Three fi
 
 1. **C-2 closed** — Minimum frontmatter added to all 32 Tier 2 frameworks; all 32 appear in `03-frameworks/00_index.md`
 2. **C-3 closed** — IASC duplicate resolved: underscore extracted file deleted, underscore PDF deleted, all references updated to hyphen canonical
-3. **H-1 closed** — `wiki/aba/outputs/internal/` folder created; existing lint report moved there with correct filename
+3. **H-1 closed** — `outputs/` folder created; existing lint report moved there with correct filename
 4. **H-2 closed** — `status:` field added to all 70 non-compliant files (governance/schema, indexes, templates, field instruments, framework stubs, outputs, governance/aba stubs)
-5. **H-4 closed** — Fresh lint report filed to `wiki/aba/outputs/internal/lint-report-2026-05-11.md`; cadence expectation added to `governance/review-cadence.md`
+5. **H-4 closed** — Fresh lint report filed to `outputs/lint-report-2026-05-11.md`; cadence expectation added to `governance/review-cadence.md`
 6. **M-2 closed** — `2021_unhcr_aba-humanitarian-early-recovery.pdf` deleted from raw; `wiki/aba/01-sources/raw/00_index.md` updated to reflect deletion
 7. **M-3 closed** — `memory/next-session.md` and `memory/current-handoff.md` filled with current vault state
 8. **M-4 closed** — `used_by_outputs: []` field added to all 9 Tier 1 frameworks
@@ -28,10 +28,10 @@ Resolve all open findings from the Vault Audit Report dated 2026-05-11. Three fi
 - Deleting `wiki/aba/01-sources/extracted/2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.md` (underscore duplicate)
 - Deleting `wiki/aba/01-sources/raw/2010_iasc_meeting-humanitarian-challenges-urban-areas-strategy.pdf` (underscore duplicate)
 - Checking all extracted source files and concept pages for references to the underscore IASC filename; updating to hyphen canonical
-- Creating `wiki/aba/outputs/internal/` folder
-- Moving `wiki/aba/outputs/wiki-lint-report.md` → `wiki/aba/outputs/internal/lint-report-2026-05-09.md`
-- Adding `status:` field to 70 files across: `governance/aba/`, `governance/schema/`, `indexes/`, `templates/`, `sources/`, `wiki/aba/05-field-instruments/` (18 files), `wiki/aba/outputs/`
-- Running the wiki lint procedure (from `governance/aba/prompts/lint-wiki.md`) and filing result to `wiki/aba/outputs/internal/lint-report-2026-05-11.md`
+- Creating `outputs/` folder
+- Moving `outputs/wiki-lint-report.md` → `outputs/lint-report-2026-05-09.md`
+- Adding `status:` field to 70 files across: `governance/aba/`, `governance/schema/`, `indexes/`, `templates/`, `sources/`, `wiki/aba/05-field-instruments/` (18 files), `outputs/`
+- Running the wiki lint procedure (from `governance/aba/prompts/lint-wiki.md`) and filing result to `outputs/lint-report-2026-05-11.md`
 - Adding cadence expectation to `governance/review-cadence.md`: weekly lint target, filing path
 - Deleting `wiki/aba/01-sources/raw/2021_unhcr_aba-humanitarian-early-recovery.pdf`
 - Updating `wiki/aba/01-sources/raw/00_index.md` to mark 2021_unhcr as deleted, note deletion date
@@ -66,7 +66,7 @@ Resolve all open findings from the Vault Audit Report dated 2026-05-11. Three fi
 - Full read/write access to `/Users/eddieargenal/Documents/obsidian-vault/`
 - Git available at vault root
 - `governance/aba/prompts/lint-wiki.md` — lint procedure reference
-- `wiki/aba/outputs/wiki-lint-report.md` — existing lint report (move, don't delete content)
+- `outputs/wiki-lint-report.md` — existing lint report (move, don't delete content)
 - `wiki/aba/03-frameworks/00_index.md` — must be read before adding Tier 2 index entries
 
 ---
@@ -78,9 +78,9 @@ Resolve all open findings from the Vault Audit Report dated 2026-05-11. Three fi
 - [ ] `wiki/aba/03-frameworks/00_index.md` Tier 2 section lists all 32 frameworks
 - [ ] Only one IASC 2010 extracted file exists (hyphen version); underscore deleted
 - [ ] Only one IASC 2010 PDF exists (hyphen version); underscore deleted
-- [ ] `wiki/aba/outputs/internal/lint-report-2026-05-09.md` exists (moved from wiki-lint-report.md)
-- [ ] `wiki/aba/outputs/wiki-lint-report.md` no longer exists at old path
-- [ ] `wiki/aba/outputs/internal/lint-report-2026-05-11.md` exists and is non-empty
+- [ ] `outputs/lint-report-2026-05-09.md` exists (moved from wiki-lint-report.md)
+- [ ] `outputs/wiki-lint-report.md` no longer exists at old path
+- [ ] `outputs/lint-report-2026-05-11.md` exists and is non-empty
 - [ ] `governance/review-cadence.md` includes a lint cadence section (weekly target, filing path)
 - [ ] `wiki/aba/01-sources/raw/2021_unhcr_aba-humanitarian-early-recovery.pdf` deleted
 - [ ] `wiki/aba/01-sources/raw/00_index.md` updated to reflect PDF deletion
@@ -108,7 +108,7 @@ Resolve all open findings from the Vault Audit Report dated 2026-05-11. Three fi
 - All `governance/schema/` files get `status: active`
 - All `indexes/` files get `status: active`
 - All `wiki/aba/05-field-instruments/` files get `status: draft` (no field validation on record)
-- `wiki/aba/outputs/toolkits/aba-technical-guide.md` gets `status: draft`
+- `outputs/toolkits/aba-technical-guide.md` gets `status: draft`
 - Tier 2 frameworks get `status: reference` and `tier: 2`
 - `created:` year in Tier 2 framework frontmatter derived from the year prefix in the filename (e.g. `2017-` → `created: 2017`)
 - The 9 Tier 1 frameworks are: aba-appropriateness-decision, area-selection, neighborhood-diagnosis, area-based-coordination, joint-prioritization, integrated-area-strategy, implementation-adaptation, transition-handover, urban-drr-response-design

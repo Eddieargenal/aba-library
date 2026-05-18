@@ -40,7 +40,7 @@ Bring the vault into full alignment with spec v2.4 so that frontmatter queries r
 8. All tool `source_foundation` IDs corrected to match actual `source_id` slugs
 9. Concept `maturity` vocabulary normalized to spec (`emerging|established|contested`)
 10. Field instrument `format` vocabulary normalized to spec
-11. `wiki/aba/outputs/internal/00_internal-index.md` created
+11. `outputs/00_internal-index.md` created
 12. `memory/current-handoff.md` updated to reflect this audit session
 13. `indexes/agent-index.md` regenerated via `scripts/build-index.py`
 
@@ -51,7 +51,7 @@ Bring the vault into full alignment with spec v2.4 so that frontmatter queries r
 - Vault root: `/Users/eddieargenal/Documents/obsidian-vault/`
 - Spec: `aba-wiki-detailed description.md` v2.4 (updated 2026-05-12)
 - 321 total .md files; 226 in wiki subtree; 22 extracted sources; 17 tools; 18 field instruments; 25 concepts; 9 Tier 1 + 30 Tier 2 frameworks
-- Latest lint report: `wiki/aba/outputs/internal/lint-report-2026-05-11.md`
+- Latest lint report: `outputs/lint-report-2026-05-11.md`
 - Prior lint cycle resolved: 41 orphan framework pages, 75 missing frontmatter fields
 - One open lint item (deferred): H-3 — 14 tools missing field_instruments (human decision gate)
 - `scripts/build-index.py` exists and is functional except for exclude filter bug
@@ -223,10 +223,10 @@ Bring the vault into full alignment with spec v2.4 so that frontmatter queries r
 ### WU-7: Fix build-index.py + structural gaps
 **Independent — can run any time**
 - **Objective:** Fix the build-index.py exclude filter; create missing internal index; rename ambiguous lifecycle page
-- **Inputs:** `scripts/build-index.py`; `wiki/aba/outputs/internal/`; `wiki/aba/06-lifecycle/00-appropriateness-decision.md`
+- **Inputs:** `scripts/build-index.py`; `outputs/`; `wiki/aba/06-lifecycle/00-appropriateness-decision.md`
 - **Specific changes:**
   1. `build-index.py`: Change exclude set `{"00_index.md"}` → update logic to `fname.startswith("00_")`
-  2. Create `wiki/aba/outputs/internal/00_internal-index.md` (stub index listing lint reports)
+  2. Create `outputs/00_internal-index.md` (stub index listing lint reports)
   3. Rename `wiki/aba/06-lifecycle/00-appropriateness-decision.md` → `appropriateness-decision.md` (remove `00-` prefix that collides with index naming convention)
   4. Fix 3 tool pages with null `field_instruments:` → `field_instruments: []` (`01-aba-feasibility-and-necessity-assessment-tool.md`, `05-hevc-risk-mapping-tool.md`, `06-stakeholder-coordination-mapping-tool.md`)
 - **Output:** Fixed script; new index file; renamed lifecycle page; corrected tool frontmatter
@@ -277,7 +277,7 @@ Bring the vault into full alignment with spec v2.4 so that frontmatter queries r
 | Governance file presence | ALIGNED — all required files exist | OK |
 | scripts/build-index.py presence | ALIGNED | OK |
 | memory/current-handoff.md | STALE — 2026-05-11, needs update | MEDIUM |
-| wiki/aba/outputs/internal/ index | MISSING | MEDIUM |
+| outputs/ index | MISSING | MEDIUM |
 | Additional wiki sections (07–12) | UNDOCUMENTED in spec — not violations | LOW |
 | wiki_pages: field on sources | PRESENT but empty on all 22 | MEDIUM |
 | Synthesis/output pages | NONE CREATED YET | LOW |
@@ -306,7 +306,7 @@ Bring the vault into full alignment with spec v2.4 so that frontmatter queries r
 - [ ] `grep -r "^format:" wiki/aba/05-field-instruments/ --include="*.md"` returns only spec vocab values
 - [ ] `python3 scripts/build-index.py` completes without error; `indexes/agent-index.md` contains no `00_*-index.md` entries
 - [ ] governance/aba/CLAUDE.md contains no `./01sources/` or `./04tools/` style paths (unhyphenated)
-- [ ] `wiki/aba/outputs/internal/00_internal-index.md` exists
+- [ ] `outputs/00_internal-index.md` exists
 - [ ] `memory/current-handoff.md` updated with this session
 - [ ] `memory/runtime/logs/log.md` has a 2026-05-12 entry
 

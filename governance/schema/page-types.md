@@ -30,7 +30,7 @@ Canonical page types used by frontmatter queries and index generation:
 - Purpose: forms/checklists/guides used by tools for field data collection
 
 ## `synthesis`
-- Directory: `wiki/aba/outputs/internal/` (and approved output locations)
+- Directory: `outputs/` (and approved output locations)
 - Purpose: filed analytical outputs and reusable internal syntheses
 
 ---

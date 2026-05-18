@@ -19,7 +19,7 @@ Ran full lint pass. Fixed CRITICAL count from 37 → 0. Added `contradicts: []` 
 - Renamed `06-lifecycle/appropriateness-decision.md` → `06-lifecycle/00-appropriateness-decision.md` to match wikilink `[[00-appropriateness-decision]]` in lifecycle index
 - Fixed underscore source_ids in `00-appropriateness-decision.md` frontmatter
 - Added `[[../01-sources/extracted/...]]` wikilinks to two framework pages to resolve orphan extracted source pages
-- Lint report filed: `wiki/aba/outputs/internal/lint-report-2026-05-12.md`
+- Lint report filed: `outputs/lint-report-2026-05-12.md`
 - Rebuilt index: 123 pages, 5 types
 
 ### Previous session (Session 1, same day)

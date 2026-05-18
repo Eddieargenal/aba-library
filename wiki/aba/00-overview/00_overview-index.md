@@ -1,26 +1,9 @@
----
-type: overview
-id: OVR-aba-library
-retrieval_status: usable
-title: ABA/DRR Wiki v2.6 Overview
-created: 2026-05-18
-updated: 2026-05-18
----
+# Overview Index
 
-# ABA/DRR Wiki v2.6
+## Section Description
 
-This wiki was reset and rebuilt on 2026-05-18 using an in-place clean rebuild model.
-
-## Canonical Rule
-
-Markdown and frontmatter are the source of truth.
-
-## Build Rule
-
-Compiled indexes in `indexes/current/` are generated artifacts.
-
-## Rebuild Scope
-
-- Preserved: `wiki/aba/01-sources/{raw,raw-content,extracted}`
-- Archived legacy synthesis: `archive/legacy-v25-stubs/`
-- Rebuilt empty synthesis layers for v2.6
+- What: Orientation pages that define architecture, scope, and operating rules for the ABA/DRR knowledge library.
+- Why: Ensures every contributor and agent starts from the same system model.
+- When: Read first before creating, editing, or reviewing any canonical wiki content.
+- How: Use these pages to confirm folder semantics, governance boundaries, and workflow expectations.
+- Whom: Library maintainers, reviewers, and all agents onboarding into the repository.

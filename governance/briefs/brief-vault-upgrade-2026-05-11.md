@@ -171,8 +171,8 @@ Output format:
   **WU-3a: `.claude/commands/librarian.md`**
   - Check if `.claude/commands/` exists; create directory if not
   - Create `librarian.md` with full open/close protocol:
-    - Open: (1) read `memory/current-handoff.md`, (2) read latest lint report from `wiki/aba/outputs/internal/`, (3) clear any CRITICAL/HIGH compliance items before new work, (4) begin assigned task
-    - Close: (1) fill `memory/current-handoff.md` with session summary, (2) if schema changed: append to `governance/schema/changelog.md`, (3) run lint checks, file report to `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`, (4) run `scripts/build-index.py`, (5) append to `memory/runtime/logs/log.md` using format `## [YYYY-MM-DD] type | description`
+    - Open: (1) read `memory/current-handoff.md`, (2) read latest lint report from `outputs/`, (3) clear any CRITICAL/HIGH compliance items before new work, (4) begin assigned task
+    - Close: (1) fill `memory/current-handoff.md` with session summary, (2) if schema changed: append to `governance/schema/changelog.md`, (3) run lint checks, file report to `outputs/lint-report-YYYY-MM-DD.md`, (4) run `scripts/build-index.py`, (5) append to `memory/runtime/logs/log.md` using format `## [YYYY-MM-DD] type | description`
   - Format: Claude Code slash command style — plain markdown, no frontmatter required
 
   **WU-3b: `governance/aba/prompts/ingest-new-source.md`**

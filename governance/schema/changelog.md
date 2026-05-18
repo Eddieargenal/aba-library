@@ -16,7 +16,7 @@ All schema changes must be logged here before taking effect. No exceptions.
 - Fixed underscore-format `source_foundation:` IDs in `00-appropriateness-decision.md` (two entries: `2017_sanderson-sitko_...` → `2017-sanderson-sitko-...`, `2015_parker-maynard_...` → `2015-parker-maynard-...`).
 - Added body wikilinks to `wiki/aba/03-frameworks/2019-replication-scale-up-learning-note-framework.md` and `wiki/aba/03-frameworks/2017-response-option-comparison-matrix-framework.md` pointing to their respective extracted source pages, resolving orphan status in Obsidian graph.
 - Rebuilt `indexes/agent-index.md` (123 pages, 5 types — unchanged count).
-- Lint report filed at `wiki/aba/outputs/internal/lint-report-2026-05-12.md`.
+- Lint report filed at `outputs/lint-report-2026-05-12.md`.
 
 ### Rationale
 Extension sections (06–12) were built before the schema enforced `contradicts:` on all synthesis page types. The batch remediation clears all CRITICAL lint failures. The `contradicts: []` entries added here are correct assertions (checked, found consistent) but unreviewed — they must be revisited and populated when new sources are ingested that may contradict claims in these pages.

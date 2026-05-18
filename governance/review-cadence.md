@@ -42,7 +42,7 @@ updated: 2026-05-11
 ## Lint Cadence Expectation
 
 - **Target frequency:** Weekly (every 7 days)
-- **Filing path:** `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`
+- **Filing path:** `outputs/lint-report-YYYY-MM-DD.md`
 - **Trigger:** After any ingest, or on the weekly review schedule
 - **Responsible:** Agent Maintainer (per governance/governance-model.md)
 - **Last run:** 2026-05-11

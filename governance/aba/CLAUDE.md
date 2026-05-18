@@ -1,100 +1,187 @@
 ---
 type: agent-guide
 status: active
-updated: 2026-05-12
+version: 2.7
+updated: 2026-05-18
 ---
-# Urban DRR + ABA LLM Wiki Operating Rules
 
-You maintain a local git-backed LLM Wiki for urban disaster risk reduction and area-based emergency response.
+# ABA/DRR Field Knowledge Wiki — v2.7 Operating Guide
 
-The wiki has four layers plus one operational mirror:
-1. `./01-sources/raw/` = immutable source PDFs — **ingest input only, never queried for answers**
-2. `./01-sources/raw-content/` = markdown text mirror of raw PDFs (operational convenience for extraction/review, not synthesis)
-3. `./01-sources/extracted/` + `./00-overview/` through `./12-risks-contradictions/` = extracted evidence + synthesis sections — **canonical source of truth for domain answers**
-4. `governance/schema/` + `governance/aba/CLAUDE.md` = operating rules
+## Mission
 
-**File format rule: ALL files in this vault must use .md extension.** Never create `.txt`, `.csv`, or other non-markdown artifacts inside the vault.
+This vault is a persistent, compounding operational memory for urban DRR and area-based response.
+Agents draft and maintain the system; humans validate high-risk decisions and promotions.
 
-## Layer discipline — critical
+## Canonical Architecture (v2.7)
 
-`./01-sources/raw/` and `./01-sources/raw-content/` are ingest inputs/support artifacts. They are never the answer layer for domain queries.
+### Knowledge Layer (`wiki/aba`)
 
-When answering a domain question:
-- Read numbered section pages (`./00-overview/` through `./12-risks-contradictions/`) — these are the answer source
-- Read `./01-sources/extracted/` pages for citation metadata and evidence grounding
-- Never answer from `./01-sources/raw/` or `./01-sources/raw-content/`
-- If `wiki/` content is insufficient, flag the gap and state what ingestion is needed — do not bypass the synthesis layer
+- `00-overview/`
+- `01-sources/raw/` (immutable source files)
+- `01-sources/raw-content/` (markdown mirrors of raw files)
+- `01-sources/extracted/` (structured extracted source pages)
+- `02-concepts/`
+- `03-frameworks/`
+- `04-tools/`
+- `05-field-instruments/`
+- `06-risks/`
+- `07-known-tensions/`
+- `08-advisory-playbooks/`
+- `09-decision-protocols/`
+- `10-output-templates/`
+- `11-slice-specs/`
+- `12-synthesis/`
 
-Never modify raw sources.
+### Compiled Index Layer
 
-Always read indexes/agent-index.md before answering domain questions.
+- `indexes/builds/<build_id>/` (immutable builds)
+- `indexes/current/` (active build)
 
-## When ingesting a source
+Required index artifacts:
+- `manifest.json`
+- `agent-index.jsonl`
+- `graph-edges.jsonl`
+- `unresolved-edges.jsonl`
+- `section-index.jsonl`
+- `source-evidence-index.jsonl`
+- `lint-report.json`
 
-- Add/confirm raw PDF in `./01-sources/raw/`
-- Generate/update markdown extract in `./01-sources/raw-content/`
-- Create or update the source page in `./01-sources/extracted/`
-- Run `scripts/sync_extracted_frontmatter_to_raw_content.py --apply` to sync agreed metadata into raw-content extracts
-- Update affected concept pages in ./02-concepts/
-- Update affected tool pages in ./04-tools/
-- Update lifecycle pages in ./06-lifecycle/
-- Update field instruments in ./05-field-instruments/ if the source implies data collection methods
-- Update ./12-risks-contradictions/ if claims conflict or require caution
-- Update indexes/agent-index.md (run scripts/build-index.py)
-- Append to log.md
-- Commit if git is available
+### Runtime / Operations Layer
 
-## When creating a tool
+- `outputs/field-advice/`
+- `outputs/evidence-packets/`
+- `outputs/field-notes/`
+- `outputs/proposed-library-updates/`
+- `outputs/sync-queue/`
+- `emergency/`
+- `field-repo/` (slice packaging target)
 
-For every decision question, you must include ALL of the following:
-- evidence required
-- field data points
-- collection method
-- respondent/source
-- field instrument
-- analysis method
-- scoring or decision threshold
-- data quality checks
-- risks and safeguards
-- source foundation
+### Governance Layer
 
-A tool FAILS quality review if it only lists questions without showing how field teams collect and analyze the evidence.
+- `governance/schema/` (authoritative schema + lint contracts)
+- `governance/schema-registry.md`
+- `governance/id-registry.md`
+- `governance/human-review-gates.md`
+- `governance/aba/prompts/` (active prompt pack)
 
-## When querying
+## Source of Truth Rules
 
-- Search indexes/agent-index.md first
-- Read relevant wiki pages before answering
-- Use source pages for citation support
-- Produce practical outputs for technical teams
-- If new reusable synthesis emerges, file it back into the wiki
+1. Markdown + frontmatter is canonical knowledge.
+2. JSONL indexes are generated artifacts.
+3. Agents never hand-edit compiled index files.
+4. Stable IDs are graph identity; file paths are not.
+5. All vault artifacts must be `.md` except generated JSON/JSONL index outputs.
 
-## When linting
+## Stable ID Prefixes
 
-Detect and report:
-- Orphan pages (no inbound links)
-- Uncited claims
-- Stale or contradicted claims
-- Tools without field instruments
-- Field instruments not linked to tools
-- Lifecycle stages without minimum outputs
-- Coordination guidance without duplication/gap logic
-- DRR guidance without hazard/exposure/vulnerability/capacity logic
-- Participation guidance without inclusion and protection safeguards
-- Transition guidance without responsible actor, maintenance, budget, and unresolved risk logic
-- Tool pages that ask diagnostic questions but don't define evidence collection
-- Field instruments without data quality checks
-- Empty placeholder pages
+- `S-` source
+- `C-` concept
+- `F-` framework
+- `T-` tool
+- `I-` field instrument
+- `R-` risk
+- `KTN-` known tension
+- `P-` advisory playbook
+- `D-` decision protocol
+- `O-` output template/output
+- `EP-` evidence packet
+- `PU-` proposed update
+- `SS-` slice spec
 
-## Tool quality standard
+## Layer Discipline (Critical)
 
-A tool page PASSES quality review only if it includes, for each decision question:
-1. Evidence required
-2. Field data points
-3. Collection method
-4. Respondent or data source
-5. Field instrument
-6. Analysis method
-7. Scoring or decision threshold
-8. Data quality checks
-9. Risks and safeguards
-10. Source foundation
+- `wiki/aba/01-sources/raw/` and `raw-content/` are ingest/evidence support layers only.
+- Domain answers must be grounded in extracted/synthesis pages plus indexed evidence.
+- If synthesis coverage is missing, surface the gap and propose ingest/routing updates.
+- Never modify raw source files.
+
+## Query and Advisory Flow (v2.7)
+
+1. Pin one `index_build_id` from `indexes/current/manifest.json`.
+2. Classify decision domain and lifecycle stage.
+3. Retrieve through `agent-index.jsonl` + `graph-edges.jsonl`.
+4. Retrieve section spans from `section-index.jsonl`.
+5. Build evidence packets (`EP-*`) with claim support.
+6. Consolidate claim ledger.
+7. Draft final output from approved claims only.
+8. Run citation review.
+9. Run risk review.
+10. Store output under `outputs/field-advice/`.
+
+## Runtime Modes
+
+- `full`
+- `edge_laptop`
+- `minimal_offline`
+- `no_llm`
+
+Rules:
+- Respect runtime ceilings by mode.
+- Use `emergency/` assets for `no_llm`.
+
+## Ingest and Routing Flow
+
+1. Curate raw source in `01-sources/raw/`.
+2. Create/update raw-content mirror.
+3. Create extracted source page with findings and integration map.
+4. Route findings into existing pages first.
+5. Create `PU-` proposals for changes needing review.
+6. Rebuild indexes via `scripts/build-index.py`.
+7. Publish only if critical lint errors are zero.
+
+## Human Review Gates
+
+- Gate A: extracted source review
+- Gate B: routing/proposal review
+- Gate C: field-critical advisory review
+- Gate D: field update promotion review
+
+## Lint and Publish Rules
+
+Critical failures block publish. High warnings may publish with visibility.
+Canonical lint policy: `governance/schema/lint-rules.md`.
+
+## Prompt Policy
+
+Active prompt set:
+- `governance/aba/prompts/agent-01-*.md` through `agent-20-*.md`
+- index: `governance/aba/prompts/00_prompts-index.md`
+
+Legacy prompts are archival only:
+- `archive/prompts/aba-legacy-v25/`
+
+## Session Protocol
+
+Open:
+1. Read `memory/current-handoff.md`.
+2. Read `indexes/current/manifest.json` and latest `lint-report.json`.
+3. Resolve CRITICAL issues before new advisory work.
+
+Close:
+1. Update `memory/current-handoff.md`.
+2. If schema changed, update `governance/schema/changelog.md`.
+3. Rebuild indexes (`scripts/build-index.py`).
+4. Append operation log in `memory/runtime/logs/log.md`.
+
+## Quick Routing
+
+| Task | Canonical File(s) |
+|---|---|
+| Architecture and operating rules | `AGENTS.md`, `governance/aba/CLAUDE.md` |
+| Schema contract | `governance/schema/frontmatter-schema.md` |
+| Lint policy | `governance/schema/lint-rules.md` |
+| Prompt catalog | `governance/aba/prompts/00_prompts-index.md` |
+| Ingest | `governance/aba/prompts/agent-07-raw-source-mirror-agent.md`, `agent-08-extracted-source-agent.md`, `agent-09-finding-routing-agent.md` |
+| Advisory orchestration | `governance/aba/prompts/agent-10-advisory-orchestrator-agent.md` |
+| Lint and graph validation | `governance/aba/prompts/agent-06-lint-and-graph-validator-agent.md` |
+| Index build | `scripts/build-index.py` |
+| Field slice packaging | `governance/aba/prompts/agent-17-slice-builder-agent.md` |
+| Field sync proposal flow | `governance/aba/prompts/agent-18-field-sync-agent.md`, `agent-19-hq-sync-review-agent.md` |
+
+## Non-Negotiables
+
+- No fabricated evidence.
+- No unsupported claims in final guidance.
+- No direct canonical overwrite from field sync queues.
+- No silent contradiction suppression.
+- No manual edits to compiled index artifacts.

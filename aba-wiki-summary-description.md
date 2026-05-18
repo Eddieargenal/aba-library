@@ -391,11 +391,11 @@ A single source typically touches 10–20 wiki pages. Ingesting one at a time an
 
 ### Query
 
-Ask questions against the wiki. The LLM runs a frontmatter query against `indexes/agent-index.md`, reads only the relevant 3–5 pages, and synthesizes an answer with `source_id` citations. Answers that reveal new connections can be filed to `wiki/aba/outputs/internal/` as `type: synthesis` pages — explorations compound in the knowledge base.
+Ask questions against the wiki. The LLM runs a frontmatter query against `indexes/agent-index.md`, reads only the relevant 3–5 pages, and synthesizes an answer with `source_id` citations. Answers that reveal new connections can be filed to `outputs/` as `type: synthesis` pages — explorations compound in the knowledge base.
 
 ### Lint
 
-Weekly. Filed to `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`. Compliance items cleared before any new work at next session start.
+Weekly. Filed to `outputs/lint-report-YYYY-MM-DD.md`. Compliance items cleared before any new work at next session start.
 
 **CRITICAL — fix before any new work:**
 - Missing required frontmatter fields per page type (retrieval blackhole)

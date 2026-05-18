@@ -39,7 +39,7 @@ Invoke with `/librarian [operation] [optional-context]` in a Claude Code session
 | `/librarian query [question]` | Any domain question | Structured answer with source citations |
 | `/librarian ingest [path]` | New document added | Source page wired into wiki, index rebuilt |
 | `/librarian extract [pdf]` | New PDF in `wiki/aba/01-sources/raw/` | Extraction page in `wiki/aba/01-sources/extracted/` |
-| `/librarian lint` | Weekly + after major changes | Lint report in wiki/aba/outputs/internal/ |
+| `/librarian lint` | Weekly + after major changes | Lint report in outputs/ |
 | `/librarian build-index` | After any page change | Updated indexes/agent-index.md |
 | `/librarian build-concept [name]` | After ingest pass | Concept page in 02-concepts/ |
 | `/librarian build-framework [stage]` | Gap in lifecycle coverage | Framework page in 03-frameworks/ |
@@ -91,7 +91,7 @@ Invoke with `/librarian [operation] [optional-context]` in a Claude Code session
 ```
 /librarian query [question]           ← frontmatter query → 3–5 pages → structured answer
 ```
-Output is filed to `wiki/aba/outputs/internal/` as type: synthesis if reusable.
+Output is filed to `outputs/` as type: synthesis if reusable.
 
 ---
 
@@ -167,6 +167,6 @@ Where `type` is: `ingest` · `query` · `lint` · `schema` · `maintenance`
 
 - [ ] `memory/current-handoff.md` filled with session summary
 - [ ] Schema changelog updated if any frontmatter field changed
-- [ ] Lint report filed to `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`
+- [ ] Lint report filed to `outputs/lint-report-YYYY-MM-DD.md`
 - [ ] `scripts/build-index.py` run — count confirmed
 - [ ] Log entry appended to `memory/runtime/logs/log.md`

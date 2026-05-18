@@ -59,7 +59,7 @@ wiki/aba/02-concepts/          ← concept pages
 wiki/aba/03-frameworks/        ← framework pages (Tier 1 + Tier 2)
 wiki/aba/04-tools/             ← tool pages
 wiki/aba/05-field-instruments/ ← field instrument pages
-wiki/aba/outputs/internal/     ← lint reports, synthesis outputs
+outputs/     ← lint reports, synthesis outputs
 scripts/build-index.py         ← regenerates indexes/agent-index.md
 ```
 
@@ -84,7 +84,7 @@ It contains the operating model, session protocol, and promotion gates.
    - Deferred compliance items
    - Recommended first action
 
-2. Find the most recent lint report in `wiki/aba/outputs/internal/`. List files matching `lint-report-*.md`, open the most recent. Note all CRITICAL and HIGH findings.
+2. Find the most recent lint report in `outputs/`. List files matching `lint-report-*.md`, open the most recent. Note all CRITICAL and HIGH findings.
 
 3. Clear compliance queue before new work:
    - Resolve all CRITICAL findings now
@@ -117,7 +117,7 @@ It contains the operating model, session protocol, and promotion gates.
 2. **Update schema changelog if schema changed.** Append a row to `governance/schema/changelog.md`:
    `| YYYY-MM-DD | agent | description | files affected | migration notes |`
 
-3. **Run lint.** Execute the LINT operation. File the report to `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`.
+3. **Run lint.** Execute the LINT operation. File the report to `outputs/lint-report-YYYY-MM-DD.md`.
 
 4. **Rebuild index.** Run: `python3 scripts/build-index.py`
 
@@ -145,7 +145,7 @@ It contains the operating model, session protocol, and promotion gates.
    - Decision question · Evidence required · Field data points · Collection method
    - Relevant field instruments · Analysis method · Decision threshold
    - Source citations (source_id references) · Known tensions
-5. If new reusable synthesis emerges: file to `wiki/aba/outputs/internal/` as type: synthesis.
+5. If new reusable synthesis emerges: file to `outputs/` as type: synthesis.
 6. Append to log: `## [YYYY-MM-DD] query | [brief description]`
 
 ---
@@ -198,7 +198,7 @@ It contains the operating model, session protocol, and promotion gates.
 
 ## LINT — Run wiki quality check
 
-**Output**: `wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md`
+**Output**: `outputs/lint-report-YYYY-MM-DD.md`
 
 **CRITICAL checks** (fix before any other work):
 ```bash
@@ -343,7 +343,7 @@ Include: summary table, then CRITICAL / HIGH / MEDIUM findings with exact file p
 ```
 ## [YYYY-MM-DD] lint | Weekly wiki quality check
 - pages scanned: N | critical: N | high: N | medium: N
-- report: wiki/aba/outputs/internal/lint-report-YYYY-MM-DD.md
+- report: outputs/lint-report-YYYY-MM-DD.md
 ```
 
 ---
@@ -455,7 +455,7 @@ Confirm count. Append to log: `## [YYYY-MM-DD] maintenance | Rebuilt agent index
 1. Read tool page
 2. Score all 10 criteria per decision domain (✓ pass / ✗ fail / — missing)
 3. Check frontmatter: field_instruments non-empty, source_foundation ≥2, contradicts set
-4. Write findings to `wiki/aba/outputs/internal/tool-review-[tool-id]-YYYY-MM-DD.md`
+4. Write findings to `outputs/tool-review-[tool-id]-YYYY-MM-DD.md`
 5. Add `TODO[agent]: [description]` for each failed criterion
 
 ---
