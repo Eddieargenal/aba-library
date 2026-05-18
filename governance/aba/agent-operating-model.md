@@ -1,35 +1,36 @@
 ---
 type: overview
-status: draft
+status: active
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-18
 ---
-# Agent Operating Model
+# Agent Operating Model (v2.6)
 
-## What agents can do with this wiki
+## Operating Rules
 
-### Answer domain questions
-Agents read relevant pages and produce practical guidance for technical teams. All answers must be grounded in the source pages.
+- Pin one `index_build_id` per advisory run.
+- Retrieve by section IDs using `section-index.jsonl`.
+- Produce section-level evidence packets before drafting prose.
+- Writing agent may use only approved claims from the claim ledger.
+- Citation and risk review must pass before final advisory output.
 
-### Ingest new sources
-Use the prompt at [[prompts/ingest-new-source.md]]. Follow ingest-rules.md.
+## Required Advisory Flow
 
-### Generate tools from sources
-Use the prompt at [[prompts/build-new-tool-from-sources.md]].
+1. Orchestrator classifies decision domain and lifecycle stage.
+2. Retrieval agents read filtered pages via `agent-index.jsonl` + `graph-edges.jsonl`.
+3. Section agents produce evidence packets (`EP-*`).
+4. Consolidator builds claim ledger.
+5. Writer drafts from claim ledger only.
+6. Citation reviewer validates support.
+7. Risk reviewer checks safeguards/escalation triggers.
+8. Output is published.
 
-### Generate field instruments
-Use the prompt at [[prompts/generate-field-instrument.md]].
+## Field Runtime Write Policy
 
-### Create decision memos
-Use the template at [[prompts/create-decision-memo.md]].
+Field devices write only to:
+- `outputs/field-advice/`
+- `outputs/evidence-packets/`
+- `outputs/field-notes/`
+- `outputs/proposed-library-updates/`
 
-### Lint the wiki
-Use the prompt at [[prompts/lint-wiki.md]]. Check against [[../schema/lint-rules]].
-
-## Agent rules
-- Always read index.md before answering
-- Always cite source pages
-- Never fabricate evidence
-- Flag uncertainty explicitly
-- File reusable synthesis back into the wiki
-- Append actions to log.md
+Canonical synthesis pages are read-mostly outside maintenance workflows.

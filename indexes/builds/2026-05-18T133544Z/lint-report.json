@@ -1,0 +1,359 @@
+{
+  "build_id": "2026-05-18T133544Z",
+  "critical_errors": [
+    {
+      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2015_dfid-irc-alnap_aba-discussion-paper.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2017-ifrc-building-urban-resilience-guide.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2017-response-option-comparison-matrix-framework.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2018_allen-building-better_concepts-of-neighbourhood-literature-review.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2019-replication-scale-up-learning-note-framework.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/raw-content/2009_twigg-ucl_disaster-resilient-community.raw-extract.md",
+      "error": "invalid_yaml_frontmatter"
+    },
+    {
+      "path": "01-sources/raw-content/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2010_young-foundation_how-can-neighbourhoods-be-defined.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2010_young-foundation_how-can-neighbourhoods-be-defined.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2012_efl_neighbourhood-approach-toolbox.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2012_efl_neighbourhood-approach-toolbox.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2013-worldbank-building-urban-resilience-principles-tools-practice.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2013-worldbank-building-urban-resilience-principles-tools-practice.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2015-undrr-sendai-framework-drr-2015-2030-framework.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2015-undrr-sendai-framework-drr-2015-2030-framework.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2015_dfid-irc-alnap_aba-discussion-paper.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2015_dfid-irc-alnap_aba-discussion-paper.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2016-campbell-stepping-back-understanding-cities-systems-guide.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2016-campbell-stepping-back-understanding-cities-systems-guide.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2017-globalcluster-area-based approaches-in-urban-settings-case-studies.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2017-globalcluster-area-based approaches-in-urban-settings-case-studies.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2017-ifrc-building-urban-resilience-guide.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2017-ifrc-building-urban-resilience-guide.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2017-iied-urban-context-analysis-toolkit-guidance-note.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2017-iied-urban-context-analysis-toolkit-guidance-note.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2017-response-option-comparison-matrix-framework.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2017-response-option-comparison-matrix-framework.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2018_allen-building-better_concepts-of-neighbourhood-literature-review.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2018_allen-building-better_concepts-of-neighbourhood-literature-review.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2019-replication-scale-up-learning-note-framework.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2019-replication-scale-up-learning-note-framework.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2019_alnap-sanderson-humanitarian-response-urban-contexts.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2019_alnap-sanderson-humanitarian-response-urban-contexts.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.raw-extract.md",
+      "error": "missing_retrieval_status"
+    },
+    {
+      "path": "01-sources/raw-content/2026-iasc-standard-terms-reference-area-based-coordination-tor.raw-extract.md",
+      "error": "missing_id"
+    },
+    {
+      "path": "01-sources/raw-content/2026-iasc-standard-terms-reference-area-based-coordination-tor.raw-extract.md",
+      "error": "missing_retrieval_status"
+    }
+  ],
+  "warnings": [
+    {
+      "path": "01-sources/raw-content/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2010_young-foundation_how-can-neighbourhoods-be-defined.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2012_efl_neighbourhood-approach-toolbox.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2013-worldbank-building-urban-resilience-principles-tools-practice.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2015-undrr-sendai-framework-drr-2015-2030-framework.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2015_dfid-irc-alnap_aba-discussion-paper.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2016-campbell-stepping-back-understanding-cities-systems-guide.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2017-globalcluster-area-based approaches-in-urban-settings-case-studies.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2017-ifrc-building-urban-resilience-guide.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2017-iied-urban-context-analysis-toolkit-guidance-note.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2017-response-option-comparison-matrix-framework.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2018_allen-building-better_concepts-of-neighbourhood-literature-review.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2019-replication-scale-up-learning-note-framework.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2019_alnap-sanderson-humanitarian-response-urban-contexts.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/2024-unhcr-syria-factsheet-aba-her-apr2024.unmatched-raw-extract.md",
+      "warning": "missing_frontmatter"
+    },
+    {
+      "path": "01-sources/raw-content/2026-iasc-standard-terms-reference-area-based-coordination-tor.raw-extract.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/raw-content/provenance-map.md",
+      "warning": "missing_frontmatter"
+    }
+  ]
+}

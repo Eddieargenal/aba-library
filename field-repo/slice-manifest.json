@@ -1,0 +1,15 @@
+{
+  "slice_id": "replace-me",
+  "base_library_build_id": "replace-after-build",
+  "coverage": {
+    "decision_domains": [],
+    "lifecycle_stage": [],
+    "hazards": []
+  },
+  "raw_sources_included": false,
+  "expected_runtime_mode": "edge_laptop",
+  "known_limitations": [
+    "Raw PDFs not included by default.",
+    "Final compliance review requires full repository sync."
+  ]
+}
