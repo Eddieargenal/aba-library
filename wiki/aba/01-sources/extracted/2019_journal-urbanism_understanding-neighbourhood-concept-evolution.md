@@ -1,4 +1,5 @@
 ---
+id: S-2019-journal-urbanism-understanding-neighbourhood-concept-evolution
 title: "Understanding the Neighbourhood Concept and Its Evolution: A Review"
 author: "Gideon Baffoe"
 institution: "Sage Publications / Environment and Urbanization Asia (journal)"
@@ -30,6 +31,7 @@ notes: "Journal article — Environment and Urbanization Asia (Sage, 2019). DOI:
 canonical_file: ../raw/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2019-journal-urbanism-understanding-neighbourhood-concept-evolution
 source_type: academic
 confidence: medium
@@ -42,8 +44,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This article reviews the evolution of the neighbourhood concept and argues that it remains highly relevant in both policy and research, while also being fluid and contested with no single agreed definition (p. 1).
 
@@ -137,3 +150,12 @@ The review traces conceptual roots to planning (for example, Howard/Perry lineag
 **Canonical file:** `../raw/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.pdf`
 **Document URL:** https://doi.org/10.1177/0975425319859115
 **Access notes:** active — DOI link; verify institutional access if paywall applies
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

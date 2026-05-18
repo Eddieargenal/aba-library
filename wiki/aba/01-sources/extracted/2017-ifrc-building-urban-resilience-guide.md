@@ -1,4 +1,5 @@
 ---
+id: S-2017-ifrc-building-urban-resilience-guide
 title: "Building urban resilience: A guide for Red Cross and Red Crescent engagement and contribution"
 author: "International Federation of Red Cross and Red Crescent Societies (IFRC)"
 institution: "International Federation of Red Cross and Red Crescent Societies (IFRC)"
@@ -31,6 +32,7 @@ notes: "Outcome of IFRC–Iranian Red Crescent Partnership on Urban DRR/DM (2013
 canonical_file: ../raw/2017-ifrc-building-urban-resilience-guide.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2017-ifrc-building-urban-resilience-guide
 source_type: ngo-guidance
 confidence: medium
@@ -44,8 +46,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This IFRC guide (2017) presents a Movement-oriented framework for engaging in urban disaster risk reduction and disaster management (urban DRR/DM) to strengthen urban resilience (pp. 1, 14-16). Full title: "Building urban resilience: A guide for Red Cross and Red Crescent engagement and contribution". It was developed as an outcome of the IFRC-Iranian Red Crescent Partnership on Urban DRR/DM (2013-2016), informed by regional consultations and five city-level pilot projects in Tehran (Iran), Nairobi (Kenya), Tegucigalpa (Honduras), Jakarta (Indonesia), and Yerevan (Armenia) (pp. 11, 15-16, 24).
@@ -268,3 +281,12 @@ Source URL is available in frontmatter via ifrc.org; verify the file path is sti
 **Document URL**: https://www.ifrc.org/document/building-urban-resilience-guide (current) | https://www.ifrc.org/sites/default/files/1317300_GuidanceUrbanResilience_LR25b15d.pdf (original)
 
 **Access notes**: Verify link is still live; IFRC file paths may have changed. Current access via https://www.ifrc.org/document/building-urban-resilience-guide. Alternative access via ReliefWeb using the full title. **Full citation: International Federation of Red Cross and Red Crescent Societies (2017). Building urban resilience: A guide for Red Cross and Red Crescent engagement and contribution. Geneva: IFRC.** This guide was developed through the IFRC-Iranian Red Crescent Partnership on Urban Disaster Risk Reduction and Management (2013-2016), which included pilot projects in Tehran, Nairobi, Tegucigalpa, Jakarta, and Yerevan (pp. 11, 15-16, 24). The guide is available in English; primary audience is National Red Cross and Red Crescent Societies worldwide.
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

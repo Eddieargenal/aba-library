@@ -1,4 +1,5 @@
 ---
+id: S-2015-parker-maynard-humanitarian-response-urban-crises-aba-review
 title: "Humanitarian response to urban crises: a review of area-based approaches"
 author: "Elizabeth Parker and Victoria Maynard"
 institution: "International Institute for Environment and Development (IIED)"
@@ -31,6 +32,7 @@ notes: "IIED Working Paper. Literature review + practitioner interviews + worksh
 canonical_file: ../raw/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
 source_type: field-evaluation
 confidence: high
@@ -46,8 +48,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This IIED working paper reviews available humanitarian and development literature on area-based approaches (ABAs) in urban crises and supplements it with practitioner interviews and a workshop session (pp. 4-5). **The paper was authored by Elizabeth Parker and Victoria Maynard (University College London) and published in 2015 as IIED Working Paper 10742IIED** [web:38][web:42]. Its purpose is to inform practice/policy and identify knowledge gaps for further research (pp. 4-5).
@@ -288,3 +301,12 @@ Monitoring and evaluation attribution is difficult in urban ABA contexts because
 **Document URL**: https://www.iied.org/10742iied (current URL) | http://pubs.iied.org/10742IIED (original URL)
 
 **Access notes**: IIED migrated from pubs.iied.org to www.iied.org; current access at https://www.iied.org/10742iied. IIED Working Paper series; document code 10742IIED. **Authors: Elizabeth Parker and Victoria Maynard (University College London). Published 2015. Full title: "Humanitarian response to urban crises: a review of area-based approaches"** [web:38][web:42]. **This paper was foundational in establishing the three-characteristic definition of ABAs and has been widely cited in subsequent humanitarian urban response literature and guidance** [web:30][web:32][web:40].
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

@@ -1,4 +1,5 @@
 ---
+id: S-2026-iasc-standard-terms-reference-area-based-coordination-tor
 title: "Standard Terms of Reference for Area-Based Coordination"
 author: "Inter-Agency Standing Committee (IASC) Humanitarian Working Group"
 institution: "Inter-Agency Standing Committee (IASC)"
@@ -26,6 +27,7 @@ notes: "IASC-endorsed (March 2026) standard TOR for area-based coordination unde
 canonical_file: ../raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2026-iasc-standard-terms-reference-area-based-coordination-tor
 source_type: iasc-guidance
 confidence: high
@@ -40,8 +42,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This document provides IASC-endorsed standard Terms of Reference (TOR) for area-based coordination (ABC), intended as a minimum common reference for humanitarian operations adopting ABC under IASC-supported coordination arrangements (pp. 1-2).
 
@@ -141,3 +154,12 @@ The document then specifies establishment criteria, chair selection and setup st
 - [x] Page references added where feasible
 - [x] Canonical file path valid
 - [x] Writing is concise and non-redundant
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

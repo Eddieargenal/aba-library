@@ -1,4 +1,5 @@
 ---
+id: S-2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
 title: "Barrio Mio and Katye: PCI’s neighbourhood approach in cities"
 author: "Leah Campbell"
 institution: "ALNAP"
@@ -32,6 +33,7 @@ notes: "ALNAP case study of PCI’s Barrio Mio (Guatemala City — urban DRR str
 canonical_file: ../raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
 source_type: field-evaluation
 confidence: high
@@ -48,8 +50,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This ALNAP case study examines how PCI’s Barrio Mio (Guatemala City) and Katye (Port-au-Prince) projects used a neighbourhood approach to work in complex urban contexts, with emphasis on practical adaptations rather than theory alone (pp. 3, 6, 25, 32).
 
@@ -155,3 +168,12 @@ The case study documents six core ways these projects navigated complexity: cont
 **Canonical file:** `../raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study.pdf`
 **Document URL:** https://www.alnap.org
 **Access notes:** verify — source_url is ALNAP homepage only; search alnap.org for 'Barrio Mio Katye neighbourhood approach cities' to find specific publication page
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

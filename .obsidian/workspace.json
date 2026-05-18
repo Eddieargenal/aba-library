@@ -11,35 +11,17 @@
             "id": "48f3f4409bcab49d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "aba-wiki-architecture.canvas",
-                "viewState": {
-                  "x": -716.0500819746028,
-                  "y": -891.7354900095148,
-                  "zoom": -0.650703355171
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "aba-wiki-architecture"
-            }
-          },
-          {
-            "id": "c000d1f7bcfbcc8b",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "governance/aba/agent-operating-model.md",
+                "file": "wiki/aba/00-overview/scaffold-map-v27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agent-operating-model"
+              "title": "scaffold-map-v27"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,8 +184,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c000d1f7bcfbcc8b",
+  "active": "48f3f4409bcab49d",
   "lastOpenFiles": [
+    "wiki/aba/00-overview/00_overview-index.md",
+    "playbooks/ingest-source.md",
+    "playbooks/build-slice.md",
+    "playbooks/advisory-response.md",
+    "aba_drr_field_knowledge_wiki_v2_6_architecture.md",
+    "indexes/builds/2026-05-18T145826Z/lint-report.json",
+    "indexes/builds/2026-05-18T145826Z/source-evidence-index.jsonl",
+    "indexes/builds/2026-05-18T145826Z/section-index.jsonl",
+    "indexes/builds/2026-05-18T145826Z/unresolved-edges.jsonl",
+    "indexes/builds/2026-05-18T145826Z/graph-edges.jsonl",
+    "indexes/builds/2026-05-18T145826Z/agent-index.jsonl",
+    "indexes/builds/2026-05-18T145826Z/manifest.json",
+    "indexes/builds/2026-05-18T145826Z",
+    "indexes/builds/2026-05-18T145745Z/lint-report.json",
+    "indexes/builds/2026-05-18T145745Z/source-evidence-index.jsonl",
+    "aba-wiki-architecture.canvas",
+    "aba-wiki-summary-description.md",
+    "aba-wiki-detailed description.md",
+    "00-overview-architecture.md.md",
+    "governance/aba/agent-operating-model.md",
+    "governance/templates/v26/slice-spec-template.md",
+    "governance/templates/v26/output-template-template.md",
+    "governance/templates/v26/decision-protocol-template.md",
+    "governance/templates/v26/advisory-playbook-template.md",
+    "governance/templates/v26/known-tension-template.md",
+    "governance/templates/v26/field-instrument-template.md",
     "governance/aba/librarian/RUNBOOK.md",
     "governance/briefs/scope-vault-upgrade-2026-05-11.md",
     "governance/briefs/scope-vault-quality-remediation-2026-05-08.md",
@@ -215,32 +223,6 @@
     "governance/briefs/brief-audit-remediation-2026-05-11.md",
     "governance/briefs/brief-alignment-audit-2026-05-12.md",
     "governance/aba/how-to-use-this-wiki.md",
-    "governance/aba/CLAUDE.md",
-    "governance/aba/AGENTS.md",
-    "governance/aba/agent-operating-model.md",
-    "governance/aba/librarian/SKILL.md",
-    "governance/aba/agent-contract.md",
-    "governance/aba/00_aba-index.md",
-    "governance/aba/prompts/agent-20-emergency-no-llm-packager-agent.md",
-    "governance/aba/prompts/agent-19-hq-sync-review-agent.md",
-    "governance/aba/prompts/agent-18-field-sync-agent.md",
-    "governance/aba/prompts/agent-17-slice-builder-agent.md",
-    "governance/aba/prompts/agent-16-output-storage-and-promotion-agent.md",
-    "governance/aba/prompts/agent-15-risk-reviewer-agent.md",
-    "governance/aba/prompts/agent-14-citation-reviewer-agent.md",
-    "governance/aba/prompts/agent-13-claim-ledger-writing-agent.md",
-    "governance/aba/prompts/agent-12-packet-consolidator-and-claim-ledger-agent.md",
-    "archive/prompts/aba-legacy-v25",
-    "archive/prompts",
-    "governance/aba/prompts/agents-v27",
-    "tests",
-    "playbooks",
-    "outputs/sync-queue",
-    "outputs/proposed-library-updates",
-    "outputs/field-notes",
-    "outputs/field-advice",
-    "outputs/evidence-packets",
-    "aba-wiki-architecture.canvas",
     "generated-image.png",
     "Untitled.canvas",
     "area-based-approaches-wiki.png",

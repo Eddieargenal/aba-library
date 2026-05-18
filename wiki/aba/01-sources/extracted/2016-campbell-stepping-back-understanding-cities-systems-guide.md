@@ -1,4 +1,5 @@
 ---
+id: S-2016-campbell-stepping-back-understanding-cities-systems-guide
 title: "Stepping back: understanding cities and their systems"
 author: "Leah Campbell"
 institution: "ALNAP"
@@ -28,6 +29,7 @@ notes: "ALNAP working paper. Core contribution: 5 urban systems typology (econom
 canonical_file: ../raw/2016-campbell-stepping-back-understanding-cities-systems-guide.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2016-campbell-stepping-back-understanding-cities-systems-guide
 source_type: field-evaluation
 confidence: high
@@ -41,8 +43,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This ALNAP working paper argues that humanitarian actors still struggle to understand and respond effectively in urban crises, despite increasing urban caseloads and growing policy attention (pp. 6, 8-10, 52). **Authored by Leah Campbell and published in 2016 as part of ALNAP's urban humanitarian response research initiative**, the paper positions this as a practical performance problem: responses can become disconnected from context, undermine local systems, and miss opportunities to build on existing capacities (pp. 18-20) [web:49][web:51][web:53].
@@ -265,3 +278,12 @@ Source URL is available in frontmatter via ResearchGate (pp. 2, 57 reference ALN
 **Document URL**: https://www.alnap.org/help-library/stepping-back-understanding-cities-and-their-systems (preferred) | https://www.researchgate.net/publication/316990156_Stepping_Back_Understanding_Cities_and_Their_Systems (alternative)
 
 **Access notes**: ResearchGate links are fragile; preferred access is directly via alnap.org help library. Search ALNAP for "Stepping back: understanding cities and their systems" (Campbell, 2016). **Author: Leah Campbell (ALNAP Senior Research Officer at time of publication). Published 2016 as ALNAP Working Paper. Full citation: Campbell, L. (2016) Stepping back: understanding cities and their systems. ALNAP Working Paper. London: ALNAP/ODI** [web:51][web:52][web:53]. **This paper was followed by the 2019 ALNAP Systems Thinking Handbook which operationalized many of these concepts into practical tools** [web:57].
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

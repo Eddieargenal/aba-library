@@ -1,4 +1,5 @@
 ---
+id: S-2015-undrr-sendai-framework-drr-2015-2030-framework
 title: "Sendai Framework for Disaster Risk Reduction 2015-2030"
 author: "United Nations Office for Disaster Risk Reduction (UNDRR)"
 institution: "United Nations Office for Disaster Risk Reduction (UNDRR)"
@@ -31,6 +32,7 @@ notes: "Successor to HFA 2005-2015. Adopted March 2015 in Sendai, Japan. 7 globa
 canonical_file: ../raw/2015-undrr-sendai-framework-drr-2015-2030-framework.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2015-undrr-sendai-framework-drr-2015-2030-framework
 source_type: un-policy
 confidence: medium
@@ -43,8 +45,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This document is the Sendai Framework for Disaster Risk Reduction 2015-2030, adopted at the Third United Nations World Conference on Disaster Risk Reduction in Sendai, Japan, on 18 March 2015 (pp. 8, 4). **It is the successor to the Hyogo Framework for Action (HFA) 2005-2015 and represents the global blueprint for disaster risk reduction through 2030, endorsed by 187 UN Member States** (pp. 4, 8). **The framework was negotiated over 18 months through regional consultations and three preparatory committee meetings before adoption at the Sendai Conference attended by 6,500 participants including government delegations, civil society, private sector, and scientific communities** (p. 4).
@@ -268,3 +281,12 @@ The PDF references www.unisdr.org (the former UNDRR web identity, p. 37); **UNIS
 **Document URL**: https://www.undrr.org/media/16176/download
 
 **Access notes**: Active — verified via UNDRR. Note: the PDF references www.unisdr.org (former agency name); UNISDR was formally renamed UNDRR (UN Office for Disaster Risk Reduction) in 2019. The authoritative publication page is at undrr.org. **Full title: "Sendai Framework for Disaster Risk Reduction 2015-2030" — adopted 18 March 2015 at Third UN World Conference on Disaster Risk Reduction, Sendai, Japan. Endorsed by UN General Assembly Resolution 69/283 (23 June 2015).**
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

@@ -1,4 +1,5 @@
 ---
+id: S-2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
 title: "Area-Based Approaches in Urban Settings: Compendium of Case Studies (May 2019 edition)"
 author: Global Shelter Cluster Urban Settlements Working Group
 institution: Global Shelter Cluster / Urban Settlements Working Group
@@ -30,6 +31,7 @@ notes: "May 2019 edition; filename uses 2017 (original publication year). Cases 
 canonical_file: ../raw/2017-globalcluster-area-based approaches-in-urban-settings-case-studies.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2017-globalcluster-area-based-approaches-in-urban-settings-case-studies
 source_type: ngo-guidance
 confidence: high
@@ -46,7 +48,18 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
+<a id="summary"></a>
 ## Summary
 
 This compendium (May 2019 edition) consolidates case studies on area-based approaches (ABAs) in urban settings, coordinated by the Global Shelter Cluster Urban Settlements Working Group, with examples spanning humanitarian and development contexts from 2010-2019 (pp. 1, 6). The compendium includes over 30 case studies contributed by more than 60 organizations including ACT Alliance, CRS, IFRC, Impact Initiatives, InterAction, IRC, NRC, UN-Habitat, UNHCR and many others (pp. 1, 6). It presents cases across city, district/borough, and neighborhood scales and synthesizes common characteristics, achievements, challenges, and improvement priorities (pp. 5-6, 11-13).
@@ -274,3 +287,12 @@ Source URL has been identified and is available in frontmatter (ReliefWeb, May 2
 **Document URL**: https://reliefweb.int/attachments/b9709dd1-c221-3d27-ae9b-5d9e308f4cc3/201905013_urban_compendium.pdf | https://resources.peopleinneed.net/documents/960-201905022_urban_compendium_highres.pdf (alternative)
 
 **Access notes**: Active — ReliefWeb (May 2019 edition). Note: filename uses "2017" (original edition year); the extracted content covers the updated May 2019 edition. **Full title: "Area-based Approaches in Urban Settings: Compendium of Case Studies" — coordinated by Global Shelter Cluster Urban Settlements Working Group (USWG). The USWG was established in May 2017 by Catholic Relief Services, Impact Initiatives, InterAction, IFRC, IRC, NRC, UN-Habitat, UNHCR and others under the auspices of the Global Shelter Cluster (pp. 1, 6).** The compendium includes 30+ case studies from over 60 contributing organizations spanning 19 countries. This compendium informed the integration of area-based approaches into Sphere 2018 standards.
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

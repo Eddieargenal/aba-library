@@ -1,4 +1,5 @@
 ---
+id: S-2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
 title: "How To Make Cities More Resilient: A Handbook For Local Government Leaders (2017 edition)"
 author: "UNISDR / UN Office for Disaster Risk Reduction; Ebru A. Gencer (author)"
 institution: "UNISDR / UN Office for Disaster Risk Reduction (renamed UNDRR in 2019)"
@@ -31,6 +32,7 @@ notes: "2017 edition of the Making Cities Resilient campaign handbook. Structure
 canonical_file: ../raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
 source_type: un-policy
 confidence: high
@@ -45,8 +47,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This handbook provides practical guidance for local government leaders to reduce disaster risk and build urban resilience, framed through the Making Cities Resilient campaign and aligned with the Sendai Framework for Disaster Risk Reduction 2015-2030 (pp. 7-8, 15).
 
@@ -147,3 +160,12 @@ The handbook is explicitly aimed at decision makers in local and sub-national go
 **Canonical file:** `../raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf`
 **Document URL:** https://www.unisdr.org/campaign
 **Access notes:** indirect — source_url is campaign home page only; search undrr.org for 'How to Make Cities More Resilient Handbook 2017' to locate direct PDF
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

@@ -1,4 +1,5 @@
 ---
+id: S-2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
 title: "Area-Based Assessment with Key Informants"
 author: "IMPACT Initiatives / REACH"
 institution: "IMPACT Initiatives / REACH (in collaboration with UNHCR)"
@@ -31,6 +32,7 @@ notes: "REACH/UNHCR practical guide for area-based assessments in out-of-camp di
 canonical_file: ../raw/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
 source_type: field-evaluation
 confidence: high
@@ -45,8 +47,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This guide provides a practical, stepwise method for conducting area-based assessments in out-of-camp displacement contexts using key informants (KIs), with optional social network analysis (SNA) to improve KI selection (pp. 7, 13-14, 38-39).
 
@@ -147,3 +160,12 @@ The toolkit organizes work into four cumulative sections: area identification, K
 **Canonical file:** `../raw/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf`
 **Document URL:** not available
 **Access notes:** not found — URL absent from source document; search reach-initiative.org or reliefweb.int using title
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

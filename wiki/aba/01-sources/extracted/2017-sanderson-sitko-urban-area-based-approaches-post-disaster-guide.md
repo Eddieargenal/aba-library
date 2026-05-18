@@ -1,4 +1,5 @@
 ---
+id: S-2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
 title: "Urban area-based approaches in post-disaster contexts: Guidance note for Humanitarian Practitioners"
 author: "David Sanderson; Pamela Sitko (World Vision / Stronger Cities Consortium)"
 institution: "World Vision / Stronger Cities Consortium (published by IIED)"
@@ -31,6 +32,7 @@ notes: "10-principle ABA guidance for post-rapid-onset-disaster urban response (
 canonical_file: ../raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
 source_type: ngo-guidance
 confidence: high
@@ -47,8 +49,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This guidance note provides practical principles for implementing urban area-based approaches (ABAs) after rapid-onset, naturally triggered disasters. It is positioned as a response to limitations in conventional, siloed humanitarian programming in complex urban environments (pp. 3, 6, 9).
 
@@ -152,3 +165,12 @@ The core operational content is organized into ten principles aligned to the pro
 **Canonical file:** `../raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf`
 **Document URL:** http://pubs.iied.org/10825IIED
 **Access notes:** verify — IIED migrated from pubs.iied.org; try https://www.iied.org/10825iied for current access
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

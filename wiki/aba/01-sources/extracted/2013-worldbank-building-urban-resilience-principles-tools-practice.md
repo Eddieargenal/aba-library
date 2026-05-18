@@ -1,4 +1,5 @@
 ---
+id: S-2013-worldbank-building-urban-resilience-principles-tools-practice
 title: "Building Urban Resilience: Principles, Tools and Practice"
 author: "The World Bank"
 institution: "World Bank / Global Facility for Disaster Reduction and Recovery (GFDRR)"
@@ -31,6 +32,7 @@ notes: "East Asia & Pacific focus but principles broadly applicable. Structured 
 canonical_file: ../raw/2013-worldbank-building-urban-resilience-principles-tools-practice.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2013-worldbank-building-urban-resilience-principles-tools-practice
 source_type: government-policy
 confidence: high
@@ -45,8 +47,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This handbook provides a practical framework for integrating disaster and climate resilience into urban governance and infrastructure investment decisions (pp. 6, 9). **It was developed by the World Bank and GFDRR (Global Facility for Disaster Reduction and Recovery) with a focus on the East Asia and Pacific region, drawing on lessons from major urban disasters and rapid urbanization challenges** (p. 6). It is structured into three parts: principles of urban resilience, tools for building resilience, and sectoral practice guidance (water/sanitation, energy/communications, and transport) (p. 6).
@@ -284,3 +297,12 @@ Source URL is available in frontmatter; verify GFDRR link is still live. Alterna
 **Document URL**: https://www.gfdrr.org/sites/default/files/publication/EAP_handbook_principles_tools_practice_web.pdf
 
 **Access notes**: Verify link is still live; GFDRR link structure may have changed. Alternative access via World Bank Open Knowledge Repository (openknowledge.worldbank.org). **Full title: "Building Urban Resilience: Principles, Tools, and Practice" — developed by World Bank East Asia and Pacific Region Urban Development and Resilience Unit in collaboration with GFDRR** (p. 6).
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

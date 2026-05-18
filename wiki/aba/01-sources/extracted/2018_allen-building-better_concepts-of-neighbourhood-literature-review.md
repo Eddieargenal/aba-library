@@ -1,4 +1,5 @@
 ---
+id: S-2018-allen-building-better-concepts-of-neighbourhood-literature-review
 title: "Concepts of Neighbourhood: A Review of the Literature"
 author: "Dr Natalie Allen"
 institution: "Building Better Homes, Towns and Cities National Science Challenge (New Zealand)"
@@ -30,6 +31,7 @@ notes: "Working Paper 18-02, Building Better Homes, Towns and Cities National Sc
 canonical_file: ../raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2018-allen-building-better-concepts-of-neighbourhood-literature-review
 source_type: academic
 confidence: medium
@@ -42,8 +44,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This working paper is a structured literature review on neighbourhood concepts, developed to support the “Shaping Places: Future Neighbourhoods” research programme. It aims to provide a reference frame for subsequent research and explain why neighbourhood concepts matter for urban outcomes (pp. 3, 25).
 
@@ -141,3 +154,12 @@ Methodologically, the review groups prior studies into three major streams: obse
 **Canonical file:** `../raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf`
 **Document URL:** http://www.buildingbetter.nz/resources/publications.html
 **Access notes:** indirect — URL is publications index; search buildingbetter.nz for Working Paper 18-02 to locate direct PDF
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

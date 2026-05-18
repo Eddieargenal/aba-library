@@ -1,4 +1,5 @@
 ---
+id: S-2015-dfid-irc-alnap-aba-discussion-paper
 title: "Humanitarian Crises in Urban Areas: Are Area-Based Approaches to Programming and Coordination the Way Forward?"
 author: "DFID / IRC (with ALNAP-linked discussion references)"
 institution: "UK Department for International Development (DFID) / International Rescue Committee (IRC)"
@@ -29,6 +30,7 @@ notes: "Short but definitionally important: establishes the three core ABA chara
 canonical_file: ../raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2015-dfid-irc-alnap-aba-discussion-paper
 source_type: field-evaluation
 confidence: high
@@ -43,8 +45,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This short discussion paper examines whether area-based approaches (ABAs) should be a central model for humanitarian programming and coordination in urban crises (p. 2). **It was produced in 2015 by DFID and IRC as a contribution to the emerging discourse on urban humanitarian response, at a time when "the sector lacks an agreed definition of 'area based approach'"** (p. 2). It argues that rapid urbanization and increasing displacement into cities demand new delivery models adapted to urban complexity, systems dependence, and multi-actor governance realities (pp. 2-3).
@@ -272,3 +285,12 @@ Source URL is available in frontmatter; verify ALNAP link is still live.
 **Document URL**: https://alnap.org/documents/8949/area-based-approaches-dfid-irc-discussion-paper.pdf
 
 **Access notes**: Verify link is still live; ALNAP URL structure may have changed. Alternatively search ALNAP help library at alnap.org using the title. **This discussion paper was produced by DFID (UK Department for International Development) and IRC (International Rescue Committee) in 2015 as part of the emerging discourse on urban humanitarian response. It contributed to subsequent development of formal ABA guidance including the IASC area-based coordination frameworks** [web:28][web:30][web:32].
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

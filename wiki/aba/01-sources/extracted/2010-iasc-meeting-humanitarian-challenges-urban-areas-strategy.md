@@ -1,4 +1,5 @@
 ---
+id: S-2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy
 title: "IASC Strategy: Meeting Humanitarian Challenges in Urban Areas"
 author: "IASC Task Force/Reference Group on Meeting Humanitarian Challenges in Urban Areas"
 institution: "Inter-Agency Standing Committee (IASC)"
@@ -30,6 +31,7 @@ notes: "Action matrix assigns leads/support roles and specifies priority actions
 canonical_file: ../raw/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy
 source_type: iasc-guidance
 confidence: high
@@ -44,8 +46,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This IASC strategy sets out how humanitarian actors should improve effectiveness in urban crises through a two-year action agenda and six strategic objectives (pp. 3-5). **It was endorsed by the IASC Principals in November 2010 as the first system-wide operational framework for urban humanitarian response** [web:23]. It frames urban response as a distinct operational challenge due to rapid urbanization, high-density informal settlements, service fragility, and complex multi-actor environments (pp. 3, 6-7). **The strategy responds to the recognition that by 2030, 60% of the world's population will live in urban areas, with the majority of humanitarian crises occurring in cities** (pp. 3, 6).
@@ -289,3 +302,12 @@ Source URL has been corrected in frontmatter (original had typo 'Thttps://'); ve
 **Document URL**: https://interagencystandingcommittee.org/sites/default/files/migrated/2020-11/IASC%20Strategy%2C%20Meeting%20Humanitarian%20Challenges%20in%20Urban%20Areas.pdf
 
 **Access notes**: URL corrected from original typo ('Thttps://'); verify link is still live on the IASC website. **Strategy was endorsed by IASC Principals in November 2010. Implementation period was 2010-2012. For contemporary urban response guidance, cross-reference with IASC Humanitarian Programme Cycle guidance, IASC Area-Based Coordination guidance (including 2026 ABC ToR), and UN-Habitat Urban Crisis Response frameworks** [web:23].
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

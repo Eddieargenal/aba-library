@@ -1,4 +1,5 @@
 ---
+id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
 title: "Urban context analysis toolkit: Guidance note for humanitarian practitioners"
 author: International Rescue Committee (IRC) / Stronger Cities Initiative (published by IIED)
 institution: International Rescue Committee (IRC) / IIED / Stronger Cities Initiative
@@ -30,6 +31,7 @@ notes: IRC/Stronger Cities Initiative toolkit for urban context analysis in disp
 canonical_file: ../raw/2017-iied-urban-context-analysis-toolkit-guidance-note.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2017-iied-urban-context-analysis-toolkit-guidance-note
 source_type: ngo-guidance
 confidence: high
@@ -43,7 +45,18 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
+<a id="summary"></a>
 ## Summary
 
 This guidance note introduces a practical urban context analysis toolkit for humanitarian practitioners working in urban crises, especially displacement settings (pp. 1, 3). Developed by IIED under the 'Urban Crises Learning Fund' managed by IIED and funded by the UK Department for International Development (DFID), the toolkit was tested in multiple urban crisis contexts (pp. 1, 3). It is positioned as a user-friendly, relatively quick, and adaptable mechanism to improve understanding of complex urban dynamics before programme design and implementation (pp. 3, 8-9).
@@ -258,3 +271,12 @@ The guide's own timing assumptions (eg roughly two weeks in-country collection b
 **Document URL**: https://www.iied.org/10819iied (current) | http://pubs.iied.org/10819IIED (original)
 
 **Access notes**: Verify — IIED migrated from pubs.iied.org; current access at https://www.iied.org/10819iied. **Full citation: IIED (2017). Urban Context Analysis Toolkit: Guidance note for humanitarian practitioners. IIED, London.** This toolkit was developed under the 'Urban Crises Learning Fund' managed by IIED and funded by the UK Department for International Development (DFID), alongside other urban humanitarian tools including the Urban Response Analysis Framework (URAF). The toolkit was preceded by a desk review of existing context analysis tools and field-tested in multiple urban crisis contexts before finalization (pp. 1, 3, 7).
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

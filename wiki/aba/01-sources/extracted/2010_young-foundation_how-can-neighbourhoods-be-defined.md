@@ -1,4 +1,5 @@
 ---
+id: S-2010-young-foundation-how-can-neighbourhoods-be-defined
 title: "How can neighbourhoods be understood and defined?"
 author: "The Young Foundation"
 institution: "The Young Foundation"
@@ -30,6 +31,7 @@ notes: "UK policy context — apply with caution in humanitarian settings. Intro
 canonical_file: ../raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2010-young-foundation-how-can-neighbourhoods-be-defined
 source_type: ngo-guidance
 confidence: medium
@@ -43,7 +45,18 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
+<a id="summary"></a>
 ## Summary
 
 This paper is a policy and practice review on neighbourhoods, how they are defined, and how neighbourhood-level governance and empowerment can be designed more effectively (p. 2). It was originally published in 2006 and updated in 2010 under the Young Foundation's Transforming Neighbourhoods programme **— a research and innovation consortium on neighbourhood governance and empowerment that ran from 2006 to 2008, bringing together government departments, community and research organisations including the Department for Communities and Local Government, the Home Office, the Joseph Rowntree Foundation, CABE, The Community Alliance and 15 local authorities** (p. 2).
@@ -280,3 +293,12 @@ Source URL is available in frontmatter; verify youngfoundation.org link is still
 **Document URL**: https://youngfoundation.org/wp-content/uploads/2012/11/How-can-neighbourhoods-be-understood-and-defined-August-2010.pdf
 
 **Access notes**: Verify link is still live; youngfoundation.org URL structure may have rotated. Originally published 2006; this 2010 update is the authoritative version for this wiki. **Partners in the Transforming Neighbourhoods consortium included: Department for Communities and Local Government, Home Office, Joseph Rowntree Foundation, CABE, The Community Alliance, and 15 local authorities (Birmingham, Camden, Haringey, Knowsley, Lewisham, Liverpool, Newham, Sheffield, Staffordshire, Suffolk, Surrey, Tower Hamlets, Wakefield, Waltham Forest, Wiltshire)** (p. 2).
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

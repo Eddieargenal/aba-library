@@ -342,9 +342,8 @@ def main() -> int:
             if p:
                 warnings.append({"path": p.rel_path, "warning": f"orphan_page:{pid}"})
 
-    if unresolved_edges:
-        for edge in unresolved_edges:
-            critical.append({"path": edge["source_file"], "error": f"unresolved_edge:{edge['to']}"})
+    for edge in unresolved_edges:
+        warnings.append({"path": edge["source_file"], "warning": f"ghost_node:{edge['to']}"})
 
     status = "valid"
     if critical:

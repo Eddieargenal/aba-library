@@ -1,4 +1,5 @@
 ---
+id: S-2019-replication-scale-up-learning-note-framework
 title: "Area-Based Approaches in Urban Settings: Compendium of Case Studies (May 2019 edition)"
 author: "Global Shelter Cluster Urban Settlements Working Group"
 institution: "Global Shelter Cluster / Urban Settlements Working Group"
@@ -28,6 +29,7 @@ notes: "Filename 'replication-scale-up-learning-note-framework' may indicate a d
 canonical_file: ../raw/2019-replication-scale-up-learning-note-framework.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2019-replication-scale-up-learning-note-framework
 source_type: ngo-guidance
 confidence: high
@@ -44,8 +46,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This source is a Global Shelter Cluster Urban Settlements Working Group (USWG) compendium that consolidates urban area-based approach (ABA) case studies from 2010-2019 and provides a synthetic analysis chapter before the case library (pp. 5-6).
 
@@ -157,3 +170,12 @@ For implementation teams, the document functions as both an evidence library (ci
 **Canonical file:** `../raw/2019-replication-scale-up-learning-note-framework.pdf`
 **Document URL:** not available
 **Access notes:** not found — source references sheltercluster.org and ABA Channel; search sheltercluster.org for ABA compendium or replication/scale-up learning note
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

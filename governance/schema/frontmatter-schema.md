@@ -48,6 +48,7 @@ updated:
 - `O-` output template / output
 - `EP-` evidence packet
 - `PU-` proposed update
+- `SS-` slice spec
 
 ## Additional Tool Fields
 
@@ -108,6 +109,51 @@ Every listed section must have:
 - `limited`
 - `deprecated`
 - `draft`
+
+## Additional Known-Tension Fields
+
+```yaml
+tension_between:
+tension_type:
+resolution_status:
+```
+
+## Additional Advisory-Playbook Fields
+
+```yaml
+decision_domain:
+lifecycle_stages:
+entry_conditions:
+exit_conditions:
+```
+
+## Additional Decision-Protocol Fields
+
+```yaml
+decision_type:
+trigger_conditions:
+decision_logic:
+escalation_path:
+```
+
+## Additional Field-Instrument Fields
+
+```yaml
+instrument_format:
+parent_tools:
+data_quality_checks:
+respondent_type:
+```
+
+## Additional Slice-Spec Fields
+
+```yaml
+slice_id:
+decision_domains:
+hazards:
+expected_runtime_mode:
+raw_sources_included:
+```
 
 ## Authoring Rule
 

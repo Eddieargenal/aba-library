@@ -1,4 +1,5 @@
 ---
+id: S-2017-response-option-comparison-matrix-framework
 title: "Urban Response Analysis Framework (URAF): Guidance note for humanitarian practitioners"
 author: "Lili Mohiddin; Gabrielle Smith; Laura Phelps (NRC / Stronger Cities Initiative)"
 institution: "Norwegian Refugee Council (NRC) / Stronger Cities Initiative (published by IIED)"
@@ -32,6 +33,7 @@ notes: "URAF — 6-step decision support framework for multi-sector response sel
 canonical_file: ../raw/2017-response-option-comparison-matrix-framework.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2017-response-option-comparison-matrix-framework
 source_type: ngo-guidance
 confidence: high
@@ -45,8 +47,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 The Urban Response Analysis Framework (URAF) is a practical decision-support framework designed to help humanitarian teams identify appropriate multi-sector responses in urban crises, with a focus on displaced and host populations (pp. 3, 7, 16). Developed by IIED in 2017 as part of the 'Stronger Cities' initiative (previously 'Urban Crises Learning Fund'), in partnership with IRC and other organizations, and funded by DFID (pp. 3, 7).
@@ -274,3 +287,12 @@ Some sector scores (education, ICLA, protection/governance) should be interprete
 **Document URL**: https://www.iied.org/10824iied (current) | http://pubs.iied.org/10824IIED (original)
 
 **Access notes**: Verify — IIED migrated from pubs.iied.org; current access at https://www.iied.org/10824iied. **Full citation: Mohiddin, L, Smith, G and Phelps, L (2017) Urban Response Analysis Framework (URAF). Guidance note for humanitarian practitioners. IIED, London.** URAF is part of a suite of three complementary urban tools developed under IIED's 'Stronger Cities' initiative (formerly 'Urban Crises Learning Fund') funded by DFID: (1) Urban Multi-Sector Vulnerability Assessment Tool (UMVAT); (2) Urban Response Analysis Framework (URAF); (3) Targeting in Urban Displacement Contexts guidance. More information available through IIED's urban crisis learning resources. URAF was developed in partnership with IRC and other humanitarian organizations, building on field testing in multiple urban displacement contexts (pp. 3, 7).
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

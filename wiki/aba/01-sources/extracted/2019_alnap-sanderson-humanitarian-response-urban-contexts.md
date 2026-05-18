@@ -1,4 +1,5 @@
 ---
+id: S-2019-alnap-sanderson-humanitarian-response-urban-contexts
 title: "Humanitarian response in urban contexts (Good Practice Review 12)"
 author: "David Sanderson"
 institution: "ODI / Humanitarian Practice Network (HPN)"
@@ -30,6 +31,7 @@ notes: "Good Practice Review 12 (GPR 12) from ODI/HPN. Comprehensive operational
 canonical_file: ../raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2019-alnap-sanderson-humanitarian-response-urban-contexts
 source_type: field-evaluation
 confidence: high
@@ -47,8 +49,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 # Summary
 This Good Practice Review (GPR 12) synthesizes practical lessons for humanitarian response in urban crises. It was commissioned to address a gap between growing urban caseloads and limited practical field guidance for practitioners (pp. viii-ix).
 
@@ -152,3 +165,12 @@ It is structured in four major blocks: urban context, cross-cutting themes/issue
 **Canonical file:** `../raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf`
 **Document URL:** https://odihpn.org/publication/humanitarian-response-in-urban-contexts/
 **Access notes:** verify — confirm this URL yields the specific PDF download for GPR 12
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

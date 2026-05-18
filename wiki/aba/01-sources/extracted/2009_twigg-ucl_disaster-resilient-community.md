@@ -1,4 +1,5 @@
 ---
+id: S-2009-twigg-ucl-disaster-resilient-community
 title: "Characteristics of a Disaster-Resilient Community: A Guidance Note"
 author: "John Twigg"
 institution: "UCL / Aon Benfield UCL Hazard Research Centre"
@@ -35,6 +36,7 @@ notes: "Version 2; 5 thematic areas, 28 components, 167 characteristics aligned 
 canonical_file: ../raw/2009_twigg-ucl_disaster-resilient-community.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2009-twigg-ucl-disaster-resilient-community
 source_type: academic
 confidence: high
@@ -50,8 +52,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 This guidance note presents a structured framework for defining and assessing what a disaster-resilient community could look like. It is designed for government and civil society actors working on local DRR and CCA, and is explicitly positioned as a practical resource rather than a rigid manual (pp. 6-7). The second edition (Version 2, November 2009) builds on desk research, expert input, and field-testing feedback from multiple agencies **including Tearfund, Practical Action, Christian Aid, and ActionAid** (p. 7).
 
@@ -284,3 +297,12 @@ Mapping projects against all characteristics can expose gaps in ways that feel t
 **Document URL**: https://discovery.ucl.ac.uk/1346086/1/1346086.pdf (UCL Discovery repository) | https://www.preventionweb.net/files/2310_Characteristicsdisasterhighres.pdf (PreventionWeb)
 
 **Access notes**: Original host (abuhrc.org / Aon Benfield UCL Hazard Research Centre) is offline. Access via UCL Discovery repository or search PreventionWeb, UNDRR library, or ReliefWeb using the full title "Characteristics of a Disaster-Resilient Community: A Guidance Note" (Version 2, November 2009).
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|

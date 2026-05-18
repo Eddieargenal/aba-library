@@ -1,4 +1,5 @@
 ---
+id: S-2012-efl-neighbourhood-approach-toolbox
 title: "Neighbourhood approach: A toolbox for integrated neighbourhood development"
 author: "European Federation for Living (EFL)"
 institution: "European Federation for Living (EFL)"
@@ -29,6 +30,7 @@ notes: "European housing association context (Dutch/German actors). NOT a humani
 canonical_file: ../raw/2012_efl_neighbourhood-approach-toolbox.pdf
 wiki_pages: []
 type: source
+retrieval_status: usable
 source_id: 2012-efl-neighbourhood-approach-toolbox
 source_type: ngo-guidance
 confidence: medium
@@ -43,8 +45,19 @@ primary_topics:
 contradicts: []
 created: 2026-05-10
 updated: 2026-05-10
+sections:
+  - id: summary
+    anchor: "#summary"
+    purpose: Source-level summary
+  - id: findings
+    anchor: "#findings"
+    purpose: Reusable findings
+  - id: integration-map
+    anchor: "#integration-map"
+    purpose: Routing map into wiki
 ---
 
+<a id="summary"></a>
 ## Summary
 
 This document is a practical toolbox for housing associations to design integrated neighbourhood development strategies that combine physical and socio-economic interventions (pp. 1, 5, 7). It was developed through EFL collaboration among Dutch and German housing actors **— the European Federation for Living (EFL) working group on Social Integration, chaired by Chrétien Mommers (director of Eigen Haard) and including members from VIVAWEST, Havensteder, GEWOBAG, and De Woonplaats** — based on field experience in several cities **including Amsterdam, Berlin, and Gelsenkirchen** (p. 5).
@@ -303,3 +316,12 @@ Source URL is available in frontmatter; verify ef-l.eu link is still live. **Eur
 **Document URL**: https://ef-l.eu/wp-content/uploads/EFL_Brochure_Neighborhood_ApproachToolbox.pdf
 
 **Access notes**: Verify link is still live; ef-l.eu URL may have changed. European housing context — confirm document is still publicly accessible via EFL website. **The working group on Social Integration included: Chrétien Mommers (Eigen Haard, chair), Kerstin Siemonsen (VIVAWEST), Richard Blom (Havensteder), Silja Stubenvoll (GEWOBAG), Bernadette Arends (De Woonplaats), Marion Kranenburg (Eigen Haard), and Joost Nieuwenhuijzen (EFL). The working group collaborated with Italian, Swedish, French and German members of the European Housing Network (Eurhonet)** (p. 5).
+
+<a id="findings"></a>
+## Findings
+
+<a id="integration-map"></a>
+## Integration Map
+
+| Finding ID | Finding | Type | Lifecycle Stage | Candidate Target Page | Integration Action | Status |
+|---|---|---|---|---|---|---|
