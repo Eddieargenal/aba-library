@@ -1,0 +1,144 @@
+global_knowledge_manifest:
+  source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+  scouts_completed: 3
+  total_signals: 72
+  by_type:
+    framework: 2          # same framework cross-referenced across scouts 1+2
+    concept: 3            # plus CONCEPT-004 entry point from Scout 3
+    typology: 1
+    method: 10            # incl. METHOD-008 snowball/referral
+    tool: 10              # Tools 1–10, 7B subsumed in Tool 7
+    implementation_logic: 10
+    decision_rule: 13
+    safeguard: 5
+    risk: 6
+    principle: 3          # Do No Harm, gender equality, partial update
+    case_lesson: 3
+    assumption: 6         # incl. 3 ASM meta objects
+    indicator: 1
+    internal_contradiction: 1
+
+  buried_decision_logic_locations:
+    - section: "Introduction, p.9 footnote 3"
+      location: "When-to-use section — rapid response alternative path"
+      description: "If immediate response context → toolkit not appropriate; use GECARR or IRC conflict sensitivity toolkit instead"
+      maps_to: RULE-009 (partial) — may need RULE-013
+    - section: "Phase 1, p.14 Joint analysis and partnerships"
+      location: "Organisations should be careful about taking on new partners if significant conflict/protection dynamic"
+      description: "If conflict/protection dynamics present → restrict or exclude local partners from data collection"
+      maps_to: RULE-003
+    - section: "Phase 1, p.17 Step 3 question guide adaptation"
+      location: "Legal protection questions may be less relevant for IDP vs refugee context"
+      description: "If IDP context → questions on legal protection less relevant; always adapt question guides to context"
+      maps_to: RULE-008
+    - section: "Phase 2, p.25 FGD gender separation"
+      location: "Plan separate FGDs for men/women/adolescent boys/girls with same-sex facilitators"
+      description: "Adolescents less likely to speak in mixed-gender groups → require gender-separated FGDs"
+      maps_to: RULE-001
+    - section: "Phase 2, p.25 Participatory planning workshop"
+      location: "If conducting in partnership or staff have limited local knowledge → optional participatory workshop"
+      description: "If partnering or limited local knowledge → conduct participatory data collection planning workshop"
+      maps_to: RULE-010
+    - section: "Phase 3, p.32 Validation workshop gender"
+      location: "In contexts where women face obstacles to mixed group discussions"
+      description: "If women face obstacles to mixed participation → women-only working groups in validation workshop"
+      maps_to: RULE-011
+    - section: "Phase 3, p.33 Step 9 sensitive report"
+      location: "If sensitive/commercially confidential → internal report only; clarify external summary needs"
+      description: "If findings are sensitive or confidential → produce internal-only report; clarify external requirements before writing"
+      maps_to: RULE-012
+    - section: "Phase 3, p.33 When to update"
+      location: "Four trigger conditions for updating context analysis"
+      description: "If >6-9 months old OR significant crisis change OR new data collection planned OR new proposal needed → reassess"
+      maps_to: RULE-002
+
+  cross_section_objects:
+    - description: "5-theme urban context analysis framework with systems-thinking approach"
+      sections: [Scout-1, Scout-2]
+      recommended_type: FRAMEWORK
+      assign_to: C-W1
+    - description: "Urban context analysis concept definition"
+      sections: [Scout-1, Scout-2, Scout-3]
+      recommended_type: CONCEPT
+      assign_to: C-W1
+    - description: "Context analysis vs needs assessment distinction"
+      sections: [Scout-1, Scout-3]
+      recommended_type: CONCEPT
+      assign_to: C-W1
+    - description: "Entry point identification"
+      sections: [Scout-1, Scout-3]
+      recommended_type: CONCEPT
+      assign_to: C-W1
+    - description: "Tool 3 Stakeholder Analysis — used in both Phase 2 and Phase 3"
+      sections: [Scout-2, Scout-3]
+      recommended_type: TOOL
+      assign_to: C-W3
+    - description: "Tool 6 KII/FGD debrief — used in both data collection and analysis phases"
+      sections: [Scout-2, Scout-3]
+      recommended_type: TOOL
+      assign_to: C-W3
+    - description: "Do No Harm principle — cross-cutting across all phases"
+      sections: [Scout-1, Scout-2, Scout-3]
+      recommended_type: PRINCIPLE
+      assign_to: C-W1
+    - description: "Gender equality analytical lens — cross-cutting across all phases"
+      sections: [Scout-1, Scout-2, Scout-3]
+      recommended_type: PRINCIPLE
+      assign_to: C-W1
+
+  section_assignments:
+    - worker: C-W1
+      task: conceptual layer (concepts, frameworks, typologies, principles)
+      sections: ["lines 1-445 (Phase 1, intro)", "targeted reads Phase 2-3 for cross-section validation"]
+      signal_count: 9
+      objects_expected:
+        - FRAMEWORK-001
+        - TYPOLOGY-001
+        - CONCEPT-001
+        - CONCEPT-002
+        - CONCEPT-003
+        - CONCEPT-004
+        - PRINCIPLE-001
+        - PRINCIPLE-002
+
+    - worker: C-W3
+      task: diagnostic layer (tools, methods, indicators)
+      sections: ["lines 1-445 (Tool 1)", "lines 446-735 (Tools 2-6, Methods)", "lines 736-870 (Tools 7-10, Methods 7-8)"]
+      signal_count: 18
+      objects_expected:
+        - METHOD-001 through METHOD-008
+        - TOOL-001 through TOOL-010
+
+    - worker: C-W2
+      task: decision rules (full document scan)
+      sections: ["full document — lines 1-968"]
+      signal_count: 12-13
+      note: "Must resolve every buried_decision_logic_locations entry. Requires C-W1 and C-W3 IDs for cross-referencing."
+      objects_expected:
+        - RULE-001 through RULE-012
+
+    - worker: C-W4
+      task: operational layer (implementation logic, safeguards, dependencies)
+      sections: ["lines 1-445 (team composition, sub-area selection, partner design)", "lines 446-735 (guide adaptation, training, debrief, participation)", "lines 736-870 (stakeholder update, report writing, communication)"]
+      signal_count: 15
+      objects_expected:
+        - IMPL-001 through IMPL-007
+
+    - worker: C-W5
+      task: evidence layer (risks, case lessons, assumptions, safeguards, contradictions)
+      sections: ["lines 1-445 (Dar es Salaam, assumptions)", "lines 446-735 (protection, sampling bias, identity masking)", "lines 736-968 (triangulation, external dissemination, staleness)"]
+      signal_count: 20
+      objects_expected:
+        - RISK-001 through RISK-004
+        - LESSON-001 through LESSON-003
+        - ASM-001 through ASM-003
+
+    - worker: C-W6
+      task: task seeds
+      sections: ["derived from all prior worker outputs"]
+      note: "Runs after C-W4 and C-W5 complete"
+
+    - worker: C-W7
+      task: findings
+      sections: ["derived from all prior worker YAML files"]
+      note: "Runs after C-W6 completes. Reads full YAML blocks from C-W1 through C-W6."

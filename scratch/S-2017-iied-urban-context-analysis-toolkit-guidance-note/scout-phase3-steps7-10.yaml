@@ -1,0 +1,172 @@
+section: Phase 3 – Data analysis and documenting (Steps 7–10) + References + Conclusion
+pages: 29–40
+lines: 736–968
+
+signals:
+  - type: method
+    description: Step 7 key findings analysis — consolidates desk review and primary data findings by sub-area against thematic framework using Tool 7, interrogating 'why' questions across sub-areas, gender, populations, and age groups.
+    location: pages 29–30, Step 7 overview and Tool 7A description
+    buried_decision_logic: false
+    cross_section: true
+    generalizable: false
+    confidence: high
+
+  - type: tool
+    description: Tool 7A Key findings template — organises findings by sub-area, theme, and sub-theme with columns for cross-area comparison, gender, population type, age group, risks, and programming implications.
+    location: pages 29–30, Step 7 analysis description
+    buried_decision_logic: false
+    cross_section: true
+    generalizable: false
+    confidence: high
+
+  - type: tool
+    description: Tool 7B Dividers and connectors — optional supplementary tab to further investigate social relations, cohesion factors, and connectors between community groups.
+    location: page 30, Tab 2 description
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: false
+    confidence: high
+
+  - type: tool
+    description: Tool 8 Programme implications — five-table template that translates key findings and stakeholder analysis into programming opportunities, partnerships, advocacy, risk mitigation, and connector strategies.
+    location: page 31, Step 7 and Step 8 bridge
+    buried_decision_logic: false
+    cross_section: true
+    generalizable: false
+    confidence: high
+
+  - type: implementation_logic
+    description: Stakeholder analysis (Tool 3) is updated and refined during Step 7 using data collection findings, adding newly identified actors and completing columns on importance, engagement strategy, and actor incentives.
+    location: pages 30–31, 'Updating your stakeholder analysis' section
+    buried_decision_logic: false
+    cross_section: true
+    generalizable: false
+    confidence: high
+
+  - type: safeguard
+    description: Triangulation requirement — findings must be triangulated across multiple sources during analysis; single-informant perspectives may not be representative.
+    location: page 30, Tip box 'Triangulate information'
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: method
+    description: Step 8 participatory validation workshop — one- to two-facilitator workshop with 15–20 diverse participants to challenge, refine, and build ownership of preliminary analysis findings.
+    location: pages 31–32, Step 8 overview and description
+    buried_decision_logic: true
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: decision_rule
+    description: In contexts where women face obstacles to mixed-group participation, designate women-only working groups with documented outputs during validation workshop.
+    location: page 32, gender considerations paragraph
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: implementation_logic
+    description: Step 9 final report writing — team lead coordinates one to two week write-up process; final report is not mandatory if validation workshop outputs are sufficient; target audience determines internal vs external framing.
+    location: pages 32–33, Step 9 overview
+    buried_decision_logic: true
+    cross_section: false
+    generalizable: false
+    confidence: high
+
+  - type: decision_rule
+    description: If context analysis findings contain sensitive or commercially confidential information, final report should be internal only; clarify before writing whether external summary reports are also required.
+    location: page 33, Step 9 report sensitivity note
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: case_lesson
+    description: "Maiduguri 2016: IRC produced an external brief alongside internal context analysis report to communicate findings to wider Nigerian stakeholders who had not participated in the analysis — enabling stakeholder knowledge transfer without sharing confidential internal report."
+    location: page 33, 'Context analysis brief, Maiduguri 2016' case box
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: implementation_logic
+    description: Step 10 findings communication — internal stakeholders receive full report; external stakeholders receive anonymised summary where feasible; sources anonymised and informed consent commitments respected.
+    location: page 33, Step 10 internal and external stakeholders sections
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: false
+    confidence: high
+
+  - type: safeguard
+    description: External dissemination of context analysis findings must protect community members from protection risks — consult organisational protection technical advisors before external sharing.
+    location: page 33, external stakeholders paragraph
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: decision_rule
+    description: Context analysis should be updated or redone when (a) significant crisis change occurs (policy, major incident, resolution), (b) new data collection is planned, (c) new proposals require deeper information, or (d) findings are more than 6–9 months old before use for programming assumptions.
+    location: page 33, 'When to update your context analysis' section
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: principle
+    description: Partial update is acceptable — it is possible to revisit only parts of the context analysis if circumstances have changed regarding only specific themes or sub-themes.
+    location: page 33, last paragraph of 'When to update' section
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: concept
+    description: Entry point identification as a core purpose of context analysis — identifying opportunities where external actors can engage productively with existing systems, actors, and processes to support crisis response.
+    location: page 34, Conclusion paragraph
+    buried_decision_logic: false
+    cross_section: true
+    generalizable: true
+    confidence: high
+
+  - type: assumption
+    description: Context analysis is primarily for internal programme use — default report format assumes sensitive contextual and commercially confidential content not suitable for direct external distribution.
+    location: page 33, Step 9 sensitivity note
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: false
+    confidence: high
+
+  - type: assumption
+    description: Final report is optional — validation workshop outputs alone may be sufficient to complete the context analysis without a written report.
+    location: page 32, Step 9 first paragraph
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: false
+    confidence: high
+
+  - type: risk
+    description: Risk of findings becoming outdated in dynamic crisis contexts — context analysis findings older than 6–9 months may no longer accurately reflect programming realities.
+    location: page 33, 'When to update' section
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: risk
+    description: Risk of exposing community members to protection risks through external dissemination of context analysis findings — especially where sensitive political or identity information was collected.
+    location: page 33, external stakeholders paragraph
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+buried_decision_logic_summary:
+  - location: "page 32, Step 8 validation workshop gender considerations"
+    description: "If women face obstacles to mixed group participation → designate women-only working groups with documented outputs (conditional on context)"
+  - location: "page 33, Step 9 report writing"
+    description: "If findings are sensitive/confidential → produce internal report only; if external report also needed → clarify before writing (conditional on audience and sensitivity)"
+  - location: "page 33, When to update context analysis"
+    description: "If significant crisis change OR new data collection planned OR new proposal required OR findings >6-9 months old → reassess or update context analysis (conditional trigger list)"

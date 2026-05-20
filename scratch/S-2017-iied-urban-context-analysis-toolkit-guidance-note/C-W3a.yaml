@@ -1,0 +1,443 @@
+worker: C-W3a
+source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+layer: diagnostic — methods only
+objects_extracted: 8
+revision_status: No revisions required — each method is distinct; no object contradicts assumptions of an earlier one.
+
+objects:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001
+    object_name: Urban Context Analysis Process
+    source_location: "pp. 10–11, Figure 2 (overview of context analysis steps); pp. 4, 34 (Figure 5 summary)"
+    source_fidelity_note: named — explicitly described as the toolkit's structured process
+    description: >
+      A 3-phase, 10-step iterative workflow for conducting urban humanitarian context analysis,
+      from scoping and preparation through data collection to analysis, documentation, and
+      communication of findings. Designed to be adaptable to varied urban crisis settings.
+    purpose: >
+      Provide humanitarian organisations with a systematic, user-friendly method for understanding
+      urban crisis dynamics — political, economic, social, service delivery, and spatial factors —
+      before or alongside programme design.
+    components_or_steps:
+      phase_1_preparation:
+        - "Step 1: Launch context analysis — workplan, budget, team composition"
+        - "Step 2: Frame the context analysis — scope, sub-areas, crisis type"
+        - "Step 3: Select initial key context analysis questions — adapt thematic framework"
+      phase_2_data_collection:
+        - "Step 4: Collate secondary data — desk review, stakeholder mapping"
+        - "Step 5: Prepare to collect primary data — data collection plan, adapt question guides, train team"
+        - "Step 6: Carry out primary data collection — KIIs, FGDs, daily debriefs, mid-collection review"
+      phase_3_analysis_and_documentation:
+        - "Step 7: Analyse primary and secondary data — key findings, programme implications, updated stakeholder analysis"
+        - "Step 8: Validation workshop — participatory challenge and refinement"
+        - "Step 9: Write final report — internal report or presentation"
+        - "Step 10: Communicate findings — internal and external stakeholders"
+    required_evidence:
+      - Existing secondary data sources (reports, assessments, media)
+      - Stakeholder access at city and sub-area levels
+      - Team with local language competencies and contextual knowledge
+      - Approximately 4–6 weeks elapsed time (1–2 weeks prep, 2 weeks data collection, 1–2 weeks analysis)
+    analytical_logic: >
+      Iterative — desk review findings shape stakeholder mapping; stakeholder interviews reveal
+      additional desk review gaps; early data collection findings refine question guides and
+      sampling; mid-collection review adjusts focus; validation workshop challenges and
+      refines preliminary findings before final documentation.
+    outputs:
+      - Stakeholder analysis (Tool 3)
+      - Key contextual findings by theme
+      - Entry points and risk mitigation strategies for programming
+      - Programme implications (Tool 8)
+      - Final context analysis report (Tool 10)
+    quality_controls:
+      - Desk review completed 2–3 weeks before primary data collection
+      - Daily debriefs and mid-collection review
+      - Participatory validation workshop before final report
+      - Team lead oversight of notetaking quality and question-probing
+    limitations:
+      - Not prescriptive for programme design; must be complemented by sector-specific assessment
+      - Primarily qualitative; quantitative augmentation possible but requires additional resources
+      - Assumes ~2 weeks in-country data collection; not suitable for immediate response contexts
+      - Assumes organisation already operating in-country for several months prior
+      - Analysis validity time-limited in dynamic crisis contexts (6–9 month threshold)
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I structure a context analysis in an urban displacement crisis to understand
+      systemic power, service, and governance dynamics before programme design?
+    multi_type_status: single — dominant type is method; tools (Tool 1–10) operationalize it as instruments
+    comparison_notes: >
+      Comparable in scope to World Vision GECARR (rapid response) but designed for recovery/
+      resilience phase. More comprehensive and time-intensive than single-tool approaches
+      (conflict analysis, political economy analysis). Explicitly built for urban displacement
+      contexts; adapts standard qualitative research methods (KII, FGD, desk review) to
+      urban complexity.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-002
+    object_name: Desk Review Method
+    source_location: "pp. 20–21, Step 4"
+    source_fidelity_note: named — explicitly described as "completing a desk review"
+    description: >
+      Secondary data synthesis conducted 2–3 weeks before primary data collection to map
+      existing knowledge, identify gaps, and conceptualise efficient fieldwork. Synthesizes
+      crisis background, demographic data, governance structures, service delivery systems,
+      policies, and prior assessments.
+    purpose: >
+      Reveal what is already known and what information still needs to be gathered through
+      primary data collection; reduce duplication; focus KII/FGD effort on genuine gaps;
+      build shared team understanding before fieldwork begins.
+    components_or_steps:
+      - Review crisis timeline, root causes, and common understanding
+      - Assess source credibility and identify well-documented vs. gap areas
+      - Note sensitive or divisive issues for data collection planning
+      - Populate initial stakeholder analysis (Tool 3)
+      - Revise thematic framework guiding questions based on findings
+      - Provide input to data collection plan (Step 5, Tool 4)
+      - Document in Tool 2 (Desk Review Summary)
+    required_evidence:
+      - Published reports, internet materials, media reports, existing assessments
+      - In-country staff familiar with context and existing resources
+      - Time budget of 2 days to 1 week
+    analytical_logic: >
+      Gap-identification logic — systematically identifies what is known (no need to collect)
+      vs. unknown (must collect); findings directly shape question guide prioritization and
+      sampling approach for KIIs and FGDs.
+    outputs:
+      - Completed desk review (Tool 2)
+      - Initial stakeholder analysis (partial Tool 3)
+      - Revised thematic guiding questions
+      - Input to data collection plan (Tool 4)
+    quality_controls:
+      - Led by team lead; in-country staff involvement required
+      - Completed 2–3 weeks before fieldwork to allow time to adjust data collection plan
+      - All team members review to build shared understanding
+    limitations:
+      - Quality dependent on availability and quality of existing secondary data
+      - May not capture rapidly evolving dynamics in active conflict settings
+      - Duration variable (2 days to 1 week); compressible under time pressure but with quality loss
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I conduct a desk review of secondary data to map existing knowledge and
+      identify gaps before primary data collection in an urban humanitarian context analysis?
+    multi_type_status: single — primary type is method; Tool 2 (Desk Review Summary) is the instrument
+    comparison_notes: >
+      Standard qualitative research methodology adapted for urban humanitarian context analysis;
+      distinguished by explicit forward-linkage to question guide revision and stakeholder
+      identification rather than standalone documentation purpose.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-003
+    object_name: Key Informant Interview (KII) Method
+    source_location: "pp. 24–27, Steps 5–6"
+    source_fidelity_note: named — KII explicitly defined and described throughout
+    description: >
+      Semi-structured interviews with influential stakeholders at city-wide and sub-area levels
+      to gather in-depth contextual information on power dynamics, governance, services, and
+      crisis factors. Informed by prior stakeholder analysis; sampling expanded via referrals.
+    purpose: >
+      Gather primary data from actors with knowledge of urban systems, power structures, and
+      crisis dynamics that cannot be obtained from secondary data alone; especially useful for
+      understanding actor interests, incentives, and relationships.
+    components_or_steps:
+      - Identify key informants from stakeholder analysis and country staff suggestions
+      - Assign KIIs to data collection plan (Tab 4A for sub-area, Tab 4B for city-wide)
+      - Adapt Tools 5C–5G to context; eliminate irrelevant questions; add context-specific questions
+      - Train data collection team (half to full day orientation)
+      - Conduct interviews with informed consent; take detailed notes
+      - Daily debriefs and mid-collection review to identify gaps and adjust focus
+      - Include "difficult stakeholders" (gatekeepers, potential spoilers)
+    required_evidence:
+      - Prior stakeholder analysis (Tool 3 initial draft)
+      - Adapted KII guides (Tools 5C–5G)
+      - Data collection plan (Tool 4)
+      - Trained data collection team with local language competencies
+    analytical_logic: >
+      Purposive sampling from stakeholder analysis combined with snowball/referral expansion
+      (METHOD-008); triangulation across informants at different levels (city vs. sub-area)
+      and sectors (government, civil society, private sector, community) to identify convergences
+      and contradictions.
+    outputs:
+      - Detailed KII notes per informant
+      - Updated stakeholder analysis (Tool 3)
+      - Inputs to debrief template (Tool 6)
+      - Primary data for key findings analysis (Tool 7)
+    quality_controls:
+      - Team lead reviews notes regularly to monitor question quality and probing
+      - Debrief after each session; mid-collection review after ~50% completion
+      - Include "difficult stakeholders" deliberately; monitor for representation gaps
+    limitations:
+      - Access to high-level government and private sector informants may be restricted
+      - Quality depends on interviewer skill and translation quality
+      - Displaced populations may mask identity or restrict disclosure (see RISK-002)
+      - Note confidentiality must be maintained; identifiable information must be excluded
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I plan and conduct key informant interviews with government, civil society, and
+      community actors to map power dynamics and service delivery in an urban displacement context?
+    multi_type_status: single — distinct from FGD method (METHOD-004) in target participants and information types
+    comparison_notes: >
+      Standard qualitative research method adapted for urban humanitarian contexts; paired
+      with FGD method (METHOD-004) for triangulated primary data collection; Tools 5C–5G
+      provide context-specific question guides distinguishing informant types.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-004
+    object_name: Focus Group Discussion (FGD) Method
+    source_location: "pp. 25–27, Steps 5–6"
+    source_fidelity_note: named — FGD explicitly defined and described throughout
+    description: >
+      Structured group discussions with affected populations (displaced and host communities)
+      in selected urban sub-areas. Groups are separated by gender and age, with same-sex
+      facilitators, to enable disclosure in protection-sensitive contexts.
+    purpose: >
+      Gather community-level perspectives on livelihoods, services, social dynamics, and
+      vulnerabilities from diverse population groups; ensure voices of women, youth, and
+      marginalized groups are captured alongside majority perspectives.
+    components_or_steps:
+      - Plan gender-separated groups (men/women, adolescent boys/girls) with same-sex facilitators
+      - Adapt Tools 5A–5B to context; validate with country staff
+      - Discuss protection risks around sensitive questions with all team members before fieldwork
+      - Conduct with informed consent; take detailed notes without identifiable information
+      - Use snowball/referral sampling to identify participants (METHOD-008)
+      - Daily debrief after FGD sessions; mid-collection review
+    required_evidence:
+      - Community access; local facilitators with language competencies
+      - Adapted FGD guides (Tools 5A–5B)
+      - Gender-separated facilitation capacity
+      - Informed consent process
+    analytical_logic: >
+      Gender and age separation enables disclosure in contexts with power differentials; iterative
+      — early FGD findings refine hypotheses tested in subsequent sub-area groups; comparison
+      across sub-areas and population groups reveals patterns and variations (Tool 7 structure).
+    outputs:
+      - Completed FGD notes per group and sub-area
+      - Inputs to debrief template (Tool 6)
+      - Key findings inputs (Tool 7) including gender-disaggregated and population-disaggregated findings
+    quality_controls:
+      - Same-sex facilitators required
+      - Deliberate inclusion of marginalized groups (women, youth, minorities)
+      - Informed consent and protection screening before each session
+      - Team debrief to review quality and completeness; mid-collection gap review
+    limitations:
+      - Displaced populations may mask identity or status, restricting data validity (see RISK-002)
+      - Requires matched facilitator availability by gender
+      - Bias from key powerholder dependence for participant mobilization (see RISK-001)
+      - Protection risks may preclude full disclosure in conflict-sensitive topics
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I facilitate focus group discussions with displaced and host community populations
+      in urban sub-areas while managing protection risks and ensuring gender-disaggregated data?
+    multi_type_status: single — distinct from KII method in participant type and group dynamics
+    comparison_notes: >
+      Standard qualitative research method; adapted for urban humanitarian contexts with explicit
+      gender-separation requirement; paired with KII method (METHOD-003) for triangulated
+      primary data; Tools 5A–5B provide context-specific guides for displaced vs. host populations.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-005
+    object_name: Stakeholder Analysis / Actor Mapping
+    source_location: "pp. 22–23, Step 4 (initial mapping); pp. 30–31, Step 7 (updated analysis)"
+    source_fidelity_note: named — explicitly described as "stakeholder analysis, also known as actor mapping"
+    description: >
+      Iterative identification and analysis of influential stakeholders — their type, level of
+      operation, role, interests, incentives, influence, relationships, and engagement potential.
+      Updated progressively from desk review through data collection to final analysis.
+    purpose: >
+      Understand who holds power and influence in the urban crisis context; identify key
+      informants for KIIs; inform partnership, coordination, and advocacy strategies;
+      anticipate actors who may block, divert, or support programmes.
+    components_or_steps:
+      - Initial mapping from desk review: list actors (Columns B–E), specifying name, type, level, role
+      - Include "difficult stakeholders" (gatekeepers, potential spoilers) explicitly
+      - Identify KII candidates at sub-area and city-wide levels
+      - Update during data collection with relationship and influence information (Columns F–J)
+      - Final analysis in Step 7: rank actors by importance, identify engagement strategy and incentives
+      - Use Figure 4 (Sierra Leone example) as visual model for relationship mapping
+    required_evidence:
+      - Desk review findings (initial mapping)
+      - Primary data collection (KII and FGD findings to update actor positions)
+      - Country staff input on key positions and individuals
+    analytical_logic: >
+      Progressive enrichment — starts with formal actor mapping from secondary sources;
+      iteratively refined as primary data collection reveals informal relationships,
+      interests, and incentives; final analysis produces actionable coordination and
+      partnership strategy.
+    outputs:
+      - Completed stakeholder analysis matrix (Tool 3)
+      - KII candidate list
+      - Programme coordination and partnership strategy inputs
+      - Advocacy priorities
+    quality_controls:
+      - Specificity rule: map positions/individuals, not generic institutions
+      - Explicit inclusion of difficult stakeholders
+      - Triangulation of actor roles via multiple informants
+    limitations:
+      - Initial mapping may miss informal/hidden actors not visible in secondary data
+      - Difficult stakeholders may not be safely engageable in all contexts
+      - Relationship data is self-reported by informants and may not reflect actual power dynamics
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I map and analyze key stakeholders to understand actor interests, influence, and
+      relationships for programming and coordination in an urban humanitarian response?
+    multi_type_status: method + tool (Tool 3 operationalizes it); dominant type = method; Tool 3 is the instrument
+    comparison_notes: >
+      Adapted from political economy analysis (DFID 2009); explicitly designed for urban
+      displacement contexts with emphasis on multi-level sampling (city-wide and sub-area)
+      and iterative updating; more operationally focused than standard political economy actor
+      analysis; includes explicit "difficult stakeholders" guidance not found in generic approaches.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-006
+    object_name: Participatory Validation Workshop
+    source_location: "pp. 31–32, Step 8; Tool 9"
+    source_fidelity_note: named — explicitly described as "validation workshop" in Step 8
+    description: >
+      One- to two-facilitator workshop with 15–20 diverse participants to challenge and
+      refine preliminary context analysis findings before final documentation. Builds shared
+      understanding and stakeholder ownership of findings.
+    purpose: >
+      Challenge and refine preliminary findings through wider stakeholder input; build
+      ownership of analysis among key actors; probe issues in-depth; transfer knowledge
+      on findings to stakeholders who will implement programming.
+    components_or_steps:
+      - Prepare preliminary drafts of Tools 7, 8, and 3 as workshop inputs
+      - Invite 15–20 diverse participants (analysis team, consulted stakeholders, internal staff, external local partners)
+      - Designate women-only working groups if women face obstacles to mixed-group participation
+      - Structure working groups around thematic areas; document outputs from all groups
+      - Facilitators lead structured challenge-and-refine discussions using Tool 9 agenda
+      - Update findings, stakeholder analysis, and programme implications based on workshop outputs
+    required_evidence:
+      - Preliminary key findings (Tool 7 draft)
+      - Preliminary stakeholder analysis (Tool 3 draft)
+      - Preliminary programme implications (Tool 8 draft)
+      - 1–2 experienced facilitators; 1 notetaker
+    analytical_logic: >
+      Challenge-and-refine model — preliminary findings presented, participants challenge
+      interpretations from their positional perspectives, facilitators probe in-depth,
+      revised findings emerge from multi-stakeholder deliberation.
+    outputs:
+      - Refined key findings (Tool 7 final)
+      - Refined stakeholder analysis (Tool 3 final)
+      - Refined programme implications (Tool 8 final)
+      - Participant list
+    quality_controls:
+      - Gender diversity of participants (specify individuals, not blanket invitations)
+      - Women-only working groups with documented outputs when contextually needed
+      - Structured facilitation agenda (Tool 9)
+      - Confidentiality of data sources maintained throughout
+    limitations:
+      - Not always feasible under time or resource constraints (optional step)
+      - Maintaining source confidentiality can restrict openness of discussion
+      - External partner participation may introduce competing interests or bias
+      - Workshop findings may not resolve all analytical tensions
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I run a validation workshop to challenge and refine urban context analysis
+      findings with diverse stakeholders before finalizing the report?
+    multi_type_status: method + tool (Tool 9 provides agenda); dominant type = method
+    comparison_notes: >
+      Common in participatory research and action research traditions; adapted here for
+      urban humanitarian with specific gender and confidentiality guidance; differs from
+      standard stakeholder consultation in explicit focus on challenging rather than
+      endorsing preliminary findings.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-007
+    object_name: Systems-Thinking Analytical Approach
+    source_location: "pp. 16–17, Step 3; Figure 3 (typology of urban systems, citing Campbell 2016 ALNAP)"
+    source_fidelity_note: named — explicitly described as a "system-thinking approach"
+    description: >
+      Analytical approach that examines interconnections and relations between urban thematic
+      areas rather than analyzing each theme in isolation. Based on Campbell (2016) ALNAP
+      typology of urban systems adapted for urban humanitarian context analysis.
+    purpose: >
+      Enable understanding of how urban systems interact to produce crisis dynamics;
+      identify structural and systemic drivers that single-sector analysis misses;
+      reveal how responses to one system affect others.
+    components_or_steps:
+      - Apply 5-theme framework (politics/governance, social/cultural, economic, service delivery/infrastructure, space/settlements) as analytical structure
+      - Integrate cross-cutting themes (Do No Harm, gender equality) across all five areas
+      - Examine linkages between themes — how economic factors affect social cohesion; how governance shapes service delivery access; etc.
+      - Use guiding questions (Table 3) that cross-reference multiple themes
+      - Interrogate 'why' questions about each finding's systemic drivers
+    required_evidence:
+      - Data from all 5 thematic areas (from KIIs, FGDs, desk review)
+      - Team debriefs integrating cross-thematic observations
+    analytical_logic: >
+      Interconnectivity principle — urban crises emerge from systemic interactions, not single
+      causes; understanding 'why' (systemic) vs. 'what' (symptomatic) requires analyzing
+      how each thematic area influences others; cross-cutting analysis reveals entry points
+      and risks invisible to sector-by-sector approaches.
+    outputs:
+      - Cross-thematic analytical findings
+      - System-level entry points for programming
+      - Structural and systemic risk drivers
+      - Insights for coordination across sectors and actors
+    quality_controls:
+      - All 5 themes must be addressed (not just sector of organisational interest)
+      - Do No Harm and gender equality applied cross-cuttingly, not as separate analyses
+      - Team debriefs specifically designed to surface cross-thematic patterns
+    limitations:
+      - Requires analytical capacity to synthesize meaningfully across themes
+      - Entirely qualitative; no quantitative validation built in
+      - Quality depends on data collection adequately covering all thematic areas
+      - Interconnections are interpreted by analysts, introducing subjectivity
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I apply systems-thinking analysis to understand how political, economic, social,
+      and spatial factors interact to shape urban crisis response effectiveness?
+    multi_type_status: method closely related to FRAMEWORK-001 (5-theme framework); framework provides structure, method describes analytical logic
+    comparison_notes: >
+      Based on Campbell (2016) ALNAP typology of urban systems; more action-oriented and
+      less theoretical than pure systems analysis; distinct from single-sector analysis
+      (conflict analysis, market analysis) in explicit cross-thematic integration requirement;
+      adapted for humanitarian operational contexts rather than academic or policy research.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-008
+    object_name: Snowball/Referral Sampling
+    source_location: "p. 27, Step 6"
+    source_fidelity_note: named — explicitly called "this snowball/referral sampling method"
+    description: >
+      During KIIs and FGDs, continuously solicit referrals from current participants for
+      additional key informants or focus group participants, particularly to reach marginalized,
+      displaced, or otherwise inaccessible groups.
+    purpose: >
+      Expand sample beyond pre-identified informants; reach actors who do not appear in
+      formal stakeholder analyses or secondary data; identify informants with specialist
+      knowledge of specific topics; improve representation of marginalized groups.
+    components_or_steps:
+      - At the end of each KII/FGD, explicitly ask participants for referrals on specific topics
+      - Add referred individuals to data collection plan
+      - Monitor for gaps in representation of vulnerable, marginalized, and minority groups throughout data collection
+      - Adjust sampling to fill identified representation gaps
+    required_evidence:
+      - Active data collection underway (KIIs and/or FGDs)
+      - Participants willing to refer others (relationship-based trust)
+    analytical_logic: >
+      Network-based expansion — follows existing social and organizational networks to reach
+      actors invisible in formal stakeholder analyses; particularly valuable for displaced
+      populations who mask identity, as a trusted peer referral reduces disclosure barriers.
+    outputs:
+      - Expanded KII/FGD participant lists
+      - Identified informants for specialist topics not covered by initial sample
+      - Improved representation of marginalized groups
+    quality_controls:
+      - Monitor for over-representation of particular networks
+      - Daily debrief to assess adequacy of referrals against representation targets
+      - Alert for gaps in marginalized group representation throughout process
+    limitations:
+      - May replicate existing social networks and miss groups outside those networks
+      - Can lead to over-representation of particular perspectives or political affiliations
+      - Time-consuming if many referrals generated; requires ongoing management
+      - Cannot guarantee representativeness; biases from initial entry points may persist
+    knowledge_layer: diagnostic
+    field_query_trigger: >
+      How do I use referral sampling to identify and reach marginalized or hard-to-access
+      groups during primary data collection for urban context analysis?
+    multi_type_status: single — sampling technique used within KII (METHOD-003) and FGD (METHOD-004) methods
+    comparison_notes: >
+      Standard qualitative sampling technique from social science research; explicitly named
+      in contrast to predetermined purposive sampling; particularly important in urban
+      displacement contexts where communities are dispersed and displaced populations mask
+      identity; complements deliberate inclusion strategies for marginalized groups.
+    human_review_required: false

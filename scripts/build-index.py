@@ -286,6 +286,14 @@ def main() -> int:
             "primary_topics": fm.get("primary_topics", []),
             "retrieval_status": fm.get("retrieval_status"),
         }
+        if ptype == "source":
+            row["primary_context"] = fm.get("primary_context")
+            row["urban_applicability"] = fm.get("urban_applicability")
+            row["urban_adaptation_scope"] = fm.get("urban_adaptation_scope")
+            row["institutional_credibility"] = fm.get("institutional_credibility")
+            row["evidence_quality"] = fm.get("evidence_quality")
+            row["composite_authority"] = fm.get("composite_authority")
+            row["comparison_readiness"] = fm.get("comparison_readiness")
         page_rows.append(row)
 
         if ptype == "source":
@@ -296,13 +304,16 @@ def main() -> int:
                     {
                         "source_id": page_id,
                         "finding_id": finding.get("finding_id"),
-                        "finding": finding.get("finding"),
+                        "finding": finding.get("finding"),  # null for v3.0 pages (content in body)
                         "finding_type": finding.get("finding_type"),
+                        "knowledge_layer": finding.get("knowledge_layer"),
                         "lifecycle_stage": finding.get("lifecycle_stage"),
                         "source_pages": finding.get("source_pages", []),
                         "candidate_target_pages": finding.get("candidate_target_pages", []),
                         "integration_action": finding.get("integration_action"),
+                        "field_query_trigger": finding.get("field_query_trigger"),
                         "status": finding.get("status"),
+                        "human_review_required": finding.get("human_review_required"),
                     }
                 )
 
@@ -344,6 +355,27 @@ def main() -> int:
 
     for edge in unresolved_edges:
         warnings.append({"path": edge["source_file"], "warning": f"ghost_node:{edge['to']}"})
+
+    # Resolve cited_sources in_wiki after full id_to_page scan
+    for row in page_rows:
+        if row.get("type") == "source":
+            page_obj = id_to_page.get(row["id"])
+            if page_obj:
+                raw_cited = page_obj.frontmatter.get("cited_sources", []) or []
+                cited_out = []
+                for entry in raw_cited:
+                    if not isinstance(entry, dict):
+                        continue
+                    wiki_id = entry.get("wiki_id")
+                    in_wiki = bool(wiki_id and wiki_id in id_to_page)
+                    cited_out.append(
+                        {
+                            "raw_citation": entry.get("raw_citation"),
+                            "wiki_id": wiki_id,
+                            "in_wiki": in_wiki,
+                        }
+                    )
+                row["cited_sources"] = cited_out
 
     status = "valid"
     if critical:

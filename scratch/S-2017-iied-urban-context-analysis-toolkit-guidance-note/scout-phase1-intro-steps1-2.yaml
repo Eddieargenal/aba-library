@@ -1,0 +1,141 @@
+section: "Introduction + Phase 1 Steps 1-2 (lines 1-445, pages 1-16)"
+source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+scout: Scout-1
+
+signals:
+  - type: concept
+    description: Urban context analysis — structured inquiry into political, economic, social, service delivery, and spatial factors shaping urban crisis response; answers "why" rather than "what"
+    location: pages 7-8, "What is context analysis" section
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: concept
+    description: Urban contexts as distinct from rural settings — high density, heterogeneity, mobility, economic/technical system dependence, limited humanitarian leverage over contextual factors
+    location: page 7, "Key terms" box (citing Parker and Maynard 2015)
+    buried_decision_logic: false
+    cross_section: false
+    confidence: high
+
+  - type: assumption
+    description: Context analysis complements needs assessment rather than replacing it — context analysis explains systemic "why", needs assessment identifies "what" gaps and current situation
+    location: pages 8-9, "What is context analysis" and "Limitations" sections
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: framework
+    description: 5-theme urban context analysis framework with systems-thinking approach — politics/governance, social/cultural, economic, service delivery/infrastructure, space/settlements plus Do No Harm and gender as cross-cutting themes
+    location: pages 16-17, Step 3, Figure 3 (citing Campbell 2016 ALNAP typology of urban systems)
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: typology
+    description: 4-type urban displacement crisis typology — conflict causing IDP displacement TO city, conflict causing refugee displacement TO city, violent conflict WITHIN city, natural hazard WITHIN/TO city
+    location: page 15, Table 2, "Type of crisis" row
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: method
+    description: Urban context analysis process — 3-phase (preparation, data collection, analysis/documentation), 10-step iterative method from scoping to findings communication
+    location: pages 10-11, Figure 2
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: method
+    description: Systems-thinking analytical approach — examines interconnections between urban thematic areas rather than analysing each theme in isolation
+    location: page 16, Step 3 introduction
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: implementation_logic
+    description: Team composition structure for urban context analysis — team lead, support/logistics member(s), data collection team with local language competencies and community knowledge
+    location: page 13, Table 1 (Team member roles)
+    buried_decision_logic: false
+    cross_section: false
+    confidence: high
+
+  - type: implementation_logic
+    description: Sub-area selection and prioritization criteria — vulnerability comparison, existing programming, knowledge gaps, security/access, and government/UN request for documentation
+    location: pages 15-16, Step 2 "Prioritise and map sub-areas"
+    buried_decision_logic: false
+    cross_section: false
+    confidence: high
+
+  - type: implementation_logic
+    description: Joint/partner analysis design — factors for deciding whether and in which phases to include local/international partners in context analysis
+    location: page 14, "Joint analysis and partnerships"
+    buried_decision_logic: true
+    cross_section: false
+    confidence: high
+    buried_logic_note: "Conditional: organisations should be careful about taking on new partners if there is a significant conflict or protection dynamic at play; factors include protection concerns for partner staff, bias risks, and risks of sharing findings publicly"
+
+  - type: decision_rule
+    description: Restrict or avoid including local partners in data collection when significant conflict or protection dynamics are present in the urban crisis
+    location: page 14, "Joint analysis and partnerships" — "Organisations should be careful about taking on new partners to execute a context analysis in an urban crisis if there is a significant conflict or protection dynamic at play"
+    buried_decision_logic: false
+    cross_section: false
+    confidence: high
+
+  - type: decision_rule
+    description: If organisation seeks only gender equality analysis, conduct in-depth gender analysis instead of the full urban context analysis toolkit
+    location: page 17, footnote 5
+    buried_decision_logic: false
+    cross_section: false
+    confidence: high
+
+  - type: decision_rule
+    description: Adapt question guides for every context — always remove irrelevant questions (especially IDP vs refugee context differences), add missing questions, and validate tools with country staff before fieldwork
+    location: page 17, Step 3 "Adapting the themes, sub-themes, and guiding questions"
+    buried_decision_logic: true
+    cross_section: true
+    confidence: high
+    buried_logic_note: "Conditional: questions on legal protection may be less relevant for IDP vs refugee context; if team does not have data to back up assumptions about context, the assumption should be investigated"
+
+  - type: tool
+    description: Tool 1 — Workplan and budget template illustrating 14-day on-site analysis period for planning, scope, and cost estimation
+    location: pages 12-13, Step 1
+    buried_decision_logic: false
+    cross_section: false
+    confidence: high
+
+  - type: principle
+    description: Do No Harm — cross-cutting principle ensuring programmes do not increase tensions or undermine existing local systems (service providers, local government), integrated throughout all analytical steps
+    location: pages 17-18, Step 3 framework description
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: principle
+    description: Gender equality as cross-cutting analytical lens — examines disparities between women and men in responsibilities, activities, access to resources, and decision-making opportunities
+    location: pages 17-18, Step 3 framework description
+    buried_decision_logic: false
+    cross_section: true
+    confidence: high
+
+  - type: assumption
+    description: Toolkit assumes approx. 2 weeks in-country data collection; assumes organisation has been operating in country for at least several months prior to analysis
+    location: pages 9, 12 — "When to use the toolkit" and Tool 1 description
+    buried_decision_logic: true
+    cross_section: false
+    confidence: high
+    buried_logic_note: "Conditional: if interested in rapid response context analysis, see alternative tools (GECARR, IRC conflict sensitivity toolkit); toolkit is primarily designed for recovery/resilience transition rather than immediate response"
+
+  - type: case_lesson
+    description: "Dar es Salaam 2016: pre-existing knowledge of Burundian and Congolese displacement concentration areas enabled focused sub-area selection; without it, analysis would have produced incomplete picture of how city functions for target groups"
+    location: page 16, "Selecting sub-areas for an urban context analysis, Dar es Salaam, 2016" case box
+    buried_decision_logic: false
+    cross_section: false
+    generalizable: true
+    confidence: high
+
+  - type: internal_contradiction
+    description: Document states toolkit is primarily designed for organisations already in-country for months (p.9), but also notes it can be adapted for rapid response by referencing other tools (p.9 footnote) — slight tension between the explicit primary use case and implied adaptability
+    location: page 9, "When to use the toolkit" and footnote 3
+    buried_decision_logic: false
+    cross_section: false
+    confidence: low

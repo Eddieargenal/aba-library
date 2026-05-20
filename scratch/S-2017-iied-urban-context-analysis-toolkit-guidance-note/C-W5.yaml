@@ -1,0 +1,265 @@
+worker: C-W5
+layer: evidence
+source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+objects_extracted: 12  # 4 RISK + 3 LESSON + 3 ASM + 2 SAFE
+new_ids_appended_to_registry: [SAFE-001, SAFE-002]
+
+---
+
+risks:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-001
+    object_name: Sampling bias from key powerholder dependence
+    source_location: "p. 27 — Step 6 'Continually review and assess participation'; p. 25 sampling guidance"
+    source_fidelity_note: Direct statement — "relying on key powerholders to organise participation may introduce bias"; explicitly named as challenge to appropriate participation
+    failure_mode: Systematic exclusion of marginalized and minority groups from KII/FGD data because teams rely on community gatekeepers who select participants from dominant networks
+    causes:
+      - Time pressure pushes teams toward easily-accessible participant channels
+      - Community leaders and gatekeepers are used as entry points for organizing FGDs
+      - Limited local knowledge prevents teams from identifying alternative, non-gatekeeper routes to marginalized groups
+      - Snowball sampling from initial contacts reinforces existing network biases
+    consequences:
+      - Analysis reflects dominant-group perspectives rather than full community picture
+      - Marginalized populations' needs, vulnerabilities, and risks are systematically underrepresented
+      - Programme design calibrated to the wrong target population
+      - Protection risks for under-served groups are not identified
+    warning_signs:
+      - FGD/KII participant profiles are uniformly from similar social backgrounds
+      - Community leaders are selecting and assembling participants rather than team conducting independent outreach
+      - Women, ethnic minorities, youth, or displaced group representatives are absent from data collection
+      - Desk review and fieldwork findings show no divergence (suggesting limited diversity of perspectives)
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-001  # separate FGDs by gender/age
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-002  # sub-area selection
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-003  # KII
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-004  # FGD
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-002  # mitigation
+    knowledge_layer: diagnostic
+    human_review_required: false
+    comparison_notes: Sampling bias in urban contexts may be more acute than rural settings due to higher population heterogeneity and fragmentation of community authority structures; compare with Parker & Maynard 2015 and Twigg 2009 on community representation challenges in urban DRR.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-002
+    object_name: Protection risk from data collection exposure of displaced populations
+    source_location: "p. 26 tip 'Working with displaced populations'; p. 28 'Protection considerations and data collection'; p. 28 Dar es Salaam case box"
+    source_fidelity_note: Directly stated — "Many displaced populations, especially refugees living in urban areas, attempt to mask their identity to avoid exposure to risk or discrimination based on their identity"; Dar es Salaam case illustrates deportation risk triggering identity concealment
+    failure_mode: Data collection activities inadvertently expose displaced persons to harm — deportation, discrimination, or violence — by revealing their identity, nationality, or location to authorities or hostile actors
+    causes:
+      - Notes contain identifiable information (names, specific locations, nationality)
+      - Informed consent process does not adequately explain data use and protection
+      - External dissemination of findings without proper anonymization
+      - Interviewing populations in contexts where their legal status is insecure
+      - Team composition not reflecting community trust dynamics
+    consequences:
+      - Participants face deportation, detention, or discrimination
+      - Communities become inaccessible for future humanitarian analysis and programming
+      - Organizational reputational harm and potential legal exposure
+      - Chilling effect on future participation in humanitarian assessments
+    warning_signs:
+      - Participants declining to disclose nationality or legal status
+      - Visible nervousness, deflection, or inconsistency in responses
+      - Context involves documented deportation risk, documented cases of identity-based discrimination
+      - Absence of community trust-builders on data collection team
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-005  # data protection
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-001  # data collection protection protocol
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-002  # team composition
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-002  # Dar es Salaam identity masking
+    knowledge_layer: diagnostic
+    human_review_required: false
+    comparison_notes: Urban displacement contexts present qualitatively different identity-exposure risks than camp settings — no registration list, dispersed across host community, often with irregular status; compare with Sphere and UNHCR urban refugee guidance on data protection.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-003
+    object_name: Partner bias in joint context analysis
+    source_location: "p. 14 'Joint analysis and partnerships' — 'Organisations should be careful about taking on new partners'; p. 28 protection considerations re: sharing findings"
+    source_fidelity_note: Directly warned — "Are there any risks of bias of the potential partner participating in data collection that cannot be mitigated through the overall team composition?"; protection risk of sharing findings with partners also identified
+    failure_mode: Local partner participation in joint analysis introduces systematic bias in data collection or interpretation that undermines analysis quality or compromises confidentiality
+    causes:
+      - Partner organisations have pre-existing relationships, interests, or community alignments affecting neutrality
+      - Partner staff may be known to communities in ways that cause participants to self-censor
+      - Partners may have incentives to emphasize or suppress certain findings
+      - Joint analysis design lacks conflict-of-interest protocols
+    consequences:
+      - Skewed analysis that reflects partner interests rather than objective context
+      - Confidentiality breaches if partners share sensitive findings with communities or authorities
+      - Implementation tensions or coordination failures if analysis quality is compromised
+      - Communities and respondents distrust future joint efforts
+    warning_signs:
+      - Partner staff are well-known members of communities being assessed
+      - Partner has organizational mandate overlapping with analysis findings
+      - Partner is under pressure from local government or community leaders
+      - No bias mitigation protocol established before analysis begins
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-003  # restrict partners when conflict/protection dynamics
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-003  # joint analysis design
+    knowledge_layer: diagnostic
+    human_review_required: false
+    comparison_notes: Compare with IRC conflict sensitivity toolkit guidance on managing partner bias in conflict-affected contexts; also relevant to Mohiddin et al. 2017 URAF guidance on coordination in urban response.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-004
+    object_name: Context analysis staleness in dynamic urban crisis
+    source_location: "p. 33 'When to update your context analysis'; p. 10 Limitations — 'users should revise the analysis as necessary'"
+    source_fidelity_note: Directly stated — "it is probably useful to re-assess the validity before using the assessment for programming assumptions if it is more than 6-9 months old"; "Urban environments are constantly changing"
+    failure_mode: Context analysis findings are used for programme design after the urban context has materially changed, producing programming assumptions based on invalid or outdated information
+    causes:
+      - Urban displacement contexts change more rapidly than rural settings (government changes, policy shifts, displacement flows)
+      - Resource constraints delay reassessment; organizations assume previous analysis remains valid
+      - No formal trigger mechanism for reassessment built into programme cycle
+      - Single analysis at start of programme cycle treated as durable throughout multi-year programme
+    consequences:
+      - Programme design based on outdated actor mappings, power dynamics, or service delivery landscape
+      - Interventions reinforce expired conditions or miss new risks
+      - Coordination strategies built around actors who have lost influence or left
+      - Protection analysis outdated relative to current threats
+    warning_signs:
+      - More than 6-9 months since last context analysis completed
+      - Significant political event occurred (election, government change, policy shift)
+      - Major displacement event or return movement since last analysis
+      - Crisis escalation or de-escalation changing dynamics
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-002  # reassessment threshold
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001  # context analysis process
+    knowledge_layer: diagnostic
+    human_review_required: false
+    comparison_notes: The 6-9 month threshold is asserted without supporting evidence from the pilots — it should be treated as a practitioner rule of thumb; may be shorter in rapidly-changing conflict contexts. Compare with ALNAP urban response guidance on assessment frequency.
+
+---
+
+case_lessons:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-001
+    object_name: "Dar es Salaam 2016: Pre-existing population knowledge enables focused sub-area selection"
+    source_location: "p. 16 'Selecting sub-areas for an urban context analysis, Dar es Salaam, 2016' case box"
+    source_fidelity_note: Direct case account — IRC pilot in Dar es Salaam 2016; the source explicitly draws the lesson about the value of prior population knowledge
+    case_reference: "Dar es Salaam urban context analysis, IRC, 2016"
+    situation: IRC intended to target Burundian and Congolese refugees in Dar es Salaam, a large sprawling city. Without targeted sub-area selection, a city-wide approach would have been time-consuming and potentially incomplete.
+    lesson: Prior knowledge of where target populations are concentrated within a city is a prerequisite for efficient and complete sub-area selection; without this knowledge, analysis risks covering areas that reveal only an incomplete picture of how the city functions for target groups.
+    evidence: IRC focused on three areas known to have higher concentrations of target groups, enabling in-depth inquiry. The source explicitly states that without this prior knowledge, "choosing the relevant areas of the city would have been challenging and might have led to analysis of areas that would only reveal an incomplete picture."
+    transferability: High — applies to any large urban context analysis where the implementing organisation intends to target a specific population sub-group that may be concentrated in particular areas of the city. Especially relevant for refugee/IDP contexts where displacement patterns create geographic concentration.
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-002  # sub-area selection criteria
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001  # context analysis process
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-003  # stakeholder analysis (informs area selection)
+    knowledge_layer: operational
+    human_review_required: false
+    comparison_notes: Connects to the broader question of how well humanitarian organisations understand urban displacement geography before initiating programming; compare with DFID/IRC/ALNAP 2015 and GSC 2019 guidance on geographic targeting in urban ABA.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-002
+    object_name: "Dar es Salaam 2016: Identity masking by displaced populations requires culturally-matched team composition"
+    source_location: "p. 28 'Protection considerations, Dar es Salaam, 2016' case box"
+    source_fidelity_note: Direct case account — IRC pilot in Dar es Salaam 2016; lesson explicitly drawn from the case about the need to anticipate identity-masking
+    case_reference: "Dar es Salaam urban context analysis, IRC, 2016 — protection considerations"
+    situation: Many Burundian and Congolese displaced/refugees in Dar es Salaam would not admit their nationality for fear of deportation, raising protection concerns in attempting to identify and consult with these groups.
+    lesson: Urban displaced populations in legally insecure situations systematically mask identity during data collection; having team members from the same community background is critical for navigating protection concerns and accessing accurate, representative data.
+    evidence: "The team was fortunate to have a Congolese person on the data collection team to navigate these concerns." The source identifies this as a lesson — teams should anticipate identity-masking in advance and design team composition accordingly rather than addressing it reactively.
+    transferability: High — the identity-masking dynamic is widespread among urban refugees and IDPs whose legal status is insecure. Generalizes beyond Dar es Salaam to any urban context analysis involving undocumented displaced populations or populations with reasons to conceal identity.
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-002  # protection risk from data collection
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-001  # team composition
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-005  # data protection
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-002  # culturally-matched team composition
+    knowledge_layer: operational
+    human_review_required: false
+    comparison_notes: Lesson has direct implications for team composition design in urban refugee contexts; relates to broader UNHCR and ICRC literature on humanitarian data collection with populations of concern in urban settings.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-003
+    object_name: "Maiduguri 2016: External brief enables knowledge transfer without compromising confidential internal report"
+    source_location: "p. 33 'Context analysis brief, Maiduguri, 2016' case box"
+    source_fidelity_note: Direct case account — IRC Maiduguri context analysis November-December 2016; lesson implicitly drawn through the case example
+    case_reference: "Maiduguri urban context analysis, IRC, November-December 2016"
+    situation: IRC conducted urban context analysis in Maiduguri, Nigeria. The internal report contained sensitive/confidential information about displacement dynamics and actor analysis not suitable for wide distribution, but there was a need to communicate findings to wider stakeholders in Nigeria who had not participated.
+    lesson: Producing a targeted external brief alongside an internal context analysis report enables effective stakeholder knowledge transfer without compromising the confidentiality of sensitive internal findings; the two documents serve different audiences with different disclosure thresholds.
+    evidence: "An external brief was written to communicate the findings of the report with other stakeholders in Nigeria that had not partaken in the analysis." The case is presented as a positive practice example in the guidance note.
+    transferability: High — the dual-document approach (confidential internal report + non-sensitive external brief) is applicable to any context analysis where findings include politically sensitive actor analysis, protection-sensitive data, or commercially confidential organizational information.
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-012  # internal-only report rule
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-006  # findings communication and dissemination
+    knowledge_layer: operational
+    human_review_required: false
+    comparison_notes: Dual-document practice is widely used in political economy analysis and conflict analysis; this case provides urban humanitarian context for the approach.
+
+---
+
+assumptions:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-001
+    object_name: Established country presence and 2-week data collection baseline
+    assumption: The toolkit is designed for use by organisations already operating in the city or country for at least several months prior to the analysis, and assumes approximately two weeks of in-country data collection as a baseline starting point.
+    explicit_or_inferred: explicit
+    where_it_appears: "p. 9 'When to use the toolkit' — 'The toolkit itself is generally designed with the assumption of approximately two weeks in country of data collection as a starting point' and 'The assumption made while developing the toolkit was that the organisation using it will already have been operating in the city/country for at least several months prior to the analysis'; p. 12 Tool 1 workplan (14-day illustrative plan)"
+    why_it_matters: Significantly limits applicability for emergency-response organisations entering a context for the first time; also limits use for rapid-response scenarios where 2 weeks of in-country data collection is unavailable. Footnote 3 points to alternative tools (GECARR, IRC conflict sensitivity toolkit) for rapid-response contexts.
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001  # context analysis process
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-001  # workplan
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-002
+    object_name: Representative sampling achievable through deliberate design
+    assumption: Adequate diversity of participants — including women, marginalized groups, ethnic minorities, and displaced populations — can be achieved through deliberate sampling design and team composition, even in urban humanitarian contexts.
+    explicit_or_inferred: inferred
+    where_it_appears: "p. 25 'Ensuring representation of full community' tip; p. 25 FGD planning guidance; p. 26-27 Step 6 participation monitoring guidance; p. 32 validation workshop gender considerations"
+    why_it_matters: May not hold in high-insecurity contexts where certain groups genuinely cannot be reached safely; in highly fragmented urban crises, deliberate design alone may not overcome structural access barriers for most marginalized groups. The assumption creates potential overconfidence in analysis representativeness.
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-001  # sampling bias
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-003  # KII
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-004  # FGD
+    tension_note: Conflicts with RISK-001 (sampling bias) — the assumption that representation is achievable is in tension with the acknowledged risk that powerholders controlling access introduce bias. See TNS-001.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-003
+    object_name: Final report is optional — validation workshop outputs may suffice
+    assumption: A final written report is not a mandatory output of the urban context analysis; the outputs of the validation workshop alone may be sufficient to complete the process.
+    explicit_or_inferred: explicit
+    where_it_appears: "p. 32 Step 9 — 'a final report is not a requirement and the outputs of the validation workshop may be enough for completion of the context analysis'"
+    why_it_matters: Creates risk that institutional knowledge from context analysis is not captured in a durable, transferable format; workshop outputs are typically not preserved or accessible to future staff, partner organisations, or HQ. Ambiguity around what constitutes "completion" may lead to premature closure before findings are adequately documented.
+    related_objects:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-006  # validation workshop
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-006  # findings communication
+
+---
+
+safeguards:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-001
+    object_name: Data collection protection protocol
+    source_location: "p. 28 'Protection considerations and data collection'; p. 26 training guidance step 4 (protection discussion before fieldwork); p. 27 informed consent statement reference"
+    source_fidelity_note: Directly specified — "Notes should include general references to the type of interview and location but should be careful not to include identifiable information"; "notes should be stored in a secure way so that access is limited to only a few persons"; "notes can be destroyed after the analysis has been completed"
+    risk_addressed:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-002  # protection risk from data collection exposure
+    safeguard_action: Apply four-component data protection protocol throughout data collection and analysis — (1) Informed consent statement before each KII/FGD; (2) Notes record only general interview type and location, no identifiable information; (3) Notes stored securely with access limited to a few persons; (4) Notes destroyed after analysis completes unless retention budget and anonymization plan are in place.
+    timing:
+      - before: Discuss protection risks with all team members including translators during training/orientation; agree on referral and reporting protocols for sensitive topics (GBV, child exploitation)
+      - during: Apply informed consent at start of each interview; record without identifying information
+      - after: Destroy notes after findings consolidated unless retention is specifically planned and resourced
+    required_conditions: Team training on protection risks must occur before data collection; informed consent language must be included in question guides (Tools 5A-5G); a designated data custodian with authority to limit access must be identified
+    limits: Does not fully prevent participant harm in very high-risk contexts where even anonymized data could enable identification; does not address risks from external partner data sharing; effectiveness depends on team member discretion
+    knowledge_layer: operational
+    comparison_notes: Compare with ICRC (2013) Professional Standards for Protection Work and Responsible Data Forum guidance on humanitarian data security; the protocol described here is less detailed than ICRC standards.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-002
+    object_name: Culturally-matched team composition for community access and protection
+    source_location: "p. 13 Table 1 team roles — 'It is essential to recruit interviewers/facilitators who are from the country/city/same groups as the participants'; p. 28 Dar es Salaam case lesson on identity masking"
+    source_fidelity_note: Directly stated as essential requirement for team composition — not optional; case lesson from Dar es Salaam reinforces the operational necessity
+    risk_addressed:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-001  # sampling bias from powerholder dependence
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-002  # protection risk from data collection
+    safeguard_action: Recruit data collection team members (interviewers and facilitators) from the same community, ethnic, gender, and displacement-status groups as the participants being interviewed; this provides language competency, navigates identity-masking dynamics, and builds participant trust enabling more complete and accurate data.
+    timing: Before data collection — resolved during team composition step (Step 1) before fieldwork begins; cannot be retrofitted mid-collection
+    required_conditions: Sufficient lead time to identify and onboard culturally-matched team members; security clearance for team members from at-risk communities; budget for national staff or community interpreters trained in qualitative methods (not just translation)
+    limits: May not be fully achievable for all target population sub-groups (especially highly dispersed minorities or newly arrived displaced groups with no established community members available); team member from same community may also face safety risks
+    knowledge_layer: operational
+    comparison_notes: Team composition as a protection safeguard is consistent with UNHCR urban refugee programming guidance; relates to IRC (2016) Social Network Analysis Handbook on accessing community networks.
+
+---
+
+revision_triggers:
+  - check_1_later_sections_contradict_earlier_objects: "No object-level contradiction found. ASM-002 (representative sampling achievable) is in tension with RISK-001 (sampling bias) — this is a design-level tension preserved below, not a revision."
+  - check_2_case_lesson_generalizes_standalone_risk: "LESSON-002 (Dar es Salaam identity masking) exemplifies RISK-002 (protection risk from data collection exposure) — cross-reference added to both. No duplication — lesson provides case evidence for the category risk; both are retained as distinct objects."
+  - revisions_required: none
+
+internal_tension:
+  id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TNS-001
+  first_position: "ASM-002 assumes representative sampling is achievable through deliberate design and team composition (pp. 25-27)"
+  conflicting_position: "RISK-001 identifies reliance on powerholders as a structural bias risk that deliberate design may not fully overcome (p. 27)"
+  tension_type: methodological
+  why_it_matters: If the assumption holds, the toolkit's guidance on deliberate sampling is sufficient mitigation; if RISK-001 dominates, the toolkit overstates its ability to produce representative data in access-constrained urban settings. This tension is not resolved in the source — it is an honest limitation.
+  related_objects:
+    - S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-002
+    - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-001

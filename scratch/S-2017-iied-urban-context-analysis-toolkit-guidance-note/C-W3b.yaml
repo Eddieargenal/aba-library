@@ -1,0 +1,474 @@
+worker: C-W3b
+scope: TOOL objects (TOOL-001 through TOOL-010)
+source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+schema_reference_read: governance/aba/prompts/agent-08-extracted-source-agent.md Steps 8-12
+id_registry_read: scratch/S-2017-iied-urban-context-analysis-toolkit-guidance-note/id-registry.yaml
+
+objects:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-001
+    object_name: "Tool 1 — Urban Context Analysis Workplan and Budget Template"
+    source_location: "p. 12–13, Step 1: Launch context analysis"
+    source_fidelity_note: named — explicitly described as Tool 1 Workplan and budget (Figure 1, p. 10)
+    description: >
+      Illustrative workplan and budget template calibrated to a 14-day on-site urban context analysis.
+      Provides column structure for activities (Column C), timelines, team time allocation (Columns D-F),
+      and budget estimation by line item. Designed to be adapted by each organization to available
+      budgets, team composition, and existing country experience.
+    purpose: >
+      Enable team leads to plan, sequence, and estimate costs for the urban context analysis; ensure
+      alignment between available budget and planned scope before analysis begins.
+    inputs_required:
+      - Known organizational budget constraints and funding ceiling
+      - Team composition decisions (staff vs. consultants, HQ vs. in-country)
+      - Estimated duration and scope of analysis
+      - Unit rates for consultants, translators, vehicle rental, workshop facilities
+    procedure: >
+      (1) Adapt Column C activities to reflect the planned analysis scope. (2) Distribute activities
+      across days/weeks in the timeline. (3) For consultants or HQ staff, estimate time allocations
+      per line item (Columns D-F). (4) Update unit rates for budget estimate. (5) Refine workplan
+      with budget — reduce scope if budget constrains. (6) Update throughout analysis as plans evolve.
+    outputs_generated:
+      - Completed workplan with activity timeline across analysis period
+      - Budget estimate by line item, including services costs for external team members
+    user_role: Team lead — creates workplan and budget; updates throughout analysis period
+    conditions_of_use: >
+      Template assumes ~14-day baseline; adapt to context. Best used before finalizing team composition
+      and scope decisions. Should be finalized alongside, not after, budget decisions.
+    limitations: >
+      Illustrative template only — 14-day baseline may not reflect highly complex or insecure urban
+      contexts requiring longer timelines. Does not cover contingency costs for security incidents,
+      access disruptions, or rapidly shifting crisis dynamics.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I plan and budget a 2–4 week urban humanitarian context analysis for a displacement crisis, including team composition and logistics costs?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Standard project workplan template; distinguished by being calibrated specifically to urban
+      context analysis data collection timing and team composition requirements for humanitarian settings.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-002
+    object_name: "Tool 2 — Desk Review Summary Template"
+    source_location: "p. 20–21, Step 4: Collate secondary data"
+    source_fidelity_note: named — explicitly described as Tool 2 Desk Review Summary (Figure 1, p. 10)
+    description: >
+      Template for reviewing and organizing secondary data sources by sub-theme of the thematic
+      framework. Includes an optional desk review memo format and guidance on potential secondary data
+      sources per sub-theme. Structures the desk review to identify existing knowledge and gaps
+      before primary data collection.
+    purpose: >
+      Synthesize existing secondary information into a structured format that identifies known findings,
+      remaining gaps, and sensitive/divisive issues; provides shared knowledge base for the data
+      collection team; informs revisions to guiding questions, stakeholder analysis (Tool 3), and
+      data collection planning (Tool 4).
+    inputs_required:
+      - Available secondary sources: reports, assessments, media, policy documents, data by sub-theme
+      - Thematic framework and guiding questions from Step 3
+      - In-country staff knowledge of existing resources
+    procedure: >
+      (1) Review thematic framework sub-themes. (2) Identify and document available secondary data
+      per sub-theme. (3) Record what questions the existing data can answer and what gaps remain.
+      (4) Note potentially sensitive or divisive topics for primary data collection planning.
+      (5) Use findings to: populate Tool 3 stakeholder analysis; revise guiding questions; direct
+      Tool 4 data collection planning. Should be completed 2–3 weeks before primary data collection.
+    outputs_generated:
+      - Documented secondary knowledge base by thematic sub-area
+      - Identified gaps requiring primary data collection
+      - Revised guiding questions based on existing evidence
+      - Initial awareness of sensitive/divisive topics
+    user_role: Team lead coordinates; in-country staff with local knowledge contribute
+    conditions_of_use: >
+      Must be completed 2–3 weeks before primary data collection to allow revision of the data
+      collection plan (Tool 4). Time investment: 2 days to 1 week depending on available resources.
+      Involves all team members to build shared contextual understanding.
+    limitations: >
+      Dependent on availability and quality of secondary sources; may be sparse in low-documentation
+      or restricted-access contexts. Does not substitute for primary data collection in under-
+      documented areas. Cannot reveal informal dynamics not captured in formal documents.
+    knowledge_layer: diagnostic
+    field_query_trigger: "What secondary data should I collect, document, and analyse before conducting field interviews for an urban humanitarian context analysis in a displacement setting?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Standard desk review template; distinguished by explicit alignment with the 5-theme urban
+      context analysis framework and structured bridge to primary data collection tools (Tools 3 and 4).
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-003
+    object_name: "Tool 3 — Stakeholder Analysis Matrix"
+    source_location: "p. 22–23 (initial use, Step 4); p. 30–31 (update, Step 7)"
+    source_fidelity_note: named — explicitly described as Tool 3 Stakeholder Analysis (Figure 1, p. 10)
+    description: >
+      Multi-column spreadsheet matrix for systematically listing, categorizing, and analyzing key
+      stakeholders across the programme cycle. Columns B-E capture type, level, location, and role
+      (populated in Step 4). Columns F-J capture importance, engagement strategy, and actor incentives
+      (populated and refined in Step 7 and throughout data collection). Designed for iterative updating.
+    purpose: >
+      Identify all relevant actors — including government, civil society, private sector, and
+      'difficult stakeholders' — analyze their interests, influence, and relationships; guide KII
+      selection during data collection; inform partnership and coordination strategy for programme design.
+    inputs_required:
+      - Desk review findings (Tool 2)
+      - Local knowledge of governance structures and actor landscape
+      - Primary data collection findings for Step 7 update (KII/FGD insights)
+    procedure: >
+      Initial use (Step 4): (1) List each stakeholder by name or position (not just category). (2)
+      Classify type (ministry, UN agency, community group, etc.). (3) Note operating level and location.
+      (4) Add available information on role. (5) Include 'difficult stakeholders' — armed groups,
+      gatekeepers, corrupt officials. Update (Step 7): (6) Add newly identified actors from data
+      collection. (7) Complete Columns F-J: importance to programme, engagement strategy, incentives.
+    outputs_generated:
+      - Initial actor map with type, level, location, and role (Step 4)
+      - Refined actor analysis with importance ratings, engagement strategies, and incentives (Step 7)
+      - KII identification for data collection planning
+    user_role: Team lead coordinates updates; data collection team contributes during fieldwork
+    conditions_of_use: >
+      Cross-phase tool — use in Step 4 (initial mapping), Steps 5-6 (KII identification), and Step 7
+      (full update with data collection insights). Should be specific — map positions and individuals,
+      not just categories. Must explicitly include difficult stakeholders.
+    limitations: >
+      Dependent on local knowledge quality and informant access; may miss informal or hidden actors.
+      Actor influence can change rapidly in crisis contexts. Tool does not provide a formal power
+      analysis methodology beyond basic influence ranking.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I map and analyze key stakeholders — government, civil society, private sector, and difficult actors — for a humanitarian programme in an urban displacement context?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Standard stakeholder analysis matrix format; distinguished by explicit 'difficult stakeholder'
+      inclusion guidance, iterative updating design across all three analysis phases, and integration
+      with the urban context analysis thematic framework sub-themes.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-004
+    object_name: "Tool 4 — Data Collection Plan Template"
+    source_location: "p. 24, Step 5: Prepare to collect primary data"
+    source_fidelity_note: named — explicitly described as Tool 4 Data Collection Plan (Figure 1, p. 10)
+    description: >
+      Two-tab planning template for coordinating KII and FGD logistics: Tab 4A for sub-area sampling
+      (FGDs with affected populations, KIIs with area-level actors); Tab 4B for city-wide sampling
+      (KIIs with city-level governance, coordination, and institutional stakeholders). Includes
+      estimated time per geographic area and sampling recommendations.
+    purpose: >
+      Plan and coordinate the full data collection effort — who to interview, where, with what tools,
+      with what sampling approach, with what logistics — for both sub-area and city-wide data collection.
+    inputs_required:
+      - Sub-area selection decisions from Step 2
+      - Stakeholder analysis (Tool 3) for KII identification
+      - Thematic framework questions from Step 3
+      - Desk review findings identifying gaps (Tool 2)
+      - Team composition and available resources
+    procedure: >
+      (1) Tab 4A: plan FGDs and sub-area KIIs with sampling approach, team assignments, logistics,
+      timing. (2) Tab 4B: plan city-wide KIIs for governance and coordination actors. (3) For FGDs,
+      plan gender-separated groups for men/women and adolescent boys/girls. (4) Update throughout
+      data collection as sampling evolves through snowball referrals.
+    outputs_generated:
+      - Detailed data collection plan covering all sub-areas and city-level
+      - Sampling approach with diversity and representation safeguards
+      - Logistics and timeline coordination document
+    user_role: Team lead manages; local coordinator(s) arrange logistics and participant mobilisation
+    conditions_of_use: >
+      "No magic bullet" for sampling — must be tailored to the specific urban crisis context and
+      population distribution. Update continuously throughout data collection. Sampling should
+      deliberately ensure diversity: geographic, social, population type, gender, age.
+    limitations: >
+      Sampling quality depends on team's local knowledge and judgement. Cannot guarantee representative
+      samples in high-insecurity or highly fragmented urban contexts. Logistics complexity scales with
+      number of sub-areas and city scale.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I plan data collection logistics — who to interview, with what sampling approach — across multiple sub-areas and city-wide for an urban humanitarian context analysis?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Two-tab structure explicitly separates sub-area (neighbourhood) and city-wide sampling, reflecting
+      urban multi-scalar analysis approach. Comparable to generic assessment planning templates but
+      calibrated to urban humanitarian context analysis requirements.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+    object_name: "Tools 5A–5G — KII and FGD Question Guide Set"
+    source_location: "p. 24–26, Step 5: Prepare to collect primary data"
+    source_fidelity_note: named — explicitly described as Tools 5A-5G (Figure 1, p. 10)
+    description: >
+      Set of 7 sample semi-structured question guides: 2 FGD guides (Tool 5A for displaced populations,
+      Tool 5B for host communities) and 5 KII guides (Tool 5C for influential stakeholders, Tool 5D for
+      service providers, Tool 5E for labour/business climate, Tool 5F for local government, Tool 5G for
+      NGO service providers). All organized around the 5-theme + Do No Harm + gender framework.
+    purpose: >
+      Guide qualitative primary data collection across all five thematic areas; structure KIIs and FGDs
+      to generate comparable data across sub-areas and stakeholder types; ensure coverage of gender,
+      protection, and Do No Harm cross-cutting issues.
+    inputs_required:
+      - Adapted thematic framework and guiding questions from Step 3
+      - Desk review findings to identify which questions are already answered
+      - Knowledge of local language, sensitivities, and political dynamics
+      - Tool 4 data collection plan to determine which guides apply to which informants
+    procedure: >
+      Adaptation process before each context analysis: (1) Review all guides; (2) Eliminate questions
+      already answered in desk review or irrelevant to context (e.g. legal protection questions for IDP
+      vs. refugee context differ); (3) Add context-specific questions identified as gaps; (4) Validate
+      with country staff for language and cultural appropriateness; (5) Brief all team members on
+      protection risks around sensitive questions (GBV, child exploitation) with referral protocols;
+      (6) Pilot in target sub-areas; (7) Revise based on pilot feedback.
+    outputs_generated:
+      - Context-adapted KII and FGD guides for all relevant stakeholder and community types
+      - Primary data collection records (notes, debriefs)
+    user_role: >
+      Team lead adapts guides; data collection team conducts KIIs and FGDs; translators support;
+      all team members briefed on protection protocols
+    conditions_of_use: >
+      "Must always be reviewed and adapted for every context analysis — just as no context is the same,
+      no context analysis will be the same." Select relevant guides based on available stakeholder types.
+      Separate FGDs by gender/age when protection dynamics are present (RULE-001). Translate key terms
+      through role-play with local language speakers before fieldwork.
+    limitations: >
+      Qualitative only by default — no quantitative data unless counting methods added. Generic guides
+      require significant adaptation. May not cover all relevant topics in highly complex or specialized
+      contexts. Translation quality and facilitator skill significantly affect data quality.
+    knowledge_layer: diagnostic
+    field_query_trigger: "What interview and focus group questions should I use with displaced populations, host communities, local government, and service providers during an urban context analysis field assessment?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      7-instrument set covering community-level (FGD) and actor-level (KII) data collection across
+      multiple stakeholder types. Distinguished by explicit urban humanitarian focus and thematic
+      framework alignment. Compare to ALNAP urban assessment tools and ACAPS qualitative research guides.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-006
+    object_name: "Tool 6 — KII and FGD Debrief Template"
+    source_location: "p. 27–28, Step 6; also used in Step 7"
+    source_fidelity_note: named — explicitly described as Tool 6 KII and FGD Debrief Template (Figure 1, p. 10)
+    description: >
+      Two-sheet template for structured daily and mid-collection team synthesis. Sheet 1 maps rough
+      preliminary findings per sub-area to the thematic framework, with Column G identifying information
+      sources (which modules of which question guide can populate each sub-theme). Sheet 2 lists local
+      service providers identified during data collection. Used in Step 6 and carried forward into
+      Step 7 analysis.
+    purpose: >
+      Facilitate daily team debriefs and mid-collection review; identify emerging patterns, test
+      hypotheses, adjust sampling; maintain data quality; provide structured bridge from data collection
+      to formal analysis phase (Tool 7).
+    inputs_required:
+      - Daily notes from KIIs and FGDs
+      - Thematic framework with sub-themes and questions
+      - Team debrief discussions
+    procedure: >
+      (1) After each data collection day: note rough summaries of findings per sub-area by theme.
+      (2) Hold daily or every-second-day team debrief. (3) At mid-collection: schedule formal review
+      to assess gaps and adjust data collection plan (which sub-themes remain under-covered?).
+      (4) Clean up notes after review; review by other team members for completeness.
+      (5) Sheet 1 data feeds directly into Tool 7 Key Findings (Columns F-H).
+    outputs_generated:
+      - Per-sub-area preliminary findings by theme (daily)
+      - Mid-collection gap analysis and adjusted sampling decisions
+      - Local service provider list (Sheet 2)
+      - Structured data for Tool 7 Key Findings input
+    user_role: Full data collection team completes; team lead reviews for quality and completeness
+    conditions_of_use: >
+      Should be completed throughout data collection, not only at end. Daily debrief notes should be
+      rough — not exhaustive. Mid-collection review should occur at approximately 50% completion.
+      Carries forward into Step 7 as primary input for analysis.
+    limitations: >
+      Dependent on team discipline to complete notes daily; rough summaries may lose nuance from
+      complex interactions. Designed for qualitative data only. Column G information source column
+      requires prior familiarity with the question guide modules.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I track and synthesize daily interview findings across urban sub-areas to identify data gaps and adjust data collection mid-way through a context analysis?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Distinguishing feature is the explicit bridge between Step 6 data collection and Step 7 analysis
+      through shared template structure. The Column G information-source column enables traceability
+      between sub-themes and specific question guide modules.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-007
+    object_name: "Tool 7 — Key Findings Analysis Template"
+    source_location: "p. 29–30, Step 7: Analyse primary and secondary data"
+    source_fidelity_note: named — explicitly described as Tool 7 Key Findings (Figure 1, p. 10)
+    description: >
+      Two-tab analysis template. Tab 7A: findings organized by sub-area and thematic sub-theme, with
+      multi-column comparison structure — Columns F-H (preliminary findings), I (cross-sub-area
+      similarities/differences and why), J (gender analysis), K (cross-population analysis: host vs.
+      IDP), L (cross-age analysis), M (risks), N (programming ideas). Tab 7B (optional): Dividers and
+      Connectors tool for social cohesion and tension analysis.
+    purpose: >
+      Consolidate primary and secondary data findings by sub-area; systematically interrogate 'why'
+      patterns across sub-areas, gender, populations, and age groups; generate key findings for
+      stakeholder validation and programme implications.
+    inputs_required:
+      - Completed Tool 6 debrief summaries per sub-area (populates Columns F-H)
+      - Desk review findings (Tool 2) to complement field data
+      - Thematic framework for organizing analysis
+    procedure: >
+      (1) Populate Columns F-H from Tool 6 summaries. (2) Cross-reference with desk review data.
+      (3) Review Columns I-L: identify similarities/differences and interrogate why — "the 'why'
+      question is most important." (4) Note risks (Column M) and programming ideas (Column N).
+      (5) Record outstanding gaps and suggestions. (6) Optional Tab 7B: list dividers and connectors
+      per area and repeat the comparison analysis.
+    outputs_generated:
+      - Consolidated key findings by thematic sub-area and sub-area
+      - Cross-cutting analysis by gender, population, and age group
+      - Identified programming risks and opportunities
+      - Outstanding knowledge gaps
+    user_role: Team lead coordinates; data collection team contributes to interpretation
+    conditions_of_use: >
+      Requires all Tool 6 summaries to be completed first. Best used in a collaborative team analysis
+      session. Inputs directly into Tools 3 (stakeholder update), 8 (programme implications), and 9
+      (validation workshop). Tab 7B is optional and most relevant when social cohesion dynamics
+      are central to the crisis context.
+    limitations: >
+      Qualitative synthesis requiring analytical judgement — salience of findings must be assessed by
+      the team. Does not generate quantitative analysis. Quality depends on depth and diversity of
+      primary data collected.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I synthesize and compare qualitative findings across multiple urban sub-areas, population groups, and gender to identify key patterns for humanitarian programme design?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Comparable to other qualitative synthesis matrices. Distinguishing features: multi-column cross-
+      comparison structure (sub-area × gender × population × age) and optional dividers/connectors
+      social cohesion tab. Integrates directly with Tool 8 programme implications.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-008
+    object_name: "Tool 8 — Programme Implications Template"
+    source_location: "p. 31, Step 7 (generated during analysis, validated in Step 8)"
+    source_fidelity_note: named — explicitly described as Tool 8 Programme Implications (Figure 1, p. 10)
+    description: >
+      Five-table template translating key findings and stakeholder analysis into actionable programming
+      outputs: (1) programming opportunities, geographic areas, sub-population needs, protection
+      concerns, constraints; (2) potential partners by sector and geographic area; (3) advocacy issues
+      and partners; (4) risk mitigation approaches; (5) strategies for harnessing social connectors.
+    purpose: >
+      Convert context analysis findings into concrete programming and coordination planning outputs;
+      identify entry points, risks, and partnership options; translate contextual understanding into
+      decisions for programme design.
+    inputs_required:
+      - Completed Tool 7 key findings (Columns F to O)
+      - Updated Tool 3 stakeholder analysis
+      - Programme team's strategic priorities and constraints
+    procedure: >
+      (1) Review completed Tools 3 and 7. (2) Populate each of the five tables with relevant
+      programming implications from the findings. (3) Present as draft inputs into validation
+      workshop (Step 8). (4) Refine during validation workshop based on stakeholder input.
+    outputs_generated:
+      - Draft programme opportunities, geographic and population priorities
+      - Potential partner list by sector
+      - Advocacy issue list
+      - Risk mitigation strategy options
+      - Social connector engagement strategies
+    user_role: Team lead with programme staff; reviewed and validated at workshop (Tool 9)
+    conditions_of_use: >
+      Designed as bridge from analysis to programme design. Requires completed key findings and
+      stakeholder analysis. Draft outputs should be treated as inputs for validation, not final
+      decisions. Does not substitute for sector-specific assessment or technical programme design.
+    limitations: >
+      Provides context backdrop and entry points — not detailed programme specifications. Quality
+      depends on depth of Tools 7 and 3 inputs. May be limited in fast-moving crisis contexts where
+      programming decisions cannot wait for full analysis.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I translate urban context analysis findings into specific programming opportunities, risk mitigation strategies, and partnership recommendations for a humanitarian response?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Comparable to logframe-adjacent planning tools. Distinguished by five-table structure explicitly
+      separating programming opportunities, partnerships, advocacy, risks, and connectors — matching
+      the five-theme analytical structure of the context analysis framework.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-009
+    object_name: "Tool 9 — Urban Analysis Validation Workshop"
+    source_location: "p. 31–32, Step 8: Validation workshop"
+    source_fidelity_note: named — explicitly described as Tool 9 Urban Analysis Workshop (Figure 1, p. 10)
+    description: >
+      One-day workshop tool including a draft agenda, facilitation guide, and participants list template
+      for 15–20 diverse participants. Structured to challenge, refine, and build stakeholder ownership
+      of preliminary context analysis findings. Facilitation guidance includes group activities, session
+      structure, and notetaking arrangements.
+    purpose: >
+      Validate preliminary findings with a wider stakeholder group; probe contested interpretations;
+      build shared ownership of analysis and programmatic intentions among internal and external
+      stakeholders.
+    inputs_required:
+      - Draft Tools 3, 7, and 8 (stakeholder analysis, key findings, programme implications)
+      - Confirmed participant list of 15–20 (analysis team, internal stakeholders, external/local partners)
+      - 1–2 facilitators with facilitation expertise
+      - 1 dedicated notetaker
+    procedure: >
+      (1) Confirm diverse participant list — clarify who will attend rather than blanket organizational
+      invitations; ensure gender balance. (2) In contexts where women face obstacles to mixed group
+      discussions, designate women-only working groups with documented outputs. (3) Use facilitated
+      group activities to review draft findings by theme. (4) Probe differences and contested
+      interpretations — build shared understanding. (5) Document all contributions. (6) Refine Tools 3,
+      7, and 8 based on workshop outputs.
+    outputs_generated:
+      - Validated/refined key findings
+      - Updated stakeholder analysis
+      - Validated programme implications
+      - Stakeholder ownership of analysis findings
+    user_role: Team lead facilitates with 1–2 facilitators; participants include analysis team, country management, external experts, local partners
+    conditions_of_use: >
+      Optional but recommended. Requires adequate resources for participant logistics. Sensitive or
+      commercially confidential findings may limit who can be invited. Not appropriate when security
+      or protection dynamics prevent open stakeholder engagement. RULE-011 applies: women-only groups
+      when context warrants.
+    limitations: >
+      Adds time and resource cost. Confidentiality requirements may limit participant diversity. Power
+      dynamics among participants may bias workshop outputs toward dominant actors. Donor or government
+      participation may constrain honest discussion. Workshop outputs require careful documentation
+      to preserve nuance.
+    knowledge_layer: diagnostic
+    field_query_trigger: "How do I organise and facilitate a participatory validation workshop to refine and build ownership of urban context analysis findings with key stakeholders?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Standard participatory validation workshop format. Distinguished by integration with the full
+      10-step context analysis workflow, use of Tools 3, 7, and 8 as structured facilitation inputs,
+      and explicit guidance on gender-sensitive workshop design (RULE-011).
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-010
+    object_name: "Tool 10 — Urban Context Analysis Final Report Outline"
+    source_location: "p. 32–33, Step 9: Write final report"
+    source_fidelity_note: named — explicitly described as Tool 10 Urban Context Analysis Final Report Outline (Figure 1, p. 10)
+    description: >
+      Table of contents and summary methodological tables for an internal final report synthesizing all
+      urban context analysis findings. Designed as the structure for a report primarily intended for
+      internal use with sensitive/commercially confidential content. Includes overlapping thematic
+      section guidance (common given inter-connected themes) and methodological summary tables.
+    purpose: >
+      Provide consistent structure for the final context analysis report; facilitate methodological
+      documentation; ensure audience-appropriate framing (internal vs. external) is considered before
+      writing begins.
+    inputs_required:
+      - Completed and validated Tools 3, 7, and 8
+      - Validation workshop outputs (Tool 9)
+      - All data collection documentation and desk review findings
+      - Clarity on target audience (internal vs. external) before writing begins
+    procedure: >
+      (1) Identify target audience before beginning (internal default; separate external summary if
+      needed). (2) Follow table of contents structure for sections. (3) Complete methodological
+      summary tables. (4) Clarify before writing if external summary reports or presentations are
+      also required — note: external reports require separate product with anonymized sources.
+      (5) Note: final report is optional — validation workshop outputs alone may be sufficient.
+    outputs_generated:
+      - Final internal context analysis report with methodology, findings, and programme implications
+      - Methodological summary tables
+    user_role: Team lead coordinates 1–2 week writing process
+    conditions_of_use: >
+      Internal report by default. External dissemination requires separate summary product with
+      anonymized sources and protection review. Report is optional — if validation workshop outputs
+      are sufficient for programme purposes, report may not be necessary. RULE-012 applies: produce
+      internal-only report when findings are sensitive or confidential.
+    limitations: >
+      Internal report cannot be directly shared externally without additional privacy/protection
+      review. Writing requires 1–2 weeks which may be infeasible in fast-moving crisis response.
+      Standard qualitative report format — does not provide quantitative analysis structure.
+    knowledge_layer: diagnostic
+    field_query_trigger: "What structure and sections should a final report for an urban humanitarian context analysis follow, and how do I document the methodology for internal use?"
+    multi_type_status: single type — tool only
+    comparison_notes: >
+      Standard report outline template. Distinguished by explicit internal/external audience distinction,
+      optional final report status, and integration with methodological summary tables. The optional
+      nature of the final report is explicitly unusual — few guidance tools acknowledge that the
+      workshop outputs may be sufficient.
+    human_review_required: false
+
+revision_check: "No revisions required — no later TOOL object contradicts assumptions of an earlier one. All tools are sequentially dependent and designed as an integrated set; no contradictions detected."
+
+new_ids_discovered: none

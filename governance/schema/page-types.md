@@ -1,8 +1,9 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-12
+updated: 2026-05-18
 status: active
+version: 2.7
 ---
 # Wiki Page Types
 
@@ -29,24 +30,33 @@ Canonical page types used by frontmatter queries and index generation:
 - Directory: `wiki/aba/05-field-instruments/`
 - Purpose: forms/checklists/guides used by tools for field data collection
 
+## `risk`
+- Directory: `wiki/aba/06-risks/`
+- Purpose: identified operational or contextual risks with mitigation links
+
+## `known-tension`
+- Directory: `wiki/aba/07-known-tensions/`
+- Purpose: documented tensions between concepts, frameworks, or field practices
+
+## `advisory-playbook`
+- Directory: `wiki/aba/08-advisory-playbooks/`
+- Purpose: multi-step guidance sequences for specific decision domains
+
+## `decision-protocol`
+- Directory: `wiki/aba/09-decision-protocols/`
+- Purpose: structured decision logic for high-stakes operational choices
+
+## `output-template`
+- Directory: `wiki/aba/10-output-templates/`
+- Purpose: reusable output formats for field advice, evidence packets, reports
+
+## `slice-spec`
+- Directory: `wiki/aba/11-slice-specs/`
+- Purpose: packaging specifications for field-deployable knowledge slices
+
 ## `synthesis`
-- Directory: `outputs/` (and approved output locations)
-- Purpose: filed analytical outputs and reusable internal syntheses
-
----
-
-## Extension Section Types (Operational Content Sections)
-
-These sections are active content zones and may use canonical page types above while section-specific schemas continue to evolve:
-- `wiki/aba/06-lifecycle/`
-- `wiki/aba/07-sector-applications/`
-- `wiki/aba/08-coordination/`
-- `wiki/aba/09-monitoring-learning/`
-- `wiki/aba/10-transition-scale/`
-- `wiki/aba/11-patterns/`
-- `wiki/aba/12-risks-contradictions/`
-
-Agents should follow existing frontmatter in-section and `frontmatter-schema.md` constraints for shared critical fields (`lifecycle_stage`, `contradicts`, etc.).
+- Directory: `wiki/aba/12-synthesis/`
+- Purpose: cross-cutting synthesis pages integrating evidence across multiple source pages
 
 ---
 
@@ -55,9 +65,5 @@ Agents should follow existing frontmatter in-section and `frontmatter-schema.md`
 ## `source_raw_extract`
 - Directory: `wiki/aba/01-sources/raw-content/`
 - Purpose: markdown text mirror of raw PDFs for ingestion/review workflows
-- Population method:
-  - body text generated from raw PDF extraction
-  - selected frontmatter fields synced from `01-sources/extracted/` using `scripts/sync_extracted_frontmatter_to_raw_content.py`
-- Query rule:
-  - do not use as primary answer source for domain questions
-  - use extracted/synthesis layers for answers; use raw-content for ingestion support and auditability
+- Population method: body text generated from raw PDF extraction
+- Query rule: do not use as primary answer source for domain questions; use extracted/synthesis layers for answers; use raw-content for ingestion support and auditability

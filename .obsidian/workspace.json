@@ -13,15 +13,61 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/aba/00-overview/scaffold-map-v27.md",
+                "file": "wiki/aba/01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "scaffold-map-v27"
+              "title": "2012_efl_neighbourhood-approach-toolbox"
+            }
+          },
+          {
+            "id": "f7a2fa00b3d06bd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "governance/aba/prompts/agent-08-extracted-source-agent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "agent-08-extracted-source-agent"
+            }
+          },
+          {
+            "id": "5d5f46ddf905cb36",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "aba-wiki-architecture.canvas",
+                "viewState": {
+                  "x": -190,
+                  "y": -297.5,
+                  "zoom": -1.4105693514472848
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "aba-wiki-architecture"
+            }
+          },
+          {
+            "id": "2fe220ee88e6e7ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/aba/01-sources/raw-content/2010_young-foundation_how-can-neighbourhoods-be-defined.raw-extract.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2010_young-foundation_how-can-neighbourhoods-be-defined.raw-extract"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,45 +230,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48f3f4409bcab49d",
+  "active": "2fe220ee88e6e7ff",
   "lastOpenFiles": [
-    "wiki/aba/00-overview/00_overview-index.md",
-    "playbooks/ingest-source.md",
-    "playbooks/build-slice.md",
-    "playbooks/advisory-response.md",
-    "aba_drr_field_knowledge_wiki_v2_6_architecture.md",
-    "indexes/builds/2026-05-18T145826Z/lint-report.json",
-    "indexes/builds/2026-05-18T145826Z/source-evidence-index.jsonl",
-    "indexes/builds/2026-05-18T145826Z/section-index.jsonl",
-    "indexes/builds/2026-05-18T145826Z/unresolved-edges.jsonl",
-    "indexes/builds/2026-05-18T145826Z/graph-edges.jsonl",
-    "indexes/builds/2026-05-18T145826Z/agent-index.jsonl",
-    "indexes/builds/2026-05-18T145826Z/manifest.json",
-    "indexes/builds/2026-05-18T145826Z",
-    "indexes/builds/2026-05-18T145745Z/lint-report.json",
-    "indexes/builds/2026-05-18T145745Z/source-evidence-index.jsonl",
+    "wiki/aba/01-sources/raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf",
+    "wiki/aba/01-sources/raw/2009_twigg-ucl_disaster-resilient-community.pdf",
+    "wiki/aba/01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
+    "wiki/aba/01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
+    "wiki/aba/01-sources/extracted/00_extracted-index.md",
+    "archive/prompts/aba-legacy-v25/build-framework-from-sources.md",
+    "archive/prompts/aba-legacy-v25/build-concept-pages-from-sources.md",
+    "The Wiki that Maintains Itself.md",
+    "Untitled.md",
     "aba-wiki-architecture.canvas",
-    "aba-wiki-summary-description.md",
-    "aba-wiki-detailed description.md",
-    "00-overview-architecture.md.md",
-    "governance/aba/agent-operating-model.md",
-    "governance/templates/v26/slice-spec-template.md",
-    "governance/templates/v26/output-template-template.md",
-    "governance/templates/v26/decision-protocol-template.md",
-    "governance/templates/v26/advisory-playbook-template.md",
-    "governance/templates/v26/known-tension-template.md",
-    "governance/templates/v26/field-instrument-template.md",
-    "governance/aba/librarian/RUNBOOK.md",
-    "governance/briefs/scope-vault-upgrade-2026-05-11.md",
-    "governance/briefs/scope-vault-quality-remediation-2026-05-08.md",
-    "governance/briefs/scope-governance-consolidation-2026-05-11.md",
-    "governance/briefs/scope-audit-remediation-2026-05-11.md",
-    "governance/briefs/brief-vault-upgrade-2026-05-11.md",
-    "governance/briefs/brief-v26-clean-rebuild-2026-05-18.md",
-    "governance/briefs/brief-governance-consolidation-2026-05-11.md",
-    "governance/briefs/brief-audit-remediation-2026-05-11.md",
-    "governance/briefs/brief-alignment-audit-2026-05-12.md",
-    "governance/aba/how-to-use-this-wiki.md",
+    "aba_drr_field_knowledge_wiki_v2_6_architecture.md",
+    "governance/aba/prompts/agent-08-extracted-source-agent.md",
+    "wiki/aba/01-sources/raw-content/2010_young-foundation_how-can-neighbourhoods-be-defined.raw-extract.md",
+    "wiki/aba/01-sources/raw/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf",
+    "wiki/aba/01-sources/extracted/2009_twigg-ucl_disaster-resilient-community_skill.md",
+    "wiki/aba/01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
+    "wiki/aba/01-sources/extracted/2017-ifrc-building-urban-resilience-guide.md",
+    "wiki/aba/01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note.md",
+    "indexes/builds/2026-05-19T150505Z/lint-report.json",
+    "indexes/builds/2026-05-19T150505Z/source-evidence-index.jsonl",
+    "indexes/builds/2026-05-19T150505Z/section-index.jsonl",
+    "indexes/builds/2026-05-19T150505Z/unresolved-edges.jsonl",
+    "indexes/builds/2026-05-19T150505Z/graph-edges.jsonl",
+    "indexes/builds/2026-05-19T150505Z/agent-index.jsonl",
+    "indexes/builds/2026-05-19T150505Z/manifest.json",
+    "indexes/builds/2026-05-19T150505Z",
+    "wiki/aba/01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.md",
+    "scratch/S-2017-iied-urban-context-analysis-toolkit-guidance-note/section-C.md",
+    "scratch/S-2017-iied-urban-context-analysis-toolkit-guidance-note/section-A.md",
+    "wiki/aba/01-sources/raw-content/2017-iied-urban-context-analysis-toolkit-guidance-note.raw-extract.md",
+    "scratch/S-2017-iied-urban-context-analysis-toolkit-guidance-note/section-B.md",
+    "scratch/S-2017-iied-urban-context-analysis-toolkit-guidance-note/section-D.md",
+    "wiki/aba/01-sources/raw-content/2017-ifrc-building-urban-resilience-guide.raw-extract.md",
+    "wiki/aba/01-sources/raw-content/2015-undrr-sendai-framework-drr-2015-2030-framework.raw-extract.md",
+    "wiki/aba/01-sources/raw-content/2016-campbell-stepping-back-understanding-cities-systems-guide.raw-extract.md",
+    "wiki/aba/01-sources/raw-content/2012_efl_neighbourhood-approach-toolbox.raw-extract.md",
+    "wiki/aba/01-sources/raw-content/2009_twigg-ucl_disaster-resilient-community.raw-extract.md",
     "generated-image.png",
     "Untitled.canvas",
     "area-based-approaches-wiki.png",

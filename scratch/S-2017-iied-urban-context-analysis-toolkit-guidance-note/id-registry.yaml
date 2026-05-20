@@ -1,0 +1,273 @@
+id_registry:
+  # FRAMEWORK
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+    type: FRAMEWORK
+    description: 5-theme urban context analysis framework (politics/governance, social/cultural, economic, service delivery, space/settlements + do-no-harm + gender cross-cutting)
+
+  # TYPOLOGY
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TYPOLOGY-001
+    type: TYPOLOGY
+    description: Urban displacement crisis typology — 4 types (conflict→IDP, conflict→refugee, violent conflict within city, natural hazard within/to city)
+
+  # METHOD
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001
+    type: METHOD
+    description: Urban context analysis process — 3-phase, 10-step structured workflow (preparation, data collection, analysis/documentation)
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-002
+    type: METHOD
+    description: Desk review method — secondary data synthesis to identify existing knowledge and gaps before primary data collection
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-003
+    type: METHOD
+    description: Key informant interview (KII) method for urban context analysis — structured semi-structured interviews with city-level and sub-area stakeholders
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-004
+    type: METHOD
+    description: Focus group discussion (FGD) method for urban context analysis — structured discussions with affected populations, gender-separated
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-005
+    type: METHOD
+    description: Stakeholder analysis / actor mapping — identifies actors, interests, incentives, influence, and relationships for partnership and coordination strategy
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-006
+    type: METHOD
+    description: Participatory validation workshop — facilitates stakeholder challenge and refinement of preliminary analysis findings
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-007
+    type: METHOD
+    description: Systems-thinking analytical approach — examines urban systems interconnections and relations between thematic areas rather than single-theme analysis
+
+  # TOOL
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-001
+    type: TOOL
+    description: Tool 1 — Workplan and budget template for urban context analysis planning
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-002
+    type: TOOL
+    description: Tool 2 — Desk review summary template with outline and guidance on secondary data sources per sub-theme
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-003
+    type: TOOL
+    description: Tool 3 — Stakeholder analysis matrix for listing, categorizing, and ranking actors by influence and interest
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-004
+    type: TOOL
+    description: Tool 4 — Data collection plan template with sampling approach, staffing needs, and logistics for KIIs and FGDs
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+    type: TOOL
+    description: Tools 5A-5G — KII and FGD question guide set (7 instruments for displaced populations, host communities, influential stakeholders, service providers, labour/business, local government, NGO service providers)
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-006
+    type: TOOL
+    description: Tool 6 — KII and FGD debrief template for daily and mid-collection synthesis of findings per sub-area
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-007
+    type: TOOL
+    description: Tool 7 — Key findings analysis template for consolidating primary and secondary data by theme, sub-area, gender, and population
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-008
+    type: TOOL
+    description: Tool 8 — Programme implications template for translating context analysis findings into programming opportunities, partnerships, risks, and advocacy
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-009
+    type: TOOL
+    description: Tool 9 — Urban analysis validation workshop tool with one-day agenda and facilitation guidance
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-010
+    type: TOOL
+    description: Tool 10 — Urban context analysis final report outline with table of contents and methodological summary tables
+
+  # CONCEPT
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-001
+    type: CONCEPT
+    description: Urban context analysis — structured inquiry into political, economic, social, service delivery, and spatial factors shaping urban crisis response effectiveness
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-002
+    type: CONCEPT
+    description: Sub-area as unit of analysis — geographically-bounded community within a city defined by administrative or physical boundaries combined with social analysis
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-003
+    type: CONCEPT
+    description: Context analysis vs needs assessment distinction — context asks "why" (systemic factors), needs assessment asks "what" (visible effects and gaps)
+
+  # IMPL
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-001
+    type: IMPL
+    description: Team composition and roles for urban context analysis — team lead, local coordinator, data collection team, translators with defined responsibilities
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-002
+    type: IMPL
+    description: Sub-area selection and prioritization — criteria-based approach for choosing city sub-areas for context analysis given resource constraints
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-003
+    type: IMPL
+    description: Joint/partner analysis design — decisions on when and how to collaborate with other organisations on context analysis
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-004
+    type: IMPL
+    description: Data collection team training and orientation — half to full-day orientation covering toolkit purpose, key findings from desk review, and tool piloting
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-005
+    type: IMPL
+    description: Daily debrief and mid-collection review process — structured daily and mid-collection team synthesis to refine sampling and probe emerging hypotheses
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-006
+    type: IMPL
+    description: Findings communication and dissemination — internal and external sharing protocols including anonymization requirements and protection considerations
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-007
+    type: IMPL
+    description: Question guide adaptation and contextualization — 4-step process for adapting KII/FGD guides to specific urban crisis context
+
+  # RULE
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-001
+    type: RULE
+    description: Separate FGDs by gender and age when adolescents or protection-sensitive contexts are present
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-002
+    type: RULE
+    description: Reassess context analysis when more than 6-9 months old or after significant context change (policy, major incident, crisis resolution)
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-003
+    type: RULE
+    description: Restrict or exclude local partner involvement in data collection when significant conflict or protection dynamics are present
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-004
+    type: RULE
+    description: Apply Do No Harm lens throughout data collection — avoid increasing tensions or undermining existing local systems
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-005
+    type: RULE
+    description: Protect participant data — anonymize, limit access, and destroy notes after analysis when retention is not required
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-006
+    type: RULE
+    description: Triangulate findings from multiple sources before concluding analysis — do not rely on single-informant or single-source data
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-007
+    type: RULE
+    description: Complete desk review before primary data collection to avoid duplication and focus resources on genuine gaps
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-008
+    type: RULE
+    description: Adapt question guides to each context — never use default templates without removing irrelevant questions and adding context-specific ones
+
+  # RISK
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-001
+    type: RISK
+    description: Sampling bias from reliance on key powerholders to organize participation — risks excluding marginalized groups
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-002
+    type: RISK
+    description: Protection risk from exposure of displaced populations during data collection — especially refugees masking identity
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-003
+    type: RISK
+    description: Partner bias in joint analysis — local partners may introduce bias in data collection or interpretation that cannot be mitigated
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-004
+    type: RISK
+    description: Context analysis staleness in dynamic urban crisis — findings older than 6-9 months may be misleading for programme design
+
+  # METHOD (additional — discovered by scouts)
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-008
+    type: METHOD
+    description: Snowball/referral sampling — during KIIs and FGDs, solicit referrals for additional participants to reach otherwise inaccessible informants
+
+  # CONCEPT (additional — discovered by scouts)
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-004
+    type: CONCEPT
+    description: Entry point identification — analytical purpose of context analysis; identifying opportunities where external actors can engage productively with existing systems and processes
+
+  # PRINCIPLE
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-PRINCIPLE-001
+    type: PRINCIPLE
+    description: Do No Harm — cross-cutting principle ensuring programmes do not increase tensions or undermine existing local systems; integrated throughout all analytical steps
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-PRINCIPLE-002
+    type: PRINCIPLE
+    description: Gender equality analytical lens — cross-cutting examination of disparities in responsibilities, resource access, and decision-making between women and men throughout analysis
+
+  # RULE (additional — discovered by scouts)
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-009
+    type: RULE
+    description: If organisation seeks only gender equality analysis, conduct a dedicated in-depth gender analysis instead of the full urban context analysis toolkit
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-010
+    type: RULE
+    description: Conduct optional participatory data collection planning workshop when analysis is in partnership with other organisations OR when staff have limited local community knowledge
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-011
+    type: RULE
+    description: Designate women-only working groups with documented outputs during validation workshop when women face obstacles to participating in mixed-group discussions
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-012
+    type: RULE
+    description: Produce internal-only context analysis report when findings contain sensitive or commercially confidential information; clarify external summary requirements before writing
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-013
+    type: RULE
+    description: Recruit facilitators and interviewers from the same social/ethnic/gender groups as target participants for trust-building and data quality
+
+  # ASSUMPTION (meta objects)
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-001
+    type: ASM
+    description: Toolkit designed for organisations already established in-country; assumes approx. 2-week in-country data collection baseline and prior country presence
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-002
+    type: ASM
+    description: Diverse representation achievable through deliberate sampling design — assumption may not hold in high-insecurity contexts
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-003
+    type: ASM
+    description: Final written report is optional — validation workshop outputs alone may be sufficient to complete the context analysis
+
+  # SAFE
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-001
+    type: SAFE
+    description: Data collection protection protocol — informed consent, anonymized notes, secure storage, and data destruction after analysis
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-002
+    type: SAFE
+    description: Culturally-matched team composition — recruit interviewers/facilitators from same community/ethnic/gender groups as participants to reduce identity-masking and access barriers
+
+  # LESSON (CASE LESSONS)
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-001
+    type: LESSON
+    description: "Dar es Salaam 2016: pre-existing knowledge of displaced population locations enabled focused sub-area selection — without it, relevant areas would have been missed"
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-002
+    type: LESSON
+    description: "Dar es Salaam 2016: Burundian/Congolese refugees masked nationality to avoid deportation — team composition must account for community access and protection dynamics"
+
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-003
+    type: LESSON
+    description: "Maiduguri 2016: external brief produced alongside internal report to communicate findings with wider Nigeria stakeholders who did not participate in analysis"
+
+  # SEED
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-001
+    type: SEED
+    description: Urban context analysis approach before programme design in displacement settings
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-002
+    type: SEED
+    description: How context analysis supports area-based programme design
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-003
+    type: SEED
+    description: When to update or redo urban context analysis (6-9 month trigger protocol)
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-004
+    type: SEED
+    description: Tools and instruments available for urban context analysis
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-005
+    type: SEED
+    description: Partner inclusion decision and joint analysis risks
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-006
+    type: SEED
+    description: Data collection risks in urban humanitarian assessments and mitigations
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-007
+    type: SEED
+    description: Sub-area definition and selection for urban programme targeting
+  - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-008
+    type: SEED
+    description: Relationship between context analysis and needs assessment — substitution question

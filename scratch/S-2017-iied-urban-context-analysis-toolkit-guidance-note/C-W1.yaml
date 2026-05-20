@@ -1,0 +1,348 @@
+# C-W1: Conceptual Layer Extraction
+# Source: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+# Worker: C-W1
+# Date: 2026-05-19
+
+objects:
+
+  # ─── FRAMEWORK ───────────────────────────────────────────────────────────────
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+    object_name: "Urban Context Analysis Thematic Framework"
+    source_location: "pp. 16–19, Step 3 (framework description) and Table 3 (thematic framework with guiding questions); Figure 3 (typology of urban systems)"
+    source_fidelity_note: named — explicitly presented as the analytical framework for the toolkit
+    description: >
+      A systems-thinking framework organising urban context analysis around five interconnected thematic
+      areas — politics/governance, social/cultural, economic, service delivery/infrastructure, and space/settlements —
+      with Do No Harm and gender equality as cross-cutting themes. Each theme contains sub-themes and
+      guiding questions to be adapted to specific contexts. The framework is used across all phases of the
+      analysis: framing questions (Step 3), desk review (Step 4), data collection guides (Tools 5A-5G),
+      debrief synthesis (Tool 6), and final findings analysis (Tool 7).
+    purpose: >
+      Provide a structured analytical lens to understand urban systems, power relations, stakeholder
+      interests, service delivery gaps, and spatial dynamics that shape humanitarian crisis response
+      effectiveness; enable systematic questioning of "why" rather than only "what."
+    components_or_steps:
+      - "Theme 1 — Politics and governance: stakeholder analysis, governance structure, policy and legal frameworks (sub-themes from Table 3)"
+      - "Theme 2 — Social and cultural: social relationships and cohesion, protection risks"
+      - "Theme 3 — Economic: jobs and labour market characteristics"
+      - "Theme 4 — Service delivery and infrastructure: demand and supply of services, coordination of services"
+      - "Theme 5 — Space and settlements: urban plans, environmental risks, access to housing/land, access to public and open spaces"
+      - "Cross-cutting — Do No Harm: ensuring programmes do not increase tensions or undermine existing systems"
+      - "Cross-cutting — Gender equality: disparities in responsibilities, resource access, and decision-making between women and men"
+    relationships: >
+      The five themes are explicitly presented as interconnected — the framework is systems-thinking in
+      design and aims to understand both individual thematic areas and their inter-relations. Do No Harm
+      and gender equality cut across all five themes. The framework links to METHOD-001 (3-phase process)
+      as the organising structure used at every step; to TOOL-005 (question guides) which operationalise
+      the sub-themes; and to TYPOLOGY-001 (crisis types) which shapes which sub-themes are most relevant.
+    logic: >
+      By analysing the five themes simultaneously through a systems lens, the framework surfaces
+      structural and systemic factors that produce observed crises rather than only visible symptoms.
+      This enables identification of entry points for intervention that address root drivers rather
+      than proximate needs.
+    assumptions:
+      - "The five themes are sufficiently universal to be relevant across different urban displacement contexts"
+      - "A systems-thinking approach is applicable to rapid as well as extended analysis timeframes"
+      - "Cross-cutting themes (Do No Harm, gender) can be integrated into all five thematic areas without compromising analytical coherence"
+    limitations:
+      - "Framework is qualitative; does not provide quantitative thresholds or scoring mechanisms"
+      - "Designed primarily for man-made crises and displacement; adaptation required for purely natural hazard contexts"
+      - "Guiding questions assume a team with sufficient time and access to explore all five themes; limited-resource settings may require selective focus"
+      - "Framework based on IRC/ALNAP research context (2016); may not reflect more recent urban displacement patterns"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    multi_type_status: >
+      Primary: FRAMEWORK. Secondary stub: METHOD-007 (systems-thinking approach) — the framework is
+      also a method in that it guides analysis procedure, but it is primarily an organising conceptual
+      structure rather than a step-by-step procedure.
+    comparison_notes: >
+      Comparable to Parker & Maynard 2015 ABA framework themes and ALNAP urban systems typology
+      (Campbell 2016). The IIED 2017 framework explicitly adapts the Campbell 2016 urban systems
+      typology (Figure 3 credits this source). Distinguishable from DRR frameworks by its explicit
+      humanitarian-response framing rather than risk reduction framing. Comparison candidate with
+      other urban assessment frameworks (URAF, UMVAT from the Stronger Cities suite).
+    human_review_required: false
+
+  # ─── TYPOLOGY ────────────────────────────────────────────────────────────────
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TYPOLOGY-001
+    object_name: "Urban Displacement Crisis Typology"
+    source_location: "p. 15, Table 2, 'Type of crisis' row; also referenced in p. 9, 'When to use the toolkit'"
+    source_fidelity_note: named — explicitly presented as a typology to frame scope of analysis
+    description: >
+      A four-category classification of urban displacement crises used to frame the scope and focus
+      of the context analysis. The typology differentiates both the origin and location of the crisis,
+      as the appropriate analysis questions and stakeholder configurations differ significantly
+      across each type.
+    classification_criteria:
+      - "Direction of displacement (TO a city vs WITHIN a city)"
+      - "Cause of crisis (conflict-driven vs naturally-triggered)"
+      - "Population of interest (IDPs vs refugees)"
+    categories:
+      - type_i: "Conflict that causes internal displacement TO a city (IDPs)"
+      - type_ii: "Conflict that causes refugee displacement TO a city (refugees)"
+      - type_iii: "Violent conflict WITHIN a city (in-situ urban population affected)"
+      - type_iv: "Naturally triggered hazards WITHIN a city or displacement TO a city"
+    purpose: >
+      Help implementing organisations frame the scope of their context analysis by identifying
+      which type of crisis they are responding to, which shapes which populations of interest to
+      analyse, which sub-areas to prioritise, and which thematic questions are most relevant.
+    use: >
+      Applied in Step 2 (Frame the context analysis) when deciding on the scope and scale of the
+      analysis. Determines which sub-themes in FRAMEWORK-001 are most salient and which population
+      groups require priority attention.
+    limitations:
+      - "Four types are not mutually exclusive — multiple types may co-occur in the same city"
+      - "Typology is crisis-cause focused and does not differentiate by city scale, fragility level, or governance type"
+      - "Primarily designed for displacement contexts; less applicable to purely in-situ impoverishment crises without displacement"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    comparison_notes: >
+      Simpler than DFID/IRC/ALNAP crisis typologies that further distinguish by duration (acute vs
+      protracted) or magnitude. Focused specifically on the urban displacement trigger and direction,
+      not on severity or governance environment. Useful entry point for scoping but needs supplementation
+      with other dimensions for full response design.
+    human_review_required: false
+
+  # ─── CONCEPTS ────────────────────────────────────────────────────────────────
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-001
+    object_name: "Urban Context Analysis"
+    source_location: "pp. 7–9, 'What is context analysis' and 'Why an urban context analysis toolkit' sections; p. 34, Conclusion"
+    source_fidelity_note: named — core concept the entire toolkit is built around
+    definition: >
+      A structured inquiry into the political, economic, social, service delivery, and spatial factors
+      that enable or hinder effective crisis responses to affected populations in urban settings. Context
+      analysis answers "why" questions — why things are the way they are, how they are connected, and
+      what influences decision-makers — rather than "what" needs and gaps exist. It enables identification
+      of entry points, stakeholder interests, power dynamics, governance structures, and systemic drivers
+      of vulnerability in urban displacement contexts.
+    related_concepts:
+      - "CONCEPT-003 (context analysis vs needs assessment distinction)"
+      - "CONCEPT-004 (entry point identification)"
+      - "FRAMEWORK-001 (5-theme thematic framework)"
+      - "METHOD-001 (3-phase, 10-step process)"
+    distinctions:
+      - "Not a needs assessment: does not identify what gaps and services are required for programme design"
+      - "Not programme design: does not provide prescriptive programme templates"
+      - "Not a vulnerability assessment: focuses on systemic factors rather than individual/household vulnerability"
+      - "Distinct from macro-level context analysis tools (eg political economy analysis) in being field-operational and relatively quick"
+    role_in_source: >
+      The central concept that the entire toolkit is designed to operationalise. All 10 tools, all
+      3 phases, and all 10 steps serve as the methodology for conducting an urban context analysis.
+      The concept frames the toolkit's scope boundaries and explains what it can and cannot do.
+    limitations:
+      - "Primarily designed for urban displacement and man-made crisis contexts"
+      - "Qualitative in nature; does not produce quantitative data sufficient alone for programme design"
+      - "Requires existing country presence and team with qualitative research experience"
+      - "Context analysis findings become outdated in dynamic crisis contexts (see RULE-002)"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    comparison_notes: >
+      The source explicitly positions this as distinct from political economy analysis, conflict
+      analysis, and market analysis — all of which are types of context analysis but narrower in scope.
+      The urban focus is the distinguishing feature: the toolkit explicitly addresses urban-specific
+      dynamics (density, heterogeneity, limited humanitarian leverage) that generic context analysis
+      frameworks do not address.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-002
+    object_name: "Sub-Area as Unit of Analysis"
+    source_location: "pp. 15–16, Step 2 'Prioritise and map sub-areas'; citing Parker and Maynard (2015)"
+    source_fidelity_note: named — explicitly defined as an analytical unit
+    definition: >
+      A geographically-bounded community within a city used as the primary unit for data collection
+      in urban context analysis. Sub-areas (also called neighbourhoods or settlements) may be defined
+      by formally designated administrative boundaries (eg municipality or ward) or by physical landscape
+      features (roads, rivers) combined with social analysis considerations. The source notes that
+      approximately one to two days of data collection per sub-area is typical.
+    related_concepts:
+      - "CONCEPT-001 (urban context analysis)"
+      - "IMPL-002 (sub-area selection and prioritization)"
+      - "METHOD-001 (3-phase process — Phase 2 collects data at both city-wide and sub-area levels)"
+    distinctions:
+      - "Different from city-wide analysis level: sub-area analysis provides granular community-level data; city-wide analysis provides systemic/governance context"
+      - "Not equivalent to administrative ward in all cases: may cross administrative boundaries when social analysis warrants"
+      - "Not the same as a 'community' in rural ABA contexts: defined by urban landscape features and density rather than social cohesion alone"
+    role_in_source: >
+      Defines the spatial scope for primary data collection. The toolkit requires analysis at both
+      city-wide level (governance, systems, stakeholders) and sub-area level (community dynamics,
+      local service access). Sub-area selection is a key early scoping decision (Step 2).
+    limitations:
+      - "Sub-area boundaries are socially constructed and may not match administrative boundaries relevant to government partnerships"
+      - "Coverage depth is resource-constrained — each sub-area takes 1-2 days, so sample size is limited by team capacity"
+      - "Urban heterogeneity may mean even a single sub-area contains multiple distinct communities"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    comparison_notes: >
+      Directly cites Parker and Maynard (2015) definition of sub-areas. Consistent with ABA framing
+      of area as geographic and socially-defined unit. IIED 2017 adds operational specificity (1-2 days
+      per sub-area) not present in the generic definition.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-003
+    object_name: "Context Analysis vs Needs Assessment Distinction"
+    source_location: "pp. 8–9, 'What is context analysis' section, first paragraph; repeated in Limitations section p. 9"
+    source_fidelity_note: named — explicitly stated as a core conceptual boundary
+    definition: >
+      A fundamental distinction between two complementary but non-substitutable analytical
+      approaches: context analysis focuses on "why" questions — systemic and structural factors, power
+      dynamics, institutional capacities, and actor incentives that shape the operating environment —
+      while needs assessment focuses on "what" questions — visible effects of problems, current service
+      gaps, and quantifiable needs of affected populations. The source states: "A context analysis is
+      not focused on needs and, therefore, must be understood as quite distinct from a needs assessment."
+    related_concepts:
+      - "CONCEPT-001 (urban context analysis)"
+      - "CONCEPT-004 (entry point identification — a context analysis output)"
+      - "ASM-001 (context analysis assumed to complement, not replace, needs assessment)"
+    distinctions:
+      - "Context analysis → explains systemic 'why'; needs assessment → describes situational 'what'"
+      - "Context analysis → outputs are stakeholder maps, entry points, risk factors, power dynamics"
+      - "Needs assessment → outputs are service gap inventories, population statistics, sector-specific needs"
+      - "Context analysis → qualitative, systemic; needs assessment → may be quantitative, population-focused"
+    role_in_source: >
+      Establishes the analytical boundary and scope of the toolkit. Prevents misuse of the toolkit
+      as a substitute for needs assessment. Justifies why a 10-step context analysis is needed
+      in addition to, not instead of, existing assessment methods.
+    limitations:
+      - "The boundary is conceptual — in practice, context analysis and needs assessment data often overlap"
+      - "The distinction assumes organisations have capacity to run both analyses; resource-constrained settings may need to combine them"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    comparison_notes: >
+      This distinction is implicit in many humanitarian assessment frameworks but rarely stated this
+      explicitly. The IIED 2017 framing echoes academic distinctions between process/system analysis
+      and outcome/needs analysis. Relevant for practitioners deciding which toolkit to deploy first
+      or how to sequence assessment activities.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-004
+    object_name: "Entry Point Identification"
+    source_location: "pp. 8, 'What is context analysis' (identified as core output); p. 34, Conclusion; p. 9, 'The main output of the toolkit'"
+    source_fidelity_note: named — explicitly stated as a primary purpose and output of the toolkit
+    definition: >
+      The identification of practical and realistic opportunities where external humanitarian actors
+      can engage productively with existing urban systems, actors, and processes to support crisis
+      response while remaining consistent with humanitarian principles. Entry points are grounded in
+      analysis of power relations, stakeholder interests, institutional capacities, and governance
+      structures — they represent what is contextually feasible, not only technically ideal.
+      The source lists entry point identification as a core reason to conduct a context analysis.
+    related_concepts:
+      - "CONCEPT-001 (urban context analysis — entry point identification is a primary output)"
+      - "FRAMEWORK-001 (thematic framework — the analytical lens used to identify entry points)"
+      - "TOOL-008 (programme implications tool — translates findings into entry points and partnership options)"
+    distinctions:
+      - "Entry point ≠ programme objective: an entry point is where engagement is feasible, not necessarily what the programme aims to achieve"
+      - "Entry point ≠ needs gap: needs gaps describe what is missing; entry points identify where and how external actors can engage effectively"
+      - "Urban entry points differ from rural: urban contexts have more actors, more institutional layers, and limited humanitarian leverage over contextual factors"
+    role_in_source: >
+      Positioned as the terminal output purpose of the entire context analysis process. All three
+      phases (preparation, data collection, analysis) ultimately serve to identify entry points and
+      risk mitigation strategies that inform programme design. Entry points are documented in
+      Tool 8 (Programme implications).
+    limitations:
+      - "Entry points are context- and time-specific — they change as the crisis evolves"
+      - "Identification depends on analyst judgment; the toolkit provides structure but not an algorithm"
+      - "Urban contexts are particularly dynamic, so entry points may shift faster than in rural contexts"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    comparison_notes: >
+      Entry point identification is a concept common to ABA literature (Parker & Maynard 2015,
+      Sanderson & Sitko 2017) and conflict sensitivity analysis. IIED 2017 provides the most
+      explicit operational definition in the context of urban humanitarian response specifically.
+      Comparable to the "opportunity mapping" step in some development planning frameworks.
+    human_review_required: false
+
+  # ─── PRINCIPLES ──────────────────────────────────────────────────────────────
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-PRINCIPLE-001
+    object_name: "Do No Harm"
+    source_location: "pp. 17–18, Step 3 framework description (cross-cutting theme); also referenced in Table 3 guiding questions and throughout Steps 5–6"
+    source_fidelity_note: named — explicitly designated as a cross-cutting analytical principle
+    principle_statement: >
+      Programmes must not increase tensions or undermine existing local systems — including existing
+      service providers and local government support structures. Every step of the context analysis
+      and subsequent programme design should actively identify and mitigate potential harmful effects
+      on affected populations, host communities, and local institutional systems.
+    rationale: >
+      Urban crisis contexts are characterised by pre-existing tensions between displaced and host
+      populations, fragile local service systems, and complex power dynamics. External humanitarian
+      interventions that are not sensitive to these dynamics can exacerbate tensions, crowd out
+      local service provision, or undermine community coping mechanisms. The toolkit integrates
+      Do No Harm throughout all thematic analysis steps and data collection instruments.
+    operational_implication: >
+      Implemented by: (1) including Do No Harm guiding questions in Table 3 thematic framework;
+      (2) applying protection-sensitive data collection protocols (see RULE-005, IMPL-004);
+      (3) analysing whether planned programmes could increase tensions through Tool 8 (Programme
+      implications); (4) considering partner selection risks (see RULE-003) to avoid giving
+      armed or harmful actors leverage.
+    tensions:
+      - "Do No Harm can conflict with effectiveness: the safest course of action (not engaging) may leave critical needs unaddressed"
+      - "Application requires contextual judgment; the toolkit provides a framework but not definitive guidance on all harm scenarios"
+      - "Urban settings create more complex harm pathways than rural settings due to density and system interdependencies"
+    limitations:
+      - "The toolkit operationalises Do No Harm through guiding questions, not through quantified harm metrics"
+      - "Harm identification depends heavily on analyst judgment and contextual knowledge"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    multi_type_status: >
+      Primary: PRINCIPLE. Secondary: RULE-004 (Do No Harm applied as a decision rule for data
+      collection) — the principle is stated as a cross-cutting norm; the decision rule applies
+      it to specific operational actions.
+    comparison_notes: >
+      Do No Harm is a widely established humanitarian principle (Anderson 1999 foundational text;
+      also embedded in sphere standards and CHS). IIED 2017 applies it specifically to context
+      analysis methodology rather than just programme design — an extension of the standard framing.
+      Cross-reference with SAFE objects that operationalise Do No Harm in specific steps.
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-PRINCIPLE-002
+    object_name: "Gender Equality Analytical Lens"
+    source_location: "pp. 17–18, Step 3 framework description (cross-cutting theme); Table 3 guiding questions; footnote 5 p. 17"
+    source_fidelity_note: named — explicitly designated as a cross-cutting analytical principle
+    principle_statement: >
+      Every step of the context analysis must systematically examine gender disparities — the
+      differences between women and men in the responsibilities assigned to them, activities
+      they undertake, access to and control over resources and services, and decision-making
+      opportunities. Gender equality is not an add-on but an integrated analytical lens applied
+      across all five thematic areas.
+    rationale: >
+      Urban displacement crises affect women and men differently. Gender norms shape access to
+      services, livelihoods, protection risks, and social networks in ways that are often invisible
+      to analysts who do not explicitly examine them. The toolkit integrates gender analysis
+      throughout the thematic framework, questionnaires, sampling guidance, and reporting tools.
+    operational_implication: >
+      Implemented by: (1) gender-specific guiding questions in Table 3; (2) gender-balanced
+      FGD composition (see RULE-001); (3) women-specific FGD guide (Tool 5A is for displaced
+      populations — women-specific FGD implies separate gender-disaggregated collection);
+      (4) Tool 7 key findings analysis includes gender comparison column (Column J);
+      (5) validation workshop gender diversity requirements (see RULE-011).
+    tensions:
+      - "Footnote 5 states: if only interested in gender equality, conduct a dedicated gender analysis instead (see RULE-009) — implying the toolkit's gender integration is adequate for contextual analysis but not for deep gender programming"
+      - "Gender-separated FGDs require additional resources and facilitators"
+      - "In contexts with strong gender norms, dedicated women-only sessions may be insufficient without additional female-specific entry points"
+    limitations:
+      - "Gender equality is treated as a cross-cutting theme, not a dedicated analytical module — deeper gender analysis requires a separate dedicated tool"
+      - "The toolkit does not address gender identity beyond the women/men binary"
+    knowledge_layer: conceptual
+    field_query_trigger: not-applicable
+    multi_type_status: >
+      Primary: PRINCIPLE. The toolkit also operationalises gender equality through multiple
+      RULE and IMPL objects (RULE-001 gender FGD separation; RULE-011 women-only workshop
+      groups; IMPL-001 team composition requiring gender-appropriate facilitators).
+    comparison_notes: >
+      Gender equality as an analytical lens is consistent with DFID, IASC, and IRC gender analysis
+      frameworks. The IIED 2017 integration approach (cross-cutting vs standalone) is consistent
+      with IRC's Gender Analysis and Program Design Toolkit (IRC 2017, cited in footnote 5 as
+      the deeper alternative). Less comprehensive than dedicated gender analysis tools but more
+      contextually integrated than post-hoc gender mainstreaming.
+    human_review_required: false
+
+revision_check: >
+  After completing all 8 objects:
+  No revisions required. No later conceptual object contradicts assumptions stated in an earlier one.
+  CONCEPT-004 (entry point identification) is consistent with CONCEPT-001 (urban context analysis) —
+  both define entry point identification as a core output purpose. PRINCIPLE-001 (Do No Harm) and
+  PRINCIPLE-002 (gender equality) are mutually reinforcing and both appear as cross-cutting themes
+  in FRAMEWORK-001, with no contradiction.

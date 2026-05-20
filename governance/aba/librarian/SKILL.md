@@ -197,6 +197,7 @@ It contains the operating model, session protocol, and promotion gates.
 - [ ] Extracted source page exists with `id: S-{slug}`
 - [ ] Raw-content mirror exists in `01-sources/raw-content/`
 - [ ] `contradicts:` field set (not missing)
+- [ ] `cited_sources:` populated (key contributing sources only; `in_wiki` not hand-set)
 - [ ] Integration map populated with routing decisions
 - [ ] Affected existing pages updated or `PU-` stubs created
 - [ ] Index rebuilt, manifest published
@@ -219,9 +220,10 @@ It contains the operating model, session protocol, and promotion gates.
    - `<a id="summary"></a>` before `## Summary`
    - `<a id="findings"></a>` before `## Findings`
    - `<a id="integration-map"></a>` before `## Integration Map`
-6. Populate the `findings:` frontmatter list — each finding must have: `finding_id`, `finding`, `finding_type`, `lifecycle_stage`, `source_pages`, `candidate_target_pages`, `integration_action`, `status`, `human_review_required`
-7. Populate the Integration Map table in body
-8. Run INGEST to wire into wiki
+6. Populate the `findings:` frontmatter list — each finding must have: `finding_id`, `finding`, `finding_type`, `lifecycle_stage`, `source_pages`, `candidate_target_pages`, `integration_action`, `status`, `human_review_required`, `routing_rationale`
+7. Populate `cited_sources:` — key contributing sources only (primary frameworks, foundational research, major guidelines the document explicitly builds on or applies). Do not include every footnote. Never set `in_wiki:` — it is auto-computed by `build-index.py`.
+8. Populate the Integration Map table in body
+9. Run INGEST to wire into wiki
 
 **Confidence:**
 - `high` — direct field evidence (evaluation, assessment report)

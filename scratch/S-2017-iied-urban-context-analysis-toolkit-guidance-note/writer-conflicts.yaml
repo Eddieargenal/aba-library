@@ -1,0 +1,18 @@
+writer_conflicts:
+  id_not_in_registry:
+    - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-TNS-001
+      type: TNS
+      description: Internal tension object (sampling representativeness vs structural access barriers) defined in C-W5 internal_tension block and referenced in C-W7 F-059, but not listed as an entry in id-registry.yaml. Object is valid and consistent across workers; registry omission only.
+      source_workers:
+        - C-W5 (defined in internal_tension block, not in the objects list)
+        - C-W7 (referenced as object_id in F-059)
+      resolution: Object included in final page as authored; recommend adding to id-registry.yaml in next registry update.
+  duplicate_ids: []
+  dangling_cross_references: []
+  notes: >
+    Only one conflict detected: TNS-001 was defined in C-W5's internal_tension section but was not
+    registered in id-registry.yaml. All other IDs across C-W1, C-W2, C-W3a, C-W3b, C-W4, C-W5, C-W6,
+    and C-W7 match the registry exactly. RULE-003 has human_review_required: true in C-W2 and F-029
+    in C-W7, correctly flagged. TNS-001 has human_review_required: true in F-059 in C-W7.
+    All 67 findings verified: F-001 through F-067 present and sequential in C-W7.
+    All 13 RULE objects verified: RULE-001 through RULE-013 present in C-W2.

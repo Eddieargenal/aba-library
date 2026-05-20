@@ -1,0 +1,107 @@
+{
+  "build_id": "2026-05-19T124314Z",
+  "critical_errors": [
+    {
+      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
+      "error": "duplicate_id:S-2009-twigg-ucl-disaster-resilient-community"
+    }
+  ],
+  "warnings": [
+    {
+      "path": "00-overview/scaffold-map-v27.md",
+      "warning": "missing_sections"
+    },
+    {
+      "path": "00-overview/scaffold-map-v27.md",
+      "warning": "orphan_page:OVR-scaffold-map-v27"
+    },
+    {
+      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
+      "warning": "orphan_page:S-2009-twigg-ucl-disaster-resilient-community"
+    },
+    {
+      "path": "01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md",
+      "warning": "orphan_page:S-2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy"
+    },
+    {
+      "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
+      "warning": "orphan_page:S-2010-young-foundation-how-can-neighbourhoods-be-defined"
+    },
+    {
+      "path": "01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
+      "warning": "orphan_page:S-2012-efl-neighbourhood-approach-toolbox"
+    },
+    {
+      "path": "01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice.md",
+      "warning": "orphan_page:S-2013-worldbank-building-urban-resilience-principles-tools-practice"
+    },
+    {
+      "path": "01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.md",
+      "warning": "orphan_page:S-2015-parker-maynard-humanitarian-response-urban-crises-aba-review"
+    },
+    {
+      "path": "01-sources/extracted/2015-undrr-sendai-framework-drr-2015-2030-framework.md",
+      "warning": "orphan_page:S-2015-undrr-sendai-framework-drr-2015-2030-framework"
+    },
+    {
+      "path": "01-sources/extracted/2015_dfid-irc-alnap_aba-discussion-paper.md",
+      "warning": "orphan_page:S-2015-dfid-irc-alnap-aba-discussion-paper"
+    },
+    {
+      "path": "01-sources/extracted/2016-campbell-stepping-back-understanding-cities-systems-guide.md",
+      "warning": "orphan_page:S-2016-campbell-stepping-back-understanding-cities-systems-guide"
+    },
+    {
+      "path": "01-sources/extracted/2017-globalcluster-area-based-approaches-in-urban-settings-case-studies.md",
+      "warning": "orphan_page:S-2017-globalcluster-area-based-approaches-in-urban-settings-case-studies"
+    },
+    {
+      "path": "01-sources/extracted/2017-ifrc-building-urban-resilience-guide.md",
+      "warning": "orphan_page:S-2017-ifrc-building-urban-resilience-guide"
+    },
+    {
+      "path": "01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note.md",
+      "warning": "orphan_page:S-2017-iied-urban-context-analysis-toolkit-guidance-note"
+    },
+    {
+      "path": "01-sources/extracted/2017-response-option-comparison-matrix-framework.md",
+      "warning": "orphan_page:S-2017-response-option-comparison-matrix-framework"
+    },
+    {
+      "path": "01-sources/extracted/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.md",
+      "warning": "orphan_page:S-2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide"
+    },
+    {
+      "path": "01-sources/extracted/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.md",
+      "warning": "orphan_page:S-2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition"
+    },
+    {
+      "path": "01-sources/extracted/2018_allen-building-better_concepts-of-neighbourhood-literature-review.md",
+      "warning": "orphan_page:S-2018-allen-building-better-concepts-of-neighbourhood-literature-review"
+    },
+    {
+      "path": "01-sources/extracted/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study.md",
+      "warning": "orphan_page:S-2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study"
+    },
+    {
+      "path": "01-sources/extracted/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.md",
+      "warning": "orphan_page:S-2019-reach-unhcr-area-based-assessment-key-informants-practical-guide"
+    },
+    {
+      "path": "01-sources/extracted/2019-replication-scale-up-learning-note-framework.md",
+      "warning": "orphan_page:S-2019-replication-scale-up-learning-note-framework"
+    },
+    {
+      "path": "01-sources/extracted/2019_alnap-sanderson-humanitarian-response-urban-contexts.md",
+      "warning": "orphan_page:S-2019-alnap-sanderson-humanitarian-response-urban-contexts"
+    },
+    {
+      "path": "01-sources/extracted/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.md",
+      "warning": "orphan_page:S-2019-journal-urbanism-understanding-neighbourhood-concept-evolution"
+    },
+    {
+      "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md",
+      "warning": "orphan_page:S-2026-iasc-standard-terms-reference-area-based-coordination-tor"
+    }
+  ]
+}

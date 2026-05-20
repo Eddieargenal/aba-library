@@ -1,0 +1,180 @@
+task_seeds:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-001
+    task_question: "How should a humanitarian organisation approach context analysis before programme design in an urban displacement setting?"
+    task_type: planning
+    operational_context: >
+      Urban humanitarian programme team preparing to design or adapt programming in a city where forced
+      displacement (IDP or refugee) has occurred. Team has country presence but lacks structured understanding
+      of political, economic, social, service, and spatial dynamics affecting the affected population.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TYPOLOGY-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-001
+    coverage: full
+    gaps: >
+      Source does not cover: digital geospatial tools or remote sensing for spatial analysis;
+      rapid-onset emergency contexts (toolkit assumes weeks of preparation time);
+      contexts where all 10 tools cannot be completed due to access restrictions.
+    priority: high
+    knowledge_layer: operational
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-002
+    task_question: "How does urban context analysis support the design of area-based humanitarian programmes?"
+    task_type: planning
+    operational_context: >
+      Programme team considering an area-based approach to urban humanitarian response and needing to
+      understand how context analysis informs sub-area selection, partner engagement, and entry point
+      identification before programme design.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-004
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-001
+    coverage: partial
+    gaps: >
+      Source describes context analysis inputs to programme design but does not connect outputs
+      to ABA programme cycle phases, coordination structures, or community mobilisation logic.
+      Integration with ABA wiki frameworks requires cross-source synthesis.
+    priority: high
+    knowledge_layer: operational
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-003
+    task_question: "When and under what conditions should a humanitarian organisation update or redo its urban context analysis?"
+    task_type: monitoring
+    operational_context: >
+      Programme team holding a context analysis document and needing to decide whether it remains
+      valid for current programming decisions, or whether new data collection is required given
+      time elapsed or changed crisis conditions.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-004
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-001
+    coverage: full
+    gaps: >
+      Source provides triggers but not a structured decision matrix; does not specify
+      who is responsible for triggering reassessment; no guidance for resource-constrained
+      settings where a full redo is not feasible.
+    priority: high
+    knowledge_layer: decision
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-004
+    task_question: "What tools and instruments are available for conducting urban context analysis in a displacement setting, and how are they used?"
+    task_type: assessment
+    operational_context: >
+      Field team preparing to conduct an urban context analysis and needing to understand
+      which analytical tools and data collection instruments are available, their sequencing,
+      and their purpose within the 3-phase process.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-004
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-006
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-007
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-008
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-009
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-010
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001
+    coverage: full
+    gaps: >
+      Actual template content for all 10 tools is hosted externally (IRC Box.com links);
+      question guides in Tools 5A-5G are not reproduced in the source text.
+      Full instrument text requires access to external files.
+    priority: high
+    knowledge_layer: diagnostic
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-005
+    task_question: "How should a humanitarian organisation decide whether to include local partners in a context analysis, and what risks does joint analysis introduce?"
+    task_type: coordination
+    operational_context: >
+      Implementing organisation planning an urban context analysis in a setting with available
+      local partners, needing to decide whether joint analysis is appropriate given protection
+      dynamics, bias risks, and coordination considerations.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-010
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-002
+    coverage: full
+    gaps: >
+      Source does not address multi-actor coordination mandates (e.g. UN cluster system
+      requiring joint assessments); does not specify how to handle partner withdrawal
+      mid-analysis; limited guidance for contexts with competitive rather than cooperative
+      partner dynamics.
+    priority: medium
+    knowledge_layer: decision
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-006
+    task_question: "What are the key data collection risks in urban humanitarian assessments, and how can they be mitigated?"
+    task_type: assessment
+    operational_context: >
+      Data collection team preparing for primary data collection (KIIs and FGDs) in an urban
+      displacement context, needing to identify and mitigate risks of sampling bias, protection
+      exposure, and identity masking before fieldwork begins.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RISK-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-SAFE-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-004
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-005
+    coverage: partial
+    gaps: >
+      Source identifies risks and general mitigation principles but does not provide
+      quantitative thresholds for representativeness; does not address digital data
+      collection security; limited guidance for contexts where no community-matched
+      team members are available.
+    priority: medium
+    knowledge_layer: operational
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-007
+    task_question: "How should urban humanitarian actors define and select sub-areas for context analysis and programme targeting?"
+    task_type: planning
+    operational_context: >
+      Programme team needing to narrow a large urban area into manageable sub-areas for
+      context analysis data collection, with limited time and resources for comprehensive
+      city-wide coverage.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-LESSON-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-004
+    coverage: partial
+    gaps: >
+      Source provides criteria and case example but no spatial delineation methodology;
+      assumes prior organisational knowledge of displacement concentrations;
+      does not address contexts where no reliable spatial data or maps exist.
+    priority: medium
+    knowledge_layer: operational
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-008
+    task_question: "What is the relationship between urban context analysis and sector needs assessments — can one substitute for the other?"
+    task_type: coordination
+    operational_context: >
+      Coordination actor or programme manager evaluating how context analysis and sector/vulnerability
+      needs assessments should be sequenced and integrated in an urban displacement response,
+      particularly when resources are constrained and both cannot be conducted fully.
+    contributing_object_ids:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-CONCEPT-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-ASM-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-002
+    coverage: partial
+    gaps: >
+      Source asserts complementarity but does not provide a decision framework for sequencing
+      the two; no guidance for resource-constrained settings where only one can be done;
+      does not address how findings from each feed into the other in practice.
+    priority: medium
+    knowledge_layer: conceptual
+
+revisions: "No revisions required — all contributing_object_ids verified against registry before use."

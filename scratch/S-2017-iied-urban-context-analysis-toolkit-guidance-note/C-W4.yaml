@@ -1,0 +1,365 @@
+worker: C-W4
+layer: operational
+source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+objects_extracted: 7
+
+objects:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-001
+    object_name: Team composition and roles for urban context analysis
+    source_location: "pages 12–13, Table 1 (Team member roles); lines 300–330"
+    source_fidelity_note: named — Table 1 explicitly defines roles, descriptions, and prior experience requirements
+    description: >
+      The context analysis team is structured around three roles: (1) team lead with
+      significant qualitative research experience who directs all phases; (2) support/logistics
+      member(s) with local language knowledge for coordinating FGD/KII scheduling and logistics;
+      (3) data collection team members with local language competencies and community knowledge
+      who conduct interviews and contribute to debriefs. Translators are needed if team members
+      lack local language capability — but direct translators are suboptimal; a co-trained
+      counterpart understanding question nuances is preferred.
+    sequence:
+      - "Step 1: team lead appointed and roles assigned"
+      - "Step 2: support/logistics member(s) identified with local language and context knowledge"
+      - "Step 3: data collection team assembled from national staff with community familiarity"
+      - "Step 4: translators identified only where needed; trained as counterparts not direct translators"
+      - "Step 5: team roles and responsibilities formalized in workplan (Tool 1)"
+    dependencies:
+      - organisational resources and staffing available
+      - national staff with relevant community and language competencies accessible
+      - decision on partner inclusion (IMPL-003) made before finalizing team size
+    entry_conditions:
+      - decision to conduct urban context analysis confirmed
+      - city/sub-areas provisionally selected (IMPL-002 may inform final team size)
+    outputs_by_stage:
+      - "Planning: documented team role descriptions, workplan (Tool 1)"
+      - "Data collection: operational team conducting KIIs, FGDs, daily debriefs"
+      - "Analysis: team contributing to synthesis and reporting"
+    feedback_loops:
+      - team composition can be adjusted mid-analysis if protection or access issues emerge
+      - mid-collection debrief (IMPL-005) may reveal language or community-access gaps requiring team adjustment
+    decision_points:
+      - if significant conflict or protection dynamics present → restrict or modify partner inclusion (RULE-003)
+      - if analysis is in partnership or staff have limited local knowledge → consider participatory planning workshop (RULE-010)
+      - facilitators and interviewers should be recruited from same groups as participants where feasible (RULE-013)
+    failure_points:
+      - team lead without qualitative research experience produces low-quality analysis framing
+      - absence of national staff with local language/community access limits FGD/KII quality
+      - over-reliance on direct translators reduces nuance capture and increases mistranslation risk
+    knowledge_layer: operational
+    field_query_trigger: >
+      How should I structure and staff a team to conduct a urban context analysis in a displacement crisis,
+      including roles for team lead, data collectors, and translators?
+    multi_type_status: single-type
+    comparison_notes: >
+      Compare with team structure guidance in Parker & Maynard (2015) ABA review and ALNAP urban assessment
+      guidance; this toolkit is more explicit on language competency requirements and partner roles.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-002
+    object_name: Sub-area selection and prioritization criteria
+    source_location: "pages 15–16, Step 2 sub-section; lines 385–401"
+    source_fidelity_note: named — criteria listed explicitly; Dar es Salaam case illustrates application
+    description: >
+      Because it is impractical to analyze an entire city, teams must select a limited number of sub-areas
+      (neighbourhoods/settlements) defined by administrative or physical boundaries combined with social
+      analysis. Selection is criteria-based, typically allowing one to two days per sub-area for data
+      collection. Five criteria guide prioritization: vulnerability of the sub-area relative to others;
+      the implementing organisation's existing programming or strategic interests; known gaps in contextual
+      understanding; security/access to the sub-area; and requests from local government or UN for support.
+    sequence:
+      - "Step 1: identify crisis type and target populations (from TYPOLOGY-001 and Table 2 analysis)"
+      - "Step 2: map city geography; review available vulnerability or population data"
+      - "Step 3: apply five prioritization criteria to candidate sub-areas"
+      - "Step 4: estimate feasibility — time, resources, access for each sub-area"
+      - "Step 5: confirm selection; document in workplan (Tool 1)"
+    dependencies:
+      - basic knowledge of city layout and target population locations (pre-existing or from desk review)
+      - Table 2 framing exercise (Step 2) completed
+      - access and security assessment conducted
+    entry_conditions:
+      - type of crisis and target population(s) identified
+      - organisation has at least basic in-country presence
+    outputs_by_stage:
+      - "Preparation: documented sub-area list with selection rationale"
+      - "Data collection: geographic scope defined for Tool 4 data collection plan"
+    feedback_loops:
+      - desk review (METHOD-002) findings may reveal additional sub-areas or invalidate initial selection
+      - mid-collection debrief (IMPL-005) may trigger adjustment to sub-area coverage if gaps emerge
+    decision_points:
+      - if pre-existing knowledge of target population concentration exists → use to focus selection immediately
+      - if no prior knowledge of population locations → desk review must precede selection (RULE-007)
+      - security/access constraints may override other criteria
+    failure_points:
+      - selection without prior knowledge of population locations may produce incomplete or misdirected analysis
+      - selecting too many sub-areas relative to resources dilutes depth of each area inquiry
+      - failing to include sub-areas where marginalized groups concentrate produces unrepresentative findings
+    knowledge_layer: operational
+    field_query_trigger: >
+      How do I prioritize and select which neighbourhoods or sub-areas of a city to include
+      in a rapid urban context analysis when resources limit how many areas I can cover?
+    multi_type_status: single-type
+    comparison_notes: >
+      Criteria align with Parker & Maynard (2015) sub-area targeting principles; this source is
+      more explicit on operational prioritization steps than most ABA guidance.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-003
+    object_name: Joint and partner analysis design decisions
+    source_location: "page 14, 'Joint analysis and partnerships' section; lines 334–347"
+    source_fidelity_note: named — guidance explicitly frames partner inclusion as a design decision with conditions
+    description: >
+      When an implementing organisation is already established in a city and coordinates with other
+      organisations, it may formally collaborate on the context analysis. Joint analysis brings diverse
+      perspectives and complementary expertise, but also coordination and contractual burdens. Partner
+      inclusion is conditional: organisations must assess protection risks for partner staff, potential
+      bias in data collection, and risks from publicly sharing findings. In general the benefits of
+      wider stakeholder involvement outweigh coordination costs — but significant conflict/protection
+      dynamics require caution. If in partnership or staff have limited local knowledge, a participatory
+      data collection planning workshop should be considered (RULE-010).
+    sequence:
+      - "Step 1: assess existing city partnerships and partner knowledge of sub-areas"
+      - "Step 2: evaluate protection concerns for partner staff participating in data collection"
+      - "Step 3: assess bias risks from potential partner involvement"
+      - "Step 4: assess public sharing risks for findings"
+      - "Step 5: decide on partner inclusion and in which phases (Step 1 workplan, Step 5 data collection, Step 7 analysis)"
+      - "Step 6: if partnering → consider participatory planning workshop (RULE-010)"
+    dependencies:
+      - understanding of conflict/protection dynamics in the city
+      - existing partner relationships or coordination mechanisms
+    entry_conditions:
+      - organisation established in city for at least several months
+      - potential partners identified through stakeholder mapping or existing networks
+    outputs_by_stage:
+      - "Planning: documented partner decision in Step 1 workplan"
+      - "Data collection: partner roles defined in Tool 4 data collection plan"
+      - "Analysis/validation: partner involvement in Step 7 and/or Step 8 validation workshop"
+    feedback_loops:
+      - protection issues discovered during data collection may require mid-analysis partner exclusion
+    decision_points:
+      - if significant conflict or protection dynamics → restrict/exclude local partners from data collection (RULE-003)
+      - if in partnership or limited local staff knowledge → conduct optional participatory planning workshop (RULE-010)
+      - if findings are sensitive → consider implications for co-authorship and public sharing before engaging partners
+    failure_points:
+      - including partners with conflict-of-interest in protection-sensitive contexts exposes participants to risk
+      - inadequate bias management from partner involvement skews KII/FGD findings
+      - failure to plan for coordination overhead delays analysis timeline
+    knowledge_layer: operational
+    field_query_trigger: >
+      When conducting an urban context analysis in partnership with other organisations,
+      how do I decide whether and in which phases to include local partners, and
+      what safeguards are needed to manage bias and protection risks?
+    multi_type_status: single-type
+    comparison_notes: >
+      Partner inclusion logic not covered in depth by most other urban assessment frameworks;
+      this source provides the most explicit conditional guidance in the IIED/IRC toolkit series.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-004
+    object_name: Data collection team training and orientation
+    source_location: "pages 25–26, 'Training the data collection team' section; lines 675–688"
+    source_fidelity_note: named — explicit minimum time and activity sequence provided
+    description: >
+      Before primary data collection, the team lead conducts a minimum half to full-day orientation
+      covering: (1) toolkit purpose and context analysis rationale; (2) key findings and gaps from
+      the desk review; (3) the data collection plan (Tool 4); (4) language review of tools — identifying
+      key terms and agreeing on local language equivalents, role-playing between local language speakers;
+      (5) tool piloting in city areas with subsequent debrief to refine guides and approaches.
+      Protection and gender training is required where sensitive topics (GBV, child exploitation) are
+      in scope. Informed consent and referral protocols must be reviewed with all team members including
+      translators.
+    sequence:
+      - "Step 1: review toolkit purpose and rationale with full team"
+      - "Step 2: present key findings and gaps from desk review"
+      - "Step 3: walk through data collection plan (Tool 4) and sampling approach"
+      - "Step 4: language review — agree on local equivalents for key terms; role-play if needed"
+      - "Step 5: discuss protection risks for sensitive questions; agree on referral/reporting protocols"
+      - "Step 6: pilot tools in target areas; debrief to incorporate insights"
+    dependencies:
+      - desk review (METHOD-002) completed (RULE-007)
+      - question guides adapted for context (IMPL-007, RULE-008)
+      - data collection plan (Tool 4) drafted
+    entry_conditions:
+      - team assembled (IMPL-001) and sub-areas selected (IMPL-002)
+      - desk review findings available
+    outputs_by_stage:
+      - "Training: team with shared understanding of context, tools, and language conventions"
+      - "Training: agreed referral and consent protocols for sensitive topics"
+      - "Piloting: refined question guides incorporating pilot insights"
+    feedback_loops:
+      - tool piloting produces revisions to question guides before full data collection begins
+      - protection concerns identified during training may require further tool adaptation (RULE-008)
+    decision_points:
+      - if protection or gender-sensitive topics in scope → conduct additional protection/gender training before fieldwork (RULE-004)
+      - if team members lack local language competency → additional role-play and counterpart preparation required
+    failure_points:
+      - insufficient orientation produces inconsistent interviewing and low-quality data
+      - skipping tool piloting results in discovering questionnaire problems only during live KIIs/FGDs
+      - absent consent and referral protocols exposes participants to harm and the organisation to reputational risk
+    knowledge_layer: operational
+    field_query_trigger: >
+      How do I prepare a data collection team for urban context analysis fieldwork,
+      including language preparation, tool adaptation, and protection training?
+    multi_type_status: single-type
+    comparison_notes: >
+      Training guidance is more explicit than in most urban assessment frameworks; the language
+      review and piloting requirement is distinctive and generalizeable to other qualitative urban studies.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-005
+    object_name: Daily debrief and mid-collection review process
+    source_location: "pages 27–28, Step 6 'Note findings daily, debrief, and review' section; lines 700–723"
+    source_fidelity_note: named — explicit structure with three sub-phases (daily debrief, mid-collection review, note clean-up)
+    description: >
+      Structured team reflection at two intervals: (1) daily or every-second-day team debriefs
+      (15–30 minutes) to compare findings across interviewers, identify patterns and contradictions,
+      flag data gaps, and adjust sampling or guides; (2) a scheduled mid-collection review session
+      after approximately 50% of interviews, using Tool 6 to map preliminary findings against the
+      thematic framework, identify remaining gaps, and clean up notes. Both mechanisms feed directly
+      into Step 7 analysis. Team lead reviews notes regularly to monitor question quality and probing
+      depth. Data security protocols must be observed throughout (RULE-005).
+    sequence:
+      - "Step 1: at end of each data collection day — team debriefs findings by interviewer and sub-area"
+      - "Step 2: flag emerging patterns, contradictions, and gaps; adjust plan if needed"
+      - "Step 3: at mid-point — use Tool 6 to summarise findings per sub-area against thematic framework"
+      - "Step 4: scheduled team review session to assess overall progress and prioritize remaining collection"
+      - "Step 5: clean up and peer-review notes in Tool 6"
+      - "Step 6: carry Tool 6 outputs into Step 7 key findings synthesis"
+    dependencies:
+      - Tool 6 (debrief template) prepared and distributed before data collection
+      - thematic framework adapted (Step 3)
+    entry_conditions:
+      - primary data collection (Step 6) underway
+    outputs_by_stage:
+      - "Daily: updated rough summaries in Tool 6 per sub-area"
+      - "Mid-collection: adjusted sampling and interview plan based on identified gaps"
+      - "End of Phase 2: cleaned Tool 6 outputs ready for Phase 3 synthesis"
+    feedback_loops:
+      - daily debrief findings directly adjust next-day sampling and question probing priorities
+      - mid-collection review may trigger adjustment to sub-area coverage or addition of new KII/FGD
+    decision_points:
+      - gender-separated sessions are required (RULE-001) — debrief process must reflect this in note structure
+      - if participant identifiable information surfaces in notes → remove per data security protocol (RULE-005)
+      - if bias or representation gaps identified → trigger corrective sampling adjustment
+    failure_points:
+      - skipping daily debriefs causes finding accumulation without synthesis, leading to analysis overload in Phase 3
+      - no mid-collection review results in systematic gaps being discovered only at analysis stage
+      - inadequate note-taking quality not caught until too late to recover missing data
+    knowledge_layer: operational
+    field_query_trigger: >
+      How do I structure daily and mid-collection team debriefs during urban context analysis
+      fieldwork to maintain data quality and adjust sampling while in the field?
+    multi_type_status: single-type
+    comparison_notes: >
+      The iterative feedback loop design distinguishes this toolkit from linear assessment approaches;
+      daily debrief structure is comparable to rapid ethnographic assessment protocols.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-006
+    object_name: Findings communication and dissemination
+    source_location: "pages 33–34, Step 10 'Communicate findings' section; lines 859–866"
+    source_fidelity_note: named — Step 10 explicitly addresses both internal and external communication paths
+    description: >
+      After completing analysis and validation (Steps 7–8), findings are disseminated in two tracks:
+      (1) internal — full analysis report shared with country programme/sector management (if not involved
+      in Step 8 validation); a debrief session held to answer questions and confirm gaps;
+      (2) external — summary findings shared with government agencies and peer organisations where feasible,
+      ensuring sources are anonymised and informed consent commitments are respected.
+      Protection technical advisors should be consulted before external sharing to prevent exposure of
+      community members. Where findings are sensitive or commercially confidential, the report remains
+      internal (RULE-012). Context analysis findings should be used to update programme strategy,
+      project design, proposals, and workplans.
+    sequence:
+      - "Step 1: finalise report or validation workshop outputs"
+      - "Step 2: share full report with internal country programme/sector management not involved in Step 8"
+      - "Step 3: hold internal debrief session to discuss findings and remaining gaps"
+      - "Step 4: assess feasibility and appropriateness of external sharing"
+      - "Step 5: if external sharing → anonymise sources; check against informed consent commitments"
+      - "Step 6: consult protection technical advisor before external dissemination"
+      - "Step 7: produce external summary if warranted (see Maiduguri case — LESSON-003)"
+    dependencies:
+      - final report (Step 9) written or validation workshop outputs (Step 8) completed
+      - sources anonymised in all notes and report
+    entry_conditions:
+      - analysis cycle complete through Step 8 or Step 9
+    outputs_by_stage:
+      - "Internal: programme/sector management briefed and gaps confirmed"
+      - "External (if applicable): anonymised summary shared with government/peer agencies"
+    feedback_loops:
+      - context analysis findings feed into next programme design cycle
+      - external sharing may generate additional stakeholder input or correction requests
+    decision_points:
+      - if findings contain sensitive/confidential content → keep report internal only (RULE-012)
+      - if external sharing proceeds → triangulate to ensure no individual sources identifiable (RULE-006)
+      - if context analysis is >6–9 months old before use → reassess before applying to programme design (RULE-002)
+    failure_points:
+      - sharing findings publicly without anonymisation exposes informants and communities to harm
+      - internal-only restriction not communicated to partners who co-collected may cause conflict
+      - absent debrief session leaves programme staff with unresolved questions at design stage
+    knowledge_layer: operational
+    field_query_trigger: >
+      How should I share urban context analysis findings with internal programme staff and
+      external stakeholders while protecting participant confidentiality and respecting
+      informed consent commitments?
+    multi_type_status: single-type
+    comparison_notes: >
+      External brief model (Maiduguri) provides a useful dual-track dissemination pattern not
+      captured in most assessment guidance; protection-sensitive dissemination protocol is generalizeable.
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-007
+    object_name: Question guide adaptation and contextualization — 4-step process
+    source_location: "pages 25–26, 'Adapt and contextualise data collection tools' section; lines 653–674"
+    source_fidelity_note: named — four explicit sequential tasks listed; aligns with RULE-008
+    description: >
+      Before fieldwork, all question guides (Tools 5A–5G) must be adapted to the specific urban crisis
+      context. The thematic framework connects to specific questionnaire modules, making it possible to
+      prioritize questions by theme. Four adaptation tasks are mandatory: (1) eliminate questions that are
+      irrelevant or already answered by desk review data; (2) add questions relevant to issues flagged by
+      peer organisations or the desk review; (3) validate adapted tools with country staff; ensure data
+      collectors understand the issues, including additional gender/protection training where needed;
+      (4) discuss protection risks around sensitive questions (GBV, child exploitation) with all team
+      members including translators, with clear referral and reporting protocols.
+    sequence:
+      - "Step 1: review each guide against thematic framework; mark questions keep/remove/adapt"
+      - "Step 2: add context-specific questions informed by desk review gaps and peer organisation input"
+      - "Step 3: validate adapted guides with country staff; conduct additional protection/gender training if needed"
+      - "Step 4: brief full team including translators on protection risks; confirm referral/reporting protocols"
+    dependencies:
+      - desk review (METHOD-002) completed (RULE-007)
+      - thematic framework adapted for context (Step 3)
+      - team assembled including translators (IMPL-001)
+    entry_conditions:
+      - Step 4 (desk review) outputs available
+      - Step 3 key questions defined
+    outputs_by_stage:
+      - "Adaptation: contextualised question guides per FGD/KII type (all 7 Tools 5A–5G)"
+      - "Validation: confirmed shared team understanding of question intent and language"
+      - "Protection review: documented referral protocols for sensitive topics"
+    feedback_loops:
+      - guide piloting (IMPL-004) feeds back into a final round of guide refinement
+    decision_points:
+      - always adapt question guides for every context — never use defaults as-is (RULE-008)
+      - if IDP context → legal protection questions may be less relevant; adjust accordingly (RULE-008)
+      - if refugee context → emphasize legal status and protection questions
+      - if GBV or child exploitation issues anticipated → add protection training component (RULE-004)
+    failure_points:
+      - using unmodified default guides in an IDP vs refugee context produces irrelevant or missed data
+      - insufficient validation with country staff results in questions misunderstood during fieldwork
+      - absent protection risk discussion leaves translators and data collectors unprepared for disclosures
+    knowledge_layer: operational
+    field_query_trigger: >
+      How do I adapt standardized KII and FGD question guides for a specific urban displacement
+      context before fieldwork, including what to remove, add, and validate?
+    multi_type_status: single-type
+    comparison_notes: >
+      4-step adaptation process is explicit; IDP vs refugee distinction in question prioritization
+      adds a decision dimension not found in generic qualitative assessment guidance.
+
+revision_check: |
+  Revision trigger check completed after all 7 IMPL objects.
+
+  Rules from C-W2 that modify IMPL scope — all already reflected in decision_points above:
+  - RULE-003 modifies IMPL-001 (team) and IMPL-003 (joint analysis): partner restriction when conflict/protection dynamics
+  - RULE-007 modifies IMPL-004 (training) and IMPL-007 (guide adaptation): desk review must precede both
+  - RULE-008 modifies IMPL-007 (guide adaptation): always adapt; context-conditional modifications
+  - RULE-010 modifies IMPL-003 (joint analysis): participatory workshop when partnering or limited local knowledge
+  - RULE-012 modifies IMPL-006 (communication): internal-only if sensitive findings
+  - RULE-013 modifies IMPL-001 (team): recruit facilitators from same groups as participants
+  - RULE-002 referenced in IMPL-006 (communication): reassess findings before use if >6-9 months old
+
+  No IMPL objects required structural updates — all RULE cross-references were anticipated and included.
+  No revisions required.

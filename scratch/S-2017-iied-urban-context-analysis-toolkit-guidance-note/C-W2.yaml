@@ -1,0 +1,259 @@
+worker: C-W2
+task: Decision Rules
+source_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note
+objects_extracted: 13
+new_ids_added_to_registry: 1  # RULE-013
+
+decision_rules:
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-001
+    object_name: "Separate FGDs by gender and age with same-sex facilitators"
+    source_location: "p. 25, Step 5 'Planning for FGDs'"
+    source_fidelity_note: named
+    condition: "When planning FGDs in urban humanitarian context analysis, particularly when adolescents are included or when gender/protection sensitivities are present"
+    recommendation: "Plan separate FGDs for men and women / adolescent boys and girls; assign same-sex facilitators to each group"
+    exception: "Gender-separated logistics may be impossible in severely resource-constrained or security-limited contexts — document as a limitation if waived"
+    rationale: "Adolescents in particular may be less likely to speak in a mixed-gender group (source, p. 25); gender-separated groups are essential for capturing women's and girls' experience of barriers to service access"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-004
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+    limitations: "Rule is stated for adolescents but may need broader application in contexts with strong gender or social stratification norms; facilitator availability by gender may be constrained"
+    knowledge_layer: decision
+    field_query_trigger: "How should focus groups be structured to ensure adolescents and women share openly during urban displacement data collection?"
+    multi_type_status: single-type — primary as decision rule; operational dimension captured in IMPL objects
+    comparison_notes: "Consistent with standard humanitarian qualitative research practice; source makes this a stated planning requirement rather than optional"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-002
+    object_name: "Reassess context analysis after 6–9 months or significant context change"
+    source_location: "p. 33, 'When to update your context analysis'"
+    source_fidelity_note: named
+    condition: "When any of the following conditions are true: (a) findings are more than 6–9 months old before use for programming assumptions; (b) significant change in the crisis has occurred (policy change, major incident, crisis resolved); (c) new data collection is planned; (d) new proposal requiring more in-depth context information is being developed"
+    recommendation: "Revise or redo the context analysis; partial update is acceptable when changes are limited to specific themes or sub-themes only"
+    exception: "Not required if crisis situation is stable and findings have been validated through ongoing programming experience within the 6–9 month window"
+    rationale: "Urban crisis contexts are dynamic — new governments, new policies, shifting displacement patterns mean context analysis information may become misleading if used beyond its shelf-life (source, p. 33)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-010
+    limitations: "Threshold of 6–9 months is a heuristic, not an evidence-based figure; highly volatile contexts may require more frequent updates; partial update guidance is practical but lacks criteria for determining which themes to prioritize"
+    knowledge_layer: decision
+    field_query_trigger: "How do we determine whether our existing urban context analysis findings are still valid for programme design decisions?"
+    multi_type_status: single-type
+    comparison_notes: "Source presents this as a guidance rule rather than a mandatory requirement; the 6–9 month threshold should be treated as a default minimum rather than an absolute"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-003
+    object_name: "Restrict or exclude new local partners when significant conflict or protection dynamics present"
+    source_location: "p. 14, 'Joint analysis and partnerships'"
+    source_fidelity_note: named
+    condition: "When an implementing organisation is considering including new local or international partners in context analysis execution, and a significant conflict or protection dynamic is active in the urban crisis"
+    recommendation: "Exercise caution about taking on new partners; assess three factors before including: (1) protection concerns for partner staff in data collection; (2) risks of bias from partner that cannot be mitigated through team composition; (3) risks to participants from public sharing of findings"
+    exception: "Partners with established conflict-sensitivity protocols, strong data protection practices, and pre-existing trusted relationships in the community may be included with documented safeguards"
+    rationale: "In conflict or protection-sensitive urban contexts, partner involvement may introduce data bias, expose participants to harm, or compromise confidentiality of sensitive findings; benefits of diverse perspectives must be weighed against these risks (source, p. 14)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-003
+    limitations: "Rule is phrased as 'be careful' rather than a hard prohibition; requires contextual judgment to assess severity of conflict/protection dynamics; no criteria provided for what constitutes 'significant'"
+    knowledge_layer: decision
+    field_query_trigger: "Should we include local partner organisations in urban context analysis data collection when there are active conflict or displacement protection concerns?"
+    multi_type_status: single-type
+    comparison_notes: "This rule applies specifically to context analysis partnerships, not to general programming partnerships; the source separately notes the many advantages of broader stakeholder involvement"
+    human_review_required: true
+    human_review_note: "Rule requires contextual judgment the source does not fully specify — 'significant conflict or protection dynamic' is not defined with criteria"
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-004
+    object_name: "Apply Do No Harm throughout all data collection and analysis activities"
+    source_location: "p. 17–18 (framework introduction), p. 25 (data collection planning), p. 33 (communication)"
+    source_fidelity_note: named
+    condition: "Throughout all stages of urban context analysis — questionnaire design, sampling, data collection, analysis, and findings communication"
+    recommendation: "Apply Do No Harm lens at each stage: tailor questionnaires to avoid exacerbating tensions; apply geographic and social sensitivity in sampling; ensure findings communication does not expose participants to harm; assess how programmes might inadvertently increase tensions or undermine existing local systems"
+    exception: "None stated — presented as a universal cross-cutting requirement"
+    rationale: "Urban crisis contexts involve complex social dynamics, displacement tensions, and power asymmetries; analysis activities that ignore these can themselves become sources of harm to participants or communities (source, pp. 17–18, 25)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-PRINCIPLE-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+    limitations: "Do No Harm is treated as a principle in the source rather than a rule with specific criteria — application requires judgment; source does not provide a formal Do No Harm checklist beyond the thematic framework questions"
+    knowledge_layer: decision
+    field_query_trigger: "How do we ensure our urban data collection activities do not increase community tensions or create protection risks for participants?"
+    multi_type_status: multi-type — primary as RULE (decision); also PRINCIPLE (PRINCIPLE-001 is the parent principle object)
+    comparison_notes: "Closely related to RULE-005 (participant data protection) and RULE-012 (sensitive findings handling) which are operationalizations of the same Do No Harm principle"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-005
+    object_name: "Protect participant data — anonymize, limit access, destroy raw notes after analysis"
+    source_location: "p. 28, 'Protection considerations and data collection'"
+    source_fidelity_note: named
+    condition: "After primary data collection is complete and debrief notes have been produced from FGDs and KIIs"
+    recommendation: "Store interview notes securely with access limited to few persons; destroy raw notes after analysis is complete unless retention is required; if retaining, transcribe and anonymize carefully; ensure notes never include identifiable information (names, specific locations)"
+    exception: "If organisation wishes to maintain notes: build in budget time for careful transcription and anonymization before retention"
+    rationale: "Notes containing references to individuals or identifiable context information pose risks to study participants even without explicit names; urban displaced populations are especially vulnerable to identity exposure (source, p. 28)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-006
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+    limitations: "Source references ICRC (2013, Chapter 6) and Responsible Data Forum for further guidance but does not elaborate specific technical standards within this document"
+    knowledge_layer: decision
+    field_query_trigger: "What data protection protocols should govern our interview notes and FGD records during urban context analysis to protect participants?"
+    multi_type_status: single-type
+    comparison_notes: "Operationalizes RULE-004 (Do No Harm) in the specific context of data handling; applies to both FGD and KII notes; consistent with humanitarian data protection standards (ICRC, 2013)"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-006
+    object_name: "Triangulate findings from multiple sources before concluding analysis"
+    source_location: "p. 30, Tip box 'Triangulate information'"
+    source_fidelity_note: named
+    condition: "During Step 7 data analysis and interpretation of context analysis findings"
+    recommendation: "Triangulate information from multiple sources and perspectives; ensure team members and key stakeholders have opportunity to challenge findings before they are treated as conclusions; a single-informant or single-team perspective may not be representative"
+    exception: "Not explicitly stated; implicit that triangulation should be proportionate to resources available"
+    rationale: "Qualitative data collected by one interviewer or team may reflect only one perspective of the context; triangulation across sources, methods (desk review + KII + FGD), and team perspectives reduces this risk (source, p. 30)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-006
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-007
+    limitations: "Source presents triangulation as a tip rather than a mandatory protocol; no formal triangulation criteria or thresholds are specified"
+    knowledge_layer: decision
+    field_query_trigger: "How do we validate qualitative findings from key informant interviews and focus groups before finalising our urban context analysis?"
+    multi_type_status: single-type
+    comparison_notes: "Standard qualitative research practice; source reinforces it in context of urban complexity and potential representativeness challenges with specific population groups"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-007
+    object_name: "Complete desk review 2–3 weeks before primary data collection"
+    source_location: "p. 20, Step 4 'Conduct desk review'"
+    source_fidelity_note: named
+    condition: "When planning the timeline for urban context analysis execution, prior to initiating primary data collection (KIIs and FGDs)"
+    recommendation: "Complete desk review 2–3 weeks before primary data collection begins; this allows sufficient time to revise the data collection plan (Step 5) based on gaps identified in secondary data"
+    exception: "In rapid response or emergency contexts, timeline may need to be compressed; desk review should still precede primary data collection even if abbreviated"
+    rationale: "A thorough desk review reveals existing knowledge and gaps, identifies entry points, and enables efficient targeted primary data collection — without it, KIIs and FGDs risk covering ground already documented (source, p. 20)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-004
+    limitations: "2–3 week timeline is a heuristic based on 14-day pilot design; actual time needed varies by context complexity and availability of secondary data"
+    knowledge_layer: decision
+    field_query_trigger: "When in the urban context analysis timeline should we complete the desk review relative to starting field data collection?"
+    multi_type_status: single-type
+    comparison_notes: "This timing rule is embedded as a sequencing dependency in METHOD-001 (3-phase process); it becomes a standalone decision rule because violation of it undermines data collection quality"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-008
+    object_name: "Adapt question guides to each context — never use default templates without adaptation"
+    source_location: "p. 25–26, Step 5 'Adapt and contextualise data collection tools'; p. 17, Step 3 question guide adaptation"
+    source_fidelity_note: named
+    condition: "When preparing KII and FGD question guides for any new urban context analysis"
+    recommendation: "Always review and adapt question guides for every context: (1) eliminate irrelevant questions or those with sufficient desk review data; (2) add context-specific questions; (3) validate with country staff; (4) brief team on protection risks around sensitive questions (GBV, child exploitation); note that questions on legal protection may be less relevant for IDP contexts vs refugee contexts"
+    exception: "None — source states 'always' and 'just as no context is the same, no context analysis will be the same' (p. 25)"
+    rationale: "Urban crises are uniquely complex and context-specific; using un-adapted generic question guides risks collecting irrelevant data, missing critical local dynamics, and failing to reflect the specific type of crisis and displacement population (source, pp. 17, 25–26)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-005
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+    limitations: "The rule is well-stated but adaptation criteria are provided as examples rather than exhaustive criteria; teams with limited experience may find it difficult to judge which questions to remove or add"
+    knowledge_layer: decision
+    field_query_trigger: "How should we modify the standard question guides for our specific urban displacement context before starting data collection?"
+    multi_type_status: single-type
+    comparison_notes: "Applies to all 7 Tools 5A–5G; source reinforces by noting the framework connects to specific questionnaire modules to guide prioritization during adaptation"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-009
+    object_name: "Use dedicated gender analysis tool when gender equality is the sole analytical interest"
+    source_location: "p. 17, footnote 5 (Step 3)"
+    source_fidelity_note: named
+    condition: "When the implementing organisation's analytical interest is limited to gender equality as the primary or sole thematic focus"
+    recommendation: "Conduct an in-depth gender analysis instead of the urban context analysis toolkit (e.g. IRC Gender Analysis and Program Design Toolkit); the urban context analysis toolkit's gender lens is cross-cutting, not a substitute for dedicated gender analysis"
+    exception: "When gender equality is one of multiple analytical interests — in that case, the toolkit's gender cross-cutting theme is the appropriate mechanism"
+    rationale: "Gender equality is integrated as a cross-cutting analytical lens throughout the toolkit, not as a standalone analytical module; a team seeking dedicated gender analysis depth will not get adequate coverage from the toolkit alone (source, p. 17, fn. 5)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-PRINCIPLE-002
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-FRAMEWORK-001
+    limitations: "Source provides one example tool (IRC Gender Analysis Toolkit) but does not survey the full range of available gender analysis instruments; rule does not address hybrid approaches"
+    knowledge_layer: decision
+    field_query_trigger: "Should we use this urban context analysis toolkit if our primary objective is a dedicated gender equality analysis?"
+    multi_type_status: single-type
+    comparison_notes: "Scoping rule for the toolkit itself rather than an operational field rule; important for programme design decisions about which assessment tools to deploy"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-010
+    object_name: "Conduct participatory planning workshop when in partnership or staff have limited local knowledge"
+    source_location: "p. 25, Step 5 'Participatory data collection planning workshop'"
+    source_fidelity_note: named
+    condition: "When analysis is being conducted in formal partnership with another organisation, OR when analysis team staff have limited knowledge of local communities in the target areas"
+    recommendation: "Conduct an optional participatory data collection planning workshop (half-day to one-day) with local stakeholders (local NGOs, local government, academics, community leaders) to finalize data collection planning in targeted sub-areas; use Optional Tool: City overview workshop"
+    exception: "Not required when team has strong existing local knowledge and is not operating in formal partnership; decision is resource-dependent"
+    rationale: "Partnership contexts and knowledge gaps increase the risk of misaligned data collection focus; a participatory planning workshop with locally-knowledgeable actors can significantly improve area selection and question prioritization before fieldwork (source, p. 25)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-004
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-006
+    limitations: "Framed as 'optional' and 'if resources permit'; does not specify minimum local knowledge threshold that would trigger the rule; time and budget intensive"
+    knowledge_layer: decision
+    field_query_trigger: "Should we run a stakeholder planning workshop before urban data collection when working with local partner organisations or unfamiliar areas?"
+    multi_type_status: single-type
+    comparison_notes: "Distinct from the validation workshop (Step 8 / METHOD-006) which occurs post-data-collection; this rule governs pre-data-collection planning; overlaps with RULE-003 (partner inclusion criteria) when partnership is the trigger"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-011
+    object_name: "Designate women-only working groups in validation workshop when women face obstacles to mixed participation"
+    source_location: "p. 32, Step 8 'Validation workshop — Gender considerations'"
+    source_fidelity_note: named
+    condition: "During urban context analysis validation workshop, when women face obstacles to participating in mixed group discussions in the specific cultural or social context"
+    recommendation: "Designate some working groups as women-only; ensure documented products from women-only groups are included in facilitator synthesis; ensure gender diversity of participants through targeted invitations rather than blanket organizational invitations"
+    exception: "Not required in contexts where women can participate fully and equally in mixed group settings"
+    rationale: "Gender diversity in validation workshops is essential for ensuring findings reflect women's perspectives; blanket invitations risk organizations sending male 'representatives'; women-only groups with documented outputs ensure their contributions reach the analytical record (source, p. 32)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-009
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-006
+    limitations: "Rule is presented as 'consider designating' rather than mandatory; determination of when women face sufficient obstacles is left to context assessment"
+    knowledge_layer: decision
+    field_query_trigger: "How should we structure validation workshop groups to ensure women's perspectives are captured in contexts where mixed-gender participation is constrained?"
+    multi_type_status: single-type
+    comparison_notes: "Extends RULE-001 (gender-separated FGDs) to the post-data-collection analysis and validation stage; source treats this as gender equality safeguard in the analytical process, not only data collection"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-012
+    object_name: "Produce internal-only context analysis report when findings contain sensitive or confidential information"
+    source_location: "p. 33, Step 9 'Write final report'"
+    source_fidelity_note: named
+    condition: "When context analysis findings contain sensitive contextual information (eg political dynamics, identity of vulnerable groups) or commercially confidential information; and before beginning the write-up process"
+    recommendation: "Produce an internal-only report by default (Tool 10 assumes internal production); clarify before writing whether external summary reports or presentations are also required; review with internal stakeholders before considering final; when sharing externally, anonymize all sources and respect informed consent commitments"
+    exception: "If analysis did not involve sensitive political, protection, or identity issues, an external summary may be produced alongside the internal report (see Maiduguri external brief case, p. 33)"
+    rationale: "Context analysis typically covers sensitive governance, political economy, and protection dynamics that could compromise participants or expose communities to risk if externally distributed without careful preparation (source, p. 33, 47)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-TOOL-010
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-006
+    limitations: "Source does not define 'sensitive' or 'confidential' with specific criteria; judgment about what requires internal-only treatment is left to the implementing organisation; rule applies to report format, not findings content"
+    knowledge_layer: decision
+    field_query_trigger: "What should govern decisions about whether to produce internal-only versus externally shareable reports from urban context analysis?"
+    multi_type_status: single-type
+    comparison_notes: "Operationalizes RULE-005 (participant data protection) at the report production stage; Maiduguri case lesson (LESSON-003) illustrates the external brief as an acceptable complement to the internal report"
+    human_review_required: false
+
+  - object_id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-RULE-013
+    object_name: "Recruit facilitators and interviewers from the same social groups as target participants"
+    source_location: "p. 13, Step 1 'Team composition'"
+    source_fidelity_note: named
+    condition: "When composing the data collection team for urban context analysis involving specific displaced or minority population groups (eg refugees, ethnic minorities)"
+    recommendation: "Recruit interviewers and facilitators who are from the same country, city, or social group as the participants (eg same refugee community, same ethnic minority, same gender); where translation is necessary, use counterparts trained in question nuances rather than generic translators; avoid relying solely on direct translation"
+    exception: "Where same-group recruitment is not possible, document the gap and take mitigating steps (eg briefing and training on community dynamics, paired interviewing)"
+    rationale: "Interviewers/facilitators from the same groups as participants build trust, reduce communication barriers, navigate cultural nuances, and improve data quality; direct translation is time-consuming and misses nuance (source, p. 13)"
+    confidence: high
+    related_tools:
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-IMPL-001
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-003
+      - S-2017-iied-urban-context-analysis-toolkit-guidance-note-METHOD-004
+    limitations: "Achieving same-group composition is not always feasible across all participant groups in complex multi-group urban displacement contexts; rule is stated for ideal conditions but may be aspirational in severely resource-limited settings"
+    knowledge_layer: decision
+    field_query_trigger: "How should we compose the data collection team to ensure trust and effective communication with displaced populations in urban context analysis?"
+    multi_type_status: single-type
+    comparison_notes: "Stated as 'essential' in source — strongest normative language used for any team composition guidance; ties to RULE-001 (gender-separated FGDs with same-sex facilitators) at more specific level"
+    human_review_required: false
+
+revision_check: "No RULE objects contradict or narrow each other's scope. RULE-004 (Do No Harm) and RULE-005 (data protection) are complementary operationalizations at different stages. RULE-001 (gender-separated FGDs) and RULE-011 (women-only workshop groups) are complementary across different phases. RULE-003 (partner restriction) and RULE-010 (partnership-triggered workshop) apply to the same trigger condition (partnership presence) but recommend different actions at different stages — not contradictory. No revisions required."
