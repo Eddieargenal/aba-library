@@ -12,6 +12,8 @@ tags: [runbook, librarian, wiki, aba, drr, playbook]
 
 # ABA/DRR Wiki Librarian — Playbook
 
+> **Source of truth:** operational sequences here derive from `governance/workflows/`. For ingest specifically, `governance/workflows/ingest.md` is authoritative — if steps disagree, the workflow wins.
+
 Quick reference for running any wiki operation. For full procedure details, see `SKILL.md`.
 Invoke with `/librarian [operation] [optional-context]` in a Claude Code session.
 

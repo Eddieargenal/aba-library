@@ -9,6 +9,8 @@ updated: 2026-05-12
 
 Use this workflow for extracting content from PDFs, images, spreadsheets, or other documents.
 
+> **Scope note:** end-to-end ingest is owned by `governance/workflows/ingest.md`; this file covers only the document-extraction mechanics that ingest steps 2–3 invoke.
+
 ## ABA Wiki Target Paths
 
 When extracting source PDFs for the ABA wiki:

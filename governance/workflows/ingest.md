@@ -8,6 +8,8 @@ updated: 2026-05-12
 
 Add a new source document to the ABA wiki and propagate updates through all required layers.
 
+> **Authoritative.** This file is the single source of truth for the ingest sequence. The quick-reference in `playbooks/ingest-source.md`, the librarian RUNBOOK, and agent prompts 07–09 derive from it — if steps disagree, this file wins.
+
 ## When to Use
 
 When a new source PDF (or equivalent canonical source document) must be integrated into the wiki.

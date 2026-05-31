@@ -1,5 +1,7 @@
 # Playbook: Ingest Source
 
+> **Source of truth:** `governance/workflows/ingest.md`. This is a derived quick-reference; if it disagrees with the workflow, the workflow wins.
+
 1. Add raw PDF to `wiki/aba/01-sources/raw/` — filename: `YYYY-org-author-short-title.pdf`
 2. Create raw-content mirror at `wiki/aba/01-sources/raw-content/{source_id}.raw-extract.md` — markdown text extraction of the PDF content
 3. Create extracted source page at `wiki/aba/01-sources/extracted/{source_id}.md` using `governance/templates/v26/extracted-source-template.md`

@@ -24,86 +24,21 @@ DEFAULT_RAW_CONTENT = Path("wiki/aba/01-sources/raw-content")
 
 # Field lists live in schema.py (single source of truth, shared with build-index.py).
 from schema import COPIED_FIELDS, OUTPUT_ORDER  # noqa: E402  (sibling module on sys.path)
+import frontmatter  # noqa: E402  (shared parse/serialize seam)
 
 
-def extract_frontmatter_block(text: str) -> str | None:
-    if not text.startswith("---\n"):
-        return None
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return None
-    return parts[1]
-
-
-def parse_scalar_frontmatter(frontmatter_block: str) -> Dict[str, str]:
-    """Parse top-level scalar key: value lines.
-
-    Keeps raw RHS string to preserve quoting/content from extracted files.
-    Ignores list/nested bodies.
-    """
-    out: Dict[str, str] = {}
-    for raw_line in frontmatter_block.splitlines():
-        line = raw_line.rstrip()
-        if not line or line.lstrip().startswith("#"):
-            continue
-        if line.startswith(" ") or line.startswith("\t"):
-            # Skip nested/list continuations.
-            continue
-        m = re.match(r"^([A-Za-z0-9_-]+):\s*(.*)$", line)
-        if not m:
-            continue
-        key, value = m.group(1), m.group(2)
-        out[key] = value
-    return out
-
-
-def remove_existing_frontmatter(text: str) -> str:
-    if not text.startswith("---\n"):
-        return text
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return text
-    body = parts[2]
-    return body.lstrip("\n")
-
-
-def raw_value_for_yaml(v: str) -> str:
-    """Return value as YAML-safe scalar preserving extracted literal when possible."""
-    vv = v.strip()
-    if vv == "":
-        return '""'
-    # Preserve already-quoted values.
-    if (vv.startswith('"') and vv.endswith('"')) or (vv.startswith("'") and vv.endswith("'")):
-        return vv
-    # Preserve plain numbers / booleans.
-    if re.fullmatch(r"-?\d+", vv):
-        return vv
-    if vv in {"true", "false", "null", "[]", "{}"}:
-        return vv
-    # Quote everything else for safety.
-    escaped = vv.replace('"', '\\"')
-    return f'"{escaped}"'
-
-
-def build_frontmatter(src: Dict[str, str]) -> Tuple[str, List[str]]:
-    missing: List[str] = []
-    merged: Dict[str, str] = {
-        "type": "source_raw_extract",
-        "zone": "raw-content",
-    }
-
-    for key in COPIED_FIELDS:
-        if key in src:
-            merged[key] = src[key]
-        else:
-            missing.append(key)
-
-    lines = ["---"]
+def build_frontmatter(src: Dict) -> Tuple[Dict, List[str]]:
+    """Build the raw-content frontmatter dict (OUTPUT_ORDER) from a parsed
+    extracted-source frontmatter dict. Returns (ordered_fm, missing_copied_fields)."""
+    base = {"type": "source_raw_extract", "zone": "raw-content"}
+    ordered: Dict = {}
     for key in OUTPUT_ORDER:
-        if key in merged:
-            lines.append(f"{key}: {raw_value_for_yaml(merged[key])}")
-    lines.append("---")
-    return "\n".join(lines) + "\n\n", missing
+        if key in base:
+            ordered[key] = base[key]
+        elif key in src and src[key] not in (None, ""):
+            ordered[key] = src[key]
+    missing = [k for k in COPIED_FIELDS if k not in src or src[k] in (None, "")]
+    return ordered, missing
 
 
 def resolve_target_from_canonical(canonical_file_value: str, raw_content_dir: Path) -> Path | None:
@@ -162,12 +97,11 @@ def main() -> int:
 
     for src_path in extracted_files:
         text = src_path.read_text(encoding="utf-8", errors="ignore")
-        fm_block = extract_frontmatter_block(text)
-        if fm_block is None:
+        src_fm, _ = frontmatter.parse(text)
+        if not src_fm:
             missing_canonical.append(f"{src_path.name} (no frontmatter)")
             continue
 
-        src_fm = parse_scalar_frontmatter(fm_block)
         canonical_value = src_fm.get("canonical_file")
         if not canonical_value:
             missing_canonical.append(f"{src_path.name} (missing canonical_file)")
@@ -193,13 +127,13 @@ def main() -> int:
                 continue
 
         matched += 1
-        new_frontmatter, missing_fields = build_frontmatter(src_fm)
+        new_fm, missing_fields = build_frontmatter(src_fm)
         if missing_fields:
             missing_fields_report.append((src_path.name, missing_fields))
 
         target_text = target.read_text(encoding="utf-8", errors="ignore")
-        target_body = remove_existing_frontmatter(target_text)
-        new_text = new_frontmatter + target_body
+        _, target_body = frontmatter.parse(target_text)
+        new_text = frontmatter.render(new_fm, target_body)
 
         if args.apply and new_text != target_text:
             target.write_text(new_text, encoding="utf-8")

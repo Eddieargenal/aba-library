@@ -38,6 +38,7 @@ CURRENT_DIR = INDEXES_DIR / "current"
 # lint_rules.py (an internal seam: each rule is independently unit-testable).
 from schema import REL_FIELDS, TERMINAL_FINDING_STATUS  # noqa: E402  (sibling module on sys.path)
 from lint_rules import RuleCtx, run_rules  # noqa: E402
+from frontmatter import parse_yaml  # noqa: E402  (shared parser; one parser system-wide)
 
 
 @dataclass
@@ -72,34 +73,6 @@ def scan_pages() -> List[Page]:
         body = text[m.end() :]
         pages.append(Page(path=path, rel_path=rel, frontmatter=fm, body=body))
     return pages
-
-
-def parse_yaml(text: str) -> Dict[str, Any]:
-    """
-    Parse YAML frontmatter without Python third-party dependencies.
-    Uses Ruby stdlib YAML + JSON bridge available by default on macOS.
-    """
-    cmd = [
-        "ruby",
-        "-rdate",
-        "-ryaml",
-        "-rjson",
-        "-e",
-        "obj = YAML.safe_load(STDIN.read, permitted_classes: [Date, Time], aliases: true); puts(JSON.generate(obj || {}))",
-    ]
-    proc = subprocess.run(
-        cmd,
-        input=text,
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-    if proc.returncode != 0:
-        raise ValueError(proc.stderr.strip() or "YAML parse failed")
-    parsed = json.loads(proc.stdout or "{}")
-    if not isinstance(parsed, dict):
-        return {}
-    return parsed
 
 
 def normalize_source_id(source_id: str) -> str:
