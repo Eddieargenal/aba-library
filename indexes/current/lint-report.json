@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-05-31T151719Z",
+  "build_id": "2026-05-31T214206Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -13,10 +13,6 @@
     {
       "path": "00-overview/scaffold-map-v27.md",
       "warning": "orphan_page:OVR-scaffold-map-v27"
-    },
-    {
-      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
-      "warning": "orphan_page:S-2009-twigg-ucl-disaster-resilient-community"
     },
     {
       "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community_skill.md",
@@ -105,6 +101,38 @@
     {
       "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md",
       "warning": "orphan_page:S-2026-iasc-standard-terms-reference-area-based-coordination-tor"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "orphan_page:C-resilience"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:C-disaster-risk-reduction"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:C-community"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:C-enabling-environment"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:F-community-resilience-characteristics"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:R-consensus-assumption"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:R-checklist-misuse"
+    },
+    {
+      "path": "02-concepts/resilience.md",
+      "warning": "ghost_node:KTN-resilience-consensus"
     }
   ]
 }

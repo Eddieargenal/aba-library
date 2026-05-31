@@ -1,7 +1,7 @@
 {
-  "build_id": "2026-05-31T151719Z",
+  "build_id": "2026-05-31T214206Z",
   "pending_finding_count": 119,
-  "unrouted_finding_count": 119,
+  "unrouted_finding_count": 117,
   "pending_findings": [
     {
       "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
@@ -12,9 +12,7 @@
       "candidate_target_pages": [
         "wiki/aba/02-concepts/resilience.md"
       ],
-      "missing_target_pages": [
-        "wiki/aba/02-concepts/resilience.md"
-      ]
+      "missing_target_pages": []
     },
     {
       "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
@@ -207,9 +205,7 @@
       "candidate_target_pages": [
         "wiki/aba/02-concepts/resilience.md"
       ],
-      "missing_target_pages": [
-        "wiki/aba/02-concepts/resilience.md"
-      ]
+      "missing_target_pages": []
     },
     {
       "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",

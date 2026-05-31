@@ -91,3 +91,6 @@
 {"page_id": "S-2026-iasc-standard-terms-reference-area-based-coordination-tor", "section_id": "summary", "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md", "start_line": 2, "end_line": 102}
 {"page_id": "S-2026-iasc-standard-terms-reference-area-based-coordination-tor", "section_id": "findings", "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md", "start_line": 103, "end_line": 105}
 {"page_id": "S-2026-iasc-standard-terms-reference-area-based-coordination-tor", "section_id": "integration-map", "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md", "start_line": 106, "end_line": 110}
+{"page_id": "C-resilience", "section_id": "definition", "path": "02-concepts/resilience.md", "start_line": 2, "end_line": 10}
+{"page_id": "C-resilience", "section_id": "field-use", "path": "02-concepts/resilience.md", "start_line": 11, "end_line": 18}
+{"page_id": "C-resilience", "section_id": "risks", "path": "02-concepts/resilience.md", "start_line": 19, "end_line": 28}
