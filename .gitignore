@@ -1,2 +1,5 @@
 .DS_Store
 **/.DS_Store
+
+# Per-build index snapshots are ephemeral; only indexes/current/ is canonical
+indexes/builds/

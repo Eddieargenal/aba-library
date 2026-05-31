@@ -1,9 +1,19 @@
 #!/usr/bin/env python3
 """
-build-index.py — v2.6 index compiler
+build-index.py — v2.7 index compiler
 
 Compiles markdown/frontmatter into deterministic JSONL indexes.
 Publishes atomically to indexes/current only when critical lint errors are zero.
+
+v2.7 enforcement additions:
+  - source_basis required on `retrieval_status: usable` technical pages (critical)
+  - retrieval_status validated against controlled vocabulary (critical)
+  - lifecycle_stage validated against controlled vocabulary (warning)
+  - id prefix must match page type (warning)
+  - related_risks required on usable tool pages (warning)
+  - excessive primary_topics breadth (warning)
+  - deprecated page still linked by an active playbook/protocol (warning)
+  - routing-report.json: open findings + unrouted candidate target pages
 """
 
 import argparse
@@ -54,6 +64,44 @@ LIFECYCLE_REQUIRED_TYPES = {
     "decision-protocol",
     "output-template",
 }
+
+# Controlled vocabularies (frontmatter-schema.md v2.7)
+RETRIEVAL_STATUS_VOCAB = {"usable", "limited", "deprecated", "draft"}
+LIFECYCLE_VOCAB = {
+    "appropriateness-decision",
+    "area-selection",
+    "neighbourhood-diagnosis",
+    "joint-prioritization",
+    "coordination-design",
+    "integrated-area-strategy",
+    "implementation-adaptation",
+    "monitoring-learning",
+    "transition-handover",
+}
+
+# Technical pages must rest on evidence: usable ones require source_basis.
+TECHNICAL_TYPES = {"concept", "framework", "tool", "field-instrument", "risk", "decision-protocol"}
+
+# id prefix must match page type (frontmatter-schema.md "Stable ID Prefixes")
+ID_PREFIX_BY_TYPE = {
+    "source": "S-",
+    "concept": "C-",
+    "framework": "F-",
+    "tool": "T-",
+    "field-instrument": "I-",
+    "risk": "R-",
+    "known-tension": "KTN-",
+    "advisory-playbook": "P-",
+    "decision-protocol": "D-",
+    "output-template": "O-",
+    "slice-spec": "SS-",
+    "overview": "OVR-",
+}
+
+MAX_PRIMARY_TOPICS = 6
+
+# Finding statuses that count as fully routed/closed (everything else is "open")
+TERMINAL_FINDING_STATUS = {"integrated", "done", "complete", "resolved", "source_only"}
 
 
 @dataclass
@@ -210,6 +258,7 @@ def main() -> int:
     section_rows: List[Dict[str, Any]] = []
     evidence_rows: List[Dict[str, Any]] = []
     raw_edges: List[Dict[str, Any]] = []
+    routing_pending: List[Dict[str, Any]] = []
 
     id_to_page: Dict[str, Page] = {}
     duplicate_ids = set()
@@ -250,6 +299,40 @@ def main() -> int:
         ptype = str(fm.get("type", "")).strip()
         if ptype in LIFECYCLE_REQUIRED_TYPES and not fm.get("lifecycle_stage"):
             critical.append({"path": page.rel_path, "error": "missing_lifecycle_stage"})
+
+        # retrieval_status controlled vocabulary (critical: it gates runtime usability)
+        rs = fm.get("retrieval_status")
+        rs_val = str(rs).strip() if rs is not None else ""
+        if rs_val and rs_val not in RETRIEVAL_STATUS_VOCAB:
+            critical.append({"path": page.rel_path, "error": f"invalid_retrieval_status:{rs_val}"})
+
+        # source_basis required on usable technical pages (evidence-grounding rule)
+        if ptype in TECHNICAL_TYPES and rs_val == "usable" and not fm.get("source_basis"):
+            critical.append({"path": page.rel_path, "error": "missing_source_basis_usable"})
+
+        # lifecycle_stage controlled vocabulary (warning)
+        ls_val = fm.get("lifecycle_stage") or []
+        if isinstance(ls_val, list):
+            for v in ls_val:
+                vv = str(v).strip()
+                if vv and vv not in LIFECYCLE_VOCAB:
+                    warnings.append({"path": page.rel_path, "warning": f"invalid_lifecycle_stage:{vv}"})
+
+        # id prefix must match page type (warning)
+        expected_prefix = ID_PREFIX_BY_TYPE.get(ptype)
+        if page_id and expected_prefix and not str(page_id).startswith(expected_prefix):
+            warnings.append(
+                {"path": page.rel_path, "warning": f"id_prefix_mismatch:{page_id}:expected:{expected_prefix}"}
+            )
+
+        # usable tool pages should declare related risks (warning)
+        if ptype == "tool" and rs_val == "usable" and not fm.get("related_risks"):
+            warnings.append({"path": page.rel_path, "warning": "tool_missing_related_risks"})
+
+        # excessive primary_topics breadth (warning)
+        pt_val = fm.get("primary_topics") or []
+        if isinstance(pt_val, list) and len(pt_val) > MAX_PRIMARY_TOPICS:
+            warnings.append({"path": page.rel_path, "warning": f"excessive_primary_topics:{len(pt_val)}"})
 
         if page_id:
             if page_id in id_to_page:
@@ -300,6 +383,7 @@ def main() -> int:
             for finding in fm.get("findings", []) or []:
                 if not isinstance(finding, dict):
                     continue
+                candidate_targets = finding.get("candidate_target_pages", []) or []
                 evidence_rows.append(
                     {
                         "source_id": page_id,
@@ -309,13 +393,33 @@ def main() -> int:
                         "knowledge_layer": finding.get("knowledge_layer"),
                         "lifecycle_stage": finding.get("lifecycle_stage"),
                         "source_pages": finding.get("source_pages", []),
-                        "candidate_target_pages": finding.get("candidate_target_pages", []),
+                        "candidate_target_pages": candidate_targets,
                         "integration_action": finding.get("integration_action"),
                         "field_query_trigger": finding.get("field_query_trigger"),
                         "status": finding.get("status"),
                         "human_review_required": finding.get("human_review_required"),
                     }
                 )
+
+                # Routing queue: a finding is "open" until its status is terminal AND all
+                # of its candidate target pages exist on disk. Surfaces the source->synthesis
+                # handoff that the graph alone cannot signal.
+                status_val = str(finding.get("status", "")).strip().lower()
+                missing_targets = [
+                    p for p in candidate_targets if isinstance(p, str) and not (VAULT / p).exists()
+                ]
+                if status_val not in TERMINAL_FINDING_STATUS or missing_targets:
+                    routing_pending.append(
+                        {
+                            "source_id": page_id,
+                            "finding_id": finding.get("finding_id"),
+                            "status": finding.get("status"),
+                            "integration_action": finding.get("integration_action"),
+                            "human_review_required": finding.get("human_review_required"),
+                            "candidate_target_pages": candidate_targets,
+                            "missing_target_pages": missing_targets,
+                        }
+                    )
 
         for field, relation in REL_FIELDS.items():
             targets = edge_targets(field, fm.get(field))
@@ -356,6 +460,24 @@ def main() -> int:
     for edge in unresolved_edges:
         warnings.append({"path": edge["source_file"], "warning": f"ghost_node:{edge['to']}"})
 
+    # Deprecated page still linked by an active playbook/protocol (warning)
+    deprecated_ids = {
+        pid
+        for pid, pg in id_to_page.items()
+        if str(pg.frontmatter.get("retrieval_status", "")).strip() == "deprecated"
+    }
+    active_linker_types = {"advisory-playbook", "decision-protocol"}
+    for edge in valid_edges:
+        if edge["to"] in deprecated_ids:
+            from_pg = id_to_page.get(edge["from"])
+            if from_pg:
+                ftype = str(from_pg.frontmatter.get("type", "")).strip()
+                fstatus = str(from_pg.frontmatter.get("retrieval_status", "")).strip()
+                if ftype in active_linker_types and fstatus != "deprecated":
+                    warnings.append(
+                        {"path": from_pg.rel_path, "warning": f"deprecated_target_linked:{edge['to']}"}
+                    )
+
     # Resolve cited_sources in_wiki after full id_to_page scan
     for row in page_rows:
         if row.get("type") == "source":
@@ -390,6 +512,7 @@ def main() -> int:
         "page_count": len(page_rows),
         "edge_count": len(valid_edges),
         "unresolved_edge_count": len(unresolved_edges),
+        "pending_finding_count": len(routing_pending),
         "critical_error_count": len(critical),
         "warning_count": len(warnings),
         "active": False,
@@ -401,6 +524,13 @@ def main() -> int:
         "warnings": warnings,
     }
 
+    routing_report = {
+        "build_id": build_id,
+        "pending_finding_count": len(routing_pending),
+        "unrouted_finding_count": sum(1 for r in routing_pending if r["missing_target_pages"]),
+        "pending_findings": routing_pending,
+    }
+
     write_json(build_dir / "manifest.json", manifest)
     write_jsonl(build_dir / "agent-index.jsonl", page_rows)
     write_jsonl(build_dir / "graph-edges.jsonl", valid_edges)
@@ -408,6 +538,7 @@ def main() -> int:
     write_jsonl(build_dir / "section-index.jsonl", section_rows)
     write_jsonl(build_dir / "source-evidence-index.jsonl", evidence_rows)
     write_json(build_dir / "lint-report.json", lint_report)
+    write_json(build_dir / "routing-report.json", routing_report)
 
     publish_allowed = len(critical) == 0 and (not args.strict or len(warnings) == 0)
     if publish_allowed:
@@ -421,6 +552,7 @@ def main() -> int:
             "section-index.jsonl",
             "source-evidence-index.jsonl",
             "lint-report.json",
+            "routing-report.json",
         ]:
             shutil.copy2(build_dir / name, temp_current / name)
 
@@ -438,6 +570,7 @@ def main() -> int:
         "published": publish_allowed,
         "critical_error_count": len(critical),
         "warning_count": len(warnings),
+        "pending_finding_count": len(routing_pending),
     }))
     return 0 if publish_allowed else 2
 

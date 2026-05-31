@@ -2,11 +2,25 @@
 type: schema-changelog
 status: active
 created: 2026-05-11
-updated: 2026-05-12
+updated: 2026-05-31
 ---
 # Schema Changelog
 
 All schema changes must be logged here before taking effect. No exceptions.
+
+## [2026-05-31] enforcement-hardening | v2.7 — build-index.py now enforces evidence-grounding, vocabularies, id prefixes; adds routing report
+
+### Changes
+- `scripts/build-index.py` upgraded to v2.7. New **critical** checks: `retrieval_status` validated against controlled vocabulary (`invalid_retrieval_status`); `source_basis` required on `retrieval_status: usable` technical pages (`missing_source_basis_usable`, technical = concept/framework/tool/field-instrument/risk/decision-protocol).
+- New **warning** checks: `lifecycle_stage` controlled-vocabulary validation (`invalid_lifecycle_stage`); id-prefix-matches-type (`id_prefix_mismatch`); usable tool missing `related_risks` (`tool_missing_related_risks`); `primary_topics` breadth > 6 (`excessive_primary_topics`); deprecated page linked by active playbook/protocol (`deprecated_target_linked`).
+- New artifact `indexes/current/routing-report.json` + `manifest.pending_finding_count`: surfaces source findings whose `status` is non-terminal or whose `candidate_target_pages` do not yet exist on disk. First build reports **119 open findings** across the 23 source pages — the re-routing backlog from the v2.6 clean rebuild.
+- `governance/schema/lint-rules.md` rewritten to v2.7. Reconciled the prior contradiction where a broken relationship target was listed as both a critical failure and a non-blocking ghost-node warning — it is now unambiguously a **high warning** (ghost node), consistent with the partial-repo runtime rule and the builder's behaviour.
+
+### Rationale
+Pre-v2.7 the builder enforced structure and IDs but not the evidence-grounding and vocabulary rules its own lint spec claimed, so a `usable` synthesis page with no evidence basis or a mistyped `retrieval_status` would publish silently. The routing report closes the system's biggest blind spot: a vault of pure source pages built cleanly while carrying a large invisible unrouted-findings backlog. No content was authored; these are tooling/spec changes only.
+
+### Known gap exposed
+`known_tensions`-when-discussed-in-body is still not auto-detected (requires body NLP heuristics); it remains a manual review item. Extension page types noted in the 2026-05-12 entry still lack formal type-specific schemas.
 
 ## [2026-05-12] lint-remediation | v2.6 — contradicts: [] added to 82 extension pages; lifecycle stage-0 rename
 

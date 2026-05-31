@@ -1,0 +1,1564 @@
+{
+  "build_id": "2026-05-31T124121Z",
+  "pending_finding_count": 119,
+  "unrouted_finding_count": 119,
+  "pending_findings": [
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-001",
+      "status": "pending",
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/resilience.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/resilience.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-002",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/resilience-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/resilience-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-003",
+      "status": "pending",
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/resilience-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/resilience-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-004",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/enabling-environment.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/enabling-environment.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-005",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-tasks/measure-resilience-progress.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-tasks/measure-resilience-progress.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-006",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-007",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-decision-rules/refine-indicators-from-characteristics.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-decision-rules/refine-indicators-from-characteristics.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-008",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-decision-rules/introduce-resilience-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-decision-rules/introduce-resilience-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-009",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-tasks/conduct-vca-with-characteristics.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-tasks/conduct-vca-with-characteristics.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-010",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-011",
+      "status": "pending",
+      "integration_action": "create-risk",
+      "human_review_required": true,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/resilience-conflict-gap.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/resilience-conflict-gap.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-012",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-decision-rules/post-disaster-resilience-priorities.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-decision-rules/post-disaster-resilience-priorities.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-013",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-tasks/assess-community-resilience-level.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-tasks/assess-community-resilience-level.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-014",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-decision-rules/prioritize-resilience-interventions.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-decision-rules/prioritize-resilience-interventions.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
+      "finding_id": "F-015",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-tasks/customize-resilience-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-tasks/customize-resilience-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-001",
+      "status": "pending",
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/resilience.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/resilience.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-002",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/community.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/community.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-003",
+      "status": "pending",
+      "integration_action": "create-framework",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-frameworks/disaster-resilient-community-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-frameworks/disaster-resilient-community-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-004",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/enabling-environment.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/enabling-environment.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-005",
+      "status": "pending",
+      "integration_action": "enrich-framework",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-frameworks/disaster-resilient-community-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-frameworks/disaster-resilient-community-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-006",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/resilience-milestones-model.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/resilience-milestones-model.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-007",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/characteristics-baseline-method.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/characteristics-baseline-method.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-008",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/vca-with-characteristics.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/vca-with-characteristics.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-009",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/prioritize-resilience-characteristics.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/prioritize-resilience-characteristics.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-010",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/turn-characteristic-into-indicator.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/turn-characteristic-into-indicator.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-011",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/refine-donor-indicators-with-characteristics.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/refine-donor-indicators-with-characteristics.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-012",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/introduce-characteristics-to-field-staff.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/introduce-characteristics-to-field-staff.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-013",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-014",
+      "status": "pending",
+      "integration_action": "create-risk",
+      "human_review_required": true,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/characteristics-inapplicability-conflict.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/characteristics-inapplicability-conflict.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-015",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/post-disaster-resilience-minimal-set.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/post-disaster-resilience-minimal-set.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-016",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-017",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/assess-community-resilience-status.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/assess-community-resilience-status.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-018",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/select-prioritize-resilience-characteristics.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/select-prioritize-resilience-characteristics.md"
+      ]
+    },
+    {
+      "source_id": "S-2009-twigg-ucl-disaster-resilient-community-v2",
+      "finding_id": "F-019",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/consortium-resilience-gap-mapping.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/consortium-resilience-gap-mapping.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-001",
+      "status": "pending",
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/neighbourhood-concept.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/neighbourhood-concept.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-002",
+      "status": "pending",
+      "integration_action": "create-framework",
+      "human_review_required": true,
+      "candidate_target_pages": [
+        "wiki/aba/03-frameworks/neighbourhood-definition-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-frameworks/neighbourhood-definition-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-003",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/local-public-realm.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/local-public-realm.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-004",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/neighbourhood-scales.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/neighbourhood-scales.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-005",
+      "status": "pending",
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/neighbourhood-boundaries.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/neighbourhood-boundaries.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-006",
+      "status": "pending",
+      "integration_action": "create-framework",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-frameworks/neighbourhood-attributes-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-frameworks/neighbourhood-attributes-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-007",
+      "status": "pending",
+      "integration_action": "enrich-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/neighbourhood-boundary-definition-tool.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/neighbourhood-boundary-definition-tool.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-008",
+      "status": "pending",
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/local-public-realm-mapping-tool.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/local-public-realm-mapping-tool.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-009",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/ecological-empowerment.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/ecological-empowerment.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-010",
+      "status": "pending",
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/neighbourliness.md",
+        "wiki/aba/05-field-instruments/social-cohesion-indicators.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/neighbourliness.md",
+        "wiki/aba/05-field-instruments/social-cohesion-indicators.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-011",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/neighbourhood-scale-selection.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/neighbourhood-scale-selection.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-012",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/neighbourhood-governance-selection.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/neighbourhood-governance-selection.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-013",
+      "status": "pending",
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/service-devolution-conditions.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/service-devolution-conditions.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-014",
+      "status": "pending",
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/neighbourhood-governance-capture.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/neighbourhood-governance-capture.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-015",
+      "status": "pending",
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/neighbourhood-governance-fragmentation.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/neighbourhood-governance-fragmentation.md"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-016",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-017",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-youngfoundation2010",
+      "finding_id": "F-018",
+      "status": "pending",
+      "integration_action": "source_only",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "source_only"
+      ],
+      "missing_target_pages": [
+        "source_only"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-framework",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-frameworks/urban-context-analysis-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-frameworks/urban-context-analysis-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/urban-displacement-crisis-typology.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/urban-displacement-crisis-typology.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/context-analysis-vs-needs-assessment.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/context-analysis-vs-needs-assessment.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/entry-point-identification.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/entry-point-identification.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/do-no-harm-principle.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/do-no-harm-principle.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/gender-equality-analytical-lens.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/gender-equality-analytical-lens.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/desk-review-method-urban-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/desk-review-method-urban-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/key-informant-interview-method.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/key-informant-interview-method.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/focus-group-discussion-method-urban.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/focus-group-discussion-method-urban.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/stakeholder-analysis-actor-mapping.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/stakeholder-analysis-actor-mapping.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/participatory-validation-workshop-method.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/participatory-validation-workshop-method.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-framework",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/03-frameworks/urban-context-analysis-framework.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/03-frameworks/urban-context-analysis-framework.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/snowball-referral-sampling-method.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/snowball-referral-sampling-method.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-1-workplan.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-1-workplan.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-2-desk-review-summary.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-2-desk-review-summary.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-3-stakeholder-matrix.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-3-stakeholder-matrix.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-4-data-collection-plan.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-4-data-collection-plan.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-field-instrument",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/05-field-instruments/iied-2017-urban-context-analysis-kii-fgd-guides.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/05-field-instruments/iied-2017-urban-context-analysis-kii-fgd-guides.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-6-debrief-template.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-6-debrief-template.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-7-key-findings.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-7-key-findings.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-8-programme-implications.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-8-programme-implications.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-9-validation-workshop.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-9-validation-workshop.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-10-final-report-outline.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-10-final-report-outline.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/fgd-gender-age-separation-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/fgd-gender-age-separation-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-reassessment-trigger.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-reassessment-trigger.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": true,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/partner-inclusion-in-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/partner-inclusion-in-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/do-no-harm-data-collection-checklist.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/do-no-harm-data-collection-checklist.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/participant-data-protection-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/participant-data-protection-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/qualitative-triangulation-requirement.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/qualitative-triangulation-requirement.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/desk-review-sequencing-rule.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/desk-review-sequencing-rule.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/question-guide-adaptation-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/question-guide-adaptation-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/assessment-tool-selection-gender-only.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/assessment-tool-selection-gender-only.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/participatory-planning-workshop-trigger.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/participatory-planning-workshop-trigger.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/fgd-gender-age-separation-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/fgd-gender-age-separation-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-report-sensitivity-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-report-sensitivity-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/team-composition-cultural-matching-rule.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/team-composition-cultural-matching-rule.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/partner-inclusion-in-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/partner-inclusion-in-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-6-debrief-template.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/iied-2017-urban-context-analysis-tool-6-debrief-template.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-field-instrument",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/05-field-instruments/iied-2017-urban-context-analysis-kii-fgd-guides.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/05-field-instruments/iied-2017-urban-context-analysis-kii-fgd-guides.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/sampling-bias-powerholder-dependence.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/sampling-bias-powerholder-dependence.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/data-collection-exposure-risk-displaced-populations.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/data-collection-exposure-risk-displaced-populations.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/partner-bias-joint-analysis-risk.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/partner-bias-joint-analysis-risk.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/context-analysis-staleness-risk.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/context-analysis-staleness-risk.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/data-collection-exposure-risk-displaced-populations.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/data-collection-exposure-risk-displaced-populations.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-report-sensitivity-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-report-sensitivity-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/sampling-bias-powerholder-dependence.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/sampling-bias-powerholder-dependence.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/participant-data-protection-protocol.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/participant-data-protection-protocol.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "enrich-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/team-composition-cultural-matching-rule.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/team-composition-cultural-matching-rule.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-risk",
+      "human_review_required": true,
+      "candidate_target_pages": [
+        "wiki/aba/07-known-tensions/sampling-representativeness-vs-structural-access-barriers.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/07-known-tensions/sampling-representativeness-vs-structural-access-barriers.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md",
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/urban-context-analysis.md",
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md",
+        "wiki/aba/02-concepts/entry-point-identification.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md",
+        "wiki/aba/02-concepts/entry-point-identification.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-reassessment-trigger.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/context-analysis-reassessment-trigger.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-tool",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/04-tools/urban-context-analysis-process.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-decision-rule",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/09-decision-protocols/partner-inclusion-in-context-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/09-decision-protocols/partner-inclusion-in-context-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-risk",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/06-risks/sampling-bias-powerholder-dependence.md",
+        "wiki/aba/06-risks/data-collection-exposure-risk-displaced-populations.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/06-risks/sampling-bias-powerholder-dependence.md",
+        "wiki/aba/06-risks/data-collection-exposure-risk-displaced-populations.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/sub-area-unit-of-analysis.md"
+      ]
+    },
+    {
+      "source_id": "S-2017-iied-urban-context-analysis-toolkit-guidance-note",
+      "finding_id": null,
+      "status": null,
+      "integration_action": "create-concept",
+      "human_review_required": false,
+      "candidate_target_pages": [
+        "wiki/aba/02-concepts/context-analysis-vs-needs-assessment.md",
+        "wiki/aba/07-known-tensions/context-analysis-vs-needs-assessment-tension.md"
+      ],
+      "missing_target_pages": [
+        "wiki/aba/02-concepts/context-analysis-vs-needs-assessment.md",
+        "wiki/aba/07-known-tensions/context-analysis-vs-needs-assessment-tension.md"
+      ]
+    }
+  ]
+}

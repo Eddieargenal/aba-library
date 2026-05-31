@@ -1,10 +1,14 @@
 {
-  "build_id": "2026-05-19T150505Z",
+  "build_id": "2026-05-31T124121Z",
   "critical_errors": [],
   "warnings": [
     {
       "path": "00-overview/scaffold-map-v27.md",
       "warning": "missing_sections"
+    },
+    {
+      "path": "01-sources/extracted/2017-iied-urban-context-analysis-toolkit-guidance-note.md",
+      "warning": "invalid_lifecycle_stage:response-design"
     },
     {
       "path": "00-overview/scaffold-map-v27.md",
@@ -24,7 +28,7 @@
     },
     {
       "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
-      "warning": "orphan_page:S-2010-young-foundation-how-can-neighbourhoods-be-defined"
+      "warning": "orphan_page:S-youngfoundation2010"
     },
     {
       "path": "01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
