@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Urban area-based approaches in post-disaster contexts: Guidance note for Humanitarian Practitioners"
-author: "David Sanderson; Pamela Sitko (World Vision / Stronger Cities Consortium)"
-institution: "World Vision / Stronger Cities Consortium (published by IIED)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Urban area-based approaches in post-disaster contexts: Guidance note for Humanitarian
+  Practitioners'
+author: David Sanderson; Pamela Sitko (World Vision / Stronger Cities Consortium)
+institution: World Vision / Stronger Cities Consortium (published by IIED)
 year: 2017
-source_id: "2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide"
-source_type: "ngo-guidance"
-source_url: "http://pubs.iied.org/10825IIED"
-file_type: "pdf"
+source_id: 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide
+source_type: ngo-guidance
+source_url: http://pubs.iied.org/10825IIED
+file_type: pdf
 canonical_file: "../raw/2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2017-sanderson-sitko-urban-area-based-approaches-post-disaster-guide

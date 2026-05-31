@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Neighbourhood approach: A toolbox for integrated neighbourhood development"
-author: "European Federation for Living (EFL)"
-institution: "European Federation for Living (EFL)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Neighbourhood approach: A toolbox for integrated neighbourhood development'
+author: European Federation for Living (EFL)
+institution: European Federation for Living (EFL)
 year: 2012
-source_id: "2012-efl-neighbourhood-approach-toolbox"
-source_type: "ngo-guidance"
-source_url: "https://ef-l.eu/wp-content/uploads/EFL_Brochure_Neighborhood_ApproachToolbox.pdf"
-file_type: "pdf"
+source_id: 2012-efl-neighbourhood-approach-toolbox
+source_type: ngo-guidance
+source_url: https://ef-l.eu/wp-content/uploads/EFL_Brochure_Neighborhood_ApproachToolbox.pdf
+file_type: pdf
 canonical_file: "../raw/2012_efl_neighbourhood-approach-toolbox.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "medium"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: medium
 ---
 
 # Raw Extract: 2012_efl_neighbourhood-approach-toolbox

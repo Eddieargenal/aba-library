@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Humanitarian response in urban contexts (Good Practice Review 12)"
-author: "David Sanderson"
-institution: "ODI / Humanitarian Practice Network (HPN)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: Humanitarian response in urban contexts (Good Practice Review 12)
+author: David Sanderson
+institution: ODI / Humanitarian Practice Network (HPN)
 year: 2019
-source_id: "2019-alnap-sanderson-humanitarian-response-urban-contexts"
-source_type: "field-evaluation"
-source_url: "https://odihpn.org/publication/humanitarian-response-in-urban-contexts/"
-file_type: "pdf"
+source_id: 2019-alnap-sanderson-humanitarian-response-urban-contexts
+source_type: field-evaluation
+source_url: https://odihpn.org/publication/humanitarian-response-in-urban-contexts/
+file_type: pdf
 canonical_file: "../raw/2019_alnap-sanderson-humanitarian-response-urban-contexts.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2019_alnap-sanderson-humanitarian-response-urban-contexts

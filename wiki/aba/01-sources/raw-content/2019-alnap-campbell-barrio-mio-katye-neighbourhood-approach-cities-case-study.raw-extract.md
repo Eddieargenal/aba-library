@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Barrio Mio and Katye: PCI’s neighbourhood approach in cities"
-author: "Leah Campbell"
-institution: "ALNAP"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Barrio Mio and Katye: PCI’s neighbourhood approach in cities'
+author: Leah Campbell
+institution: ALNAP
 year: 2019
-source_id: "2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study"
-source_type: "field-evaluation"
-source_url: "https://www.alnap.org"
-file_type: "pdf"
+source_id: 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study
+source_type: field-evaluation
+source_url: https://www.alnap.org
+file_type: pdf
 canonical_file: "../raw/2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study-katye-neighbourhood-approach-cities-case-study.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2019-alnap-campbell-barrio-mio-katye-neighbourhood-approach-cities-case-study

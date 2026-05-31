@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Stepping back: understanding cities and their systems"
-author: "Leah Campbell"
-institution: "ALNAP"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Stepping back: understanding cities and their systems'
+author: Leah Campbell
+institution: ALNAP
 year: 2016
-source_id: "2016-campbell-stepping-back-understanding-cities-systems-guide"
-source_type: "field-evaluation"
-source_url: "https://www.researchgate.net/profile/Leah-Campbell-5/publication/316990156_Stepping_Back_Understanding_Cities_and_Their_Systems/links/5a6769b0a6fdcc72a58b6337/Stepping-Back-Understanding-Cities-and-Their-Systems.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19"
-file_type: "pdf"
+source_id: 2016-campbell-stepping-back-understanding-cities-systems-guide
+source_type: field-evaluation
+source_url: https://www.researchgate.net/profile/Leah-Campbell-5/publication/316990156_Stepping_Back_Understanding_Cities_and_Their_Systems/links/5a6769b0a6fdcc72a58b6337/Stepping-Back-Understanding-Cities-and-Their-Systems.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
+file_type: pdf
 canonical_file: "../raw/2016-campbell-stepping-back-understanding-cities-systems-guide.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2016-campbell-stepping-back-understanding-cities-systems-guide

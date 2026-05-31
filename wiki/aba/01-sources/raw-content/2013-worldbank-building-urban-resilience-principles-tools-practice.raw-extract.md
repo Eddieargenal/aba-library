@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Building Urban Resilience: Principles, Tools and Practice"
-author: "The World Bank"
-institution: "World Bank / Global Facility for Disaster Reduction and Recovery (GFDRR)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Building Urban Resilience: Principles, Tools and Practice'
+author: The World Bank
+institution: World Bank / Global Facility for Disaster Reduction and Recovery (GFDRR)
 year: 2013
-source_id: "2013-worldbank-building-urban-resilience-principles-tools-practice"
-source_type: "government-policy"
-source_url: "https://www.gfdrr.org/sites/default/files/publication/EAP_handbook_principles_tools_practice_web.pdf"
-file_type: "pdf"
+source_id: 2013-worldbank-building-urban-resilience-principles-tools-practice
+source_type: government-policy
+source_url: https://www.gfdrr.org/sites/default/files/publication/EAP_handbook_principles_tools_practice_web.pdf
+file_type: pdf
 canonical_file: "../raw/2013-worldbank-building-urban-resilience-principles-tools-practice.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2013-worldbank-building-urban-resilience-principles-tools-practice

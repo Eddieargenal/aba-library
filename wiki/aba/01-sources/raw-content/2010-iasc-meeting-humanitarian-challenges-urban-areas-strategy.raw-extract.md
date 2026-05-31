@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "IASC Strategy: Meeting Humanitarian Challenges in Urban Areas"
-author: "IASC Task Force/Reference Group on Meeting Humanitarian Challenges in Urban Areas"
-institution: "Inter-Agency Standing Committee (IASC)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'IASC Strategy: Meeting Humanitarian Challenges in Urban Areas'
+author: IASC Task Force/Reference Group on Meeting Humanitarian Challenges in Urban
+  Areas
+institution: Inter-Agency Standing Committee (IASC)
 year: 2010
-source_id: "2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy"
-source_type: "iasc-guidance"
-source_url: "https://interagencystandingcommittee.org/sites/default/files/migrated/2020-11/IASC%20Strategy%2C%20Meeting%20Humanitarian%20Challenges%20in%20Urban%20Areas.pdf"
-file_type: "pdf"
+source_id: 2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy
+source_type: iasc-guidance
+source_url: https://interagencystandingcommittee.org/sites/default/files/migrated/2020-11/IASC%20Strategy%2C%20Meeting%20Humanitarian%20Challenges%20in%20Urban%20Areas.pdf
+file_type: pdf
 canonical_file: "../raw/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy

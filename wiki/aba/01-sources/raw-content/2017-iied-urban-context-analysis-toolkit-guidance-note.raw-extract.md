@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Urban context analysis toolkit: Guidance note for humanitarian practitioners"
-author: "International Rescue Committee (IRC) / Stronger Cities Initiative (published by IIED)"
-institution: "International Rescue Committee (IRC) / IIED / Stronger Cities Initiative"
+type: source_raw_extract
+zone: raw-content
+status: extracted
+title: 'Urban context analysis toolkit: Guidance note for humanitarian practitioners'
+author: International Rescue Committee (IRC) / Stronger Cities Initiative
+institution: IRC / IIED / Stronger Cities Initiative
 year: 2017
-source_id: "2017-iied-urban-context-analysis-toolkit-guidance-note"
-source_type: "ngo-guidance"
-source_url: "http://pubs.iied.org/10819IIED"
-file_type: "pdf"
+source_id: 2017-iied-urban-context-analysis-toolkit-guidance-note
+source_type: ngo-guidance
+source_url: http://pubs.iied.org/10819IIED
+file_type: pdf
 canonical_file: "../raw/2017-iied-urban-context-analysis-toolkit-guidance-note.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-19'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2017-iied-urban-context-analysis-toolkit-guidance-note

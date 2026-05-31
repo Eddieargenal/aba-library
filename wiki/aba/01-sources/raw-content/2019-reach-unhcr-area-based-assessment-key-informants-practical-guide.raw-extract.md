@@ -1,21 +1,20 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Area-Based Assessment with Key Informants"
-author: "IMPACT Initiatives / REACH"
-institution: "IMPACT Initiatives / REACH (in collaboration with UNHCR)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: Area-Based Assessment with Key Informants
+author: IMPACT Initiatives / REACH
+institution: IMPACT Initiatives / REACH (in collaboration with UNHCR)
 year: 2019
-source_id: "2019-reach-unhcr-area-based-assessment-key-informants-practical-guide"
-source_type: "field-evaluation"
-source_url: ""
-file_type: "pdf"
+source_id: 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide
+source_type: field-evaluation
+file_type: pdf
 canonical_file: "../raw/2019-reach-unhcr-area-based-assessment-key-informants-practical-guide.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2019-reach-unhcr-area-based-assessment-key-informants-practical-guide

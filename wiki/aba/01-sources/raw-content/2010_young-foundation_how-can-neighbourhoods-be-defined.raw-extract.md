@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "How can neighbourhoods be understood and defined?"
-author: "The Young Foundation"
-institution: "The Young Foundation"
+type: source_raw_extract
+zone: raw-content
+status: extracted
+title: How can neighbourhoods be understood and defined?
+author: The Young Foundation
+institution: The Young Foundation
 year: 2010
-source_id: "2010-young-foundation-how-can-neighbourhoods-be-defined"
-source_type: "ngo-guidance"
-source_url: "https://youngfoundation.org/wp-content/uploads/2012/11/How-can-neighbourhoods-be-understood-and-defined-August-2010.pdf"
-file_type: "pdf"
+source_id: youngfoundation2010
+source_type: ngo-guidance
+source_url: https://youngfoundation.org/wp-content/uploads/2012/11/How-can-neighbourhoods-be-understood-and-defined-August-2010.pdf
+file_type: pdf
 canonical_file: "../raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "medium"
+created: '2026-05-19'
+updated: '2026-05-19'
+ingest_date: '2026-05-19'
+ingest_status: success
+confidence: medium
 ---
 
 # Raw Extract: 2010_young-foundation_how-can-neighbourhoods-be-defined

@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Building urban resilience: A guide for Red Cross and Red Crescent engagement and contribution"
-author: "International Federation of Red Cross and Red Crescent Societies (IFRC)"
-institution: "International Federation of Red Cross and Red Crescent Societies (IFRC)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Building urban resilience: A guide for Red Cross and Red Crescent engagement
+  and contribution'
+author: International Federation of Red Cross and Red Crescent Societies (IFRC)
+institution: International Federation of Red Cross and Red Crescent Societies (IFRC)
 year: 2017
-source_id: "2017-ifrc-building-urban-resilience-guide"
-source_type: "ngo-guidance"
-source_url: "https://www.ifrc.org/sites/default/files/1317300_GuidanceUrbanResilience_LR25b15d.pdf"
-file_type: "pdf"
+source_id: 2017-ifrc-building-urban-resilience-guide
+source_type: ngo-guidance
+source_url: https://www.ifrc.org/sites/default/files/1317300_GuidanceUrbanResilience_LR25b15d.pdf
+file_type: pdf
 canonical_file: "../raw/2017-ifrc-building-urban-resilience-guide.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "medium"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: medium
 ---
 
 # Raw Extract: 2017-ifrc-building-urban-resilience-guide

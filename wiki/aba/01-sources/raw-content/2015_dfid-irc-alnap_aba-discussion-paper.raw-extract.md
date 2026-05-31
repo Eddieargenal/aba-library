@@ -1,21 +1,23 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Humanitarian Crises in Urban Areas: Are Area-Based Approaches to Programming and Coordination the Way Forward?"
-author: "DFID / IRC (with ALNAP-linked discussion references)"
-institution: "UK Department for International Development (DFID) / International Rescue Committee (IRC)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Humanitarian Crises in Urban Areas: Are Area-Based Approaches to Programming
+  and Coordination the Way Forward?'
+author: DFID / IRC (with ALNAP-linked discussion references)
+institution: UK Department for International Development (DFID) / International Rescue
+  Committee (IRC)
 year: 2015
-source_id: "2015-dfid-irc-alnap-aba-discussion-paper"
-source_type: "field-evaluation"
-source_url: "https://alnap.org/documents/8949/area-based-approaches-dfid-irc-discussion-paper.pdf"
-file_type: "pdf"
+source_id: 2015-dfid-irc-alnap-aba-discussion-paper
+source_type: field-evaluation
+source_url: https://alnap.org/documents/8949/area-based-approaches-dfid-irc-discussion-paper.pdf
+file_type: pdf
 canonical_file: "../raw/2015_dfid-irc-alnap_aba-discussion-paper.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2015_dfid-irc-alnap_aba-discussion-paper

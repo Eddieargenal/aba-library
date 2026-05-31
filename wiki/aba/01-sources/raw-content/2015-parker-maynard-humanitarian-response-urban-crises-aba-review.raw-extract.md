@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Humanitarian response to urban crises: a review of area-based approaches"
-author: "Elizabeth Parker and Victoria Maynard"
-institution: "International Institute for Environment and Development (IIED)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Humanitarian response to urban crises: a review of area-based approaches'
+author: Elizabeth Parker and Victoria Maynard
+institution: International Institute for Environment and Development (IIED)
 year: 2015
-source_id: "2015-parker-maynard-humanitarian-response-urban-crises-aba-review"
-source_type: "field-evaluation"
-source_url: "http://pubs.iied.org/10742IIED"
-file_type: "pdf"
+source_id: 2015-parker-maynard-humanitarian-response-urban-crises-aba-review
+source_type: field-evaluation
+source_url: http://pubs.iied.org/10742IIED
+file_type: pdf
 canonical_file: "../raw/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2015-parker-maynard-humanitarian-response-urban-crises-aba-review

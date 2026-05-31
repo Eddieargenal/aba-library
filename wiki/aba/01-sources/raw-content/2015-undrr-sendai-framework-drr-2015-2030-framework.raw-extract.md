@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Sendai Framework for Disaster Risk Reduction 2015-2030"
-author: "United Nations Office for Disaster Risk Reduction (UNDRR)"
-institution: "United Nations Office for Disaster Risk Reduction (UNDRR)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: Sendai Framework for Disaster Risk Reduction 2015-2030
+author: United Nations Office for Disaster Risk Reduction (UNDRR)
+institution: United Nations Office for Disaster Risk Reduction (UNDRR)
 year: 2015
-source_id: "2015-undrr-sendai-framework-drr-2015-2030-framework"
-source_type: "un-policy"
-source_url: "https://www.undrr.org/media/16176/download"
-file_type: "pdf"
+source_id: 2015-undrr-sendai-framework-drr-2015-2030-framework
+source_type: un-policy
+source_url: https://www.undrr.org/media/16176/download
+file_type: pdf
 canonical_file: "../raw/2015-undrr-sendai-framework-drr-2015-2030-framework.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "medium"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: medium
 ---
 
 # Raw Extract: 2015-undrr-sendai-framework-drr-2015-2030-framework

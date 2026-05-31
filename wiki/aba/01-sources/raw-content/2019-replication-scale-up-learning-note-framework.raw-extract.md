@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Area-Based Approaches in Urban Settings: Compendium of Case Studies (May 2019 edition)"
-author: "Global Shelter Cluster Urban Settlements Working Group"
-institution: "Global Shelter Cluster / Urban Settlements Working Group"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Area-Based Approaches in Urban Settings: Compendium of Case Studies (May 2019
+  edition)'
+author: Global Shelter Cluster Urban Settlements Working Group
+institution: Global Shelter Cluster / Urban Settlements Working Group
 year: 2019
-source_id: "2019-replication-scale-up-learning-note-framework"
-source_type: "ngo-guidance"
-source_url: ""
-file_type: "pdf"
+source_id: 2019-replication-scale-up-learning-note-framework
+source_type: ngo-guidance
+file_type: pdf
 canonical_file: "../raw/2019-replication-scale-up-learning-note-framework.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2019-replication-scale-up-learning-note-framework

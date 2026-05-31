@@ -74,19 +74,24 @@ Required index artifacts:
 
 ## Stable ID Prefixes
 
-- `S-` source
-- `C-` concept
-- `F-` framework
-- `T-` tool
-- `I-` field instrument
-- `R-` risk
-- `KTN-` known tension
-- `P-` advisory playbook
-- `D-` decision protocol
-- `O-` output template/output
-- `EP-` evidence packet
-- `PU-` proposed update
-- `SS-` slice spec
+Canonical page-id prefixes — verified against `scripts/schema.py:ID_PREFIX_BY_TYPE`:
+
+```schema:id_prefix
+S- source
+C- concept
+F- framework
+T- tool
+I- field-instrument
+R- risk
+KTN- known-tension
+P- advisory-playbook
+D- decision-protocol
+O- output-template
+SS- slice-spec
+OVR- overview
+```
+
+Runtime-only prefixes (not page ids, not validated by the index builder): `EP-` evidence packet, `PU-` proposed update.
 
 ## Layer Discipline (Critical)
 

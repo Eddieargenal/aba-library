@@ -1,21 +1,21 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Understanding the Neighbourhood Concept and Its Evolution: A Review"
-author: "Gideon Baffoe"
-institution: "Sage Publications / Environment and Urbanization Asia (journal)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Understanding the Neighbourhood Concept and Its Evolution: A Review'
+author: Gideon Baffoe
+institution: Sage Publications / Environment and Urbanization Asia (journal)
 year: 2019
-source_id: "2019-journal-urbanism-understanding-neighbourhood-concept-evolution"
-source_type: "academic"
-source_url: "https://doi.org/10.1177/0975425319859115"
-file_type: "pdf"
+source_id: 2019-journal-urbanism-understanding-neighbourhood-concept-evolution
+source_type: academic
+source_url: https://doi.org/10.1177/0975425319859115
+file_type: pdf
 canonical_file: "../raw/2019_journal-urbanism_understanding-neighbourhood-concept-evolution.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "medium"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: medium
 ---
 
 # Raw Extract: 2019_journal-urbanism_understanding-neighbourhood-concept-evolution

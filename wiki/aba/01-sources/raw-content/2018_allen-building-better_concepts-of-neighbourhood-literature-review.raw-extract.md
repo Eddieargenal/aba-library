@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Concepts of Neighbourhood: A Review of the Literature"
-author: "Dr Natalie Allen"
-institution: "Building Better Homes, Towns and Cities National Science Challenge (New Zealand)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Concepts of Neighbourhood: A Review of the Literature'
+author: Dr Natalie Allen
+institution: Building Better Homes, Towns and Cities National Science Challenge (New
+  Zealand)
 year: 2018
-source_id: "2018-allen-building-better-concepts-of-neighbourhood-literature-review"
-source_type: "academic"
-source_url: "http://www.buildingbetter.nz/resources/publications.html"
-file_type: "pdf"
+source_id: 2018-allen-building-better-concepts-of-neighbourhood-literature-review
+source_type: academic
+source_url: http://www.buildingbetter.nz/resources/publications.html
+file_type: pdf
 canonical_file: "../raw/2018_allen-building-better_concepts-of-neighbourhood-literature-review.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "medium"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: medium
 ---
 
 # Raw Extract: 2018_allen-building-better_concepts-of-neighbourhood-literature-review

@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Standard Terms of Reference for Area-Based Coordination"
-author: "Inter-Agency Standing Committee (IASC) Humanitarian Working Group"
-institution: "Inter-Agency Standing Committee (IASC)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: Standard Terms of Reference for Area-Based Coordination
+author: Inter-Agency Standing Committee (IASC) Humanitarian Working Group
+institution: Inter-Agency Standing Committee (IASC)
 year: 2026
-source_id: "2026-iasc-standard-terms-reference-area-based-coordination-tor"
-source_type: "iasc-guidance"
-source_url: "TODO[agent]: canonical publication URL not provided in request or extractable PDF text"
-file_type: "pdf"
+source_id: 2026-iasc-standard-terms-reference-area-based-coordination-tor
+source_type: iasc-guidance
+source_url: 'TODO[agent]: canonical publication URL not provided in request or extractable
+  PDF text'
+file_type: pdf
 canonical_file: "../raw/2026-iasc-standard-terms-reference-area-based-coordination-tor.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2026-iasc-standard-terms-reference-area-based-coordination-tor

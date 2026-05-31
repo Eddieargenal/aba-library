@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "Urban Response Analysis Framework (URAF): Guidance note for humanitarian practitioners"
-author: "Lili Mohiddin; Gabrielle Smith; Laura Phelps (NRC / Stronger Cities Initiative)"
-institution: "Norwegian Refugee Council (NRC) / Stronger Cities Initiative (published by IIED)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'Urban Response Analysis Framework (URAF): Guidance note for humanitarian practitioners'
+author: Lili Mohiddin; Gabrielle Smith; Laura Phelps (NRC / Stronger Cities Initiative)
+institution: Norwegian Refugee Council (NRC) / Stronger Cities Initiative (published
+  by IIED)
 year: 2017
-source_id: "2017-response-option-comparison-matrix-framework"
-source_type: "ngo-guidance"
-source_url: "http://pubs.iied.org/10824IIED"
-file_type: "pdf"
+source_id: 2017-response-option-comparison-matrix-framework
+source_type: ngo-guidance
+source_url: http://pubs.iied.org/10824IIED
+file_type: pdf
 canonical_file: "../raw/2017-response-option-comparison-matrix-framework.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2017-response-option-comparison-matrix-framework

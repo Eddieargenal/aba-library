@@ -1,19 +1,19 @@
 ---
 type: source_raw_extract
 zone: raw-content
-status: ingested
-title: "Characteristics of a Disaster-Resilient Community: A Guidance Note"
+status: extracted
+title: 'Characteristics of a Disaster-Resilient Community: A Guidance Note'
 author: John Twigg
 institution: UCL / Aon Benfield UCL Hazard Research Centre
 year: 2009
-source_id: 2009-twigg-ucl-disaster-resilient-community
-source_type: academic
-source_url: https://www.preventionweb.net/files/2310_Characteristicsdisasterhighres.pdf?startDownload=true
+source_id: 2009-twigg-ucl-disaster-resilient-community-v2
+source_type: ngo-guidance
+source_url: https://www.preventionweb.net/files/2310_Characteristicsdisasterhighres.pdf
 file_type: pdf
-canonical_file: ../raw/2009_twigg-ucl_disaster-resilient-community.pdf
-created: 2026-05-10
-updated: 2026-05-10
-ingest_date: 2026-05-10
+canonical_file: "../raw/2009_twigg-ucl_disaster-resilient-community.pdf"
+created: '2026-05-19'
+updated: '2026-05-19'
+ingest_date: '2026-05-19'
 ingest_status: success
 confidence: high
 ---

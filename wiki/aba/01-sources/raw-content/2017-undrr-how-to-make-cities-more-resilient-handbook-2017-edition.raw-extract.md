@@ -1,21 +1,22 @@
 ---
-type: "source_raw_extract"
-zone: "raw-content"
-status: "ingested"
-title: "How To Make Cities More Resilient: A Handbook For Local Government Leaders (2017 edition)"
-author: "UNISDR / UN Office for Disaster Risk Reduction; Ebru A. Gencer (author)"
-institution: "UNISDR / UN Office for Disaster Risk Reduction (renamed UNDRR in 2019)"
+type: source_raw_extract
+zone: raw-content
+status: ingested
+title: 'How To Make Cities More Resilient: A Handbook For Local Government Leaders
+  (2017 edition)'
+author: UNISDR / UN Office for Disaster Risk Reduction; Ebru A. Gencer (author)
+institution: UNISDR / UN Office for Disaster Risk Reduction (renamed UNDRR in 2019)
 year: 2017
-source_id: "2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition"
-source_type: "un-policy"
-source_url: "https://www.unisdr.org/campaign"
-file_type: "pdf"
+source_id: 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
+source_type: un-policy
+source_url: https://www.unisdr.org/campaign
+file_type: pdf
 canonical_file: "../raw/2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition.pdf"
-created: "2026-05-10"
-updated: "2026-05-10"
-ingest_date: "2026-05-10"
-ingest_status: "success"
-confidence: "high"
+created: '2026-05-10'
+updated: '2026-05-10'
+ingest_date: '2026-05-10'
+ingest_status: success
+confidence: high
 ---
 
 # Raw Extract: 2017-undrr-how-to-make-cities-more-resilient-handbook-2017-edition
