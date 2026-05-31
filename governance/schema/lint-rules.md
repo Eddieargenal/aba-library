@@ -64,13 +64,39 @@ Ghost nodes do not block publish; they enter the governance repair queue.
 
 ## Controlled Vocabularies
 
-Authoritative source is `frontmatter-schema.md`. The builder validates:
+Single source of truth is `scripts/schema.py`; the prose docs mirror it inside
+```schema:<key>``` blocks that `scripts/check-schema.py` verifies. The builder validates:
 
-- `retrieval_status`: `usable` / `limited` / `deprecated` / `draft`
-- `lifecycle_stage`: `appropriateness-decision` / `area-selection` /
-  `neighbourhood-diagnosis` / `joint-prioritization` / `coordination-design` /
-  `integrated-area-strategy` / `implementation-adaptation` / `monitoring-learning` /
-  `transition-handover`
-- `id` prefix by type: `S-` source, `C-` concept, `F-` framework, `T-` tool,
-  `I-` field-instrument, `R-` risk, `KTN-` known-tension, `P-` advisory-playbook,
-  `D-` decision-protocol, `O-` output-template, `SS-` slice-spec, `OVR-` overview
+```schema:retrieval_status
+usable
+limited
+deprecated
+draft
+```
+
+```schema:lifecycle_stage
+appropriateness-decision
+area-selection
+neighbourhood-diagnosis
+joint-prioritization
+coordination-design
+integrated-area-strategy
+implementation-adaptation
+monitoring-learning
+transition-handover
+```
+
+```schema:id_prefix
+S- source
+C- concept
+F- framework
+T- tool
+I- field-instrument
+R- risk
+KTN- known-tension
+P- advisory-playbook
+D- decision-protocol
+O- output-template
+SS- slice-spec
+OVR- overview
+```

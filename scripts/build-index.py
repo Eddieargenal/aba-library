@@ -33,75 +33,11 @@ INDEXES_DIR = VAULT / "indexes"
 BUILDS_DIR = INDEXES_DIR / "builds"
 CURRENT_DIR = INDEXES_DIR / "current"
 
-REL_FIELDS = {
-    "related_concepts": "related_concept",
-    "related_frameworks": "related_framework",
-    "related_tools": "related_tool",
-    "related_risks": "related_risk",
-    "source_basis": "source_basis",
-    "known_tensions": "known_tension",
-    "contradicts": "contradicts",
-    "used_by_playbooks": "used_by_playbook",
-    "output_templates": "output_template",
-    "requires_concepts": "requires_concept",
-    "parent_frameworks": "parent_framework",
-    "required_inputs": "requires_input",
-    "compatible_instruments": "compatible_instrument",
-    "mitigated_by": "mitigated_by",
-    "risk_applies_to": "risk_applies_to",
-    "escalation_triggers": "escalation_trigger",
-}
-
-STRICT_REQUIRED = ["id", "type", "title", "retrieval_status"]
-LIFECYCLE_REQUIRED_TYPES = {
-    "source",
-    "concept",
-    "framework",
-    "tool",
-    "field-instrument",
-    "risk",
-    "advisory-playbook",
-    "decision-protocol",
-    "output-template",
-}
-
-# Controlled vocabularies (frontmatter-schema.md v2.7)
-RETRIEVAL_STATUS_VOCAB = {"usable", "limited", "deprecated", "draft"}
-LIFECYCLE_VOCAB = {
-    "appropriateness-decision",
-    "area-selection",
-    "neighbourhood-diagnosis",
-    "joint-prioritization",
-    "coordination-design",
-    "integrated-area-strategy",
-    "implementation-adaptation",
-    "monitoring-learning",
-    "transition-handover",
-}
-
-# Technical pages must rest on evidence: usable ones require source_basis.
-TECHNICAL_TYPES = {"concept", "framework", "tool", "field-instrument", "risk", "decision-protocol"}
-
-# id prefix must match page type (frontmatter-schema.md "Stable ID Prefixes")
-ID_PREFIX_BY_TYPE = {
-    "source": "S-",
-    "concept": "C-",
-    "framework": "F-",
-    "tool": "T-",
-    "field-instrument": "I-",
-    "risk": "R-",
-    "known-tension": "KTN-",
-    "advisory-playbook": "P-",
-    "decision-protocol": "D-",
-    "output-template": "O-",
-    "slice-spec": "SS-",
-    "overview": "OVR-",
-}
-
-MAX_PRIMARY_TOPICS = 6
-
-# Finding statuses that count as fully routed/closed (everything else is "open")
-TERMINAL_FINDING_STATUS = {"integrated", "done", "complete", "resolved", "source_only"}
+# Data model is the single source of truth in schema.py; main() uses these two
+# tables directly. Per-page validation lives behind the rule registry in
+# lint_rules.py (an internal seam: each rule is independently unit-testable).
+from schema import REL_FIELDS, TERMINAL_FINDING_STATUS  # noqa: E402  (sibling module on sys.path)
+from lint_rules import RuleCtx, run_rules  # noqa: E402
 
 
 @dataclass
@@ -288,51 +224,14 @@ def main() -> int:
                 }
             )
 
-        for field in STRICT_REQUIRED:
-            if field == "id":
-                if not page_id:
-                    critical.append({"path": page.rel_path, "error": "missing_id"})
-                continue
-            if fm.get(field) in (None, "", []):
-                critical.append({"path": page.rel_path, "error": f"missing_{field}"})
-
+        # Per-page validation runs through the rule registry (lint_rules.py).
         ptype = str(fm.get("type", "")).strip()
-        if ptype in LIFECYCLE_REQUIRED_TYPES and not fm.get("lifecycle_stage"):
-            critical.append({"path": page.rel_path, "error": "missing_lifecycle_stage"})
-
-        # retrieval_status controlled vocabulary (critical: it gates runtime usability)
-        rs = fm.get("retrieval_status")
-        rs_val = str(rs).strip() if rs is not None else ""
-        if rs_val and rs_val not in RETRIEVAL_STATUS_VOCAB:
-            critical.append({"path": page.rel_path, "error": f"invalid_retrieval_status:{rs_val}"})
-
-        # source_basis required on usable technical pages (evidence-grounding rule)
-        if ptype in TECHNICAL_TYPES and rs_val == "usable" and not fm.get("source_basis"):
-            critical.append({"path": page.rel_path, "error": "missing_source_basis_usable"})
-
-        # lifecycle_stage controlled vocabulary (warning)
-        ls_val = fm.get("lifecycle_stage") or []
-        if isinstance(ls_val, list):
-            for v in ls_val:
-                vv = str(v).strip()
-                if vv and vv not in LIFECYCLE_VOCAB:
-                    warnings.append({"path": page.rel_path, "warning": f"invalid_lifecycle_stage:{vv}"})
-
-        # id prefix must match page type (warning)
-        expected_prefix = ID_PREFIX_BY_TYPE.get(ptype)
-        if page_id and expected_prefix and not str(page_id).startswith(expected_prefix):
-            warnings.append(
-                {"path": page.rel_path, "warning": f"id_prefix_mismatch:{page_id}:expected:{expected_prefix}"}
-            )
-
-        # usable tool pages should declare related risks (warning)
-        if ptype == "tool" and rs_val == "usable" and not fm.get("related_risks"):
-            warnings.append({"path": page.rel_path, "warning": "tool_missing_related_risks"})
-
-        # excessive primary_topics breadth (warning)
-        pt_val = fm.get("primary_topics") or []
-        if isinstance(pt_val, list) and len(pt_val) > MAX_PRIMARY_TOPICS:
-            warnings.append({"path": page.rel_path, "warning": f"excessive_primary_topics:{len(pt_val)}"})
+        ctx = RuleCtx(rel_path=page.rel_path, fm=fm, page_id=page_id, ptype=ptype)
+        for issue in run_rules(ctx):
+            if issue.severity == "critical":
+                critical.append({"path": page.rel_path, "error": issue.code})
+            else:
+                warnings.append({"path": page.rel_path, "warning": issue.code})
 
         if page_id:
             if page_id in id_to_page:

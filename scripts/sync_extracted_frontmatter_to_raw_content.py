@@ -22,45 +22,8 @@ from typing import Dict, List, Tuple
 DEFAULT_EXTRACTED = Path("wiki/aba/01-sources/extracted")
 DEFAULT_RAW_CONTENT = Path("wiki/aba/01-sources/raw-content")
 
-# Agreed fields copied from extracted pages.
-COPIED_FIELDS = [
-    "status",
-    "title",
-    "author",
-    "institution",
-    "year",
-    "source_id",
-    "source_type",
-    "source_url",
-    "file_type",
-    "canonical_file",
-    "created",
-    "updated",
-    "ingest_date",
-    "ingest_status",
-    "confidence",
-]
-
-# Ordered output schema for raw-content files.
-OUTPUT_ORDER = [
-    "type",
-    "zone",
-    "status",
-    "title",
-    "author",
-    "institution",
-    "year",
-    "source_id",
-    "source_type",
-    "source_url",
-    "file_type",
-    "canonical_file",
-    "created",
-    "updated",
-    "ingest_date",
-    "ingest_status",
-    "confidence",
-]
+# Field lists live in schema.py (single source of truth, shared with build-index.py).
+from schema import COPIED_FIELDS, OUTPUT_ORDER  # noqa: E402  (sibling module on sys.path)
 
 
 def extract_frontmatter_block(text: str) -> str | None:
