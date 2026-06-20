@@ -16,8 +16,9 @@ surface main() never had (see test_compile.py).
 
 import re
 from dataclasses import dataclass, field
+from datetime import date
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from schema import REL_FIELDS, TERMINAL_FINDING_STATUS
 from lint_rules import GraphCtx, RuleCtx, run_graph_rules, run_rules
@@ -118,11 +119,18 @@ def section_line_ranges(
     return out, warnings
 
 
-def compile_index(pages: List[Page], *, target_exists: Callable[[str], bool]) -> BuildResult:
-    """Compile Pages into a BuildResult. Pure: no clock, no filesystem — the one
-    filesystem fact needed (does a candidate target page exist?) is injected as
-    `target_exists`. The per-page and cross-page processing order mirrors the
-    original build so the emitted ledgers and rows are position-stable."""
+def compile_index(
+    pages: List[Page],
+    *,
+    target_exists: Callable[[str], bool],
+    today: Optional[date] = None,
+) -> BuildResult:
+    """Compile Pages into a BuildResult. Pure: no clock, no filesystem — the two
+    impure facts it needs are injected. `target_exists` answers "does this
+    candidate target page exist on disk?"; `today` is the clock the
+    contradiction-aging rule ages against (None disables aging). The per-page and
+    cross-page processing order mirrors the original build so the emitted ledgers
+    and rows are position-stable."""
     result = BuildResult()
 
     id_to_page: Dict[str, Page] = {}
@@ -152,7 +160,7 @@ def compile_index(pages: List[Page], *, target_exists: Callable[[str], bool]) ->
             )
 
         ptype = str(fm.get("type", "")).strip()
-        ctx = RuleCtx(rel_path=page.rel_path, fm=fm, page_id=page_id, ptype=ptype)
+        ctx = RuleCtx(rel_path=page.rel_path, fm=fm, page_id=page_id, ptype=ptype, today=today)
         for issue in run_rules(ctx):
             if issue.severity == "critical":
                 result.critical.append({"path": page.rel_path, "error": issue.code})

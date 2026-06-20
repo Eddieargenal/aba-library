@@ -33,6 +33,33 @@ LIFECYCLE_VOCAB = {
 # Finding statuses that count as fully routed/closed (everything else is "open")
 TERMINAL_FINDING_STATUS = {"integrated", "done", "complete", "resolved", "source_only"}
 
+# schema:promotion_stage — epistemic-validation axis (ADR-0001). How far a claim
+# has climbed the promotion ladder; the retrieval ranker's primary trust signal.
+PROMOTION_STAGE_VOCAB = {"finding", "concept", "framework", "tool", "validated"}
+
+# schema:implementation_tier — which actor tier a page serves (ADR-0001). Split
+# out of lifecycle_stage; "all" covers pages serving every tier.
+IMPLEMENTATION_TIER_VOCAB = {"design", "execution", "synthesis", "all"}
+
+# schema:cross_cutting_topics — OPTIONAL controlled tags for cross-cutting themes
+# that span lifecycle stages and tiers (ADR-0003). Validated only when present;
+# never required. Distinct from `primary_topics`, which stays free-text keywords
+# (the split avoids overloading an existing field). Seed set; grows as
+# cross-cutting query patterns emerge.
+CROSS_CUTTING_TOPICS_VOCAB = {
+    "relational-trust",
+    "compound-risk",
+    "co-design",
+    "exception-flagging",
+    "design-capture",
+    "cognitive-load",
+}
+
+# Contradiction-aging thresholds, in days (ADR-0001 / atomic-task framework).
+# Computed from last_reviewed against today; never a trusted frontmatter string.
+CONTRADICTION_AGING_WARN_DAYS = 30
+CONTRADICTION_AGING_BLOCK_DAYS = 90
+
 # --- Required-field tables ---------------------------------------------------
 
 STRICT_REQUIRED = ["id", "type", "title", "retrieval_status"]
@@ -51,6 +78,11 @@ LIFECYCLE_REQUIRED_TYPES = {
 
 # Technical pages must rest on evidence: usable ones require source_basis.
 TECHNICAL_TYPES = {"concept", "framework", "tool", "field-instrument", "risk", "decision-protocol"}
+
+# Pages on the promotion ladder require promotion_stage + implementation_tier
+# (ADR-0001). Same membership as TECHNICAL_TYPES today; named separately because
+# "on the ladder" and "rests on evidence" are distinct ideas that may diverge.
+LADDER_TYPES = set(TECHNICAL_TYPES)
 
 MAX_PRIMARY_TOPICS = 6
 

@@ -17,13 +17,20 @@ contexts and routes the Issues into its critical/warning ledgers.
 """
 
 from dataclasses import dataclass, field
+from datetime import date
 from typing import Any, Callable, Dict, List, Optional, Set
 
 from schema import (
+    CONTRADICTION_AGING_BLOCK_DAYS,
+    CONTRADICTION_AGING_WARN_DAYS,
     ID_PREFIX_BY_TYPE,
+    CROSS_CUTTING_TOPICS_VOCAB,
+    IMPLEMENTATION_TIER_VOCAB,
+    LADDER_TYPES,
     LIFECYCLE_REQUIRED_TYPES,
     LIFECYCLE_VOCAB,
     MAX_PRIMARY_TOPICS,
+    PROMOTION_STAGE_VOCAB,
     RETRIEVAL_STATUS_VOCAB,
     STRICT_REQUIRED,
     TECHNICAL_TYPES,
@@ -50,6 +57,9 @@ class RuleCtx:
     fm: dict
     page_id: Optional[str]
     ptype: str
+    # Injected clock for date-based rules (e.g. contradiction aging). None when
+    # no clock is available, in which case those rules skip rather than guess.
+    today: Optional[date] = None
 
     @property
     def rs_val(self) -> str:
@@ -197,6 +207,71 @@ def run_graph_rules(ctx: GraphCtx) -> List[Issue]:
     return out
 
 
+def rule_promotion_stage(ctx: RuleCtx) -> List[Issue]:
+    """Ladder pages (ADR-0001) must declare a valid promotion_stage."""
+    if ctx.ptype not in LADDER_TYPES:
+        return []
+    v = ctx.fm.get("promotion_stage")
+    if not v:
+        return [Issue(CRITICAL, "missing_promotion_stage")]
+    vv = str(v).strip()
+    if vv not in PROMOTION_STAGE_VOCAB:
+        return [Issue(CRITICAL, f"invalid_promotion_stage:{vv}")]
+    return []
+
+
+def rule_implementation_tier(ctx: RuleCtx) -> List[Issue]:
+    """Ladder pages (ADR-0001) must declare a valid implementation_tier."""
+    if ctx.ptype not in LADDER_TYPES:
+        return []
+    v = ctx.fm.get("implementation_tier")
+    if not v:
+        return [Issue(CRITICAL, "missing_implementation_tier")]
+    vv = str(v).strip()
+    if vv not in IMPLEMENTATION_TIER_VOCAB:
+        return [Issue(CRITICAL, f"invalid_implementation_tier:{vv}")]
+    return []
+
+
+def rule_cross_cutting_topics_vocab(ctx: RuleCtx) -> List[Issue]:
+    """cross_cutting_topics is optional (ADR-0003): validate values against the
+    controlled vocab only when present; never flag absence. Distinct from
+    primary_topics, which stays free-text keywords (rule_primary_topics only
+    caps its count)."""
+    cct = ctx.fm.get("cross_cutting_topics")
+    if not cct or not isinstance(cct, list):
+        return []
+    return [
+        Issue(WARNING, f"invalid_cross_cutting_topic:{str(t).strip()}")
+        for t in cct
+        if str(t).strip() and str(t).strip() not in CROSS_CUTTING_TOPICS_VOCAB
+    ]
+
+
+def rule_contradiction_aging(ctx: RuleCtx) -> List[Issue]:
+    """A page carrying unresolved contradicts: links ages from last_reviewed.
+    >30 days warns; >90 days blocks (critical). 'Resolved' means re-reviewed
+    (last_reviewed bumped). Age is computed against the injected clock, never a
+    trusted frontmatter string; with no clock the rule skips."""
+    if not ctx.fm.get("contradicts"):
+        return []
+    lr = ctx.fm.get("last_reviewed")
+    if not lr:
+        return [Issue(WARNING, "contradicts_without_last_reviewed")]
+    if ctx.today is None:
+        return []
+    try:
+        reviewed = date.fromisoformat(str(lr).strip())
+    except ValueError:
+        return [Issue(WARNING, f"invalid_last_reviewed:{lr}")]
+    age = (ctx.today - reviewed).days
+    if age > CONTRADICTION_AGING_BLOCK_DAYS:
+        return [Issue(CRITICAL, f"contradiction_stale_block:{age}d")]
+    if age > CONTRADICTION_AGING_WARN_DAYS:
+        return [Issue(WARNING, f"contradiction_aging:{age}d")]
+    return []
+
+
 RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_required_fields,
     rule_lifecycle_required,
@@ -206,6 +281,10 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_id_prefix,
     rule_tool_related_risks,
     rule_primary_topics,
+    rule_promotion_stage,
+    rule_implementation_tier,
+    rule_cross_cutting_topics_vocab,
+    rule_contradiction_aging,
 ]
 
 
