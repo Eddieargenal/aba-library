@@ -75,7 +75,11 @@ def main() -> int:
     build_dir.mkdir(parents=True, exist_ok=True)
 
     pages = read_pages(WIKI_ROOT)
-    result = compile_index(pages, target_exists=lambda p: (VAULT / p).exists())
+    result = compile_index(
+        pages,
+        target_exists=lambda p: (VAULT / p).exists(),
+        today=datetime.now(timezone.utc).date(),
+    )
 
     manifest = {
         "build_id": build_id,

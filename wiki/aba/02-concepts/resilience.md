@@ -4,6 +4,8 @@ type: concept
 title: Resilience
 slug: resilience
 retrieval_status: draft
+promotion_stage: concept
+implementation_tier: all
 lifecycle_stage:
   - neighbourhood-diagnosis
   - monitoring-learning

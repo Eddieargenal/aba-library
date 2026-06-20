@@ -8,6 +8,7 @@ checked in isolation with a tiny in-memory page.
 """
 
 import unittest
+from datetime import date
 
 from lint_rules import (
     GraphCtx,
@@ -20,6 +21,10 @@ from lint_rules import (
     rule_lifecycle_vocab,
     rule_orphan_pages,
     rule_primary_topics,
+    rule_cross_cutting_topics_vocab,
+    rule_promotion_stage,
+    rule_implementation_tier,
+    rule_contradiction_aging,
     rule_required_fields,
     rule_retrieval_status_vocab,
     rule_source_basis_usable,
@@ -50,8 +55,8 @@ def gctx(id_to_page=None, inbound_counts=None, valid_edges=None,
     )
 
 
-def ctx(fm=None, page_id="C-x", ptype="concept", rel_path="p.md"):
-    return RuleCtx(rel_path=rel_path, fm=fm or {}, page_id=page_id, ptype=ptype)
+def ctx(fm=None, page_id="C-x", ptype="concept", rel_path="p.md", today=None):
+    return RuleCtx(rel_path=rel_path, fm=fm or {}, page_id=page_id, ptype=ptype, today=today)
 
 
 def codes(issues):
@@ -194,6 +199,84 @@ class GraphDeprecated(unittest.TestCase):
 
     def test_non_linker_type_is_silent(self):
         self.assertEqual(rule_deprecated_target_linked(self._ctx("concept")), [])
+
+
+class PromotionStage(unittest.TestCase):
+    def test_missing_on_ladder_type_is_critical(self):
+        self.assertIn("missing_promotion_stage", codes(rule_promotion_stage(ctx(fm={"type": "concept"}, ptype="concept"))))
+
+    def test_invalid_value_is_critical(self):
+        c = ctx(fm={"promotion_stage": "gold"}, ptype="concept")
+        self.assertEqual(codes(rule_promotion_stage(c)), ["invalid_promotion_stage:gold"])
+
+    def test_valid_value_clean(self):
+        self.assertEqual(rule_promotion_stage(ctx(fm={"promotion_stage": "framework"}, ptype="concept")), [])
+
+    def test_source_is_exempt(self):
+        self.assertEqual(rule_promotion_stage(ctx(fm={"type": "source"}, ptype="source", page_id="S-x")), [])
+
+
+class ImplementationTier(unittest.TestCase):
+    def test_missing_on_ladder_type_is_critical(self):
+        self.assertIn("missing_implementation_tier", codes(rule_implementation_tier(ctx(fm={"type": "tool"}, ptype="tool"))))
+
+    def test_invalid_value_is_critical(self):
+        c = ctx(fm={"implementation_tier": "ops"}, ptype="tool")
+        self.assertEqual(codes(rule_implementation_tier(c)), ["invalid_implementation_tier:ops"])
+
+    def test_all_is_valid(self):
+        self.assertEqual(rule_implementation_tier(ctx(fm={"implementation_tier": "all"}, ptype="tool")), [])
+
+    def test_source_is_exempt(self):
+        self.assertEqual(rule_implementation_tier(ctx(fm={"type": "source"}, ptype="source", page_id="S-x")), [])
+
+
+class CrossCuttingTopicsVocab(unittest.TestCase):
+    def test_absent_is_clean(self):
+        self.assertEqual(rule_cross_cutting_topics_vocab(ctx(fm={})), [])  # absence never flagged
+
+    def test_free_text_primary_topics_not_validated(self):
+        # primary_topics stays free-text keywords; the vocab rule ignores it
+        self.assertEqual(rule_cross_cutting_topics_vocab(ctx(fm={"primary_topics": ["anything-goes"]})), [])
+
+    def test_present_valid_is_clean(self):
+        self.assertEqual(rule_cross_cutting_topics_vocab(ctx(fm={"cross_cutting_topics": ["relational-trust"]})), [])
+
+    def test_present_invalid_warns(self):
+        c = ctx(fm={"cross_cutting_topics": ["relational-trust", "made-up-topic"]})
+        self.assertEqual(codes(rule_cross_cutting_topics_vocab(c)), ["invalid_cross_cutting_topic:made-up-topic"])
+
+
+class ContradictionAging(unittest.TestCase):
+    TODAY = date(2026, 6, 20)
+
+    def test_no_contradicts_is_clean(self):
+        c = ctx(fm={"last_reviewed": "2020-01-01"}, today=self.TODAY)  # ancient but no contradicts
+        self.assertEqual(rule_contradiction_aging(c), [])
+
+    def test_contradicts_without_last_reviewed_warns(self):
+        c = ctx(fm={"contradicts": ["C-y"]}, today=self.TODAY)
+        self.assertEqual(codes(rule_contradiction_aging(c)), ["contradicts_without_last_reviewed"])
+
+    def test_aging_over_30_days_warns(self):
+        c = ctx(fm={"contradicts": ["C-y"], "last_reviewed": "2026-05-01"}, today=self.TODAY)  # 50d
+        self.assertEqual(len(rule_contradiction_aging(c)), 1)
+        self.assertEqual(rule_contradiction_aging(c)[0].severity, "warning")
+        self.assertTrue(codes(rule_contradiction_aging(c))[0].startswith("contradiction_aging:"))
+
+    def test_stale_over_90_days_is_critical(self):
+        c = ctx(fm={"contradicts": ["C-y"], "last_reviewed": "2026-01-01"}, today=self.TODAY)  # 170d
+        issues = rule_contradiction_aging(c)
+        self.assertEqual(issues[0].severity, "critical")
+        self.assertTrue(issues[0].code.startswith("contradiction_stale_block:"))
+
+    def test_recent_review_is_clean(self):
+        c = ctx(fm={"contradicts": ["C-y"], "last_reviewed": "2026-06-20"}, today=self.TODAY)
+        self.assertEqual(rule_contradiction_aging(c), [])
+
+    def test_no_clock_skips(self):
+        c = ctx(fm={"contradicts": ["C-y"], "last_reviewed": "2026-01-01"}, today=None)
+        self.assertEqual(rule_contradiction_aging(c), [])
 
 
 class GraphRegistry(unittest.TestCase):
