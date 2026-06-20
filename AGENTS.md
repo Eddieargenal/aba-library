@@ -185,3 +185,17 @@ Close:
 - No direct canonical overwrite from field sync queues.
 - No silent contradiction suppression.
 - No manual edits to compiled index artifacts.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and PRDs are tracked as GitHub issues (`gh` CLI) in `Eddieargenal/aba-library`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default vocabulary — `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` + `docs/adr/` at the repo root (neither exists yet — created lazily by `/grill-with-docs`). See `docs/agents/domain.md`.
