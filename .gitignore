@@ -3,3 +3,7 @@
 
 # Per-build index snapshots are ephemeral; only indexes/current/ is canonical
 indexes/builds/
+
+# Python bytecode cache from scripts/
+__pycache__/
+*.pyc
