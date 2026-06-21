@@ -105,7 +105,7 @@ def main() -> int:
     routing_report = {
         "build_id": build_id,
         "pending_finding_count": len(result.routing_pending),
-        "unrouted_finding_count": sum(1 for r in result.routing_pending if r["missing_target_pages"]),
+        "unrouted_finding_count": sum(1 for r in result.routing_pending if r["unsatisfied_target_pages"]),
         "pending_findings": result.routing_pending,
     }
 

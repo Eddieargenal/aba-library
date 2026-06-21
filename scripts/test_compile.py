@@ -72,22 +72,66 @@ class RoutingQueue(unittest.TestCase):
         result = compile([src])
         self.assertEqual(len(result.routing_pending), 1)
         self.assertEqual(result.routing_pending[0]["finding_id"], "f1")
-        self.assertEqual(result.routing_pending[0]["missing_target_pages"], [])
+        self.assertEqual(result.routing_pending[0]["unsatisfied_target_pages"], [])
 
-    def test_terminal_with_all_targets_present_is_not_pending(self):
+    def test_terminal_enrich_with_target_present_is_not_pending(self):
         src = self._source(
-            {"finding_id": "f1", "status": "integrated", "candidate_target_pages": ["wiki/x.md"]}
+            {"finding_id": "f1", "status": "integrated", "integration_action": "enrich-concept",
+             "candidate_target_pages": ["wiki/x.md"]}
         )
         result = compile([src], target_exists=lambda p: p == "wiki/x.md")
         self.assertEqual(result.routing_pending, [])
 
-    def test_terminal_but_missing_target_is_pending(self):
+    def test_terminal_enrich_with_missing_target_is_pending(self):
         src = self._source(
-            {"finding_id": "f1", "status": "integrated", "candidate_target_pages": ["wiki/gone.md"]}
+            {"finding_id": "f1", "status": "integrated", "integration_action": "enrich-concept",
+             "candidate_target_pages": ["wiki/gone.md"]}
         )
         result = compile([src], target_exists=lambda p: False)
         self.assertEqual(len(result.routing_pending), 1)
-        self.assertEqual(result.routing_pending[0]["missing_target_pages"], ["wiki/gone.md"])
+        self.assertEqual(result.routing_pending[0]["unsatisfied_target_pages"], ["wiki/gone.md"])
+
+
+class TargetResolution(unittest.TestCase):
+    """The #7 contract: candidate_target_pages resolve by PATH, and whether a
+    target is 'satisfied' branches on integration_action — enrich-* needs the
+    page to exist; create-* needs it to NOT exist yet."""
+
+    def _source(self, finding):
+        return page("S-x", ptype="source", title="S", retrieval_status="usable", findings=[finding])
+
+    def test_create_action_not_pending_when_target_absent(self):
+        src = self._source({
+            "finding_id": "f1", "status": "integrated",
+            "integration_action": "create-concept",
+            "candidate_target_pages": ["wiki/aba/03-frameworks/new.md"],
+        })
+        result = compile([src], target_exists=lambda p: False)
+        self.assertEqual(result.routing_pending, [])
+
+    def test_create_action_pending_when_target_already_exists(self):
+        # Collision with the prefer-enrich rule: a create-* target that already
+        # exists is an anomaly -> flagged (pending, listed as unsatisfied).
+        src = self._source({
+            "finding_id": "f1", "status": "integrated",
+            "integration_action": "create-concept",
+            "candidate_target_pages": ["wiki/aba/02-concepts/exists.md"],
+        })
+        result = compile([src], target_exists=lambda p: True)
+        self.assertEqual(len(result.routing_pending), 1)
+        self.assertEqual(
+            result.routing_pending[0]["unsatisfied_target_pages"],
+            ["wiki/aba/02-concepts/exists.md"],
+        )
+
+    def test_source_only_imposes_no_target_requirement(self):
+        src = self._source({
+            "finding_id": "f1", "status": "integrated",
+            "integration_action": "source_only",
+            "candidate_target_pages": ["source_only"],
+        })
+        result = compile([src], target_exists=lambda p: False)
+        self.assertEqual(result.routing_pending, [])
 
 
 class DuplicateId(unittest.TestCase):

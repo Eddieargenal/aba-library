@@ -20,8 +20,11 @@ You route approved extracted source findings into the wiki graph and update the 
 For each finding in `findings:` where `status: pending`:
 
 1. Read `candidate_target_pages` and `integration_action` from the finding
-2. Verify the candidate page exists in `agent-index.jsonl` by ID match
-3. If candidate page is not found in the index: escalate to `flag-for-review`, note reason, continue to next finding
+2. Resolve each candidate **by path** — `candidate_target_pages` are wiki paths relative to vault root (matching the `path` field of `agent-index.jsonl` rows and the extraction agent's contract). **Do not match by ID**; the index is keyed by stable IDs (`C-`, `F-`, …), so an ID lookup of a path always misses.
+3. Apply the existence check that the `integration_action` requires:
+   - **`enrich-*`** — the target page **must already exist**. If any candidate path does not resolve, escalate to `flag-for-review`, note reason, continue to next finding.
+   - **`create-*`** — the target page **must not exist yet** (the page is being drafted as a PU- stub). If a candidate path already resolves, that collides with the prefer-`enrich-*` rule: escalate to `flag-for-review`, note reason, continue to next finding.
+   - **`source_only` / `flag-for-review`** — no target-page requirement.
 4. Execute the action per the Integration Action Contract below. For `create-*` actions: read the full finding content from the body `#findings` section of the extracted source page (not frontmatter) to populate the draft
 5. Write back to the extracted source page (see Integration-Map Writeback)
 
@@ -74,6 +77,8 @@ Halt and produce the Gate B packet before any further page edits when Gate B is 
 - Do not create full synthesis pages directly — `create-*` outputs go to `outputs/proposed-library-updates/` only
 
 ## Acceptance Criteria
+- [ ] `candidate_target_pages` resolved **by path** (not by ID), consistent with the extraction agent and the index compiler
+- [ ] Existence check branches on `integration_action`: `enrich-*` requires the target to exist; `create-*` requires it to not exist yet
 - [ ] All 12 `integration_action` values handled with distinct rules
 - [ ] `create-*` actions write to `outputs/proposed-library-updates/PU-{slug}.md`, not to wiki folders
 - [ ] Integration-map writeback updates both the body table Status column and the frontmatter `findings:` status field

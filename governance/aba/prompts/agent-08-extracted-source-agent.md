@@ -405,7 +405,7 @@ Every frontmatter finding entry must have exactly these 10 fields:
 | `knowledge_layer` | `conceptual` / `diagnostic` / `operational` / `decision` — from the parent object's layer tag |
 | `lifecycle_stage` | List; controlled vocabulary; only stages directly addressed |
 | `source_pages` | List e.g. `["p. 12", "p. 14–16"]`; never empty |
-| `candidate_target_pages` | Wiki paths relative to vault root, or `["source_only"]` |
+| `candidate_target_pages` | Wiki paths relative to vault root, or `["source_only"]`. Resolved downstream **by path** (never by ID). For `enrich-*` the target must already exist; for `create-*` it must not exist yet — see the routing contract in agent-09 / the index compiler. |
 | `integration_action` | `create-concept` / `enrich-concept` / `create-framework` / `enrich-framework` / `create-tool` / `enrich-tool` / `create-risk` / `enrich-risk` / `create-decision-rule` / `enrich-decision-rule` / `source_only` / `flag-for-review` |
 | `field_query_trigger` | From parent object if applicable. Write `not-applicable` only for purely `conceptual` findings |
 | `status` | Always `pending` for new extractions |
