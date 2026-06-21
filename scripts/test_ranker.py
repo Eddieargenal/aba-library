@@ -13,7 +13,12 @@ from pathlib import Path
 
 import ranker
 from bm25 import build_term_index
-from ranker import rank
+from ranker import RankResult, rank, build_query, make_parser, format_results
+
+
+def q(argv):
+    """Parse CLI argv through the real parser into the rank() query dict."""
+    return build_query(make_parser().parse_args(argv))
 
 
 def row(rid, type="concept", title="", promotion_stage=None, implementation_tier=None,
@@ -139,6 +144,58 @@ class Expansion(unittest.TestCase):
         pages = [row("C-dep", promotion_stage="concept", retrieval_status="deprecated", title="Dep")]
         edges = [{"from": "C-dep", "relation": "contradicts", "to": "C-y"}]
         self.assertEqual(rank({}, index(pages, edges=edges)).expansion, [])
+
+
+class CliQuery(unittest.TestCase):
+    def test_flags_map_to_query_dict(self):
+        self.assertEqual(
+            q(["--text", "flood", "--lifecycle", "area-selection",
+               "--tier", "synthesis", "--k", "5"]),
+            {"text": "flood", "lifecycle_stage": ["area-selection"],
+             "implementation_tier": "synthesis", "k": 5},
+        )
+
+    def test_no_flags_is_empty_query(self):
+        # omitted facets impose no constraint -> empty dict ranks everything
+        self.assertEqual(q([]), {})
+
+    def test_repeated_lifecycle_accumulates(self):
+        self.assertEqual(
+            q(["--lifecycle", "area-selection", "--lifecycle", "monitoring-learning"]),
+            {"lifecycle_stage": ["area-selection", "monitoring-learning"]},
+        )
+
+    def test_invalid_flag_exits_with_usage(self):
+        # argparse prints usage to stderr and exits(2) rather than crashing
+        with self.assertRaises(SystemExit):
+            make_parser().parse_args(["--nonexistent"])
+
+
+class CliFormat(unittest.TestCase):
+    def _one(self):
+        r = RankResult()
+        r.candidates.append({"id": "C-x", "title": "Resilience", "type": "concept",
+                             "path": "C-x.md", "promotion_stage": "concept",
+                             "bm25_score": 1.234, "inbound_degree": 3})
+        return r
+
+    def test_renders_candidate_fields(self):
+        out = format_results(self._one())
+        self.assertIn("C-x", out)
+        self.assertIn("Resilience", out)
+        self.assertIn("concept", out)
+
+    def test_empty_result_says_no_candidates(self):
+        self.assertIn("No candidates.", format_results(RankResult()))
+
+    def test_expansion_is_rendered(self):
+        r = self._one()
+        r.expansion.append({"from": "C-x", "relation": "contradicts",
+                            "to": "C-y", "to_title": "Why"})
+        out = format_results(r)
+        self.assertIn("expansion", out)
+        self.assertIn("contradicts", out)
+        self.assertIn("C-y", out)
 
 
 class LoadIndex(unittest.TestCase):

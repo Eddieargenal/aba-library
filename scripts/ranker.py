@@ -10,6 +10,7 @@ Pipeline: filter (lifecycle_stage ∩ implementation_tier) -> gate
 graph-degree) -> expand (contradicts/known_tension) -> candidate + expansion sets.
 """
 
+import argparse
 import json
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -122,3 +123,70 @@ def rank(query: Dict[str, Any], index: Dict[str, Any]) -> RankResult:
                 )
 
     return result
+
+
+# --- CLI shell ---------------------------------------------------------------
+
+INDEX_DIR = Path(__file__).resolve().parents[1] / "indexes" / "current"
+
+
+def make_parser() -> argparse.ArgumentParser:
+    """The CLI surface over rank(). Unknown/invalid flags make argparse print
+    usage and exit(2) rather than crash."""
+    p = argparse.ArgumentParser(
+        prog="ranker.py",
+        description="Query the published retrieval index from the shell.",
+    )
+    p.add_argument("--text", help="free-text query (BM25 over title + body)")
+    p.add_argument("--lifecycle", action="append", metavar="STAGE",
+                   help="lifecycle_stage facet; repeat for multiple")
+    p.add_argument("--tier", help="implementation_tier facet")
+    p.add_argument("--k", type=int, help="limit to the top K candidates")
+    p.add_argument("--index", default=str(INDEX_DIR),
+                   help="index directory to load (default: indexes/current)")
+    return p
+
+
+def build_query(args: argparse.Namespace) -> Dict[str, Any]:
+    """Map parsed CLI args to the rank() query dict, including only the facets
+    actually supplied (an omitted facet imposes no constraint)."""
+    query: Dict[str, Any] = {}
+    if args.text:
+        query["text"] = args.text
+    if args.lifecycle:
+        query["lifecycle_stage"] = args.lifecycle
+    if args.tier:
+        query["implementation_tier"] = args.tier
+    if args.k is not None:
+        query["k"] = args.k
+    return query
+
+
+def format_results(result: RankResult) -> str:
+    """Render a RankResult as readable lines for the shell."""
+    lines: List[str] = []
+    if not result.candidates:
+        lines.append("No candidates.")
+    else:
+        lines.append(f"{len(result.candidates)} candidate(s):")
+        for i, c in enumerate(result.candidates, 1):
+            lines.append(
+                f"  {i}. [{c['promotion_stage']}] {c['id']} — {c['title']} "
+                f"({c['type']})  bm25={c['bm25_score']:.3f} deg={c['inbound_degree']}"
+            )
+    if result.expansion:
+        lines.append("expansion (contradicts / known_tension):")
+        for e in result.expansion:
+            lines.append(f"  {e['from']} —{e['relation']}→ {e['to']} ({e['to_title']})")
+    return "\n".join(lines)
+
+
+def main(argv=None) -> int:
+    args = make_parser().parse_args(argv)
+    index = load_index(args.index)
+    print(format_results(rank(build_query(args), index)))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
