@@ -26,29 +26,22 @@ Then rebuild: `python3 scripts/build-index.py`. The page becomes rankable.
 **Worked example already done:** `resilience-framework` (concept / synthesis /
 limited) — now returned by the ranker.
 
-## Remaining stubs by type (8, all single-source → ceiling `limited`)
+## Remaining stubs: 0 — the promotion sweep is complete ✅
 
-Promoted so far (now rankable at `limited`): `resilience-framework`, the 4
-Young Foundation concepts, both neighbourhood frameworks, the 5 tools, and the
-3 risks (`neighbourhood-governance-capture`, `neighbourhood-governance-
-fragmentation`, `resilience-conflict-gap`).
+All 23 PU- stubs have been resolved: **22 promoted** to `limited` (4 concepts,
+2 frameworks, 5 tools, 3 risks, 7 decision-protocols, + `resilience-framework`),
+and **`enabling-environment`** retired as redundant (its page already existed and
+already cited the source finding).
 
-| type | slug | target |
-|---|---|---|
-| concept | enabling-environment | ⚠️ target **already exists** — merge, don't create |
-| decision-protocol | introduce-resilience-framework | wiki/aba/09-decision-protocols/introduce-resilience-framework.md |
-| decision-protocol | neighbourhood-governance-selection | wiki/aba/09-decision-protocols/neighbourhood-governance-selection.md |
-| decision-protocol | neighbourhood-scale-selection | wiki/aba/09-decision-protocols/neighbourhood-scale-selection.md |
-| decision-protocol | post-disaster-resilience-priorities | wiki/aba/09-decision-protocols/post-disaster-resilience-priorities.md |
-| decision-protocol | prioritize-resilience-interventions | wiki/aba/09-decision-protocols/prioritize-resilience-interventions.md |
-| decision-protocol | refine-indicators-from-characteristics | wiki/aba/09-decision-protocols/refine-indicators-from-characteristics.md |
-| decision-protocol | service-devolution-conditions | wiki/aba/09-decision-protocols/service-devolution-conditions.md |
+The vault went from **2 rankable pages to 24**. Every promoted page is at
+`limited` (single-source ceiling). Decision-protocols carry `orphan_page`
+warnings by design — they are invoked by advisory-playbooks, which do not exist
+yet; inbound links arrive when that layer is authored.
 
-## Recommended sequence
+## What remains for #13 (not stub promotion)
 
-1. **Concepts first** (foundational; other types reference them).
-2. Resolve the `enabling-environment` merge case separately (its page exists).
-3. Then frameworks → tools → decision-protocols → risks, promoting where the
-   single source genuinely supports the claim.
-4. **To lift any topic to `usable`:** ingest a corroborating second source, then
-   re-promote at `--status usable`.
+1. **Lift topics to `usable`:** every promoted page is single-source. Ingest a
+   corroborating second source for a topic, then re-promote at `--status usable`.
+2. **Author advisory-playbooks** that invoke the decision-protocols (clears their
+   orphan warnings, and builds the operational layer).
+3. **Enrich inbound links** further as the graph matures.

@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-06-21T121704Z",
+  "build_id": "2026-06-21T122726Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -89,6 +89,34 @@
     {
       "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md",
       "warning": "orphan_page:S-2026-iasc-standard-terms-reference-area-based-coordination-tor"
+    },
+    {
+      "path": "09-decision-protocols/introduce-resilience-framework.md",
+      "warning": "orphan_page:D-introduce-resilience-framework"
+    },
+    {
+      "path": "09-decision-protocols/neighbourhood-governance-selection.md",
+      "warning": "orphan_page:D-neighbourhood-governance-selection"
+    },
+    {
+      "path": "09-decision-protocols/neighbourhood-scale-selection.md",
+      "warning": "orphan_page:D-neighbourhood-scale-selection"
+    },
+    {
+      "path": "09-decision-protocols/post-disaster-resilience-priorities.md",
+      "warning": "orphan_page:D-post-disaster-resilience-priorities"
+    },
+    {
+      "path": "09-decision-protocols/prioritize-resilience-interventions.md",
+      "warning": "orphan_page:D-prioritize-resilience-interventions"
+    },
+    {
+      "path": "09-decision-protocols/refine-indicators-from-characteristics.md",
+      "warning": "orphan_page:D-refine-indicators-from-characteristics"
+    },
+    {
+      "path": "09-decision-protocols/service-devolution-conditions.md",
+      "warning": "orphan_page:D-service-devolution-conditions"
     },
     {
       "path": "02-concepts/enabling-environment.md",
