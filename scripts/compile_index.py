@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from schema import REL_FIELDS, TERMINAL_FINDING_STATUS
-from lint_rules import GraphCtx, RuleCtx, run_graph_rules, run_rules
+from lint_rules import GraphCtx, RuleCtx, run_graph_rules, run_rules, source_ids_in_section_index
 from bm25 import build_term_index
 
 
@@ -164,6 +164,26 @@ def compile_index(
     raw_edges: List[Dict[str, Any]] = []
     term_docs: List[Tuple[str, str]] = []
 
+    # The source ids the section index will hold, computed up front so the
+    # per-page source_basis-resolution rule can flag references to sources that
+    # do not exist in the corpus. Page id is derived as below (explicit id, else
+    # normalized source_id) and gated on having sections, matching what
+    # populates section_rows. Injected into each RuleCtx like the `today` clock.
+    def _section_index_id(fm: dict) -> Optional[str]:
+        pid = fm.get("id")
+        if not pid and fm.get("type") == "source" and fm.get("source_id"):
+            pid = normalize_source_id(str(fm.get("source_id")))
+        return pid
+
+    known_source_ids = source_ids_in_section_index(
+        {"page_id": _section_index_id(p.frontmatter)}
+        for p in pages
+        if p.frontmatter
+        and not p.frontmatter.get("_yaml_error")
+        and isinstance(p.frontmatter.get("sections"), list)
+        and p.frontmatter.get("sections")
+    )
+
     for page in pages:
         fm = page.frontmatter
         if fm.get("_yaml_error"):
@@ -187,7 +207,8 @@ def compile_index(
             )
 
         ptype = str(fm.get("type", "")).strip()
-        ctx = RuleCtx(rel_path=page.rel_path, fm=fm, page_id=page_id, ptype=ptype, today=today)
+        ctx = RuleCtx(rel_path=page.rel_path, fm=fm, page_id=page_id, ptype=ptype,
+                      today=today, known_source_ids=known_source_ids)
         for issue in run_rules(ctx):
             if issue.severity == "critical":
                 result.critical.append({"path": page.rel_path, "error": issue.code})
