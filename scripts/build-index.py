@@ -48,6 +48,8 @@ ARTIFACTS = [
     "source-evidence-index.jsonl",
     "lint-report.json",
     "routing-report.json",
+    "graph-degree.jsonl",
+    "term-index.json",
 ]
 
 
@@ -115,6 +117,11 @@ def main() -> int:
     write_jsonl(build_dir / "source-evidence-index.jsonl", result.evidence_rows)
     write_json(build_dir / "lint-report.json", lint_report)
     write_json(build_dir / "routing-report.json", routing_report)
+    write_jsonl(
+        build_dir / "graph-degree.jsonl",
+        [{"id": pid, "inbound_degree": deg} for pid, deg in sorted(result.inbound_degree.items())],
+    )
+    write_json(build_dir / "term-index.json", result.term_index)
 
     publish_allowed = len(result.critical) == 0 and (not args.strict or len(result.warnings) == 0)
     if publish_allowed:

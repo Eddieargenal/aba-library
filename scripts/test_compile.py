@@ -184,6 +184,24 @@ class SectionRanges(unittest.TestCase):
         self.assertIn("missing_sections", warning_codes(result))
 
 
+class DegreeCentrality(unittest.TestCase):
+    def test_inbound_degree_counts_inbound_edges(self):
+        pages = [
+            page("C-x", related_concepts=["C-y"], title="X", retrieval_status="draft"),
+            page("C-y", title="Y", retrieval_status="draft"),
+        ]
+        self.assertEqual(compile(pages).inbound_degree, {"C-x": 0, "C-y": 1})
+
+
+class TermIndex(unittest.TestCase):
+    def test_term_index_built_from_title_and_body(self):
+        p = page("C-x", title="Resilience", retrieval_status="draft", body="flood risk flood")
+        idx = compile([p]).term_index
+        self.assertEqual(idx["doc_count"], 1)
+        self.assertEqual(idx["postings"]["flood"]["C-x"], 2)
+        self.assertIn("resilience", idx["postings"])  # title is indexed too
+
+
 class DeprecatedTargetLinked(unittest.TestCase):
     def test_active_playbook_linking_deprecated_page_warns(self):
         pages = [

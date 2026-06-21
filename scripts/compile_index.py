@@ -22,6 +22,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from schema import REL_FIELDS, TERMINAL_FINDING_STATUS
 from lint_rules import GraphCtx, RuleCtx, run_graph_rules, run_rules
+from bm25 import build_term_index
 
 
 @dataclass
@@ -42,6 +43,10 @@ class BuildResult:
     routing_pending: List[Dict[str, Any]] = field(default_factory=list)
     critical: List[Dict[str, Any]] = field(default_factory=list)
     warnings: List[Dict[str, Any]] = field(default_factory=list)
+    # Ranker inputs (ADR-0002): per-page inbound-link count (centrality) and a
+    # BM25 term index over title + body.
+    inbound_degree: Dict[str, int] = field(default_factory=dict)
+    term_index: Dict[str, Any] = field(default_factory=dict)
 
     @property
     def status(self) -> str:
@@ -136,6 +141,7 @@ def compile_index(
     id_to_page: Dict[str, Page] = {}
     duplicate_ids = set()
     raw_edges: List[Dict[str, Any]] = []
+    term_docs: List[Tuple[str, str]] = []
 
     for page in pages:
         fm = page.frontmatter
@@ -211,6 +217,8 @@ def compile_index(
             row["composite_authority"] = fm.get("composite_authority")
             row["comparison_readiness"] = fm.get("comparison_readiness")
         result.page_rows.append(row)
+        if page_id:
+            term_docs.append((page_id, f"{fm.get('title') or ''}\n{page.body}"))
 
         if ptype == "source":
             for finding in fm.get("findings", []) or []:
@@ -279,6 +287,8 @@ def compile_index(
                 }
             )
 
+    result.inbound_degree = inbound_counts
+
     # Cross-page validation runs through the graph rule registry (lint_rules.py),
     # peer to the per-page registry. Issues carry their own path.
     graph_ctx = GraphCtx(
@@ -313,5 +323,7 @@ def compile_index(
                         }
                     )
                 row["cited_sources"] = cited_out
+
+    result.term_index = build_term_index(term_docs)
 
     return result
