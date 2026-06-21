@@ -21,7 +21,14 @@ import re
 import sys
 from pathlib import Path
 
-from schema import ID_PREFIX_BY_TYPE, LIFECYCLE_VOCAB, RETRIEVAL_STATUS_VOCAB  # noqa: E402
+from schema import (  # noqa: E402
+    CROSS_CUTTING_TOPICS_VOCAB,
+    ID_PREFIX_BY_TYPE,
+    IMPLEMENTATION_TIER_VOCAB,
+    LIFECYCLE_VOCAB,
+    PROMOTION_STAGE_VOCAB,
+    RETRIEVAL_STATUS_VOCAB,
+)
 
 VAULT = Path(__file__).resolve().parents[1]
 SCAN_DIRS = [VAULT / "governance"]
@@ -31,6 +38,9 @@ KEYS = {
     "retrieval_status": ("set", RETRIEVAL_STATUS_VOCAB),
     "lifecycle_stage": ("set", LIFECYCLE_VOCAB),
     "id_prefix": ("map", ID_PREFIX_BY_TYPE),
+    "promotion_stage": ("set", PROMOTION_STAGE_VOCAB),
+    "implementation_tier": ("set", IMPLEMENTATION_TIER_VOCAB),
+    "cross_cutting_topics": ("set", CROSS_CUTTING_TOPICS_VOCAB),
 }
 
 BLOCK_RE = re.compile(r"^```schema:([a-z_]+)\s*$(.*?)^```\s*$", re.DOTALL | re.MULTILINE)
@@ -61,46 +71,60 @@ def diff_map(doc: dict, schema: dict):
     return missing, extra, mismatched
 
 
+def _diff_messages(key: str, body: str):
+    """Return drift messages for one recognised schema block (empty list if clean)."""
+    kind, schema_obj = KEYS[key]
+    doc = parse_block(key, body)
+    msgs = []
+    if kind == "set":
+        missing, extra = diff_set(doc, schema_obj)
+    else:
+        missing, extra, mismatched = diff_map(doc, schema_obj)
+    if missing:
+        msgs.append(f"missing from doc: {missing}")
+    if extra:
+        msgs.append(f"extra in doc (not in schema): {extra}")
+    if kind == "map" and mismatched:
+        msgs.append(f"prefix mismatch: {mismatched}")
+    return msgs
+
+
+def run(dirs, strict=False):
+    """Scan dirs for *.md and diff every ```schema:<key>``` block against schema.py.
+
+    Returns (drift_records, exit_code). drift_records is a list of
+    (rel_path, key, messages); clean blocks are not recorded. Pure and
+    side-effect-free so it can be tested directly. exit_code is 1 only when
+    drift exists AND strict is set; otherwise 0.
+    """
+    drift = []
+    for d in dirs:
+        d = Path(d)
+        for path in sorted(d.rglob("*.md")):
+            text = path.read_text(encoding="utf-8")
+            for m in BLOCK_RE.finditer(text):
+                key, body = m.group(1), m.group(2)
+                try:
+                    rel = path.relative_to(VAULT).as_posix()
+                except ValueError:
+                    rel = path.relative_to(d).as_posix()
+                if key not in KEYS:
+                    drift.append((rel, key, [f"unknown schema key '{key}'"]))
+                    continue
+                msgs = _diff_messages(key, body)
+                if msgs:
+                    drift.append((rel, key, msgs))
+    exit_code = 1 if (drift and strict) else 0
+    return drift, exit_code
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--strict", action="store_true", help="exit 1 if any drift is found")
     args = ap.parse_args()
 
-    md_files = sorted(p for d in SCAN_DIRS for p in d.rglob("*.md"))
-    drift = []
-    checked = 0
-
-    for path in md_files:
-        text = path.read_text(encoding="utf-8")
-        for m in BLOCK_RE.finditer(text):
-            key, body = m.group(1), m.group(2)
-            if key not in KEYS:
-                drift.append((path, key, [f"unknown schema key '{key}'"]))
-                continue
-            checked += 1
-            rel = path.relative_to(VAULT).as_posix()
-            kind, schema_obj = KEYS[key]
-            doc = parse_block(key, body)
-            if kind == "set":
-                missing, extra = diff_set(doc, schema_obj)
-                msgs = []
-                if missing:
-                    msgs.append(f"missing from doc: {missing}")
-                if extra:
-                    msgs.append(f"extra in doc (not in schema): {extra}")
-                if msgs:
-                    drift.append((rel, key, msgs))
-            else:
-                missing, extra, mismatched = diff_map(doc, schema_obj)
-                msgs = []
-                if missing:
-                    msgs.append(f"missing from doc: {missing}")
-                if extra:
-                    msgs.append(f"extra in doc (not in schema): {extra}")
-                if mismatched:
-                    msgs.append(f"prefix mismatch: {mismatched}")
-                if msgs:
-                    drift.append((rel, key, msgs))
+    n_docs = sum(1 for d in SCAN_DIRS for _ in Path(d).rglob("*.md"))
+    drift, exit_code = run(SCAN_DIRS, strict=args.strict)
 
     if drift:
         print(f"SCHEMA DRIFT — {len(drift)} block(s) disagree with scripts/schema.py:\n")
@@ -108,11 +132,11 @@ def main() -> int:
             print(f"  {rel}  [schema:{key}]")
             for msg in msgs:
                 print(f"      - {msg}")
-        print(f"\n{checked} block(s) checked, {len(drift)} drifted.")
+        print(f"\n{len(drift)} block(s) drifted across {n_docs} docs.")
     else:
-        print(f"OK — {checked} schema block(s) match scripts/schema.py across {len(md_files)} docs.")
+        print(f"OK — no schema drift across {n_docs} docs.")
 
-    return 1 if (drift and args.strict) else 0
+    return exit_code
 
 
 if __name__ == "__main__":

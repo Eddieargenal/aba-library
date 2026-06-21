@@ -207,7 +207,15 @@ def compile_index(
             "lifecycle_stage": fm.get("lifecycle_stage", []),
             "primary_topics": fm.get("primary_topics", []),
             "retrieval_status": fm.get("retrieval_status"),
+            # ADR-0001 classification axes: always present (null when undeclared)
+            # so the ranker can read promotion_stage and filter by tier.
+            "promotion_stage": fm.get("promotion_stage"),
+            "implementation_tier": fm.get("implementation_tier"),
         }
+        # cross_cutting_topics (ADR-0003) is optional: surface it only when the
+        # page declares it, so rows stay clean for the pages that don't.
+        if "cross_cutting_topics" in fm:
+            row["cross_cutting_topics"] = fm.get("cross_cutting_topics")
         if ptype == "source":
             row["primary_context"] = fm.get("primary_context")
             row["urban_applicability"] = fm.get("urban_applicability")

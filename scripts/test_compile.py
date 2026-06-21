@@ -221,5 +221,36 @@ class DeprecatedTargetLinked(unittest.TestCase):
         self.assertNotIn("deprecated_target_linked:C-dep", warning_codes(result))
 
 
+class ClassificationAxes(unittest.TestCase):
+    def _row(self, result, page_id):
+        return next(r for r in result.page_rows if r["id"] == page_id)
+
+    def test_row_carries_declared_promotion_stage_and_tier(self):
+        p = page("F-x", ptype="framework", title="X", retrieval_status="usable",
+                 promotion_stage="framework", implementation_tier="synthesis")
+        row = self._row(compile([p]), "F-x")
+        self.assertEqual(row["promotion_stage"], "framework")
+        self.assertEqual(row["implementation_tier"], "synthesis")
+
+    def test_row_axes_default_to_none_when_undeclared(self):
+        p = page("C-x", title="X", retrieval_status="draft")
+        row = self._row(compile([p]), "C-x")
+        self.assertIn("promotion_stage", row)
+        self.assertIn("implementation_tier", row)
+        self.assertIsNone(row["promotion_stage"])
+        self.assertIsNone(row["implementation_tier"])
+
+    def test_row_includes_cross_cutting_topics_when_declared(self):
+        p = page("F-x", ptype="framework", title="X", retrieval_status="usable",
+                 cross_cutting_topics=["relational-trust", "co-design"])
+        row = self._row(compile([p]), "F-x")
+        self.assertEqual(row["cross_cutting_topics"], ["relational-trust", "co-design"])
+
+    def test_row_omits_cross_cutting_topics_when_absent(self):
+        p = page("C-x", title="X", retrieval_status="draft")
+        row = self._row(compile([p]), "C-x")
+        self.assertNotIn("cross_cutting_topics", row)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

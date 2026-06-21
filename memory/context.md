@@ -23,7 +23,7 @@ Consolidating two knowledge bases into one vault: personal agent infrastructure 
 
 ## Key Infrastructure
 
-- ✅ Vault path: `/Users/eddieargenal/Documents/obsidian-vault`
+- ✅ Vault path: `/Users/eddieargenal/Documents/aba-library`
 - ✅ Git-tracked: vault is under version control
 - ✅ ABA wiki: `wiki/aba/` — 210 .md files, 13 sections, humanitarian domain knowledge
 
