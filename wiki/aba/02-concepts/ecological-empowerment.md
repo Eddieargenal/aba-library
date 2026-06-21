@@ -12,6 +12,8 @@ primary_topics:
 related_concepts:
 - C-local-public-realm
 - C-neighbourhood-scales
+related_frameworks:
+- F-neighbourhood-attributes-framework
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-CONCEPT-006

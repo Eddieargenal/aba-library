@@ -12,6 +12,8 @@ primary_topics:
 related_concepts:
 - C-neighbourliness
 - C-local-public-realm
+related_frameworks:
+- F-neighbourhood-definition-framework
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-TYPOLOGY-002

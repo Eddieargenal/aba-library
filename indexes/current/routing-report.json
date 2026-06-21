@@ -1,6 +1,6 @@
 {
-  "build_id": "2026-06-21T115801Z",
-  "pending_finding_count": 95,
+  "build_id": "2026-06-21T120313Z",
+  "pending_finding_count": 93,
   "unrouted_finding_count": 22,
   "pending_findings": [
     {
@@ -163,17 +163,6 @@
     },
     {
       "source_id": "S-youngfoundation2010",
-      "finding_id": "F-002",
-      "status": "pending",
-      "integration_action": "create-framework",
-      "human_review_required": true,
-      "candidate_target_pages": [
-        "wiki/aba/03-frameworks/neighbourhood-definition-framework.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-youngfoundation2010",
       "finding_id": "F-005",
       "status": "pending",
       "integration_action": "enrich-concept",
@@ -184,17 +173,6 @@
       "unsatisfied_target_pages": [
         "wiki/aba/02-concepts/neighbourhood-boundaries.md"
       ]
-    },
-    {
-      "source_id": "S-youngfoundation2010",
-      "finding_id": "F-006",
-      "status": "pending",
-      "integration_action": "create-framework",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/03-frameworks/neighbourhood-attributes-framework.md"
-      ],
-      "unsatisfied_target_pages": []
     },
     {
       "source_id": "S-youngfoundation2010",
