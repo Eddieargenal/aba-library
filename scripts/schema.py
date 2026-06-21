@@ -12,6 +12,15 @@ carry the same lists inside ```schema:<key>``` fenced blocks; `check-schema.py`
 verifies those blocks against the tables below (non-blocking).
 """
 
+# --- Schema generation -------------------------------------------------------
+
+# The data-model generation this module encodes. Single source of truth: the
+# build stamps it into every manifest, and rule_schema_version flags pages that
+# declare a different generation. Keep in lockstep with the version: header in
+# governance/schema/*.md when the model changes.
+SCHEMA_VERSION = "2.7"
+
+
 # --- Controlled vocabularies -------------------------------------------------
 
 # schema:retrieval_status

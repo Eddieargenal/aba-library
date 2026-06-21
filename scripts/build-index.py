@@ -38,6 +38,7 @@ CURRENT_DIR = INDEXES_DIR / "current"
 # filesystem/clock shell around it.
 from compile_index import compile_index  # noqa: E402  (sibling module on sys.path)
 from pages import read_pages  # noqa: E402  (filesystem -> Page seam)
+from schema import SCHEMA_VERSION  # noqa: E402  (data-model generation stamp)
 
 ARTIFACTS = [
     "manifest.json",
@@ -85,6 +86,7 @@ def main() -> int:
 
     manifest = {
         "build_id": build_id,
+        "schema_version": SCHEMA_VERSION,
         "build_status": result.status,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "page_count": len(result.page_rows),
