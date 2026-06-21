@@ -93,6 +93,9 @@ def main() -> int:
         "pending_finding_count": len(result.routing_pending),
         "critical_error_count": len(result.critical),
         "warning_count": len(result.warnings),
+        # Advisory index-health metrics (orphan/ghost/stale %). Observability
+        # only — does NOT gate publication (see #28).
+        "health": result.health,
         "active": False,
     }
 
@@ -145,6 +148,7 @@ def main() -> int:
         "critical_error_count": len(result.critical),
         "warning_count": len(result.warnings),
         "pending_finding_count": len(result.routing_pending),
+        "health": result.health,
     }))
     return 0 if publish_allowed else 2
 
