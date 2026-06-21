@@ -12,7 +12,9 @@ filesystem, no JSON read-back. The seam that build-index.py's main() lacked.
 import unittest
 from pathlib import Path
 
-from compile_index import BuildResult, Page, compile_index
+from datetime import date
+
+from compile_index import BuildResult, Page, compile_index, index_health
 
 
 def page(page_id=None, ptype="concept", body="", **fm):
@@ -163,6 +165,59 @@ class OrphanPage(unittest.TestCase):
         # C-x points at C-y but nothing points at C-x
         self.assertIn("orphan_page:C-x", warning_codes(result))
         self.assertNotIn("orphan_page:C-y", warning_codes(result))
+
+
+class IndexHealth(unittest.TestCase):
+    def test_percentages_from_counts(self):
+        h = index_health(page_count=4, orphan_count=1, edge_count=3,
+                         unresolved_edge_count=1, stale_count=2)
+        self.assertEqual(h["orphan_pct"], 25.0)            # 1/4
+        self.assertEqual(h["ghost_pct"], 25.0)             # 1/(3+1) edges
+        self.assertEqual(h["stale_pct"], 50.0)             # 2/4
+
+    def test_empty_index_is_zero_not_divide_error(self):
+        h = index_health(page_count=0, orphan_count=0, edge_count=0,
+                         unresolved_edge_count=0, stale_count=0)
+        self.assertEqual((h["orphan_pct"], h["ghost_pct"], h["stale_pct"]), (0.0, 0.0, 0.0))
+
+    def test_compile_populates_health_with_orphans(self):
+        # C-x -> C-y; nothing points at C-x, so 1 of 2 pages is an orphan
+        pages = [
+            page("C-x", related_concepts=["C-y"], title="X", retrieval_status="draft"),
+            page("C-y", title="Y", retrieval_status="draft"),
+        ]
+        h = compile(pages).health
+        self.assertEqual(h["page_count"], 2)
+        self.assertEqual(h["orphan_count"], 1)
+        self.assertEqual(h["orphan_pct"], 50.0)
+        self.assertEqual(h["ghost_pct"], 0.0)
+
+    def test_compile_health_reflects_ghost_edges(self):
+        # C-x points at C-z which does not exist: 1 of 1 edges is a ghost
+        pages = [page("C-x", related_concepts=["C-z"], title="X", retrieval_status="draft")]
+        h = compile(pages).health
+        self.assertEqual(h["ghost_edge_count"], 1)
+        self.assertEqual(h["ghost_pct"], 100.0)
+
+    def test_compile_health_counts_stale_pages(self):
+        # last_reviewed older than the staleness threshold counts as stale;
+        # recent and never-reviewed pages do not.
+        TODAY = date(2026, 6, 21)
+        pages = [
+            page("C-old", title="Old", retrieval_status="draft", last_reviewed="2025-01-01"),
+            page("C-new", title="New", retrieval_status="draft", last_reviewed="2026-06-01"),
+            page("C-none", title="None", retrieval_status="draft"),
+        ]
+        h = compile_index(pages, target_exists=lambda p: True, today=TODAY).health
+        self.assertEqual(h["page_count"], 3)
+        self.assertEqual(h["stale_count"], 1)
+        self.assertEqual(h["stale_pct"], 33.3)
+
+    def test_compile_health_stale_needs_clock(self):
+        # no injected clock -> staleness can't be computed, so nothing is stale
+        pages = [page("C-old", title="Old", retrieval_status="draft", last_reviewed="2000-01-01")]
+        h = compile_index(pages, target_exists=lambda p: True, today=None).health
+        self.assertEqual(h["stale_count"], 0)
 
 
 class Status(unittest.TestCase):

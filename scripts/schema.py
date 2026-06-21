@@ -72,6 +72,11 @@ CROSS_CUTTING_TOPICS_VOCAB = {
 CONTRADICTION_AGING_WARN_DAYS = 30
 CONTRADICTION_AGING_BLOCK_DAYS = 90
 
+# Review-staleness threshold, in days: a page whose last_reviewed is older than
+# this counts toward the advisory stale% index-health metric. Informational only
+# (distinct from the contradiction-aging thresholds, which block).
+STALE_REVIEW_DAYS = 180
+
 # --- Required-field tables ---------------------------------------------------
 
 STRICT_REQUIRED = ["id", "type", "title", "retrieval_status"]

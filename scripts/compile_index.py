@@ -20,7 +20,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
-from schema import REL_FIELDS, TERMINAL_FINDING_STATUS
+from schema import REL_FIELDS, STALE_REVIEW_DAYS, TERMINAL_FINDING_STATUS
 from lint_rules import GraphCtx, RuleCtx, run_graph_rules, run_rules, source_ids_in_section_index
 from bm25 import build_term_index
 
@@ -47,6 +47,8 @@ class BuildResult:
     # BM25 term index over title + body.
     inbound_degree: Dict[str, int] = field(default_factory=dict)
     term_index: Dict[str, Any] = field(default_factory=dict)
+    # Advisory index-health metrics (orphan/ghost/stale %). See index_health().
+    health: Dict[str, Any] = field(default_factory=dict)
 
     @property
     def status(self) -> str:
@@ -143,6 +145,37 @@ def unsatisfied_targets(
     if act.startswith("create"):
         return [p for p in paths if target_exists(p)]
     return []
+
+
+def index_health(
+    *,
+    page_count: int,
+    orphan_count: int,
+    edge_count: int,
+    unresolved_edge_count: int,
+    stale_count: int,
+) -> Dict[str, Any]:
+    """Advisory index-health metrics, as percentages plus the raw counts they
+    derive from. Pure: callers supply the counts (compile_index does the
+    graph/date work). Empty denominators yield 0.0, never a divide error.
+
+      orphan_pct — ided pages with zero inbound edges, over all ided pages.
+      ghost_pct  — unresolved (dangling) edges, over all edges (valid + ghost).
+      stale_pct  — pages whose last_reviewed is older than the staleness
+                   threshold, over all ided pages.
+    """
+    def pct(n: int, d: int) -> float:
+        return round(100.0 * n / d, 1) if d else 0.0
+
+    return {
+        "orphan_pct": pct(orphan_count, page_count),
+        "ghost_pct": pct(unresolved_edge_count, edge_count + unresolved_edge_count),
+        "stale_pct": pct(stale_count, page_count),
+        "page_count": page_count,
+        "orphan_count": orphan_count,
+        "ghost_edge_count": unresolved_edge_count,
+        "stale_count": stale_count,
+    }
 
 
 def compile_index(
@@ -338,6 +371,29 @@ def compile_index(
             )
 
     result.inbound_degree = inbound_counts
+
+    # Staleness needs the clock; with no clock injected it can't be computed, so
+    # nothing counts as stale (mirrors the contradiction-aging rule's skip).
+    stale_count = 0
+    if today is not None:
+        for pg in id_to_page.values():
+            lr = pg.frontmatter.get("last_reviewed")
+            if not lr:
+                continue
+            try:
+                reviewed = date.fromisoformat(str(lr).strip())
+            except ValueError:
+                continue
+            if (today - reviewed).days > STALE_REVIEW_DAYS:
+                stale_count += 1
+
+    result.health = index_health(
+        page_count=len(inbound_counts),
+        orphan_count=sum(1 for c in inbound_counts.values() if c == 0),
+        edge_count=len(result.valid_edges),
+        unresolved_edge_count=len(result.unresolved_edges),
+        stale_count=stale_count,
+    )
 
     # Cross-page validation runs through the graph rule registry (lint_rules.py),
     # peer to the per-page registry. Issues carry their own path.
