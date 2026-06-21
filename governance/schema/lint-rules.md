@@ -31,6 +31,10 @@ is observed via `manifest.health`, not enforced as a publish gate.
   field-instrument, risk, decision-protocol
 - Declared `sections` anchor missing in page body (`section_error:missing_anchor:{id}`)
 - `sections:` field present but not a list (`sections_not_list`)
+- `gate_state` declared and not `cleared` — a page awaiting a human-review gate
+  (`gate_pending:{value}`), or an unrecognized gate value (`invalid_gate_state:{value}`,
+  fail-closed). The field is optional; absence imposes no constraint
+  (see `human-review-gates.md`).
 
 ## High Warnings (recorded, do not block)
 

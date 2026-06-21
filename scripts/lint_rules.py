@@ -30,6 +30,8 @@ from schema import (
     LIFECYCLE_REQUIRED_TYPES,
     LIFECYCLE_VOCAB,
     MAX_PRIMARY_TOPICS,
+    GATE_STATE_CLEARED,
+    GATE_STATE_VOCAB,
     PROMOTION_STAGE_VOCAB,
     RETRIEVAL_STATUS_VOCAB,
     SCHEMA_VERSION,
@@ -100,6 +102,21 @@ def rule_retrieval_status_vocab(ctx: RuleCtx) -> List[Issue]:
 def rule_source_basis_usable(ctx: RuleCtx) -> List[Issue]:
     if ctx.ptype in TECHNICAL_TYPES and ctx.rs_val == "usable" and not ctx.fm.get("source_basis"):
         return [Issue(CRITICAL, "missing_source_basis_usable")]
+    return []
+
+
+def rule_gate_state(ctx: RuleCtx) -> List[Issue]:
+    """A page declaring a human-review gate_state that is not 'cleared' is not
+    publishable: pending blocks publish (fail-closed). Absence imposes no
+    constraint (the gates remain a review process for unannotated pages)."""
+    gs = ctx.fm.get("gate_state")
+    if gs is None:
+        return []
+    v = str(gs).strip()
+    if v not in GATE_STATE_VOCAB:
+        return [Issue(CRITICAL, f"invalid_gate_state:{v}")]
+    if v != GATE_STATE_CLEARED:
+        return [Issue(CRITICAL, f"gate_pending:{v}")]
     return []
 
 
@@ -353,6 +370,7 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_lifecycle_required,
     rule_retrieval_status_vocab,
     rule_source_basis_usable,
+    rule_gate_state,
     rule_schema_version,
     rule_source_basis_resolves,
     rule_lifecycle_vocab,

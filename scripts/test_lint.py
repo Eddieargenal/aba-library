@@ -31,6 +31,7 @@ from lint_rules import (
     rule_source_basis_usable,
     rule_schema_version,
     rule_source_basis_resolves,
+    rule_gate_state,
     source_ids_in_section_index,
     rule_tool_related_risks,
     run_graph_rules,
@@ -248,6 +249,25 @@ class SourceBasisResolves(unittest.TestCase):
         self.assertEqual(source_ids_in_section_index(rows), {"S-a", "S-b"})
 
 
+class GateState(unittest.TestCase):
+    def test_pending_gate_is_critical_blocking(self):
+        issues = rule_gate_state(ctx(fm={"gate_state": "awaiting-gate-b"}))
+        self.assertEqual(codes(issues), ["gate_pending:awaiting-gate-b"])
+        self.assertEqual(issues[0].severity, "critical")
+
+    def test_cleared_is_clean(self):
+        self.assertEqual(rule_gate_state(ctx(fm={"gate_state": "cleared"})), [])
+
+    def test_absent_is_clean(self):
+        # unannotated pages keep the review-process model; no constraint imposed
+        self.assertEqual(rule_gate_state(ctx(fm={})), [])
+
+    def test_unrecognized_value_is_critical_invalid(self):
+        issues = rule_gate_state(ctx(fm={"gate_state": "bogus"}))
+        self.assertEqual(codes(issues), ["invalid_gate_state:bogus"])
+        self.assertEqual(issues[0].severity, "critical")
+
+
 class Prefix(unittest.TestCase):
     def test_mismatch(self):
         c = ctx(page_id="T-foo", ptype="concept")
@@ -287,6 +307,10 @@ class Registry(unittest.TestCase):
     def test_run_rules_includes_schema_version(self):
         c = ctx(fm={"schema_version": "9.9"}, ptype="concept", page_id="C-x")
         self.assertIn("schema_version_mismatch:9.9", codes(run_rules(c)))
+
+    def test_run_rules_includes_gate_state(self):
+        c = ctx(fm={"gate_state": "awaiting-gate-b"}, ptype="concept", page_id="C-x")
+        self.assertIn("gate_pending:awaiting-gate-b", codes(run_rules(c)))
 
     def test_run_rules_includes_source_basis_resolution(self):
         c = ctx(fm={"source_basis": [{"source_id": "S-ghost"}]},

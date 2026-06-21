@@ -200,6 +200,22 @@ deprecated
 draft
 ```
 
+## Gate State (optional)
+
+`gate_state` records a page's position in the human-review gates
+(`human-review-gates.md`). The field is **optional**; when present it is
+enforced at publish (`scripts/schema.py:GATE_STATE_VOCAB`,
+`rule_gate_state`). A value other than `cleared` blocks publish
+(`gate_pending:…`); an unrecognized value is rejected (`invalid_gate_state:…`).
+
+```yaml
+gate_state: cleared          # all required gates passed (publishable)
+# gate_state: awaiting-gate-a   # blocks publish until cleared
+# gate_state: awaiting-gate-b
+# gate_state: awaiting-gate-c
+# gate_state: awaiting-gate-d
+```
+
 ## Additional Known-Tension Fields
 
 ```yaml
