@@ -68,9 +68,9 @@ findings:
     source_pages: ["p. 13–14", "p. 17–21"]
     candidate_target_pages:
       - wiki/aba/02-concepts/local-public-realm.md
-    integration_action: create-concept
+    integration_action: enrich-concept
     field_query_trigger: not-applicable
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-004
@@ -80,9 +80,9 @@ findings:
     source_pages: ["p. 15–16"]
     candidate_target_pages:
       - wiki/aba/02-concepts/neighbourhood-scales.md
-    integration_action: create-concept
+    integration_action: enrich-concept
     field_query_trigger: not-applicable
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-005
@@ -140,9 +140,9 @@ findings:
     source_pages: ["p. 35"]
     candidate_target_pages:
       - wiki/aba/02-concepts/ecological-empowerment.md
-    integration_action: create-concept
+    integration_action: enrich-concept
     field_query_trigger: not-applicable
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-010
