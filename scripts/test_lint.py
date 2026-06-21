@@ -13,6 +13,7 @@ from datetime import date
 from lint_rules import (
     GraphCtx,
     RuleCtx,
+    rule_contradiction_disclosure,
     rule_deprecated_target_linked,
     rule_duplicate_ids,
     rule_finding_target_folder,
@@ -449,6 +450,36 @@ class ContradictionAging(unittest.TestCase):
         self.assertEqual(rule_contradiction_aging(c), [])
 
 
+class GraphContradictionDisclosure(unittest.TestCase):
+    def _ctx(self, edges):
+        return gctx(
+            id_to_page={"C-a": FakePage("a.md"), "C-b": FakePage("b.md")},
+            valid_edges=edges,
+        )
+
+    def test_asymmetric_contradicts_flags_the_silent_side(self):
+        # C-a discloses a contradiction with C-b; C-b does not reciprocate
+        issues = rule_contradiction_disclosure(
+            self._ctx([{"from": "C-a", "relation": "contradicts", "to": "C-b"}]))
+        self.assertEqual(codes(issues), ["undisclosed_contradiction:C-b:C-a"])
+        self.assertEqual(issues[0].severity, "warning")
+        self.assertEqual(issues[0].path, "b.md")
+
+    def test_mutual_contradiction_is_clean(self):
+        issues = rule_contradiction_disclosure(self._ctx([
+            {"from": "C-a", "relation": "contradicts", "to": "C-b"},
+            {"from": "C-b", "relation": "contradicts", "to": "C-a"},
+        ]))
+        self.assertEqual(issues, [])
+
+    def test_non_contradicts_relation_is_ignored(self):
+        # a one-sided related_concept edge is not a contradiction to disclose
+        issues = rule_contradiction_disclosure(self._ctx([
+            {"from": "C-a", "relation": "related_concept", "to": "C-b"},
+        ]))
+        self.assertEqual(issues, [])
+
+
 class GraphRegistry(unittest.TestCase):
     def test_run_graph_rules_orders_critical_then_warnings(self):
         ctx = gctx(
@@ -460,6 +491,13 @@ class GraphRegistry(unittest.TestCase):
         got = codes(run_graph_rules(ctx))
         # duplicate (critical) precedes orphan then ghost (warnings)
         self.assertEqual(got, ["duplicate_id:C-x", "orphan_page:C-x", "ghost_node:C-z"])
+
+    def test_run_graph_rules_includes_contradiction_disclosure(self):
+        ctx = gctx(
+            id_to_page={"C-a": FakePage("a.md"), "C-b": FakePage("b.md")},
+            valid_edges=[{"from": "C-a", "relation": "contradicts", "to": "C-b"}],
+        )
+        self.assertIn("undisclosed_contradiction:C-b:C-a", codes(run_graph_rules(ctx)))
 
 
 if __name__ == "__main__":

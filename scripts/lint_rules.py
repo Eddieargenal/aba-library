@@ -283,13 +283,36 @@ def rule_deprecated_target_linked(ctx: GraphCtx) -> List[Issue]:
     return issues
 
 
+def rule_contradiction_disclosure(ctx: GraphCtx) -> List[Issue]:
+    """No silent contradiction suppression: a `contradicts` edge must be mutual.
+    If A declares `contradicts: B` but B does not declare `contradicts: A`, then B
+    silently omits the tension — flag it on B's page so the disclosure can be
+    added. A warning (enters the repair queue, like ghost nodes); fires only when
+    a one-sided `contradicts` edge exists, so it is dormant until the graph
+    carries contradiction edges."""
+    contradicts = {
+        (e["from"], e["to"]) for e in ctx.valid_edges if e.get("relation") == "contradicts"
+    }
+    issues: List[Issue] = []
+    for a, b in sorted(contradicts):
+        if (b, a) not in contradicts:
+            page = ctx.id_to_page.get(b)
+            if page:
+                issues.append(
+                    Issue(WARNING, f"undisclosed_contradiction:{b}:{a}", path=page.rel_path)
+                )
+    return issues
+
+
 # Order matters: criticals (duplicate) then warnings (orphan, ghost, deprecated)
-# so the routed ledgers stay position-stable against the original build.
+# so the routed ledgers stay position-stable against the original build. New
+# warnings append at the end to preserve that order.
 GRAPH_RULES: List[Callable[[GraphCtx], List[Issue]]] = [
     rule_duplicate_ids,
     rule_orphan_pages,
     rule_ghost_nodes,
     rule_deprecated_target_linked,
+    rule_contradiction_disclosure,
 ]
 
 
