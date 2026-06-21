@@ -89,6 +89,46 @@ LADDER_TYPES = set(TECHNICAL_TYPES)
 
 MAX_PRIMARY_TOPICS = 6
 
+# --- Canonical page-type -> wiki section folder ------------------------------
+
+# Mirrors governance/schema/page-types.md. A page of a given type lives in
+# exactly one folder; a finding's candidate_target_pages must point there.
+PAGE_TYPE_DIR = {
+    "concept": "02-concepts",
+    "framework": "03-frameworks",
+    "tool": "04-tools",
+    "field-instrument": "05-field-instruments",
+    "risk": "06-risks",
+    "known-tension": "07-known-tensions",
+    "advisory-playbook": "08-advisory-playbooks",
+    "decision-protocol": "09-decision-protocols",
+    "output-template": "10-output-templates",
+    "slice-spec": "11-slice-specs",
+}
+
+# integration_action stem -> page type (e.g. create-decision-rule -> decision-protocol).
+_ACTION_STEM_TYPE = {
+    "concept": "concept",
+    "framework": "framework",
+    "tool": "tool",
+    "risk": "risk",
+    "field-instrument": "field-instrument",
+    "decision-rule": "decision-protocol",
+    "decision-protocol": "decision-protocol",
+}
+
+
+def target_dir_for_action(action):
+    """Canonical wiki folder a finding's candidate_target_pages must live in,
+    or None for source_only / flag-for-review / unknown actions (no folder
+    requirement). Single source of truth for the routing folder contract."""
+    a = str(action or "").strip().lower()
+    if a in ("source_only", "flag-for-review", ""):
+        return None
+    stem = a.replace("create-", "").replace("enrich-", "")
+    return PAGE_TYPE_DIR.get(_ACTION_STEM_TYPE.get(stem))
+
+
 # --- Stable id prefixes ------------------------------------------------------
 
 # schema:id_prefix

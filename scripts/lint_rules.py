@@ -34,6 +34,7 @@ from schema import (
     RETRIEVAL_STATUS_VOCAB,
     STRICT_REQUIRED,
     TECHNICAL_TYPES,
+    target_dir_for_action,
 )
 
 CRITICAL = "critical"
@@ -119,6 +120,32 @@ def rule_tool_related_risks(ctx: RuleCtx) -> List[Issue]:
     if ctx.ptype == "tool" and ctx.rs_val == "usable" and not ctx.fm.get("related_risks"):
         return [Issue(WARNING, "tool_missing_related_risks")]
     return []
+
+
+def rule_finding_target_folder(ctx: RuleCtx) -> List[Issue]:
+    """A source finding's candidate_target_pages must live in the canonical
+    folder for its integration_action's page type (governance/schema/page-types.md).
+    Catches taxonomy drift like create-tool -> 03-tasks/ (a folder that doesn't
+    exist) or create-concept -> 07-known-tensions/ (action/folder disagreement).
+    Root cause: agent-08 never constrained the target folder (see diagnosis)."""
+    if ctx.ptype != "source":
+        return []
+    issues: List[Issue] = []
+    for f in ctx.fm.get("findings", []) or []:
+        if not isinstance(f, dict):
+            continue
+        expected = target_dir_for_action(f.get("integration_action"))
+        if not expected:
+            continue
+        fid = f.get("finding_id", "?")
+        for t in f.get("candidate_target_pages", []) or []:
+            if not isinstance(t, str) or not t.startswith("wiki/aba/"):
+                continue
+            parts = t.split("/")
+            folder = parts[2] if len(parts) > 2 else ""
+            if folder and folder != expected:
+                issues.append(Issue(WARNING, f"finding_target_folder:{fid}:{folder}->{expected}"))
+    return issues
 
 
 def rule_primary_topics(ctx: RuleCtx) -> List[Issue]:
@@ -280,6 +307,7 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_lifecycle_vocab,
     rule_id_prefix,
     rule_tool_related_risks,
+    rule_finding_target_folder,
     rule_primary_topics,
     rule_promotion_stage,
     rule_implementation_tier,

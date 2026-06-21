@@ -15,6 +15,7 @@ from lint_rules import (
     RuleCtx,
     rule_deprecated_target_linked,
     rule_duplicate_ids,
+    rule_finding_target_folder,
     rule_ghost_nodes,
     rule_id_prefix,
     rule_lifecycle_required,
@@ -61,6 +62,39 @@ def ctx(fm=None, page_id="C-x", ptype="concept", rel_path="p.md", today=None):
 
 def codes(issues):
     return [i.code for i in issues]
+
+
+def src_ctx(findings):
+    return ctx(fm={"findings": findings}, page_id="S-x", ptype="source", rel_path="01-sources/extracted/s.md")
+
+
+class FindingTargetFolder(unittest.TestCase):
+    def test_noncanonical_folder_is_flagged(self):
+        f = {"finding_id": "F-1", "integration_action": "create-tool",
+             "candidate_target_pages": ["wiki/aba/03-tasks/x.md"]}
+        self.assertIn("finding_target_folder:F-1:03-tasks->04-tools",
+                      codes(rule_finding_target_folder(src_ctx([f]))))
+
+    def test_canonical_folder_is_clean(self):
+        f = {"finding_id": "F-1", "integration_action": "create-tool",
+             "candidate_target_pages": ["wiki/aba/04-tools/x.md"]}
+        self.assertEqual(codes(rule_finding_target_folder(src_ctx([f]))), [])
+
+    def test_decision_rule_maps_to_decision_protocols(self):
+        f = {"finding_id": "F-2", "integration_action": "create-decision-rule",
+             "candidate_target_pages": ["wiki/aba/04-decision-rules/x.md"]}
+        self.assertIn("finding_target_folder:F-2:04-decision-rules->09-decision-protocols",
+                      codes(rule_finding_target_folder(src_ctx([f]))))
+
+    def test_source_only_imposes_no_folder(self):
+        f = {"finding_id": "F-3", "integration_action": "source_only",
+             "candidate_target_pages": ["source_only"]}
+        self.assertEqual(codes(rule_finding_target_folder(src_ctx([f]))), [])
+
+    def test_non_source_page_is_ignored(self):
+        f = {"finding_id": "F-4", "integration_action": "create-tool",
+             "candidate_target_pages": ["wiki/aba/03-tasks/x.md"]}
+        self.assertEqual(codes(rule_finding_target_folder(ctx(fm={"findings": [f]}, ptype="concept"))), [])
 
 
 class RequiredFields(unittest.TestCase):
