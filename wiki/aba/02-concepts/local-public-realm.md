@@ -13,6 +13,8 @@ primary_topics:
 related_concepts:
 - C-neighbourhood-scales
 - C-neighbourliness
+related_tools:
+- T-local-public-realm-mapping-tool
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-CONCEPT-002

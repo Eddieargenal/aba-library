@@ -97,9 +97,9 @@ findings:
     source_pages: ["p. 19"]
     candidate_target_pages:
       - wiki/aba/04-tools/measure-resilience-progress.md
-    integration_action: create-tool
+    integration_action: enrich-tool
     field_query_trigger: "How do we show gradual improvement in resilience, not just yes/no?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-006
@@ -145,9 +145,9 @@ findings:
     source_pages: ["p. 23"]
     candidate_target_pages:
       - wiki/aba/04-tools/conduct-vca-with-characteristics.md
-    integration_action: create-tool
+    integration_action: enrich-tool
     field_query_trigger: "Our VCA produces too much messy data – how do I structure analysis without biasing it?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-010
@@ -193,9 +193,9 @@ findings:
     source_pages: ["throughout"]
     candidate_target_pages:
       - wiki/aba/04-tools/assess-community-resilience-level.md
-    integration_action: create-tool
+    integration_action: enrich-tool
     field_query_trigger: "How do I measure how resilient our community is right now?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-014
@@ -217,9 +217,9 @@ findings:
     source_pages: ["p. 18", "Box 5"]
     candidate_target_pages:
       - wiki/aba/04-tools/customize-resilience-framework.md
-    integration_action: create-tool
+    integration_action: enrich-tool
     field_query_trigger: "The global characteristics don't fit our village – how do we rewrite them?"
-    status: pending
+    status: integrated
     human_review_required: false
 
 cited_sources:

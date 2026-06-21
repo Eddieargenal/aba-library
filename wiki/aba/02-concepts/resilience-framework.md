@@ -13,7 +13,11 @@ primary_topics:
 related_concepts:
 - C-resilience
 related_frameworks: []
-related_tools: []
+related_tools:
+- T-assess-community-resilience-level
+- T-conduct-vca-with-characteristics
+- T-customize-resilience-framework
+- T-measure-resilience-progress
 related_risks:
 - R-resilience-conflict-gap
 source_basis:

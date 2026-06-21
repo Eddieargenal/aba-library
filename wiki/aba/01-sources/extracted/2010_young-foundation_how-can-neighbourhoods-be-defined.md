@@ -128,9 +128,9 @@ findings:
     source_pages: ["p. 14", "p. 17–21"]
     candidate_target_pages:
       - wiki/aba/04-tools/local-public-realm-mapping-tool.md
-    integration_action: create-tool
+    integration_action: enrich-tool
     field_query_trigger: "How do I map the physical and social anchors of a neighbourhood to identify service gaps and community assets?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-009
