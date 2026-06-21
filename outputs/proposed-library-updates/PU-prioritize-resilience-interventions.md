@@ -35,7 +35,7 @@ updated: 2026-06-21
 ---
 
 > **Proposed library update (PU)** — finding **F-014** (`create-decision-rule` from task-seed SEED-002,
-> target `wiki/aba/04-decision-rules/prioritize-resilience-interventions.md`) of
+> target `wiki/aba/09-decision-protocols/prioritize-resilience-interventions.md`) of
 > `S-2009-twigg-ucl-disaster-resilient-community`. Status: **draft — pending Gate B**.
 > Source notes **no explicit multi-criteria method** and an assumption of stakeholder consensus (gaps).
 

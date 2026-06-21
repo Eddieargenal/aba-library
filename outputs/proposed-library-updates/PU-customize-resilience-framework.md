@@ -40,7 +40,7 @@ updated: 2026-06-21
 ---
 
 > **Proposed library update (PU)** — finding **F-015** (`create-tool` from task-seed SEED-003,
-> target `wiki/aba/03-tasks/customize-resilience-framework.md`) of
+> target `wiki/aba/04-tools/customize-resilience-framework.md`) of
 > `S-2009-twigg-ucl-disaster-resilient-community`. Status: **draft — pending Gate B**.
 > Realises the framework's own caveat (F-003): adapt, never apply as a checklist.
 

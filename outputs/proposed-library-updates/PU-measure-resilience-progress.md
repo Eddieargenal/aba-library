@@ -41,7 +41,7 @@ updated: 2026-06-21
 
 > **Proposed library update (PU)** — drafted by the finding-routing pass from
 > `S-2009-twigg-ucl-disaster-resilient-community`, finding **F-005**
-> (`create-tool`, target `wiki/aba/03-tasks/measure-resilience-progress.md`).
+> (`create-tool`, target `wiki/aba/04-tools/measure-resilience-progress.md`).
 > Status: **draft — pending Gate B review**. Not yet part of the wiki.
 
 <a id="purpose"></a>

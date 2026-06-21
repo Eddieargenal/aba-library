@@ -12,17 +12,17 @@ this pass (concurrent session active).
 | F-002 | create-concept | `02-concepts/resilience-framework.md` | absent | PU-resilience-framework |
 | F-003 | enrich-concept | `02-concepts/resilience-framework.md` | absent | **flag** — enrich target doesn't exist yet (F-002 creates it; see ordering note) |
 | F-004 | create-concept | `02-concepts/enabling-environment.md` | absent | PU-enabling-environment |
-| F-005 | create-tool | `03-tasks/measure-resilience-progress.md` | absent | PU-measure-resilience-progress |
+| F-005 | create-tool | `04-tools/measure-resilience-progress.md` | absent | PU-measure-resilience-progress |
 | F-006 | source_only | — | — | no-op |
-| F-007 | create-decision-rule | `04-decision-rules/refine-indicators-from-characteristics.md` | absent | PU-refine-indicators-from-characteristics |
-| F-008 | create-decision-rule | `04-decision-rules/introduce-resilience-framework.md` | absent | PU-introduce-resilience-framework |
-| F-009 | create-tool | `03-tasks/conduct-vca-with-characteristics.md` | absent | PU-conduct-vca-with-characteristics |
+| F-007 | create-decision-rule | `09-decision-protocols/refine-indicators-from-characteristics.md` | absent | PU-refine-indicators-from-characteristics |
+| F-008 | create-decision-rule | `09-decision-protocols/introduce-resilience-framework.md` | absent | PU-introduce-resilience-framework |
+| F-009 | create-tool | `04-tools/conduct-vca-with-characteristics.md` | absent | PU-conduct-vca-with-characteristics |
 | F-010 | source_only | — | — | no-op |
 | F-011 | create-risk | `06-risks/resilience-conflict-gap.md` | absent | PU-resilience-conflict-gap (**Gate B — human_review_required**) |
-| F-012 | create-decision-rule | `04-decision-rules/post-disaster-resilience-priorities.md` | absent | PU-post-disaster-resilience-priorities |
-| F-013 | create-tool | `03-tasks/assess-community-resilience-level.md` | absent | PU-assess-community-resilience-level |
-| F-014 | create-decision-rule | `04-decision-rules/prioritize-resilience-interventions.md` | absent | PU-prioritize-resilience-interventions |
-| F-015 | create-tool | `03-tasks/customize-resilience-framework.md` | absent | PU-customize-resilience-framework |
+| F-012 | create-decision-rule | `09-decision-protocols/post-disaster-resilience-priorities.md` | absent | PU-post-disaster-resilience-priorities |
+| F-013 | create-tool | `04-tools/assess-community-resilience-level.md` | absent | PU-assess-community-resilience-level |
+| F-014 | create-decision-rule | `09-decision-protocols/prioritize-resilience-interventions.md` | absent | PU-prioritize-resilience-interventions |
+| F-015 | create-tool | `04-tools/customize-resilience-framework.md` | absent | PU-customize-resilience-framework |
 
 **Summary:** 15 findings — 11 `create-*` → 11 PU- stubs; 1 `enrich-*` resolves (F-001, apply pending); 1 `enrich-*` flagged (F-003); 2 `source_only` no-ops. Before #7 all 15 escalated to `flag-for-review`.
 

@@ -35,7 +35,7 @@ updated: 2026-06-21
 ---
 
 > **Proposed library update (PU)** — finding **F-012** (`create-decision-rule`,
-> target `wiki/aba/04-decision-rules/post-disaster-resilience-priorities.md`) of
+> target `wiki/aba/09-decision-protocols/post-disaster-resilience-priorities.md`) of
 > `S-2009-twigg-ucl-disaster-resilient-community`. Status: **draft — pending Gate B**.
 
 <a id="trigger"></a>

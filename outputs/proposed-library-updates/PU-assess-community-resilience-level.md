@@ -40,7 +40,7 @@ updated: 2026-06-21
 ---
 
 > **Proposed library update (PU)** — finding **F-013** (`create-tool` from task-seed SEED-001,
-> target `wiki/aba/03-tasks/assess-community-resilience-level.md`) of
+> target `wiki/aba/04-tools/assess-community-resilience-level.md`) of
 > `S-2009-twigg-ucl-disaster-resilient-community`. Status: **draft — pending Gate B**.
 > Coverage is **partial** per the source's task-seed (no validated quantitative scoring).
 

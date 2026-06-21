@@ -36,7 +36,7 @@ updated: 2026-06-21
 
 > **Proposed library update (PU)** — drafted by the finding-routing pass from
 > `S-2009-twigg-ucl-disaster-resilient-community`, finding **F-007**
-> (`create-decision-rule`, target `wiki/aba/04-decision-rules/refine-indicators-from-characteristics.md`).
+> (`create-decision-rule`, target `wiki/aba/09-decision-protocols/refine-indicators-from-characteristics.md`).
 > Status: **draft — pending Gate B review**. Not yet part of the wiki.
 
 <a id="trigger"></a>
