@@ -7,6 +7,32 @@ updated: 2026-05-18
 
 # ABA/DRR Field Knowledge Wiki — v2.7 Operating Guide
 
+## AGENT-QUICKSTART (read this first — 30 seconds)
+
+Two paths. Pick one.
+
+- **To answer a question** → query the compiled index, don't read prose. Run
+  `python3 scripts/ranker.py --text "your query" --lifecycle <stage> --k 5`
+  (or in Python from repo root: `import sys; sys.path.insert(0, "scripts"); from ranker
+  import load_index, rank`). It returns ranked pages + contradiction/known-tension
+  expansion. Read only those pages, then ground every claim in their `source_basis`.
+  Index lives in `indexes/current/` (`agent-index.jsonl` carries the facets:
+  `lifecycle_stage`, `implementation_tier`, `promotion_stage`, `retrieval_status`).
+- **To contribute** (ingest, lint, build, promote) → open
+  `governance/00_governance-index.md`, find your task in the Section Map, and read the
+  **one** file it routes you to. Never load the whole governance folder. The entire data
+  model (vocabs, required fields, ID prefixes, edge types) is in `scripts/schema.py`.
+
+Rules that never bend: **never claim without `source_basis`**, never hand-edit compiled
+index files, never modify raw sources. After content changes, rebuild with
+`python3 scripts/build-index.py` and publish only when `critical_error_count` is 0.
+
+Current state: the library is **populated, not stubbed** — the active build indexes 47
+pages (22 sources, 7 concepts, 2 frameworks, 5 tools, 3 risks, 7 decision-protocols) with
+0 critical errors. Full onboarding: `governance/aba/how-to-use-this-wiki.md`.
+
+---
+
 ## Mission
 
 This vault is a persistent, compounding operational memory for urban DRR and area-based response.
