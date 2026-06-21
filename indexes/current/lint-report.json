@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-06-21T105750Z",
+  "build_id": "2026-06-21T110949Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -95,8 +95,16 @@
       "warning": "orphan_page:S-2026-iasc-standard-terms-reference-area-based-coordination-tor"
     },
     {
+      "path": "02-concepts/resilience-framework.md",
+      "warning": "orphan_page:C-resilience-framework"
+    },
+    {
       "path": "02-concepts/enabling-environment.md",
       "warning": "ghost_node:KTN-enabling-environment-not-separate"
+    },
+    {
+      "path": "02-concepts/resilience-framework.md",
+      "warning": "ghost_node:R-resilience-conflict-gap"
     },
     {
       "path": "02-concepts/resilience.md",
