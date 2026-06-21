@@ -1,5 +1,9 @@
+{"from": "C-ecological-empowerment", "relation": "source_basis", "to": "S-youngfoundation2010", "status": "valid"}
 {"from": "C-enabling-environment", "relation": "related_concept", "to": "C-resilience", "status": "valid"}
 {"from": "C-enabling-environment", "relation": "source_basis", "to": "S-2009-twigg-ucl-disaster-resilient-community", "status": "valid"}
+{"from": "C-local-public-realm", "relation": "source_basis", "to": "S-youngfoundation2010", "status": "valid"}
+{"from": "C-neighbourhood-scales", "relation": "source_basis", "to": "S-youngfoundation2010", "status": "valid"}
+{"from": "C-neighbourliness", "relation": "source_basis", "to": "S-youngfoundation2010", "status": "valid"}
 {"from": "C-resilience-framework", "relation": "related_concept", "to": "C-resilience", "status": "valid"}
 {"from": "C-resilience-framework", "relation": "source_basis", "to": "S-2009-twigg-ucl-disaster-resilient-community", "status": "valid"}
 {"from": "C-resilience", "relation": "related_concept", "to": "C-enabling-environment", "status": "valid"}

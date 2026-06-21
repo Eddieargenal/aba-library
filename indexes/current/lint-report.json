@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-06-21T110949Z",
+  "build_id": "2026-06-21T114008Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -17,10 +17,6 @@
     {
       "path": "01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md",
       "warning": "orphan_page:S-2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy"
-    },
-    {
-      "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
-      "warning": "orphan_page:S-youngfoundation2010"
     },
     {
       "path": "01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
@@ -93,6 +89,22 @@
     {
       "path": "01-sources/extracted/2026-iasc-standard-terms-reference-area-based-coordination-tor.md",
       "warning": "orphan_page:S-2026-iasc-standard-terms-reference-area-based-coordination-tor"
+    },
+    {
+      "path": "02-concepts/ecological-empowerment.md",
+      "warning": "orphan_page:C-ecological-empowerment"
+    },
+    {
+      "path": "02-concepts/local-public-realm.md",
+      "warning": "orphan_page:C-local-public-realm"
+    },
+    {
+      "path": "02-concepts/neighbourhood-scales.md",
+      "warning": "orphan_page:C-neighbourhood-scales"
+    },
+    {
+      "path": "02-concepts/neighbourliness.md",
+      "warning": "orphan_page:C-neighbourliness"
     },
     {
       "path": "02-concepts/resilience-framework.md",

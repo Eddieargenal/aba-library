@@ -26,15 +26,15 @@ Then rebuild: `python3 scripts/build-index.py`. The page becomes rankable.
 **Worked example already done:** `resilience-framework` (concept / synthesis /
 limited) — now returned by the ranker.
 
-## Remaining stubs by type (22, all single-source → ceiling `limited`)
+## Remaining stubs by type (18, all single-source → ceiling `limited`)
+
+Promoted so far (now rankable at `limited`): `resilience-framework`,
+`ecological-empowerment`, `local-public-realm`, `neighbourhood-scales`,
+`neighbourliness`.
 
 | type | slug | target |
 |---|---|---|
-| concept | ecological-empowerment | wiki/aba/02-concepts/ecological-empowerment.md |
 | concept | enabling-environment | ⚠️ target **already exists** — merge, don't create |
-| concept | local-public-realm | wiki/aba/02-concepts/local-public-realm.md |
-| concept | neighbourhood-scales | wiki/aba/02-concepts/neighbourhood-scales.md |
-| concept | neighbourliness | wiki/aba/02-concepts/neighbourliness.md |
 | framework | neighbourhood-attributes-framework | wiki/aba/03-frameworks/neighbourhood-attributes-framework.md |
 | framework | neighbourhood-definition-framework | wiki/aba/03-frameworks/neighbourhood-definition-framework.md |
 | tool | assess-community-resilience-level | wiki/aba/04-tools/assess-community-resilience-level.md |

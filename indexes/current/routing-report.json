@@ -1,7 +1,7 @@
 {
-  "build_id": "2026-06-21T110949Z",
-  "pending_finding_count": 98,
-  "unrouted_finding_count": 21,
+  "build_id": "2026-06-21T114008Z",
+  "pending_finding_count": 95,
+  "unrouted_finding_count": 22,
   "pending_findings": [
     {
       "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
@@ -174,28 +174,6 @@
     },
     {
       "source_id": "S-youngfoundation2010",
-      "finding_id": "F-003",
-      "status": "pending",
-      "integration_action": "create-concept",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/02-concepts/local-public-realm.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-youngfoundation2010",
-      "finding_id": "F-004",
-      "status": "pending",
-      "integration_action": "create-concept",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/02-concepts/neighbourhood-scales.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-youngfoundation2010",
       "finding_id": "F-005",
       "status": "pending",
       "integration_action": "enrich-concept",
@@ -244,17 +222,6 @@
     },
     {
       "source_id": "S-youngfoundation2010",
-      "finding_id": "F-009",
-      "status": "pending",
-      "integration_action": "create-concept",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/02-concepts/ecological-empowerment.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-youngfoundation2010",
       "finding_id": "F-010",
       "status": "pending",
       "integration_action": "create-concept",
@@ -263,7 +230,9 @@
         "wiki/aba/02-concepts/neighbourliness.md",
         "wiki/aba/05-field-instruments/social-cohesion-indicators.md"
       ],
-      "unsatisfied_target_pages": []
+      "unsatisfied_target_pages": [
+        "wiki/aba/02-concepts/neighbourliness.md"
+      ]
     },
     {
       "source_id": "S-youngfoundation2010",
