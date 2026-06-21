@@ -4,6 +4,10 @@
 # Per-build index snapshots are ephemeral; only indexes/current/ is canonical
 indexes/builds/
 
+# Ranker build outputs (ADR-0002) are regenerated from the index; not tracked
+indexes/current/graph-degree.jsonl
+indexes/current/term-index.json
+
 # Python bytecode cache from scripts/
 __pycache__/
 *.pyc
