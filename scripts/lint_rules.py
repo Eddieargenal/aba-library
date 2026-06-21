@@ -123,11 +123,16 @@ def rule_tool_related_risks(ctx: RuleCtx) -> List[Issue]:
 
 
 def rule_finding_target_folder(ctx: RuleCtx) -> List[Issue]:
-    """A source finding's candidate_target_pages must live in the canonical
-    folder for its integration_action's page type (governance/schema/page-types.md).
-    Catches taxonomy drift like create-tool -> 03-tasks/ (a folder that doesn't
-    exist) or create-concept -> 07-known-tensions/ (action/folder disagreement).
-    Root cause: agent-08 never constrained the target folder (see diagnosis)."""
+    """A source finding must have a *primary* candidate_target_page in the
+    canonical folder for its integration_action's page type
+    (governance/schema/page-types.md). Catches taxonomy drift like
+    create-tool -> 03-tasks/ (a folder that never existed) or create-risk ->
+    07-known-tensions/ (no risk target at all).
+
+    Findings may carry additional cross-type companion targets (e.g. a concept
+    plus its field-instrument); those are allowed, so the rule fires only when
+    NONE of the targets matches the action's type. Root cause of the drift:
+    agent-08 never constrained the target folder (see diagnosis)."""
     if ctx.ptype != "source":
         return []
     issues: List[Issue] = []
@@ -137,14 +142,15 @@ def rule_finding_target_folder(ctx: RuleCtx) -> List[Issue]:
         expected = target_dir_for_action(f.get("integration_action"))
         if not expected:
             continue
+        folders = [
+            t.split("/")[2]
+            for t in f.get("candidate_target_pages", []) or []
+            if isinstance(t, str) and t.startswith("wiki/aba/") and len(t.split("/")) > 2
+        ]
+        if not folders or expected in folders:
+            continue  # no wiki targets, or a canonical primary target exists
         fid = f.get("finding_id", "?")
-        for t in f.get("candidate_target_pages", []) or []:
-            if not isinstance(t, str) or not t.startswith("wiki/aba/"):
-                continue
-            parts = t.split("/")
-            folder = parts[2] if len(parts) > 2 else ""
-            if folder and folder != expected:
-                issues.append(Issue(WARNING, f"finding_target_folder:{fid}:{folder}->{expected}"))
+        issues.append(Issue(WARNING, f"finding_target_folder:{fid}:{','.join(sorted(set(folders)))}->{expected}"))
     return issues
 
 

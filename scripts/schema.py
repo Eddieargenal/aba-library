@@ -113,6 +113,7 @@ _ACTION_STEM_TYPE = {
     "tool": "tool",
     "risk": "risk",
     "field-instrument": "field-instrument",
+    "known-tension": "known-tension",
     "decision-rule": "decision-protocol",
     "decision-protocol": "decision-protocol",
 }

@@ -36,10 +36,12 @@ For each finding in `findings:` where `status: pending`:
 | `enrich-framework` | Same as `enrich-concept` |
 | `enrich-tool` | Same as `enrich-concept` |
 | `enrich-risk` | Same as `enrich-concept` |
+| `enrich-known-tension` | Same as `enrich-concept` |
 | `create-concept` | Draft full page using `governance/templates/v26/concept-template.md`; set `retrieval_status: draft`; write to `outputs/proposed-library-updates/PU-{slug}.md`; **do NOT write to wiki folder** |
 | `create-framework` | Same as `create-concept`; use `governance/templates/v26/framework-template.md` |
 | `create-tool` | Same as `create-concept`; use `governance/templates/v26/tool-template.md` |
 | `create-risk` | Same as `create-concept`; use `governance/templates/v26/risk-template.md` |
+| `create-known-tension` | Same as `create-concept`; use `governance/templates/v26/known-tension-template.md`. For `TNS` objects — a tension is not a risk. Target lives in `07-known-tensions/` |
 | `create-decision-rule` | Draft full page using `governance/templates/v26/decision-protocol-template.md`; set `retrieval_status: draft`; write to `outputs/proposed-library-updates/PU-{slug}.md`; **do NOT write to wiki folder**. For create-* actions: read the full finding content from the body `#findings` section of the extracted source page to populate the draft |
 | `enrich-decision-rule` | Read target section from `section-index.jsonl`; open the target page; add finding content to the appropriate section; add source to `source_basis:` if not already listed |
 | `source_only` | No target page changes; mark finding as source_only in writeback |
@@ -79,7 +81,7 @@ Halt and produce the Gate B packet before any further page edits when Gate B is 
 ## Acceptance Criteria
 - [ ] `candidate_target_pages` resolved **by path** (not by ID), consistent with the extraction agent and the index compiler
 - [ ] Existence check branches on `integration_action`: `enrich-*` requires the target to exist; `create-*` requires it to not exist yet
-- [ ] All 12 `integration_action` values handled with distinct rules
+- [ ] All 14 `integration_action` values handled with distinct rules
 - [ ] `create-*` actions write to `outputs/proposed-library-updates/PU-{slug}.md`, not to wiki folders
 - [ ] Integration-map writeback updates both the body table Status column and the frontmatter `findings:` status field
 - [ ] Gate B triggered when any `create-*` action taken or any contradiction found

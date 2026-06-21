@@ -692,7 +692,7 @@ findings:
     source_pages: "pp. 25–27"
     field_query_trigger: not-applicable
     candidate_target_pages: ["wiki/aba/07-known-tensions/sampling-representativeness-vs-structural-access-barriers.md"]
-    integration_action: create-risk
+    integration_action: create-known-tension
     routing_rationale: "Unresolved methodological tension in toolkit design; routes to known-tensions folder."
     human_review_required: true
   - id: S-2017-iied-urban-context-analysis-toolkit-guidance-note-SEED-001
@@ -2190,7 +2190,7 @@ What is the relationship between urban context analysis and sector needs assessm
 | F-056 | ASM-003 | Optional Final Report Assumption | ASM | conceptual | 02-concepts/urban-context-analysis | enrich-concept | proposed |
 | F-057 | SAFE-001 | Data Collection Protection Protocol | SAFE | operational | 09-decision-protocols/participant-data-protection-protocol | enrich-decision-rule | proposed |
 | F-058 | SAFE-002 | Culturally-Matched Team Safeguard | SAFE | operational | 09-decision-protocols/team-composition-cultural-matching-rule | enrich-decision-rule | proposed |
-| F-059 | TNS-001 | Sampling Representativeness Tension | TNS | conceptual | 07-known-tensions/sampling-representativeness-vs-structural-access-barriers | create-risk | proposed |
+| F-059 | TNS-001 | Sampling Representativeness Tension | TNS | conceptual | 07-known-tensions/sampling-representativeness-vs-structural-access-barriers | create-known-tension | proposed |
 | F-060 | SEED-001 | Urban CA Pre-Programme Design Task | SEED | operational | 02-concepts/urban-context-analysis | create-concept | proposed |
 | F-061 | SEED-002 | CA for ABA Programme Design Task | SEED | operational | 02-concepts/sub-area-unit-of-analysis | create-concept | proposed |
 | F-062 | SEED-003 | CA Update Decision Protocol Task | SEED | decision | 09-decision-protocols/context-analysis-reassessment-trigger | create-decision-rule | proposed |

@@ -80,6 +80,29 @@ class FindingTargetFolder(unittest.TestCase):
              "candidate_target_pages": ["wiki/aba/04-tools/x.md"]}
         self.assertEqual(codes(rule_finding_target_folder(src_ctx([f]))), [])
 
+    def test_companion_target_allowed_when_primary_canonical(self):
+        # multi-target: primary matches the action's type, secondary is a
+        # cross-type companion page -> allowed (guard checks the primary only).
+        f = {"finding_id": "F-1", "integration_action": "create-concept",
+             "candidate_target_pages": ["wiki/aba/02-concepts/x.md",
+                                        "wiki/aba/04-tools/x-process.md"]}
+        self.assertEqual(codes(rule_finding_target_folder(src_ctx([f]))), [])
+
+    def test_flagged_when_no_target_matches_action_type(self):
+        f = {"finding_id": "F-1", "integration_action": "create-risk",
+             "candidate_target_pages": ["wiki/aba/07-known-tensions/x.md"]}
+        self.assertIn("finding_target_folder:F-1:07-known-tensions->06-risks",
+                      codes(rule_finding_target_folder(src_ctx([f]))))
+
+    def test_known_tension_action_maps_to_known_tensions_folder(self):
+        ok = {"finding_id": "F-1", "integration_action": "create-known-tension",
+              "candidate_target_pages": ["wiki/aba/07-known-tensions/x.md"]}
+        self.assertEqual(codes(rule_finding_target_folder(src_ctx([ok]))), [])
+        bad = {"finding_id": "F-2", "integration_action": "create-known-tension",
+               "candidate_target_pages": ["wiki/aba/06-risks/x.md"]}
+        self.assertIn("finding_target_folder:F-2:06-risks->07-known-tensions",
+                      codes(rule_finding_target_folder(src_ctx([bad]))))
+
     def test_decision_rule_maps_to_decision_protocols(self):
         f = {"finding_id": "F-2", "integration_action": "create-decision-rule",
              "candidate_target_pages": ["wiki/aba/04-decision-rules/x.md"]}
