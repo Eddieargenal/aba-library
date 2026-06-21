@@ -1,12 +1,22 @@
 {
-  "build_id": "2026-06-21T063652Z",
+  "build_id": "2026-06-21T105750Z",
+  "schema_version": "2.7",
   "build_status": "valid_with_warnings",
-  "generated_at": "2026-06-21T06:37:04.687479+00:00",
+  "generated_at": "2026-06-21T10:58:07.615620+00:00",
   "page_count": 25,
-  "edge_count": 1,
+  "edge_count": 5,
   "unresolved_edge_count": 7,
-  "pending_finding_count": 119,
+  "pending_finding_count": 100,
   "critical_error_count": 0,
-  "warning_count": 33,
+  "warning_count": 30,
+  "health": {
+    "orphan_pct": 84.0,
+    "ghost_pct": 58.3,
+    "stale_pct": 0.0,
+    "page_count": 25,
+    "orphan_count": 21,
+    "ghost_edge_count": 7,
+    "stale_count": 0
+  },
   "active": true
 }
