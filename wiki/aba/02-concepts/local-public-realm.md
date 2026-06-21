@@ -10,6 +10,9 @@ lifecycle_stage:
 - coordination-design
 primary_topics:
 - neighbourhood
+related_concepts:
+- C-neighbourhood-scales
+- C-neighbourliness
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-CONCEPT-002

@@ -16,6 +16,7 @@ related_concepts:
   - C-disaster-risk-reduction
   - C-community
   - C-enabling-environment
+  - C-resilience-framework
 related_frameworks:
   - F-community-resilience-characteristics
 related_tools: []
