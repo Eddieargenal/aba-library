@@ -35,7 +35,10 @@ TERMINAL_FINDING_STATUS = {"integrated", "done", "complete", "resolved", "source
 
 # schema:promotion_stage — epistemic-validation axis (ADR-0001). How far a claim
 # has climbed the promotion ladder; the retrieval ranker's primary trust signal.
-PROMOTION_STAGE_VOCAB = {"finding", "concept", "framework", "tool", "validated"}
+# ORDER is the ladder sequence (low -> high); the ranker uses it as the ordinal
+# for promotion_stage ordering (ADR-0004). VOCAB derives from it.
+PROMOTION_STAGE_ORDER = ("finding", "concept", "framework", "tool", "validated")
+PROMOTION_STAGE_VOCAB = set(PROMOTION_STAGE_ORDER)
 
 # schema:implementation_tier — which actor tier a page serves (ADR-0001). Split
 # out of lifecycle_stage; "all" covers pages serving every tier.
