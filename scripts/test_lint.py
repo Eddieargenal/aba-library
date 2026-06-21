@@ -30,6 +30,8 @@ from lint_rules import (
     rule_retrieval_status_vocab,
     rule_source_basis_usable,
     rule_schema_version,
+    rule_source_basis_resolves,
+    source_ids_in_section_index,
     rule_tool_related_risks,
     run_graph_rules,
     run_rules,
@@ -58,8 +60,10 @@ def gctx(id_to_page=None, inbound_counts=None, valid_edges=None,
     )
 
 
-def ctx(fm=None, page_id="C-x", ptype="concept", rel_path="p.md", today=None):
-    return RuleCtx(rel_path=rel_path, fm=fm or {}, page_id=page_id, ptype=ptype, today=today)
+def ctx(fm=None, page_id="C-x", ptype="concept", rel_path="p.md", today=None,
+        known_source_ids=None):
+    return RuleCtx(rel_path=rel_path, fm=fm or {}, page_id=page_id, ptype=ptype,
+                   today=today, known_source_ids=known_source_ids)
 
 
 def codes(issues):
@@ -193,6 +197,57 @@ class SchemaVersion(unittest.TestCase):
         self.assertEqual(codes(rule_schema_version(c)), ["schema_version_mismatch:3.0"])
 
 
+class SourceBasisResolves(unittest.TestCase):
+    KNOWN = {"S-2009-twigg-ucl-disaster-resilient-community"}
+
+    def test_dangling_source_id_warns(self):
+        c = ctx(fm={"source_basis": [{"source_id": "S-ghost"}]},
+                known_source_ids=self.KNOWN)
+        self.assertEqual(codes(rule_source_basis_resolves(c)),
+                         ["source_basis_unresolved:S-ghost"])
+
+    def test_resolvable_source_id_is_clean(self):
+        c = ctx(fm={"source_basis": [{"source_id": "S-2009-twigg-ucl-disaster-resilient-community"}]},
+                known_source_ids=self.KNOWN)
+        self.assertEqual(rule_source_basis_resolves(c), [])
+
+    def test_no_index_skips(self):
+        # index unavailable: skip rather than flag every reference as dangling
+        c = ctx(fm={"source_basis": [{"source_id": "S-ghost"}]}, known_source_ids=None)
+        self.assertEqual(rule_source_basis_resolves(c), [])
+
+    def test_empty_source_basis_is_clean(self):
+        # source pages carry source_basis: [] ; absence is fine too
+        self.assertEqual(rule_source_basis_resolves(
+            ctx(fm={"source_basis": []}, known_source_ids=self.KNOWN)), [])
+        self.assertEqual(rule_source_basis_resolves(
+            ctx(fm={}, known_source_ids=self.KNOWN)), [])
+
+    def test_mixed_entries_report_only_danglers(self):
+        c = ctx(fm={"source_basis": [
+            {"source_id": "S-2009-twigg-ucl-disaster-resilient-community"},  # resolvable
+            {"source_id": "S-ghost-a"},
+            {"source_id": "S-ghost-b"},
+        ]}, known_source_ids=self.KNOWN)
+        self.assertEqual(codes(rule_source_basis_resolves(c)),
+                         ["source_basis_unresolved:S-ghost-a", "source_basis_unresolved:S-ghost-b"])
+
+    def test_malformed_entries_skipped_gracefully(self):
+        # a bare string and a dict with no source_id are malformed shapes other
+        # rules own; this rule skips them rather than crash or emit ":None"
+        c = ctx(fm={"source_basis": ["S-bare-string", {"finding_ids": ["F-1"]}]},
+                known_source_ids=self.KNOWN)
+        self.assertEqual(rule_source_basis_resolves(c), [])
+
+    def test_source_ids_in_section_index_extracts_page_ids(self):
+        rows = [
+            {"page_id": "S-a", "section_id": "summary"},
+            {"page_id": "S-a", "section_id": "findings"},   # deduped
+            {"page_id": "S-b", "section_id": "summary"},
+        ]
+        self.assertEqual(source_ids_in_section_index(rows), {"S-a", "S-b"})
+
+
 class Prefix(unittest.TestCase):
     def test_mismatch(self):
         c = ctx(page_id="T-foo", ptype="concept")
@@ -232,6 +287,12 @@ class Registry(unittest.TestCase):
     def test_run_rules_includes_schema_version(self):
         c = ctx(fm={"schema_version": "9.9"}, ptype="concept", page_id="C-x")
         self.assertIn("schema_version_mismatch:9.9", codes(run_rules(c)))
+
+    def test_run_rules_includes_source_basis_resolution(self):
+        c = ctx(fm={"source_basis": [{"source_id": "S-ghost"}]},
+                ptype="concept", page_id="C-x",
+                known_source_ids={"S-real"})
+        self.assertIn("source_basis_unresolved:S-ghost", codes(run_rules(c)))
 
 
 class GraphDuplicate(unittest.TestCase):
