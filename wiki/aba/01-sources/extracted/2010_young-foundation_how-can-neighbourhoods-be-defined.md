@@ -56,9 +56,9 @@ findings:
     source_pages: ["p. 9–10", "p. 14", "p. 17"]
     candidate_target_pages:
       - wiki/aba/03-frameworks/neighbourhood-definition-framework.md
-    integration_action: create-framework
+    integration_action: enrich-framework
     field_query_trigger: not-applicable
-    status: pending
+    status: integrated
     human_review_required: true
 
   - finding_id: F-003
@@ -104,9 +104,9 @@ findings:
     source_pages: ["p. 12"]
     candidate_target_pages:
       - wiki/aba/03-frameworks/neighbourhood-attributes-framework.md
-    integration_action: create-framework
+    integration_action: enrich-framework
     field_query_trigger: not-applicable
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-007

@@ -103,3 +103,9 @@
 {"page_id": "C-resilience", "section_id": "definition", "path": "02-concepts/resilience.md", "start_line": 2, "end_line": 12}
 {"page_id": "C-resilience", "section_id": "field-use", "path": "02-concepts/resilience.md", "start_line": 13, "end_line": 21}
 {"page_id": "C-resilience", "section_id": "risks", "path": "02-concepts/resilience.md", "start_line": 22, "end_line": 31}
+{"page_id": "F-neighbourhood-attributes-framework", "section_id": "decision-scope", "path": "03-frameworks/neighbourhood-attributes-framework.md", "start_line": 2, "end_line": 6}
+{"page_id": "F-neighbourhood-attributes-framework", "section_id": "application-logic", "path": "03-frameworks/neighbourhood-attributes-framework.md", "start_line": 7, "end_line": 11}
+{"page_id": "F-neighbourhood-attributes-framework", "section_id": "limitations", "path": "03-frameworks/neighbourhood-attributes-framework.md", "start_line": 12, "end_line": 16}
+{"page_id": "F-neighbourhood-definition-framework", "section_id": "decision-scope", "path": "03-frameworks/neighbourhood-definition-framework.md", "start_line": 2, "end_line": 6}
+{"page_id": "F-neighbourhood-definition-framework", "section_id": "application-logic", "path": "03-frameworks/neighbourhood-definition-framework.md", "start_line": 7, "end_line": 11}
+{"page_id": "F-neighbourhood-definition-framework", "section_id": "limitations", "path": "03-frameworks/neighbourhood-definition-framework.md", "start_line": 12, "end_line": 16}
