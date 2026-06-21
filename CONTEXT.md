@@ -86,6 +86,10 @@ The primary structural threat: protocol designers without local legitimacy scali
 **Advisory pipeline**:
 The query path the synthesis tier uses: classify the question, retrieve candidate pages, pull section spans, assemble **evidence packets** with claim support, draft a sourced answer.
 
+**Query** (ranker):
+A structured, all-optional request — `{lifecycle_stage?, implementation_tier?, text?, k?}`. Facets are given, not inferred from prose. Distinct from a free-text search box.
+_Avoid_: search string, prompt.
+
 **Candidate page**:
 A page returned by the ranker as relevant to a query, before section/evidence extraction. The ranker scores candidate pages and expands each to its contradictions and exception flags.
 
