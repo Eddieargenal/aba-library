@@ -96,7 +96,7 @@ findings:
     lifecycle_stage: [monitoring-learning]
     source_pages: ["p. 19"]
     candidate_target_pages:
-      - wiki/aba/03-tasks/measure-resilience-progress.md
+      - wiki/aba/04-tools/measure-resilience-progress.md
     integration_action: create-tool
     field_query_trigger: "How do we show gradual improvement in resilience, not just yes/no?"
     status: pending
@@ -120,7 +120,7 @@ findings:
     lifecycle_stage: [monitoring-learning]
     source_pages: ["p. 24", "p. 77"]
     candidate_target_pages:
-      - wiki/aba/04-decision-rules/refine-indicators-from-characteristics.md
+      - wiki/aba/09-decision-protocols/refine-indicators-from-characteristics.md
     integration_action: create-decision-rule
     field_query_trigger: "Donor wants specific indicators but our framework is qualitative – how do I satisfy both?"
     status: pending
@@ -132,7 +132,7 @@ findings:
     lifecycle_stage: [implementation-adaptation]
     source_pages: ["p. 17"]
     candidate_target_pages:
-      - wiki/aba/04-decision-rules/introduce-resilience-framework.md
+      - wiki/aba/09-decision-protocols/introduce-resilience-framework.md
     integration_action: create-decision-rule
     field_query_trigger: "How do I train field staff on a complex resilience framework without losing them?"
     status: pending
@@ -144,7 +144,7 @@ findings:
     lifecycle_stage: [neighbourhood-diagnosis]
     source_pages: ["p. 23"]
     candidate_target_pages:
-      - wiki/aba/03-tasks/conduct-vca-with-characteristics.md
+      - wiki/aba/04-tools/conduct-vca-with-characteristics.md
     integration_action: create-tool
     field_query_trigger: "Our VCA produces too much messy data – how do I structure analysis without biasing it?"
     status: pending
@@ -180,7 +180,7 @@ findings:
     lifecycle_stage: [implementation-adaptation]
     source_pages: ["p. 15"]
     candidate_target_pages:
-      - wiki/aba/04-decision-rules/post-disaster-resilience-priorities.md
+      - wiki/aba/09-decision-protocols/post-disaster-resilience-priorities.md
     integration_action: create-decision-rule
     field_query_trigger: "A week after the flood – what resilience goals are realistic?"
     status: pending
@@ -192,7 +192,7 @@ findings:
     lifecycle_stage: [neighbourhood-diagnosis]
     source_pages: ["throughout"]
     candidate_target_pages:
-      - wiki/aba/03-tasks/assess-community-resilience-level.md
+      - wiki/aba/04-tools/assess-community-resilience-level.md
     integration_action: create-tool
     field_query_trigger: "How do I measure how resilient our community is right now?"
     status: pending
@@ -204,7 +204,7 @@ findings:
     lifecycle_stage: [joint-prioritization]
     source_pages: ["p. 18-20"]
     candidate_target_pages:
-      - wiki/aba/04-decision-rules/prioritize-resilience-interventions.md
+      - wiki/aba/09-decision-protocols/prioritize-resilience-interventions.md
     integration_action: create-decision-rule
     field_query_trigger: "We have limited budget – which resilience gaps should we tackle first?"
     status: pending
@@ -216,7 +216,7 @@ findings:
     lifecycle_stage: [implementation-adaptation]
     source_pages: ["p. 18", "Box 5"]
     candidate_target_pages:
-      - wiki/aba/03-tasks/customize-resilience-framework.md
+      - wiki/aba/04-tools/customize-resilience-framework.md
     integration_action: create-tool
     field_query_trigger: "The global characteristics don't fit our village – how do we rewrite them?"
     status: pending
@@ -364,17 +364,17 @@ This guidance note, authored by John Twigg at UCL and commissioned by an interag
 | F-002 | The Characteristics represent an ideal state; no community can be completely safe. No single organization can address all aspects. → see S-2009-twigg-ucl-disaster-resilient-community-FRAMEWORK-001 | design-principle | conceptual | strategic-planning, project-design | p. 7, 21 | wiki/aba/02-concepts/resilience-framework.md | create-concept | "Our NGO is small – how much of this resilience framework should we try to achieve?" | pending | false | Essential caveat to prevent misuse. |
 | F-003 | Users must adapt and customize the Characteristics to local context, hazards, and capacities – not use as checklist. → see S-2009-twigg-ucl-disaster-resilient-community-PRINCIPLE-001 | design-principle | operational | project-design, implementation | p. 18 | wiki/aba/02-concepts/resilience-framework.md | enrich-concept | "Do I have to use all 167 characteristics?" | pending | false | Prevents checklist misuse. |
 | F-004 | The Enabling Environment (policy, institutional, socio-economic factors) is essential for community resilience; communities depend on external duty bearers. → see S-2009-twigg-ucl-disaster-resilient-community-FRAMEWORK-002 | framework-component | conceptual | strategic-planning, advocacy | p. 12 | wiki/aba/02-concepts/enabling-environment.md | create-concept | "Our community project is failing – is it because of external policies we can't control?" | pending | false | Links community to higher levels. |
-| F-005 | A 'milestones' model is needed to measure progress from current state toward ideal resilience. → see S-2009-twigg-ucl-disaster-resilient-community-TOOL-002 | process-step | operational | monitoring, evaluation | p. 19 | wiki/aba/03-tasks/measure-resilience-progress.md | create-tool | "How do we show gradual improvement in resilience, not just yes/no?" | pending | false | Enables incremental M&E. |
+| F-005 | A 'milestones' model is needed to measure progress from current state toward ideal resilience. → see S-2009-twigg-ucl-disaster-resilient-community-TOOL-002 | process-step | operational | monitoring, evaluation | p. 19 | wiki/aba/04-tools/measure-resilience-progress.md | create-tool | "How do we show gradual improvement in resilience, not just yes/no?" | pending | false | Enables incremental M&E. |
 | F-006 | Thematic Area 4 (Risk Management and Vulnerability Reduction) is very broad and imbalanced; users must take special care to investigate all seven components thoroughly. | tension-surface | diagnostic | project-design | p. 13-14 | source_only | source_only | "Our project only does structural mitigation – are we missing other risk factors?" | pending | false | Alerts users to under-coverage risk. |
-| F-007 | Decision rule: For projects with existing donor-agreed indicators, refine (split, reword, clarify) rather than replace. → see S-2009-twigg-ucl-disaster-resilient-community-RULE-001 | decision-rule | operational, decision | monitoring, evaluation | p. 24, 77 | wiki/aba/04-decision-rules/refine-indicators-from-characteristics.md | create-decision-rule | "Donor wants specific indicators but our framework is qualitative – how do I satisfy both?" | pending | false | Practical bridge for M&E. |
-| F-008 | Decision rule: When introducing Characteristics, start with what people already know (real projects) and work backwards. → see S-2009-twigg-ucl-disaster-resilient-community-RULE-002 | decision-rule | operational | capacity-building | p. 17 | wiki/aba/04-decision-rules/introduce-resilience-framework.md | create-decision-rule | "How do I train field staff on a complex resilience framework without losing them?" | pending | false | Proven field method. |
-| F-009 | Participatory VCA methods should not pre-define indicators, but Characteristics can help field workers understand the range of vulnerabilities to look for. → see S-2009-twigg-ucl-disaster-resilient-community-METHOD-002 | field-practice | diagnostic | assessment | p. 23 | wiki/aba/03-tasks/conduct-vca-with-characteristics.md | create-tool | "Our VCA produces too much messy data – how do I structure analysis without biasing it?" | pending | false | Balances openness and structure. |
+| F-007 | Decision rule: For projects with existing donor-agreed indicators, refine (split, reword, clarify) rather than replace. → see S-2009-twigg-ucl-disaster-resilient-community-RULE-001 | decision-rule | operational, decision | monitoring, evaluation | p. 24, 77 | wiki/aba/09-decision-protocols/refine-indicators-from-characteristics.md | create-decision-rule | "Donor wants specific indicators but our framework is qualitative – how do I satisfy both?" | pending | false | Practical bridge for M&E. |
+| F-008 | Decision rule: When introducing Characteristics, start with what people already know (real projects) and work backwards. → see S-2009-twigg-ucl-disaster-resilient-community-RULE-002 | decision-rule | operational | capacity-building | p. 17 | wiki/aba/09-decision-protocols/introduce-resilience-framework.md | create-decision-rule | "How do I train field staff on a complex resilience framework without losing them?" | pending | false | Proven field method. |
+| F-009 | Participatory VCA methods should not pre-define indicators, but Characteristics can help field workers understand the range of vulnerabilities to look for. → see S-2009-twigg-ucl-disaster-resilient-community-METHOD-002 | field-practice | diagnostic | assessment | p. 23 | wiki/aba/04-tools/conduct-vca-with-characteristics.md | create-tool | "Our VCA produces too much messy data – how do I structure analysis without biasing it?" | pending | false | Balances openness and structure. |
 | F-010 | The Characteristics have psychological value: solution-focused rather than problem-driven, creating positive attitudes and motivation among users. | field-practice | conceptual | capacity-building | p. 17 | source_only | source_only | not-applicable | pending | false | Explains unexpected adoption driver. |
 | F-011 | In conflict settings, the Characteristics (written for natural hazards, assuming community consensus) may not apply; no field experience exists. → see S-2009-twigg-ucl-disaster-resilient-community-RISK-002 | evidence-gap | conceptual | assessment | p. 15 | wiki/aba/02-concepts/resilience-conflict-gap.md | create-risk | "Can I use this framework in a post-conflict community with fragmented groups?" | pending | true | Major limitation requiring human review. |
-| F-012 | Decision rule: For post-disaster contexts, select a small set of key or minimum Characteristics as recovery milestones. → see S-2009-twigg-ucl-disaster-resilient-community-RULE-006 | decision-rule | operational, decision | response, recovery | p. 15 | wiki/aba/04-decision-rules/post-disaster-resilience-priorities.md | create-decision-rule | "A week after the flood – what resilience goals are realistic?" | pending | false | Context-specific adaptation. |
-| F-013 | Task seed: How to assess a community's current level of disaster resilience using the Characteristics framework? → see S-2009-twigg-ucl-disaster-resilient-community-SEED-001 | task-seed | operational, diagnostic | assessment | throughout | wiki/aba/03-tasks/assess-community-resilience-level.md | create-tool | "How do I measure how resilient our community is right now?" | pending | false | Core operational question. |
-| F-014 | Task seed: How to select and prioritize which resilience characteristics to address in a resource-constrained project? → see S-2009-twigg-ucl-disaster-resilient-community-SEED-002 | task-seed | operational, decision | project-design | p. 18-20 | wiki/aba/03-tasks/prioritize-resilience-interventions.md | create-decision-rule | "We have limited budget – which resilience gaps should we tackle first?" | pending | false | High priority for field teams. |
-| F-015 | Task seed: How to adapt the generic Characteristics to a specific local context (hazards, culture, capacities)? → see S-2009-twigg-ucl-disaster-resilient-community-SEED-003 | task-seed | operational | project-design, implementation | p. 18, Box 5 | wiki/aba/03-tasks/customize-resilience-framework.md | create-tool | "The global characteristics don't fit our village – how do we rewrite them?" | pending | false | Essential for local ownership. |
+| F-012 | Decision rule: For post-disaster contexts, select a small set of key or minimum Characteristics as recovery milestones. → see S-2009-twigg-ucl-disaster-resilient-community-RULE-006 | decision-rule | operational, decision | response, recovery | p. 15 | wiki/aba/09-decision-protocols/post-disaster-resilience-priorities.md | create-decision-rule | "A week after the flood – what resilience goals are realistic?" | pending | false | Context-specific adaptation. |
+| F-013 | Task seed: How to assess a community's current level of disaster resilience using the Characteristics framework? → see S-2009-twigg-ucl-disaster-resilient-community-SEED-001 | task-seed | operational, diagnostic | assessment | throughout | wiki/aba/04-tools/assess-community-resilience-level.md | create-tool | "How do I measure how resilient our community is right now?" | pending | false | Core operational question. |
+| F-014 | Task seed: How to select and prioritize which resilience characteristics to address in a resource-constrained project? → see S-2009-twigg-ucl-disaster-resilient-community-SEED-002 | task-seed | operational, decision | project-design | p. 18-20 | wiki/aba/04-tools/prioritize-resilience-interventions.md | create-decision-rule | "We have limited budget – which resilience gaps should we tackle first?" | pending | false | High priority for field teams. |
+| F-015 | Task seed: How to adapt the generic Characteristics to a specific local context (hazards, culture, capacities)? → see S-2009-twigg-ucl-disaster-resilient-community-SEED-003 | task-seed | operational | project-design, implementation | p. 18, Box 5 | wiki/aba/04-tools/customize-resilience-framework.md | create-tool | "The global characteristics don't fit our village – how do we rewrite them?" | pending | false | Essential for local ownership. |
 
 <a id="task-seeds"></a>
 ## Task Seeds
@@ -436,17 +436,17 @@ This guidance note, authored by John Twigg at UCL and commissioned by an interag
 | F-002 | Ideal / no single org | design-principle | conceptual | strategic-planning | wiki/aba/02-concepts/resilience-framework.md | create-concept | pending |
 | F-003 | Must adapt, not checklist | design-principle | operational | project-design | wiki/aba/02-concepts/resilience-framework.md | enrich-concept | pending |
 | F-004 | Enabling Environment importance | framework-component | conceptual | strategic-planning | wiki/aba/02-concepts/enabling-environment.md | create-concept | pending |
-| F-005 | Milestones model | process-step | operational | monitoring | wiki/aba/03-tasks/measure-resilience-progress.md | create-tool | pending |
+| F-005 | Milestones model | process-step | operational | monitoring | wiki/aba/04-tools/measure-resilience-progress.md | create-tool | pending |
 | F-006 | TA4 imbalance warning | tension-surface | diagnostic | project-design | source_only | source_only | pending |
-| F-007 | Refine not replace indicators | decision-rule | operational, decision | M&E | wiki/aba/04-decision-rules/refine-indicators-from-characteristics.md | create-decision-rule | pending |
-| F-008 | Start from known, not framework | decision-rule | operational | capacity-building | wiki/aba/04-decision-rules/introduce-resilience-framework.md | create-decision-rule | pending |
-| F-009 | VCA framing without pre-defining | field-practice | diagnostic | assessment | wiki/aba/03-tasks/conduct-vca-with-characteristics.md | create-tool | pending |
+| F-007 | Refine not replace indicators | decision-rule | operational, decision | M&E | wiki/aba/09-decision-protocols/refine-indicators-from-characteristics.md | create-decision-rule | pending |
+| F-008 | Start from known, not framework | decision-rule | operational | capacity-building | wiki/aba/09-decision-protocols/introduce-resilience-framework.md | create-decision-rule | pending |
+| F-009 | VCA framing without pre-defining | field-practice | diagnostic | assessment | wiki/aba/04-tools/conduct-vca-with-characteristics.md | create-tool | pending |
 | F-010 | Psychological value of solution-focus | field-practice | conceptual | capacity-building | source_only | source_only | pending |
 | F-011 | Conflict setting gap | evidence-gap | conceptual | assessment | wiki/aba/02-concepts/resilience-conflict-gap.md | create-risk | pending |
-| F-012 | Post-disaster minimal set | decision-rule | operational, decision | response | wiki/aba/04-decision-rules/post-disaster-resilience-priorities.md | create-decision-rule | pending |
-| F-013 | Task: assess resilience level | task-seed | operational, diagnostic | assessment | wiki/aba/03-tasks/assess-community-resilience-level.md | create-tool | pending |
-| F-014 | Task: prioritize interventions | task-seed | operational, decision | project-design | wiki/aba/03-tasks/prioritize-resilience-interventions.md | create-decision-rule | pending |
-| F-015 | Task: customize framework | task-seed | operational | project-design | wiki/aba/03-tasks/customize-resilience-framework.md | create-tool | pending |
+| F-012 | Post-disaster minimal set | decision-rule | operational, decision | response | wiki/aba/09-decision-protocols/post-disaster-resilience-priorities.md | create-decision-rule | pending |
+| F-013 | Task: assess resilience level | task-seed | operational, diagnostic | assessment | wiki/aba/04-tools/assess-community-resilience-level.md | create-tool | pending |
+| F-014 | Task: prioritize interventions | task-seed | operational, decision | project-design | wiki/aba/04-tools/prioritize-resilience-interventions.md | create-decision-rule | pending |
+| F-015 | Task: customize framework | task-seed | operational | project-design | wiki/aba/04-tools/customize-resilience-framework.md | create-tool | pending |
 
 ---
 

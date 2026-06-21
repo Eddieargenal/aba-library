@@ -40,7 +40,7 @@ updated: 2026-06-21
 ---
 
 > **Proposed library update (PU)** — finding **F-009** (`create-tool`,
-> target `wiki/aba/03-tasks/conduct-vca-with-characteristics.md`) of
+> target `wiki/aba/04-tools/conduct-vca-with-characteristics.md`) of
 > `S-2009-twigg-ucl-disaster-resilient-community`. Status: **draft — pending Gate B**.
 
 <a id="purpose"></a>

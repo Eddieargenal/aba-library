@@ -35,7 +35,7 @@ updated: 2026-06-21
 ---
 
 > **Proposed library update (PU)** — finding **F-008** (`create-decision-rule`,
-> target `wiki/aba/04-decision-rules/introduce-resilience-framework.md`) of
+> target `wiki/aba/09-decision-protocols/introduce-resilience-framework.md`) of
 > `S-2009-twigg-ucl-disaster-resilient-community`. Status: **draft — pending Gate B**.
 
 <a id="trigger"></a>
