@@ -1,5 +1,7 @@
 {"from": "C-enabling-environment", "relation": "related_concept", "to": "C-resilience", "status": "valid"}
 {"from": "C-enabling-environment", "relation": "source_basis", "to": "S-2009-twigg-ucl-disaster-resilient-community", "status": "valid"}
+{"from": "C-resilience-framework", "relation": "related_concept", "to": "C-resilience", "status": "valid"}
+{"from": "C-resilience-framework", "relation": "source_basis", "to": "S-2009-twigg-ucl-disaster-resilient-community", "status": "valid"}
 {"from": "C-resilience", "relation": "related_concept", "to": "C-enabling-environment", "status": "valid"}
 {"from": "C-resilience", "relation": "source_basis", "to": "S-2009-twigg-ucl-disaster-resilient-community", "status": "valid"}
 {"from": "C-resilience", "relation": "source_basis", "to": "S-2013-worldbank-building-urban-resilience-principles-tools-practice", "status": "valid"}

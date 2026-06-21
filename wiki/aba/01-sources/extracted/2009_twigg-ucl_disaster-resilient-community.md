@@ -51,7 +51,7 @@ findings:
       - wiki/aba/02-concepts/resilience.md
     integration_action: enrich-concept
     field_query_trigger: not-applicable
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-002
@@ -61,9 +61,9 @@ findings:
     source_pages: ["p. 7", "p. 21"]
     candidate_target_pages:
       - wiki/aba/02-concepts/resilience-framework.md
-    integration_action: create-concept
+    integration_action: enrich-concept
     field_query_trigger: "Our NGO is small – how much of this resilience framework should we try to achieve?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-003
