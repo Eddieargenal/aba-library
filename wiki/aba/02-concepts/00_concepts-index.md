@@ -1,4 +1,4 @@
-# Concepts Index (v2.6)
+# Concepts Index (v2.7)
 
 ## Section Description
 

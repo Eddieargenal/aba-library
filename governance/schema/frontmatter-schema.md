@@ -8,7 +8,7 @@ version: 2.7
 
 # Frontmatter Schema — v2.7
 
-This vault now follows the ABA/DRR v2.6 architecture.
+This vault now follows the ABA/DRR v2.7 architecture.
 
 ## Global Required Fields (all canonical wiki pages)
 
