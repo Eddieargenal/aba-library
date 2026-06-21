@@ -201,9 +201,9 @@ findings:
     source_pages: ["p. 41"]
     candidate_target_pages:
       - wiki/aba/06-risks/neighbourhood-governance-capture.md
-    integration_action: create-risk
+    integration_action: enrich-risk
     field_query_trigger: "How do I prevent neighbourhood governance structures from being captured by a small activist group that doesn't represent the broader community?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-015
@@ -213,9 +213,9 @@ findings:
     source_pages: ["p. 41"]
     candidate_target_pages:
       - wiki/aba/06-risks/neighbourhood-governance-fragmentation.md
-    integration_action: create-risk
+    integration_action: enrich-risk
     field_query_trigger: "How do I avoid creating neighbourhood governance structures that fragment services and undermine strategic coordination?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-016

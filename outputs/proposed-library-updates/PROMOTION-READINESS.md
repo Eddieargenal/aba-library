@@ -26,20 +26,16 @@ Then rebuild: `python3 scripts/build-index.py`. The page becomes rankable.
 **Worked example already done:** `resilience-framework` (concept / synthesis /
 limited) — now returned by the ranker.
 
-## Remaining stubs by type (11, all single-source → ceiling `limited`)
+## Remaining stubs by type (8, all single-source → ceiling `limited`)
 
 Promoted so far (now rankable at `limited`): `resilience-framework`, the 4
-Young Foundation concepts, both neighbourhood frameworks, and the 5 tools
-(`assess-community-resilience-level`, `conduct-vca-with-characteristics`,
-`customize-resilience-framework`, `local-public-realm-mapping-tool`,
-`measure-resilience-progress`).
+Young Foundation concepts, both neighbourhood frameworks, the 5 tools, and the
+3 risks (`neighbourhood-governance-capture`, `neighbourhood-governance-
+fragmentation`, `resilience-conflict-gap`).
 
 | type | slug | target |
 |---|---|---|
 | concept | enabling-environment | ⚠️ target **already exists** — merge, don't create |
-| risk | neighbourhood-governance-capture | wiki/aba/06-risks/neighbourhood-governance-capture.md |
-| risk | neighbourhood-governance-fragmentation | wiki/aba/06-risks/neighbourhood-governance-fragmentation.md |
-| risk | resilience-conflict-gap | wiki/aba/06-risks/resilience-conflict-gap.md |
 | decision-protocol | introduce-resilience-framework | wiki/aba/09-decision-protocols/introduce-resilience-framework.md |
 | decision-protocol | neighbourhood-governance-selection | wiki/aba/09-decision-protocols/neighbourhood-governance-selection.md |
 | decision-protocol | neighbourhood-scale-selection | wiki/aba/09-decision-protocols/neighbourhood-scale-selection.md |

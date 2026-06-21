@@ -1,6 +1,6 @@
 {
-  "build_id": "2026-06-21T121229Z",
-  "pending_finding_count": 88,
+  "build_id": "2026-06-21T121704Z",
+  "pending_finding_count": 85,
   "unrouted_finding_count": 22,
   "pending_findings": [
     {
@@ -68,17 +68,6 @@
       "human_review_required": false,
       "candidate_target_pages": [
         "source_only"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
-      "finding_id": "F-011",
-      "status": "pending",
-      "integration_action": "create-risk",
-      "human_review_required": true,
-      "candidate_target_pages": [
-        "wiki/aba/06-risks/resilience-conflict-gap.md"
       ],
       "unsatisfied_target_pages": []
     },
@@ -187,28 +176,6 @@
       "human_review_required": false,
       "candidate_target_pages": [
         "wiki/aba/09-decision-protocols/service-devolution-conditions.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-youngfoundation2010",
-      "finding_id": "F-014",
-      "status": "pending",
-      "integration_action": "create-risk",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/06-risks/neighbourhood-governance-capture.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-youngfoundation2010",
-      "finding_id": "F-015",
-      "status": "pending",
-      "integration_action": "create-risk",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/06-risks/neighbourhood-governance-fragmentation.md"
       ],
       "unsatisfied_target_pages": []
     },
