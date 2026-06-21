@@ -124,6 +124,27 @@ def section_line_ranges(
     return out, warnings
 
 
+def unsatisfied_targets(
+    action: Optional[str], candidate_targets: List[Any], target_exists: Callable[[str], bool]
+) -> List[str]:
+    """Return the candidate paths that violate the target requirement for this
+    integration_action (the #7 routing contract — resolution is by PATH):
+
+      enrich-*  -> the target page must EXIST; missing paths are unsatisfied.
+      create-*  -> the target must NOT exist yet; existing paths are unsatisfied
+                   (a collision with the prefer-enrich rule, flagged for review).
+      otherwise -> source_only / flag-for-review / unset impose no path
+                   requirement, so nothing is unsatisfied.
+    """
+    act = str(action or "").strip().lower()
+    paths = [p for p in candidate_targets if isinstance(p, str)]
+    if act.startswith("enrich"):
+        return [p for p in paths if not target_exists(p)]
+    if act.startswith("create"):
+        return [p for p in paths if target_exists(p)]
+    return []
+
+
 def compile_index(
     pages: List[Page],
     *,
@@ -251,10 +272,10 @@ def compile_index(
                 )
 
                 status_val = str(finding.get("status", "")).strip().lower()
-                missing_targets = [
-                    p for p in candidate_targets if isinstance(p, str) and not target_exists(p)
-                ]
-                if status_val not in TERMINAL_FINDING_STATUS or missing_targets:
+                unsatisfied = unsatisfied_targets(
+                    finding.get("integration_action"), candidate_targets, target_exists
+                )
+                if status_val not in TERMINAL_FINDING_STATUS or unsatisfied:
                     result.routing_pending.append(
                         {
                             "source_id": page_id,
@@ -263,7 +284,7 @@ def compile_index(
                             "integration_action": finding.get("integration_action"),
                             "human_review_required": finding.get("human_review_required"),
                             "candidate_target_pages": candidate_targets,
-                            "missing_target_pages": missing_targets,
+                            "unsatisfied_target_pages": unsatisfied,
                         }
                     )
 
