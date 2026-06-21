@@ -1,9 +1,10 @@
 # Routing record — S-2009-twigg-ucl-disaster-resilient-community
 
 Re-route pass under the #7 by-path, action-branched contract (proof slice).
-Targets read from the source's body `#findings` table (frontmatter records were
-empty — see issue #14). PU- stubs are **draft, pending Gate B**; no wiki page or
-the source's own integration map was edited in this pass (concurrent session active).
+Targets read from the source **frontmatter** `findings[].candidate_target_pages`
+(all 15 populated; the compiler resolves them directly). PU- stubs are **draft,
+pending Gate B**; no wiki page or the source's own integration map was edited in
+this pass (concurrent session active).
 
 | Finding | Action | Target (by path) | Resolves? | Outcome |
 |---------|--------|------------------|-----------|---------|
@@ -17,7 +18,7 @@ the source's own integration map was edited in this pass (concurrent session act
 | F-008 | create-decision-rule | `04-decision-rules/introduce-resilience-framework.md` | absent | PU-introduce-resilience-framework |
 | F-009 | create-tool | `03-tasks/conduct-vca-with-characteristics.md` | absent | PU-conduct-vca-with-characteristics |
 | F-010 | source_only | — | — | no-op |
-| F-011 | create-risk | `02-concepts/resilience-conflict-gap.md` | absent | PU-resilience-conflict-gap (**Gate B — human_review_required**) |
+| F-011 | create-risk | `06-risks/resilience-conflict-gap.md` | absent | PU-resilience-conflict-gap (**Gate B — human_review_required**) |
 | F-012 | create-decision-rule | `04-decision-rules/post-disaster-resilience-priorities.md` | absent | PU-post-disaster-resilience-priorities |
 | F-013 | create-tool | `03-tasks/assess-community-resilience-level.md` | absent | PU-assess-community-resilience-level |
 | F-014 | create-decision-rule | `04-decision-rules/prioritize-resilience-interventions.md` | absent | PU-prioritize-resilience-interventions |
@@ -33,4 +34,5 @@ the source's own integration map was edited in this pass (concurrent session act
 ## Follow-up
 - **Ordering nuance:** F-003 (`enrich`) targets the page F-002 (`create`) proposes. A batch route should sequence create-before-enrich-into-it, or re-classify F-003 as enrich-once-promoted. (Note for agent-09.)
 - **F-001 enrich + integration-map writeback** into `C-resilience` and the source page deferred to avoid colliding with the concurrent session.
-- **Targets came from the body table, not frontmatter** — issue #14.
+- **Correction:** an earlier draft of this record claimed the frontmatter targets were empty (filed as #14). That was a grep artifact — the frontmatter `candidate_target_pages` are fully populated and the compiler resolves them. #14 closed as invalid.
+- **F-011 target folder:** frontmatter authority is `06-risks/` (a risk page), not `02-concepts/`. The PU- stub's body refers to it accordingly.

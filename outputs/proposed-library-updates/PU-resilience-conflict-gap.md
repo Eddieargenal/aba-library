@@ -36,7 +36,7 @@ updated: 2026-06-21
 
 > **Proposed library update (PU)** — drafted by the finding-routing pass from
 > `S-2009-twigg-ucl-disaster-resilient-community`, finding **F-011**
-> (`create-risk`, target `wiki/aba/02-concepts/resilience-conflict-gap.md`).
+> (`create-risk`, target `wiki/aba/06-risks/resilience-conflict-gap.md`).
 > Status: **draft — pending Gate B review**. **`human_review_required: true`** →
 > this finding mandates Gate B. Not yet part of the wiki.
 
