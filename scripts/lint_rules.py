@@ -32,6 +32,7 @@ from schema import (
     MAX_PRIMARY_TOPICS,
     PROMOTION_STAGE_VOCAB,
     RETRIEVAL_STATUS_VOCAB,
+    SCHEMA_VERSION,
     STRICT_REQUIRED,
     TECHNICAL_TYPES,
     target_dir_for_action,
@@ -95,6 +96,21 @@ def rule_retrieval_status_vocab(ctx: RuleCtx) -> List[Issue]:
 def rule_source_basis_usable(ctx: RuleCtx) -> List[Issue]:
     if ctx.ptype in TECHNICAL_TYPES and ctx.rs_val == "usable" and not ctx.fm.get("source_basis"):
         return [Issue(CRITICAL, "missing_source_basis_usable")]
+    return []
+
+
+def rule_schema_version(ctx: RuleCtx) -> List[Issue]:
+    """Advisory: a page may declare the schema generation it was authored under.
+    When present and different from the active SCHEMA_VERSION, warn so silent
+    cross-generation drift surfaces. Absence is never flagged (most pages omit
+    it)."""
+    declared = ctx.fm.get("schema_version")
+    if declared is None:
+        return []
+    norm = str(declared).strip()
+    norm = norm[1:] if norm[:1] in ("v", "V") else norm  # tolerate a cosmetic v prefix
+    if norm != SCHEMA_VERSION:
+        return [Issue(WARNING, f"schema_version_mismatch:{norm}")]
     return []
 
 
@@ -310,6 +326,7 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_lifecycle_required,
     rule_retrieval_status_vocab,
     rule_source_basis_usable,
+    rule_schema_version,
     rule_lifecycle_vocab,
     rule_id_prefix,
     rule_tool_related_risks,

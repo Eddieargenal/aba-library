@@ -29,10 +29,12 @@ from lint_rules import (
     rule_required_fields,
     rule_retrieval_status_vocab,
     rule_source_basis_usable,
+    rule_schema_version,
     rule_tool_related_risks,
     run_graph_rules,
     run_rules,
 )
+from schema import SCHEMA_VERSION
 
 
 class FakePage:
@@ -169,6 +171,28 @@ class SourceBasis(unittest.TestCase):
         self.assertEqual(rule_source_basis_usable(c), [])
 
 
+class SchemaVersion(unittest.TestCase):
+    def test_divergent_declared_version_warns(self):
+        c = ctx(fm={"schema_version": "9.9"})
+        self.assertEqual(codes(rule_schema_version(c)), ["schema_version_mismatch:9.9"])
+
+    def test_matching_declared_version_is_clean(self):
+        self.assertEqual(rule_schema_version(ctx(fm={"schema_version": SCHEMA_VERSION})), [])
+
+    def test_absent_version_is_clean(self):
+        # most pages omit schema_version; absence is never flagged
+        self.assertEqual(rule_schema_version(ctx(fm={})), [])
+
+    def test_v_prefix_is_tolerated(self):
+        # the historical drift used "v2.7"/"v3.0" notation; a cosmetic v prefix
+        # on the active generation is not a mismatch
+        self.assertEqual(rule_schema_version(ctx(fm={"schema_version": "v" + SCHEMA_VERSION})), [])
+
+    def test_v_prefixed_mismatch_reports_normalized(self):
+        c = ctx(fm={"schema_version": "v3.0"})
+        self.assertEqual(codes(rule_schema_version(c)), ["schema_version_mismatch:3.0"])
+
+
 class Prefix(unittest.TestCase):
     def test_mismatch(self):
         c = ctx(page_id="T-foo", ptype="concept")
@@ -204,6 +228,10 @@ class Registry(unittest.TestCase):
         got = codes(run_rules(c))
         for expected in ("missing_title", "missing_lifecycle_stage", "missing_source_basis_usable"):
             self.assertIn(expected, got)
+
+    def test_run_rules_includes_schema_version(self):
+        c = ctx(fm={"schema_version": "9.9"}, ptype="concept", page_id="C-x")
+        self.assertIn("schema_version_mismatch:9.9", codes(run_rules(c)))
 
 
 class GraphDuplicate(unittest.TestCase):
