@@ -9,6 +9,9 @@ lifecycle_stage:
 - coordination-design
 primary_topics:
 - neighbourhood
+related_concepts:
+- C-neighbourliness
+- C-local-public-realm
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-TYPOLOGY-002

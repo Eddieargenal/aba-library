@@ -9,6 +9,9 @@ lifecycle_stage:
 - integrated-area-strategy
 primary_topics:
 - neighbourhood
+related_concepts:
+- C-local-public-realm
+- C-neighbourhood-scales
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-CONCEPT-006
