@@ -14,6 +14,9 @@ related_concepts:
 - C-local-public-realm
 related_frameworks:
 - F-neighbourhood-definition-framework
+related_risks:
+- R-neighbourhood-governance-capture
+- R-neighbourhood-governance-fragmentation
 source_basis:
 - source_id: S-youngfoundation2010
   object_id: S-youngfoundation2010-TYPOLOGY-002

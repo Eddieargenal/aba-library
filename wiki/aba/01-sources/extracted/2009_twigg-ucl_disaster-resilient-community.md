@@ -169,9 +169,9 @@ findings:
     source_pages: ["p. 15"]
     candidate_target_pages:
       - wiki/aba/06-risks/resilience-conflict-gap.md
-    integration_action: create-risk
+    integration_action: enrich-risk
     field_query_trigger: "Can I use this framework in a post-conflict community with fragmented groups?"
-    status: pending
+    status: integrated
     human_review_required: true
 
   - finding_id: F-012

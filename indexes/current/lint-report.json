@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-06-21T121229Z",
+  "build_id": "2026-06-21T121704Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -95,10 +95,6 @@
       "warning": "ghost_node:KTN-enabling-environment-not-separate"
     },
     {
-      "path": "02-concepts/resilience-framework.md",
-      "warning": "ghost_node:R-resilience-conflict-gap"
-    },
-    {
       "path": "02-concepts/resilience.md",
       "warning": "ghost_node:C-disaster-risk-reduction"
     },
@@ -123,12 +119,8 @@
       "warning": "ghost_node:KTN-resilience-consensus"
     },
     {
-      "path": "04-tools/assess-community-resilience-level.md",
-      "warning": "ghost_node:R-resilience-conflict-gap"
-    },
-    {
-      "path": "04-tools/customize-resilience-framework.md",
-      "warning": "ghost_node:R-resilience-conflict-gap"
+      "path": "06-risks/resilience-conflict-gap.md",
+      "warning": "ghost_node:framework proposed for use in an active or post-conflict setting"
     }
   ]
 }
