@@ -77,6 +77,19 @@ CONTRADICTION_AGING_BLOCK_DAYS = 90
 # (distinct from the contradiction-aging thresholds, which block).
 STALE_REVIEW_DAYS = 180
 
+# Human-review gate state (governance/human-review-gates.md). Optional field; a
+# page awaiting any gate is not publishable, "cleared" means all required gates
+# passed. Enforced by rule_gate_state: a pending or unrecognized value is a
+# critical that blocks publish (fail-closed). Absence imposes no constraint.
+GATE_STATE_CLEARED = "cleared"
+GATE_STATE_VOCAB = {
+    GATE_STATE_CLEARED,
+    "awaiting-gate-a",
+    "awaiting-gate-b",
+    "awaiting-gate-c",
+    "awaiting-gate-d",
+}
+
 # --- Required-field tables ---------------------------------------------------
 
 STRICT_REQUIRED = ["id", "type", "title", "retrieval_status"]
