@@ -45,6 +45,10 @@ is observed via `manifest.health`, not enforced as a publish gate.
 - `primary_topics` breadth exceeds limit (`excessive_primary_topics:{count}`, limit 6)
 - Deprecated page still linked by an active playbook/protocol
   (`deprecated_target_linked:{target_id}`)
+- One-sided `contradicts` edge — page B is named in A's `contradicts:` but does
+  not disclose the tension back (`undisclosed_contradiction:{B}:{A}`). Enforces
+  mutual disclosure ("no silent contradiction suppression", ADR-0006); dormant
+  until the graph carries `contradicts` edges.
 - Page has no `sections:` frontmatter declaration (`missing_sections`)
 - Source page missing explicit `id:`; derived from `source_id:` (`derived_source_id:{id}`)
 - Source page missing explicit `retrieval_status:`; derived from `status:` (`derived_retrieval_status:{value}`)
