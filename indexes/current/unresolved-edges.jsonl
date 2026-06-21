@@ -1,6 +1,6 @@
+{"from": "C-enabling-environment", "relation": "known_tension", "to": "KTN-enabling-environment-not-separate", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/enabling-environment.md"}
 {"from": "C-resilience", "relation": "related_concept", "to": "C-disaster-risk-reduction", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
 {"from": "C-resilience", "relation": "related_concept", "to": "C-community", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
-{"from": "C-resilience", "relation": "related_concept", "to": "C-enabling-environment", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
 {"from": "C-resilience", "relation": "related_framework", "to": "F-community-resilience-characteristics", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
 {"from": "C-resilience", "relation": "related_risk", "to": "R-consensus-assumption", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
 {"from": "C-resilience", "relation": "related_risk", "to": "R-checklist-misuse", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}

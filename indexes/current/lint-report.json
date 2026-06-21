@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-06-21T063652Z",
+  "build_id": "2026-06-21T105750Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -15,10 +15,6 @@
       "warning": "orphan_page:OVR-scaffold-map-v27"
     },
     {
-      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community_skill.md",
-      "warning": "orphan_page:S-2009-twigg-ucl-disaster-resilient-community-v2"
-    },
-    {
       "path": "01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md",
       "warning": "orphan_page:S-2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy"
     },
@@ -29,10 +25,6 @@
     {
       "path": "01-sources/extracted/2012_efl_neighbourhood-approach-toolbox.md",
       "warning": "orphan_page:S-2012-efl-neighbourhood-approach-toolbox"
-    },
-    {
-      "path": "01-sources/extracted/2013-worldbank-building-urban-resilience-principles-tools-practice.md",
-      "warning": "orphan_page:S-2013-worldbank-building-urban-resilience-principles-tools-practice"
     },
     {
       "path": "01-sources/extracted/2015-parker-maynard-humanitarian-response-urban-crises-aba-review.md",
@@ -103,8 +95,8 @@
       "warning": "orphan_page:S-2026-iasc-standard-terms-reference-area-based-coordination-tor"
     },
     {
-      "path": "02-concepts/resilience.md",
-      "warning": "orphan_page:C-resilience"
+      "path": "02-concepts/enabling-environment.md",
+      "warning": "ghost_node:KTN-enabling-environment-not-separate"
     },
     {
       "path": "02-concepts/resilience.md",
@@ -113,10 +105,6 @@
     {
       "path": "02-concepts/resilience.md",
       "warning": "ghost_node:C-community"
-    },
-    {
-      "path": "02-concepts/resilience.md",
-      "warning": "ghost_node:C-enabling-environment"
     },
     {
       "path": "02-concepts/resilience.md",
