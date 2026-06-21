@@ -26,21 +26,17 @@ Then rebuild: `python3 scripts/build-index.py`. The page becomes rankable.
 **Worked example already done:** `resilience-framework` (concept / synthesis /
 limited) — now returned by the ranker.
 
-## Remaining stubs by type (16, all single-source → ceiling `limited`)
+## Remaining stubs by type (11, all single-source → ceiling `limited`)
 
-Promoted so far (now rankable at `limited`): `resilience-framework`,
-`ecological-empowerment`, `local-public-realm`, `neighbourhood-scales`,
-`neighbourliness`, `neighbourhood-attributes-framework`,
-`neighbourhood-definition-framework`.
+Promoted so far (now rankable at `limited`): `resilience-framework`, the 4
+Young Foundation concepts, both neighbourhood frameworks, and the 5 tools
+(`assess-community-resilience-level`, `conduct-vca-with-characteristics`,
+`customize-resilience-framework`, `local-public-realm-mapping-tool`,
+`measure-resilience-progress`).
 
 | type | slug | target |
 |---|---|---|
 | concept | enabling-environment | ⚠️ target **already exists** — merge, don't create |
-| tool | assess-community-resilience-level | wiki/aba/04-tools/assess-community-resilience-level.md |
-| tool | conduct-vca-with-characteristics | wiki/aba/04-tools/conduct-vca-with-characteristics.md |
-| tool | customize-resilience-framework | wiki/aba/04-tools/customize-resilience-framework.md |
-| tool | local-public-realm-mapping-tool | wiki/aba/04-tools/local-public-realm-mapping-tool.md |
-| tool | measure-resilience-progress | wiki/aba/04-tools/measure-resilience-progress.md |
 | risk | neighbourhood-governance-capture | wiki/aba/06-risks/neighbourhood-governance-capture.md |
 | risk | neighbourhood-governance-fragmentation | wiki/aba/06-risks/neighbourhood-governance-fragmentation.md |
 | risk | resilience-conflict-gap | wiki/aba/06-risks/resilience-conflict-gap.md |

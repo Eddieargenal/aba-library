@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-06-21T120313Z",
+  "build_id": "2026-06-21T121229Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -121,6 +121,14 @@
     {
       "path": "02-concepts/resilience.md",
       "warning": "ghost_node:KTN-resilience-consensus"
+    },
+    {
+      "path": "04-tools/assess-community-resilience-level.md",
+      "warning": "ghost_node:R-resilience-conflict-gap"
+    },
+    {
+      "path": "04-tools/customize-resilience-framework.md",
+      "warning": "ghost_node:R-resilience-conflict-gap"
     }
   ]
 }

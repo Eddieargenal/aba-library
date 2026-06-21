@@ -6,3 +6,5 @@
 {"from": "C-resilience", "relation": "related_risk", "to": "R-consensus-assumption", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
 {"from": "C-resilience", "relation": "related_risk", "to": "R-checklist-misuse", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
 {"from": "C-resilience", "relation": "known_tension", "to": "KTN-resilience-consensus", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "02-concepts/resilience.md"}
+{"from": "T-assess-community-resilience-level", "relation": "related_risk", "to": "R-resilience-conflict-gap", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "04-tools/assess-community-resilience-level.md"}
+{"from": "T-customize-resilience-framework", "relation": "related_risk", "to": "R-resilience-conflict-gap", "status": "unresolved", "reason": "target_id_not_found", "severity": "high", "source_file": "04-tools/customize-resilience-framework.md"}

@@ -1,6 +1,6 @@
 {
-  "build_id": "2026-06-21T120313Z",
-  "pending_finding_count": 93,
+  "build_id": "2026-06-21T121229Z",
+  "pending_finding_count": 88,
   "unrouted_finding_count": 22,
   "pending_findings": [
     {
@@ -26,17 +26,6 @@
       "unsatisfied_target_pages": [
         "wiki/aba/02-concepts/enabling-environment.md"
       ]
-    },
-    {
-      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
-      "finding_id": "F-005",
-      "status": "pending",
-      "integration_action": "create-tool",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/04-tools/measure-resilience-progress.md"
-      ],
-      "unsatisfied_target_pages": []
     },
     {
       "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
@@ -68,17 +57,6 @@
       "human_review_required": false,
       "candidate_target_pages": [
         "wiki/aba/09-decision-protocols/introduce-resilience-framework.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
-      "finding_id": "F-009",
-      "status": "pending",
-      "integration_action": "create-tool",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/04-tools/conduct-vca-with-characteristics.md"
       ],
       "unsatisfied_target_pages": []
     },
@@ -117,34 +95,12 @@
     },
     {
       "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
-      "finding_id": "F-013",
-      "status": "pending",
-      "integration_action": "create-tool",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/04-tools/assess-community-resilience-level.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
       "finding_id": "F-014",
       "status": "pending",
       "integration_action": "create-decision-rule",
       "human_review_required": false,
       "candidate_target_pages": [
         "wiki/aba/09-decision-protocols/prioritize-resilience-interventions.md"
-      ],
-      "unsatisfied_target_pages": []
-    },
-    {
-      "source_id": "S-2009-twigg-ucl-disaster-resilient-community",
-      "finding_id": "F-015",
-      "status": "pending",
-      "integration_action": "create-tool",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/04-tools/customize-resilience-framework.md"
       ],
       "unsatisfied_target_pages": []
     },
@@ -186,17 +142,6 @@
       "unsatisfied_target_pages": [
         "wiki/aba/04-tools/neighbourhood-boundary-definition-tool.md"
       ]
-    },
-    {
-      "source_id": "S-youngfoundation2010",
-      "finding_id": "F-008",
-      "status": "pending",
-      "integration_action": "create-tool",
-      "human_review_required": false,
-      "candidate_target_pages": [
-        "wiki/aba/04-tools/local-public-realm-mapping-tool.md"
-      ],
-      "unsatisfied_target_pages": []
     },
     {
       "source_id": "S-youngfoundation2010",
