@@ -11,6 +11,11 @@ version: 2.7
 Enforced by `scripts/build-index.py`. Critical failures block atomic publish to
 `indexes/current/`; warnings are recorded in `lint-report.json` and do not block.
 
+Gating on criticals only is a deliberate policy, not an oversight (ADR-0005):
+warnings stay advisory and `--strict` is opt-in, because the vault is
+intentionally sparse during population (#13). Index health (orphan/ghost/stale %)
+is observed via `manifest.health`, not enforced as a publish gate.
+
 ## Critical Failures (block publish)
 
 - Missing `id`
