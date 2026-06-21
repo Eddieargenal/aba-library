@@ -85,9 +85,9 @@ findings:
     source_pages: ["p. 12"]
     candidate_target_pages:
       - wiki/aba/02-concepts/enabling-environment.md
-    integration_action: create-concept
+    integration_action: enrich-concept
     field_query_trigger: "Our community project is failing – is it because of external policies we can't control?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-005
@@ -121,9 +121,9 @@ findings:
     source_pages: ["p. 24", "p. 77"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/refine-indicators-from-characteristics.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "Donor wants specific indicators but our framework is qualitative – how do I satisfy both?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-008
@@ -133,9 +133,9 @@ findings:
     source_pages: ["p. 17"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/introduce-resilience-framework.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "How do I train field staff on a complex resilience framework without losing them?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-009
@@ -181,9 +181,9 @@ findings:
     source_pages: ["p. 15"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/post-disaster-resilience-priorities.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "A week after the flood – what resilience goals are realistic?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-013
@@ -205,9 +205,9 @@ findings:
     source_pages: ["p. 18-20"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/prioritize-resilience-interventions.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "We have limited budget – which resilience gaps should we tackle first?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-015

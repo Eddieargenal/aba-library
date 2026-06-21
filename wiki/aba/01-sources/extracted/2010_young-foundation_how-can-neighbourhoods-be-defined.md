@@ -165,9 +165,9 @@ findings:
     source_pages: ["p. 15–16"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/neighbourhood-scale-selection.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "At what geographic scale should we define our area of operation — block level, estate level, or wider district?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-012
@@ -177,9 +177,9 @@ findings:
     source_pages: ["p. 40"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/neighbourhood-governance-selection.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "What governance structure should we establish for a neighbourhood that faces a specific challenge but has low community capacity?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-013
@@ -189,9 +189,9 @@ findings:
     source_pages: ["p. 32"]
     candidate_target_pages:
       - wiki/aba/09-decision-protocols/service-devolution-conditions.md
-    integration_action: create-decision-rule
+    integration_action: enrich-decision-rule
     field_query_trigger: "When is it appropriate to devolve service delivery to neighbourhood bodies rather than keeping it with local authorities?"
-    status: pending
+    status: integrated
     human_review_required: false
 
   - finding_id: F-014
