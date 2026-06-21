@@ -61,6 +61,10 @@ class RuleCtx:
     # Injected clock for date-based rules (e.g. contradiction aging). None when
     # no clock is available, in which case those rules skip rather than guess.
     today: Optional[date] = None
+    # Injected set of source ids known to the section index, for source_basis
+    # resolution. None when the index is unavailable, in which case that rule
+    # skips rather than flag every reference as dangling.
+    known_source_ids: Optional[Set[str]] = None
 
     @property
     def rs_val(self) -> str:
@@ -96,6 +100,29 @@ def rule_source_basis_usable(ctx: RuleCtx) -> List[Issue]:
     if ctx.ptype in TECHNICAL_TYPES and ctx.rs_val == "usable" and not ctx.fm.get("source_basis"):
         return [Issue(CRITICAL, "missing_source_basis_usable")]
     return []
+
+
+def source_ids_in_section_index(rows) -> Set[str]:
+    """The set of page ids present in the section index (section-index.jsonl
+    rows). build-index.py reads the file and passes the parsed rows; this stays
+    pure so it is unit-testable without I/O. Feeds RuleCtx.known_source_ids for
+    rule_source_basis_resolves."""
+    return {r["page_id"] for r in rows if isinstance(r, dict) and r.get("page_id")}
+
+
+def rule_source_basis_resolves(ctx: RuleCtx) -> List[Issue]:
+    if ctx.known_source_ids is None:
+        return []
+    issues: List[Issue] = []
+    for entry in ctx.fm.get("source_basis", []) or []:
+        if not isinstance(entry, dict):
+            continue
+        sid = entry.get("source_id")
+        if not sid:
+            continue
+        if sid not in ctx.known_source_ids:
+            issues.append(Issue(WARNING, f"source_basis_unresolved:{sid}"))
+    return issues
 
 
 def rule_lifecycle_vocab(ctx: RuleCtx) -> List[Issue]:
@@ -310,6 +337,7 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_lifecycle_required,
     rule_retrieval_status_vocab,
     rule_source_basis_usable,
+    rule_source_basis_resolves,
     rule_lifecycle_vocab,
     rule_id_prefix,
     rule_tool_related_risks,
