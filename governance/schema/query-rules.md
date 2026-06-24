@@ -15,7 +15,7 @@ The wiki has four layers plus one operational mirror with distinct roles:
 | Raw | `./01-sources/raw/` | Immutable source PDFs | NEVER read for answers |
 | Raw-content mirror | `./01-sources/raw-content/` | Markdown text mirror for ingest/review support | NEVER read for answers |
 | Extracted source layer | `./01-sources/extracted/` | Structured extraction and source-level metadata | Read for citation/evidence grounding |
-| Synthesis | `./00-overview/` through `./12-risks-contradictions/` | Canonical source of truth for domain answers | Always read here first |
+| Synthesis | `./00-overview/` through `./12-synthesis/` | Canonical source of truth for domain answers | Always read here first |
 | Schema | `governance/schema/`, `governance/aba/CLAUDE.md` | Operating rules | Read when behavior is unclear |
 
 **`01-sources/raw/` and `01-sources/raw-content/` are input/support layers, not answer layers. If synthesis does not contain the answer, flag the gap — do not bypass to raw/raw-content.**

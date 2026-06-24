@@ -59,7 +59,7 @@ If the synthesized answer contains knowledge worth retaining — and it is not a
 
 ## Notes
 
-- For ABA wiki queries, answer from synthesis + extracted layers (`wiki/aba/00-overview` through `wiki/aba/12-risks-contradictions`, plus `wiki/aba/01-sources/extracted/` as needed for citation grounding).
+- For ABA wiki queries, answer from synthesis + extracted layers (`wiki/aba/00-overview` through `wiki/aba/12-synthesis`, plus `wiki/aba/01-sources/extracted/` as needed for citation grounding).
 - Do not bypass to `wiki/aba/01-sources/raw/` or `wiki/aba/01-sources/raw-content/` for direct answers.
 - If two wiki pages contradict each other, do not pick one — log the contradiction to `memory/categories/unresolved.md` and surface it in your answer.
 - Do not update wiki pages during a query unless you are explicitly filing a new answer (step 4). Keep query and ingest separate.

@@ -55,14 +55,16 @@ Every change to `governance/schema/` follows this mandatory sequence:[cite:23]
 
 ---
 
-## Pattern Governance (`11-patterns/`)
+## Finding Promotion Governance (pending-findings queue)
 
-Without discipline, `11-patterns/` becomes a graveyard of interesting observations. Every pattern requires the following frontmatter:[cite:23]
+Without discipline, the pending-findings queue becomes a graveyard of interesting observations. Field findings live in the extracted source page frontmatter and are promoted along the ladder (`finding → concept → framework → tool → validated`, ADR-0001). Each finding carries:[cite:23]
 
 ```yaml
-pattern_status: candidate | under_review | validated | promoted | rejected | archived
-promotion_target: concept | framework | tool | risk_register | none
-evidence_count:
+finding_id: F-001
+finding_type: concept-definition | decision-rule | risk-identification | ...
+status: pending | integrated               # pending = unrouted (counts toward pending_finding_count)
+candidate_target_pages: []                 # canonical destination page(s)
+promotion_stage: finding | concept | framework | tool | validated   # on the destination page
 contexts_observed: []
 review_by:
 review_date:
@@ -70,7 +72,7 @@ contradictions_checked: true | false
 applicability:
 ```
 
-Promotion requires: observation in ≥2 contexts (or strong validation in one critical context), contradiction check passed, applicability boundaries defined, existing concepts/frameworks checked for duplication, and Domain Steward approval.[cite:24]
+Promotion requires: observation in ≥2 contexts (or strong validation in one critical context), contradiction check passed, applicability boundaries defined, existing concepts/frameworks checked for duplication, and Domain Steward approval.[cite:24] See [[evidence-promotion]] for the full gated path.
 
 ---
 
@@ -82,10 +84,10 @@ Linting is **not a static audit** — it is a regular LLM-run diagnostic that pr
 
 - Files missing required frontmatter fields (status, review date, tags, source links)
 - `00_index.md` entries that are stale, vague, or missing
-- Patterns in `candidate` status older than 90 days with no review activity
+- Findings still in `pending` status (not yet routed) older than 90 days with no review activity
 - Outputs past their `valid_until` date with no supersession record
 - Concepts or frameworks referenced in outputs but not linked in indexes
-- Contradictions discovered during query activity not yet logged in `12-risks-contradictions/`
+- Contradictions discovered during query activity not yet logged in `07-known-tensions/`
 - New article candidates based on emerging gaps or cross-document connections
 - Schema drift (naming inconsistencies, non-standard tags, duplicate concepts)
 

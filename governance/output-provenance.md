@@ -44,7 +44,7 @@ response_date:
 confidence: low | medium | high
 source_files_used: []
 contradictions_checked: true | false
-filed_to: [target folder — e.g. 11-patterns/, 09-monitoring-learning/]
+filed_to: [target folder — e.g. 06-risks/, 09-decision-protocols/, 12-synthesis/]
 ```
 
 Internal outputs use a **lightweight filing path** — no full provenance block required — because their purpose is to compound the library's knowledge, not to produce certified artifacts. Every query should make the library smarter.

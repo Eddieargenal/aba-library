@@ -40,7 +40,7 @@ A purely centralized model creates bottlenecks. A fully decentralized model caus
 | **Technical Maintainer** | Implements approved changes | Lint tooling, schema migrations, file structure, changelog entries, LLM tooling |
 | **Domain Stewards** (per sector) | Approve sector content | Accuracy of shelter, WASH, DRR, protection, livelihoods, coordination, tenure content in Zones 2–3 |
 | **Agent Maintainer** | Manages LLM behavior | `AGENTS.md`, agent prompts, retrieval rules, runtime contradiction logic, fallback ladder |
-| **Evidence Reviewer** | Gates field findings | Validates field instrument findings before `11-patterns/` entry; enforces evidence criteria |
+| **Evidence Reviewer** | Gates field findings | Validates field instrument findings before promotion (per [[evidence-promotion]]); enforces evidence criteria |
 | **Knowledge Governance Council** | Strategic direction | Quarterly cross-cutting decisions, scope changes, promotion disputes, multi-sector contradictions |
 | **LLM Agent** | Primary author | All wiki synthesis, index auto-maintenance, lint reports, output drafts, backlink management |
 
@@ -65,14 +65,13 @@ A concise description of all zones, folders, and their purpose — precise enoug
 | `AGENTS.md` | Controlled | Agent Maintainer after Steward approval |
 | `00-overview/` | Controlled | Library Steward |
 | `01-05/` Zone 2 | LLM-drafted, human-approved | LLM drafts; Domain Steward approves |
-| `06-10/` Zone 3 | LLM-drafted, human-approved | LLM drafts; Domain Steward approves |
-| `11-patterns/` | Open intake, gated promotion | LLM logs; Evidence Reviewer gates promotion |
-| `12-risks-contradictions/` | Open addition, governed removal | Any role adds; Steward approves removals |
+| `08-12/` Zone 3 | LLM-drafted, human-approved | LLM drafts; Domain Steward approves |
+| `06-risks/`, `07-known-tensions/` | Open addition, governed removal | Any role adds; Evidence Reviewer gates promotion, Steward approves removals |
 | `outputs/` | Traceable | LLM drafts; content owner approves for release |
 
 ### 3. Runtime Contradiction Rule
 
-Before answering any advisory or prescriptive query, the agent checks `12-risks-contradictions/00_index.md` for relevant `risk_tags`. If a contradiction exists, the agent discloses it and qualifies the recommendation — it does not suppress or work around it.[cite:23]
+Before answering any advisory or prescriptive query, the agent checks `07-known-tensions/00_known-tensions-index.md` (and `06-risks/00_risks-index.md`) for relevant `risk_tags`. If a contradiction exists, the agent discloses it and qualifies the recommendation — it does not suppress or work around it.[cite:23]
 
 ```
 IF query is descriptive       → contradiction check: optional
@@ -130,7 +129,7 @@ The agent contract defines five named, callable workflows:
 |-------|----------|------|
 | **Raw sources** | `wiki/aba/01-sources/raw/` | Raw PDFs. Read only. Never edit. |
 | **Raw-content mirror** | `wiki/aba/01-sources/raw-content/` | Markdown text mirror of raw PDFs for ingest/review support. Not answer layer. |
-| **Wiki / synthesis** | `wiki/aba/01-sources/extracted/` through `wiki/aba/12-risks-contradictions/` | Canonical answer layer for ABA domain queries. |
+| **Wiki / synthesis** | `wiki/aba/01-sources/extracted/` through `wiki/aba/12-synthesis/` | Canonical answer layer for ABA domain queries. |
 | **Governance** | `governance/`, `AGENTS.md` | Conventions, structure definitions, and behavioral contracts. |
 
 ---

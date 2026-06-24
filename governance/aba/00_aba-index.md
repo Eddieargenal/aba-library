@@ -20,7 +20,7 @@ Agents working in the ABA wiki read `wiki/aba/AGENTS.md` first (stub that redire
 | [[CLAUDE]] | ABA agent operating rules — layer discipline, ingest update chain, query procedure, lint checks, tool quality standard | Before any ingest, query, lint, or tool-building operation | If already familiar with the rules in this session |
 | [[agent-contract]] | Authoritative behavioral contract — rule precedence, layer discipline (hard rule), domain query workflow, prohibited behaviors, quality obligations | When uncertain about how agents must behave; when a rule conflict arises | For routine tasks where rules are already loaded |
 | [[agent-operating-model]] | What agents are permitted to do in this wiki — 6 capabilities and 6 operating rules | When setting up a new agent session or onboarding a new agent type | Mid-task when operating model is already established |
-| [[how-to-use-this-wiki]] | Access guide for AI agents (5-step nav flow) and human users (5-step workflow) | When orienting a new agent or user to the wiki | When agent is already operational in the wiki |
+| [[how-to-use-this-wiki]] | 30-second onboarding — Path A (query via `scripts/ranker.py`) vs Path B (contribute via one routed governance file), plus current build state | When orienting a new agent or user to the wiki | When agent is already operational in the wiki |
 
 ---
 

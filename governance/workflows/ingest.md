@@ -69,8 +69,9 @@ Update all impacted pages in:
 - `wiki/aba/03-frameworks/`
 - `wiki/aba/04-tools/`
 - `wiki/aba/05-field-instruments/`
-- `wiki/aba/06-lifecycle/`
-- `wiki/aba/12-risks-contradictions/` (if conflicts/tensions appear)
+- `wiki/aba/06-risks/`
+- `wiki/aba/07-known-tensions/` (if conflicts/tensions appear)
+- `wiki/aba/09-decision-protocols/`
 
 ### 6. Rebuild agent index
 

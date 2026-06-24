@@ -31,7 +31,7 @@ After editing this file, sync to the installed path.
 | `close` | — | Fill handoff → update changelog → lint → rebuild index → append log |
 | `query` | question | JSONL-index-first domain question answering with evidence packets |
 | `ingest` | source-path or metadata | Full ingest pipeline: mirror → extract → route findings → index |
-| `extract` | pdf-path | Create structured extraction page with v2.6 frontmatter from raw PDF |
+| `extract` | pdf-path | Create structured extraction page with v2.7 frontmatter from raw PDF |
 | `lint` | — | Run build-index.py; report critical errors and warnings from lint-report.json |
 | `build-index` | — | Run `scripts/build-index.py` to compile JSONL indexes to `indexes/current/` |
 | `build-concept` | concept name (optional) | Two-phase concept ID + synthesis from extracted sources |
@@ -183,7 +183,7 @@ It contains the operating model, session protocol, and promotion gates.
 
 **Steps:**
 1. Confirm raw PDF is in `wiki/aba/01-sources/raw/`
-2. Run EXTRACT — create raw-content mirror and extracted source page with v2.6 frontmatter
+2. Run EXTRACT — create raw-content mirror and extracted source page with v2.7 frontmatter
 3. Identify reusable findings in the extracted source page
 4. Run finding routing (see agent-09 prompt: `governance/aba/prompts/agent-09-finding-routing-agent.md`):
    - For each finding: search existing pages first, assign integration action, update existing pages where approved
