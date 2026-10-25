@@ -111,6 +111,211 @@ class HeldBack(unittest.TestCase):
             {"aba_id": "C-orphan", "path": "02-concepts/C-orphan.md", "reason": "no accepted_by"}])
 
 
+SOURCE_BODY = """
+<a id="summary"></a>
+## Summary
+
+The guide defines neighbourhoods through three lenses (p. 9).
+"""
+
+
+def source(page_id="S-youngfoundation2010", body=SOURCE_BODY, **fm):
+    front = {"id": page_id, "type": "source", "title": "How can neighbourhoods be defined?",
+             "retrieval_status": "usable", "last_reviewed": "2026-10-25", "accepted_by": "Ed",
+             "institution": "The Young Foundation", "author": "The Young Foundation", "status": "extracted",
+             "lifecycle_stage": ["area-selection"], "findings": []}
+    front.update(fm)
+    front = {k: v for k, v in front.items() if v is not None}
+    return Page(path=Path(f"01-sources/extracted/{page_id}.md"), rel_path=f"01-sources/extracted/{page_id}.md",
+                frontmatter=front, body=body)
+
+
+class SourcePages(unittest.TestCase):
+    def test_the_summary_of_a_reviewed_source_becomes_a_standard_note_with_the_publisher_as_authority(self):
+        notes, _, _ = export([source()])
+        self.assertEqual(len(notes), 1)
+        fm, body = next(iter(notes.values()))
+        self.assertEqual(fm["title"], "How can neighbourhoods be defined? — Summary")
+        self.assertEqual(fm["kind"], "standard")
+        self.assertEqual((fm["aba_id"], fm["aba_section"]), ("S-youngfoundation2010", "summary"))
+        self.assertEqual(fm["authority"], "The Young Foundation")
+        self.assertEqual((fm["author"], fm["valid_until"]), ("Ed", "2027-10-25"))
+        self.assertIn("three lenses (p. 9)", body)
+
+    def test_only_the_fixed_guidance_sections_leave_the_library(self):
+        workflow = ["lifecycle-coverage", "findings", "task-seeds", "integration-map", "step-13-internal-structures",
+                    "step-16-source-level-synthesis-for-later-agents", "gate-a-review-queue"]
+        guidance = ["summary", "key-concepts", "methods-and-tools", "known-tensions", "decision-logic"]
+        body = "".join(f'\n<a id="{a}"></a>\n## {a.replace("-", " ").title()}\n\nText of {a}.\n'
+                       for a in guidance[:2] + workflow + guidance[2:])
+        notes, _, _ = export([source(body=body)])
+        self.assertEqual(sorted(fm["aba_section"] for fm, _ in notes.values()), sorted(guidance))
+        self.assertFalse(any("Text of task-seeds" in b or "Text of gate-a" in b for _, b in notes.values()))
+
+    def test_each_finding_becomes_one_note_with_its_pages_and_lifecycle_stages(self):
+        body = SOURCE_BODY + """
+<a id="findings"></a>
+## Findings
+
+**Group 1: Neighbourhood definition**
+
+**F-001** — There is no consensus definition of "neighbourhood". → see S-youngfoundation2010-CONCEPT-001
+*Routing rationale:* Core definitional problem; routes to neighbourhood-concept.
+
+**F-002** — A working definition combines three lenses. → see S-youngfoundation2010-FRAMEWORK-001
+*Routing rationale:* Routes to a new framework page.
+
+**Group 6: Task seeds**
+
+**F-016** — Task seed: How to define the neighbourhood unit?
+*Routing rationale:* Core ABA design question.
+"""
+        findings = [
+            {"finding_id": "F-001", "finding_type": "concept-definition", "source_pages": ["p. 9"],
+             "lifecycle_stage": ["area-selection", "neighbourhood-diagnosis"]},
+            {"finding_id": "F-002", "finding_type": "framework-component", "source_pages": ["p. 9–10", "p. 14"],
+             "lifecycle_stage": ["area-selection"]},
+            {"finding_id": "F-016", "finding_type": "task-seed", "source_pages": [], "lifecycle_stage": []}]
+        notes, _, _ = export([source(body=body, findings=findings)])
+        by_section = {fm["aba_section"]: (fm, b) for fm, b in notes.values()}
+        self.assertEqual(set(by_section), {"summary", "finding-f-001", "finding-f-002"}, "task seeds never leave")
+        fm, b = by_section["finding-f-002"]
+        self.assertEqual(fm["title"], "How can neighbourhoods be defined? — Finding F-002")
+        self.assertEqual((fm["kind"], fm["authority"]), ("standard", "The Young Foundation"))
+        self.assertEqual(fm["lifecycle_stage"], "area-selection")
+        self.assertEqual(by_section["finding-f-001"][0]["lifecycle_stage"], "area-selection, neighbourhood-diagnosis")
+        self.assertIn("A working definition combines three lenses.", b)
+        self.assertIn("Pages: p. 9–10, p. 14", b)
+        self.assertNotIn("Routing rationale", b)
+        self.assertNotIn("consensus", b, "one finding per note")
+
+    def test_findings_written_as_a_table_also_become_one_note_each(self):
+        body = SOURCE_BODY + """
+<a id="findings"></a>
+## Findings
+
+| Finding ID | Finding | Finding type | Knowledge layer | Lifecycle stage | Source pages | status |
+|---|---|---|---|---|---|---|
+| F-001 | Resilience is the capacity to absorb shocks. → see S-twigg-CONCEPT-001 | concept-definition | conceptual | assessment | p. 8 | integrated |
+| F-013 | Task seed: How to assess resilience? → see S-twigg-SEED-001 | task-seed | operational | assessment | throughout | pending |
+"""
+        findings = [{"finding_id": "F-001", "finding_type": "concept-definition", "source_pages": ["p. 8"],
+                     "lifecycle_stage": ["assessment"]},
+                    {"finding_id": "F-013", "finding_type": "task-seed", "source_pages": [], "lifecycle_stage": []}]
+        notes, _, _ = export([source(body=body, findings=findings)])
+        by_section = {fm["aba_section"]: (fm, b) for fm, b in notes.values()}
+        self.assertEqual(set(by_section), {"summary", "finding-f-001"})
+        fm, b = by_section["finding-f-001"]
+        self.assertEqual(fm["lifecycle_stage"], "assessment")
+        self.assertEqual(b.strip(), "Resilience is the capacity to absorb shocks.\n\nPages: p. 8")
+
+    def test_each_known_tensions_row_becomes_one_tension_note_and_the_rest_stays_in_the_section(self):
+        body = SOURCE_BODY + """
+<a id="known-tensions"></a>
+## Known Tensions
+
+| Tension ID | First position | Source location | Conflicting position | Source location | Type | Why it matters | Related objects |
+|---|---|---|---|---|---|---|---|
+| S-youngfoundation2010-TNS-001 | Boundaries should reflect lived experience. | p. 9–10 | Administrative geography leaves no one out. | p. 10–11 | conceptual | Validity against completeness. | S-youngfoundation2010-FRAMEWORK-001 |
+| S-youngfoundation2010-TNS-002 | Self-defined units are more cohesive. | p. 10 | Self-defined units reinforce social divides. | p. 12 | normative |  | S-youngfoundation2010-RISK-001 |
+
+**Urban applicability gaps:**
+- Informal settlement dynamics assumed absent
+"""
+        notes, _, _ = export([source(body=body)])
+        by_section = {fm["aba_section"]: (fm, b) for fm, b in notes.values()}
+        self.assertEqual(set(by_section), {"summary", "known-tensions", "tns-001", "tns-002"})
+        fm, b = by_section["tns-001"]
+        self.assertEqual(fm["title"], "How can neighbourhoods be defined? — Tension TNS-001")
+        self.assertEqual((fm["role"], fm["kind"], fm["authority"]), ("tension", "standard", "The Young Foundation"))
+        self.assertEqual(b.strip().splitlines(), [
+            "Position A: Boundaries should reflect lived experience. (p. 9–10)",
+            "Position B: Administrative geography leaves no one out. (p. 10–11)",
+            "Why it matters: Validity against completeness."])
+        self.assertNotIn("Why it matters", by_section["tns-002"][1], "the line is optional")
+        section = by_section["known-tensions"][1]
+        self.assertIn("Informal settlement dynamics assumed absent", section)
+        self.assertNotIn("lived experience", section, "each tension is in one note only")
+
+    def test_a_section_over_about_600_words_is_split_at_its_subheadings(self):
+        words = " ".join(["word"] * 250)
+        body = f"""
+<a id="summary"></a>
+## Summary
+
+{words} {words} {words}
+
+<a id="methods-and-tools"></a>
+## Methods and Tools
+
+The guide gives two methods and one tool.
+
+### Methods
+
+#### Desk Review Method
+
+Desk review {words}
+
+#### Key Informant Interview (KII) Method
+
+KII {words}
+
+### Tools
+
+#### Tool 1 — Workplan Template
+
+Workplan {words}
+
+<a id="decision-logic"></a>
+## Decision Logic
+
+### Short rule
+
+Use the proximity scale.
+"""
+        notes, _, _ = export([source(body=body)])
+        by_section = {fm["aba_section"]: (fm, b) for fm, b in notes.values()}
+        self.assertEqual(set(by_section), {
+            "summary", "decision-logic", "methods-and-tools",
+            "methods-and-tools--desk-review-method", "methods-and-tools--key-informant-interview-kii-method",
+            "methods-and-tools--tool-1-workplan-template"}, "no subheadings or under 600 words: one note")
+        fm, b = by_section["methods-and-tools--key-informant-interview-kii-method"]
+        self.assertEqual(fm["title"], "How can neighbourhoods be defined? — Methods and Tools: "
+                                      "Key Informant Interview (KII) Method")
+        self.assertTrue(b.startswith("#### Key Informant Interview (KII) Method"))
+        self.assertNotIn("Desk review", b)
+        self.assertIn("two methods and one tool", by_section["methods-and-tools"][1])
+
+    def test_a_source_in_the_old_format_is_held_back_and_reported(self):
+        old = """
+<a id="summary"></a>
+# Summary
+
+The strategy sets six objectives.
+
+# Key concepts
+
+Urban vulnerability.
+
+# Quality Checklist (must pass before finishing)
+
+- [x] Pages cited
+"""
+        notes, plan, _ = export([source(), source("S-iasc2010", body=old)])
+        self.assertEqual({fm["aba_id"] for fm, _ in notes.values()}, {"S-youngfoundation2010"})
+        self.assertEqual(plan.report["held_back"], [{"aba_id": "S-iasc2010",
+                                                     "path": "01-sources/extracted/S-iasc2010.md",
+                                                     "reason": "old source format"}])
+
+    def test_the_author_is_the_publisher_when_there_is_no_institution_and_no_publisher_holds_the_page_back(self):
+        pages = [source("S-worldbank2013", institution=None, author="The World Bank"),
+                 source("S-anon", institution=None, author=None)]
+        notes, plan, _ = export(pages)
+        self.assertEqual([fm["authority"] for fm, _ in notes.values()], ["The World Bank"])
+        self.assertEqual(plan.report["held_back"], [{"aba_id": "S-anon", "path": "01-sources/extracted/S-anon.md",
+                                                     "reason": "no publisher"}])
+
+
 class Manifest(unittest.TestCase):
     def test_the_manifest_pins_the_build_and_holds_a_digest_of_every_note(self):
         notes, plan, out = export([page(), page("C-unreviewed", title="Unreviewed", last_reviewed=None)])

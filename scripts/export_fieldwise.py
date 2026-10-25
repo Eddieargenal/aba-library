@@ -4,7 +4,9 @@ export_fieldwise.py — the FieldWise vault export (FieldWise PRD #30; ADR-0006 
 here).
 
 A clean build becomes one zip that FieldWise imports. Each anchored section of a usable or limited synthesis page
-becomes one note: Markdown with simple `key: value` front matter, titled "Page title — Section".
+becomes one Synthesis note: Markdown with simple `key: value` front matter, titled "Page title — Section". An
+extracted source page becomes Standard notes under its publisher (issue #51): its fixed guidance sections (split at
+subheadings when long), one note per finding and one tension note per Known Tensions row.
 
   plan_export(pages, result, build_id)  pure: pages and their compiled build in, a Plan (notes + report) out
   write_package(plan, out_path)         the zip: one .md file per note and manifest.json
@@ -25,11 +27,19 @@ from typing import Any, Dict, List
 FORMAT = "fieldwise-vault/1"
 SYNTHESIS_AUTHORITY = "FieldWise ABA library"
 VALID_DAYS = 365
-# synthesis page types that carry guidance; sources (A2), output templates and slice specs never become notes here
+# synthesis page types that carry guidance; output templates and slice specs never become notes
 SYNTHESIS_TYPES = {"concept", "framework", "tool", "field-instrument", "risk", "known-tension", "advisory-playbook",
                    "decision-protocol", "synthesis"}
 EXPORTED_STATUS = {"usable", "limited"}
+SOURCE_FOLDER = "01-sources/extracted/"   # raw-content mirrors are copies, never notes
+# the only source sections that carry guidance; task seeds, integration maps, steps 13-16 and the Gate A queue are
+# extraction workflow and never leave the library
+GUIDANCE_SECTIONS = ("summary", "key-concepts", "methods-and-tools", "known-tensions", "decision-logic")
 ANCHOR = re.compile(r'<a id="([^"]+)"></a>')
+SUBHEADING = re.compile(r"(?m)^###+\s*(.+)$")
+SPLIT_WORDS = 600
+# a finding is a "**F-001** — claim" paragraph or a "| F-001 | claim |" table row; "→ see <object>" pointers are dropped
+FINDING = re.compile(r"(?m)^(?:\*\*(F-\d+)\*\*\s*—\s*|\|\s*(F-\d+)\s*\|\s*)([^|\n]+?)(?:\s*→ see [^|\n]*)?\s*(?:\||$)")
 
 
 class NotClean(Exception):
@@ -69,11 +79,122 @@ def _sections(body: str) -> List[tuple]:
     return out
 
 
+def _is_source(p) -> bool:
+    return p.frontmatter.get("type") == "source" and p.rel_path.startswith(SOURCE_FOLDER)
+
+
 def _in_scope(p) -> bool:
-    """Usable or limited guidance pages only; overview maps describe the library, not guidance."""
+    """Usable or limited guidance pages and extracted sources only; overview maps describe the library, not
+    guidance."""
     fm = p.frontmatter
-    return (fm.get("type") in SYNTHESIS_TYPES and fm.get("retrieval_status") in EXPORTED_STATUS
-            and not p.rel_path.startswith("00-overview/"))
+    if fm.get("retrieval_status") not in EXPORTED_STATUS:
+        return False
+    return _is_source(p) or (fm.get("type") in SYNTHESIS_TYPES and not p.rel_path.startswith("00-overview/"))
+
+
+def _findings(fm, text) -> List[tuple]:
+    """(section id, heading, body, extra front matter) for each finding in the Findings section. The front matter
+    list gives each finding its pages and lifecycle stages; task seeds are workflow, and routing rationales and
+    object pointers are notes for the extraction agents, so neither leaves."""
+    meta = {f.get("finding_id"): f for f in fm.get("findings") or []}
+    out = []
+    for in_text, in_table, claim in FINDING.findall(text):
+        fid = in_text or in_table
+        f = meta.get(fid, {})
+        if f.get("finding_type") == "task-seed":
+            continue
+        body = claim.strip()
+        if f.get("source_pages"):
+            body += "\n\nPages: " + ", ".join(f["source_pages"])
+        out.append((f"finding-{fid.lower()}", f"Finding {fid}", body,
+                    {"lifecycle_stage": ", ".join(f.get("lifecycle_stage") or [])}))
+    return out
+
+
+def _tensions(heading, text) -> List[tuple]:
+    """One tension note per row of the Known Tensions table, in FieldWise's tension format. The text outside the
+    table stays as the section note, so each tension is in one note only; no text left means no section note."""
+    lines = text.splitlines()
+    start = next((i for i, l in enumerate(lines) if l.startswith("|") and "Tension ID" in l), None)
+    if start is None:
+        return [("known-tensions", heading, text, {})]
+    end = next((i for i in range(start, len(lines)) if not lines[i].startswith("|")), len(lines))
+    out = []
+    for row in lines[start + 2:end]:
+        cells = [c.strip() for c in row.strip().strip("|").split("|")]
+        tid, first, first_at, second, second_at, _type, why = (cells + [""] * 7)[:7]
+        short = "TNS-" + tid.rsplit("TNS-", 1)[-1]
+        body = f"Position A: {first} ({first_at})\nPosition B: {second} ({second_at})"
+        if why:
+            body += f"\nWhy it matters: {why}"
+        out.append((short.lower(), f"Tension {short}", body, {"role": "tension"}))
+    rest = re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:start] + lines[end:])).strip()
+    if rest != lines[0].strip():   # more than the heading is left
+        out.insert(0, ("known-tensions", heading, rest, {}))
+    return out
+
+
+def _split(sid, heading, text) -> List[tuple]:
+    """A section over about SPLIT_WORDS words becomes one note per subheading, plus one for the text before the
+    first subheading. A subheading with no text of its own (it only groups the ones below it) gives no note."""
+    marks = list(SUBHEADING.finditer(text))
+    if len(text.split()) <= SPLIT_WORDS or not marks:
+        return [(sid, heading, text, {})]
+    out, seen = [(sid, heading, text[:marks[0].start()].strip(), {})], set()
+    for i, m in enumerate(marks):
+        chunk = text[m.start(): marks[i + 1].start() if i + 1 < len(marks) else len(text)].strip()
+        if not chunk.partition("\n")[2].strip():
+            continue
+        sub = m.group(1).strip()
+        slug = base = f"{sid}--" + re.sub(r"[^a-z0-9]+", "-", sub.lower()).strip("-")
+        n = 2
+        while slug in seen:   # two subheadings with one name still give two notes
+            slug, n = f"{base}-{n}", n + 1
+        seen.add(slug)
+        out.append((slug, f"{heading}: {sub}", chunk, {}))
+    return out
+
+
+def _publisher(fm) -> str:
+    return str(fm.get("institution") or fm.get("author") or "")
+
+
+def _old_format(p) -> bool:
+    """The old source template anchors only its summary, so that one anchor runs over every later section (Key
+    concepts, Quality Checklist, ...): a guidance section that holds another heading of its own level."""
+    for sid, _, text in _sections(p.body):
+        top = re.match(r"(#+)\s", text)
+        if sid in GUIDANCE_SECTIONS and top and re.search(rf"(?m)^#{{1,{len(top.group(1))}}}\s", text[top.end():]):
+            return True
+    return False
+
+
+def _parts(p) -> List[tuple]:
+    """(section id, heading, body, extra front matter) for each note a page gives."""
+    if not _is_source(p):
+        return [(sid, heading, text, {}) for sid, heading, text in _sections(p.body)]
+    out = []
+    for sid, heading, text in _sections(p.body):
+        if sid == "findings":
+            out += _findings(p.frontmatter, text)
+        elif sid == "known-tensions":
+            out += _tensions(heading, text)
+        elif sid in GUIDANCE_SECTIONS:
+            out += _split(sid, heading, text)
+    return out
+
+
+def _held_back(p) -> str:
+    """Why a page in scope stays in the library, or "" when it is exported."""
+    fm = p.frontmatter
+    missing = next((f for f in ("last_reviewed", "accepted_by") if not fm.get(f)), None)
+    if missing:   # a page nobody reviewed, or nobody accepted, never becomes approved guidance
+        return f"no {missing}"
+    if _is_source(p) and not _publisher(fm):
+        return "no publisher"
+    if _is_source(p) and _old_format(p):   # no section bounds: its workflow text would leave with its summary
+        return "old source format"
+    return ""
 
 
 def plan_export(pages, result, build_id: str) -> Plan:
@@ -84,19 +205,20 @@ def plan_export(pages, result, build_id: str) -> Plan:
         fm = p.frontmatter
         if not _in_scope(p):
             continue
-        missing = next((f for f in ("last_reviewed", "accepted_by") if not fm.get(f)), None)
-        if missing:   # a page nobody reviewed, or nobody accepted, never becomes approved guidance
-            plan.report["held_back"].append({"aba_id": fm["id"], "path": p.rel_path, "reason": f"no {missing}"})
+        reason = _held_back(p)
+        if reason:
+            plan.report["held_back"].append({"aba_id": fm["id"], "path": p.rel_path, "reason": reason})
             continue
         valid = date.fromisoformat(str(fm["last_reviewed"])) + timedelta(days=VALID_DAYS)
-        for sid, heading, text in _sections(p.body):
-            title = f"{fm['title']} — {heading}"
+        # a source's guidance is a Standard note under its publisher; the library's own pages are Synthesis notes
+        kind, authority = ("standard", _publisher(fm)) if _is_source(p) else ("synthesis", SYNTHESIS_AUTHORITY)
+        for sid, heading, text, extra in _parts(p):
             plan.notes.append(Note(
                 file=f"{fm['id']}--{sid}.md",
-                front={"title": title, "kind": "synthesis", "aba_id": fm["id"], "aba_section": sid,
-                       "authority": SYNTHESIS_AUTHORITY, "author": str(fm["accepted_by"]),
+                front={"title": f"{fm['title']} — {heading}", "kind": kind, "aba_id": fm["id"], "aba_section": sid,
+                       "authority": authority, "author": str(fm["accepted_by"]),
                        "valid_until": valid.isoformat(), "retrieval_status": fm["retrieval_status"],
-                       "build_id": build_id},
+                       "build_id": build_id, **extra},
                 body=text))
     return plan
 
