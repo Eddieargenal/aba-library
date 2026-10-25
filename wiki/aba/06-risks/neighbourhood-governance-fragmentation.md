@@ -23,6 +23,7 @@ sections:
   purpose: mitigation
 created: '2026-06-21'
 updated: '2026-06-21'
+last_reviewed: 2026-10-25
 promotion_stage: concept
 implementation_tier: all
 ---

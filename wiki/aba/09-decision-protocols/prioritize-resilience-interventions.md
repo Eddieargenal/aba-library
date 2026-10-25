@@ -39,6 +39,7 @@ sections:
   purpose: Escalation triggers and human review requirements
 created: '2026-06-21'
 updated: '2026-06-21'
+last_reviewed: 2026-10-25
 promotion_stage: tool
 implementation_tier: design
 ---
