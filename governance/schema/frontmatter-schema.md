@@ -216,6 +216,16 @@ gate_state: cleared          # all required gates passed (publishable)
 # gate_state: awaiting-gate-d
 ```
 
+## Review and Acceptance (FieldWise export)
+
+Two optional fields that the FieldWise vault export needs (`scripts/export_fieldwise.py`). A usable or limited page
+without both is held back from the export and named in its report; it still builds.
+
+```yaml
+last_reviewed: 2026-10-25   # the day a person last reviewed the page; the note holds for 365 days from it
+accepted_by: Ed             # the person who accepted the page: the FieldWise note's author, never an AI agent
+```
+
 ## Additional Known-Tension Fields
 
 ```yaml

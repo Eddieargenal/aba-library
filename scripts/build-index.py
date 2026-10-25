@@ -37,7 +37,7 @@ CURRENT_DIR = INDEXES_DIR / "current"
 # module in compile_index.py (a pure, in-memory test surface). This script is the
 # filesystem/clock shell around it.
 from compile_index import compile_index  # noqa: E402  (sibling module on sys.path)
-from pages import read_pages  # noqa: E402  (filesystem -> Page seam)
+from pages import pages_digest, read_pages  # noqa: E402  (filesystem -> Page seam)
 from schema import SCHEMA_VERSION  # noqa: E402  (data-model generation stamp)
 
 ARTIFACTS = [
@@ -95,6 +95,8 @@ def main() -> int:
         "pending_finding_count": len(result.routing_pending),
         "critical_error_count": len(result.critical),
         "warning_count": len(result.warnings),
+        # The FieldWise export refuses to run when today's pages give another digest (scripts/export_fieldwise.py).
+        "content_digest": pages_digest(pages),
         # Advisory index-health metrics (orphan/ghost/stale %). Observability
         # only — does NOT gate publication (see #28).
         "health": result.health,

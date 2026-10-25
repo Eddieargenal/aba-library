@@ -2,11 +2,21 @@
 type: schema-changelog
 status: active
 created: 2026-05-11
-updated: 2026-05-31
+updated: 2026-10-25
 ---
 # Schema Changelog
 
 All schema changes must be logged here before taking effect. No exceptions.
+
+## [2026-10-25] fieldwise-export | v2.7 — accepted_by field; content digest in the build manifest; FieldWise export
+
+### Changes
+- New optional field `accepted_by`: the person who accepted a page. The FieldWise export uses it as the note's author and holds back a usable or limited page without it, or without `last_reviewed`.
+- `scripts/build-index.py` writes `content_digest` (`pages.pages_digest`) into the manifest. The export refuses to run when the pages on disk give another digest (stale build).
+- New `scripts/export_fieldwise.py` and `scripts/export-fieldwise.py`: a clean, current build becomes `exports/fieldwise-<build_id>.zip` (format `fieldwise-vault/1`) for FieldWise's vault import. Tracer scope: anchored sections of usable or limited synthesis pages (FieldWise PRD #30, issue #50).
+
+### Rationale
+FieldWise's vault is written only in this library (FieldWise ADR-0006). Its notes need a named author (a technical authority never approves their own note) and a validity date from a recorded review; the digest pins the export to the text the build checked.
 
 ## [2026-05-31] enforcement-hardening | v2.7 — build-index.py now enforces evidence-grounding, vocabularies, id prefixes; adds routing report
 
