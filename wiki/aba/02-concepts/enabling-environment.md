@@ -40,6 +40,7 @@ sections:
 created: 2026-06-21
 updated: 2026-06-21
 last_reviewed: 2026-06-21
+accepted_by: Ed
 ---
 
 <a id="definition"></a>
