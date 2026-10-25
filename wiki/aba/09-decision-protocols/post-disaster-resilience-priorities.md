@@ -41,6 +41,7 @@ sections:
 created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
+accepted_by: Ed
 promotion_stage: tool
 implementation_tier: design
 ---
