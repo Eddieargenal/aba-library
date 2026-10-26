@@ -6,6 +6,7 @@ slug: neighbourhood-governance-fragmentation
 retrieval_status: limited
 limited_to: UK neighbourhood empowerment programmes with many service-specific bodies; not tested in humanitarian or weak-governance contexts
 sectors: [coordination]
+search_terms: [too many committees, duplication of groups, overlapping committees, uncoordinated groups, silos]
 lifecycle_stage:
 - coordination-design
 primary_topics:

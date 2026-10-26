@@ -4,6 +4,7 @@ type: concept
 title: Resilience
 slug: resilience
 retrieval_status: usable
+search_terms: [bounce back, coping capacity, disaster preparedness, absorb shocks, what makes a community strong]
 promotion_stage: concept
 implementation_tier: all
 lifecycle_stage:

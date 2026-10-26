@@ -6,6 +6,7 @@ slug: service-devolution-conditions
 retrieval_status: limited
 limited_to: devolving UK local-authority services to neighbourhood bodies; not tested for non-UK or humanitarian service delivery
 sectors: [coordination]
+search_terms: [hand over services, community-run services, delegate to the community, transfer responsibility, localisation]
 lifecycle_stage:
 - coordination-design
 primary_topics:

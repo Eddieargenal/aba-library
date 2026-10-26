@@ -5,6 +5,7 @@ title: Adapt the generic resilience Characteristics to local context
 slug: customize-resilience-framework
 retrieval_status: limited
 limited_to: adapting the Characteristics in rural or generic community settings; no urban examples and no step-by-step context analysis
+search_terms: [contextualise, localise the framework, adapt to our area, rewrite the indicators, does not fit our context]
 lifecycle_stage:
 - coordination-design
 - implementation-adaptation

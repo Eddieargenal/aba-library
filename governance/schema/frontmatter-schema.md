@@ -238,6 +238,15 @@ sectors: [shelter, wash]   # optional; one or more values from FieldWise's secto
 bundle: true               # optional; true or false (critical: invalid_bundle). Marks the page for FieldWise's static bundle
 ```
 
+`search_terms` (optional) lists the words an officer may use for the page's issue, when they differ from the
+page's own words (for example "takeover" or "dominated by a few" for governance capture). FieldWise searches them and
+never shows them. Each note of the page carries them, comma-joined. A value that is not a list of text only warns
+(`invalid_search_terms`).
+
+```yaml
+search_terms: [elite capture, takeover, dominated by a few, gatekeepers]
+```
+
 `limited_to` names, in plain words, the narrow scope in which a limited page holds; it is the caution a
 FieldWise reader sees. It never means weak evidence: that is the promotion stage (`CONTEXT.md`).
 

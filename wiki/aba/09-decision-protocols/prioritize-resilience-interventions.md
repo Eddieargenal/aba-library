@@ -5,6 +5,7 @@ title: Prioritise which resilience characteristics to address under resource con
 slug: prioritize-resilience-interventions
 retrieval_status: limited
 limited_to: choosing community DRR priorities under limited resources; selection principles only, no tested multi-criteria or cost method
+search_terms: [limited budget, what to do first, prioritisation, choose interventions, not enough money]
 lifecycle_stage:
 - coordination-design
 primary_topics:

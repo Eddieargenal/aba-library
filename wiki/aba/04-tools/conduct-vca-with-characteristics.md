@@ -5,6 +5,7 @@ title: Use the Characteristics to structure participatory VCA analysis
 slug: conduct-vca-with-characteristics
 retrieval_status: limited
 limited_to: framing and analysing a VCA in community DRR for natural hazards; it gives no VCA field method
+search_terms: [vulnerability and capacity assessment, organise VCA data, participatory risk assessment, too much VCA data]
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:

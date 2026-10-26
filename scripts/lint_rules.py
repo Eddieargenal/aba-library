@@ -411,6 +411,17 @@ def rule_licence(ctx: RuleCtx) -> List[Issue]:
     return out
 
 
+def rule_search_terms(ctx: RuleCtx) -> List[Issue]:
+    """search_terms is optional: words an officer may use for the page's issue, searched by FieldWise and never shown.
+    A wrong value only warns: the export leaves out terms that are not text."""
+    v = ctx.fm.get("search_terms")
+    if v is None:
+        return []
+    if not isinstance(v, list) or not v or any(not isinstance(t, str) or not t.strip() for t in v):
+        return [Issue(WARNING, "invalid_search_terms")]
+    return []
+
+
 def rule_contradiction_aging(ctx: RuleCtx) -> List[Issue]:
     """A page carrying unresolved contradicts: links ages from last_reviewed.
     >30 days warns; >90 days blocks (critical). 'Resolved' means re-reviewed
@@ -456,6 +467,7 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_sectors,
     rule_bundle,
     rule_licence,
+    rule_search_terms,
 ]
 
 
