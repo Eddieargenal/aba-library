@@ -6,6 +6,7 @@ slug: enabling-environment
 retrieval_status: limited
 limited_to: community DRR in generic or rural settings; in dense, informally governed urban areas, do not assume external duty bearers are present or reachable
 sectors: [coordination]
+search_terms: [government support, policy and institutions, duty bearers absent, outside support for communities, authorities not helping]
 promotion_stage: finding
 implementation_tier: all
 lifecycle_stage:

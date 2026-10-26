@@ -5,6 +5,7 @@ title: Neighbourliness
 slug: neighbourliness
 retrieval_status: limited
 limited_to: British neighbourhoods, where neighbourliness happens in shared public space; other cultures may show it in other ways, such as home visits
+search_terms: [social cohesion indicator, trust between residents, how people get along, neighbours helping each other]
 lifecycle_stage:
 - neighbourhood-diagnosis
 - monitoring-learning

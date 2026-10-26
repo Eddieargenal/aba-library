@@ -6,6 +6,7 @@ slug: neighbourhood-governance-capture
 retrieval_status: limited
 limited_to: neighbourhood governance bodies in UK local-authority systems; not tested where local government is weak, absent or adversarial
 sectors: [coordination]
+search_terms: [elite capture, takeover, a few people taking over, dominated by a few, gatekeepers, committee controlled by one group, powerful families control the committee]
 lifecycle_stage:
 - coordination-design
 - integrated-area-strategy

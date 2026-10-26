@@ -6,6 +6,7 @@ slug: local-public-realm-mapping-tool
 retrieval_status: limited
 limited_to: UK-style neighbourhoods; adapt the four categories where housing, civic infrastructure or local media differ from the British context
 sectors: [shelter]
+search_terms: [asset mapping, community mapping, service mapping, map facilities, map community spaces]
 lifecycle_stage:
 - neighbourhood-diagnosis
 - coordination-design

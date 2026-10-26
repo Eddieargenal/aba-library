@@ -6,6 +6,7 @@ slug: ecological-empowerment
 retrieval_status: limited
 limited_to: UK neighbourhoods with formal tenure and accessible local government; not tested in informal settlements, displacement or weak-governance settings
 sectors: [coordination]
+search_terms: [joined-up approach, whole-of-neighbourhood, why one project is not enough, multisectoral, systems approach]
 lifecycle_stage:
 - coordination-design
 - integrated-area-strategy

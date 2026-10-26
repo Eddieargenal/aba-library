@@ -6,6 +6,7 @@ slug: local-public-realm
 retrieval_status: limited
 limited_to: UK neighbourhoods with working public services, civic spaces and local media; adapt where civic infrastructure or media differ
 sectors: [shelter]
+search_terms: [community spaces, meeting places, public facilities, gathering points, community infrastructure]
 lifecycle_stage:
 - area-selection
 - neighbourhood-diagnosis

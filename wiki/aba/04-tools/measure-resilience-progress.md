@@ -5,6 +5,7 @@ title: Resilience milestones model (measuring progress toward the ideal state)
 slug: measure-resilience-progress
 retrieval_status: limited
 limited_to: tracking community DRR progress over the long term with agreed, qualitative levels; no tested weighting scheme
+search_terms: [track progress, monitoring resilience, show improvement over time, benchmarks, stages of progress]
 lifecycle_stage:
 - monitoring-learning
 primary_topics:

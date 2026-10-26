@@ -5,6 +5,7 @@ title: Refine donor-agreed indicators from resilience characteristics (don't rep
 slug: refine-indicators-from-characteristics
 retrieval_status: limited
 limited_to: refining donor-agreed indicators in community DRR projects; thin field experience with indicator refinement
+search_terms: [donor indicators, logframe, results framework, reporting to donors, measurable indicators]
 lifecycle_stage:
 - monitoring-learning
 primary_topics:

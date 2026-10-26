@@ -5,6 +5,7 @@ title: Characteristics of a Disaster-Resilient Community (aspirational model)
 slug: resilience-framework
 retrieval_status: limited
 limited_to: community DRR for natural hazards in communities that can reach consensus; adapt to each context, and not for conflict settings without adaptation
+search_terms: [Twigg framework, resilience checklist, resilience model, thematic areas of resilience, disaster resilient community]
 lifecycle_stage:
 - integrated-area-strategy
 - coordination-design

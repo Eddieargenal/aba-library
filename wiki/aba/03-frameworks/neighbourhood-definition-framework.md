@@ -6,6 +6,7 @@ slug: neighbourhood-definition-framework
 retrieval_status: limited
 limited_to: neighbourhoods with formal housing tenure, stable residents and accessible local government; not tested in informal settlements, displacement or weak-governance contexts
 sectors: [shelter]
+search_terms: [draw the boundary, where the area ends, define the area, boundary delineation, mental maps]
 lifecycle_stage:
 - area-selection
 - neighbourhood-diagnosis

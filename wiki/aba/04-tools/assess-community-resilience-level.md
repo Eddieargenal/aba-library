@@ -5,6 +5,7 @@ title: Assess a community's current disaster-resilience level
 slug: assess-community-resilience-level
 retrieval_status: limited
 limited_to: qualitative, participatory baseline of community DRR for natural hazards; no tested scores, and no urban or conflict adaptation
+search_terms: [resilience baseline, resilience assessment, how resilient is the community, measure resilience at the start]
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:

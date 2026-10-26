@@ -6,6 +6,7 @@ slug: neighbourhood-governance-selection
 retrieval_status: limited
 limited_to: UK contexts with accessible local government and formal tenure; the options are a repertoire, not a tested selection method
 sectors: [coordination]
+search_terms: [which committee to set up, community committee, community structure, local governance body, set up a committee]
 lifecycle_stage:
 - coordination-design
 primary_topics:

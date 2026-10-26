@@ -4,6 +4,7 @@ type: risk
 title: Resilience Characteristics may not apply in conflict settings (evidence gap)
 slug: resilience-conflict-gap
 retrieval_status: usable
+search_terms: [armed conflict, insecurity, conflict-affected area, violence, divided community, do no harm]
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:

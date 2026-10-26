@@ -5,6 +5,7 @@ title: Introduce the resilience Characteristics by starting from what people kno
 slug: introduce-resilience-framework
 retrieval_status: limited
 limited_to: introducing the Characteristics to community and lower-expertise audiences in natural-hazard DRR; cases are rural (Bangladesh, Nepal)
+search_terms: [training staff, explain the framework, capacity building, introduce to communities, workshop on resilience]
 lifecycle_stage:
 - implementation-adaptation
 primary_topics:
