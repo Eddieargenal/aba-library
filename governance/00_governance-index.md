@@ -8,6 +8,11 @@ updated: 2026-05-11
 
 All operational rules, schemas, workflows, and agent behavioral contracts for the vault live here. Start with the section that matches your task, then read only the file you need.
 
+> **New here?** Read the AGENT-QUICKSTART at the top of `AGENTS.md` first (30 seconds), or
+> `governance/aba/how-to-use-this-wiki.md` for the full two-path onboarding. To *answer a
+> question*, you query `indexes/current/` via `scripts/ranker.py` — you don't read this
+> folder at all. This folder is for *contributing* (ingest, lint, build, promote).
+
 ## How to Navigate
 
 1. Identify your task type from the table below

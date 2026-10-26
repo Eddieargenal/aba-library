@@ -1,4 +1,4 @@
-# Tools Index (v2.6)
+# Tools Index (v2.7)
 
 ## Section Description
 

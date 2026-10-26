@@ -11,29 +11,29 @@ updated: 2026-05-11
 
 ---
 
-The highest-risk pathway in the architecture. Field findings **never feed directly** into `02-concepts/`, `03-frameworks/`, or `04-tools/`. They enter a gated review queue.[cite:24]
+The highest-risk pathway in the architecture. Field findings **never feed directly** into `02-concepts/`, `03-frameworks/`, or `04-tools/`. They enter a gated review queue — the **pending-findings queue** (open findings tracked in `indexes/current/routing-report.json` and counted by `manifest.pending_finding_count`).[cite:24]
 
 ```
 Field Instrument Finding
         ↓
-LLM logs as Finding Note in 11-patterns/
-[evidence_status: raw_finding]
+LLM logs as a finding record in the extracted source page frontmatter
+[status: pending — appears as a pending finding in routing-report.json]
         ↓
 Evidence Reviewer validates source, context, method, protection risks
-[evidence_status: reviewed_finding]
+[promotion_stage: finding]
         ↓
-Pattern candidate — repeated across ≥2 contexts or critically validated
-[pattern_status: candidate]
+Promotion candidate — repeated across ≥2 contexts or critically validated
+[candidate_target_pages set to the canonical destination folder]
         ↓
-Domain Steward reviews + contradiction check against 12-risks-contradictions/
-[pattern_status: under_review]
+Domain Steward reviews + contradiction check against 07-known-tensions/ (and 06-risks/)
         ↓
-Concept / Framework / Tool update drafted by LLM agent
+Concept / Framework / Tool / Risk / Known-tension update drafted by LLM agent
+[promotion_stage advances along the ladder: finding → concept → framework → tool → validated]
         ↓
 Library Steward approves
         ↓
-Knowledge Layer updated + all affected 00_index.md files refreshed
-[pattern_status: promoted]
+Knowledge Layer updated + all affected 00_index.md files refreshed + indexes rebuilt
+[status: integrated]
 ```
 
 ## Evidence Eligibility Criteria (all must be met)
@@ -49,11 +49,13 @@ Knowledge Layer updated + all affected 00_index.md files refreshed
 ## Evidence Frontmatter
 
 ```yaml
-evidence_status: raw_finding | reviewed_finding | candidate_pattern | validated_pattern | promoted
+# On the finding record (in the extracted source page frontmatter):
+finding_id: F-001
+finding_type: concept-definition | decision-rule | risk-identification | ...
+status: pending | integrated        # pending = unrouted; integrated/done/complete/resolved/source_only = terminal
+candidate_target_pages: []          # canonical destination page(s) for this finding
+lifecycle_stage: []
+# On the destination page once the finding is promoted:
+promotion_stage: finding | concept | framework | tool | validated   # epistemic ladder (ADR-0001)
 confidence: low | medium | high
-reviewed_by:
-review_date:
-applicability:
-limits:
-protection_check: passed | flagged | pending
 ```

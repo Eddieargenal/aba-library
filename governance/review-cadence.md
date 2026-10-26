@@ -17,7 +17,7 @@ updated: 2026-05-11
 |---|---|
 | **After every ingest** | LLM updates relevant `00_index.md`; adds backlinks; checks contradiction relevance |
 | **Weekly** | Agent Maintainer reviews lint queue; clears critical and high flags |
-| **Quarterly** | Governance Council: reviews `01-sources/` for new authoritative docs; clears stale guidance flags; reviews `11-patterns/` promotion queue; checks output validity dates; reviews lint report |
+| **Quarterly** | Governance Council: reviews `01-sources/` for new authoritative docs; clears stale guidance flags; reviews the pending-findings promotion queue (`routing-report.json`); checks output validity dates; reviews lint report |
 | **Annually** | Full relevance review of all primary sources; revalidate major concepts, frameworks, tools; Steward reviews `AGENTS.md` for behavioral drift; full schema review |
 | **Event-triggered** | New donor guidance; new cluster/agency standard; major emergency evaluation; contradiction discovered during use; repeated field finding challenging existing framework; new urban/ABA/DRR guidance |
 
