@@ -5,6 +5,7 @@ title: Neighbourhood definition framework
 slug: neighbourhood-definition-framework
 retrieval_status: limited
 limited_to: neighbourhoods with formal housing tenure, stable residents and accessible local government; not tested in informal settlements, displacement or weak-governance contexts
+sectors: [shelter]
 lifecycle_stage:
 - area-selection
 - neighbourhood-diagnosis

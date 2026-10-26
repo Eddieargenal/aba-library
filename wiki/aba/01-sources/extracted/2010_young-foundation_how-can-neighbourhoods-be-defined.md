@@ -4,6 +4,7 @@ type: source
 title: "How can neighbourhoods be understood and defined?"
 slug: youngfoundation2010
 retrieval_status: usable
+sectors: [coordination]
 source_id: youngfoundation2010
 canonical_file: ../raw/2010_young-foundation_how-can-neighbourhoods-be-defined.pdf
 source_url: "https://youngfoundation.org/wp-content/uploads/2012/11/How-can-neighbourhoods-be-understood-and-defined-August-2010.pdf"

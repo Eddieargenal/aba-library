@@ -5,6 +5,7 @@ title: Neighbourhood governance fragmentation
 slug: neighbourhood-governance-fragmentation
 retrieval_status: limited
 limited_to: UK neighbourhood empowerment programmes with many service-specific bodies; not tested in humanitarian or weak-governance contexts
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 primary_topics:

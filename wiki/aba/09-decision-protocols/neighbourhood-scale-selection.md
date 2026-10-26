@@ -5,6 +5,7 @@ title: Neighbourhood scale selection
 slug: neighbourhood-scale-selection
 retrieval_status: limited
 limited_to: UK neighbourhoods; the population bands and the 500–1,500 coordination threshold are proposals for testing, not confirmed thresholds
+sectors: [shelter, coordination]
 lifecycle_stage:
 - area-selection
 - coordination-design

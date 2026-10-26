@@ -5,6 +5,7 @@ title: Neighbourhood scales
 slug: neighbourhood-scales
 retrieval_status: limited
 limited_to: UK neighbourhoods; the population bands (100–1,500 and 5,000–10,000) are indicative ranges from one source, not tested cut-offs
+sectors: [shelter, coordination]
 lifecycle_stage:
 - area-selection
 - coordination-design

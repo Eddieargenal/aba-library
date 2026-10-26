@@ -5,6 +5,7 @@ title: Ecological empowerment
 slug: ecological-empowerment
 retrieval_status: limited
 limited_to: UK neighbourhoods with formal tenure and accessible local government; not tested in informal settlements, displacement or weak-governance settings
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 - integrated-area-strategy

@@ -5,6 +5,7 @@ title: Enabling Environment
 slug: enabling-environment
 retrieval_status: limited
 limited_to: community DRR in generic or rural settings; in dense, informally governed urban areas, do not assume external duty bearers are present or reachable
+sectors: [coordination]
 promotion_stage: finding
 implementation_tier: all
 lifecycle_stage:

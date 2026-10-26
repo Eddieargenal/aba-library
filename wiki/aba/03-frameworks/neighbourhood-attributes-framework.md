@@ -5,6 +5,7 @@ title: Neighbourhood attributes framework
 slug: neighbourhood-attributes-framework
 retrieval_status: limited
 limited_to: describing UK urban neighbourhoods; it does not define boundaries and gives no weights or thresholds
+sectors: [shelter]
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:

@@ -5,6 +5,7 @@ title: Neighbourhood governance selection
 slug: neighbourhood-governance-selection
 retrieval_status: limited
 limited_to: UK contexts with accessible local government and formal tenure; the options are a repertoire, not a tested selection method
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 primary_topics:
