@@ -1,15 +1,15 @@
 {
-  "build_id": "2026-10-25T212850Z",
+  "build_id": "2026-10-26T010148Z",
   "schema_version": "2.7",
   "build_status": "valid_with_warnings",
-  "generated_at": "2026-10-25T21:29:00.880890+00:00",
+  "generated_at": "2026-10-26T01:01:58.333543+00:00",
   "page_count": 47,
   "edge_count": 79,
   "unresolved_edge_count": 8,
   "pending_finding_count": 77,
   "critical_error_count": 0,
   "warning_count": 37,
-  "content_digest": "a96aed7c77e11eb150e792e4311ee790d25e8854d4dac39a2a171d6101b71a03",
+  "content_digest": "b0e91e9b4fcdf509aba4010bf526434d72c067010d7bcfa85a6ad7ae8ca04efc",
   "health": {
     "orphan_pct": 57.4,
     "ghost_pct": 9.2,
