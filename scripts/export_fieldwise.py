@@ -43,6 +43,7 @@ SPLIT_WORDS = 600
 TENSION_RELATIONS = {"known_tension", "contradicts"}
 # a body link to a page: [[slug]], [[slug#part|alias]], or a Markdown link to a .md path; web links stay as they are
 BODY_LINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]|\[([^\]]*)\]\(([^)\s]+\.md)(?:#[^)]*)?\)")
+PAGE_FIELDS = ("promotion_stage", "lifecycle_stage", "limited_to", "sectors")
 LINK_LABELS = ("Same page", "Tensions", "Sources", "Related")   # the line labels FieldWise reads, in this order
 # a finding is a "**F-001** — claim" paragraph or a "| F-001 | claim |" table row; "→ see <object>" pointers are dropped
 FINDING = re.compile(r"(?m)^(?:\*\*(F-\d+)\*\*\s*—\s*|\|\s*(F-\d+)\s*\|\s*)([^|\n]+?)(?:\s*→ see ([^|\n]*))?\s*(?:\||$)")
@@ -112,8 +113,8 @@ def _findings(fm, text) -> List[tuple]:
         body = claim.strip()
         if f.get("source_pages"):
             body += "\n\nPages: " + ", ".join(f["source_pages"])
-        out.append((f"finding-{fid.lower()}", f"Finding {fid}", body,
-                    {"lifecycle_stage": ", ".join(f.get("lifecycle_stage") or [])}))
+        stages = ", ".join(f.get("lifecycle_stage") or [])   # none of its own: the source's stages stay
+        out.append((f"finding-{fid.lower()}", f"Finding {fid}", body, {"lifecycle_stage": stages} if stages else {}))
     return out
 
 
@@ -214,6 +215,21 @@ def _parts(p) -> List[tuple]:
     return out
 
 
+def _page_fields(fm, is_source=False) -> Dict[str, str]:
+    """The page fields FieldWise reads from each note (issue #53), as one-line text; lists are comma-joined and an
+    empty field is left out. A source's notes are at the finding stage: one source's extracted claims, which never
+    count alone at FieldWise's highest tier."""
+    out = {"promotion_stage": "finding"} if is_source else {}
+    for key in PAGE_FIELDS:
+        v = fm.get(key)
+        text = ", ".join(str(x) for x in v) if isinstance(v, list) else str(v or "")
+        if text.strip():
+            out.setdefault(key, " ".join(text.split()))
+    if fm.get("bundle") is True:   # marked for FieldWise's static bundle; entry still needs approval there
+        out["bundle"] = "true"
+    return out
+
+
 def _held_back(p) -> str:
     """Why a page in scope stays in the library, or "" when it is exported."""
     fm = p.frontmatter
@@ -248,7 +264,7 @@ def plan_export(pages, result, build_id: str) -> Plan:
                 front={"title": f"{fm['title']} — {heading}", "kind": kind, "aba_id": fm["id"], "aba_section": sid,
                        "authority": authority, "author": str(fm["accepted_by"]),
                        "valid_until": valid.isoformat(), "retrieval_status": fm["retrieval_status"],
-                       "build_id": build_id, **extra},
+                       "build_id": build_id, **_page_fields(fm, _is_source(p)), **extra},
                 body=text))
     plan.report["dropped_links"] = _add_links(plan.notes, pages, result.valid_edges, result.unresolved_edges)
     return plan

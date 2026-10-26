@@ -67,6 +67,27 @@ CROSS_CUTTING_TOPICS_VOCAB = {
     "cognitive-load",
 }
 
+# schema:sectors — OPTIONAL areas of humanitarian practice a page serves, for FieldWise's vault notes (issue #53).
+# A copy of FieldWise's fixed sector list (fieldwise askEd/harness/sectors.py, SECTOR_IDS): change both together. A
+# page may have several; an approach that crosses sectors (such as area-based approaches) is never a sector.
+SECTORS_VOCAB = {
+    "protection",
+    "child-protection",
+    "cash",
+    "food",
+    "livelihoods",
+    "wash",
+    "health",
+    "nutrition",
+    "education",
+    "shelter",
+    "site-management",
+    "aap",
+    "coordination",
+    "logistics",
+    "access",
+}
+
 # Contradiction-aging thresholds, in days (ADR-0001 / atomic-task framework).
 # Computed from last_reviewed against today; never a trusted frontmatter string.
 CONTRADICTION_AGING_WARN_DAYS = 30

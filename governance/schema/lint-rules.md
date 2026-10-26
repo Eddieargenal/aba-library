@@ -1,7 +1,7 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-31
+updated: 2026-10-25
 status: active
 version: 2.7
 ---
@@ -35,6 +35,10 @@ is observed via `manifest.health`, not enforced as a publish gate.
   (`gate_pending:{value}`), or an unrecognized gate value (`invalid_gate_state:{value}`,
   fail-closed). The field is optional; absence imposes no constraint
   (see `human-review-gates.md`).
+- `retrieval_status: limited` with no `limited_to` statement (`missing_limited_to`)
+- `sectors` not a list (`invalid_sectors`), or a value outside FieldWise's sector list
+  (`invalid_sector:{value}`). The field is optional
+- `bundle` neither true nor false (`invalid_bundle`). The field is optional
 
 ## High Warnings (recorded, do not block)
 

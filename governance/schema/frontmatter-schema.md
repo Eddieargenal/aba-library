@@ -1,7 +1,7 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-19
+updated: 2026-10-25
 status: active
 version: 2.7
 ---
@@ -224,6 +224,43 @@ without both is held back from the export and named in its report; it still buil
 ```yaml
 last_reviewed: 2026-10-25   # the day a person last reviewed the page; the note holds for 365 days from it
 accepted_by: Ed             # the person who accepted the page: the FieldWise note's author, never an AI agent
+```
+
+## FieldWise Vault Fields
+
+Fields that the FieldWise export carries into every note (`scripts/export_fieldwise.py`, issue #53). Each
+note also carries the page's `promotion_stage` and `lifecycle_stage`; a source page's notes are at the
+`finding` stage, and a finding note keeps its own lifecycle stages.
+
+```yaml
+limited_to: urban flood contexts in informal settlements   # REQUIRED when retrieval_status is limited (critical: missing_limited_to)
+sectors: [shelter, wash]   # optional; one or more values from FieldWise's sector list (critical: invalid_sector:{value})
+bundle: true               # optional; true or false (critical: invalid_bundle). Marks the page for FieldWise's static bundle
+```
+
+`limited_to` names, in plain words, the narrow scope in which a limited page holds; it is the caution a
+FieldWise reader sees. It never means weak evidence: that is the promotion stage (`CONTEXT.md`).
+
+Sectors, verified against `scripts/schema.py:SECTORS_VOCAB` (a copy of FieldWise's
+`askEd/harness/sectors.py`; change both together). An approach that crosses sectors, such as area-based
+approaches, is never a sector.
+
+```schema:sectors
+aap
+access
+cash
+child-protection
+coordination
+education
+food
+health
+livelihoods
+logistics
+nutrition
+protection
+shelter
+site-management
+wash
 ```
 
 ## Additional Known-Tension Fields

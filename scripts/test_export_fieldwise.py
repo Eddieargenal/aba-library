@@ -107,6 +107,51 @@ class Scope(unittest.TestCase):
         self.assertEqual(limited["retrieval_status"], "limited")
 
 
+class VaultFields(unittest.TestCase):
+    def test_each_note_carries_its_pages_promotion_and_lifecycle_stages_limited_to_and_sectors(self):
+        pages = [page(retrieval_status="limited", limited_to="urban flood contexts in informal settlements",
+                      sectors=["shelter", "wash"], lifecycle_stage=["area-selection", "neighbourhood-diagnosis"]),
+                 page("C-scales", title="Neighbourhood scales")]
+        notes, _, _ = export(pages)
+        by_title = {fm["title"]: fm for fm, _ in notes.values()}
+        fm = by_title["Neighbourliness — Field Use"]
+        self.assertEqual((fm["promotion_stage"], fm["lifecycle_stage"]),
+                         ("concept", "area-selection, neighbourhood-diagnosis"))
+        self.assertEqual((fm["limited_to"], fm["sectors"]), ("urban flood contexts in informal settlements",
+                                                             "shelter, wash"))
+        usable = by_title["Neighbourhood scales — Definition"]
+        self.assertNotIn("limited_to", usable)
+        self.assertNotIn("sectors", usable, "an empty field is left out")
+
+    def test_source_notes_are_at_the_finding_stage_and_a_finding_keeps_its_own_lifecycle_stages(self):
+        body = SOURCE_BODY + """
+<a id="findings"></a>
+## Findings
+
+**F-001** — There is no consensus definition.
+
+**F-002** — A working definition combines three lenses.
+"""
+        meta = [{"finding_id": "F-001", "finding_type": "concept-definition", "lifecycle_stage": ["monitoring-learning"]},
+                {"finding_id": "F-002", "finding_type": "framework-component", "lifecycle_stage": []}]
+        notes, _, _ = export([source(body=body, findings=meta,
+                                     lifecycle_stage=["area-selection", "coordination-design"])])
+        by_section = {fm["aba_section"]: fm for fm, _ in notes.values()}
+        self.assertEqual({fm["promotion_stage"] for fm in by_section.values()}, {"finding"})
+        self.assertEqual(by_section["summary"]["lifecycle_stage"], "area-selection, coordination-design")
+        self.assertEqual(by_section["finding-f-001"]["lifecycle_stage"], "monitoring-learning")
+        self.assertEqual(by_section["finding-f-002"]["lifecycle_stage"], "area-selection, coordination-design",
+                         "a finding with no stages of its own has its source's")
+
+    def test_the_bundle_flag_is_carried_only_when_the_page_sets_it(self):
+        pages = [page(bundle=True), page("C-scales", title="Neighbourhood scales", bundle=False),
+                 page("C-unit", title="Neighbourhood unit")]
+        notes, _, _ = export(pages)
+        bundled = {fm["aba_id"] for fm, _ in notes.values() if fm.get("bundle") == "true"}
+        self.assertEqual(bundled, {"C-neighbourliness"})
+        self.assertFalse(any("bundle" in fm for fm, _ in notes.values() if fm["aba_id"] != "C-neighbourliness"))
+
+
 class HeldBack(unittest.TestCase):
     def test_a_page_nobody_reviewed_or_accepted_is_held_back_and_reported(self):
         pages = [page(), page("C-unreviewed", title="Unreviewed", last_reviewed=None),

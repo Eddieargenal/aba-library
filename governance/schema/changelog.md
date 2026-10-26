@@ -8,6 +8,20 @@ updated: 2026-10-25
 
 All schema changes must be logged here before taking effect. No exceptions.
 
+## [2026-10-25] fieldwise-vault-fields | v2.7 — limited_to, sectors and bundle; export carries the vault fields
+
+### Changes
+- New **critical** checks: a `retrieval_status: limited` page needs `limited_to` (`missing_limited_to`); `sectors`, when present, is a list of values from `SECTORS_VOCAB` (`invalid_sectors`, `invalid_sector:{value}`); `bundle`, when present, is true or false (`invalid_bundle`).
+- New vocabulary `SECTORS_VOCAB` in `scripts/schema.py`: a copy of FieldWise's fixed sector list, with a `schema:sectors` block in `frontmatter-schema.md` that `check-schema.py` verifies.
+- The FieldWise export carries `promotion_stage`, `lifecycle_stage`, `limited_to` and `sectors` into every note, and `bundle: true` when set. Source notes are at the `finding` stage.
+- Source pages become Standard notes (issue #51) and every note ends with typed link lines (issue #52).
+
+### Rationale
+FieldWise shows `limited_to` as the caution beside a limited passage, counts only concept stage or higher at its highest tier, and tags notes by sector (FieldWise PRD #30, issue #53).
+
+### Effect
+The 23 limited pages have no `limited_to` yet, so the build has 23 critical errors and the export refuses until each page gets a statement or moves to `usable` (issue #55).
+
 ## [2026-10-25] fieldwise-export | v2.7 — accepted_by field; content digest in the build manifest; FieldWise export
 
 ### Changes
