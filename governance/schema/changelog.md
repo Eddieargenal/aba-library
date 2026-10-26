@@ -8,6 +8,15 @@ updated: 2026-10-25
 
 All schema changes must be logged here before taking effect. No exceptions.
 
+## [2026-10-26] fieldwise-search-terms | v2.7 — search_terms: an officer's words for a page's issue
+
+### Changes
+- New optional field `search_terms`: a list of words or phrases an officer may use for the page's issue. New **warning** `invalid_search_terms` when the value is not a non-empty list of text.
+- The FieldWise export carries `search_terms` (comma-joined, text values only) on every note of the page.
+
+### Rationale
+FieldWise's Adviser searches notes by their words. An officer's question can use other words for the same issue ("a few people taking over the committee" for governance capture), and a model-written search phrase does not name the page's term reliably. Author-written terms close those gaps on purpose.
+
 ## [2026-10-26] fieldwise-licence-gate | v2.7 — source licence fields and the export licence gate
 
 ### Changes

@@ -64,6 +64,8 @@ is observed via `manifest.health`, not enforced as a publish gate.
   `licence_checked_by` or `licence_checked_at`), with a value outside the licence vocabulary
   (`invalid_licence:{value}`), or with a check date that is not a date (`invalid_licence_checked_at`).
   The FieldWise export holds such a source back on its own
+- `search_terms` that is not a non-empty list of text (`invalid_search_terms`). The field is optional; the export
+  leaves out terms that are not text
 
 ## Routing Report (`routing-report.json`)
 

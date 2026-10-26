@@ -151,6 +151,16 @@ class VaultFields(unittest.TestCase):
         self.assertEqual(bundled, {"C-neighbourliness"})
         self.assertFalse(any("bundle" in fm for fm, _ in notes.values() if fm["aba_id"] != "C-neighbourliness"))
 
+    def test_each_note_carries_its_pages_search_terms_and_only_text_ones(self):
+        pages = [page(search_terms=["elite capture", "takeover", 3, "  "]), page("C-scales", title="Neighbourhood scales"),
+                 page("C-unit", title="Neighbourhood unit", search_terms="elite capture")]
+        notes, _, _ = export(pages)
+        by_title = {fm["title"]: fm for fm, _ in notes.values()}
+        self.assertEqual(by_title["Neighbourliness — Field Use"]["search_terms"], "elite capture, takeover")
+        self.assertEqual(by_title["Neighbourliness — Definition"]["search_terms"], "elite capture, takeover")
+        self.assertNotIn("search_terms", by_title["Neighbourhood scales — Definition"])
+        self.assertNotIn("search_terms", by_title["Neighbourhood unit — Definition"], "a plain string is not a list")
+
 
 class HeldBack(unittest.TestCase):
     def test_a_page_nobody_reviewed_or_accepted_is_held_back_and_reported(self):

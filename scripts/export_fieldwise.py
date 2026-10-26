@@ -236,6 +236,10 @@ def _page_fields(fm, is_source=False) -> Dict[str, str]:
             out.setdefault(key, " ".join(text.split()))
     if fm.get("bundle") is True:   # marked for FieldWise's static bundle; entry still needs approval there
         out["bundle"] = "true"
+    v = fm.get("search_terms")
+    terms = [" ".join(t.split()) for t in v if isinstance(t, str) and t.strip()] if isinstance(v, list) else []
+    if terms:   # an officer's words for the page's issue: FieldWise searches them and never shows them
+        out["search_terms"] = ", ".join(terms)
     return out
 
 

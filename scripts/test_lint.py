@@ -531,6 +531,15 @@ class FieldWiseVaultFields(unittest.TestCase):
         self.assertNotIn("invalid_bundle", criticals({}))
         self.assertIn("invalid_bundle", criticals({"bundle": "yes"}))
 
+    def test_search_terms_are_a_list_of_text_and_a_wrong_value_only_warns(self):
+        def found(fm):
+            return [i for i in run_rules(ctx(fm)) if "search_terms" in i.code]
+        self.assertEqual(found({"search_terms": ["elite capture", "takeover"]}), [])
+        self.assertEqual(found({}), [], "search terms are optional")
+        for bad in ("elite capture", [3, "takeover"], ["   "]):
+            issues = found({"search_terms": bad})
+            self.assertEqual([(i.severity, i.code) for i in issues], [("warning", "invalid_search_terms")], bad)
+
 
 def warnings_of(fm, rel_path="01-sources/extracted/s.md"):
     return [i.code for i in run_rules(ctx(fm, page_id="S-x", ptype="source", rel_path=rel_path))
