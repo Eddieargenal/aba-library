@@ -26,7 +26,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
-from schema import LICENCE_FIELDS
+from schema import LICENCE_FIELDS, LIFECYCLE_VOCAB
 
 ALL_RIGHTS_RESERVED = "all-rights-reserved"
 
@@ -52,6 +52,14 @@ PAGE_FIELDS = ("promotion_stage", "lifecycle_stage", "limited_to", "sectors")
 # a short quote from an all-rights-reserved source: about two sentences (CONTEXT.md, Licence)
 QUOTE = re.compile(r'"([^"\n]+)"|“([^”\n]+)”')
 QUOTE_WORDS, QUOTE_SENTENCES = 50, 2
+# library workflow text that must not reach an officer as guidance (report only)
+INTERNAL_TEXT = (("review record", re.compile(r"Reviewed 20\d\d-\d\d-\d\d")),
+                 ("drafting prompt", re.compile(r"Field query\b")),
+                 ("internal ID", re.compile(r"\bS-[A-Za-z0-9-]+-[A-Z]+-\d{3}\b|\bSEED-\d{3}\b"
+                                            r"|\((?:C|F|T|R|D|KTN)-[a-z][a-z0-9-]+\)|\bhuman_review_required\b"
+                                            r"|\bretrieval_status\b")),
+                 ("approximate page", re.compile(r"\bpp?\. ~\s*\d")),
+                 ("lifecycle code", re.compile(r"`(?:" + "|".join(sorted(LIFECYCLE_VOCAB)) + r")`")))
 LINK_LABELS = ("Same page", "Tensions", "Sources", "Related")   # the line labels FieldWise reads, in this order
 # a finding is a "**F-001** — claim" paragraph or a "| F-001 | claim |" table row; "→ see <object>" pointers are dropped
 FINDING = re.compile(r"(?m)^(?:\*\*(F-\d+)\*\*\s*—\s*|\|\s*(F-\d+)\s*\|\s*)([^|\n]+?)(?:\s*→ see ([^|\n]*))?\s*(?:\||$)")
@@ -289,6 +297,7 @@ def plan_export(pages, result, build_id: str) -> Plan:
                        "build_id": build_id, **_page_fields(fm, _is_source(p)), **extra},
                 body=text))
     plan.report["long_quotes"] = _long_quotes(plan.notes, pages, named)
+    plan.report["internal_text"] = _internal_text(plan.notes)
     plan.report["dropped_links"] = _add_links(plan.notes, pages, result.valid_edges, result.unresolved_edges, named)
     return plan
 
@@ -413,6 +422,13 @@ class _Links:
         items = self.pages[page].frontmatter.get("source_basis") or []
         return _unique(f"{self.named[i['source_id']]} (all rights reserved)" for i in items
                        if isinstance(i, dict) and i.get("source_id") in self.named)
+
+
+def _internal_text(notes) -> List[Dict[str, str]]:
+    """Text for the library's own workflow that an officer would read as guidance: each note and marker found. It
+    does not block; a person removes it from the page."""
+    return [{"aba_id": n.front["aba_id"], "aba_section": n.front["aba_section"], "marker": marker}
+            for n in notes for marker, rx in INTERNAL_TEXT if rx.search(n.body)]
 
 
 def _long_quotes(notes, pages, named) -> List[Dict[str, Any]]:
