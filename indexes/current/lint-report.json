@@ -1,5 +1,5 @@
 {
-  "build_id": "2026-10-26T011554Z",
+  "build_id": "2026-10-26T012500Z",
   "critical_errors": [],
   "warnings": [
     {
@@ -7,18 +7,6 @@
       "warning": "missing_sections"
     },
     {
-      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
-      "warning": "missing_licence:licence"
-    },
-    {
-      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
-      "warning": "missing_licence:licence_checked_by"
-    },
-    {
-      "path": "01-sources/extracted/2009_twigg-ucl_disaster-resilient-community.md",
-      "warning": "missing_licence:licence_checked_at"
-    },
-    {
       "path": "01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md",
       "warning": "missing_licence:licence"
     },
@@ -28,18 +16,6 @@
     },
     {
       "path": "01-sources/extracted/2010-iasc-meeting-humanitarian-challenges-urban-areas-strategy.md",
-      "warning": "missing_licence:licence_checked_at"
-    },
-    {
-      "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
-      "warning": "missing_licence:licence"
-    },
-    {
-      "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
-      "warning": "missing_licence:licence_checked_by"
-    },
-    {
-      "path": "01-sources/extracted/2010_young-foundation_how-can-neighbourhoods-be-defined.md",
       "warning": "missing_licence:licence_checked_at"
     },
     {
