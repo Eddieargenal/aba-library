@@ -4,6 +4,7 @@ type: tool
 title: Use the Characteristics to structure participatory VCA analysis
 slug: conduct-vca-with-characteristics
 retrieval_status: limited
+limited_to: framing and analysing a VCA in community DRR for natural hazards; it gives no VCA field method
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:
@@ -44,7 +45,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: tool
+promotion_stage: finding
 implementation_tier: execution
 ---
 
@@ -118,8 +119,8 @@ as a lens around an existing participatory VCA (pp. 22–23, Box 9).
   VCA process could distort their results, with serious implications for the direction of
   project planning and the accountability of project management" (p. 26).
 
-> **Evidence note.** Single-source (Twigg 2009), so this tool sits at `limited` trust. The
+> **Evidence note.** Single-source (Twigg 2009), so this tool sits at the `finding` stage. The
 > source states plainly that it "does not go into detail about how to carry out VCAs" (p. 23),
 > so the method is grounded in its framing-and-analysis guidance (pp. 22–23, Box 9) and the
 > Characteristics it does detail, not in independent VCA field method. Corroboration from a
-> dedicated VCA source would be needed to promote to `usable`.
+> dedicated VCA source would be needed to promote to the `concept` stage.

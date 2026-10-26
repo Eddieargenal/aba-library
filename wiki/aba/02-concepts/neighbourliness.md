@@ -4,6 +4,7 @@ type: concept
 title: Neighbourliness
 slug: neighbourliness
 retrieval_status: limited
+limited_to: British neighbourhoods, where neighbourliness happens in shared public space; other cultures may show it in other ways, such as home visits
 lifecycle_stage:
 - neighbourhood-diagnosis
 - monitoring-learning
@@ -29,7 +30,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: concept
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -93,8 +94,8 @@ neighbourhood intervention without running a formal survey?"*
   assessment.
 
 > **Evidence note.** Single source (Young Foundation 2010, p. 15), so this sits at
-> `limited` trust. Every claim above is grounded in the source's "experience of
+> the `finding` stage. Every claim above is grounded in the source's "experience of
 > neighbourliness" passage; the source itself frames much of its material as
 > hypotheses requiring testing, and corroboration from a second source would be
-> needed to promote to `usable`.
+> needed to promote to the `concept` stage.
 

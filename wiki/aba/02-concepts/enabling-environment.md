@@ -4,7 +4,8 @@ type: concept
 title: Enabling Environment
 slug: enabling-environment
 retrieval_status: limited
-promotion_stage: concept
+limited_to: community DRR in generic or rural settings; in dense, informally governed urban areas, do not assume external duty bearers are present or reachable
+promotion_stage: finding
 implementation_tier: all
 lifecycle_stage:
   - appropriateness-decision
@@ -66,4 +67,4 @@ Related concept: [[resilience]].
 
 ---
 
-> **Reviewed 2026-06-21 — created at `retrieval_status: limited` (single-source).** Grounded only in Twigg 2009 (finding F-004); the apparent second Twigg extraction (`…-v2`) is a re-extraction of the **same** source, not independent corroboration, so the ≥2-source bar for `usable` is not met. Surfaced with caution pending a genuinely independent source. Resolves the `related_concept` ghost edge from [[resilience]].
+> **Reviewed 2026-06-21 — created at `retrieval_status: limited` (single-source).** Grounded only in Twigg 2009 (finding F-004); the apparent second Twigg extraction (`…-v2`) is a re-extraction of the **same** source, not independent corroboration, so the ≥2-source bar for the `concept` stage is not met. Surfaced with caution pending a genuinely independent source. Resolves the `related_concept` ghost edge from [[resilience]].

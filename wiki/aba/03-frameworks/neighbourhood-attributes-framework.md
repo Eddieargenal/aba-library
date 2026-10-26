@@ -4,6 +4,7 @@ type: framework
 title: Neighbourhood attributes framework
 slug: neighbourhood-attributes-framework
 retrieval_status: limited
+limited_to: describing UK urban neighbourhoods; it does not define boundaries and gives no weights or thresholds
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:
@@ -28,7 +29,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: framework
+promotion_stage: finding
 implementation_tier: synthesis
 ---
 
@@ -104,9 +105,9 @@ political) classes describe the *life inside it* (p. 12).
   contexts.
 
 > **Evidence note.** Single-source page (Young Foundation 2010, p. 11–12), so this
-> sits at `limited` trust. The nine-class spectrum is the source's own rendering
+> sits at the `finding` stage. The nine-class spectrum is the source's own rendering
 > of Galster (2001) and Power et al (2004); claims here are grounded in that p. 12
 > passage and its surrounding discussion of social neighbourhoods. A second source
 > would be needed to weight or operationalise the classes and to promote to
-> `usable`.
+> the `concept` stage.
 

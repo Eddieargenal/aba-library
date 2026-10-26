@@ -4,6 +4,7 @@ type: tool
 title: Assess a community's current disaster-resilience level
 slug: assess-community-resilience-level
 retrieval_status: limited
+limited_to: qualitative, participatory baseline of community DRR for natural hazards; no tested scores, and no urban or conflict adaptation
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:
@@ -47,7 +48,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: tool
+promotion_stage: finding
 implementation_tier: execution
 ---
 
@@ -131,7 +132,7 @@ The source cautions against several failure modes:
 
 > **Evidence note.** Single-source page grounded only in Twigg 2009,
 > *Characteristics of a Disaster-Resilient Community* (Version 2), so this sits
-> at `limited` trust. Claims are drawn from the guidance note's baseline, VCA and
+> at the `finding` stage. Claims are drawn from the guidance note's baseline, VCA and
 > milestones sections (pp. 7–8, 12, 18, 20, 22). The source supplies no validated
 > quantitative scoring or weighting and no urban/conflict adaptation;
-> corroboration from a second source would be needed to promote to `usable`.
+> corroboration from a second source would be needed to promote to the `concept` stage.

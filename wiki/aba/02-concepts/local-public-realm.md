@@ -4,6 +4,7 @@ type: concept
 title: Local public realm
 slug: local-public-realm
 retrieval_status: limited
+limited_to: UK neighbourhoods with working public services, civic spaces and local media; adapt where civic infrastructure or media differ
 lifecycle_stage:
 - area-selection
 - neighbourhood-diagnosis
@@ -32,7 +33,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: concept
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -109,9 +110,9 @@ potential as a diagnostic and prescriptive framework" (p. 14).
   a "hypothesis," not a tested instrument (p. 17).
 
 > **Evidence note.** Grounded in a single source (Young Foundation 2010), so this
-> page sits at `limited` trust. The definition and four-component typology are
+> page sits at the `finding` stage. The definition and four-component typology are
 > from pp. 13–14 and 17–21; the diagnostic/prescriptive framing from pp. 14–15
 > and 25; the risks from pp. 18–21. The source frames its working definition as a
 > hypothesis, and its evidence base is UK-specific; corroboration from a second
-> source would be needed to promote to `usable`.
+> source would be needed to promote to the `concept` stage.
 

@@ -4,6 +4,7 @@ type: concept
 title: Neighbourhood scales
 slug: neighbourhood-scales
 retrieval_status: limited
+limited_to: UK neighbourhoods; the population bands (100–1,500 and 5,000–10,000) are indicative ranges from one source, not tested cut-offs
 lifecycle_stage:
 - area-selection
 - coordination-design
@@ -34,7 +35,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: concept
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -113,9 +114,9 @@ forcing one boundary to do everything (Young Foundation 2010, pp. 15–16):
   ranges, not validated cut-offs.
 
 > **Evidence note.** Single-source page (Young Foundation 2010, pp. 15–17), so this
-> sits at `limited` trust. The dual-scale typology, the population bands, and the
+> sits at the `finding` stage. The dual-scale typology, the population bands, and the
 > coordination threshold are all stated as the source's own proposals — framed in
 > the document as hypotheses requiring testing — rather than as validated findings.
 > Corroboration from an ABA-specific source on operational scale (block vs
-> neighbourhood vs area) would be needed to promote to `usable`.
+> neighbourhood vs area) would be needed to promote to the `concept` stage.
 

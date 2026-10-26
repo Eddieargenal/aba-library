@@ -4,6 +4,7 @@ type: tool
 title: Local public realm mapping tool
 slug: local-public-realm-mapping-tool
 retrieval_status: limited
+limited_to: UK-style neighbourhoods; adapt the four categories where housing, civic infrastructure or local media differ from the British context
 lifecycle_stage:
 - neighbourhood-diagnosis
 - coordination-design
@@ -29,7 +30,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: tool
+promotion_stage: finding
 implementation_tier: execution
 ---
 
@@ -137,9 +138,9 @@ action can enrich and transform it, healing scars and filling gaps" (p. 18).
   throughout.
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this sits at
-> `limited` trust. Every claim is grounded in the source's local-public-realm
+> the `finding` stage. Every claim is grounded in the source's local-public-realm
 > chapter (pp. 14, 17–21); the four-component typology and the diagnostic framing
 > are the source's own. The source presents these as hypotheses requiring
 > testing, and provides no validated field instrument or scoring method;
-> corroboration from a second source would be needed to promote to `usable`.
+> corroboration from a second source would be needed to promote to the `concept` stage.
 

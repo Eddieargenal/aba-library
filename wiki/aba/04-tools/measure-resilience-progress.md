@@ -4,6 +4,7 @@ type: tool
 title: Resilience milestones model (measuring progress toward the ideal state)
 slug: measure-resilience-progress
 retrieval_status: limited
+limited_to: tracking community DRR progress over the long term with agreed, qualitative levels; no tested weighting scheme
 lifecycle_stage:
 - monitoring-learning
 primary_topics:
@@ -45,7 +46,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: tool
+promotion_stage: finding
 implementation_tier: execution
 ---
 
@@ -138,7 +139,7 @@ benchmarking is still quite experimental" (p. 20). Specific cautions:
 
 > **Evidence note.** This page rests on a single source (Twigg 2009,
 > *Characteristics of a Disaster-Resilient Community*, pp. 19–20, 22, 24), so it
-> sits at `limited` trust. The five-level scale, baseline scoring, and cautions are
+> sits at the `finding` stage. The five-level scale, baseline scoring, and cautions are
 > all drawn directly from that guidance note; a validated weighting scheme is
 > explicitly absent in the source, and corroboration from a second source would be
-> needed to promote beyond `limited`.
+> needed to promote beyond the `finding` stage.

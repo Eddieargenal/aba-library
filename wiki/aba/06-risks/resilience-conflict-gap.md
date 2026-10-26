@@ -3,7 +3,7 @@ id: R-resilience-conflict-gap
 type: risk
 title: Resilience Characteristics may not apply in conflict settings (evidence gap)
 slug: resilience-conflict-gap
-retrieval_status: limited
+retrieval_status: usable
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:
@@ -41,7 +41,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: concept
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -74,4 +74,4 @@ The honest position is that the source mainly **raises the caution** rather than
 - **If partial adaptation is attempted, lean on the post-disaster guidance as the nearest analogue** — a small set of key or "minimum" Characteristics as first-step milestones rather than the full ideal — while recognising the source offers this for post-disaster, not conflict, contexts (p. 15).
 - **Treat the adaptation evidence base as a known gap to fill before promoting the framework for conflict use.** Until corroborating field experience exists, its transferability to conflict settings remains untested.
 
-> **Evidence note.** Single source (Twigg 2009, *Characteristics of a Disaster-Resilient Community*, Section 4.1.2(c), p. 15, with supporting context on pp. 9 and 14), so this page sits at `limited` trust. The claims are grounded directly in the source's own conflict caveat; the source explicitly notes there is no field experience to confirm how the framework should be adapted, so the gap is documented by the author rather than resolved. Corroboration from a second source (e.g. conflict-sensitivity or do-no-harm guidance) would be needed to promote beyond `limited`.
+> **Evidence note.** Single source (Twigg 2009, *Characteristics of a Disaster-Resilient Community*, Section 4.1.2(c), p. 15, with supporting context on pp. 9 and 14), so this page sits at the `finding` stage. The claims are grounded directly in the source's own conflict caveat; the source explicitly notes there is no field experience to confirm how the framework should be adapted, so the gap is documented by the author rather than resolved. Corroboration from a second source (e.g. conflict-sensitivity or do-no-harm guidance) would be needed to promote beyond the `finding` stage.

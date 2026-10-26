@@ -4,6 +4,7 @@ type: decision-protocol
 title: Service devolution conditions
 slug: service-devolution-conditions
 retrieval_status: limited
+limited_to: devolving UK local-authority services to neighbourhood bodies; not tested for non-UK or humanitarian service delivery
 lifecycle_stage:
 - coordination-design
 primary_topics:
@@ -27,7 +28,7 @@ created: '2026-06-21'
 updated: '2026-06-21'
 last_reviewed: 2026-10-25
 accepted_by: Ed
-promotion_stage: tool
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -122,10 +123,10 @@ inequalities and failing public services" (p. 5). When the conditions in the
 decision logic are not clearly met, treat that as a signal to pause, not proceed.
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this sits at
-> `limited` trust. The positive conditions and the capacity lesson are stated
+> the `finding` stage. The positive conditions and the capacity lesson are stated
 > directly (pp. 23, 32–33); the matched-scale and demonstrated-capacity conditions
 > are inferred from the source's framing rather than given as a checklist, and are
 > flagged as such. Corroboration from a second source — especially for non-UK or
 > humanitarian contexts the source does not address — would be needed to promote to
-> `usable`.
+> the `concept` stage.
 
