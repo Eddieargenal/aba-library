@@ -4,6 +4,7 @@ type: decision-protocol
 title: Introduce the resilience Characteristics by starting from what people know
 slug: introduce-resilience-framework
 retrieval_status: limited
+limited_to: introducing the Characteristics to community and lower-expertise audiences in natural-hazard DRR; cases are rural (Bangladesh, Nepal)
 lifecycle_stage:
 - implementation-adaptation
 primary_topics:
@@ -38,7 +39,9 @@ sections:
   purpose: Escalation triggers and human review requirements
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -120,4 +123,4 @@ Escalate to the **capacity-building lead** before proceeding when:
 > *Characteristics of a Disaster-Resilient Community* (Section 4.2, pp. 16–17;
 > decision rule S-2009-twigg-ucl-disaster-resilient-community-RULE-002). Retrieval
 > status is `limited`: the introduction guidance is field-tested but qualitative,
-> and corroboration from a second source would be needed to promote to `usable`.
+> and corroboration from a second source would be needed to promote to the `concept` stage.

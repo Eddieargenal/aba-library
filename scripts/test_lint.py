@@ -500,5 +500,59 @@ class GraphRegistry(unittest.TestCase):
         self.assertIn("undisclosed_contradiction:C-b:C-a", codes(run_graph_rules(ctx)))
 
 
+
+def criticals(fm, ptype="concept"):
+    """The critical issue codes run_rules gives a page."""
+    return [i.code for i in run_rules(ctx(fm, ptype=ptype)) if i.severity == "critical"]
+
+
+class FieldWiseVaultFields(unittest.TestCase):
+    """The fields FieldWise reads from each page (FieldWise PRD #30, issue #53)."""
+
+    def test_a_limited_page_needs_a_limited_to_statement(self):
+        self.assertIn("missing_limited_to", criticals({"retrieval_status": "limited"}))
+        self.assertIn("missing_limited_to", criticals({"retrieval_status": "limited", "limited_to": "  "}))
+        self.assertNotIn("missing_limited_to", criticals({"retrieval_status": "limited",
+                                                          "limited_to": "urban flood contexts"}))
+        self.assertNotIn("missing_limited_to", criticals({"retrieval_status": "usable"}))
+
+
+    def test_sectors_come_from_fieldwises_fixed_list_and_a_page_may_have_several(self):
+        self.assertEqual([c for c in criticals({"sectors": ["shelter", "wash"]}) if "sector" in c], [])
+        self.assertIn("invalid_sector:area-based-approach",
+                      criticals({"sectors": ["shelter", "area-based-approach"]}))
+        self.assertIn("invalid_sectors", criticals({"sectors": "shelter"}), "a list, even for one sector")
+        self.assertEqual([c for c in criticals({}) if "sector" in c], [], "sectors are optional")
+
+
+    def test_the_bundle_flag_is_true_or_false(self):
+        self.assertNotIn("invalid_bundle", criticals({"bundle": True}))
+        self.assertNotIn("invalid_bundle", criticals({"bundle": False}))
+        self.assertNotIn("invalid_bundle", criticals({}))
+        self.assertIn("invalid_bundle", criticals({"bundle": "yes"}))
+
+
+def warnings_of(fm, rel_path="01-sources/extracted/s.md"):
+    return [i.code for i in run_rules(ctx(fm, page_id="S-x", ptype="source", rel_path=rel_path))
+            if i.severity == "warning"]
+
+
+class Licence(unittest.TestCase):
+    """A person records a source's licence from the publication itself (CONTEXT.md, Licence; issue #54)."""
+
+    CHECKED = {"licence": "cc-by-nc-sa", "licence_checked_by": "Ed", "licence_checked_at": date(2026, 10, 26)}
+
+    def test_a_source_without_a_checked_licence_warns_and_a_checked_one_is_clean(self):
+        lic = lambda codes: [c for c in codes if "licence" in c]
+        self.assertEqual(lic(warnings_of(dict(self.CHECKED))), [])
+        self.assertIn("missing_licence:licence_checked_by",
+                      warnings_of({k: v for k, v in self.CHECKED.items() if k != "licence_checked_by"}))
+        self.assertIn("missing_licence:licence", warnings_of({}))
+        self.assertIn("invalid_licence_checked_at", warnings_of(dict(self.CHECKED, licence_checked_at="soon")))
+        self.assertIn("invalid_licence:cc-maybe", warnings_of(dict(self.CHECKED, licence="cc-maybe")))
+        self.assertEqual(lic(warnings_of({}, rel_path="01-sources/raw-content/s.md")), [], "mirrors copy the page")
+        self.assertEqual(lic([i.code for i in run_rules(ctx({}))]), [], "only sources have a licence")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

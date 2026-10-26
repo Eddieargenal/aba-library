@@ -4,6 +4,7 @@ type: concept
 title: Characteristics of a Disaster-Resilient Community (aspirational model)
 slug: resilience-framework
 retrieval_status: limited
+limited_to: community DRR for natural hazards in communities that can reach consensus; adapt to each context, and not for conflict settings without adaptation
 lifecycle_stage:
 - integrated-area-strategy
 - coordination-design
@@ -39,7 +40,9 @@ sections:
   purpose: Risks and safeguards
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: concept
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: synthesis
 ---
 
@@ -77,4 +80,4 @@ The source raises its own cautions against misuse:
 - **Imbalance and artificial separation.** Thematic Area 4 (Risk Management and Vulnerability Reduction) is "very broad" and bundles issues that "do not necessarily fit together easily," creating imbalance; users are advised to take "particular care" that its Components are investigated thoroughly (Twigg 2009, pp. 13–14). Likewise, putting each Characteristic in just one place understates real overlap — connections across themes "must be kept in mind" (Twigg 2009, p. 13).
 - **Context limits.** The ideal state is "far removed from the condition of a community that has just suffered a disaster," so a reduced, recovery-focused set is more realistic post-disaster (Twigg 2009, p. 14). The framework also assumes a spatial community with some consensus and an accessible enabling environment — assumptions that may break down; see proposed risk **R-resilience-conflict-gap** for the conflict-setting limitation, where the source notes no field experience exists (Twigg 2009, p. 15).
 
-> **Evidence note.** Single-source page grounded only in Twigg 2009, *Characteristics of a Disaster-Resilient Community: A Guidance Note* (v2), so this sits at `limited` trust. Claims are drawn from the source's own framework description (pp. 7–14) and application guidance (pp. 18, 21); corroboration from a second source would be needed to promote to `usable`.
+> **Evidence note.** Single-source page grounded only in Twigg 2009, *Characteristics of a Disaster-Resilient Community: A Guidance Note* (v2), so this sits at the `finding` stage. Claims are drawn from the source's own framework description (pp. 7–14) and application guidance (pp. 18, 21); corroboration from a second source would be needed to promote to the `concept` stage.

@@ -4,6 +4,8 @@ type: concept
 title: Ecological empowerment
 slug: ecological-empowerment
 retrieval_status: limited
+limited_to: UK neighbourhoods with formal tenure and accessible local government; not tested in informal settlements, displacement or weak-governance settings
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 - integrated-area-strategy
@@ -29,7 +31,9 @@ sections:
   purpose: risks
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: concept
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -86,7 +90,7 @@ Use ecological empowerment as a **design and diagnostic lens**, not a deliverabl
   "integrated" as "do everything."
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this sits at
-> `limited` trust. Claims are grounded in the source's ecological-empowerment
+> the `finding` stage. Claims are grounded in the source's ecological-empowerment
 > discussion (p. 35) and its neighbourhood-factor framework; corroboration from a
-> second source would be needed to promote to `usable`.
+> second source would be needed to promote to the `concept` stage.
 

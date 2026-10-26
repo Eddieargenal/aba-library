@@ -2,11 +2,48 @@
 type: schema-changelog
 status: active
 created: 2026-05-11
-updated: 2026-05-31
+updated: 2026-10-25
 ---
 # Schema Changelog
 
 All schema changes must be logged here before taking effect. No exceptions.
+
+## [2026-10-26] fieldwise-licence-gate | v2.7 — source licence fields and the export licence gate
+
+### Changes
+- New fields on extracted source pages: `licence` (controlled, `LICENCE_VOCAB`), `licence_checked_by`, `licence_checked_at`. New **warnings**: `missing_licence:{field}`, `invalid_licence:{value}`, `invalid_licence_checked_at`. A `schema:licence` block in `frontmatter-schema.md`, verified by `check-schema.py`.
+- The FieldWise export holds back a source with no checked licence ("no checked licence") and an `all-rights-reserved` source ("all rights reserved"). Synthesis notes name an all-rights-reserved source as plain text on their Sources line, and the report lists their quotes over 50 words or 2 sentences (`long_quotes`). A `-nd` source is exported and listed in `no_derivatives`.
+- Every note carries `licence`: its source's licence on Standard notes, `aba-library` on Synthesis notes.
+
+### Rationale
+A source leaves the library only after a person has checked its terms; one that reserves all rights leaves only as short quotes with the page (CONTEXT.md, Licence; FieldWise PRD #30, issue #54).
+
+### Effect
+No source has a checked licence yet, so the export holds back every source until a person records the three fields (issue #55).
+
+## [2026-10-25] fieldwise-vault-fields | v2.7 — limited_to, sectors and bundle; export carries the vault fields
+
+### Changes
+- New **critical** checks: a `retrieval_status: limited` page needs `limited_to` (`missing_limited_to`); `sectors`, when present, is a list of values from `SECTORS_VOCAB` (`invalid_sectors`, `invalid_sector:{value}`); `bundle`, when present, is true or false (`invalid_bundle`).
+- New vocabulary `SECTORS_VOCAB` in `scripts/schema.py`: a copy of FieldWise's fixed sector list, with a `schema:sectors` block in `frontmatter-schema.md` that `check-schema.py` verifies.
+- The FieldWise export carries `promotion_stage`, `lifecycle_stage`, `limited_to` and `sectors` into every note, and `bundle: true` when set. Source notes are at the `finding` stage.
+- Source pages become Standard notes (issue #51) and every note ends with typed link lines (issue #52).
+
+### Rationale
+FieldWise shows `limited_to` as the caution beside a limited passage, counts only concept stage or higher at its highest tier, and tags notes by sector (FieldWise PRD #30, issue #53).
+
+### Effect
+The 23 limited pages have no `limited_to` yet, so the build has 23 critical errors and the export refuses until each page gets a statement or moves to `usable` (issue #55).
+
+## [2026-10-25] fieldwise-export | v2.7 — accepted_by field; content digest in the build manifest; FieldWise export
+
+### Changes
+- New optional field `accepted_by`: the person who accepted a page. The FieldWise export uses it as the note's author and holds back a usable or limited page without it, or without `last_reviewed`.
+- `scripts/build-index.py` writes `content_digest` (`pages.pages_digest`) into the manifest. The export refuses to run when the pages on disk give another digest (stale build).
+- New `scripts/export_fieldwise.py` and `scripts/export-fieldwise.py`: a clean, current build becomes `exports/fieldwise-<build_id>.zip` (format `fieldwise-vault/1`) for FieldWise's vault import. Tracer scope: anchored sections of usable or limited synthesis pages (FieldWise PRD #30, issue #50).
+
+### Rationale
+FieldWise's vault is written only in this library (FieldWise ADR-0006). Its notes need a named author (a technical authority never approves their own note) and a validity date from a recorded review; the digest pins the export to the text the build checked.
 
 ## [2026-05-31] enforcement-hardening | v2.7 — build-index.py now enforces evidence-grounding, vocabularies, id prefixes; adds routing report
 

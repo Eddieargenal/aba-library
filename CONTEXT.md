@@ -13,8 +13,20 @@ A page's position on the promotion ladder — how validated the knowledge claim 
 _Avoid_: trust tier, maturity, status (all overloaded).
 
 **Retrieval status** (`retrieval_status`):
-Whether a page is safe and appropriate to surface. One of: usable, limited, deprecated, draft. Independent of how validated it is.
+Whether a page is safe and appropriate to surface. One of: usable, limited, deprecated, draft. Independent of how validated it is: a page backed by one source is still usable; its **promotion stage** shows the evidence weight.
 _Avoid_: status (bare), visibility.
+
+**Limited** (a retrieval status):
+A page that holds only in a narrow scope (certain hazards, settings or contexts), which its **limited to** statement names. Never a sign of weak or single-source evidence; that is the promotion stage.
+_Avoid_: low trust, weak, provisional.
+
+**Licence** (`licence`):
+The terms under which a source may be copied, checked by a person from the publication itself and recorded with who checked it and when. A source with no checked licence never leaves the library; one that reserves all rights leaves only as short quotes inside synthesis pages.
+_Avoid_: rights, copyright (bare), terms.
+
+**Limited to** (`limited_to`):
+The plain-words scope in which a limited page holds, for example "urban flood contexts in informal settlements". Every limited page has one; it is what a reader sees as the caution.
+_Avoid_: caveat, note, scope (bare).
 
 **Lifecycle stage** (`lifecycle_stage`):
 When in the Neighborhood Approach decision process a page applies — the nine ABA stages (e.g. `area-selection`, `neighbourhood-diagnosis`). NOT the operating tiers.

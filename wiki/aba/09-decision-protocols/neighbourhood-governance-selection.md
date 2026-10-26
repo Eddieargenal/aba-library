@@ -4,6 +4,8 @@ type: decision-protocol
 title: Neighbourhood governance selection
 slug: neighbourhood-governance-selection
 retrieval_status: limited
+limited_to: UK contexts with accessible local government and formal tenure; the options are a repertoire, not a tested selection method
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 primary_topics:
@@ -26,7 +28,9 @@ sections:
   purpose: escalation
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -137,11 +141,11 @@ source flags structural risk or unresolved questions:
   (p. 40).
 
 > **Evidence note.** Single-source page (Young Foundation 2010, S-RULE-002), so
-> this sits at `limited` trust. The source supplies a governance *repertoire* and
+> this sits at the `finding` stage. The source supplies a governance *repertoire* and
 > a case-by-case paths diagram rather than a prescriptive selection algorithm,
 > and frames its proposals as "hypotheses" requiring testing (p. 41); the mapping
 > above is grounded in the paths diagram (p. 40) and structures spectrum
 > (pp. 37–39), not invented criteria. Claims assume a UK context with accessible
 > local government and formal tenure; corroboration from a second source would be
-> needed to promote to `usable`.
+> needed to promote to the `concept` stage.
 

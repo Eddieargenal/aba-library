@@ -4,6 +4,7 @@ type: tool
 title: Adapt the generic resilience Characteristics to local context
 slug: customize-resilience-framework
 retrieval_status: limited
+limited_to: adapting the Characteristics in rural or generic community settings; no urban examples and no step-by-step context analysis
 lifecycle_stage:
 - coordination-design
 - implementation-adaptation
@@ -45,7 +46,9 @@ sections:
   purpose: Risks and safeguards
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: execution
 ---
 
@@ -86,4 +89,4 @@ Twigg sets out customisation as a participatory, deliberative process rather tha
 - **Cost and consensus.** The process needs time, skilled facilitation, and stakeholder agreement, and "it might be difficult to reach consensus" (p. 19).
 - **Conflict settings.** The Characteristics assume community consensus and a functioning enabling environment; in conflict-affected or fragmented communities the source reports no field experience and expects heavy modification — see R-resilience-conflict-gap before customising (p. 15).
 
-> **Evidence note.** Single source (Twigg 2009), so this tool sits at `limited` trust. Every claim is grounded in the guidance note's Section 4.3 ("Selecting, modifying, 'customizing'", pp. 18–19) and its introductory framing (pp. 5, 7), with worked examples from Box 5 (Philippines) and Box 6 (Plan). The source provides no step-by-step contextual-analysis protocol and no non-rural examples; corroboration from a second source would be needed to promote to `usable`.
+> **Evidence note.** Single source (Twigg 2009), so this tool sits at the `finding` stage. Every claim is grounded in the guidance note's Section 4.3 ("Selecting, modifying, 'customizing'", pp. 18–19) and its introductory framing (pp. 5, 7), with worked examples from Box 5 (Philippines) and Box 6 (Plan). The source provides no step-by-step contextual-analysis protocol and no non-rural examples; corroboration from a second source would be needed to promote to the `concept` stage.

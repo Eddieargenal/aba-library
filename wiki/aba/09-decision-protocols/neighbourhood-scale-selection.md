@@ -4,6 +4,8 @@ type: decision-protocol
 title: Neighbourhood scale selection
 slug: neighbourhood-scale-selection
 retrieval_status: limited
+limited_to: UK neighbourhoods; the population bands and the 500–1,500 coordination threshold are proposals for testing, not confirmed thresholds
+sectors: [shelter, coordination]
 lifecycle_stage:
 - area-selection
 - coordination-design
@@ -26,7 +28,9 @@ sections:
   purpose: escalation
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -120,10 +124,10 @@ unresolved tensions:
   and escalate where local evidence pulls against them.
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this protocol
-> sits at `limited` trust. The dual-scale typology, the population bands, the
+> sits at the `finding` stage. The dual-scale typology, the population bands, the
 > anthropological coordination threshold (500–1,500), and the overlapping/layered
 > guidance are all grounded in pp. 15–17 of the source. The source itself frames
 > the bands with question marks and labels the proposals "hypotheses" requiring
 > testing; corroboration from a second, ideally ABA- or field-specific source
-> would be needed to confirm the thresholds and promote to `usable`.
+> would be needed to confirm the thresholds and promote to the `concept` stage.
 

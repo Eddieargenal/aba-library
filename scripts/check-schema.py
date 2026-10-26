@@ -25,9 +25,11 @@ from schema import (  # noqa: E402
     CROSS_CUTTING_TOPICS_VOCAB,
     ID_PREFIX_BY_TYPE,
     IMPLEMENTATION_TIER_VOCAB,
+    LICENCE_VOCAB,
     LIFECYCLE_VOCAB,
     PROMOTION_STAGE_VOCAB,
     RETRIEVAL_STATUS_VOCAB,
+    SECTORS_VOCAB,
 )
 
 VAULT = Path(__file__).resolve().parents[1]
@@ -41,6 +43,8 @@ KEYS = {
     "promotion_stage": ("set", PROMOTION_STAGE_VOCAB),
     "implementation_tier": ("set", IMPLEMENTATION_TIER_VOCAB),
     "cross_cutting_topics": ("set", CROSS_CUTTING_TOPICS_VOCAB),
+    "sectors": ("set", SECTORS_VOCAB),
+    "licence": ("set", LICENCE_VOCAB),
 }
 
 BLOCK_RE = re.compile(r"^```schema:([a-z_]+)\s*$(.*?)^```\s*$", re.DOTALL | re.MULTILINE)

@@ -4,6 +4,7 @@ type: decision-protocol
 title: Refine donor-agreed indicators from resilience characteristics (don't replace)
 slug: refine-indicators-from-characteristics
 retrieval_status: limited
+limited_to: refining donor-agreed indicators in community DRR projects; thin field experience with indicator refinement
 lifecycle_stage:
 - monitoring-learning
 primary_topics:
@@ -40,7 +41,9 @@ sections:
   purpose: Escalation triggers and human review requirements
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -74,4 +77,4 @@ Seek senior M&E or technical judgement, and the donor focal point, when:
 - **No existing indicator can be reconciled** with the characteristic, so a new or replacement indicator — and a reporting-contract change — is required.
 - **Over-quantification or proxy validity is in doubt.** Deciding "what kinds of quantitative indicator are appropriate and what levels of attainment to set" is left to the project team (Box 11, p. 57); harder-to-judge characteristics (e.g. equitable distribution of assets) carry "some subjective judgement" and warrant a second, experienced view. The source notes such refinement needs experienced DRR practitioners and "there is not much experience of this, as yet" (p. 25; RULE-001).
 
-> **Evidence note.** Single source (Twigg 2009, *Characteristics of a Disaster-Resilient Community*, v2), so this protocol sits at `limited` trust. Claims are grounded in the source's project-design and M&E guidance (pp. 23–25), Boxes 10–11 (pp. 56–57), and Case Study 6 (p. 77); the source itself flags thin field experience with indicator refinement. Corroboration from a second source on indicator formulation and proxy validation would be needed to promote to `usable`.
+> **Evidence note.** Single source (Twigg 2009, *Characteristics of a Disaster-Resilient Community*, v2), so this protocol sits at the `finding` stage. Claims are grounded in the source's project-design and M&E guidance (pp. 23–25), Boxes 10–11 (pp. 56–57), and Case Study 6 (p. 77); the source itself flags thin field experience with indicator refinement. Corroboration from a second source on indicator formulation and proxy validation would be needed to promote to the `concept` stage.

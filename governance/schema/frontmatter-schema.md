@@ -1,7 +1,7 @@
 ---
 type: schema
 created: 2026-05-07
-updated: 2026-05-19
+updated: 2026-10-25
 status: active
 version: 2.7
 ---
@@ -214,6 +214,88 @@ gate_state: cleared          # all required gates passed (publishable)
 # gate_state: awaiting-gate-b
 # gate_state: awaiting-gate-c
 # gate_state: awaiting-gate-d
+```
+
+## Review and Acceptance (FieldWise export)
+
+Two optional fields that the FieldWise vault export needs (`scripts/export_fieldwise.py`). A usable or limited page
+without both is held back from the export and named in its report; it still builds.
+
+```yaml
+last_reviewed: 2026-10-25   # the day a person last reviewed the page; the note holds for 365 days from it
+accepted_by: Ed             # the person who accepted the page: the FieldWise note's author, never an AI agent
+```
+
+## FieldWise Vault Fields
+
+Fields that the FieldWise export carries into every note (`scripts/export_fieldwise.py`, issue #53). Each
+note also carries the page's `promotion_stage` and `lifecycle_stage`; a source page's notes are at the
+`finding` stage, and a finding note keeps its own lifecycle stages.
+
+```yaml
+limited_to: urban flood contexts in informal settlements   # REQUIRED when retrieval_status is limited (critical: missing_limited_to)
+sectors: [shelter, wash]   # optional; one or more values from FieldWise's sector list (critical: invalid_sector:{value})
+bundle: true               # optional; true or false (critical: invalid_bundle). Marks the page for FieldWise's static bundle
+```
+
+`limited_to` names, in plain words, the narrow scope in which a limited page holds; it is the caution a
+FieldWise reader sees. It never means weak evidence: that is the promotion stage (`CONTEXT.md`).
+
+Sectors, verified against `scripts/schema.py:SECTORS_VOCAB` (a copy of FieldWise's
+`askEd/harness/sectors.py`; change both together). An approach that crosses sectors, such as area-based
+approaches, is never a sector.
+
+```schema:sectors
+aap
+access
+cash
+child-protection
+coordination
+education
+food
+health
+livelihoods
+logistics
+nutrition
+protection
+shelter
+site-management
+wash
+```
+
+## Source Licence (FieldWise export)
+
+Every extracted source page (`01-sources/extracted/`) records its licence, read by a person from the
+publication itself, with who checked it and when (issue #54). Lint warns when a field is missing
+(`missing_licence:{field}`), when the value is not in the vocabulary (`invalid_licence:{value}`) or when
+the date is not a date (`invalid_licence_checked_at`). Raw-content mirrors are not checked.
+
+```yaml
+licence: cc-by-nc-sa         # from the publication; Creative Commons values carry no version
+licence_checked_by: Ed       # the person who read the terms, never an AI agent
+licence_checked_at: 2026-10-26
+```
+
+The FieldWise export:
+- holds back a source with no checked licence (any field missing), and drops its links from synthesis notes;
+- holds back an `all-rights-reserved` source: it gives no Standard notes, and synthesis notes name it as
+  plain text; their quotes over 50 words or 2 sentences are listed in the report (`long_quotes`);
+- exports a `-nd` (no derivatives) source and lists it in the report (`no_derivatives`) for a person to decide;
+- writes `licence` on every note: the source's licence on Standard notes, `aba-library` on Synthesis notes.
+
+Verified against `scripts/schema.py:LICENCE_VOCAB`:
+
+```schema:licence
+all-rights-reserved
+cc-by
+cc-by-nc
+cc-by-nc-nd
+cc-by-nc-sa
+cc-by-nd
+cc-by-sa
+cc0
+open-government
+public-domain
 ```
 
 ## Additional Known-Tension Fields

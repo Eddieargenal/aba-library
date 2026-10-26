@@ -4,6 +4,8 @@ type: framework
 title: Neighbourhood definition framework
 slug: neighbourhood-definition-framework
 retrieval_status: limited
+limited_to: neighbourhoods with formal housing tenure, stable residents and accessible local government; not tested in informal settlements, displacement or weak-governance contexts
+sectors: [shelter]
 lifecycle_stage:
 - area-selection
 - neighbourhood-diagnosis
@@ -28,7 +30,9 @@ sections:
   purpose: limitations
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: framework
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: synthesis
 ---
 
@@ -107,9 +111,9 @@ tenure, residential stability, and accessible local government — assumptions t
 hold in informal-settlement, displaced-population, or weak-governance contexts.
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this sits at
-> `limited` trust. The three-lens framework and its working definition are grounded in
+> the `finding` stage. The three-lens framework and its working definition are grounded in
 > the source's neighbourhood-definition chapter (pp. 9–11, 13–14, 16–17), with the
 > definitional premise on p. 9. The framework is presented in the source as a hypothesis,
 > not validated practice; corroboration from a second source would be needed to promote
-> to `usable`.
+> to the `concept` stage.
 

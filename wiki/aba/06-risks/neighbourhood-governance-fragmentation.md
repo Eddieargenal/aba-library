@@ -4,6 +4,8 @@ type: risk
 title: Neighbourhood governance fragmentation
 slug: neighbourhood-governance-fragmentation
 retrieval_status: limited
+limited_to: UK neighbourhood empowerment programmes with many service-specific bodies; not tested in humanitarian or weak-governance contexts
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 primary_topics:
@@ -23,7 +25,9 @@ sections:
   purpose: mitigation
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: concept
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -102,8 +106,8 @@ the full range of a neighbourhood's challenges (p. 36).
   view (pp. 15–16). See [Neighbourhood scale selection](../09-decision-protocols/neighbourhood-scale-selection.md).
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this sits at
-> `limited` trust. Claims are grounded in the source's review of fragmentary
+> the `finding` stage. Claims are grounded in the source's review of fragmentary
 > neighbourhood empowerment (pp. 36–37), its problem register (p. 41), and its
 > discussion of overlapping neighbourhoods (pp. 16–17). Corroboration from a second
-> source would be needed to promote to `usable`.
+> source would be needed to promote to the `concept` stage.
 

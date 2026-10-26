@@ -27,6 +27,8 @@ from schema import (
     CROSS_CUTTING_TOPICS_VOCAB,
     IMPLEMENTATION_TIER_VOCAB,
     LADDER_TYPES,
+    LICENCE_FIELDS,
+    LICENCE_VOCAB,
     LIFECYCLE_REQUIRED_TYPES,
     LIFECYCLE_VOCAB,
     MAX_PRIMARY_TOPICS,
@@ -35,6 +37,7 @@ from schema import (
     PROMOTION_STAGE_VOCAB,
     RETRIEVAL_STATUS_VOCAB,
     SCHEMA_VERSION,
+    SECTORS_VOCAB,
     STRICT_REQUIRED,
     TECHNICAL_TYPES,
     target_dir_for_action,
@@ -364,6 +367,50 @@ def rule_cross_cutting_topics_vocab(ctx: RuleCtx) -> List[Issue]:
     ]
 
 
+def rule_limited_to(ctx: RuleCtx) -> List[Issue]:
+    """A limited page holds only in a narrow scope, and its limited_to statement names that scope: it is the caution
+    a FieldWise reader sees (CONTEXT.md, Limited to)."""
+    if ctx.rs_val == "limited" and not str(ctx.fm.get("limited_to") or "").strip():
+        return [Issue(CRITICAL, "missing_limited_to")]
+    return []
+
+
+def rule_sectors(ctx: RuleCtx) -> List[Issue]:
+    """sectors is optional: when present, a list of values from FieldWise's fixed sector list. A wrong value would
+    tag FieldWise's notes with a sector it does not know, so it blocks the build."""
+    v = ctx.fm.get("sectors")
+    if v is None:
+        return []
+    if not isinstance(v, list):
+        return [Issue(CRITICAL, "invalid_sectors")]
+    return [Issue(CRITICAL, f"invalid_sector:{str(t).strip()}") for t in v if str(t).strip() not in SECTORS_VOCAB]
+
+
+def rule_bundle(ctx: RuleCtx) -> List[Issue]:
+    """bundle is optional: true marks a page for FieldWise's static bundle (it enters only once approved there)."""
+    v = ctx.fm.get("bundle")
+    return [] if v is None or isinstance(v, bool) else [Issue(CRITICAL, "invalid_bundle")]
+
+
+def rule_licence(ctx: RuleCtx) -> List[Issue]:
+    """An extracted source records its licence, who checked it and when (issue #54). A warning, not a block: the
+    FieldWise export holds an unchecked source back on its own. Raw-content mirrors copy the page, so they are not
+    checked twice."""
+    if ctx.ptype != "source" or not ctx.rel_path.startswith("01-sources/extracted/"):
+        return []
+    out = [Issue(WARNING, f"missing_licence:{f}") for f in LICENCE_FIELDS if not str(ctx.fm.get(f) or "").strip()]
+    lic = str(ctx.fm.get("licence") or "").strip()
+    if lic and lic not in LICENCE_VOCAB:
+        out.append(Issue(WARNING, f"invalid_licence:{lic}"))
+    at = ctx.fm.get("licence_checked_at")
+    if at and not isinstance(at, date):
+        try:
+            date.fromisoformat(str(at))
+        except ValueError:
+            out.append(Issue(WARNING, "invalid_licence_checked_at"))
+    return out
+
+
 def rule_contradiction_aging(ctx: RuleCtx) -> List[Issue]:
     """A page carrying unresolved contradicts: links ages from last_reviewed.
     >30 days warns; >90 days blocks (critical). 'Resolved' means re-reviewed
@@ -405,6 +452,10 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_implementation_tier,
     rule_cross_cutting_topics_vocab,
     rule_contradiction_aging,
+    rule_limited_to,
+    rule_sectors,
+    rule_bundle,
+    rule_licence,
 ]
 
 

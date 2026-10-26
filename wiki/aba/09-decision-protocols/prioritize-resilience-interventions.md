@@ -4,6 +4,7 @@ type: decision-protocol
 title: Prioritise which resilience characteristics to address under resource constraints
 slug: prioritize-resilience-interventions
 retrieval_status: limited
+limited_to: choosing community DRR priorities under limited resources; selection principles only, no tested multi-criteria or cost method
 lifecycle_stage:
 - coordination-design
 primary_topics:
@@ -39,7 +40,9 @@ sections:
   purpose: Escalation triggers and human review requirements
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -111,6 +114,6 @@ the choice or where capacity is the binding constraint.
 
 > **Evidence note.** Single-source page grounded only in Twigg 2009,
 > *Characteristics of a Disaster-Resilient Community* (Sections 4.3–4.3.5, pp. 7,
-> 12, 18–20), so it sits at `limited` trust. The source gives selection principles
+> 12, 18–20), so it sits at the `finding` stage. The source gives selection principles
 > but no formal multi-criteria or cost-effectiveness method (a noted gap in
-> SEED-002); a second source would be needed to promote to `usable`.
+> SEED-002); a second source would be needed to promote to the `concept` stage.

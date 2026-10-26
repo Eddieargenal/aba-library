@@ -4,6 +4,8 @@ type: decision-protocol
 title: Select minimum resilience Characteristics as post-disaster recovery milestones
 slug: post-disaster-resilience-priorities
 retrieval_status: limited
+limited_to: relief and recovery after a natural-hazard disaster when the full Characteristics set is not possible; no field experience yet of a dedicated set
+sectors: [wash, shelter, food]
 lifecycle_stage:
 - transition-handover
 - implementation-adaptation
@@ -40,7 +42,9 @@ sections:
   purpose: Escalation triggers and human review requirements
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: tool
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: design
 ---
 
@@ -116,9 +120,9 @@ Seek senior (response/recovery lead) judgement when:
 
 > **Evidence note.** Single-source protocol grounded only in Twigg 2009,
 > *Characteristics of a Disaster-Resilient Community* (object RULE-006), so it sits at
-> `limited` trust. The post-disaster rule and Cyclone Nargis "minimum resilience
+> the `finding` stage. The post-disaster rule and Cyclone Nargis "minimum resilience
 > package" come from p. 15 (§4.1.2(b)); the key/minimum-Characteristics method and
 > "minimum standards" guardrail from pp. 18–20 (§4.3.3); milestones from p. 19 (§4.3.5);
 > recovery characteristics from Thematic Area 5, pp. 41–43. The source notes there is no
 > field experience of a dedicated post-disaster Characteristics set, so the rule is
-> provisional. A second source would be needed to promote beyond `limited`.
+> provisional. A second source would be needed to promote beyond the `finding` stage.

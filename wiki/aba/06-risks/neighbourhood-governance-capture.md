@@ -4,6 +4,8 @@ type: risk
 title: Neighbourhood governance capture
 slug: neighbourhood-governance-capture
 retrieval_status: limited
+limited_to: neighbourhood governance bodies in UK local-authority systems; not tested where local government is weak, absent or adversarial
+sectors: [coordination]
 lifecycle_stage:
 - coordination-design
 - integrated-area-strategy
@@ -24,7 +26,9 @@ sections:
   purpose: mitigation
 created: '2026-06-21'
 updated: '2026-06-21'
-promotion_stage: concept
+last_reviewed: 2026-10-25
+accepted_by: Ed
+promotion_stage: finding
 implementation_tier: all
 ---
 
@@ -113,10 +117,10 @@ The source does **not** offer thresholds, audit tools, or representativeness
 tests; mitigation here is principle-level and, by its own framing, provisional.
 
 > **Evidence note.** Single-source page (Young Foundation 2010), so this sits at
-> `limited` trust. Claims are grounded in the source's risk list (p. 41), the
+> the `finding` stage. Claims are grounded in the source's risk list (p. 41), the
 > administrative-vs-personal weaknesses table (p. 10), the New Deal for
 > Communities lesson (p. 33), and the "done badly" framing (p. 5). The source
 > presents its governance proposals as hypotheses for testing rather than proven
 > findings; corroboration from a second source would be needed to promote to
-> `usable`.
+> the `concept` stage.
 

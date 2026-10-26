@@ -11,3 +11,6 @@ indexes/current/term-index.json
 # Python bytecode cache from scripts/
 __pycache__/
 *.pyc
+
+# FieldWise vault packages (scripts/export-fieldwise.py) are build products
+exports/

@@ -11,6 +11,8 @@ is hyphenated and unimportable) so the scan/parse path has a real test surface
 — see test_pages.py.
 """
 
+import hashlib
+import json
 from pathlib import Path
 from typing import List
 
@@ -39,3 +41,13 @@ def read_pages(root: Path) -> List[Page]:
             fm = {"_yaml_error": True}
         pages.append(Page(path=path, rel_path=rel, frontmatter=fm, body=body))
     return pages
+
+
+def pages_digest(pages: List[Page]) -> str:
+    """One SHA-256 over every page's path, front matter and body, in path order. build-index.py records it in the
+    manifest; the FieldWise export refuses to run when today's pages give another digest (the build is stale)."""
+    h = hashlib.sha256()
+    for p in sorted(pages, key=lambda p: p.rel_path):
+        h.update(json.dumps([p.rel_path, p.frontmatter, p.body], sort_keys=True, default=str,
+                            ensure_ascii=False).encode("utf-8"))
+    return h.hexdigest()
