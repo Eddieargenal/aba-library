@@ -42,7 +42,7 @@ to address one challenge — community safety, anti-social behaviour, a particul
 estate — without joining up across the others (Young Foundation 2010, p. 36).
 Because bottom-up empowerment reflects the patchwork of individualistic and
 associational civil society, the source notes it "may be complex, overlapping and
-fragmented" (p. 17). The risk arises from two structural mismatches the source
+fragmented" (p. 13). The risk arises from two structural mismatches the source
 identifies. First, **boundaries do not line up**: residents sit simultaneously
 within "a network of neighbourhoods of different scales and types" — a block, a
 street, a neighbourhood-watch area, a school catchment, a parish — so single-issue

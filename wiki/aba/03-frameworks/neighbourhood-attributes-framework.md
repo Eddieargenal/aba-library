@@ -40,7 +40,7 @@ implementation_tier: synthesis
 
 The **neighbourhood attributes spectrum** is a checklist for *characterising* a
 neighbourhood — not for bounding or governing it. Use it during
-`neighbourhood-diagnosis`, when the question is "what kind of place is this, and
+neighbourhood diagnosis, when the question is "what kind of place is this, and
 along which dimensions does it vary?" rather than "where does it begin and end?"
 The Young Foundation presents it (drawing on Galster 2001 and Power et al 2004)
 as a way to organise the many physical and social characteristics that "rich

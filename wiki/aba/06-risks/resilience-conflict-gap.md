@@ -5,6 +5,7 @@ title: Resilience Characteristics may not apply in conflict settings (evidence g
 slug: resilience-conflict-gap
 retrieval_status: usable
 search_terms: [armed conflict, insecurity, conflict-affected area, violence, divided community, do no harm]
+bundle: true
 lifecycle_stage:
 - neighbourhood-diagnosis
 primary_topics:
@@ -71,7 +72,7 @@ Signs the risk is present, drawn from the source's own failure conditions (pp. 9
 The honest position is that the source mainly **raises the caution** rather than resolving it — there is no field-tested protocol to inherit. Twigg states only that "alterations… will surely be needed" but "exactly what is difficult to say" given the absence of experience, and points the user to Section 3.4 on the Enabling Environment for the external dimension (p. 15). From that the source supports:
 
 - **Do not apply the Characteristics unadapted in a conflict or post-conflict setting.** The consensus assumption is load-bearing, not a detail to work around, and its failure can invalidate the analysis.
-- **Treat any conflict-setting application as an explicit human-review decision**, not a routine assessment — the finding behind this page is flagged `human_review_required: true` as a major limitation.
+- **Treat any conflict-setting application as an explicit human-review decision**, not a routine assessment.
 - **If partial adaptation is attempted, lean on the post-disaster guidance as the nearest analogue** — a small set of key or "minimum" Characteristics as first-step milestones rather than the full ideal — while recognising the source offers this for post-disaster, not conflict, contexts (p. 15).
 - **Treat the adaptation evidence base as a known gap to fill before promoting the framework for conflict use.** Until corroborating field experience exists, its transferability to conflict settings remains untested.
 

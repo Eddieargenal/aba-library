@@ -63,7 +63,7 @@ set out in the Characteristics and identif[ies] areas for future work" (Twigg
 2009, p. 22). The aim is a structured, current-state read — a baseline that
 "identif[ies] the extent of resilience that already exists in a community" (p.
 22) — so that gaps become visible and a starting point for measuring progress
-(T-measure-resilience-progress) is established. Resilience here is treated as a
+(see the resilience milestones model) is established. Resilience here is treated as a
 *relative* and ideal state: one must always ask "what individuals, communities
 and systems are vulnerable or resilient to, and to what extent" (p. 8), and "no
 community can ever be completely safe" (p. 7), so the assessment locates a
@@ -97,7 +97,7 @@ consensus" (p. 20); "complex analytical processes should be avoided" (p. 20).
 
 Match collected community data against the framework's elements to read existing
 resilience (p. 22), typically structured through a Characteristics-framed VCA
-(T-conduct-vca-with-characteristics), which lets users "sharpen" their analysis
+(see the Characteristics-structured VCA tool), which lets users "sharpen" their analysis
 by identifying areas of inquiry beforehand and organising the data afterward (p.
 22). Where a team finds it helpful, individual Characteristics may be marked on a
 "simple scale: (1) met, (2) partly met, (3) not met" to "generate crude scores

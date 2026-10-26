@@ -51,7 +51,7 @@ implementation_tier: design
 <a id="trigger"></a>
 ## Trigger Conditions
 
-This protocol activates whenever **deriving or refining context-specific indicators from the Characteristics** arises — most acutely when a project must report against **existing donor-agreed indicators** while its resilience analysis is framed qualitatively. Field query: *"Donor wants specific indicators but our framework is qualitative — how do I satisfy both?"* It triggers when:
+This protocol activates whenever **deriving or refining context-specific indicators from the Characteristics** arises — most acutely when a project must report against **existing donor-agreed indicators** while its resilience analysis is framed qualitatively. It triggers when:
 
 - A project has a logical or results-based framework with **donor-agreed indicators** that you want to measure resilience more sharply (Twigg 2009, p. 25; Case Study 6, p. 77).
 - You are at **project design** building indicators, because the Characteristics "are not conventional project indicators" — they "characterize an ideal state of resilience in quite general terms," and projects "will need their own specific and more detailed indicators" (p. 23).

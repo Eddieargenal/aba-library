@@ -91,8 +91,8 @@ forcing one boundary to do everything (Young Foundation 2010, pp. 15–16):
   catchment (pp. 16–17). Design proximity and strategic units together rather than
   choosing one, nesting the smaller inside the larger.
 - **Apply at area selection and coordination design.** The distinction is most useful
-  when fixing the operating geography (`area-selection`) and when deciding which tier
-  a given activity or governance body should sit at (`coordination-design`).
+  when fixing the operating geography (area selection) and when deciding which tier
+  a given activity or governance body should sit at (coordination design).
 
 <a id="risks"></a>
 ## Risks
