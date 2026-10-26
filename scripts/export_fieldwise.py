@@ -7,6 +7,8 @@ A clean build becomes one zip that FieldWise imports. Each anchored section of a
 becomes one Synthesis note: Markdown with simple `key: value` front matter, titled "Page title — Section". An
 extracted source page becomes Standard notes under its publisher (issue #51): its fixed guidance sections (split at
 subheadings when long), one note per finding and one tension note per Known Tensions row.
+Each note ends with labelled link lines (Same page, Tensions, Sources, Related) built only from the build's valid
+graph edges (issue #52); links that cannot be written are listed in the report.
 
   plan_export(pages, result, build_id)  pure: pages and their compiled build in, a Plan (notes + report) out
   write_package(plan, out_path)         the zip: one .md file per note and manifest.json
@@ -38,8 +40,12 @@ GUIDANCE_SECTIONS = ("summary", "key-concepts", "methods-and-tools", "known-tens
 ANCHOR = re.compile(r'<a id="([^"]+)"></a>')
 SUBHEADING = re.compile(r"(?m)^###+\s*(.+)$")
 SPLIT_WORDS = 600
+TENSION_RELATIONS = {"known_tension", "contradicts"}
+# a body link to a page: [[slug]], [[slug#part|alias]], or a Markdown link to a .md path; web links stay as they are
+BODY_LINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]|\[([^\]]*)\]\(([^)\s]+\.md)(?:#[^)]*)?\)")
+LINK_LABELS = ("Same page", "Tensions", "Sources", "Related")   # the line labels FieldWise reads, in this order
 # a finding is a "**F-001** — claim" paragraph or a "| F-001 | claim |" table row; "→ see <object>" pointers are dropped
-FINDING = re.compile(r"(?m)^(?:\*\*(F-\d+)\*\*\s*—\s*|\|\s*(F-\d+)\s*\|\s*)([^|\n]+?)(?:\s*→ see [^|\n]*)?\s*(?:\||$)")
+FINDING = re.compile(r"(?m)^(?:\*\*(F-\d+)\*\*\s*—\s*|\|\s*(F-\d+)\s*\|\s*)([^|\n]+?)(?:\s*→ see ([^|\n]*))?\s*(?:\||$)")
 
 
 class NotClean(Exception):
@@ -98,7 +104,7 @@ def _findings(fm, text) -> List[tuple]:
     object pointers are notes for the extraction agents, so neither leaves."""
     meta = {f.get("finding_id"): f for f in fm.get("findings") or []}
     out = []
-    for in_text, in_table, claim in FINDING.findall(text):
+    for in_text, in_table, claim, _ in FINDING.findall(text):
         fid = in_text or in_table
         f = meta.get(fid, {})
         if f.get("finding_type") == "task-seed":
@@ -111,27 +117,51 @@ def _findings(fm, text) -> List[tuple]:
     return out
 
 
-def _tensions(heading, text) -> List[tuple]:
-    """One tension note per row of the Known Tensions table, in FieldWise's tension format. The text outside the
-    table stays as the section note, so each tension is in one note only; no text left means no section note."""
+def _tension_rows(text):
+    """(first line, end line, rows) of the Known Tensions table in a section's lines; rows hold each tension's short
+    ID, both positions with their pages, why it matters and its related object IDs. None when there is no table."""
     lines = text.splitlines()
     start = next((i for i, l in enumerate(lines) if l.startswith("|") and "Tension ID" in l), None)
     if start is None:
-        return [("known-tensions", heading, text, {})]
+        return None
     end = next((i for i in range(start, len(lines)) if not lines[i].startswith("|")), len(lines))
-    out = []
+    rows = []
     for row in lines[start + 2:end]:
         cells = [c.strip() for c in row.strip().strip("|").split("|")]
-        tid, first, first_at, second, second_at, _type, why = (cells + [""] * 7)[:7]
-        short = "TNS-" + tid.rsplit("TNS-", 1)[-1]
-        body = f"Position A: {first} ({first_at})\nPosition B: {second} ({second_at})"
-        if why:
-            body += f"\nWhy it matters: {why}"
-        out.append((short.lower(), f"Tension {short}", body, {"role": "tension"}))
+        tid, first, first_at, second, second_at, _type, why, objects = (cells + [""] * 8)[:8]
+        rows.append({"short": "TNS-" + tid.rsplit("TNS-", 1)[-1], "first": first, "first_at": first_at,
+                     "second": second, "second_at": second_at, "why": why,
+                     "objects": {o.strip() for o in objects.split(",") if o.strip()}})
+    return start, end, rows
+
+
+def _tensions(heading, text) -> List[tuple]:
+    """One tension note per row of the Known Tensions table, in FieldWise's tension format. The text outside the
+    table stays as the section note, so each tension is in one note only; no text left means no section note."""
+    table = _tension_rows(text)
+    if table is None:
+        return [("known-tensions", heading, text, {})]
+    start, end, rows = table
+    out = []
+    for r in rows:
+        body = f"Position A: {r['first']} ({r['first_at']})\nPosition B: {r['second']} ({r['second_at']})"
+        if r["why"]:
+            body += f"\nWhy it matters: {r['why']}"
+        out.append((r["short"].lower(), f"Tension {r['short']}", body, {"role": "tension"}))
+    lines = text.splitlines()
     rest = re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:start] + lines[end:])).strip()
     if rest != lines[0].strip():   # more than the heading is left
         out.insert(0, ("known-tensions", heading, rest, {}))
     return out
+
+
+def _tension_objects(p) -> Dict[str, set]:
+    """{tension note section ID: the object IDs its row relates to} for a source page."""
+    for sid, _, text in _sections(p.body):
+        table = _tension_rows(text) if sid == "known-tensions" else None
+        if table:
+            return {r["short"].lower(): r["objects"] for r in table[2]}
+    return {}
 
 
 def _split(sid, heading, text) -> List[tuple]:
@@ -220,7 +250,135 @@ def plan_export(pages, result, build_id: str) -> Plan:
                        "valid_until": valid.isoformat(), "retrieval_status": fm["retrieval_status"],
                        "build_id": build_id, **extra},
                 body=text))
+    plan.report["dropped_links"] = _add_links(plan.notes, pages, result.valid_edges, result.unresolved_edges)
     return plan
+
+
+def _finding_objects(p) -> Dict[str, str]:
+    """{object ID: finding ID} from the "→ see <object>" pointers of a source's findings."""
+    out = {}
+    for sid, _, text in _sections(p.body):
+        if sid == "findings":
+            for in_text, in_table, _, see in FINDING.findall(text):
+                for oid in re.findall(r"[A-Za-z0-9-]+-[A-Z]+-\d+", see):
+                    out.setdefault(oid, in_text or in_table)
+    return out
+
+
+def _unique(items) -> List[str]:
+    return list(dict.fromkeys(items))
+
+
+class _Links:
+    """The link lines of every exported note, from the build's valid graph edges. A link to a page points to its
+    first exported note (a source's first note is its Summary)."""
+
+    def __init__(self, notes, pages, edges, unresolved):
+        self.first, self.by_page, self.titles = {}, {}, {}
+        for n in notes:
+            self.first.setdefault(n.front["aba_id"], n.front["title"])
+            self.by_page.setdefault(n.front["aba_id"], []).append(n.front["title"])
+            self.titles[(n.front["aba_id"], n.front["aba_section"])] = n.front["title"]
+        self.pages = {p.frontmatter.get("id"): p for p in pages}
+        self.stems = {}   # how a body link names a page: its file name or its ID
+        for p in pages:
+            self.stems.setdefault(Path(p.rel_path).stem, p.frontmatter.get("id"))
+            self.stems.setdefault(str(p.frontmatter.get("id")), p.frontmatter.get("id"))
+        self.dropped, self.out = [], {}   # out: {page: {relation: [target page IDs]}} for valid exported edges
+        for e in edges:
+            if e["from"] not in self.first:
+                continue
+            if e["to"] in self.first:
+                self.out.setdefault(e["from"], {}).setdefault(e["relation"], []).append(e["to"])
+            else:
+                self.dropped.append({"from": e["from"], "relation": e["relation"], "to": e["to"],
+                                     "reason": "not exported"})
+        self.unresolved = [{"from": e["from"], "relation": e["relation"], "to": e["to"], "reason": "unresolved"}
+                           for e in unresolved if e["from"] in self.first]
+        self.findings = {s: _finding_objects(self.pages[s]) for s in self.first if _is_source(self.pages[s])}
+        self.rows = {s: _tension_objects(self.pages[s]) for s in self.findings}
+
+    def _targets(self, page, relations=None, but=()) -> List[str]:
+        """The exported pages a page links to through these relations (all when None), less the ones in but."""
+        return [t for r, ts in self.out.get(page, {}).items()
+                if (relations is None or r in relations) and r not in but for t in ts]
+
+    def _evidence(self, page):
+        """(source, finding IDs, object IDs) for each source_basis item of a page that is a valid exported edge:
+        the item's finding_ids and object_id, each completed through the source's "→ see" pointers."""
+        for item in self.pages[page].frontmatter.get("source_basis") or []:
+            src = item.get("source_id") if isinstance(item, dict) else None
+            if src not in self._targets(page, {"source_basis"}):
+                continue
+            objects = self.findings.get(src, {})
+            fids = list(item.get("finding_ids") or [])
+            oids = {o for o, f in objects.items() if f in fids}
+            if item.get("object_id"):
+                oids.add(item["object_id"])
+                fids += [objects[item["object_id"]]] if item["object_id"] in objects else []
+            yield src, fids, oids
+
+    def _resting_on(self, src, oids) -> List[str]:
+        """The tension notes of a source whose row relates to one of these objects."""
+        return [self.titles[(src, sec)] for sec, objs in self.rows.get(src, {}).items()
+                if objs & oids and (src, sec) in self.titles]
+
+    def sources(self, page) -> List[str]:
+        """The finding notes behind a page's evidence objects, or the source's Summary when no exported finding
+        matches."""
+        out = []
+        for src, fids, _ in self._evidence(page):
+            found = [self.titles[(src, f"finding-{f.lower()}")] for f in fids
+                     if (src, f"finding-{f.lower()}") in self.titles]
+            out += found or [self.first[src]]
+        return out
+
+    def tensions(self, page, section) -> List[str]:
+        """Known tension and contradicts edges, and the tension rows whose related objects this note rests on: a
+        finding rests on the objects its pointer names, a page on its evidence objects."""
+        out = [self.first[t] for t in self._targets(page, TENSION_RELATIONS)]
+        if page in self.findings:
+            out += self._resting_on(page, {o for o, f in self.findings[page].items()
+                                           if section == f"finding-{f.lower()}"})
+        for src, _, oids in self._evidence(page):
+            out += self._resting_on(src, oids)
+        return out
+
+    def rewrite_body(self, page, body) -> str:
+        """A body link becomes a wikilink to the target's first note when it matches a valid edge from the page;
+        otherwise it becomes plain text and is reported."""
+        def one(m):
+            slug, alias, text, path = m.groups()
+            label = alias or text
+            target = self.stems.get(Path(path).stem if path else slug.strip())
+            if target in self._targets(page):
+                return f"[[{self.first[target]}|{label}]]" if label else f"[[{self.first[target]}]]"
+            self.dropped.append({"from": page, "relation": "body", "to": path or slug.strip(),
+                                 "reason": "no valid edge"})
+            return label or slug.strip().replace("-", " ")
+        return BODY_LINK.sub(one, body)
+
+    def lines(self, note) -> List[str]:
+        page, title = note.front["aba_id"], note.front["title"]
+        links = {"Same page": [t for t in self.by_page[page] if t != title],
+                 "Tensions": self.tensions(page, note.front["aba_section"]),
+                 "Sources": self.sources(page),
+                 "Related": [self.first[t] for t in self._targets(page, but=TENSION_RELATIONS | {"source_basis"})]}
+        return [f"{label}: " + " ".join(f"[[{t}]]" for t in _unique(links[label]))
+                for label in LINK_LABELS if links[label]]
+
+
+def _add_links(notes, pages, edges, unresolved) -> List[Dict[str, str]]:
+    """End each note with labelled link lines of wikilinks to exported note titles, which FieldWise follows by kind.
+    Returns the links dropped from exported pages: edges to pages that are not exported, body links that match no
+    valid edge, and unresolved edges."""
+    links = _Links(notes, pages, edges, unresolved)
+    for n in notes:
+        n.body = links.rewrite_body(n.front["aba_id"], n.body)
+        block = links.lines(n)
+        if block:
+            n.body = n.body.rstrip() + "\n\n" + "\n".join(block)
+    return links.dropped + links.unresolved
 
 
 def write_package(plan: Plan, out_path, exported_at: str = "") -> Path:

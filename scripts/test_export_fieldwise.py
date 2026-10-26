@@ -12,6 +12,7 @@ zip on disk out), and read the zip back as FieldWise would.
 
 import hashlib
 import json
+import re
 import tempfile
 import unittest
 import zipfile
@@ -32,6 +33,12 @@ Neighbourliness is friendliness, helpfulness and respect for privacy (p. 15).
 
 Read it as a progress indicator of social cohesion (p. 15).
 """
+
+
+def text(body):
+    """A note body without its link lines."""
+    return "\n".join(l for l in body.splitlines()
+                     if not l.startswith(("Same page: ", "Tensions: ", "Sources: ", "Related: "))).strip()
 
 
 def page(page_id="C-neighbourliness", ptype="concept", body=BODY, rel=None, **fm):
@@ -207,7 +214,7 @@ class SourcePages(unittest.TestCase):
         self.assertEqual(set(by_section), {"summary", "finding-f-001"})
         fm, b = by_section["finding-f-001"]
         self.assertEqual(fm["lifecycle_stage"], "assessment")
-        self.assertEqual(b.strip(), "Resilience is the capacity to absorb shocks.\n\nPages: p. 8")
+        self.assertEqual(text(b), "Resilience is the capacity to absorb shocks.\n\nPages: p. 8")
 
     def test_each_known_tensions_row_becomes_one_tension_note_and_the_rest_stays_in_the_section(self):
         body = SOURCE_BODY + """
@@ -228,7 +235,7 @@ class SourcePages(unittest.TestCase):
         fm, b = by_section["tns-001"]
         self.assertEqual(fm["title"], "How can neighbourhoods be defined? — Tension TNS-001")
         self.assertEqual((fm["role"], fm["kind"], fm["authority"]), ("tension", "standard", "The Young Foundation"))
-        self.assertEqual(b.strip().splitlines(), [
+        self.assertEqual(text(b).splitlines(), [
             "Position A: Boundaries should reflect lived experience. (p. 9–10)",
             "Position B: Administrative geography leaves no one out. (p. 10–11)",
             "Why it matters: Validity against completeness."])
@@ -314,6 +321,155 @@ Urban vulnerability.
         self.assertEqual([fm["authority"] for fm, _ in notes.values()], ["The World Bank"])
         self.assertEqual(plan.report["held_back"], [{"aba_id": "S-anon", "path": "01-sources/extracted/S-anon.md",
                                                      "reason": "no publisher"}])
+
+
+def lines(body, label):
+    """The wikilink targets on a note's labelled link line, in order; [] when the line is absent."""
+    for line in body.splitlines():
+        if line.startswith(f"{label}: "):
+            return re.findall(r"\[\[([^\]]+)\]\]", line)
+    return []
+
+
+class LinkLines(unittest.TestCase):
+    def test_a_related_page_is_linked_by_the_title_of_its_first_section(self):
+        pages = [page(related_concepts=["C-scales"]), page("C-scales", title="Neighbourhood scales")]
+        notes, _, _ = export(pages)
+        by_title = {fm["title"]: b for fm, b in notes.values()}
+        self.assertEqual(lines(by_title["Neighbourliness — Field Use"], "Related"),
+                         ["Neighbourhood scales — Definition"])
+        self.assertEqual(lines(by_title["Neighbourhood scales — Field Use"], "Related"), [])
+
+    def test_same_page_lists_the_other_notes_of_the_page(self):
+        notes, _, _ = export([page()])
+        by_title = {fm["title"]: b for fm, b in notes.values()}
+        self.assertEqual(lines(by_title["Neighbourliness — Definition"], "Same page"), ["Neighbourliness — Field Use"])
+        self.assertEqual(lines(by_title["Neighbourliness — Field Use"], "Same page"), ["Neighbourliness — Definition"])
+
+    def test_sources_link_each_evidence_object_to_its_finding_note(self):
+        findings_body = SOURCE_BODY + """
+<a id="findings"></a>
+## Findings
+
+**F-001** — There is no consensus definition. → see S-youngfoundation2010-CONCEPT-001
+
+**F-002** — A working definition combines three lenses. → see S-youngfoundation2010-FRAMEWORK-001
+"""
+        meta = [{"finding_id": "F-001", "finding_type": "concept-definition"},
+                {"finding_id": "F-002", "finding_type": "framework-component"}]
+        pages = [source(body=findings_body, findings=meta),
+                 page(source_basis=[{"source_id": "S-youngfoundation2010",
+                                     "object_id": "S-youngfoundation2010-FRAMEWORK-001"}]),
+                 page("C-scales", title="Neighbourhood scales",
+                      source_basis=[{"source_id": "S-youngfoundation2010", "finding_ids": ["F-001"]}])]
+        notes, _, _ = export(pages)
+        by_title = {fm["title"]: b for fm, b in notes.values()}
+        b = by_title["Neighbourliness — Field Use"]
+        self.assertEqual(lines(b, "Sources"), ["How can neighbourhoods be defined? — Finding F-002"])
+        self.assertEqual(lines(b, "Related"), [], "a source is not a related page")
+        self.assertEqual(lines(by_title["Neighbourhood scales — Definition"], "Sources"),
+                         ["How can neighbourhoods be defined? — Finding F-001"])
+
+    def test_sources_fall_back_to_the_summary_when_no_exported_finding_matches(self):
+        body = SOURCE_BODY + """
+<a id="findings"></a>
+## Findings
+
+**F-016** — Task seed: How to define the unit? → see S-youngfoundation2010-SEED-001
+"""
+        pages = [source(body=body, findings=[{"finding_id": "F-016", "finding_type": "task-seed"}]),
+                 page(source_basis=[{"source_id": "S-youngfoundation2010",
+                                     "object_id": "S-youngfoundation2010-SEED-001"}]),
+                 page("C-scales", title="Neighbourhood scales",
+                      source_basis=[{"source_id": "S-youngfoundation2010", "pages": [9, 10]}])]
+        notes, _, _ = export(pages)
+        by_title = {fm["title"]: b for fm, b in notes.values()}
+        summary = "How can neighbourhoods be defined? — Summary"
+        self.assertEqual(lines(by_title["Neighbourliness — Definition"], "Sources"), [summary])
+        self.assertEqual(lines(by_title["Neighbourhood scales — Definition"], "Sources"), [summary])
+
+    def test_tensions_come_from_known_tension_and_contradicts_edges(self):
+        pages = [page(known_tensions=["KTN-boundary"], contradicts=["C-scales"], related_concepts=["C-scales"]),
+                 page("KTN-boundary", ptype="known-tension", rel="07-known-tensions/KTN-boundary.md",
+                      title="Boundary tension"),
+                 page("C-scales", title="Neighbourhood scales")]
+        notes, _, _ = export(pages)
+        b = {fm["title"]: b for fm, b in notes.values()}["Neighbourliness — Field Use"]
+        self.assertEqual(lines(b, "Tensions"), ["Boundary tension — Definition", "Neighbourhood scales — Definition"])
+        self.assertEqual(lines(b, "Related"), ["Neighbourhood scales — Definition"])
+        self.assertEqual([l.split(":")[0] for l in b.splitlines() if l.startswith(("Same page:", "Tensions:", "Related:"))],
+                         ["Same page", "Tensions", "Related"], "FieldWise reads the lines in this order")
+
+    def test_a_tension_row_is_linked_from_the_findings_and_pages_that_rest_on_its_related_objects(self):
+        body = SOURCE_BODY + """
+<a id="known-tensions"></a>
+## Known Tensions
+
+| Tension ID | First position | Source location | Conflicting position | Source location | Type | Why it matters | Related objects |
+|---|---|---|---|---|---|---|---|
+| S-youngfoundation2010-TNS-001 | Lived experience. | p. 9 | Administrative geography. | p. 10 | conceptual | Validity. | S-youngfoundation2010-FRAMEWORK-001, S-youngfoundation2010-TYPOLOGY-001 |
+
+<a id="findings"></a>
+## Findings
+
+**F-001** — There is no consensus definition. → see S-youngfoundation2010-CONCEPT-001
+
+**F-002** — A working definition combines three lenses. → see S-youngfoundation2010-FRAMEWORK-001
+"""
+        meta = [{"finding_id": "F-001", "finding_type": "concept-definition"},
+                {"finding_id": "F-002", "finding_type": "framework-component"}]
+        pages = [source(body=body, findings=meta),
+                 page(source_basis=[{"source_id": "S-youngfoundation2010",
+                                     "object_id": "S-youngfoundation2010-FRAMEWORK-001"}]),
+                 page("C-scales", title="Neighbourhood scales",
+                      source_basis=[{"source_id": "S-youngfoundation2010", "finding_ids": ["F-001"]}])]
+        notes, _, _ = export(pages)
+        by_title = {fm["title"]: b for fm, b in notes.values()}
+        tension = "How can neighbourhoods be defined? — Tension TNS-001"
+        self.assertEqual(lines(by_title["How can neighbourhoods be defined? — Finding F-002"], "Tensions"), [tension])
+        self.assertEqual(lines(by_title["Neighbourliness — Field Use"], "Tensions"), [tension])
+        self.assertEqual(lines(by_title["How can neighbourhoods be defined? — Finding F-001"], "Tensions"), [])
+        self.assertEqual(lines(by_title["Neighbourhood scales — Definition"], "Tensions"), [])
+
+    def test_links_to_missing_or_unexported_pages_are_dropped_and_reported(self):
+        pages = [page(related_concepts=["C-scales", "C-draft", "C-ghost"]),
+                 page("C-scales", title="Neighbourhood scales"),
+                 page("C-draft", title="Draft idea", retrieval_status="draft", related_concepts=["C-ghost-2"])]
+        notes, plan, _ = export(pages)
+        b = {fm["title"]: b for fm, b in notes.values()}["Neighbourliness — Definition"]
+        self.assertEqual(lines(b, "Related"), ["Neighbourhood scales — Definition"])
+        self.assertEqual([d for d in plan.report["dropped_links"] if d["relation"] == "related_concept"], [
+            {"from": "C-neighbourliness", "relation": "related_concept", "to": "C-draft", "reason": "not exported"},
+            {"from": "C-neighbourliness", "relation": "related_concept", "to": "C-ghost", "reason": "unresolved"}])
+
+    def test_a_body_link_is_rewritten_only_when_it_matches_a_valid_edge(self):
+        body = """
+<a id="definition"></a>
+## Definition
+
+It builds on [[neighbourhood-scales]] and [the scale rule](../09-decision-protocols/D-scale-rule.md).
+It is not [[community-resilience-characteristics]] nor [a draft](../02-concepts/C-draft.md).
+
+<a id="field-use"></a>
+## Field Use
+
+Read it as a progress indicator.
+"""
+        pages = [page(body=body, related_concepts=["C-scales"], related_tools=["D-scale-rule"]),
+                 page("C-scales", rel="02-concepts/neighbourhood-scales.md", title="Neighbourhood scales"),
+                 page("D-scale-rule", ptype="decision-protocol", rel="09-decision-protocols/D-scale-rule.md",
+                      title="Scale rule"),
+                 page("C-draft", title="Draft idea", retrieval_status="draft")]
+        notes, plan, _ = export(pages)
+        b = text({fm["title"]: b for fm, b in notes.values()}["Neighbourliness — Definition"])
+        self.assertIn("It builds on [[Neighbourhood scales — Definition]] and "
+                      "[[Scale rule — Definition|the scale rule]].", b)
+        self.assertIn("It is not community resilience characteristics nor a draft.", b)
+        self.assertEqual([d for d in plan.report["dropped_links"] if d["relation"] == "body"], [
+            {"from": "C-neighbourliness", "relation": "body", "to": "community-resilience-characteristics",
+             "reason": "no valid edge"},
+            {"from": "C-neighbourliness", "relation": "body", "to": "../02-concepts/C-draft.md",
+             "reason": "no valid edge"}])
 
 
 class Manifest(unittest.TestCase):
