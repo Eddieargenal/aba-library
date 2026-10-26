@@ -4,6 +4,9 @@ type: source
 title: "Characteristics of a Disaster-Resilient Community: A Guidance Note"
 slug: 2009-twigg-ucl-disaster-resilient-community
 retrieval_status: usable
+licence: all-rights-reserved
+licence_checked_by: Ed
+licence_checked_at: 2026-10-26
 source_id: 2009-twigg-ucl-disaster-resilient-community
 canonical_file: ../raw/2009_twigg-ucl_disaster-resilient-community.pdf
 source_url: ""
