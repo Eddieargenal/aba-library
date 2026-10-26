@@ -175,7 +175,8 @@ def source(page_id="S-youngfoundation2010", body=SOURCE_BODY, **fm):
     front = {"id": page_id, "type": "source", "title": "How can neighbourhoods be defined?",
              "retrieval_status": "usable", "last_reviewed": "2026-10-25", "accepted_by": "Ed",
              "institution": "The Young Foundation", "author": "The Young Foundation", "status": "extracted",
-             "lifecycle_stage": ["area-selection"], "findings": []}
+             "lifecycle_stage": ["area-selection"], "findings": [],
+             "licence": "cc-by-nc-sa", "licence_checked_by": "Ed", "licence_checked_at": "2026-10-26"}
     front.update(fm)
     front = {k: v for k, v in front.items() if v is not None}
     return Page(path=Path(f"01-sources/extracted/{page_id}.md"), rel_path=f"01-sources/extracted/{page_id}.md",
@@ -515,6 +516,67 @@ Read it as a progress indicator.
              "reason": "no valid edge"},
             {"from": "C-neighbourliness", "relation": "body", "to": "../02-concepts/C-draft.md",
              "reason": "no valid edge"}])
+
+
+class LicenceGate(unittest.TestCase):
+    def test_a_source_with_no_checked_licence_is_held_back_with_its_citations(self):
+        for missing in ("licence", "licence_checked_by", "licence_checked_at"):
+            pages = [source(**{missing: None}),
+                     page(source_basis=[{"source_id": "S-youngfoundation2010", "finding_ids": ["F-001"]}])]
+            notes, plan, _ = export(pages)
+            self.assertEqual({fm["aba_id"] for fm, _ in notes.values()}, {"C-neighbourliness"}, missing)
+            self.assertIn({"aba_id": "S-youngfoundation2010",
+                           "path": "01-sources/extracted/S-youngfoundation2010.md",
+                           "reason": "no checked licence"}, plan.report["held_back"])
+            self.assertFalse(any(lines(b, "Sources") for _, b in notes.values()))
+            self.assertIn({"from": "C-neighbourliness", "relation": "source_basis", "to": "S-youngfoundation2010",
+                           "reason": "not exported"}, plan.report["dropped_links"])
+
+    def test_an_all_rights_reserved_source_gives_no_standard_notes_and_is_named_without_a_link(self):
+        pages = [source(licence="all-rights-reserved"),
+                 page(source_basis=[{"source_id": "S-youngfoundation2010", "finding_ids": ["F-001"]}])]
+        notes, plan, _ = export(pages)
+        self.assertEqual({fm["aba_id"] for fm, _ in notes.values()}, {"C-neighbourliness"})
+        self.assertIn({"aba_id": "S-youngfoundation2010", "path": "01-sources/extracted/S-youngfoundation2010.md",
+                       "reason": "all rights reserved"}, plan.report["held_back"])
+        b = {fm["title"]: b for fm, b in notes.values()}["Neighbourliness — Definition"]
+        self.assertIn("Sources: How can neighbourhoods be defined? (all rights reserved)", b.splitlines())
+        self.assertEqual(lines(b, "Sources"), [], "no link to a note that does not exist")
+
+    def test_a_long_quote_in_a_note_that_cites_an_all_rights_reserved_source_is_flagged(self):
+        long_quote = " ".join(["word"] * 51)
+        body = f"""
+<a id="definition"></a>
+## Definition
+
+The source says "friendliness, helpfulness and respect for privacy" (p. 15). It also says "{long_quote}" (p. 16).
+
+<a id="field-use"></a>
+## Field Use
+
+It notes “One sentence. Two sentences. Three sentences.” (p. 17).
+"""
+        cites = [{"source_id": "S-youngfoundation2010", "finding_ids": ["F-001"]}]
+        pages = [source(licence="all-rights-reserved"), source("S-twigg2009", title="Twigg", licence="cc-by"),
+                 page(body=body, source_basis=cites),
+                 page("C-scales", title="Neighbourhood scales", body=body,
+                      source_basis=[{"source_id": "S-twigg2009", "finding_ids": ["F-001"]}])]
+        _, plan, _ = export(pages)
+        flagged = [(q["aba_id"], q["aba_section"], q["words"], q["sentences"]) for q in plan.report["long_quotes"]]
+        self.assertEqual(flagged, [("C-neighbourliness", "definition", 51, 0),
+                                   ("C-neighbourliness", "field-use", 6, 3)])
+        self.assertEqual({q["source"] for q in plan.report["long_quotes"]}, {"S-youngfoundation2010"})
+
+    def test_each_note_carries_its_licence(self):
+        notes, _, _ = export([source(licence="cc-by-nc-sa"),
+                              page(source_basis=[{"source_id": "S-youngfoundation2010", "finding_ids": ["F-001"]}])])
+        self.assertEqual({(fm["kind"], fm["licence"]) for fm, _ in notes.values()},
+                         {("standard", "cc-by-nc-sa"), ("synthesis", "aba-library")})
+
+    def test_a_no_derivatives_source_is_exported_and_reported_for_a_person_to_decide(self):
+        notes, plan, _ = export([source(licence="cc-by-nc-nd"), source("S-twigg2009", title="Twigg", licence="cc-by")])
+        self.assertEqual({fm["aba_id"] for fm, _ in notes.values()}, {"S-youngfoundation2010", "S-twigg2009"})
+        self.assertEqual(plan.report["no_derivatives"], [{"aba_id": "S-youngfoundation2010", "licence": "cc-by-nc-nd"}])
 
 
 class Manifest(unittest.TestCase):

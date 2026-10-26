@@ -8,6 +8,19 @@ updated: 2026-10-25
 
 All schema changes must be logged here before taking effect. No exceptions.
 
+## [2026-10-26] fieldwise-licence-gate | v2.7 — source licence fields and the export licence gate
+
+### Changes
+- New fields on extracted source pages: `licence` (controlled, `LICENCE_VOCAB`), `licence_checked_by`, `licence_checked_at`. New **warnings**: `missing_licence:{field}`, `invalid_licence:{value}`, `invalid_licence_checked_at`. A `schema:licence` block in `frontmatter-schema.md`, verified by `check-schema.py`.
+- The FieldWise export holds back a source with no checked licence ("no checked licence") and an `all-rights-reserved` source ("all rights reserved"). Synthesis notes name an all-rights-reserved source as plain text on their Sources line, and the report lists their quotes over 50 words or 2 sentences (`long_quotes`). A `-nd` source is exported and listed in `no_derivatives`.
+- Every note carries `licence`: its source's licence on Standard notes, `aba-library` on Synthesis notes.
+
+### Rationale
+A source leaves the library only after a person has checked its terms; one that reserves all rights leaves only as short quotes with the page (CONTEXT.md, Licence; FieldWise PRD #30, issue #54).
+
+### Effect
+No source has a checked licence yet, so the export holds back every source until a person records the three fields (issue #55).
+
 ## [2026-10-25] fieldwise-vault-fields | v2.7 — limited_to, sectors and bundle; export carries the vault fields
 
 ### Changes

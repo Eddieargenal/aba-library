@@ -60,6 +60,10 @@ is observed via `manifest.health`, not enforced as a publish gate.
 - Page has no `sections:` frontmatter declaration (`missing_sections`)
 - Source page missing explicit `id:`; derived from `source_id:` (`derived_source_id:{id}`)
 - Source page missing explicit `retrieval_status:`; derived from `status:` (`derived_retrieval_status:{value}`)
+- Extracted source page without a checked licence (`missing_licence:{field}` for `licence`,
+  `licence_checked_by` or `licence_checked_at`), with a value outside the licence vocabulary
+  (`invalid_licence:{value}`), or with a check date that is not a date (`invalid_licence_checked_at`).
+  The FieldWise export holds such a source back on its own
 
 ## Routing Report (`routing-report.json`)
 

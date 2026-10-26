@@ -26,8 +26,13 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
+from schema import LICENCE_FIELDS
+
+ALL_RIGHTS_RESERVED = "all-rights-reserved"
+
 FORMAT = "fieldwise-vault/1"
 SYNTHESIS_AUTHORITY = "FieldWise ABA library"
+SYNTHESIS_LICENCE = "aba-library"   # written in this library; its short quotes stay under their sources' terms
 VALID_DAYS = 365
 # synthesis page types that carry guidance; output templates and slice specs never become notes
 SYNTHESIS_TYPES = {"concept", "framework", "tool", "field-instrument", "risk", "known-tension", "advisory-playbook",
@@ -44,6 +49,9 @@ TENSION_RELATIONS = {"known_tension", "contradicts"}
 # a body link to a page: [[slug]], [[slug#part|alias]], or a Markdown link to a .md path; web links stay as they are
 BODY_LINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]|\[([^\]]*)\]\(([^)\s]+\.md)(?:#[^)]*)?\)")
 PAGE_FIELDS = ("promotion_stage", "lifecycle_stage", "limited_to", "sectors")
+# a short quote from an all-rights-reserved source: about two sentences (CONTEXT.md, Licence)
+QUOTE = re.compile(r'"([^"\n]+)"|“([^”\n]+)”')
+QUOTE_WORDS, QUOTE_SENTENCES = 50, 2
 LINK_LABELS = ("Same page", "Tensions", "Sources", "Related")   # the line labels FieldWise reads, in this order
 # a finding is a "**F-001** — claim" paragraph or a "| F-001 | claim |" table row; "→ see <object>" pointers are dropped
 FINDING = re.compile(r"(?m)^(?:\*\*(F-\d+)\*\*\s*—\s*|\|\s*(F-\d+)\s*\|\s*)([^|\n]+?)(?:\s*→ see ([^|\n]*))?\s*(?:\||$)")
@@ -219,7 +227,8 @@ def _page_fields(fm, is_source=False) -> Dict[str, str]:
     """The page fields FieldWise reads from each note (issue #53), as one-line text; lists are comma-joined and an
     empty field is left out. A source's notes are at the finding stage: one source's extracted claims, which never
     count alone at FieldWise's highest tier."""
-    out = {"promotion_stage": "finding"} if is_source else {}
+    # a Standard note is under its source's licence; a Synthesis note is the library's own text
+    out = {"promotion_stage": "finding", "licence": str(fm["licence"])} if is_source else {"licence": SYNTHESIS_LICENCE}
     for key in PAGE_FIELDS:
         v = fm.get(key)
         text = ", ".join(str(x) for x in v) if isinstance(v, list) else str(v or "")
@@ -238,6 +247,10 @@ def _held_back(p) -> str:
         return f"no {missing}"
     if _is_source(p) and not _publisher(fm):
         return "no publisher"
+    if _is_source(p) and not all(str(fm.get(f) or "").strip() for f in LICENCE_FIELDS):
+        return "no checked licence"   # a person has not checked the publication's terms: nothing of it leaves
+    if _is_source(p) and fm.get("licence") == ALL_RIGHTS_RESERVED:   # only short quotes in synthesis pages leave
+        return "all rights reserved"
     if _is_source(p) and _old_format(p):   # no section bounds: its workflow text would leave with its summary
         return "old source format"
     return ""
@@ -246,7 +259,8 @@ def _held_back(p) -> str:
 def plan_export(pages, result, build_id: str) -> Plan:
     if result.critical:
         raise NotClean(f"build {build_id} has {len(result.critical)} critical error(s): fix them and rebuild")
-    plan = Plan(build_id=build_id, report={"held_back": []})
+    plan = Plan(build_id=build_id, report={"held_back": [], "no_derivatives": []})
+    named = {}   # all-rights-reserved sources: named by title in synthesis notes, never linked
     for p in pages:
         fm = p.frontmatter
         if not _in_scope(p):
@@ -254,7 +268,11 @@ def plan_export(pages, result, build_id: str) -> Plan:
         reason = _held_back(p)
         if reason:
             plan.report["held_back"].append({"aba_id": fm["id"], "path": p.rel_path, "reason": reason})
+            if reason == "all rights reserved":
+                named[fm["id"]] = fm["title"]
             continue
+        if _is_source(p) and str(fm["licence"]).endswith("-nd"):   # notes are summaries: a person decides if they fit
+            plan.report["no_derivatives"].append({"aba_id": fm["id"], "licence": str(fm["licence"])})
         valid = date.fromisoformat(str(fm["last_reviewed"])) + timedelta(days=VALID_DAYS)
         # a source's guidance is a Standard note under its publisher; the library's own pages are Synthesis notes
         kind, authority = ("standard", _publisher(fm)) if _is_source(p) else ("synthesis", SYNTHESIS_AUTHORITY)
@@ -266,7 +284,8 @@ def plan_export(pages, result, build_id: str) -> Plan:
                        "valid_until": valid.isoformat(), "retrieval_status": fm["retrieval_status"],
                        "build_id": build_id, **_page_fields(fm, _is_source(p)), **extra},
                 body=text))
-    plan.report["dropped_links"] = _add_links(plan.notes, pages, result.valid_edges, result.unresolved_edges)
+    plan.report["long_quotes"] = _long_quotes(plan.notes, pages, named)
+    plan.report["dropped_links"] = _add_links(plan.notes, pages, result.valid_edges, result.unresolved_edges, named)
     return plan
 
 
@@ -289,7 +308,8 @@ class _Links:
     """The link lines of every exported note, from the build's valid graph edges. A link to a page points to its
     first exported note (a source's first note is its Summary)."""
 
-    def __init__(self, notes, pages, edges, unresolved):
+    def __init__(self, notes, pages, edges, unresolved, named=None):
+        self.named = named or {}   # {source ID: title} of sources named without a link
         self.first, self.by_page, self.titles = {}, {}, {}
         for n in notes:
             self.first.setdefault(n.front["aba_id"], n.front["title"])
@@ -380,15 +400,42 @@ class _Links:
                  "Tensions": self.tensions(page, note.front["aba_section"]),
                  "Sources": self.sources(page),
                  "Related": [self.first[t] for t in self._targets(page, but=TENSION_RELATIONS | {"source_basis"})]}
-        return [f"{label}: " + " ".join(f"[[{t}]]" for t in _unique(links[label]))
-                for label in LINK_LABELS if links[label]]
+        plain = {"Sources": self.named_sources(page)}
+        return [f"{label}: " + " ".join([f"[[{t}]]" for t in _unique(links[label])] + plain.get(label, []))
+                for label in LINK_LABELS if links[label] or plain.get(label)]
+
+    def named_sources(self, page) -> List[str]:
+        """The all-rights-reserved sources a page's evidence rests on, as plain text: they give no notes to link."""
+        items = self.pages[page].frontmatter.get("source_basis") or []
+        return _unique(f"{self.named[i['source_id']]} (all rights reserved)" for i in items
+                       if isinstance(i, dict) and i.get("source_id") in self.named)
 
 
-def _add_links(notes, pages, edges, unresolved) -> List[Dict[str, str]]:
+def _long_quotes(notes, pages, named) -> List[Dict[str, Any]]:
+    """Quotes over the short-quote limit in synthesis notes whose page cites an all-rights-reserved source. Such a
+    source may leave only as short quotes with the page, so each long one is for a person to cut; it does not block."""
+    by_id = {p.frontmatter.get("id"): p for p in pages}
+    out = []
+    for n in notes:
+        if n.front["kind"] != "synthesis":
+            continue
+        cited = [i.get("source_id") for i in by_id[n.front["aba_id"]].frontmatter.get("source_basis") or []
+                 if isinstance(i, dict) and i.get("source_id") in named]
+        for src in _unique(cited):
+            for m in QUOTE.finditer(n.body):
+                q = m.group(1) or m.group(2)
+                words, sentences = len(q.split()), len(re.findall(r"[.!?](?:\s|$)", q))
+                if words > QUOTE_WORDS or sentences > QUOTE_SENTENCES:
+                    out.append({"aba_id": n.front["aba_id"], "aba_section": n.front["aba_section"], "source": src,
+                                "words": words, "sentences": sentences, "start": q[:60]})
+    return out
+
+
+def _add_links(notes, pages, edges, unresolved, named=None) -> List[Dict[str, str]]:
     """End each note with labelled link lines of wikilinks to exported note titles, which FieldWise follows by kind.
     Returns the links dropped from exported pages: edges to pages that are not exported, body links that match no
     valid edge, and unresolved edges."""
-    links = _Links(notes, pages, edges, unresolved)
+    links = _Links(notes, pages, edges, unresolved, named)
     for n in notes:
         n.body = links.rewrite_body(n.front["aba_id"], n.body)
         block = links.lines(n)

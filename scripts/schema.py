@@ -88,6 +88,24 @@ SECTORS_VOCAB = {
     "access",
 }
 
+# schema:licence — the terms under which a source may be copied, checked by a person from the publication itself
+# (issue #54). Creative Commons values carry no version; record the version in the check if it matters.
+# all-rights-reserved sources never become FieldWise Standard notes; synthesis pages may quote them briefly.
+LICENCE_VOCAB = {
+    "cc0",
+    "cc-by",
+    "cc-by-sa",
+    "cc-by-nc",
+    "cc-by-nc-sa",
+    "cc-by-nd",
+    "cc-by-nc-nd",
+    "public-domain",
+    "open-government",
+    "all-rights-reserved",
+}
+# the three fields a checked licence needs, in the order a person fills them in
+LICENCE_FIELDS = ("licence", "licence_checked_by", "licence_checked_at")
+
 # Contradiction-aging thresholds, in days (ADR-0001 / atomic-task framework).
 # Computed from last_reviewed against today; never a trusted frontmatter string.
 CONTRADICTION_AGING_WARN_DAYS = 30

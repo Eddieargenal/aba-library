@@ -50,6 +50,13 @@ class Run(unittest.TestCase):
         drift, _ = run([self.root])
         self.assertEqual([(rel, key) for rel, key, _ in drift], [("g/bad.md", "sectors")])
 
+    def test_a_licence_block_is_checked_against_the_licence_vocabulary(self):
+        self.write("g/ok.md", block("licence", sorted(schema.LICENCE_VOCAB)))
+        self.assertEqual(run([self.root]), ([], 0))
+        self.write("g/bad.md", block("licence", sorted(schema.LICENCE_VOCAB - {"cc0"}) + ["copyleft"]))
+        drift, _ = run([self.root])
+        self.assertEqual([(rel, key) for rel, key, _ in drift], [("g/bad.md", "licence")])
+
     def test_promotion_stage_matching_vocab_has_no_drift(self):
         self.write("g/p.md", block("promotion_stage", sorted(schema.PROMOTION_STAGE_VOCAB)))
         drift, code = run([self.root])

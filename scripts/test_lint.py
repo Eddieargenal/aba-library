@@ -532,5 +532,27 @@ class FieldWiseVaultFields(unittest.TestCase):
         self.assertIn("invalid_bundle", criticals({"bundle": "yes"}))
 
 
+def warnings_of(fm, rel_path="01-sources/extracted/s.md"):
+    return [i.code for i in run_rules(ctx(fm, page_id="S-x", ptype="source", rel_path=rel_path))
+            if i.severity == "warning"]
+
+
+class Licence(unittest.TestCase):
+    """A person records a source's licence from the publication itself (CONTEXT.md, Licence; issue #54)."""
+
+    CHECKED = {"licence": "cc-by-nc-sa", "licence_checked_by": "Ed", "licence_checked_at": date(2026, 10, 26)}
+
+    def test_a_source_without_a_checked_licence_warns_and_a_checked_one_is_clean(self):
+        lic = lambda codes: [c for c in codes if "licence" in c]
+        self.assertEqual(lic(warnings_of(dict(self.CHECKED))), [])
+        self.assertIn("missing_licence:licence_checked_by",
+                      warnings_of({k: v for k, v in self.CHECKED.items() if k != "licence_checked_by"}))
+        self.assertIn("missing_licence:licence", warnings_of({}))
+        self.assertIn("invalid_licence_checked_at", warnings_of(dict(self.CHECKED, licence_checked_at="soon")))
+        self.assertIn("invalid_licence:cc-maybe", warnings_of(dict(self.CHECKED, licence="cc-maybe")))
+        self.assertEqual(lic(warnings_of({}, rel_path="01-sources/raw-content/s.md")), [], "mirrors copy the page")
+        self.assertEqual(lic([i.code for i in run_rules(ctx({}))]), [], "only sources have a licence")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

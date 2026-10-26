@@ -27,6 +27,8 @@ from schema import (
     CROSS_CUTTING_TOPICS_VOCAB,
     IMPLEMENTATION_TIER_VOCAB,
     LADDER_TYPES,
+    LICENCE_FIELDS,
+    LICENCE_VOCAB,
     LIFECYCLE_REQUIRED_TYPES,
     LIFECYCLE_VOCAB,
     MAX_PRIMARY_TOPICS,
@@ -390,6 +392,25 @@ def rule_bundle(ctx: RuleCtx) -> List[Issue]:
     return [] if v is None or isinstance(v, bool) else [Issue(CRITICAL, "invalid_bundle")]
 
 
+def rule_licence(ctx: RuleCtx) -> List[Issue]:
+    """An extracted source records its licence, who checked it and when (issue #54). A warning, not a block: the
+    FieldWise export holds an unchecked source back on its own. Raw-content mirrors copy the page, so they are not
+    checked twice."""
+    if ctx.ptype != "source" or not ctx.rel_path.startswith("01-sources/extracted/"):
+        return []
+    out = [Issue(WARNING, f"missing_licence:{f}") for f in LICENCE_FIELDS if not str(ctx.fm.get(f) or "").strip()]
+    lic = str(ctx.fm.get("licence") or "").strip()
+    if lic and lic not in LICENCE_VOCAB:
+        out.append(Issue(WARNING, f"invalid_licence:{lic}"))
+    at = ctx.fm.get("licence_checked_at")
+    if at and not isinstance(at, date):
+        try:
+            date.fromisoformat(str(at))
+        except ValueError:
+            out.append(Issue(WARNING, "invalid_licence_checked_at"))
+    return out
+
+
 def rule_contradiction_aging(ctx: RuleCtx) -> List[Issue]:
     """A page carrying unresolved contradicts: links ages from last_reviewed.
     >30 days warns; >90 days blocks (critical). 'Resolved' means re-reviewed
@@ -434,6 +455,7 @@ RULES: List[Callable[[RuleCtx], List[Issue]]] = [
     rule_limited_to,
     rule_sectors,
     rule_bundle,
+    rule_licence,
 ]
 
 

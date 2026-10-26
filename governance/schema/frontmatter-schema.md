@@ -263,6 +263,41 @@ site-management
 wash
 ```
 
+## Source Licence (FieldWise export)
+
+Every extracted source page (`01-sources/extracted/`) records its licence, read by a person from the
+publication itself, with who checked it and when (issue #54). Lint warns when a field is missing
+(`missing_licence:{field}`), when the value is not in the vocabulary (`invalid_licence:{value}`) or when
+the date is not a date (`invalid_licence_checked_at`). Raw-content mirrors are not checked.
+
+```yaml
+licence: cc-by-nc-sa         # from the publication; Creative Commons values carry no version
+licence_checked_by: Ed       # the person who read the terms, never an AI agent
+licence_checked_at: 2026-10-26
+```
+
+The FieldWise export:
+- holds back a source with no checked licence (any field missing), and drops its links from synthesis notes;
+- holds back an `all-rights-reserved` source: it gives no Standard notes, and synthesis notes name it as
+  plain text; their quotes over 50 words or 2 sentences are listed in the report (`long_quotes`);
+- exports a `-nd` (no derivatives) source and lists it in the report (`no_derivatives`) for a person to decide;
+- writes `licence` on every note: the source's licence on Standard notes, `aba-library` on Synthesis notes.
+
+Verified against `scripts/schema.py:LICENCE_VOCAB`:
+
+```schema:licence
+all-rights-reserved
+cc-by
+cc-by-nc
+cc-by-nc-nd
+cc-by-nc-sa
+cc-by-nd
+cc-by-sa
+cc0
+open-government
+public-domain
+```
+
 ## Additional Known-Tension Fields
 
 ```yaml
