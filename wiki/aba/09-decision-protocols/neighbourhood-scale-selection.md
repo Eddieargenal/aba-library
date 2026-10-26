@@ -63,9 +63,6 @@ the function being served, not a given.
 <a id="decision-logic"></a>
 ## Decision Logic
 
-Field query this should answer: *"At what geographic scale should we define our
-area of operation — block level, estate level, or wider district?"*
-
 The source offers a **dual-scale typology** and routes the choice by the
 **function** being served (Young Foundation 2010, pp. 15–16):
 

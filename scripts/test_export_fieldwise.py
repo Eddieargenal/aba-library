@@ -589,6 +589,43 @@ It notes “One sentence. Two sentences. Three sentences.” (p. 17).
         self.assertEqual(plan.report["no_derivatives"], [{"aba_id": "S-youngfoundation2010", "licence": "cc-by-nc-nd"}])
 
 
+def with_text(extra):
+    """A reviewed concept whose Field Use section ends with `extra`."""
+    return page(body=BODY.replace("social cohesion (p. 15).", f"social cohesion (p. 15).\n\n{extra}"))
+
+
+def internal(pages):
+    _, plan, _ = export(pages)
+    return [(i["aba_id"], i["aba_section"], i["marker"]) for i in plan.report["internal_text"]]
+
+
+class InternalText(unittest.TestCase):
+    """Text for the library's own workflow never reaches an officer unnoticed: the export report lists it."""
+
+    def test_a_review_record_in_a_note_is_listed(self):
+        self.assertEqual(internal([with_text("> **Reviewed 2026-06-21 — promoted draft to usable.**")]),
+                         [("C-neighbourliness", "field-use", "review record")])
+        self.assertEqual(internal([page()]), [], "a clean page lists nothing")
+
+    def test_a_drafting_prompt_is_listed(self):
+        for prompt in ('Field query this should answer: *"How do I read cohesion?"*', 'Field query: *"Donor wants indicators"*'):
+            self.assertEqual(internal([with_text(prompt)]), [("C-neighbourliness", "field-use", "drafting prompt")], prompt)
+
+    def test_an_internal_id_or_flag_is_listed_and_ordinary_text_is_not(self):
+        for text in ("decision rule S-2009-twigg-ucl-disaster-resilient-community-RULE-002",
+                     "a noted gap in SEED-002", "a starting point (T-measure-resilience-progress) is set",
+                     "the finding is flagged `human_review_required: true`", "Retrieval status is `retrieval_status`"):
+            self.assertEqual(internal([with_text(text)]), [("C-neighbourliness", "field-use", "internal ID")], text)
+        self.assertEqual(internal([with_text("Use the Twigg framework (Section 4.3, p. 18) with the community.")]), [])
+
+    def test_an_approximate_page_and_a_lifecycle_code_are_listed(self):
+        self.assertEqual(internal([with_text("the source's domain list (p. ~12)")]),
+                         [("C-neighbourliness", "field-use", "approximate page")])
+        self.assertEqual(internal([with_text("most useful during `coordination-design`")]),
+                         [("C-neighbourliness", "field-use", "lifecycle code")])
+        self.assertEqual(internal([with_text("most useful during coordination design")]), [], "plain words are fine")
+
+
 class Manifest(unittest.TestCase):
     def test_the_manifest_pins_the_build_and_holds_a_digest_of_every_note(self):
         notes, plan, out = export([page(), page("C-unreviewed", title="Unreviewed", last_reviewed=None)])

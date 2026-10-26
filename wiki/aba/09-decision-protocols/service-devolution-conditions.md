@@ -40,7 +40,7 @@ implementation_tier: design
 Use this protocol when a programme is **considering moving a service, or part of a
 service, below local-authority level** to a neighbourhood body — whether on a
 delegated or a fully devolved basis (Young Foundation 2010, p. 23). The decision
-typically arises in `coordination-design`, when an issue is "strongly rooted in
+typically arises in coordination design, when an issue is "strongly rooted in
 area," "affects the community as a whole," and has "local specificity" — the three
 conditions the source names as giving the **strongest public-value rationale** for
 neighbourhood empowerment (p. 23). Community safety, the quality of public spaces,
@@ -57,9 +57,6 @@ question precedes this protocol rather than being answered by it.
 
 <a id="decision-logic"></a>
 ## Decision Logic
-
-Field query this should answer: *"When is it appropriate to devolve service
-delivery to neighbourhood bodies rather than keeping it with local authorities?"*
 
 The source's clearest statement (p. 32) gives three positive conditions under which
 devolution **"is desirable"**, all of which should hold:

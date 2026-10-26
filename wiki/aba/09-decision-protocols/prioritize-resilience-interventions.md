@@ -59,7 +59,7 @@ have to choose priorities because they cannot address all aspects of resilience 
 once" (Twigg 2009, p. 19). The 167 Characteristics describe an **ideal** — "no
 single group or organization can address every aspect of DRR" (p. 7) and "nobody
 is expected to use every single one" (p. 18). The trigger is met whenever gaps
-surfaced by the resilience assessment (T-assess-community-resilience-level) exceed
+surfaced by the resilience assessment (see the community resilience assessment tool) exceed
 the organisation's capacity, budget, or mandate (p. 19).
 
 <a id="decision-logic"></a>
@@ -104,7 +104,7 @@ Escalate to the **programme lead** where the participatory process cannot resolv
 the choice or where capacity is the binding constraint.
 
 - **No consensus on priorities.** Selection "might be difficult to reach consensus
-  about" (p. 18); unresolved disagreement needs senior judgement, not the top-down
+  about" (p. 19); unresolved disagreement needs senior judgement, not the top-down
   imposition the source warns against.
 - **The highest-need gap is infeasible** within budget, mandate, or a "disabling"
   enabling environment (p. 12) — partnership or advocacy may be required rather than
@@ -116,5 +116,4 @@ the choice or where capacity is the binding constraint.
 > **Evidence note.** Single-source page grounded only in Twigg 2009,
 > *Characteristics of a Disaster-Resilient Community* (Sections 4.3–4.3.5, pp. 7,
 > 12, 18–20), so it sits at the `finding` stage. The source gives selection principles
-> but no formal multi-criteria or cost-effectiveness method (a noted gap in
-> SEED-002); a second source would be needed to promote to the `concept` stage.
+> but no formal multi-criteria or cost-effectiveness method; a second source would be needed to promote to the `concept` stage.

@@ -60,7 +60,7 @@ Use ecological empowerment as a **design and diagnostic lens**, not a deliverabl
   read the interacting domains together — geographic and social structure, the
   local public realm (spaces, services, civic nodes), community safety,
   leadership, citizen engagement, investment, and governance (Young Foundation
-  2010, p. 35; the source's domain list, p. ~12). A gap in one domain usually
+  2010, p. 35; the source's domain list, p. 12). A gap in one domain usually
   explains why gains in another do not hold.
 - **Coordinate across service silos.** Because the factors are coupled, sequence
   interventions across departments and organisations rather than running them in
@@ -71,7 +71,7 @@ Use ecological empowerment as a **design and diagnostic lens**, not a deliverabl
   realm, so it is often the highest-leverage entry point into the wider system
   (Young Foundation 2010, pp. 25, 35).
 - **Apply at the strategy stage.** This concept is most useful during
-  `coordination-design` and `integrated-area-strategy`, when the question is how
+  coordination design and integrated area strategy, when the question is how
   the pieces fit together rather than which single activity to fund.
 
 <a id="risks"></a>
@@ -85,7 +85,7 @@ Use ecological empowerment as a **design and diagnostic lens**, not a deliverabl
   underlying interaction structure is untouched, producing gains that reverse once
   the intervention ends.
 - **Coordination cost and fragmentation.** The source notes that bottom-up
-  empowerment is often "complex, overlapping and fragmented" (p. ~17); pursuing
+  empowerment is often "complex, overlapping and fragmented" (p. 13); pursuing
   every factor at once without prioritisation can stall delivery. Pair this
   concept with an explicit scope/sequencing decision rather than treating
   "integrated" as "do everything."

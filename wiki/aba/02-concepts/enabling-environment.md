@@ -67,6 +67,4 @@ Related concept: [[resilience]].
 - **"Separate column" misreading.** Because the framework presents the enabling environment in a separate column from the resilience characteristics, users may treat it as secondary or optional when it is integral (Twigg 2009, p. 12). See [[enabling-environment-not-separate]] (known tension).
 - **Single-source + urban gap.** This page rests on one source (Twigg 2009), written for generic/rural communities; applying the enabling-environment lens to dense, informally-governed urban settings requires adaptation, and external duty bearers cannot be assumed present or accessible (Twigg 2009, urban-applicability assessment).
 
----
-
-> **Reviewed 2026-06-21 — created at `retrieval_status: limited` (single-source).** Grounded only in Twigg 2009 (finding F-004); the apparent second Twigg extraction (`…-v2`) is a re-extraction of the **same** source, not independent corroboration, so the ≥2-source bar for the `concept` stage is not met. Surfaced with caution pending a genuinely independent source. Resolves the `related_concept` ghost edge from [[resilience]].
+> **Evidence note.** Single source (Twigg 2009), so this page sits at the finding stage. A second extraction of Twigg 2009 is the same source, not independent corroboration; a genuinely independent source is needed for the concept stage.

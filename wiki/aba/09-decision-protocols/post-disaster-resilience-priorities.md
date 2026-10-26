@@ -7,6 +7,7 @@ retrieval_status: limited
 limited_to: relief and recovery after a natural-hazard disaster when the full Characteristics set is not possible; no field experience yet of a dedicated set
 sectors: [wash, shelter, food]
 search_terms: [after an earthquake, after a flood, recovery priorities, what first after a disaster, early recovery]
+bundle: true
 lifecycle_stage:
 - transition-handover
 - implementation-adaptation

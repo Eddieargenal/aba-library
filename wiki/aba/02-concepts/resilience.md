@@ -80,4 +80,4 @@ Related concepts: [[disaster-risk-reduction]], [[community]], [[enabling-environ
 
 ---
 
-> **Reviewed 2026-06-21 — promoted draft → usable.** Now grounded in two independent sources (Twigg 2009; World Bank 2013), satisfying the ≥2-source bar for `concept`. Every claim is cited to extracted source text. Remaining gap: neighbourhood-scale application in informal settlements (see the urban-adaptation risk above) — IFRC (2017) and UNDRR (2017) are in the vault and could deepen `source_basis` further. `related_*` targets remain ghost nodes marking the next pages to author.
+> **Evidence note.** Grounded in two independent sources (Twigg 2009; World Bank 2013), so this page sits at the concept stage. Remaining gap: neighbourhood-scale application in informal settlements (see the urban-adaptation risk above).

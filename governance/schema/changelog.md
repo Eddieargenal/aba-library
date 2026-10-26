@@ -8,6 +8,15 @@ updated: 2026-10-25
 
 All schema changes must be logged here before taking effect. No exceptions.
 
+## [2026-10-26] fieldwise-internal-text | v2.7 — the export lists library workflow text in notes
+
+### Changes
+- The FieldWise export report has a new key, `internal_text`: each note that holds a review record, a drafting prompt ("Field query"), an internal object or page ID or field name, an approximate page ("p. ~12") or a lifecycle code in code format. Report only; it does not block.
+- Content: the 21 cases on 14 pages are removed or written as plain words; three page citations are corrected from the source PDFs (domain list p. 12; "complex, overlapping and fragmented" p. 13, on two pages; Twigg "difficult to reach consensus" p. 19).
+
+### Rationale
+A FieldWise officer reads note text as guidance; text written for the library's own workflow is noise and can mislead.
+
 ## [2026-10-26] fieldwise-search-terms | v2.7 — search_terms: an officer's words for a page's issue
 
 ### Changes

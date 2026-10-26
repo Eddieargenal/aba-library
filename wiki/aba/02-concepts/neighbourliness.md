@@ -55,9 +55,6 @@ willingness to engage in reciprocity.
 <a id="field-use"></a>
 ## Field Use
 
-Field query this should answer: *"How do I read social cohesion progress in a
-neighbourhood intervention without running a formal survey?"*
-
 - **Read it as a progress indicator.** Because the source positions neighbourliness
   as "a valuable indicator for measuring the success, failure or progress of
   neighbourhood initiatives" (p. 15), observable friendliness, low-key helping
@@ -74,7 +71,7 @@ neighbourhood intervention without running a formal survey?"*
   regeneration project) can drive down neighbourliness — or, conversely, trigger
   a cohesive neighbourhood response (p. 15). Either reaction is informative.
 - **Apply at diagnosis and monitoring.** The concept is most useful during
-  `neighbourhood-diagnosis` (to read baseline cohesion) and `monitoring-learning`
+  neighbourhood diagnosis (to read baseline cohesion) and monitoring and learning
   (to track whether an intervention is moving it).
 
 <a id="risks"></a>

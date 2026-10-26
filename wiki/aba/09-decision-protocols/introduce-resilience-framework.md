@@ -121,7 +121,6 @@ Escalate to the **capacity-building lead** before proceeding when:
   pushing the framework in regardless.
 
 > **Evidence note.** Single-source page grounded only in Twigg 2009,
-> *Characteristics of a Disaster-Resilient Community* (Section 4.2, pp. 16–17;
-> decision rule S-2009-twigg-ucl-disaster-resilient-community-RULE-002). Retrieval
-> status is `limited`: the introduction guidance is field-tested but qualitative,
+> *Characteristics of a Disaster-Resilient Community* (Section 4.2, pp. 16–17). The introduction
+> guidance is field-tested but qualitative,
 > and corroboration from a second source would be needed to promote to the `concept` stage.

@@ -60,10 +60,6 @@ participation rise and fall (p. 41).
 <a id="decision-logic"></a>
 ## Decision Logic
 
-Field query this should answer: *"What governance structure should we establish
-for a neighbourhood that faces a specific challenge but has low community
-capacity?"*
-
 The source offers a **repertoire of structures**, not a fixed selection formula,
 and is explicit that frameworks "should grow out of local specificities: history,
 capacity, and the nature of the challenges faced" (p. 36). It lists the available
